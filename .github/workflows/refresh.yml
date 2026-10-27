@@ -49,7 +49,13 @@ jobs:
       - name: Install
         run: uv sync --frozen --no-dev
 
-      - name: Refresh and export
+      - name: Refresh, enrich and export
+        # Keys come from the repository's encrypted secrets, never from the code.
+        # Without them the run still works: results cards come from XBRL, and the AI
+        # stages report what they skipped.
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
         run: uv run python -m finn.refresh | tee ../data/last-run.json
 
       - name: Report which sources worked from the cloud

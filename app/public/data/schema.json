@@ -233,6 +233,11 @@
      "tier": {
       "anyOf": [
        {
+        "enum": [
+         "must_see",
+         "glance",
+         "routine"
+        ],
         "type": "string"
        },
        {
@@ -250,6 +255,7 @@
         "type": "null"
        }
       ],
+      "description": "rule, ai, or null when not yet sorted",
       "title": "Classified By"
      },
      "rule": {
@@ -292,6 +298,54 @@
      "source_url": {
       "title": "Source Url",
       "type": "string"
+     },
+     "insight": {
+      "anyOf": [
+       {
+        "$ref": "#/$defs/Insight"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null
+     },
+     "card": {
+      "anyOf": [
+       {
+        "$ref": "#/$defs/ResultsCard"
+       },
+       {
+        "$ref": "#/$defs/PeopleCard"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Card"
+     },
+     "price_reaction": {
+      "anyOf": [
+       {
+        "$ref": "#/$defs/PriceReaction"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null
+     },
+     "score": {
+      "default": 0,
+      "description": "Priority for Today's 3: higher shows first",
+      "title": "Score",
+      "type": "number"
+     },
+     "group_id": {
+      "description": "Filings about the same event share a group",
+      "title": "Group Id",
+      "type": "string"
      }
     },
     "required": [
@@ -308,9 +362,427 @@
      "needs_ai",
      "text_quality",
      "attachment_url",
-     "source_url"
+     "source_url",
+     "group_id"
     ],
     "title": "Filing",
+    "type": "object"
+   },
+   "Insight": {
+    "properties": {
+     "title": {
+      "title": "Title",
+      "type": "string"
+     },
+     "summary": {
+      "title": "Summary",
+      "type": "string"
+     },
+     "why_it_matters": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Why It Matters"
+     },
+     "sentiment": {
+      "enum": [
+       "positive",
+       "negative",
+       "neutral",
+       "mixed"
+      ],
+      "title": "Sentiment",
+      "type": "string"
+     },
+     "amount_inr_crore": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Amount Inr Crore"
+     },
+     "model": {
+      "title": "Model",
+      "type": "string"
+     }
+    },
+    "required": [
+     "title",
+     "summary",
+     "why_it_matters",
+     "sentiment",
+     "amount_inr_crore",
+     "model"
+    ],
+    "title": "Insight",
+    "type": "object"
+   },
+   "Metric": {
+    "properties": {
+     "key": {
+      "title": "Key",
+      "type": "string"
+     },
+     "label": {
+      "title": "Label",
+      "type": "string"
+     },
+     "current": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Current"
+     },
+     "previous_quarter": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Previous Quarter"
+     },
+     "year_ago": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Year Ago"
+     },
+     "qoq_pct": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Qoq Pct"
+     },
+     "yoy_pct": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Yoy Pct"
+     }
+    },
+    "required": [
+     "key",
+     "label",
+     "current",
+     "previous_quarter",
+     "year_ago",
+     "qoq_pct",
+     "yoy_pct"
+    ],
+    "title": "Metric",
+    "type": "object"
+   },
+   "PeopleCard": {
+    "properties": {
+     "type": {
+      "const": "people",
+      "default": "people",
+      "title": "Type",
+      "type": "string"
+     },
+     "changes": {
+      "items": {
+       "$ref": "#/$defs/PersonChange"
+      },
+      "title": "Changes",
+      "type": "array"
+     }
+    },
+    "required": [
+     "changes"
+    ],
+    "title": "PeopleCard",
+    "type": "object"
+   },
+   "PersonChange": {
+    "properties": {
+     "person": {
+      "title": "Person",
+      "type": "string"
+     },
+     "role": {
+      "title": "Role",
+      "type": "string"
+     },
+     "change": {
+      "enum": [
+       "appointment",
+       "resignation",
+       "retirement",
+       "cessation",
+       "redesignation",
+       "other"
+      ],
+      "title": "Change",
+      "type": "string"
+     },
+     "effective_date": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Effective Date"
+     },
+     "reason": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Reason"
+     },
+     "profile": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Bio taken from the filing's own profile section",
+      "title": "Profile"
+     },
+     "previous_roles": {
+      "items": {
+       "type": "string"
+      },
+      "title": "Previous Roles",
+      "type": "array"
+     },
+     "education": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Education"
+     },
+     "profile_source": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Filing id the profile came from, if not this one",
+      "title": "Profile Source"
+     }
+    },
+    "required": [
+     "person",
+     "role",
+     "change"
+    ],
+    "title": "PersonChange",
+    "type": "object"
+   },
+   "PriceReaction": {
+    "properties": {
+     "session": {
+      "title": "Session",
+      "type": "string"
+     },
+     "ret_pct": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Ret Pct"
+     },
+     "vol_ratio": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Vol Ratio"
+     }
+    },
+    "required": [
+     "session",
+     "ret_pct",
+     "vol_ratio"
+    ],
+    "title": "PriceReaction",
+    "type": "object"
+   },
+   "ResultsCard": {
+    "description": "Headline numbers for one quarter versus last quarter and a year ago, in rupees crore.",
+    "properties": {
+     "type": {
+      "const": "results",
+      "default": "results",
+      "title": "Type",
+      "type": "string"
+     },
+     "symbol": {
+      "title": "Symbol",
+      "type": "string"
+     },
+     "period_end": {
+      "title": "Period End",
+      "type": "string"
+     },
+     "period_label": {
+      "description": "Indian financial-year quarter, e.g. Q2 FY27",
+      "title": "Period Label",
+      "type": "string"
+     },
+     "basis": {
+      "title": "Basis",
+      "type": "string"
+     },
+     "kind": {
+      "enum": [
+       "standard",
+       "bank"
+      ],
+      "title": "Kind",
+      "type": "string"
+     },
+     "unit": {
+      "default": "\u20b9 crore",
+      "title": "Unit",
+      "type": "string"
+     },
+     "metrics": {
+      "items": {
+       "$ref": "#/$defs/Metric"
+      },
+      "title": "Metrics",
+      "type": "array"
+     },
+     "margin_label": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Margin Label"
+     },
+     "margin_pct": {
+      "description": "current, previous quarter, year ago",
+      "items": {
+       "anyOf": [
+        {
+         "type": "number"
+        },
+        {
+         "type": "null"
+        }
+       ]
+      },
+      "title": "Margin Pct",
+      "type": "array"
+     },
+     "source": {
+      "enum": [
+       "xbrl",
+       "filing_text",
+       "filing_image",
+       "screener"
+      ],
+      "title": "Source",
+      "type": "string"
+     },
+     "verified": {
+      "anyOf": [
+       {
+        "type": "boolean"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "True when it matches screener.in, False on a mismatch",
+      "title": "Verified"
+     },
+     "check_note": {
+      "title": "Check Note",
+      "type": "string"
+     },
+     "source_urls": {
+      "items": {
+       "type": "string"
+      },
+      "title": "Source Urls",
+      "type": "array"
+     }
+    },
+    "required": [
+     "symbol",
+     "period_end",
+     "period_label",
+     "basis",
+     "kind",
+     "metrics",
+     "source",
+     "check_note",
+     "source_urls"
+    ],
+    "title": "ResultsCard",
     "type": "object"
    }
   },
@@ -331,6 +803,42 @@
  },
  "meta": {
   "$defs": {
+   "AIStats": {
+    "properties": {
+     "calls": {
+      "title": "Calls",
+      "type": "integer"
+     },
+     "input_tokens": {
+      "title": "Input Tokens",
+      "type": "integer"
+     },
+     "output_tokens": {
+      "title": "Output Tokens",
+      "type": "integer"
+     },
+     "by_model": {
+      "additionalProperties": {
+       "type": "integer"
+      },
+      "title": "By Model",
+      "type": "object"
+     },
+     "cached_answers": {
+      "title": "Cached Answers",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "calls",
+     "input_tokens",
+     "output_tokens",
+     "by_model",
+     "cached_answers"
+    ],
+    "title": "AIStats",
+    "type": "object"
+   },
    "AlertDefaults": {
     "properties": {
      "price_move_pct": {
@@ -357,7 +865,7 @@
   },
   "properties": {
    "schema_version": {
-    "default": 1,
+    "default": 2,
     "title": "Schema Version",
     "type": "integer"
    },
@@ -389,6 +897,17 @@
    },
    "alert_defaults": {
     "$ref": "#/$defs/AlertDefaults"
+   },
+   "ai": {
+    "anyOf": [
+     {
+      "$ref": "#/$defs/AIStats"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "default": null
    },
    "sources": {
     "items": {

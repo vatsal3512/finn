@@ -12,7 +12,7 @@ Built for the ENAM Holdings AI Engineer Build Challenge, October 2026.
 | Part | State |
 |---|---|
 | Data layer: prices, filings, fundamentals | Built and tested |
-| AI layer: classification, summaries, results extraction | Next |
+| AI layer: results cards, triage, bios | Built. Results cards live from XBRL. Triage and bios need API keys |
 | Research engine | Planned |
 | Phone app | Planned |
 
@@ -31,6 +31,7 @@ cd backend
 uv sync
 uv run python -m finn.refresh       # fetch and export the portfolio's data
 uv run python -m finn.fetch INFY    # fundamentals and documents for any ticker
+uv run python -m finn.enrich        # results cards, AI triage and bios; keys go in backend/.env
 uv run pytest
 ```
 

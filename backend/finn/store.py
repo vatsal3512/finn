@@ -16,7 +16,7 @@ from typing import Any
 
 from finn.config import DB_PATH
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS meta (
@@ -126,6 +126,83 @@ CREATE TABLE IF NOT EXISTS runs (
     finished_at  TEXT,
     ok           INTEGER,
     stats        TEXT
+);
+
+-- ---------------------------------------------------------------- AI layer
+
+-- Every model answer, keyed by task + prompt version + input hash, so nothing is paid
+-- for twice. The key ignores which model answered, so a fallback answer is reused too;
+-- `degraded` marks answers from a fallback model, which can be upgraded later.
+CREATE TABLE IF NOT EXISTS ai_cache (
+    key          TEXT PRIMARY KEY,
+    task         TEXT NOT NULL,
+    model        TEXT NOT NULL,
+    degraded     INTEGER NOT NULL DEFAULT 0,
+    response     TEXT NOT NULL,
+    created_at   TEXT NOT NULL
+);
+
+-- One row per real API call: the evidence for what the AI layer costs.
+CREATE TABLE IF NOT EXISTS ai_usage (
+    id             INTEGER PRIMARY KEY AUTOINCREMENT,
+    at             TEXT NOT NULL,
+    provider       TEXT NOT NULL,
+    model          TEXT NOT NULL,
+    key_alias      TEXT NOT NULL,        -- never the key itself
+    task           TEXT NOT NULL,
+    ok             INTEGER NOT NULL,
+    input_tokens   INTEGER,
+    output_tokens  INTEGER,
+    thinking_tokens INTEGER,
+    latency_ms     INTEGER,
+    error          TEXT
+);
+
+-- Keys resting after a rate limit, so separate runs respect each other's cooldowns.
+CREATE TABLE IF NOT EXISTS ai_key_state (
+    provider        TEXT NOT NULL,
+    key_alias       TEXT NOT NULL,
+    model           TEXT NOT NULL,
+    cooldown_until  REAL NOT NULL,       -- unix time
+    reason          TEXT,
+    PRIMARY KEY (provider, key_alias, model)
+);
+
+-- What the AI concluded about a filing. Kept apart from `filings` so collectors and
+-- enrichment never overwrite each other.
+CREATE TABLE IF NOT EXISTS filing_insights (
+    filing_id        TEXT PRIMARY KEY,
+    category         TEXT,
+    tier             TEXT,
+    title            TEXT,               -- short plain-English headline
+    summary          TEXT,               -- what happened, one sentence
+    why_it_matters   TEXT,
+    sentiment        TEXT,
+    amount_inr_crore REAL,
+    model            TEXT,
+    prompt_version   TEXT,
+    created_at       TEXT NOT NULL
+);
+
+-- Headline numbers for a quarter, with where they came from and whether they checked out.
+CREATE TABLE IF NOT EXISTS results_cards (
+    symbol       TEXT NOT NULL,
+    period_end   TEXT NOT NULL,          -- YYYY-MM-DD
+    basis        TEXT,                   -- consolidated | standalone
+    kind         TEXT NOT NULL,          -- standard | bank
+    card         TEXT NOT NULL,          -- JSON, see contracts.ResultsCard
+    source       TEXT NOT NULL,          -- xbrl | filing_text | filing_image | screener
+    verified     INTEGER,                -- 1 matched screener.in, 0 mismatch, NULL not checkable
+    created_at   TEXT NOT NULL,
+    PRIMARY KEY (symbol, period_end)
+);
+
+-- People joining or leaving, with the bio taken from the filing's own profile section.
+CREATE TABLE IF NOT EXISTS people_cards (
+    filing_id    TEXT PRIMARY KEY,
+    symbol       TEXT NOT NULL,
+    card         TEXT NOT NULL,          -- JSON, see contracts.PeopleCard
+    created_at   TEXT NOT NULL
 );
 """
 

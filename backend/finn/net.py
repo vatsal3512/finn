@@ -23,7 +23,7 @@ from tenacity import (
     retry,
     retry_if_exception_type,
     stop_after_attempt,
-    wait_exponential_jitter,
+    wait_random_exponential,
 )
 
 log = logging.getLogger(__name__)
@@ -91,7 +91,7 @@ class SiteClient:
     @retry(
         retry=retry_if_exception_type(TransientHTTPError),
         stop=stop_after_attempt(4),
-        wait=wait_exponential_jitter(multiplier=1, max=20),
+        wait=wait_random_exponential(multiplier=1, max=20),
         reraise=True,
     )
     def get(self, url: str, params: dict[str, Any] | None = None, **kw: Any) -> requests.Response:
@@ -118,7 +118,7 @@ class SiteClient:
     @retry(
         retry=retry_if_exception_type(TransientHTTPError),
         stop=stop_after_attempt(3),
-        wait=wait_exponential_jitter(multiplier=2, max=20),
+        wait=wait_random_exponential(multiplier=2, max=20),
         reraise=True,
     )
     def get_bytes(self, url: str) -> bytes:

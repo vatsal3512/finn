@@ -110,6 +110,31 @@ def load_pages(path: Path) -> list[str]:
     return path.read_text(encoding="utf-8").split(PAGE_BREAK)
 
 
+def render_pages(data: bytes, page_numbers: list[int], scale: float = 2.0) -> list[bytes]:
+    """PNG images of the given 1-based pages, in greyscale to keep them small.
+
+    Scale 2 is about 144 dpi: enough for a vision model to read small table digits,
+    without sending megapixel images that cost more tokens.
+    """
+    import io as _io
+
+    doc = pdfium.PdfDocument(data)
+    images = []
+    try:
+        for n in page_numbers:
+            if not 1 <= n <= len(doc):
+                continue
+            page = doc[n - 1]
+            pil = page.render(scale=scale, grayscale=True).to_pil()
+            buf = _io.BytesIO()
+            pil.save(buf, format="PNG", optimize=True)
+            images.append(buf.getvalue())
+            page.close()
+    finally:
+        doc.close()
+    return images
+
+
 def find_pages(pages: list[str], pattern: str, limit: int = 12) -> list[int]:
     """1-based numbers of pages whose text matches a pattern, case-insensitively."""
     rx = re.compile(pattern, re.I)

@@ -23,6 +23,7 @@ from finn.config import (
     PORTFOLIO,
     VOLUME_BASELINE_SESSIONS,
 )
+from finn.enrich import results, score
 from finn.store import now_iso
 
 
@@ -67,33 +68,93 @@ def holdings(conn: sqlite3.Connection) -> list[C.Holding]:
     return out
 
 
+MARKET_CLOSE = "15:30"
+
+
+def reaction(conn: sqlite3.Connection, symbol: str, filed_at: str) -> C.PriceReaction | None:
+    """The first session that could react: the filing day if filed before the close, else the next."""
+    day, clock = filed_at[:10], filed_at[11:16]
+    op = ">=" if clock < MARKET_CLOSE else ">"
+    row = conn.execute(
+        f"SELECT date, ret_pct, vol_ratio, corp_action FROM prices WHERE symbol = ? AND date {op} ? "
+        "ORDER BY date LIMIT 1",
+        (symbol, day),
+    ).fetchone()
+    if not row or row["corp_action"]:
+        return None
+    return C.PriceReaction(session=row["date"], ret_pct=row["ret_pct"], vol_ratio=row["vol_ratio"])
+
+
 def filings(conn: sqlite3.Connection, days: int = FILINGS_LOOKBACK_DAYS) -> list[C.Filing]:
     since = (date.today() - timedelta(days=days)).isoformat()
     symbols = [c.symbol for c in PORTFOLIO]
     rows = conn.execute(
-        f"SELECT * FROM filings WHERE filed_at >= ? AND symbol IN ({','.join('?' * len(symbols))}) "
-        "ORDER BY filed_at DESC",
+        "SELECT f.*, i.category AS ai_category, i.tier AS ai_tier, i.title, i.summary, i.why_it_matters, "
+        "i.sentiment, i.amount_inr_crore, i.model AS ai_model, p.card AS people_card "
+        "FROM filings f LEFT JOIN filing_insights i ON i.filing_id = f.id "
+        "LEFT JOIN people_cards p ON p.filing_id = f.id "
+        f"WHERE f.filed_at >= ? AND f.symbol IN ({','.join('?' * len(symbols))}) ORDER BY f.filed_at DESC",
         (since, *symbols),
     ).fetchall()
-    return [
-        C.Filing(
-            id=r["id"],
-            symbol=r["symbol"],
-            exchange=r["exchange"],
-            filed_at=r["filed_at"],
-            exchange_label=r["exchange_label"],
-            headline=r["headline"],
-            category=r["category"],
-            tier=r["tier"],
-            classified_by=r["classified_by"],
-            rule=r["rule"],
-            needs_ai=bool(r["needs_ai"]),
-            text_quality=r["text_quality"],
-            attachment_url=r["attachment_url"],
-            source_url=r["source_url"],
+    out = []
+    for r in rows:
+        category = r["ai_category"] or r["category"]
+        tier = r["ai_tier"] or r["tier"]
+        insight = None
+        if r["summary"]:
+            insight = C.Insight(
+                title=r["title"], summary=r["summary"], why_it_matters=r["why_it_matters"],
+                sentiment=r["sentiment"] or "neutral", amount_inr_crore=r["amount_inr_crore"], model=r["ai_model"] or "",
+            )  # fmt: skip
+        card: C.ResultsCard | C.PeopleCard | None = None
+        if r["people_card"]:
+            card = C.PeopleCard.model_validate_json(r["people_card"])
+        elif category == "results" and tier == "must_see":
+            q = results.quarter_end_before(date.fromisoformat(r["filed_at"][:10]))
+            card = results.load(conn, r["symbol"], q.isoformat())
+        react = reaction(conn, r["symbol"], r["filed_at"])
+        text = " ".join(
+            x or "" for x in (r["title"], r["summary"], r["headline"], r["exchange_label"])
         )
-        for r in rows
-    ]
+        out.append(
+            C.Filing(
+                id=r["id"],
+                symbol=r["symbol"],
+                exchange=r["exchange"],
+                filed_at=r["filed_at"],
+                exchange_label=r["exchange_label"],
+                headline=r["headline"],
+                category=category,
+                tier=tier,
+                classified_by="ai" if r["ai_tier"] else r["classified_by"],
+                rule=r["rule"],
+                needs_ai=bool(r["needs_ai"]) and insight is None,
+                text_quality=r["text_quality"],
+                attachment_url=r["attachment_url"],
+                source_url=r["source_url"],
+                insight=insight,
+                card=card,
+                price_reaction=react,
+                score=score.score(tier, category, text, r["sentiment"], react),
+                group_id=score.group_id(r["symbol"], category, r["filed_at"]),
+            )  # fmt: skip
+        )
+    return out
+
+
+def ai_stats(conn: sqlite3.Connection) -> C.AIStats:
+    rows = conn.execute(
+        "SELECT model, COUNT(*) AS n, COALESCE(SUM(input_tokens), 0) AS i, COALESCE(SUM(output_tokens), 0) AS o "
+        "FROM ai_usage WHERE ok = 1 GROUP BY model"
+    ).fetchall()
+    cached = conn.execute("SELECT COUNT(*) FROM ai_cache").fetchone()[0]
+    return C.AIStats(
+        calls=sum(r["n"] for r in rows),
+        input_tokens=sum(r["i"] for r in rows),
+        output_tokens=sum(r["o"] for r in rows),
+        by_model={r["model"]: r["n"] for r in rows},
+        cached_answers=cached,
+    )
 
 
 def run(conn: sqlite3.Connection, out_dir: Path = EXPORT_DIR) -> dict:
@@ -117,9 +178,12 @@ def run(conn: sqlite3.Connection, out_dir: Path = EXPORT_DIR) -> dict:
             volume_multiple=DEFAULT_VOLUME_MULTIPLE,
             volume_baseline_sessions=VOLUME_BASELINE_SESSIONS,
         ),
+        ai=ai_stats(conn),
         sources=[
             "Prices: Yahoo Finance end-of-day, adjusted for splits and dividends",
             "Corporate actions and filings: NSE, with BSE as fallback",
+            "Results numbers: exchange XBRL first, then the results PDF, checked against screener.in",
+            "Summaries and bios: Gemini, from the filing text only",
         ],
     )
     _write(C.Portfolio(holdings=hs), out_dir / "portfolio.json")

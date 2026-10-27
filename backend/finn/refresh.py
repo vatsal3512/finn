@@ -6,8 +6,9 @@
     uv run python -m finn.refresh --symbols HDFCBANK MARUTI
 
 Stages run in dependency order: corporate actions first, because prices use them to mark
-ex-dates; filings next; export last. A failing company is logged and skipped, so one bad
-source never blocks the rest. Each run is recorded in the `runs` table.
+ex-dates; filings next; then enrichment (results cards, AI triage and bios, see
+finn.enrich); export last. A failing company is logged and skipped, so one bad source
+never blocks the rest. Each run is recorded in the `runs` table.
 """
 
 from __future__ import annotations
@@ -19,11 +20,13 @@ import sys
 import time
 
 from finn import export, net
+from finn.ai.llm import LLM
 from finn.collectors import corp_actions, filings, prices
 from finn.config import BY_SYMBOL, FILINGS_LOOKBACK_DAYS, PORTFOLIO
+from finn.enrich.pipeline import run as enrich_run
 from finn.store import Run, connect, now_iso, upsert
 
-STAGES = ("corp_actions", "prices", "filings", "export")
+STAGES = ("corp_actions", "prices", "filings", "enrich", "export")
 
 
 def seed_companies(conn) -> None:
@@ -71,6 +74,8 @@ def main(argv: list[str] | None = None) -> int:
                 run.stats[stage] = prices.run(conn, companies)
             elif stage == "filings":
                 run.stats[stage] = filings.run(conn, companies, days=args.days)
+            elif stage == "enrich":
+                run.stats[stage] = enrich_run(conn, LLM.from_env(conn), days=args.days)
             elif stage == "export":
                 run.stats[stage] = export.run(conn)
             run.stats[stage]["seconds"] = round(time.perf_counter() - t0, 1)
