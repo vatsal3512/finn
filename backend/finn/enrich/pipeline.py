@@ -5,12 +5,16 @@
     uv run python -m finn.enrich --dry-run          # what would be sent, and what it would cost
     uv run python -m finn.enrich --limit 12         # cap the triage work, for a first test
 
-Stages
+Stages, in dependency order, so the final triage prompt sees everything known
 1. tables   Standard financial tables for the portfolio from screener.in, cached 12 hours.
             They give company size for triage and the cross-check for results cards.
-2. results  The results card for each company that reported in the window.
-3. triage   Category, tier, title, summary and why-it-matters for filings rules left open.
-4. people   Bios for leadership changes, from the filings' own profile sections.
+2. events   Every event each filing contains, found by reading it, and which filings are
+            copies of the same letter. No model.
+3. results  The results card for each company that reported in the window.
+4. people   Bios for leadership changes, from the filings' own profile sections, for any
+            filing that contains one.
+5. triage   Category, events, tier, title, summary and why-it-matters, with the results
+            numbers and bios from steps 3 and 4 in the prompt.
 
 Runs without API keys too: results cards still come from XBRL or screener.in, and the
 AI stages report what they would have done.
@@ -28,10 +32,10 @@ from finn import export, net
 from finn.ai.llm import LLM, env_summary
 from finn.collectors import fundamentals
 from finn.config import FILINGS_LOOKBACK_DAYS, PORTFOLIO
-from finn.enrich import people, results, triage
+from finn.enrich import events, people, results, triage
 from finn.store import Run, connect
 
-STAGES = ("tables", "results", "triage", "people")
+STAGES = ("tables", "events", "results", "people", "triage")
 TABLES_MAX_AGE_HOURS = 12
 
 
@@ -69,6 +73,8 @@ def run(
     ai_ready = llm is not None and llm.configured
     if "tables" in stages:
         out["tables"] = refresh_tables(conn)
+    if "events" in stages:
+        out["events"] = events.run(conn, days)
     if "results" in stages:
         cards = []
         for symbol, quarter in results.due(conn, days):
@@ -76,6 +82,11 @@ def run(
             cards.append(f"{symbol} {quarter}: {card.source if card else 'none'}"
                          + (f", verified={card.verified}" if card else ""))  # fmt: skip
         out["results"] = cards
+    if "people" in stages:
+        if ai_ready:
+            out["people"] = people.run(conn, llm, days)
+        else:
+            out["people"] = {"skipped": "no API keys", "pending": len(people.pending(conn, days))}
     if "triage" in stages:
         if ai_ready:
             out["triage"] = triage.run(conn, llm, days, limit)
@@ -86,11 +97,6 @@ def run(
                 "pending": n,
                 "would_call": math.ceil(n / triage.BATCH),
             }
-    if "people" in stages:
-        if ai_ready:
-            out["people"] = people.run(conn, llm, days)
-        else:
-            out["people"] = {"skipped": "no API keys", "pending": len(people.pending(conn, days))}
     if llm is not None:
         out["ai"] = llm.stats
     return out

@@ -310,20 +310,28 @@
       ],
       "default": null
      },
-     "card": {
-      "anyOf": [
-       {
-        "$ref": "#/$defs/ResultsCard"
-       },
-       {
-        "$ref": "#/$defs/PeopleCard"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "title": "Card"
+     "events": {
+      "description": "Every event in the filing, lead first",
+      "items": {
+       "type": "string"
+      },
+      "title": "Events",
+      "type": "array"
+     },
+     "cards": {
+      "description": "On the group lead only, merged across the group",
+      "items": {
+       "anyOf": [
+        {
+         "$ref": "#/$defs/ResultsCard"
+        },
+        {
+         "$ref": "#/$defs/PeopleCard"
+        }
+       ]
+      },
+      "title": "Cards",
+      "type": "array"
      },
      "price_reaction": {
       "anyOf": [
@@ -346,6 +354,25 @@
       "description": "Filings about the same event share a group",
       "title": "Group Id",
       "type": "string"
+     },
+     "group_lead": {
+      "default": true,
+      "description": "The one filing of its group to show; the rest are attachments",
+      "title": "Group Lead",
+      "type": "boolean"
+     },
+     "duplicate_of": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Set when this is a copy of an earlier filing's letter",
+      "title": "Duplicate Of"
      }
     },
     "required": [
@@ -539,6 +566,7 @@
      "change": {
       "enum": [
        "appointment",
+       "reappointment",
        "resignation",
        "retirement",
        "cessation",
@@ -763,6 +791,19 @@
       "title": "Check Note",
       "type": "string"
      },
+     "share_of_associates": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Reported separately from PBT in the filing; shown so the check is transparent",
+      "title": "Share Of Associates"
+     },
      "source_urls": {
       "items": {
        "type": "string"
@@ -865,7 +906,7 @@
   },
   "properties": {
    "schema_version": {
-    "default": 2,
+    "default": 3,
     "title": "Schema Version",
     "type": "integer"
    },

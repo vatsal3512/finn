@@ -11,7 +11,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 Tier = Literal["must_see", "glance", "routine"]
 
@@ -80,8 +80,16 @@ class ResultsCard(BaseModel):
 class PersonChange(BaseModel):
     person: str
     role: str
+    # "reappointment" is a renewal of someone already in the role (Dixon's MD and WTD
+    # term renewals), which is not news in the way a new appointment is.
     change: Literal[
-        "appointment", "resignation", "retirement", "cessation", "redesignation", "other"
+        "appointment",
+        "reappointment",
+        "resignation",
+        "retirement",
+        "cessation",
+        "redesignation",
+        "other",
     ]
     effective_date: str | None = None
     reason: str | None = None
@@ -129,10 +137,21 @@ class Filing(BaseModel):
     attachment_url: str | None
     source_url: str
     insight: Insight | None = None
-    card: ResultsCard | PeopleCard | None = None
+    events: list[str] = Field(
+        default_factory=list, description="Every event in the filing, lead first"
+    )
+    cards: list[ResultsCard | PeopleCard] = Field(
+        default_factory=list, description="On the group lead only, merged across the group"
+    )
     price_reaction: PriceReaction | None = None
     score: float = Field(0, description="Priority for Today's 3: higher shows first")
     group_id: str = Field(description="Filings about the same event share a group")
+    group_lead: bool = Field(
+        True, description="The one filing of its group to show; the rest are attachments"
+    )
+    duplicate_of: str | None = Field(
+        None, description="Set when this is a copy of an earlier filing's letter"
+    )
 
 
 # ---------------------------------------------------------------- files

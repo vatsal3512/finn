@@ -11,8 +11,15 @@ Routing by difficulty (decision D9, and the brief's efficiency bonus)
 Every call returns a validated pydantic object. Answers are cached by task, prompt
 version and input, so re-running the pipeline costs nothing for work already done.
 
-Failover order: each Gemini key in turn, then Groq for text-only tasks. Image tasks have
-no Groq fallback; their caller falls back to non-AI data instead.
+Failover order: each Gemini key in turn, then Groq for text-only tasks, then, for Flash
+tasks, a step down to Flash-Lite. Image tasks have no Groq fallback.
+
+Two kinds of failure are told apart, because they need opposite responses:
+- A quota limit belongs to one key. The next key will answer.
+- A capacity error (503 "high demand", 504, or no answer within 90 seconds) belongs to the
+  model. On 27 Oct 2026, 21 of 23 gemini-3.8-flash calls failed this way across five keys,
+  and one took 270 seconds. After two keys report it, the model is skipped for three
+  minutes, instead of every key queueing for an answer none of them can get.
 """
 
 from __future__ import annotations
@@ -28,6 +35,7 @@ from dataclasses import dataclass
 from enum import StrEnum
 from typing import Protocol, TypeVar
 
+import httpx
 from dotenv import load_dotenv
 from pydantic import BaseModel, ValidationError
 
@@ -61,6 +69,10 @@ GROQ_MODEL = "openai/gpt-oss-120b"  # production model with JSON-schema output
 GEMINI_MIN_INTERVAL = 6.5  # seconds per key and model: about 9 a minute, under the ~10 cap
 GROQ_MIN_INTERVAL = 2.2  # about 27 a minute, under the 30 cap
 
+REQUEST_TIMEOUT_S = 90  # a slow answer is a capacity problem; waiting longer does not help
+BUSY_AFTER = 2  # keys reporting a capacity error before the model is treated as busy
+BUSY_SECONDS = 180
+
 
 class RateLimited(Exception):
     def __init__(self, message: str, daily: bool):
@@ -69,7 +81,11 @@ class RateLimited(Exception):
 
 
 class Transient(Exception):
-    """Server error or timeout: worth one retry on the same key."""
+    """Server error: worth one retry on the same key."""
+
+
+class ModelBusy(Transient):
+    """The model is overloaded for everyone. Another key on the same model will not help."""
 
 
 class AIUnavailable(Exception):
@@ -114,7 +130,10 @@ class GeminiBackend:
 
         client = self._clients.get(key.alias)
         if client is None:
-            client = self._clients[key.alias] = genai.Client(api_key=key.secret)
+            client = self._clients[key.alias] = genai.Client(
+                api_key=key.secret,
+                http_options=types.HttpOptions(timeout=REQUEST_TIMEOUT_S * 1000),
+            )
         parts = [types.Part.from_bytes(data=img, mime_type="image/png") for img in images]
         config = types.GenerateContentConfig(
             system_instruction=system,
@@ -133,7 +152,9 @@ class GeminiBackend:
                 raise RateLimited(str(exc), daily="per day" in text or "perday" in text) from exc
             raise
         except errors.ServerError as exc:
-            raise Transient(str(exc)) from exc
+            raise (ModelBusy if exc.code in (503, 504) else Transient)(str(exc)) from exc
+        except httpx.TimeoutException as exc:
+            raise ModelBusy(f"no answer in {REQUEST_TIMEOUT_S}s") from exc
         u = resp.usage_metadata
         return Reply(
             resp.text or "",
@@ -158,7 +179,9 @@ class GroqBackend:
             raise ValueError("Groq fallback is text-only")
         client = self._clients.get(key.alias)
         if client is None:
-            client = self._clients[key.alias] = groq.Groq(api_key=key.secret, max_retries=0)
+            client = self._clients[key.alias] = groq.Groq(
+                api_key=key.secret, max_retries=0, timeout=REQUEST_TIMEOUT_S
+            )
         try:
             resp = client.chat.completions.create(
                 model=model,
@@ -174,15 +197,24 @@ class GroqBackend:
             )
         except groq.RateLimitError as exc:
             raise RateLimited(str(exc), daily="per day" in str(exc).lower()) from exc
-        except (groq.InternalServerError, groq.APIConnectionError, groq.APITimeoutError) as exc:
+        except groq.APITimeoutError as exc:  # before APIConnectionError, its parent
+            raise ModelBusy(str(exc)) from exc
+        except groq.InternalServerError as exc:
+            raise (ModelBusy if exc.status_code in (503, 504) else Transient)(str(exc)) from exc
+        except groq.APIConnectionError as exc:
             raise Transient(str(exc)) from exc
         u = resp.usage
         return Reply(resp.choices[0].message.content or "", u.prompt_tokens, u.completion_tokens)
 
 
-def cache_key(task: str, version: str, system: str, prompt: str, images: Sequence[bytes]) -> str:
+def cache_key(
+    task: str, version: str, system: str, prompt: str, images: Sequence[bytes], tier: str = ""
+) -> str:
+    """The tier is part of the key: a deliberate step up in model quality must not be
+    answered from the cheaper model's cache. Which provider answered is not, so a
+    fallback answer is reused."""
     h = hashlib.sha256()
-    for part in (task, version, system, prompt):
+    for part in (task, version, system, prompt, tier):
         h.update(part.encode())
         h.update(b"\x00")
     for img in images:
@@ -204,7 +236,9 @@ class LLM:
         self.groq_pool = KeyPool(conn, groq_keys, GROQ_MIN_INTERVAL)
         self.gemini = gemini or GeminiBackend()
         self.groq = groq or GroqBackend()
-        self.stats = {"cache_hits": 0, "calls": 0, "fallbacks": 0, "failures": 0}
+        self.stats = {"cache_hits": 0, "calls": 0, "fallbacks": 0, "step_downs": 0, "failures": 0}
+        self.last_model: str | None = None  # which model gave the latest answer
+        self._busy_until: dict[str, float] = {}  # model -> monotonic time
 
     @classmethod
     def from_env(cls, conn: sqlite3.Connection) -> LLM:
@@ -231,34 +265,62 @@ class LLM:
         images: Sequence[bytes] = (),
         max_output_tokens: int = 4096,
     ) -> T:
-        key = cache_key(task, version, system, prompt, images)
-        row = self.conn.execute("SELECT response FROM ai_cache WHERE key = ?", (key,)).fetchone()
+        key = cache_key(task, version, system, prompt, images, tier.value)
+        row = self.conn.execute(
+            "SELECT response, model FROM ai_cache WHERE key = ?", (key,)
+        ).fetchone()
         if row:
             self.stats["cache_hits"] += 1
+            self.last_model = row[1]
             return schema.model_validate_json(row[0])
 
-        route = GEMINI_ROUTES[tier]
-        attempts: list[tuple[Backend, KeyPool, str, str | None, bool]] = [
-            (self.gemini, self.gemini_pool, route.model, route.thinking, False)
-        ]
+        # (backend, pool, model, thinking, kind). A "fallback" is a peer model on another
+        # provider; a "step_down" is a cheaper model standing in for a busy one.
+        route, lite = GEMINI_ROUTES[tier], GEMINI_ROUTES[Tier.LITE]
+        attempts = [(self.gemini, self.gemini_pool, route.model, route.thinking, "primary")]
         if not images:
-            attempts.append((self.groq, self.groq_pool, GROQ_MODEL, None, True))
+            attempts.append((self.groq, self.groq_pool, GROQ_MODEL, None, "fallback"))
+        if tier is not Tier.LITE:
+            attempts.append((self.gemini, self.gemini_pool, lite.model, lite.thinking, "step_down"))
 
         errors: list[str] = []
-        for backend, pool, model, thinking, degraded in attempts:
+        for backend, pool, model, thinking, kind in attempts:
+            if self._busy_until.get(model, 0.0) > time.monotonic():
+                errors.append(f"{model}: busy")
+                continue
+            busy_reports = 0
             for k in pool.available(model):
-                result = self._try_key(backend, pool, k, model, thinking, task, system, prompt,
-                                       images, schema, max_output_tokens, errors)  # fmt: skip
+                try:
+                    result = self._try_key(backend, pool, k, model, thinking, task, system, prompt,
+                                           images, schema, max_output_tokens, errors)  # fmt: skip
+                except ModelBusy:
+                    busy_reports += 1
+                    if busy_reports >= BUSY_AFTER:
+                        self._busy_until[model] = time.monotonic() + BUSY_SECONDS
+                        log.warning("%s is over capacity; skipping it for %ss", model, BUSY_SECONDS)
+                        break
+                    continue
                 if result is None:
                     continue
-                if degraded:
-                    self.stats["fallbacks"] += 1
-                self.conn.execute(
-                    "INSERT OR REPLACE INTO ai_cache (key, task, model, degraded, response, created_at) "
-                    "VALUES (?, ?, ?, ?, ?, ?)",
-                    (key, task, model, int(degraded), result.model_dump_json(), now_iso()),
-                )
-                self.conn.commit()
+                if kind != "primary":
+                    self.stats["fallbacks" if kind == "fallback" else "step_downs"] += 1
+                # A step-down answer is used but not remembered, so the next run asks the
+                # right model again.
+                if kind != "step_down":
+                    self.conn.execute(
+                        "INSERT OR REPLACE INTO ai_cache (key, task, model, degraded, response, created_at) "
+                        "VALUES (?, ?, ?, ?, ?, ?)",
+                        (
+                            key,
+                            task,
+                            model,
+                            int(kind != "primary"),
+                            result.model_dump_json(),
+                            now_iso(),
+                        ),
+                    )
+                    self.conn.commit()
+                self.last_model = model
                 return result
         self.stats["failures"] += 1
         raise AIUnavailable(f"{task}: no key could answer. " + " | ".join(errors[-4:]))
@@ -289,6 +351,10 @@ class LLM:
                 )
                 errors.append(f"{k.alias}: rate limited")
                 return None
+            except ModelBusy:
+                self._log(backend, model, k, task, False, t0, error="model busy")
+                errors.append(f"{k.alias}: {model} busy")
+                raise
             except (Transient, ValidationError, json.JSONDecodeError) as exc:
                 self._log(backend, model, k, task, False, t0, error=type(exc).__name__)
                 errors.append(f"{k.alias}: {type(exc).__name__}")

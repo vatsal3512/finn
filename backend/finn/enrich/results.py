@@ -436,9 +436,13 @@ def build(
 
 # Results filings by the AI's verdict when there is one, by the rules' otherwise. Eternal's
 # results arrived as "Outcome of board meeting dated October 21", which only triage places.
+# ...and by content: Persistent's Q2 results were filed under labels no rule matched, but the
+# text holds a results statement (filing_signals, see finn.enrich.events).
 _RESULTS_FILINGS = (
     "filings f LEFT JOIN filing_insights i ON i.filing_id = f.id "
-    "WHERE COALESCE(i.category, f.category) = 'results' AND COALESCE(i.tier, f.tier) = 'must_see'"
+    "LEFT JOIN filing_signals s ON s.filing_id = f.id "
+    "WHERE ((COALESCE(i.category, f.category) = 'results' AND COALESCE(i.tier, f.tier) = 'must_see') "
+    "OR s.events LIKE '%\"results\"%')"
 )
 
 

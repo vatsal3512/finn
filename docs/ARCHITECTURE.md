@@ -98,12 +98,37 @@ uncached ticker ever needs a live server.
 | `documents` | transcript, annual report, presentation or results PDF | period, text path, page count, located annual-report sections |
 | `financials` | line item per period | statement, basis, value, raw text |
 | `runs` | pipeline run | start, finish, success, per-stage stats |
+| `filing_signals` | filing | events found in its text, text fingerprint, `duplicate_of` |
+| `results_cards` | company per quarter | the card as JSON, its source rung, verified or not |
+| `people_cards` | filing with a leadership change | each person, the change, role, profile, where the profile came from |
+| `filing_insights` | filing | category, tier, title, summary, why it matters, amount, the model that answered |
+| `ai_cache`, `ai_usage`, `ai_key_state` | answer, call, key per model | cached answers, tokens and latency, key cooldowns |
 
 ## The AI layer
 
 Every model call goes through one client, `finn.ai.llm.LLM`. It routes by difficulty,
 caches every answer, works down an ordered queue of keys, and logs each real call with
 its tokens and latency.
+
+### From filing to card
+
+```mermaid
+flowchart LR
+  F[filings with text] --> E[events<br/>regex on cleaned text<br/>+ duplicate fingerprint]
+  E --> R[results cards<br/>XBRL ladder]
+  E --> P[people cards<br/>profile sections]
+  R & P --> T[triage<br/>sees every card's facts]
+  T --> X[export<br/>one lead per event,<br/>cards merged]
+```
+
+| Decision | Why |
+|---|---|
+| **Events are found in the text, not the subject line.** One filing can carry several. | Nazara's 12 October board outcome, filed as "Allotment of Securities", also carried a new CFO, a director resignation and two redesignations. A notice of a future meeting ("to consider") is not an event; a decision ("approved") is. |
+| **Cards are built before triage.** | Triage gets the computed results numbers and the people on the card, so its one-line summary states the real move, such as Mazagon Dock's PAT down 53.8% year on year, instead of "results declared". |
+| **Copies of one letter cost nothing.** | Companies file one letter under several labels: in 140 readable filings, 22 were copies, six of them Nazara's. A text fingerprint finds them; the copy takes the original's answer, and the app shows the event once. |
+| **Letterheads are filtered narrowly.** | Only lines that are mostly Devanagari or dense with OCR noise go, and never a line with a number and %, ₹, crore or lakh. A broader "looks like words" filter dropped real lines such as Nazara's "• Revenue: 803 (+53% YoY)". |
+| **The model copies amounts; code converts them.** | Asked for crore, the model turned Persistent's "INR 42,646.09 million" into ₹42,646 crore, ten times too much. Now it copies the figure and its unit, and code converts. |
+| **Names match exactly, after undoing OCR slips.** | "Rohit Shanna" in a scanned letter is Rohit Sharma. A similarity score would also merge Rohit and Mohit Sharma, who score 0.92 and are different people. |
 
 ```mermaid
 flowchart LR
@@ -113,15 +138,26 @@ flowchart LR
   R -- lite --> L[gemini-3.5-flash-lite<br/>minimal thinking]
   R -- flash --> F[gemini-3.8-flash<br/>low thinking]
   R -- reason --> H[gemini-3.8-flash<br/>high thinking]
-  L & F & H --> K[Gemini keys in order<br/>rest on 429]
-  K -- all resting, text only --> G[Groq gpt-oss-120b]
+  L & F & H --> K[Gemini keys in order<br/>rest a key on 429]
+  K -- all resting, or model busy,<br/>text only --> G[Groq gpt-oss-120b]
+  G -- also unavailable,<br/>flash tasks --> D[step down to<br/>flash-lite, not cached]
+  K -- model busy, images --> D
   K --> V[Validate against<br/>pydantic schema]
-  G --> V --> S[(ai_cache + ai_usage)] --> A
+  G --> V
+  D --> V
+  V --> S[(ai_cache + ai_usage)] --> A
 ```
+
+A quota limit belongs to one key, so the next key answers. A capacity error belongs to the
+model: on 27 October, gemini-3.8-flash returned 503 "high demand" on every key, and one
+call took 270 seconds. So requests time out at 90 seconds, and once two keys report a 503,
+504 or timeout, the model is skipped for three minutes. A step-down answer is used but not
+cached, and triage asks Flash again on the next run for any important filing that got one.
 
 | Task | Tier | Why this tier |
 |---|---|---|
 | Triage: category, tier, title, summary, why it matters | lite, 6 filings per call | High volume and simple judgement. Batching uses one request where six would be needed. |
+| Triage of results, leadership, deals, fund raises, litigation and pledges | flash, 6 per call | On these, Flash-Lite added facts the filing does not state, such as an "ICICI merger" for HDFC Bank's new CEO. |
 | Bios from a filing's profile section | lite | Copying facts out of a short, structured section. |
 | Results numbers from a PDF's text or page images | flash | Tables need accuracy, and images need a vision model. Only needed until the XBRL arrives. |
 | Promised vs. delivered, bull vs. bear (next step) | reason | The few calls that compare and judge. |
@@ -157,7 +193,7 @@ flowchart TD
 - Keys sit in `backend/.env` locally and in GitHub's encrypted secrets for the scheduled run. Logs and the database only ever see aliases such as `gemini-3`.
 - A key that hits a per-minute limit rests for 65 seconds. One that hits its daily quota rests until Google's reset at midnight Pacific time. Cooldowns live in SQLite, so separate runs respect each other.
 - Requests are paced at about 9 a minute per key, under the free tier's limit of roughly 10.
-- The backlog of 30 days needed about 25 triage calls for 147 filings. A normal day produces about 6 filings, which means 1 or 2 calls.
+- The backlog of 30 days is 113 filings after copies are removed, in 19 triage calls. A normal day produces about 6 filings, which means 1 or 2 calls.
 
 ## Running it
 

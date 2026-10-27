@@ -15,9 +15,7 @@ class Answer(BaseModel):
 class FakeBackend:
     def __init__(self, provider, script):
         self.provider = provider
-        self.script = (
-            script  # alias -> list of outcomes: "ok", "rate", "daily", "bad_json", "transient"
-        )
+        self.script = script  # alias -> list of outcomes: "ok", "rate", "daily", "bad_json", "transient", "busy"
         self.calls = []
 
     def call(self, key, model, thinking, system, prompt, images, schema, max_output_tokens):
@@ -28,7 +26,9 @@ class FakeBackend:
         if outcome == "daily":
             raise L.RateLimited("429 requests per day", daily=True)
         if outcome == "transient":
-            raise L.Transient("503")
+            raise L.Transient("500")
+        if outcome == "busy":
+            raise L.ModelBusy("503 high demand")
         if outcome == "bad_json":
             return L.Reply("not json")
         return L.Reply(f'{{"value": "{key.alias}"}}', 10, 5)
@@ -129,3 +129,39 @@ def test_quota_reset_is_midnight_pacific():
     from finn.ai.keys import PACIFIC, seconds_until_quota_reset
 
     assert 0 < seconds_until_quota_reset(datetime(2026, 10, 27, 23, 0, tzinfo=PACIFIC)) <= 3700
+
+
+FLASH, LITE = L.GEMINI_ROUTES[L.Tier.FLASH].model, L.GEMINI_ROUTES[L.Tier.LITE].model
+
+
+def test_a_busy_model_is_left_after_two_keys_say_so(tmp_path):
+    # 27 Oct 2026: gemini-3.8-flash returned 503 on every key. No key can fix that.
+    llm, g, q, _ = _llm(tmp_path, {"gemini-1": ["busy"], "gemini-2": ["busy"]}, n_gemini=4)
+    assert ask(llm, tier=L.Tier.FLASH).value == "groq-1"
+    assert [c[0] for c in g.calls] == ["gemini-1", "gemini-2"]  # not retried, keys 3-4 spared
+    # The next Flash task goes straight to the fallback while the model rests.
+    g.calls.clear()
+    ask(llm, "next", tier=L.Tier.FLASH)
+    assert g.calls == [] and llm.stats["fallbacks"] == 2
+
+
+def test_busy_flash_steps_down_to_lite_for_images_and_is_not_cached(tmp_path):
+    llm, g, q, conn = _llm(tmp_path, {"gemini-1": ["busy"], "gemini-2": ["busy"]})
+    assert ask(llm, images=[b"png"], tier=L.Tier.FLASH).value == "gemini-1"
+    assert g.calls[-1][1] == LITE and q.calls == []
+    assert llm.stats["step_downs"] == 1 and llm.last_model == LITE
+    assert conn.execute("SELECT COUNT(*) FROM ai_cache").fetchone()[0] == 0
+
+
+def test_lite_tasks_have_no_step_down(tmp_path):
+    llm, g, q, _ = _llm(tmp_path, {"gemini-1": ["busy"], "gemini-2": ["busy"]})
+    assert ask(llm, tier=L.Tier.LITE).value == "groq-1"
+    assert all(c[1] == LITE for c in g.calls) and len(g.calls) == 2
+
+
+def test_last_model_is_reported_from_the_cache_too(tmp_path):
+    llm, _, _, _ = _llm(tmp_path, {f"gemini-{i}": ["daily"] for i in (1, 2, 3)})
+    ask(llm, "same")
+    llm.last_model = None
+    ask(llm, "same")
+    assert llm.last_model == L.GROQ_MODEL

@@ -16,7 +16,7 @@ from typing import Any
 
 from finn.config import DB_PATH
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS meta (
@@ -204,7 +204,20 @@ CREATE TABLE IF NOT EXISTS people_cards (
     card         TEXT NOT NULL,          -- JSON, see contracts.PeopleCard
     created_at   TEXT NOT NULL
 );
+
+-- Every event a filing contains, found by reading it (see finn.enrich.events), plus a
+-- text fingerprint so the same letter filed twice is shown once.
+CREATE TABLE IF NOT EXISTS filing_signals (
+    filing_id     TEXT PRIMARY KEY,
+    events        TEXT NOT NULL,         -- JSON: event -> the snippet that triggered it
+    fingerprint   TEXT NOT NULL,
+    duplicate_of  TEXT                   -- earlier filing with the same text, if any
+);
 """
+
+# Columns added after a table first shipped. CREATE TABLE IF NOT EXISTS cannot add them
+# to an existing database, so connect() adds any that are missing.
+MIGRATIONS = (("filing_insights", "events", "TEXT"),)
 
 
 def now_iso() -> str:
@@ -218,6 +231,10 @@ def connect(path: Path = DB_PATH) -> sqlite3.Connection:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
     conn.executescript(SCHEMA)
+    for table, column, kind in MIGRATIONS:
+        have = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+        if column not in have:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {kind}")
     conn.execute(
         "INSERT OR REPLACE INTO meta (key, value) VALUES ('schema_version', ?)",
         (str(SCHEMA_VERSION),),
