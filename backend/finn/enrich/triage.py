@@ -26,12 +26,18 @@ from pydantic import BaseModel, Field
 
 from finn.ai.llm import LLM, AIUnavailable, Tier
 from finn.config import BY_SYMBOL, DATA_DIR
+from finn.enrich import results
 from finn.rules import CATEGORIES
 from finn.store import now_iso, upsert
 
 log = logging.getLogger(__name__)
 
-PROMPT_VERSION = "triage-v1"
+# v2, after a hand review of the first 12 live answers: v1 wrote generic lines such as
+# "quarterly results are critical for evaluating financial health", promoted a results
+# presentation to must_see next to the results themselves, filed a loan guarantee under
+# credit_rating, and rated a dividend's tax-deduction notice as worth a glance.
+# v3: v2's why_it_matters lines were factual but mostly repeated the summary.
+PROMPT_VERSION = "triage-v3"
 BATCH = 6
 EXCERPT_CHARS = 1800
 
@@ -39,21 +45,32 @@ SYSTEM = f"""You filter exchange filings for a professional investor who owns th
 For each filing decide how much attention it deserves, and say why in plain English.
 
 Categories: {", ".join(CATEGORIES)}.
+Category hints: call recordings, transcripts and call notices are earnings_call.
+Guarantees, loans and credit facilities are fund_raise. A results presentation, results
+press release or results newspaper notice is results.
 
 Tiers:
-- must_see: could change the view on the stock. Results; large deals; a new or departing
-  CEO, CFO or MD; fund raising; litigation, regulatory action or penalties that are large
-  relative to annual revenue; credit rating downgrades; promoter pledging or selling.
-- glance: worth one line. Smaller deals, director changes, order wins, rating upgrades or
-  affirmations, dividends, monthly business updates.
-- routine: compliance paperwork with no investment content.
+- must_see: could change the view on the stock. The results statement itself; large
+  deals; a new or departing CEO, CFO or MD; fund raising; litigation, regulatory action or
+  penalties that are large relative to annual revenue; credit rating downgrades; promoter
+  pledging or selling.
+- glance: worth one line. Documents that accompany results (presentation, press release);
+  smaller deals; director changes; order wins; rating upgrades or affirmations; dividends;
+  monthly business updates.
+- routine: compliance paperwork with no investment content, including procedural
+  follow-ups to something already announced, such as tax-deduction notes on a dividend.
 
 Rules:
 - Use only the filing text and the facts given. Never use outside knowledge. Never invent
   numbers. If the excerpt does not say what happened, say so in the summary.
+- When "results numbers" are given, the summary must state the most important of them:
+  which line moved most, and in which direction.
 - Judge size against annual revenue when an amount is stated, and say so.
 - title: at most 10 words, no company name. summary: one sentence, at most 30 words.
-- why_it_matters: at most 25 words, or null for routine filings.
+- why_it_matters: at most 25 words. It must add something the summary does not say: the
+  comparison, cause, scale or consequence, backed by a specific fact given to you. For
+  results, use the margin or the line that explains the profit move. If it would only
+  repeat the summary, or would be a general statement about this kind of filing, use null.
 - amount_inr_crore: the main rupee amount in crore if the filing states one, else null.
 - Keep the given category unless it is clearly wrong."""
 
@@ -122,9 +139,42 @@ def _item(conn: sqlite3.Connection, f: sqlite3.Row) -> str:
         f"exchange subject: {f['exchange_label']}",
         f"headline: {f['headline']}",
         f"category from rules: {f['category'] or 'not decided'}",
-        f"excerpt: {body or '(none)'}",
     ]
+    numbers = _results_numbers(conn, f)
+    if numbers:
+        facts.append(numbers)
+    facts.append(f"excerpt: {body or '(none)'}")
     return "\n".join(facts)
+
+
+def _results_numbers(conn: sqlite3.Connection, f: sqlite3.Row) -> str | None:
+    """The results card's figures, so a results summary can say what actually moved."""
+    looks_like_results = f["category"] == "results" or re.search(
+        r"financial results|quarterly results|press release",
+        f"{f['exchange_label']} {f['headline']}",
+        re.I,
+    )
+    if not looks_like_results:
+        return None
+    q = results.quarter_end_before(date.fromisoformat(f["filed_at"][:10]))
+    card = results.load(conn, f["symbol"], q.isoformat())
+    if not card:
+        return None
+    parts = []
+    for m in card.metrics:
+        if m.current is None:
+            continue
+        moves = [f"QoQ {m.qoq_pct:+.1f}%" if m.qoq_pct is not None else None,
+                 f"YoY {m.yoy_pct:+.1f}%" if m.yoy_pct is not None else None]  # fmt: skip
+        parts.append(f"{m.label} {m.current:,.1f} ({', '.join(x for x in moves if x)})")
+    if card.margin_pct and card.margin_pct[0] is not None:
+        parts.append(
+            f"{card.margin_label} {card.margin_pct[0]}% (a quarter ago {card.margin_pct[1]}%, a year ago {card.margin_pct[2]}%)"
+        )
+    return (
+        f"results numbers ({card.period_label}, {card.basis}, ₹ crore, from the company's XBRL filing): "
+        + "; ".join(parts)
+    )
 
 
 def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = None) -> dict:
