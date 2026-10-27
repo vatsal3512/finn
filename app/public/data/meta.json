@@ -1,0 +1,23 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-27T16:04:47+00:00",
+ "latest_session": "2026-10-27",
+ "filings_window_days": 30,
+ "counts": {
+  "holdings": 18,
+  "filings": 250,
+  "must_see": 47,
+  "glance": 21,
+  "routine": 103,
+  "unsorted": 79
+ },
+ "alert_defaults": {
+  "price_move_pct": 5.0,
+  "volume_multiple": 2.0,
+  "volume_baseline_sessions": 20
+ },
+ "sources": [
+  "Prices: Yahoo Finance end-of-day, adjusted for splits and dividends",
+  "Corporate actions and filings: NSE, with BSE as fallback"
+ ]
+}

@@ -1,0 +1,76 @@
+# Scheduled data refresh: the Push side's heartbeat, and our test of cloud access.
+#
+# Every 30 minutes from about 08:30 to 22:00 India time it fetches corporate actions,
+# prices and filings, then commits the exported JSON. The web host redeploys on the
+# commit, so the app always serves fresh static files.
+#
+# The database and document text are not committed. They persist between runs in the
+# Actions cache, so each run only downloads what is new.
+#
+# Actions are pinned to full commit SHAs, not tags, so a re-pointed tag cannot change
+# what runs here. Each pin is the newest release at least 14 days old when chosen.
+
+name: refresh-data
+
+on:
+  schedule:
+    - cron: "*/30 3-16 * * *"  # UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884  # v10.3.0
+        with:
+          working-directory: backend
+          enable-cache: true
+
+      - name: Restore database and document cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
+        with:
+          path: data
+          key: finn-data-${{ github.run_id }}
+          restore-keys: finn-data-
+
+      - name: Install
+        run: uv sync --frozen --no-dev
+
+      - name: Refresh and export
+        run: uv run python -m finn.refresh | tee ../data/last-run.json
+
+      - name: Report which sources worked from the cloud
+        if: always()
+        run: |
+          {
+            echo "### FINN refresh"
+            echo '```json'
+            cat ../data/last-run.json 2>/dev/null || echo '{"error": "refresh did not produce a report"}'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit exported data if it changed
+        working-directory: .
+        run: |
+          git config user.name "finn-bot"
+          git config user.email "finn-bot@users.noreply.github.com"
+          git add app/public/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: scheduled refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

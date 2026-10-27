@@ -1,0 +1,412 @@
+{
+ "portfolio": {
+  "$defs": {
+   "Holding": {
+    "properties": {
+     "symbol": {
+      "title": "Symbol",
+      "type": "string"
+     },
+     "name": {
+      "title": "Name",
+      "type": "string"
+     },
+     "sector": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Sector"
+     },
+     "size": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Size"
+     },
+     "last_date": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Last Date"
+     },
+     "close": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Close"
+     },
+     "ret_pct": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Ret Pct"
+     },
+     "vol_ratio": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Vol Ratio"
+     },
+     "series": {
+      "items": {
+       "$ref": "#/$defs/PricePoint"
+      },
+      "title": "Series",
+      "type": "array"
+     },
+     "source_url": {
+      "title": "Source Url",
+      "type": "string"
+     }
+    },
+    "required": [
+     "symbol",
+     "name",
+     "sector",
+     "size",
+     "last_date",
+     "close",
+     "ret_pct",
+     "vol_ratio",
+     "series",
+     "source_url"
+    ],
+    "title": "Holding",
+    "type": "object"
+   },
+   "PricePoint": {
+    "properties": {
+     "date": {
+      "title": "Date",
+      "type": "string"
+     },
+     "close": {
+      "title": "Close",
+      "type": "number"
+     },
+     "ret_pct": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Close-to-close move, percent",
+      "title": "Ret Pct"
+     },
+     "vol_ratio": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Volume over the prior 20-session mean",
+      "title": "Vol Ratio"
+     },
+     "corp_action": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Set when the move is a corporate action",
+      "title": "Corp Action"
+     }
+    },
+    "required": [
+     "date",
+     "close"
+    ],
+    "title": "PricePoint",
+    "type": "object"
+   }
+  },
+  "properties": {
+   "holdings": {
+    "items": {
+     "$ref": "#/$defs/Holding"
+    },
+    "title": "Holdings",
+    "type": "array"
+   }
+  },
+  "required": [
+   "holdings"
+  ],
+  "title": "Portfolio",
+  "type": "object"
+ },
+ "filings": {
+  "$defs": {
+   "Filing": {
+    "properties": {
+     "id": {
+      "title": "Id",
+      "type": "string"
+     },
+     "symbol": {
+      "title": "Symbol",
+      "type": "string"
+     },
+     "exchange": {
+      "title": "Exchange",
+      "type": "string"
+     },
+     "filed_at": {
+      "title": "Filed At",
+      "type": "string"
+     },
+     "exchange_label": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Exchange Label"
+     },
+     "headline": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Headline"
+     },
+     "category": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Category"
+     },
+     "tier": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Tier"
+     },
+     "classified_by": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Classified By"
+     },
+     "rule": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Rule"
+     },
+     "needs_ai": {
+      "title": "Needs Ai",
+      "type": "boolean"
+     },
+     "text_quality": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Text Quality"
+     },
+     "attachment_url": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "title": "Attachment Url"
+     },
+     "source_url": {
+      "title": "Source Url",
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "symbol",
+     "exchange",
+     "filed_at",
+     "exchange_label",
+     "headline",
+     "category",
+     "tier",
+     "classified_by",
+     "rule",
+     "needs_ai",
+     "text_quality",
+     "attachment_url",
+     "source_url"
+    ],
+    "title": "Filing",
+    "type": "object"
+   }
+  },
+  "properties": {
+   "filings": {
+    "items": {
+     "$ref": "#/$defs/Filing"
+    },
+    "title": "Filings",
+    "type": "array"
+   }
+  },
+  "required": [
+   "filings"
+  ],
+  "title": "Filings",
+  "type": "object"
+ },
+ "meta": {
+  "$defs": {
+   "AlertDefaults": {
+    "properties": {
+     "price_move_pct": {
+      "title": "Price Move Pct",
+      "type": "number"
+     },
+     "volume_multiple": {
+      "title": "Volume Multiple",
+      "type": "number"
+     },
+     "volume_baseline_sessions": {
+      "title": "Volume Baseline Sessions",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "price_move_pct",
+     "volume_multiple",
+     "volume_baseline_sessions"
+    ],
+    "title": "AlertDefaults",
+    "type": "object"
+   }
+  },
+  "properties": {
+   "schema_version": {
+    "default": 1,
+    "title": "Schema Version",
+    "type": "integer"
+   },
+   "generated_at": {
+    "title": "Generated At",
+    "type": "string"
+   },
+   "latest_session": {
+    "anyOf": [
+     {
+      "type": "string"
+     },
+     {
+      "type": "null"
+     }
+    ],
+    "title": "Latest Session"
+   },
+   "filings_window_days": {
+    "title": "Filings Window Days",
+    "type": "integer"
+   },
+   "counts": {
+    "additionalProperties": {
+     "type": "integer"
+    },
+    "title": "Counts",
+    "type": "object"
+   },
+   "alert_defaults": {
+    "$ref": "#/$defs/AlertDefaults"
+   },
+   "sources": {
+    "items": {
+     "type": "string"
+    },
+    "title": "Sources",
+    "type": "array"
+   }
+  },
+  "required": [
+   "generated_at",
+   "latest_session",
+   "filings_window_days",
+   "counts",
+   "alert_defaults",
+   "sources"
+  ],
+  "title": "Meta",
+  "type": "object"
+ }
+}
