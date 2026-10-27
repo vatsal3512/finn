@@ -188,3 +188,105 @@ class Portfolio(BaseModel):
 
 class Filings(BaseModel):
     filings: list[Filing]
+
+
+# ---------------------------------------------------------------- research
+
+
+class Evidence(BaseModel):
+    """A sentence from a primary document, checked by code to be there, or a computed fact."""
+
+    quote: str
+    source: str = Field(description='e.g. "Q1 FY27 call, 8 Aug 2026" or "Annual report FY26"')
+    page: int | None = None
+    url: str
+
+
+Verdict = Literal["beat", "met", "missed", "on_track", "at_risk", "pending", "unclear"]
+
+
+class Promise(BaseModel):
+    id: str
+    metric: str
+    period: str | None
+    target: str | None = Field(description='e.g. "≥ ₹4,000 crore" or "1–2% (constant currency)"')
+    statement: str
+    said: Evidence
+    repeated_in: list[str] = Field(default_factory=list, description="later calls that repeated it")
+    actual: str | None = None
+    actual_source: Evidence | None = None
+    verdict: Verdict
+    verdict_by: Literal["code", "model"]
+    note: str | None = None
+
+
+class CashYear(BaseModel):
+    year: str
+    operating_cash_flow: float | None
+    net_profit: float | None
+    free_cash_flow: float | None
+    cash_conversion: float | None = Field(description="operating cash flow / net profit")
+    debtor_days: float | None
+    inventory_days: float | None
+    working_capital_days: float | None
+
+
+class CashQuality(BaseModel):
+    applicable: bool
+    reason: str | None = None
+    years: list[CashYear] = Field(default_factory=list)
+    conversion_5y: float | None = None
+    signals: list[Evidence] = Field(default_factory=list)
+    read: str | None = None
+
+
+class CasePoint(BaseModel):
+    point: str
+    evidence: list[Evidence]
+
+
+class Snapshot(BaseModel):
+    about: str | None
+    latest_quarter: str | None
+    revenue: float | None
+    revenue_yoy: float | None
+    net_profit: float | None
+    net_profit_yoy: float | None
+    ebitda_margin: float | None
+
+
+class SourceDoc(BaseModel):
+    label: str
+    kind: str
+    url: str
+    pages: int
+
+
+class ResearchStats(BaseModel):
+    calls_read: int
+    claims_found: int
+    quotes_verified: int
+    quotes_dropped: int
+    graded_by_code: int
+    graded_by_model: int
+    ai_calls: int
+    cached_calls: int
+    models: list[str]
+    seconds: float
+
+
+class ResearchReport(BaseModel):
+    schema_version: int = SCHEMA_VERSION
+    symbol: str
+    name: str
+    basis: str
+    generated_at: str
+    snapshot: Snapshot
+    narrative: str | None
+    promises: list[Promise]
+    cash: CashQuality
+    bull: list[CasePoint]
+    bear: list[CasePoint]
+    notes: list[str] = Field(default_factory=list, description="what is missing, and why")
+    documents: list[SourceDoc]
+    stats: ResearchStats

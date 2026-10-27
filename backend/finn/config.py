@@ -4,11 +4,14 @@ Everything a reader might want to change lives here, so the collectors stay free
 hard-coded company lists and magic numbers.
 """
 
+import os
 from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / "data"  # local only, git-ignored: database, document text, page caches
+# Local only, git-ignored: database, document text, page caches. On a server whose code
+# directory is read-only (Vercel), FINN_DATA_DIR points it at /tmp.
+DATA_DIR = Path(os.environ.get("FINN_DATA_DIR") or ROOT / "data")
 DOCS_DIR = DATA_DIR / "docs"
 CACHE_DIR = DATA_DIR / "cache"
 DB_PATH = DATA_DIR / "finn.db"

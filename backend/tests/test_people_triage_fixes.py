@@ -117,3 +117,17 @@ def test_important_filing_answered_by_a_stand_in_is_asked_again(tmp_path):
         for fid in ("nse:1", "nse:2")
     ], ("filing_id",))  # fmt: skip
     assert [r["id"] for r in triage.pending(conn, days=30)] == ["nse:1"]
+
+
+def test_only_rupee_amounts_are_converted():
+    from finn.enrich.triage import ItemOut, amount_crore
+
+    def item(value, unit, currency):
+        return ItemOut(id="x", events=[], category="M&A", tier="glance", title="t", summary="s",
+                       why_it_matters=None, sentiment="neutral", amount_value=value,
+                       amount_unit=unit, amount_currency=currency)  # fmt: skip
+
+    assert amount_crore(item(50, "billion", "USD")) is None  # Adani's market forecast
+    assert amount_crore(item(42646.09, "million", "INR")) == 4264.61
+    assert amount_crore(item(2.79, "crore", "Rs.")) == 2.79
+    assert amount_crore(item(1250, "crore", None)) == 1250.0

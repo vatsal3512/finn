@@ -32,6 +32,7 @@ from finn.enrich import events, results
 from finn.rules import CATEGORIES
 from finn.store import now_iso, upsert
 from finn.textclean import clean
+from finn.units import to_crore
 
 log = logging.getLogger(__name__)
 
@@ -51,7 +52,10 @@ log = logging.getLogger(__name__)
 #     joining the filing's unnamed merger to the new CEO's ICICI background. Added a rule
 #     against attaching facts across people or events, and important filings now go to
 #     the stronger model (see IMPORTANT).
-PROMPT_VERSION = "triage-v6"
+# v7: v6 stored Adani Enterprises' "$50 billion" market forecast as a deal of ₹5,000
+#     crore. The amount is now only the company's own transaction, with its currency, and
+#     code converts only rupee amounts.
+PROMPT_VERSION = "triage-v7"
 BATCH = 6
 EXCERPT_CHARS = 1800
 
@@ -96,20 +100,11 @@ Rules:
   comparison, cause, scale or consequence, backed by a specific fact given to you. For
   results, use the margin or the line that explains the profit move. If it would only
   repeat the summary, or would be a general statement about this kind of filing, use null.
-- amount_value and amount_unit: the main rupee amount exactly as printed, the number and
-  its unit separately (unit one of rupees, thousand, lakh, million, crore, billion), or
-  both null.
+- amount_value, amount_unit and amount_currency: the main amount of the company's own
+  deal, fund raise, order, claim or penalty, exactly as printed: the number, its unit (one
+  of rupees, thousand, lakh, million, crore, billion) and its currency (INR, USD, EUR...).
+  Not market sizes, forecasts, revenue or per-share figures. Otherwise all null.
 - Keep the given category unless it is clearly wrong."""
-
-# Code, not the model, turns a printed amount into crore.
-UNIT_TO_CRORE = {
-    "rupees": 1e-7,
-    "thousand": 1e-4,
-    "lakh": 0.01,
-    "million": 0.1,
-    "crore": 1.0,
-    "billion": 100.0,
-}
 
 
 def strip_company(title: str, symbol: str) -> str:
@@ -125,17 +120,14 @@ def strip_company(title: str, symbol: str) -> str:
     return t
 
 
-def to_crore(value: float | None, unit: str | None) -> float | None:
-    if value is None or not unit:
+RUPEE = {"INR", "RS", "RS.", "₹", "RUPEE", "RUPEES"}
+
+
+def amount_crore(it: ItemOut) -> float | None:
+    """Rupee amounts only: a dollar figure in crore would be wrong by the exchange rate."""
+    if it.amount_currency and it.amount_currency.strip().upper() not in RUPEE:
         return None
-    factor = UNIT_TO_CRORE.get(
-        unit.strip().lower().rstrip("s") if unit.lower() != "rupees" else "rupees"
-    )
-    if not factor:
-        return None
-    crore = round(value * factor, 2)
-    # Under ₹1 lakh is a per-share figure ("dividend of ₹5"), not a size worth showing.
-    return crore if crore >= 0.01 else None
+    return to_crore(it.amount_value or None, it.amount_unit)
 
 
 class ItemOut(BaseModel):
@@ -149,6 +141,7 @@ class ItemOut(BaseModel):
     sentiment: str = Field(description="positive, negative, neutral or mixed")
     amount_value: float | None = Field(None, description="the number as printed, e.g. 42646.09")
     amount_unit: str | None = Field(None, description="its unit as printed, e.g. million")
+    amount_currency: str | None = Field(None, description="INR, USD, EUR... as printed")
 
 
 class BatchOut(BaseModel):
@@ -341,7 +334,7 @@ def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = 
                     "sentiment": it.sentiment
                     if it.sentiment in ("positive", "negative", "neutral", "mixed")
                     else "neutral",
-                    "amount_inr_crore": to_crore(it.amount_value or None, it.amount_unit),
+                    "amount_inr_crore": amount_crore(it),
                     "model": llm.last_model,
                     "prompt_version": PROMPT_VERSION,
                     "created_at": now_iso(),

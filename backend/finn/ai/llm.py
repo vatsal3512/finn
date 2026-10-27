@@ -11,8 +11,10 @@ Routing by difficulty (decision D9, and the brief's efficiency bonus)
 Every call returns a validated pydantic object. Answers are cached by task, prompt
 version and input, so re-running the pipeline costs nothing for work already done.
 
-Failover order: each Gemini key in turn, then Groq for text-only tasks, then, for Flash
-tasks, a step down to Flash-Lite. Image tasks have no Groq fallback.
+Failover order: each Gemini key in turn; then the tier's peer models, which are the same
+class of model; then Groq, for short text-only tasks; then, for Flash tasks, a step down
+to Flash-Lite. Image tasks have no Groq fallback, and Groq never gets a prompt larger than
+its free limit of 8K tokens a minute, so transcripts never go there.
 
 Two kinds of failure are told apart, because they need opposite responses:
 - A quota limit belongs to one key. The next key will answer.
@@ -29,6 +31,7 @@ import json
 import logging
 import os
 import sqlite3
+import threading
 import time
 from collections.abc import Sequence
 from dataclasses import dataclass
@@ -55,16 +58,25 @@ class Tier(StrEnum):
 
 @dataclass(frozen=True)
 class Route:
-    model: str
+    models: tuple[str, ...]  # peers of one class, in order of preference
     thinking: str
 
+    @property
+    def model(self) -> str:
+        return self.models[0]
 
+
+# Measured on the free tier, 28 Oct 2026, 02:30-03:35 IST: gemini-3.6-flash answered 50%
+# of calls, in 8 s on average, and failed in 5 s; gemini-3.8-flash answered 27%, and its
+# failures took 66 s. A model that fails fast costs little to try first.
+FLASH_PEERS = ("gemini-3.6-flash", "gemini-3.8-flash", "gemini-3.5-flash")
 GEMINI_ROUTES = {
-    Tier.LITE: Route("gemini-3.5-flash-lite", "minimal"),
-    Tier.FLASH: Route("gemini-3.8-flash", "low"),
-    Tier.REASON: Route("gemini-3.8-flash", "high"),
+    Tier.LITE: Route(("gemini-3.5-flash-lite",), "minimal"),
+    Tier.FLASH: Route(FLASH_PEERS, "low"),
+    Tier.REASON: Route(FLASH_PEERS, "high"),
 }
 GROQ_MODEL = "openai/gpt-oss-120b"  # production model with JSON-schema output
+GROQ_MAX_PROMPT_TOKENS = 6000  # free tier: 8K tokens a minute, prompt and answer together
 
 GEMINI_MIN_INTERVAL = 6.5  # seconds per key and model: about 9 a minute, under the ~10 cap
 GROQ_MIN_INTERVAL = 2.2  # about 27 a minute, under the 30 cap
@@ -85,7 +97,14 @@ class Transient(Exception):
 
 
 class ModelBusy(Transient):
-    """The model is overloaded for everyone. Another key on the same model will not help."""
+    """The model is overloaded for everyone. Another key on the same model will not help.
+
+    slow: the failure itself took long (a 504 or a timeout), so one report is enough.
+    """
+
+    def __init__(self, message: str, slow: bool = False):
+        super().__init__(message)
+        self.slow = slow
 
 
 class AIUnavailable(Exception):
@@ -152,9 +171,11 @@ class GeminiBackend:
                 raise RateLimited(str(exc), daily="per day" in text or "perday" in text) from exc
             raise
         except errors.ServerError as exc:
-            raise (ModelBusy if exc.code in (503, 504) else Transient)(str(exc)) from exc
+            if exc.code in (503, 504):
+                raise ModelBusy(str(exc), slow=exc.code == 504) from exc
+            raise Transient(str(exc)) from exc
         except httpx.TimeoutException as exc:
-            raise ModelBusy(f"no answer in {REQUEST_TIMEOUT_S}s") from exc
+            raise ModelBusy(f"no answer in {REQUEST_TIMEOUT_S}s", slow=True) from exc
         u = resp.usage_metadata
         return Reply(
             resp.text or "",
@@ -198,9 +219,11 @@ class GroqBackend:
         except groq.RateLimitError as exc:
             raise RateLimited(str(exc), daily="per day" in str(exc).lower()) from exc
         except groq.APITimeoutError as exc:  # before APIConnectionError, its parent
-            raise ModelBusy(str(exc)) from exc
+            raise ModelBusy(str(exc), slow=True) from exc
         except groq.InternalServerError as exc:
-            raise (ModelBusy if exc.status_code in (503, 504) else Transient)(str(exc)) from exc
+            if exc.status_code in (503, 504):
+                raise ModelBusy(str(exc), slow=exc.status_code == 504) from exc
+            raise Transient(str(exc)) from exc
         except groq.APIConnectionError as exc:
             raise Transient(str(exc)) from exc
         u = resp.usage
@@ -223,6 +246,11 @@ def cache_key(
 
 
 class LLM:
+    # Shared by every client in the process: when four workers read four transcripts at
+    # once, the first to find a model busy spares the other three the wait.
+    _busy_until: dict[str, float] = {}
+    _busy_lock = threading.Lock()
+
     def __init__(
         self,
         conn: sqlite3.Connection,
@@ -236,16 +264,19 @@ class LLM:
         self.groq_pool = KeyPool(conn, groq_keys, GROQ_MIN_INTERVAL)
         self.gemini = gemini or GeminiBackend()
         self.groq = groq or GroqBackend()
-        self.stats = {"cache_hits": 0, "calls": 0, "fallbacks": 0, "step_downs": 0, "failures": 0}
+        self.stats = {"cache_hits": 0, "calls": 0, "peers": 0, "fallbacks": 0, "step_downs": 0,
+                      "failures": 0}  # fmt: skip
         self.last_model: str | None = None  # which model gave the latest answer
-        self._busy_until: dict[str, float] = {}  # model -> monotonic time
 
     @classmethod
-    def from_env(cls, conn: sqlite3.Connection) -> LLM:
+    def from_env(cls, conn: sqlite3.Connection, key_offset: int = 0) -> LLM:
+        """key_offset rotates the key order, so parallel workers start on different keys."""
         load_dotenv(ROOT / "backend" / ".env")
-        return cls(
-            conn, keys_from_env("gemini", "GEMINI_API_KEYS"), keys_from_env("groq", "GROQ_API_KEYS")
-        )
+        gemini = keys_from_env("gemini", "GEMINI_API_KEYS")
+        if gemini:
+            k = key_offset % len(gemini)
+            gemini = gemini[k:] + gemini[:k]
+        return cls(conn, gemini, keys_from_env("groq", "GROQ_API_KEYS"))
 
     @property
     def configured(self) -> bool:
@@ -274,11 +305,14 @@ class LLM:
             self.last_model = row[1]
             return schema.model_validate_json(row[0])
 
-        # (backend, pool, model, thinking, kind). A "fallback" is a peer model on another
-        # provider; a "step_down" is a cheaper model standing in for a busy one.
+        # (backend, pool, model, thinking, kind). A "peer" is the same class of model, a
+        # "fallback" is another provider, a "step_down" a cheaper model standing in.
         route, lite = GEMINI_ROUTES[tier], GEMINI_ROUTES[Tier.LITE]
-        attempts = [(self.gemini, self.gemini_pool, route.model, route.thinking, "primary")]
-        if not images:
+        attempts = [
+            (self.gemini, self.gemini_pool, m, route.thinking, "primary" if i == 0 else "peer")
+            for i, m in enumerate(route.models)
+        ]
+        if not images and approx_tokens(system + prompt) <= GROQ_MAX_PROMPT_TOKENS:
             attempts.append((self.groq, self.groq_pool, GROQ_MODEL, None, "fallback"))
         if tier is not Tier.LITE:
             attempts.append((self.gemini, self.gemini_pool, lite.model, lite.thinking, "step_down"))
@@ -293,17 +327,22 @@ class LLM:
                 try:
                     result = self._try_key(backend, pool, k, model, thinking, task, system, prompt,
                                            images, schema, max_output_tokens, errors)  # fmt: skip
-                except ModelBusy:
-                    busy_reports += 1
+                except ModelBusy as exc:
+                    # A 503 comes back in seconds, so two keys must agree. A 504 or a
+                    # timeout has already cost a minute or more, so one is enough.
+                    busy_reports += BUSY_AFTER if exc.slow else 1
                     if busy_reports >= BUSY_AFTER:
-                        self._busy_until[model] = time.monotonic() + BUSY_SECONDS
+                        with self._busy_lock:
+                            self._busy_until[model] = time.monotonic() + BUSY_SECONDS
                         log.warning("%s is over capacity; skipping it for %ss", model, BUSY_SECONDS)
                         break
                     continue
                 if result is None:
                     continue
                 if kind != "primary":
-                    self.stats["fallbacks" if kind == "fallback" else "step_downs"] += 1
+                    self.stats[
+                        {"peer": "peers", "fallback": "fallbacks"}.get(kind, "step_downs")
+                    ] += 1
                 # A step-down answer is used but not remembered, so the next run asks the
                 # right model again.
                 if kind != "step_down":
@@ -314,7 +353,7 @@ class LLM:
                             key,
                             task,
                             model,
-                            int(kind != "primary"),
+                            int(kind == "fallback"),
                             result.model_dump_json(),
                             now_iso(),
                         ),
@@ -393,6 +432,11 @@ class LLM:
             ),
         )  # fmt: skip
         self.conn.commit()
+
+
+def approx_tokens(text: str) -> int:
+    """About four characters a token for English; close enough to keep Groq under its cap."""
+    return len(text) // 4
 
 
 def _strip_fences(text: str) -> str:

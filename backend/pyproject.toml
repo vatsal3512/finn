@@ -18,10 +18,15 @@ dependencies = [
     "python-dotenv>=1.2.4",
     "pillow>=12.3.0",
     "tzdata>=2026.5",
+    "fastapi>=0.143.0",
 ]
 
 [dependency-groups]
-dev = ["pytest>=9.1.1", "ruff>=0.17.0"]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+    "uvicorn>=0.54.0",
+]
 
 [tool.uv]
 # Supply-chain policy: never resolve any package, direct or transitive, released

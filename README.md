@@ -12,9 +12,9 @@ Built for the ENAM Holdings AI Engineer Build Challenge, October 2026.
 | Part | State |
 |---|---|
 | Data layer: prices, filings, fundamentals | Built and tested |
-| AI layer: results cards, triage, bios | Built. Results cards live from XBRL. Triage and bios need API keys |
-| Research engine | Planned |
-| Phone app | Planned |
+| AI layer: results cards, triage, bios | Built and run on every filing in the 30-day window |
+| Research engine: promised vs delivered, cash quality, bull vs bear, "ask about this" | Built. 23 companies computed ahead; any other NSE ticker live in about a minute |
+| Phone app | In progress |
 
 ## Where to look
 
@@ -32,6 +32,8 @@ uv sync
 uv run python -m finn.refresh       # fetch and export the portfolio's data
 uv run python -m finn.fetch INFY    # fundamentals and documents for any ticker
 uv run python -m finn.enrich        # results cards, AI triage and bios; keys go in backend/.env
+uv run python -m finn.research KAYNES   # promised vs delivered, from the company's own words
+uv run uvicorn finn.api:app         # the live API, for tickers nobody computed ahead
 uv run pytest
 ```
 

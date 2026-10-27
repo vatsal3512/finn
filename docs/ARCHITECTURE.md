@@ -1,8 +1,8 @@
 # FINN architecture
 
 FINN filters the daily flood of exchange filings, prices and fundamentals down to the few
-things an investor needs to see. This document covers the data layer and the AI layer,
-which are built. The research engine and the app get their own sections when built.
+things an investor needs to see. This document covers the data layer, the AI layer and
+the research engine. The app gets its own section when built.
 
 ## The shape of the system
 
@@ -29,6 +29,7 @@ flowchart LR
   DB[(finn.db<br/>SQLite)]
   EX[export<br/>validated JSON]
   APP[Phone app<br/>static files]
+  API[FastAPI on Vercel<br/>live research, ask]
 
   N --> CA --> PR
   Y --> PR
@@ -40,10 +41,14 @@ flowchart LR
   FI --> DB
   FU --> DB
   DB --> EX --> APP
+  APP -. ticker not computed ahead,<br/>or a question .-> API
+  API --> FU
 ```
 
 Push screens read static JSON files, so they open instantly. Only a research request on an
-uncached ticker ever needs a live server.
+uncached ticker, or a question about a filing, ever needs the live server. Both halves
+deploy as one Vercel project with two services, the Next.js app and the FastAPI backend,
+on one domain (decision D21).
 
 ## Decisions and why
 
@@ -195,6 +200,45 @@ flowchart TD
 - Requests are paced at about 9 a minute per key, under the free tier's limit of roughly 10.
 - The backlog of 30 days is 113 filings after copies are removed, in 19 triage calls. A normal day produces about 6 filings, which means 1 or 2 calls.
 
+## The research engine
+
+Pull research answers one question first: did management do what it said? The brief calls
+promised against delivered "the kind of thing we value most", so it is the flagship. The
+principle is the results card's: **the model reads, code judges.**
+
+```mermaid
+flowchart LR
+  G[gather<br/>4 transcripts, annual report,<br/>screener.in tables] --> X[extract<br/>Flash, one call per transcript,<br/>in parallel]
+  X --> V{quote in the<br/>transcript?}
+  V -- no --> D[dropped, counted]
+  V -- yes --> S[grade<br/>code compares with<br/>reported numbers]
+  G --> C[cash quality<br/>code only]
+  S --> J[judge<br/>Flash, one call:<br/>the rest, bull, bear]
+  C --> J
+  J --> K{evidence checks out?}
+  K -- no --> D
+  K -- yes --> R[report]
+```
+
+| Decision | Why |
+|---|---|
+| **No vector database.** Each transcript is read whole. | Four transcripts are 52K to 111K tokens and the three annual-report sections about 30K; every model in use takes a million. Cutting transcripts into chunks for retrieval would separate a promise from the later call that tests it. |
+| **Every quote is checked by code.** | The model copies quotes; code finds each one in its document, ignoring line wraps, spacing and running headers, and records the page. What the app shows is the document's own words at that place. A claim whose quote is not there is dropped. In the first runs, 64 of 64 Kaynes quotes and 44 of 44 Infosys quotes were found. |
+| **Code grades whatever numbers allow.** | A company-wide promise in rupees about a period that has ended is compared with screener.in's tables: Kaynes promised FY26 revenue of at least ₹4,000 crore and reported ₹3,626 crore, so code marks it missed. Constant-currency guidance, such as Infosys's, is compared with management's own later statement of the outcome. |
+| **Definitions are matched, not assumed.** | Infosys guides on operating margin, which is EBIT. screener.in's OPM is EBITDA, 24% against an EBIT margin of 20.9%. Comparing the wrong pair would have called a met target beaten, so EBIT margin is computed as operating profit less depreciation. |
+| **Segment targets are never graded against company numbers.** | "OSAT and PCB revenue of ₹450 to 500 crore" compared with Kaynes's total revenue would read as beaten many times over. Each claim says whether it is company-wide. |
+| **The model's verdicts are held to rules in code.** | A promise is not evidence for itself. Before its period ends, or with no period, it can only be on track or at risk. After the period, with nothing reported, it is unclear. Bull and bear points need evidence that exists, and a point whose annual-report quote is not in the report is dropped. |
+| **Cash quality is arithmetic.** | Operating cash flow against profit over five years, free cash flow and working-capital days come straight from the accounts. For Kaynes, −₹615 crore of operating cash against ₹977 crore of reported profit. Banks are skipped: their cash flow moves with deposits and loans. |
+| **"Ask about this" answers from the last two calls.** | A Push card's question, such as why Mazagon Dock's margin fell, is answered from what management said before the result. The answer is shown only with at least one quote found in the transcripts. |
+| **The newest transcript can come from NSE.** | screener.in lists transcripts days to weeks late. If NSE has a newer one, FINN uses it, and when a quarter's results are out but its call is not filed, the report says so. |
+
+| Stage | Model | Measured |
+|---|---|---|
+| Extract claims | Flash, low thinking, 4 calls in parallel | On Kaynes's February call, Flash-Lite found 1 promise and Flash 11, including the two Kaynes later missed. Recall is the foundation, so extraction runs on Flash. |
+| Judge | Flash, high thinking, 1 call | Sees only checked claims, code verdicts, cash facts and annual-report excerpts |
+| Ask | Flash, low thinking, 1 call | 6 seconds for Mazagon Dock |
+| A ticker never seen before | all of the above | Titan, live: cash quality on screen at 8 seconds, the full report at 69 seconds |
+
 ## Running it
 
 ```bash
@@ -205,5 +249,7 @@ uv run python -m finn.fetch INFY         # fundamentals and documents for any ti
 uv run python -m finn.fetch --research-set
 uv run python -m finn.enrich --dry-run   # what the AI step would do, and its cost
 uv run python -m finn.enrich             # results cards, triage, bios, then export
+uv run python -m finn.research --all     # research for the 23 companies, written for the app
+uv run uvicorn finn.api:app              # live research and "ask about this"
 uv run pytest
 ```
