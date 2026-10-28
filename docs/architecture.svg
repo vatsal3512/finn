@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="FINN architecture: a 30-minute GitHub Actions pipeline sorts filings and commits JSON that Vercel serves to the phone app; on demand, the API reads a company's calls, checks every quote and grades every promise in code.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4B5563"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif; fill: #111827; }
+    .h1 { font-size: 30px; font-weight: 700; }
+    .sub { font-size: 15px; fill: #4B5563; }
+    .lane { font-size: 13px; font-weight: 700; letter-spacing: 0.08em; fill: #6B7280; }
+    .bt { font-size: 15px; font-weight: 700; }
+    .b { font-size: 12.5px; fill: #374151; }
+    .lbl { font-size: 12px; fill: #4B5563; font-style: italic; }
+    .ai { fill: #EEF0FF; stroke: #5B5BD6; stroke-width: 1.5; }
+    .code { fill: #E3F5EF; stroke: #128C6E; stroke-width: 1.5; }
+    .data { fill: #F3F4F6; stroke: #9CA3AF; stroke-width: 1.5; }
+    .box { fill: none; stroke: #D1D5DB; stroke-width: 1.2; stroke-dasharray: 6 5; }
+    .wire { stroke: #4B5563; stroke-width: 1.6; fill: none; }
+  </style>
+
+  <rect width="1600" height="1000" fill="#FFFFFF"/>
+
+  <!-- title and legend -->
+  <text x="40" y="58" class="h1">FINN: how it works</text>
+  <text x="40" y="88" class="sub">Push: the filings that matter reach you. Pull: did management deliver what it said?</text>
+  <rect x="1140" y="36" width="18" height="14" rx="3" class="code"/><text x="1166" y="48" class="b">Code decides</text>
+  <rect x="1140" y="60" width="18" height="14" rx="3" class="ai"/><text x="1166" y="72" class="b">An AI model reads or writes</text>
+  <rect x="1140" y="84" width="18" height="14" rx="3" class="data"/><text x="1166" y="96" class="b">Data and delivery</text>
+
+  <!-- sources -->
+  <text x="40" y="140" class="lane">SOURCES</text>
+  <rect x="40" y="170" width="250" height="60" rx="10" class="data"/>
+  <text x="56" y="196" class="bt">NSE · BSE</text><text x="56" y="216" class="b">filings, corporate actions</text>
+  <rect x="40" y="250" width="250" height="60" rx="10" class="data"/>
+  <text x="56" y="276" class="bt">Exchange XBRL</text><text x="56" y="296" class="b">quarterly results, as filed</text>
+  <rect x="40" y="330" width="250" height="60" rx="10" class="data"/>
+  <text x="56" y="356" class="bt">Yahoo Finance</text><text x="56" y="376" class="b">daily prices and volume</text>
+  <rect x="40" y="410" width="250" height="60" rx="10" class="data"/>
+  <text x="56" y="436" class="bt">screener.in · BSE</text><text x="56" y="456" class="b">accounts, call transcripts, annual reports</text>
+
+  <!-- source bus into the pipeline -->
+  <path d="M290,200 H318 M290,280 H318 M290,360 H318 M290,440 H318 M318,200 V440" class="wire"/>
+  <path d="M318,218 H363" class="wire" marker-end="url(#arrow)"/>
+
+  <!-- push pipeline -->
+  <rect x="340" y="150" width="670" height="400" rx="14" class="box"/>
+  <text x="360" y="176" class="lane">PUSH · GITHUB ACTIONS, EVERY 30 MINUTES, 08:30–22:30 IST</text>
+
+  <rect x="365" y="195" width="620" height="46" rx="9" class="data"/>
+  <text x="381" y="223"><tspan class="bt">Collect</tspan><tspan class="b" dx="8">new filings, prices and results into SQLite, kept between runs in the Actions cache</tspan></text>
+  <rect x="365" y="253" width="620" height="46" rx="9" class="code"/>
+  <text x="381" y="281"><tspan class="bt">Rules</tspan><tspan class="b" dx="8">sort routine paperwork with no AI at all: about 4 filings in 10 never reach a model</tspan></text>
+  <rect x="365" y="311" width="620" height="46" rx="9" class="ai"/>
+  <text x="381" y="339"><tspan class="bt">AI triage</tspan><tspan class="b" dx="8">category, tier, summary, why it matters, bios of new leaders, from the filing text only</tspan></text>
+  <rect x="365" y="369" width="620" height="46" rx="9" class="code"/>
+  <text x="381" y="397"><tspan class="bt">Code checks the AI</tspan><tspan class="b" dx="8">amounts converted to crore, every "% of revenue" recomputed</tspan></text>
+  <rect x="365" y="427" width="620" height="46" rx="9" class="code"/>
+  <text x="381" y="455"><tspan class="bt">Results cards</tspan><tspan class="b" dx="8">exchange XBRL figures, checked against screener.in; a mismatch is shown</tspan></text>
+  <rect x="365" y="485" width="620" height="46" rx="9" class="data"/>
+  <text x="381" y="513"><tspan class="bt">Export</tspan><tspan class="b" dx="8">JSON files, committed to the repo by github-actions[bot]</tspan></text>
+
+  <path d="M675,241 V251" class="wire" marker-end="url(#arrow)"/>
+  <path d="M675,299 V309" class="wire" marker-end="url(#arrow)"/>
+  <path d="M675,357 V367" class="wire" marker-end="url(#arrow)"/>
+  <path d="M675,415 V425" class="wire" marker-end="url(#arrow)"/>
+  <path d="M675,473 V483" class="wire" marker-end="url(#arrow)"/>
+
+  <!-- pipeline to Vercel -->
+  <path d="M985,508 H1030 V245 H1073" class="wire" marker-end="url(#arrow)"/>
+  <text x="1044" y="470" class="lbl" transform="rotate(-90 1044 470)">commit, then Vercel redeploys</text>
+
+  <!-- Vercel -->
+  <rect x="1060" y="150" width="300" height="645" rx="14" class="box"/>
+  <text x="1080" y="176" class="lane">VERCEL</text>
+  <rect x="1075" y="195" width="270" height="115" rx="10" class="data"/>
+  <text x="1091" y="222" class="bt">Phone app (Next.js)</text>
+  <text x="1091" y="244" class="b">Today · Alerts · Portfolio · Research</text>
+  <text x="1091" y="264" class="b">Static pages read the JSON,</text>
+  <text x="1091" y="282" class="b">so they open instantly</text>
+
+  <rect x="1075" y="650" width="270" height="115" rx="10" class="data"/>
+  <text x="1091" y="677" class="bt">API (FastAPI, Python)</text>
+  <text x="1091" y="699" class="b">Live research for any ticker</text>
+  <text x="1091" y="719" class="b">"Was this expected?" answers</text>
+  <text x="1091" y="739" class="b">Reports kept in Vercel Blob</text>
+
+  <!-- phone -->
+  <rect x="1400" y="262" width="150" height="260" rx="24" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+  <rect x="1452" y="276" width="46" height="6" rx="3" fill="#111827"/>
+  <text x="1475" y="380" class="bt" text-anchor="middle">Your phone</text>
+  <text x="1475" y="402" class="b" text-anchor="middle">installable</text>
+  <text x="1475" y="420" class="b" text-anchor="middle">web app</text>
+  <path d="M1345,290 H1398" class="wire" marker-end="url(#arrow)"/>
+  <text x="1352" y="282" class="lbl">opens</text>
+  <path d="M1475,524 V705 H1347" class="wire" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="1485" y="600" class="lbl">asks, and the</text>
+  <text x="1485" y="616" class="lbl">answer streams</text>
+  <text x="1485" y="632" class="lbl">back stage by stage</text>
+
+  <!-- pull pipeline -->
+  <rect x="30" y="600" width="990" height="195" rx="14" class="box"/>
+  <text x="150" y="628" class="lane">PULL · WHAT THE API RUNS FOR ANY NSE TICKER</text>
+
+  <rect x="40" y="655" width="175" height="115" rx="10" class="data"/>
+  <text x="56" y="682" class="bt">Gather</text>
+  <text x="56" y="704" class="b">Last 4 call transcripts,</text>
+  <text x="56" y="722" class="b">the annual report,</text>
+  <text x="56" y="740" class="b">5 years of accounts</text>
+
+  <rect x="237" y="655" width="175" height="115" rx="10" class="ai"/>
+  <text x="253" y="682" class="bt">Read the calls</text>
+  <text x="253" y="704" class="b">AI lists each promise</text>
+  <text x="253" y="722" class="b">with its exact quote</text>
+  <text x="253" y="740" class="b">(Gemini Flash)</text>
+
+  <rect x="434" y="655" width="175" height="115" rx="10" class="code"/>
+  <text x="450" y="682" class="bt">Check the quotes</text>
+  <text x="450" y="704" class="b">Each quote found word</text>
+  <text x="450" y="722" class="b">for word in the PDF;</text>
+  <text x="450" y="740" class="b">not found, dropped</text>
+
+  <rect x="631" y="655" width="175" height="115" rx="10" class="code"/>
+  <text x="647" y="682" class="bt">Grade</text>
+  <text x="647" y="704" class="b">Each promise compared</text>
+  <text x="647" y="722" class="b">with reported numbers:</text>
+  <text x="647" y="740" class="b">met, missed, pending</text>
+
+  <rect x="828" y="655" width="175" height="115" rx="10" class="ai"/>
+  <text x="844" y="682" class="bt">Judge</text>
+  <text x="844" y="704" class="b">Only what code can't:</text>
+  <text x="844" y="722" class="b">unclear cases, bull and</text>
+  <text x="844" y="740" class="b">bear case, quotes cited</text>
+
+  <path d="M215,712 H235" class="wire" marker-end="url(#arrow)"/>
+  <path d="M412,712 H432" class="wire" marker-end="url(#arrow)"/>
+  <path d="M609,712 H629" class="wire" marker-end="url(#arrow)"/>
+  <path d="M806,712 H826" class="wire" marker-end="url(#arrow)"/>
+  <path d="M1003,712 H1073" class="wire" marker-end="url(#arrow)"/>
+  <text x="1012" y="704" class="lbl">report</text>
+  <path d="M127,472 V653" class="wire" marker-end="url(#arrow)"/>
+  <text x="137" y="560" class="lbl">transcripts, annual reports, accounts</text>
+
+  <!-- AI layer and evaluation -->
+  <rect x="40" y="830" width="740" height="130" rx="12" class="ai"/>
+  <text x="60" y="860" class="bt">AI layer</text>
+  <text x="60" y="884" class="b">Gemini: Flash-Lite sorts routine filings; Flash reads calls and important filings.</text>
+  <text x="60" y="904" class="b">14 API keys in a chain: a busy or capped key is skipped. Groq gpt-oss-120b is the fallback.</text>
+  <text x="60" y="924" class="b">Every answer is cached by prompt version, so nothing is paid for twice.</text>
+  <text x="60" y="944" class="b">The model only reads and writes; code checks quotes, numbers and grades.</text>
+
+  <rect x="810" y="830" width="750" height="130" rx="12" class="code"/>
+  <text x="830" y="860" class="bt">Evaluation (finn/evals)</text>
+  <text x="830" y="884" class="b">19 filings labelled by hand: are the AI's labels right?</text>
+  <text x="830" y="904" class="b">Every quote and number traced to its source: 495 of 495 quotes found word for word.</text>
+  <text x="830" y="924" class="b">A second model from another family re-reads the output; every flag is read by a person.</text>
+  <text x="830" y="944" class="b">The same prompts run 3 times: does the answer hold?</text>
+</svg>

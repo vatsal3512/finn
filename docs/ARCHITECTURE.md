@@ -4,6 +4,11 @@ FINN filters the daily flood of exchange filings, prices and fundamentals down t
 things an investor needs to see. This document covers the data layer, the AI layer and
 the research engine and the phone app.
 
+![FINN: how it works](architecture.png)
+
+Green boxes are decided by code, purple ones by an AI model. The model reads and writes;
+code checks every quote, number and grade. Source: [architecture.svg](architecture.svg).
+
 ## The shape of the system
 
 ```mermaid
