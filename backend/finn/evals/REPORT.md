@@ -200,6 +200,21 @@ things follow from this:
 2. Re-scoring the app after the version 8 re-read (section 6) tells us whether the fixes
    helped, measured on what users actually see.
 
+**Measured directly: which model answers decides the score.** On the night of 28 October,
+Flash's free daily quota ran out, so the golden set ran with only the stand-ins answering
+(Flash-Lite and Groq's gpt-oss):
+
+| Who answered | Both labels right | Same answer in all 3 runs |
+|---|---|---|
+| Flash (28 Oct, afternoon) | 17 of 19 | 16 of 19 |
+| Flash-Lite and Groq only (28 Oct, night) | 10 to 12 of 19 | 9 of 19 |
+
+Groq's answers over-rated: it made results press releases, a court-date notice, an MoU
+and a credit rating must-see. Flash-Lite again rated Dixon's US$7 million guarantee
+must-see. This is why, from version 10, important filings answered by a stand-in are
+asked again, of Flash only, until Flash answers. A stand-in's answer stays meanwhile;
+an empty card would be worse.
+
 **Research:** the full pipeline (every call read afresh, then judged afresh) was started on
 Kaynes and Asian Paints, three runs each. It stopped when the free tier's daily quota ran
 out. *[Results to be added after the quota resets.]*
@@ -224,10 +239,19 @@ Each fix has a test in `tests/test_evals.py`.
 | Counts shown as rupees: "100 million passengers" became "₹10 crore", and the same for Dixon's phone volumes | A unit naming a counted thing is not money; 3 targets corrected |
 | The excerpt cut inside numbers, and missed amounts in annexures | It ends on a word and adds the passages around later amounts. Airtel's card now sees both penalties, Dixon's the US$7,000,000 |
 | A share of revenue 100 times too small | Code recomputes every "% of revenue" the model writes; a wrong one is replaced |
-| The refresh schedule had silently stopped | Restored; the workflow file explains why it stopped |
+| The refresh schedule had silently stopped | Re-registered, and moved to minutes 7 and 37, off the busy top of the hour |
+| A 13 October MoU press release was given the results filed on 28 October | Results figures go only to results filings, and only once the results are out (v9) |
+| A share count shown as an amount: the Jio IPO's "27,00,00,000 equity shares" became ₹270,000,000 crore | Code drops an amount over three times annual revenue (v10) |
+| An invented total (Adani's ₹25,749.96 crore) | Code drops a "why it matters" line with a figure that is not in the filing, a unit conversion of one, or a sum of two (v10) |
+| Ola's ₹1,000 crore raise, 53% of revenue, once rated "glance" | A deal or claim of 5% of revenue or more is at least must-see, whichever model answered (v10) |
+| Stand-in answers stuck on important cards | Re-asked of Flash only until Flash answers (v10) |
+| Nothing on screen said when the data stopped updating | Today shows "Updated 19m ago", and an amber line when the data is stale |
 
-Triage moved to version 8 with these changes, so every card is being re-read.
-*[Golden set on version 8: to be added.]*
+All of code's checks on a triage answer now sit in one function, `review()` in
+`finn/enrich/triage.py`, which production and this evaluation both call, so the evaluation
+scores exactly what production stores. The grounding checks live in `finn/grounding.py`.
+
+*[Golden set on version 10 with Flash answering: to be added once the quota resets.]*
 
 ## Limits
 
