@@ -159,3 +159,33 @@ def test_a_wrong_share_of_revenue_is_corrected_and_a_fair_one_kept():
     assert checked_shares(ola, 1000, 1880) == ola
     growth = "Revenue grew 30% while the order is small."
     assert checked_shares(growth, 50, 1000) == growth  # not a share of revenue
+
+
+def test_results_numbers_only_for_results_filings_and_only_once_out(tmp_path):
+    from finn.contracts import Metric, ResultsCard
+    from finn.enrich import triage
+    from finn.store import connect, upsert
+
+    conn = connect(tmp_path / "t.db")
+    card = ResultsCard(symbol="ADANIENT", period_end="2026-09-30", period_label="Q2 FY27",
+                       basis="consolidated", kind="standard", source="xbrl", check_note="", source_urls=[],
+                       metrics=[Metric(key="pat", label="Profit", current=1221.0, previous_quarter=430.7,
+                                       year_ago=None, qoq_pct=183.5, yoy_pct=None)])  # fmt: skip
+    upsert(conn, "results_cards", [{"symbol": "ADANIENT", "period_end": "2026-09-30",
+           "basis": "consolidated", "kind": "standard", "card": card.model_dump_json(),
+           "source": "xbrl", "created_at": "x"}], ("symbol", "period_end"))  # fmt: skip
+    base = {"symbol": "ADANIENT", "exchange": "NSE", "needs_ai": 1, "source_url": "u",
+            "fetched_at": "x", "exchange_label": "Press Release", "category": None}  # fmt: skip
+    mou = {**base, "id": "nse:1", "filed_at": "2026-10-13T17:35:00+05:30",
+           "headline": "press release titled Adani Enterprises, Jabil Sign MoU"}  # fmt: skip
+    early = {**base, "id": "nse:2", "filed_at": "2026-10-13T18:00:00+05:30",
+             "headline": "Earnings release for the quarter ended September 30, 2026"}  # fmt: skip
+    statement = {**base, "id": "nse:3", "filed_at": "2026-10-28T16:00:00+05:30",
+                 "category": "results", "headline": "Financial results for the quarter"}  # fmt: skip
+    release = {**early, "id": "nse:4", "filed_at": "2026-10-28T16:30:00+05:30"}
+    upsert(conn, "filings", [mou, early, statement, release], ("id",))
+    row = lambda i: conn.execute("SELECT * FROM filings WHERE id = ?", (i,)).fetchone()  # noqa: E731
+
+    assert triage._results_numbers(conn, row("nse:1")) is None  # not about results
+    assert triage._results_numbers(conn, row("nse:2")) is None  # results not out yet
+    assert "1,221.0" in triage._results_numbers(conn, row("nse:4"))

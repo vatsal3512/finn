@@ -58,7 +58,9 @@ log = logging.getLogger(__name__)
 # v8, after the evaluation in finn/evals: the excerpt now ends on a whole word and carries
 #     the amounts found past it (see excerpt), and code checks any share of revenue the
 #     model writes (see checked_shares). The wording of the prompt is unchanged.
-PROMPT_VERSION = "triage-v8"
+# v9: results numbers go only to filings about results, and only once the results are out
+#     (see _results_numbers). v8 gave a 13 October MoU press release the 28 October results.
+PROMPT_VERSION = "triage-v9"
 BATCH = 6
 EXCERPT_CHARS = 1800
 
@@ -318,12 +320,17 @@ def _item(conn: sqlite3.Connection, f: sqlite3.Row) -> str:
 
 
 def _results_numbers(conn: sqlite3.Connection, f: sqlite3.Row) -> str | None:
-    """The results card's figures, so a results summary can say what actually moved."""
+    """The results card's figures, so a results summary can say what actually moved.
+
+    Only for a filing about results, and only once the results are out. "Press release" in
+    the subject used to be enough, so Adani's 13 October MoU press release was handed the
+    Q2 results filed on 28 October, and its card turned into a results card.
+    """
     looks_like_results = (
         f["category"] == "results"
         or "results" in events.load(conn, f["id"])[0]
         or re.search(
-            r"financial results|quarterly results|press release",
+            r"financial results|quarterly results|\bearnings\b",
             f"{f['exchange_label']} {f['headline']}",
             re.I,
         )
@@ -331,6 +338,14 @@ def _results_numbers(conn: sqlite3.Connection, f: sqlite3.Row) -> str | None:
     if not looks_like_results:
         return None
     q = results.quarter_end_before(date.fromisoformat(f["filed_at"][:10]))
+    out_by_then = conn.execute(
+        "SELECT 1 FROM filings r LEFT JOIN filing_insights i ON i.filing_id = r.id "
+        "WHERE r.symbol = ? AND substr(r.filed_at, 1, 10) BETWEEN ? AND ? "
+        "AND (r.category = 'results' OR i.category = 'results') LIMIT 1",
+        (f["symbol"], q.isoformat(), f["filed_at"][:10]),
+    ).fetchone()
+    if not out_by_then:
+        return None
     card = results.load(conn, f["symbol"], q.isoformat())
     if not card:
         return None
