@@ -83,5 +83,8 @@ jobs:
             echo "No data changes."
           else
             git commit -m "data: scheduled refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            # Code may have been pushed while this ran; the bot only touches exported
+            # data, so replaying its commit on top is safe.
+            git pull --rebase origin main
             git push
           fi
