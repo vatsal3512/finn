@@ -10,7 +10,7 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains", 
 export const metadata: Metadata = {
   title: "FINN",
   description: "What changed in your portfolio today, and whether management did what it said.",
-  appleWebApp: { capable: true, title: "FINN", statusBarStyle: "black-translucent" },
+  appleWebApp: { capable: true, title: "FINN", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {
