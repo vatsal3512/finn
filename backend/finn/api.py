@@ -68,8 +68,11 @@ def _cached(symbol: str, max_age: timedelta) -> dict | None:
 
 
 @app.get("/api/health")
-def health() -> dict:
-    return {"ok": True, "keys": env_summary()}  # counts only, never the keys
+def health(deep: bool = False) -> dict:
+    out = {"ok": True, "keys": env_summary(), "blob": blobstore.enabled()}  # counts, never keys
+    if deep:
+        out["blob_check"] = blobstore.check()
+    return out
 
 
 @app.get("/api/research/{symbol}")

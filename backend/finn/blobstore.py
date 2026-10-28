@@ -46,5 +46,22 @@ def load_report(symbol: str) -> dict | None:
 
         return json.loads(blob.get(f"{PREFIX}/{symbol}.json", access="private").content)
     except Exception as exc:  # noqa: BLE001 - not stored yet, or Blob is down: research live
-        log.info("no stored report for %s: %s", symbol, type(exc).__name__)
+        level = logging.INFO if type(exc).__name__ == "BlobNotFoundError" else logging.WARNING
+        log.log(level, "no stored report for %s: %s: %s", symbol, type(exc).__name__, exc)
         return None
+
+
+def check() -> str:
+    """Write and read back a tiny file: 'ok', or the error, for the health endpoint."""
+    if not enabled():
+        return "no BLOB_READ_WRITE_TOKEN"
+    try:
+        from vercel import blob
+
+        blob.put(
+            "health/ping.txt", b"ok", access="private", content_type="text/plain", overwrite=True
+        )
+        body = blob.get("health/ping.txt", access="private", use_cache=False).content
+        return "ok" if body == b"ok" else f"read back {body[:20]!r}"
+    except Exception as exc:  # noqa: BLE001 - reported, not raised
+        return f"{type(exc).__name__}: {str(exc)[:300]}"
