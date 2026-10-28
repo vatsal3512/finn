@@ -313,3 +313,36 @@ def test_bare_crore_amounts_get_the_rupee_sign_once():
     assert _prose("revenue reached 14,553 crore; capex of 570 crores; cash ₹615 crore") == (
         "revenue reached ₹14,553 crore; capex of ₹570 crore; cash ₹615 crore"
     )
+
+
+def test_nse_is_asked_only_when_a_newer_call_could_exist():
+    from datetime import date
+
+    from finn.research.gather import needs_nse_check
+
+    today = date(2026, 10, 28)
+    assert not needs_nse_check("2026-08", today)  # Kaynes: the August call is recent
+    assert needs_nse_check("2026-07", today)  # Infosys: July, and October's call may be out
+    assert needs_nse_check(None, today)
+
+
+def test_a_healthy_parent_inside_a_cash_hungry_group_is_said_first(tmp_path):
+    # M&M: the group's cash flow includes a lender's loan growth; the parent's does not.
+    group = _actuals(tmp_path)  # Kaynes-like: -615 of 977 over five years
+    parent = _actuals(tmp_path / "own")
+    for (st, item, period), v in list(parent.values.items()):
+        if (st, item) == ("cash_flow", "Cash from Operating Activity"):
+            parent.values[(st, item, period)] = abs(v) * 2 + 100
+    q = cash.compute(group, is_bank=False, parent=parent)
+    assert q.parent_conversion_5y and q.parent_conversion_5y > 1
+    assert q.signals[0].quote.startswith("The parent company alone turned")
+
+
+def test_actuals_read_one_basis_only(tmp_path):
+    conn = connect(tmp_path / "t.db")
+    rows = [{"symbol": "MM", "basis": b, "statement": "profit_loss", "period": "2026-03",
+             "line_item": "Sales", "value": v, "raw": str(v), "source_url": "s", "fetched_at": "x"}
+            for b, v in (("consolidated", 1000.0), ("standalone", 400.0))]  # fmt: skip
+    upsert(conn, "financials", rows, ("symbol", "basis", "statement", "period", "line_item"))
+    assert Actuals(conn, "MM").get("profit_loss", "Sales", "2026-03") == 1000.0
+    assert Actuals(conn, "MM", "standalone").get("profit_loss", "Sales", "2026-03") == 400.0

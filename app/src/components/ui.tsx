@@ -9,7 +9,7 @@ export function cx(...parts: (string | false | null | undefined)[]): string {
 
 export function Chip({ children, tone = "plain" }: { children: ReactNode; tone?: ChipTone }) {
   return (
-    <span className={cx("inline-flex items-center rounded px-1.5 py-0.5 text-[11px] font-medium leading-none", CHIP[tone])}>
+    <span className={cx("inline-flex items-center whitespace-nowrap rounded px-1.5 py-0.5 text-[11px] font-medium leading-none", CHIP[tone])}>
       {children}
     </span>
   );

@@ -173,6 +173,18 @@
      ],
      "default": null
     },
+    "parent_conversion_5y": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "the parent company alone, when its accounts tell a different story"
+    },
     "signals": {
      "items": {
       "$ref": "#/$defs/Evidence"

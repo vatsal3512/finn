@@ -53,7 +53,7 @@ def ask(
     conn: sqlite3.Connection, llm: LLM, symbol: str, question: str, context: str = ""
 ) -> AskAnswer:
     question = " ".join(question.split())[:MAX_QUESTION]
-    src = gather(conn, symbol)
+    src = gather(conn, symbol, check_nse=False)  # the last two calls are enough here
     docs = [d for d, _ in src.transcripts[:CALLS]]
     for d, period in src.transcripts[:CALLS]:  # "Q1 FY27 call, Aug 2026", from the filing month
         d.label = _call_label(Call(d, period, "", None, True, None))

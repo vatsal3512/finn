@@ -254,6 +254,23 @@ def _doc(page: ScreenerPage, kind: str, period: str | None, title: str, href: st
     }
 
 
+def standalone_cash_tables(page: ScreenerPage, fetched: str) -> list[dict]:
+    """The parent company's own P&L and cash flow, stored beside the consolidated ones.
+
+    A group's consolidated cash flow can hide the business behind a subsidiary's: M&M's
+    includes Mahindra Finance, whose loan growth counts as operating cash outflow. Only
+    these two annual tables are kept, so nothing that reads quarterly numbers can mix bases.
+    """
+    if page.basis != "consolidated":
+        return []
+    try:
+        html, url = _page_html(page.symbol, "standalone")
+    except net.HTTPError:
+        return []
+    own = ScreenerPage(page.symbol, "standalone", url, BeautifulSoup(html, "lxml"))
+    return [r for r in parse_tables(own, fetched) if r["statement"] in ("profit_loss", "cash_flow")]
+
+
 # ---------------------------------------------------------------- documents
 
 
@@ -344,6 +361,11 @@ def run(
         parse_tables(page, fetched),
         ("symbol", "basis", "statement", "period", "line_item"),
     )
+    try:
+        own = standalone_cash_tables(page, fetched)
+        upsert(conn, "financials", own, ("symbol", "basis", "statement", "period", "line_item"))
+    except Exception as exc:  # noqa: BLE001 - a nicety; the consolidated tables stand alone
+        log.info("no standalone tables for %s: %s", company.symbol, exc)
     docs = parse_documents(page)
     # Record every document we know about, so later steps can fetch more on demand.
     for d in docs:

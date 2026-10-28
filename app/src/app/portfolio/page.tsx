@@ -42,14 +42,19 @@ export default async function PortfolioPage() {
           <li key={h.symbol} className="border-t border-line first:border-t-0">
             <Link href={`/research/${h.symbol}`} className="flex items-center gap-3 px-4 py-2.5">
               <div className="min-w-0 flex-1">
-                <p className="flex items-center gap-1.5">
-                  <span className="ticker text-[13px]">{h.symbol}</span>
-                  {!!mustSee[h.symbol] && <Chip tone="accent">{mustSee[h.symbol]} must-see</Chip>}
-                  {!!missed[h.symbol] && <Chip tone="down">{missed[h.symbol]} missed</Chip>}
+                <p className="flex min-w-0 items-baseline gap-1.5">
+                  <span className="ticker shrink-0 text-[13px]">{h.symbol}</span>
+                  <span className="truncate text-[12px] text-faint">{h.name}</span>
                 </p>
-                <p className="truncate text-[12px] text-faint">{h.name}</p>
+                {(!!mustSee[h.symbol] || !!missed[h.symbol]) && (
+                  <p className="mt-1 flex gap-1">
+                    {!!mustSee[h.symbol] && <Chip tone="accent">{mustSee[h.symbol]} must-see</Chip>}
+                    {!!missed[h.symbol] && <Chip tone="down">{missed[h.symbol]} missed</Chip>}
+                  </p>
+                )}
               </div>
-              <Sparkline values={closes} />
+              {/* Below 360 px a sparkline cannot be read, and it squeezes the names. */}
+              <span className="hidden min-[360px]:block"><Sparkline values={closes} /></span>
               <div className="w-[76px] text-right">
                 <p className="num text-[13px]">{plain(h.close, 1)}</p>
                 <p className="text-[12px]"><Move value={h.ret_pct} /></p>

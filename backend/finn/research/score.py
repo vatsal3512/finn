@@ -38,13 +38,22 @@ PCT_TOLERANCE = 0.5  # screener.in rounds margins to whole percent
 class Actuals:
     """screener.in's tables for one company, by statement, line item and period."""
 
-    def __init__(self, conn: sqlite3.Connection, symbol: str):
+    def __init__(self, conn: sqlite3.Connection, symbol: str, basis: str | None = None):
+        """basis: consolidated or standalone; by default consolidated when there is one."""
+        if basis is None:
+            row = conn.execute(
+                "SELECT basis FROM financials WHERE symbol = ? GROUP BY basis "
+                "ORDER BY basis = 'consolidated' DESC LIMIT 1",
+                (symbol,),
+            ).fetchone()
+            basis = row[0] if row else "consolidated"
+        self.basis = basis
         self.values: dict[tuple[str, str, str], float] = {}
         self.url = None
         for st, item, period, value, url in conn.execute(
             "SELECT statement, line_item, period, value, source_url FROM financials "
-            "WHERE symbol = ? AND value IS NOT NULL",
-            (symbol,),
+            "WHERE symbol = ? AND basis = ? AND value IS NOT NULL",
+            (symbol, basis),
         ):
             self.values[(st, item, period)] = value
             self.url = url

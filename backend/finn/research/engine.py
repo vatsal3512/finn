@@ -252,11 +252,31 @@ def stream(
         "message": f"Collecting {symbol}'s call transcripts and annual report",
     }
     src = gather(conn, symbol, refresh)
+    act = Actuals(conn, symbol, src.basis)
+    parent = Actuals(conn, symbol, "standalone") if src.basis == "consolidated" else None
     if not src.transcripts:
-        yield {"stage": "error", "message": f"No readable call transcripts for {symbol}."}
+        # No calls means no promises to check, but the accounts still say whether profit
+        # turns into cash. A partial report beats a dead end.
+        src.notes.insert(0, f"{src.name} has not published earnings-call transcripts, so there are "
+                            "no management promises to check. The numbers below are from its accounts.")  # fmt: skip
+        cash = cashq.compute(act, src.is_bank, parent)
+        report = ResearchReport(
+            symbol=symbol, name=src.name, basis=src.basis, generated_at=now_iso(),
+            snapshot=_snapshot(act, None), narrative=None, promises=[], cash=cash, bull=[], bear=[],
+            notes=src.notes, documents=[],
+            stats=ResearchStats(calls_read=0, claims_found=0, quotes_verified=0, quotes_dropped=0,
+                                graded_by_code=0, graded_by_model=0, ai_calls=0, cached_calls=0,
+                                models=[], seconds=round(time.perf_counter() - t0, 1)),
+        )  # fmt: skip
+        if save_dir:
+            save_dir.mkdir(parents=True, exist_ok=True)
+            (save_dir / f"{symbol}.json").write_text(
+                report.model_dump_json(indent=1), encoding="utf-8"
+            )
+        yield {"stage": "done", "message": "Done: accounts only", "notes": src.notes,
+               "report": report.model_dump()}  # fmt: skip
         return
-    act = Actuals(conn, symbol)
-    cash = cashq.compute(act, src.is_bank)
+    cash = cashq.compute(act, src.is_bank, parent)
     yield {"stage": "cash", "message": f"{len(src.transcripts)} calls and "
            f"{'an annual report' if src.annual_report else 'no annual report'} found",
            "cash": cash.model_dump(), "snapshot": _snapshot(act, None).model_dump()}  # fmt: skip

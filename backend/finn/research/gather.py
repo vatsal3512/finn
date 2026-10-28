@@ -23,6 +23,7 @@ log = logging.getLogger(__name__)
 
 FRESH_HOURS = 12
 NSE_LOOKBACK_DAYS = 75
+RECENT_CALL_DAYS = 75  # a call this recent cannot have a newer one yet
 AR_PAGES_PER_SECTION = 3
 
 
@@ -44,11 +45,26 @@ def _months_between(a: str, b: str) -> int:
     return (int(b[:4]) - int(a[:4])) * 12 + int(b[5:7]) - int(a[5:7])
 
 
+def needs_nse_check(latest: str | None, today: date) -> bool:
+    """Only when screener.in's newest call is old enough that a newer one may exist.
+
+    NSE is a bonus source here, and under a burst of requests it throttles; its retries
+    then cost minutes. On 28 Oct a question asked alongside nine live research requests
+    waited over 120 seconds for it.
+    """
+    if not latest:
+        return True
+    y, m = (int(x) for x in latest.split("-"))
+    return (today - date(y, m, 15)).days > RECENT_CALL_DAYS
+
+
 def _newer_transcript_from_nse(conn: sqlite3.Connection, company) -> str | None:
     latest = conn.execute(
         "SELECT MAX(period) FROM documents WHERE symbol = ? AND kind = 'transcript'",
         (company.symbol,),
     ).fetchone()[0]
+    if not needs_nse_check(latest, date.today()):
+        return None
     try:
         items = filings.fetch_nse(
             company, date.today() - timedelta(days=NSE_LOOKBACK_DAYS), date.today()
@@ -87,13 +103,15 @@ def _is_fresh(conn: sqlite3.Connection, symbol: str) -> bool:
     return age < timedelta(hours=FRESH_HOURS)
 
 
-def gather(conn: sqlite3.Connection, symbol: str, refresh: bool = False) -> Sources:
+def gather(
+    conn: sqlite3.Connection, symbol: str, refresh: bool = False, check_nse: bool = True
+) -> Sources:
     company = fundamentals.company_for(symbol)
     notes = []
     if refresh or not _is_fresh(conn, company.symbol):
         stats = fundamentals.run(conn, company)
         notes += [f"Could not fetch {f}" for f in stats["failed"]]
-    newer = _newer_transcript_from_nse(conn, company)
+    newer = _newer_transcript_from_nse(conn, company) if check_nse else None
     if newer:
         notes.append(
             f"Newest transcript ({newer}) taken from NSE; screener.in had not listed it yet."
@@ -101,7 +119,9 @@ def gather(conn: sqlite3.Connection, symbol: str, refresh: bool = False) -> Sour
 
     row = conn.execute("SELECT * FROM companies WHERE symbol = ?", (company.symbol,)).fetchone()
     basis = conn.execute(
-        "SELECT basis FROM financials WHERE symbol = ? LIMIT 1", (company.symbol,)
+        "SELECT basis FROM financials WHERE symbol = ? GROUP BY basis "
+        "ORDER BY basis = 'consolidated' DESC LIMIT 1",
+        (company.symbol,),
     ).fetchone()
     src = Sources(
         symbol=company.symbol,
@@ -133,7 +153,7 @@ def gather(conn: sqlite3.Connection, symbol: str, refresh: bool = False) -> Sour
         src.notes.append(
             "No readable annual report: the bear case uses the calls and accounts only."
         )
-    if len(src.transcripts) < TRANSCRIPTS_PER_COMPANY:
+    if 0 < len(src.transcripts) < TRANSCRIPTS_PER_COMPANY:  # none at all is said by the engine
         src.notes.append(f"Only {len(src.transcripts)} readable call transcripts were available.")
     return src
 

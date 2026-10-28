@@ -25,6 +25,11 @@ export function ReportView({ r }: { r: ResearchReport }) {
     <div className="fade-in">
       <SnapshotHeader s={r.snapshot} />
 
+      {r.stats.calls_read === 0 ? (
+        // No earnings calls: nothing to hold management to, but the accounts still speak.
+        <p className="mx-4 mt-4 rounded-lg bg-warn-soft px-3 py-2.5 text-[14px] leading-snug text-warn">{r.notes?.[0]}</p>
+      ) : (
+      <>
       <SectionTitle aside={`${r.promises.length} promises from ${r.stats.calls_read} calls`}>Promised vs delivered</SectionTitle>
       <div className="mx-3 grid grid-cols-4 gap-2">
         <Tile n={count("missed")} label="Missed" tone="text-down" />
@@ -44,6 +49,8 @@ export function ReportView({ r }: { r: ResearchReport }) {
       )}
       {open.length > 0 && <Folded title={`${open.length} still open`} items={open} />}
       {unclear.length > 0 && <Folded title={`${unclear.length} that the documents do not settle`} items={unclear} />}
+      </>
+      )}
 
       <CashSection c={r.cash} />
 
@@ -57,7 +64,7 @@ export function ReportView({ r }: { r: ResearchReport }) {
         </>
       )}
 
-      {!!r.notes?.length && (
+      {!!r.notes?.length && r.stats.calls_read > 0 && (
         <ul className="mx-4 mt-5 space-y-1 text-[12px] text-warn">{r.notes!.map((n) => <li key={n}>{n}</li>)}</ul>
       )}
       <Method r={r} />
@@ -159,7 +166,7 @@ function Quote({ label, e }: { label: string; e: Evidence }) {
 export function CashSection({ c }: { c: CashQuality }) {
   return (
     <>
-      <SectionTitle aside={c.conversion_5y != null ? `5-year cash conversion ${pct(c.conversion_5y * 100, 0).replace("+", "")}` : undefined}>
+      <SectionTitle aside={c.conversion_5y != null ? `5-year cash conversion ${pct(c.conversion_5y * 100, 0).replace("+", "")}${c.parent_conversion_5y != null ? ` · parent alone ${Math.round(c.parent_conversion_5y * 100)}%` : ""}` : undefined}>
         Do profits turn into cash?
       </SectionTitle>
       <div className="mx-3 rounded-xl border border-line bg-surface p-4">

@@ -259,6 +259,10 @@ export interface CashQuality {
   reason?: string | null;
   years?: CashYear[];
   conversion_5y?: number | null;
+  /**
+   * the parent company alone, when its accounts tell a different story
+   */
+  parent_conversion_5y?: number | null;
   signals?: Evidence[];
   read?: string | null;
 }

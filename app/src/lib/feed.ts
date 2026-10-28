@@ -2,14 +2,7 @@
 // grouping of copies) is computed by the pipeline; this file only applies the time window.
 
 import type { Filing, ResultsCard } from "./contract";
-
-export const WINDOWS = [
-  { key: "24h", hours: 24, label: "24h", long: "the last 24 hours" },
-  { key: "3d", hours: 72, label: "3 days", long: "the last 3 days" },
-  { key: "7d", hours: 168, label: "7 days", long: "the last 7 days" },
-  { key: "30d", hours: 720, label: "30 days", long: "the last 30 days" },
-] as const;
-export type WindowKey = (typeof WINDOWS)[number]["key"];
+import { PRESETS, type PresetKey } from "./window";
 
 export const CATEGORY: Record<string, string> = {
   results: "Results",
@@ -31,13 +24,11 @@ export const CATEGORY: Record<string, string> = {
   unclassified: "Other",
 };
 
-export function hoursOf(key: WindowKey): number {
-  return WINDOWS.find((w) => w.key === key)!.hours;
-}
-
-export function within(filings: Filing[], hours: number, now: Date): Filing[] {
-  const since = now.getTime() - hours * 3_600_000;
-  return filings.filter((f) => new Date(f.filed_at).getTime() >= since);
+export function between(filings: Filing[], since: number, until: number): Filing[] {
+  return filings.filter((f) => {
+    const t = new Date(f.filed_at).getTime();
+    return t >= since && t <= until;
+  });
 }
 
 /** One card per event: copies of a letter and companion filings fold into the lead. */
@@ -58,9 +49,10 @@ export function todays3(filings: Filing[]): Filing[] {
  * when the data has not refreshed, the smallest window that has something worth seeing,
  * and the app says so rather than showing an empty screen.
  */
-export function openingWindow(filings: Filing[], now: Date): { key: WindowKey; widened: boolean } {
-  for (const w of WINDOWS) {
-    if (todays3(within(filings, w.hours, now)).length > 0) return { key: w.key, widened: w.key !== "24h" };
+export function openingWindow(filings: Filing[], now: Date): { key: PresetKey; widened: boolean } {
+  for (const w of PRESETS) {
+    const since = now.getTime() - w.hours * 3_600_000;
+    if (todays3(between(filings, since, now.getTime())).length > 0) return { key: w.key, widened: w.key !== "24h" };
   }
   return { key: "30d", widened: true };
 }

@@ -9,24 +9,26 @@ import {
 } from "@/lib/alerts";
 import { CATEGORY } from "@/lib/feed";
 import { sessionDay, times } from "@/lib/format";
+import { loadWindow, range, saveWindow, type Window } from "@/lib/window";
+import { WindowPicker } from "./WindowPicker";
 import { GlanceRow } from "./FilingCard";
 import { cx, Move, SectionTitle } from "./ui";
 
-const RECENT_DAYS = 7;
-const ALL_DAYS = 30;
+
 
 export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings: Holding[]; meta: Meta }) {
   const [now, setNow] = useState<Date | null>(null);
   const [seenBefore, setSeenBefore] = useState(0);
   const [s, setS] = useState<AlertSettings | null>(null);
   const [editing, setEditing] = useState(false);
-  const [days, setDays] = useState(RECENT_DAYS);
+  const [win, setWin] = useState<Window>({ key: "7d" });
 
   useEffect(() => {
     const n = Date.now();
     setNow(new Date(n));
     setSeenBefore(lastSeen(n)); // remember what was new on arrival, then clear the badge
     setS(loadSettings(meta.alert_defaults));
+    setWin(loadWindow() ?? { key: "7d" }); // the same window as Today, if one was chosen
     markSeen(n);
   }, [meta]);
 
@@ -35,9 +37,15 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
     saveSettings(next);
   }
 
+  function choose(w: Window) {
+    setWin(w);
+    saveWindow(w);
+  }
+
+  const r = now ? range(win, now) : null;
   const run = useMemo(
-    () => (now && s ? computeAlerts(holdings, feed, s, now.getTime() - days * 86_400_000) : null),
-    [now, s, holdings, feed, days],
+    () => (now && s ? computeAlerts(holdings, feed, s, range(win, now).since, range(win, now).until) : null),
+    [now, s, holdings, feed, win],
   );
 
   return (
@@ -91,7 +99,8 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
         <p className="px-4 py-10 text-center text-[13px] text-faint">Loading…</p>
       ) : (
         <>
-          <SectionTitle aside={`last ${days} days`}>{run.alerts.length} alerts</SectionTitle>
+          <div className="mt-4"><WindowPicker value={win} now={now} onChange={choose} /></div>
+          <SectionTitle aside={r?.long}>{run.alerts.length} alerts</SectionTitle>
           {run.alerts.length === 0 && (
             <p className="mx-4 text-[13px] text-muted">Nothing crossed your thresholds. Loosen them above to see more.</p>
           )}
@@ -113,11 +122,7 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
               </div>
             </section>
           ))}
-          {days === RECENT_DAYS && (
-            <button onClick={() => setDays(ALL_DAYS)} className="mx-4 mt-4 text-[13px] text-accent">
-              Show the last {ALL_DAYS} days
-            </button>
-          )}
+
           {run.skipped.length > 0 && (
             <p className="mx-4 mt-3 text-[12px] text-faint">
               Not alerted, because the move was a corporate action, not news:{" "}

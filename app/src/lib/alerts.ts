@@ -73,14 +73,15 @@ export function markSeen(t: number): void {
 }
 
 export function computeAlerts<F extends AlertFiling>(
-  holdings: AlertHolding[], filings: F[], s: AlertSettings, sinceMs: number,
+  holdings: AlertHolding[], filings: F[], s: AlertSettings, sinceMs: number, untilMs = Infinity,
 ): { alerts: Alert<F>[]; skipped: Skipped[] } {
   const alerts: Alert<F>[] = [];
   const skipped: Skipped[] = [];
   for (const h of holdings) {
     for (const p of h.series) {
       const at = `${p.date}T15:30:00+05:30`;
-      if (new Date(at).getTime() < sinceMs) continue;
+      const t = new Date(at).getTime();
+      if (t < sinceMs || t > untilMs) continue;
       const byPrice = p.ret_pct != null && Math.abs(p.ret_pct) >= s.pricePct;
       const byVolume = p.vol_ratio != null && p.vol_ratio >= s.volumeX;
       if (!byPrice && !byVolume) continue;
@@ -97,7 +98,8 @@ export function computeAlerts<F extends AlertFiling>(
   }
   for (const f of filings) {
     if (f.group_lead === false || f.duplicate_of) continue;
-    if (new Date(f.filed_at).getTime() < sinceMs) continue;
+    const ft = new Date(f.filed_at).getTime();
+    if (ft < sinceMs || ft > untilMs) continue;
     // Only material filings alert, as the brief asks; the rest wait in the digest.
     if (f.tier !== "must_see" || !s.categories.includes(f.category ?? "")) continue;
     alerts.push({ kind: "filing", id: f.id, at: f.filed_at, filing: f });

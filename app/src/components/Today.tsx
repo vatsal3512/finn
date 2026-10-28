@@ -4,10 +4,12 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { AskAnswer, Filing, Holding, Meta } from "@/lib/contract";
 import { computeAlerts, loadSettings, type PriceAlert } from "@/lib/alerts";
-import { CATEGORY, hoursOf, openingWindow, todays3, within, WINDOWS, type WindowKey } from "@/lib/feed";
+import { between, byScore, CATEGORY, openingWindow, todays3 } from "@/lib/feed";
 import { longDate, sessionDay, times } from "@/lib/format";
+import { loadWindow, range, saveWindow, type Window } from "@/lib/window";
 import { FilingCard, GlanceRow } from "./FilingCard";
-import { cx, Move, SectionTitle } from "./ui";
+import { Move, SectionTitle } from "./ui";
+import { WindowPicker } from "./WindowPicker";
 
 type Props = {
   feed: Filing[];
@@ -20,31 +22,43 @@ export function Today({ feed, holdings, meta, ask }: Props) {
   // "Now" is the phone's clock, so this renders after mount: a static page built hours
   // ago must not decide what "the last 24 hours" means.
   const [now, setNow] = useState<Date | null>(null);
-  const [win, setWin] = useState<WindowKey>("24h");
+  const [win, setWin] = useState<Window>({ key: "24h" });
   const [widened, setWidened] = useState(false);
   useEffect(() => {
     const n = new Date();
-    const open = openingWindow(feed, n);
     setNow(n);
-    setWin(open.key);
-    setWidened(open.widened);
+    const chosen = loadWindow();
+    if (chosen) {
+      setWin(chosen); // the investor's own choice stands, even if it is quiet
+    } else {
+      const open = openingWindow(feed, n);
+      setWin({ key: open.key });
+      setWidened(open.widened);
+    }
   }, [feed]);
+
+  function choose(w: Window) {
+    setWin(w);
+    setWidened(false);
+    saveWindow(w);
+  }
 
   const names = useMemo(() => Object.fromEntries(holdings.map((h) => [h.symbol, h.name])), [holdings]);
   const view = useMemo(() => {
     if (!now) return null;
-    const hours = hoursOf(win);
-    const inWin = within(feed, hours, now);
+    const r = range(win, now);
+    const inWin = between(feed, r.since, r.until);
     const top = todays3(inWin);
     const shown = new Set(top.map((f) => f.id));
     const rest = inWin.filter((f) => !shown.has(f.id)).sort((a, b) => b.filed_at.localeCompare(a.filed_at));
-    const s = loadSettings(meta.alert_defaults);
-    const moves = computeAlerts(holdings, [], s, now.getTime() - hours * 3_600_000).alerts as PriceAlert[];
+    const moves = computeAlerts(holdings, [], loadSettings(meta.alert_defaults), r.since, r.until).alerts as PriceAlert[];
     return {
+      long: r.long,
       top,
       glance: rest.filter((f) => f.tier !== "routine"),
       routine: rest.filter((f) => f.tier === "routine"),
       moves: moves.slice(0, 12),
+      latest: [...feed].sort(byScore).find((f) => f.tier === "must_see"),
     };
   }, [feed, holdings, meta, now, win]);
 
@@ -62,21 +76,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
         </p>
       </header>
 
-      <div className="px-4" role="tablist" aria-label="Time window">
-        <div className="grid grid-cols-4 rounded-lg bg-surface-2 p-0.5">
-          {WINDOWS.map((w) => (
-            <button
-              key={w.key}
-              role="tab"
-              aria-selected={win === w.key}
-              onClick={() => { setWin(w.key); setWidened(false); }}
-              className={cx("rounded-md py-1.5 text-[13px]", win === w.key ? "bg-surface font-semibold shadow-sm" : "text-muted")}
-            >
-              {w.label}
-            </button>
-          ))}
-        </div>
-      </div>
+      {now && <WindowPicker value={win} now={now} onChange={choose} />}
 
       {!view ? (
         <p className="px-4 py-10 text-center text-[13px] text-faint">Loading…</p>
@@ -84,7 +84,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
         <>
           {widened && (
             <p className="mx-4 mt-3 rounded-md bg-warn-soft px-3 py-2 text-[13px] text-warn">
-              Quiet: nothing must-see in the last 24 hours. Showing {WINDOWS.find((w) => w.key === win)!.long}.
+              Quiet: nothing must-see in the last 24 hours. Showing {view.long}.
             </p>
           )}
 
@@ -93,7 +93,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
               <SectionTitle aside={<Link href="/alerts" className="text-accent">Set thresholds</Link>}>Moves</SectionTitle>
               <div className="flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
                 {view.moves.map((m) => (
-                  <Link key={m.id} href={`/research/${m.symbol}`} className="shrink-0 rounded-lg border border-line bg-surface px-3 py-2">
+                  <Link key={m.id} href={`/research/${encodeURIComponent(m.symbol)}`} className="shrink-0 rounded-lg border border-line bg-surface px-3 py-2">
                     <div className="flex items-baseline gap-2">
                       <span className="ticker text-[12px]">{m.symbol}</span>
                       <Move value={m.ret} className="text-[14px] font-semibold" />
@@ -108,12 +108,17 @@ export function Today({ feed, holdings, meta, ask }: Props) {
           )}
 
           <SectionTitle aside={`${view.top.length} of ${view.top.length + view.glance.length + view.routine.length}`}>
-            {win === "24h" ? "Today's 3" : "Top 3"}
+            {win.key === "24h" ? "Today's 3" : "Top 3"}
           </SectionTitle>
           {view.top.length === 0 ? (
-            <p className="mx-4 rounded-lg border border-dashed border-line px-4 py-6 text-center text-[13px] text-muted">
-              Nothing must-see in {WINDOWS.find((w) => w.key === win)!.long}.
-            </p>
+            <div className="mx-4 rounded-lg border border-dashed border-line px-4 py-6 text-center text-[13px] text-muted">
+              <p>Nothing must-see in {view.long}.</p>
+              {view.latest && win.key !== "30d" && (
+                <button onClick={() => choose({ key: "30d" })} className="mt-2 text-accent">
+                  Show the last 30 days
+                </button>
+              )}
+            </div>
           ) : (
             view.top.map((f) => <FilingCard key={f.id} f={f} name={names[f.symbol]} now={now!} ask={ask[f.id]} />)
           )}

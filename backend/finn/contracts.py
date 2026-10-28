@@ -238,6 +238,9 @@ class CashQuality(BaseModel):
     reason: str | None = None
     years: list[CashYear] = Field(default_factory=list)
     conversion_5y: float | None = None
+    parent_conversion_5y: float | None = Field(
+        None, description="the parent company alone, when its accounts tell a different story"
+    )
     signals: list[Evidence] = Field(default_factory=list)
     read: str | None = None
 
