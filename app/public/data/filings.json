@@ -1,6 +1,117 @@
 {
  "filings": [
   {
+   "id": "nse:106832040",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T14:42:44+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Clarification on outcome of the meeting of the Board of Directors of Adani Enterprises Limited (the Company ) held on October 28, 2026",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026144227_AELBoardclarification.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Date correction in board meeting covering letter",
+    "summary": "The company clarified that the date in the board meeting covering letter should be read as October 28, 2026 instead of September 28, 2026.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-28",
+    "ret_pct": -0.382,
+    "vol_ratio": 0.987
+   },
+   "score": 0.0,
+   "group_id": "ADANIENT:unclassified:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": "nse:106832020"
+  },
+  {
+   "id": "nse:106832036",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T14:40:28+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Adani Enterprises Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026143849_AELsubmissionofPresentation.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Q2 FY27 Investor Presentation Submitted",
+    "summary": "Adani Enterprises submitted its investor presentation for the quarter and half year ended September 30, 2026.",
+    "why_it_matters": "EBITDA margin contracted to 14.8% from 15.6% a year ago, despite YoY revenue growth of 75.1% to ₹37,215.6 crore.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-28",
+    "ret_pct": -0.382,
+    "vol_ratio": 0.987
+   },
+   "score": 60.0,
+   "group_id": "ADANIENT:results:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832020",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T14:34:08+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Clarification on outcome of the meeting of the Board of Directors of Adani Enterprises Limited (the Company ) held on October 28, 2026",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026143212_AELBoardclarification.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Date correction in board meeting covering letter",
+    "summary": "The company clarified that the date in the board meeting covering letter should be read as October 28, 2026 instead of September 28, 2026.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-28",
+    "ret_pct": -0.382,
+    "vol_ratio": 0.987
+   },
+   "score": 0.0,
+   "group_id": "ADANIENT:unclassified:2026-10-28",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106831929",
    "symbol": "ADANIENT",
    "exchange": "NSE",
@@ -90,8 +201,8 @@
    ],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.655,
-    "vol_ratio": 0.86
+    "ret_pct": -0.382,
+    "vol_ratio": 0.987
    },
    "score": 120.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -120,8 +231,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.524,
-    "vol_ratio": 1.375
+    "ret_pct": 1.048,
+    "vol_ratio": 1.659
    },
    "score": 0.0,
    "group_id": "MARUTI:unclassified:2026-10-28",
@@ -157,8 +268,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.376,
-    "vol_ratio": 0.447
+    "ret_pct": 0.292,
+    "vol_ratio": 0.471
    },
    "score": 8.0,
    "group_id": "POLYCAB:litigation:2026-10-28",
@@ -187,8 +298,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.231,
-    "vol_ratio": 0.692
+    "ret_pct": 0.106,
+    "vol_ratio": 0.761
    },
    "score": 0.0,
    "group_id": "PAYTM:results:2026-10-28",
@@ -225,8 +336,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -2.809,
-    "vol_ratio": 1.046
+    "ret_pct": -3.035,
+    "vol_ratio": 1.222
    },
    "score": 20.0,
    "group_id": "RELIANCE:results:2026-10-27",
@@ -263,8 +374,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.524,
-    "vol_ratio": 1.375
+    "ret_pct": 1.048,
+    "vol_ratio": 1.659
    },
    "score": 20.0,
    "group_id": "MARUTI:results:2026-10-27",
@@ -293,8 +404,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 1.878,
-    "vol_ratio": 0.661
+    "ret_pct": 1.83,
+    "vol_ratio": 0.739
    },
    "score": 0.0,
    "group_id": "INDUSINDBK:unclassified:2026-10-27",
@@ -323,8 +434,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -2.809,
-    "vol_ratio": 1.046
+    "ret_pct": -3.035,
+    "vol_ratio": 1.222
    },
    "score": 0.0,
    "group_id": "RELIANCE:results:2026-10-27",
@@ -353,8 +464,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.376,
-    "vol_ratio": 0.447
+    "ret_pct": 0.292,
+    "vol_ratio": 0.471
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-27",
@@ -390,8 +501,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -1.066,
-    "vol_ratio": 2.86
+    "ret_pct": -1.026,
+    "vol_ratio": 2.976
    },
    "score": 50.0,
    "group_id": "MAZDOCK:dividend:2026-10-27",
@@ -420,8 +531,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.376,
-    "vol_ratio": 0.447
+    "ret_pct": 0.292,
+    "vol_ratio": 0.471
    },
    "score": 0.0,
    "group_id": "POLYCAB:unclassified:2026-10-27",
@@ -457,8 +568,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -1.066,
-    "vol_ratio": 2.86
+    "ret_pct": -1.026,
+    "vol_ratio": 2.976
    },
    "score": 50.0,
    "group_id": "MAZDOCK:investor_meetings:2026-10-27",
@@ -494,8 +605,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -1.066,
-    "vol_ratio": 2.86
+    "ret_pct": -1.026,
+    "vol_ratio": 2.976
    },
    "score": 50.0,
    "group_id": "MAZDOCK:dividend:2026-10-27",
@@ -525,7 +636,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -0.604,
-    "vol_ratio": 0.6
+    "vol_ratio": 0.651
    },
    "score": 0.0,
    "group_id": "ETERNAL:results:2026-10-27",
@@ -554,8 +665,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.231,
-    "vol_ratio": 0.692
+    "ret_pct": 0.106,
+    "vol_ratio": 0.761
    },
    "score": 0.0,
    "group_id": "PAYTM:unclassified:2026-10-27",
@@ -584,8 +695,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.231,
-    "vol_ratio": 0.692
+    "ret_pct": 0.106,
+    "vol_ratio": 0.761
    },
    "score": 0.0,
    "group_id": "PAYTM:unclassified:2026-10-27",
@@ -614,8 +725,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.199,
-    "vol_ratio": 0.37
+    "ret_pct": -0.311,
+    "vol_ratio": 0.388
    },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-10-27",
@@ -652,8 +763,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.524,
-    "vol_ratio": 1.375
+    "ret_pct": 1.048,
+    "vol_ratio": 1.659
    },
    "score": 60.0,
    "group_id": "MARUTI:results:2026-10-27",
@@ -689,8 +800,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.524,
-    "vol_ratio": 1.375
+    "ret_pct": 1.048,
+    "vol_ratio": 1.659
    },
    "score": 60.0,
    "group_id": "MARUTI:results:2026-10-27",
@@ -6367,7 +6478,24 @@
    "events": [
     "management_change"
    ],
-   "cards": [],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Dr. Rajesh Gharpure",
+       "role": "Chief Delivery Officer",
+       "change": "resignation",
+       "effective_date": "2026-10-14",
+       "reason": "due to personal reasons",
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      }
+     ]
+    }
+   ],
    "price_reaction": {
     "session": "2026-10-12",
     "ret_pct": 0.295,
