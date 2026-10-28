@@ -153,6 +153,7 @@ _RUPEES = (
     (re.compile(r"\b([\d,.]+) crores? rupees\b", re.I), r"₹\1 crore"),
     (re.compile(r"\b(?:INR|Rs\.?) ?([\d,.]+) ?crores?\b", re.I), r"₹\1 crore"),
     (re.compile(r"\bnegative ₹([\d,.]+)"), r"−₹\1"),
+    (re.compile(r"(?<![₹\d,.])(\d[\d,.]*) crores?\b"), r"₹\1 crore"),  # "14,553 crore"
 )
 
 

@@ -3,7 +3,7 @@
  "symbol": "EMUDHRA",
  "name": "eMudhra",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:06+00:00",
+ "generated_at": "2026-10-28T09:26:55+00:00",
  "snapshot": {
   "about": "eMudhra provides digital trust, identity, cybersecurity, and certificate lifecycle management solutions internationally.",
   "latest_quarter": "Q1 FY27",
@@ -485,6 +485,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.9
+  "seconds": 0.7
  }
 }

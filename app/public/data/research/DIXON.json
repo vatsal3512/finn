@@ -3,7 +3,7 @@
  "symbol": "DIXON",
  "name": "Dixon Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:25:59+00:00",
+ "generated_at": "2026-10-28T09:26:49+00:00",
  "snapshot": {
   "about": "Provider of electronics manufacturing services (EMS) across mobiles, IT hardware, telecom, home appliances, and lighting.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 156.4,
   "ebitda_margin": 3.0
  },
- "narrative": "Management delivered strong growth with Q1 FY27 revenue of 15,548 crore and profit of 718 crore. However, EBITDA margin of 3.0% diverges from their target of 4.0% to 4.5%, and FY27 telecom guidance was trimmed from 7,500-8,000 crore to 6,700-7,000 crore.",
+ "narrative": "Management delivered strong growth with Q1 FY27 revenue of ₹15,548 crore and profit of ₹718 crore. However, EBITDA margin of 3.0% diverges from their target of 4.0% to 4.5%, and FY27 telecom guidance was trimmed from 7,500-₹8,000 crore to 6,700-₹7,000 crore.",
  "promises": [
   {
    "id": "P18",
@@ -37,7 +37,7 @@
    },
    "verdict": "at_risk",
    "verdict_by": "model",
-   "note": "Full-year telecom target was lowered to 6,700-7,000 crores in Q1 FY27."
+   "note": "Full-year telecom target was lowered to 6,700-₹7,000 crore in Q1 FY27."
   },
   {
    "id": "P8",
@@ -61,7 +61,7 @@
    },
    "verdict": "met",
    "verdict_by": "model",
-   "note": "FY26 telecom revenue reached approximately 5,000 crores, coming close to the targeted 5,200 crores."
+   "note": "FY26 telecom revenue reached approximately ₹5,000 crore, coming close to the targeted ₹5,200 crore."
   },
   {
    "id": "P11",
@@ -85,7 +85,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Q1 FY27 IT hardware revenue of 1,350 crores puts the annual target on track."
+   "note": "Q1 FY27 IT hardware revenue of ₹1,350 crore puts the annual target on track."
   },
   {
    "id": "P13",
@@ -109,7 +109,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Q1 FY27 telecom revenue reached 2,100 crores, supporting high double-digit full-year growth expectations."
+   "note": "Q1 FY27 telecom revenue reached ₹2,100 crore, supporting high double-digit full-year growth expectations."
   },
   {
    "id": "P14",
@@ -133,7 +133,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Q1 FY27 IT hardware revenue of 1,350 crores supports triple-digit growth expectations."
+   "note": "Q1 FY27 IT hardware revenue of ₹1,350 crore supports triple-digit growth expectations."
   },
   {
    "id": "P16",
@@ -157,7 +157,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Q1 FY27 IT hardware revenue of 1,350 crores puts full-year target on track."
+   "note": "Q1 FY27 IT hardware revenue of ₹1,350 crore puts full-year target on track."
   },
   {
    "id": "P1",
@@ -538,11 +538,11 @@
     "url": "https://www.screener.in/company/DIXON/consolidated/"
    }
   ],
-  "read": "Profits reliably convert into cash. Operating cash flow of 4,515 crore over FY22 to FY26 fully covered cumulative reported net profit of 3,697 crore."
+  "read": "Profits reliably convert into cash. Operating cash flow of ₹4,515 crore over FY22 to FY26 fully covered cumulative reported net profit of ₹3,697 crore."
  },
  "bull": [
   {
-   "point": "IT hardware segment is expanding rapidly, with Q1 FY27 revenues reaching 1,350 crores, putting full-year growth targets on track.",
+   "point": "IT hardware segment is expanding rapidly, with Q1 FY27 revenues reaching ₹1,350 crore, putting full-year growth targets on track.",
    "evidence": [
     {
      "quote": "we expect 3x growth in the revenues in the current fiscal against last year with a huge uptake in order books from all customers",
@@ -607,7 +607,7 @@
  ],
  "bear": [
   {
-   "point": "Management lowered full-year FY27 telecom segment revenue guidance from 7,500-8,000 crores to 6,700-7,000 crores.",
+   "point": "Management lowered full-year FY27 telecom segment revenue guidance from 7,500-₹8,000 crore to 6,700-₹7,000 crore.",
    "evidence": [
     {
      "quote": "We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27",

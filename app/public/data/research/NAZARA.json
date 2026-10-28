@@ -3,7 +3,7 @@
  "symbol": "NAZARA",
  "name": "Nazara Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:06+00:00",
+ "generated_at": "2026-10-28T09:26:54+00:00",
  "snapshot": {
   "about": "Global gaming operating platform across mobile, PC, console, offline gaming, adtech, and sports media businesses.",
   "latest_quarter": "Q2 FY27",
@@ -400,6 +400,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.8
  }
 }

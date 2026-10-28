@@ -3,7 +3,7 @@
  "symbol": "RELIANCE",
  "name": "Reliance Industries",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:25:50+00:00",
+ "generated_at": "2026-10-28T09:26:41+00:00",
  "snapshot": {
   "about": "Reliance Industries operates in Oil-to-Chemicals, Retail, Digital Services (Jio), FMCG, Media, Oil & Gas, and New Energy.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": -24.6,
   "ebitda_margin": 15.0
  },
- "narrative": "Management reported strong top-line growth of 25% to 27% in Q1 FY27. However, while management claimed net profit grew 6% to 23,200 crore, reported net profit actually declined by 24.6% year-on-year to 23,196 crore.",
+ "narrative": "Management reported strong top-line growth of 25% to 27% in Q1 FY27. However, while management claimed net profit grew 6% to ₹23,200 crore, reported net profit actually declined by 24.6% year-on-year to ₹23,196 crore.",
  "promises": [
   {
    "id": "P3",
@@ -377,6 +377,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.9
  }
 }

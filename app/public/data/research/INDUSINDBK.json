@@ -3,7 +3,7 @@
  "symbol": "INDUSINDBK",
  "name": "IndusInd Bank",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:04+00:00",
+ "generated_at": "2026-10-28T09:26:52+00:00",
  "snapshot": {
   "about": null,
   "latest_quarter": "Q2 FY27",
@@ -319,6 +319,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.5
  }
 }

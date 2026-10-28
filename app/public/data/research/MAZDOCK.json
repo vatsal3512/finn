@@ -3,7 +3,7 @@
  "symbol": "MAZDOCK",
  "name": "Mazagon Dock",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:00+00:00",
+ "generated_at": "2026-10-28T09:26:50+00:00",
  "snapshot": {
   "about": "Constructs and repairs warships, submarines, commercial vessels, and offshore structures for defense and commercial clients.",
   "latest_quarter": "Q2 FY27",
@@ -615,6 +615,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.4
  }
 }

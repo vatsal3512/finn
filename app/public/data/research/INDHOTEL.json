@@ -3,7 +3,7 @@
  "symbol": "INDHOTEL",
  "name": "Indian Hotels",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:25:47+00:00",
+ "generated_at": "2026-10-28T09:26:38+00:00",
  "snapshot": {
   "about": "Indian Hotels Company Limited operates hotels, resorts, and hospitality services across various brands globally.",
   "latest_quarter": "Q2 FY27",
@@ -685,6 +685,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.8
  }
 }

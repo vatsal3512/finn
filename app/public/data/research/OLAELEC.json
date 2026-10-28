@@ -3,7 +3,7 @@
  "symbol": "OLAELEC",
  "name": "Ola Electric",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:05+00:00",
+ "generated_at": "2026-10-28T09:26:53+00:00",
  "snapshot": {
   "about": "Ola Electric manufactures electric two-wheelers, battery cells, and energy storage products.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": null,
   "ebitda_margin": -36.0
  },
- "narrative": "Management promised Q1 FY27 consolidated revenue of ₹500 to 550 crore, but reported only ₹455 crore, a 45% YoY decline. Profitability remains under pressure with net profit at ₹-336 crore and EBITDA margin at -36%.",
+ "narrative": "Management promised Q1 FY27 consolidated revenue of ₹500 to ₹550 crore, but reported only ₹455 crore, a 45% YoY decline. Profitability remains under pressure with net profit at ₹-₹336 crore and EBITDA margin at -36%.",
  "promises": [
   {
    "id": "P10",
@@ -115,7 +115,7 @@
    },
    "verdict": "at_risk",
    "verdict_by": "model",
-   "note": "Management raised quarterly opex guidance to ₹350 crore in Q4 FY26 and ₹300-325 crore in Q1 FY27."
+   "note": "Management raised quarterly opex guidance to ₹350 crore in Q4 FY26 and ₹300-₹325 crore in Q1 FY27."
   },
   {
    "id": "P11",
@@ -139,7 +139,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Maintenance capex guidance of ₹50 crore re-affirmed at ₹30-50 crore in Q1 FY27."
+   "note": "Maintenance capex guidance of ₹50 crore re-affirmed at ₹30-₹50 crore in Q1 FY27."
   },
   {
    "id": "P7",
@@ -163,7 +163,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Quarterly opex guided towards ₹350 crore and subsequently targeted at ₹300-325 crore range in Q1 FY27."
+   "note": "Quarterly opex guided towards ₹350 crore and subsequently targeted at ₹300-₹325 crore range in Q1 FY27."
   },
   {
    "id": "P6",
@@ -187,7 +187,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Monthly opex target of ₹100-120 crore aligns with Q1 FY27 guidance of ₹300-325 crore."
+   "note": "Monthly opex target of ₹100-₹120 crore aligns with Q1 FY27 guidance of ₹300-₹325 crore."
   },
   {
    "id": "P8",
@@ -572,6 +572,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.7
  }
 }

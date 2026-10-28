@@ -3,7 +3,7 @@
  "symbol": "ADANIENT",
  "name": "Adani Enterprises",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:25:56+00:00",
+ "generated_at": "2026-10-28T09:26:46+00:00",
  "snapshot": {
   "about": "Adani Enterprises Limited operates an infrastructure-focused incubator portfolio spanning energy, utilities, transport, logistics, and primary industry.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": -249.8,
   "ebitda_margin": 15.0
  },
- "narrative": "Management met airport traffic targets with 95.3 million passengers in FY26 against their guidance of just short of 100 million. However, Q1 FY27 posted a net loss of 1,462 crore despite revenue growing 49.9% to 32,924 crore.",
+ "narrative": "Management met airport traffic targets with 95.3 million passengers in FY26 against their guidance of just short of 100 million. However, Q1 FY27 posted a net loss of ₹1,462 crore despite revenue growing 49.9% to ₹32,924 crore.",
  "promises": [
   {
    "id": "P6",
@@ -37,7 +37,7 @@
    },
    "verdict": "met",
    "verdict_by": "model",
-   "note": "Expensed capex on coal-to-PVC business reached approximately 9,000 crores by 9M FY26."
+   "note": "Expensed capex on coal-to-PVC business reached approximately ₹9,000 crore by 9M FY26."
   },
   {
    "id": "P9",
@@ -85,7 +85,7 @@
    },
    "verdict": "met",
    "verdict_by": "model",
-   "note": "Matches guidance of adding 9,000 crores capex for the PVC business."
+   "note": "Matches guidance of adding ₹9,000 crore capex for the PVC business."
   },
   {
    "id": "P2",
@@ -466,7 +466,7 @@
  },
  "bull": [
   {
-   "point": "Airport segment demonstrated strong operational momentum, achieving 95.3 million passengers and 5,394 crore EBITDA in FY26.",
+   "point": "Airport segment demonstrated strong operational momentum, achieving 95.3 million passengers and ₹5,394 crore EBITDA in FY26.",
    "evidence": [
     {
      "quote": "Financial performance during '25-'26, we had passenger traffic of 95.3 million passengers, total income of INR13,081 crores, up by 28% year-over-year",
@@ -483,7 +483,7 @@
    ]
   },
   {
-   "point": "Cumulative five-year operating cash flow of 36,193 crore comfortably covered total reported profits of 24,501 crore.",
+   "point": "Cumulative five-year operating cash flow of ₹36,193 crore comfortably covered total reported profits of ₹24,501 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹36,193 crore covered all of reported profit, ₹24,501 crore.",
@@ -507,7 +507,7 @@
  ],
  "bear": [
   {
-   "point": "Massive capital expenditure generated severe cash drain, resulting in negative total free cash flow of 75,217 crore across four of the last five years.",
+   "point": "Massive capital expenditure generated severe cash drain, resulting in negative total free cash flow of ₹75,217 crore across four of the last five years.",
    "evidence": [
     {
      "quote": "Free cash flow was negative in 4 of 5 years, −₹75,217 crore in total.",
@@ -588,6 +588,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.2
+  "seconds": 1.1
  }
 }

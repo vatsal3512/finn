@@ -3,7 +3,7 @@
  "symbol": "ETERNAL",
  "name": "Eternal",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:25:55+00:00",
+ "generated_at": "2026-10-28T09:26:45+00:00",
  "snapshot": {
   "about": "Eternal operates food delivery, quick commerce (Blinkit), and other technology platforms in India.",
   "latest_quarter": "Q2 FY27",
@@ -37,7 +37,7 @@
    },
    "verdict": "at_risk",
    "verdict_by": "model",
-   "note": "Adding 200 stores on 700 crore capex implies 3.5 crore per store versus 2.5 crore target."
+   "note": "Adding 200 stores on ₹700 crore capex implies ₹3.5 crore per store versus ₹2.5 crore target."
   },
   {
    "id": "P2",
@@ -579,6 +579,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 0.7
  }
 }

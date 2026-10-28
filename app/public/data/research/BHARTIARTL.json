@@ -3,7 +3,7 @@
  "symbol": "BHARTIARTL",
  "name": "Bharti Airtel",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:25:51+00:00",
+ "generated_at": "2026-10-28T09:26:42+00:00",
  "snapshot": {
   "about": "Telecom services provider offering mobile, fixed line, digital, B2B, cloud, data centers, and financial services.",
   "latest_quarter": "Q1 FY27",
@@ -330,6 +330,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.1
+  "seconds": 0.6
  }
 }

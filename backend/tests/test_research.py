@@ -307,3 +307,9 @@ def test_rupee_targets_show_in_crore_and_cash_promises_as_positive():
 def test_dollar_targets_read_in_dollars():
     assert target_text(_claim(low=1000, unit="million USD", basis="USD")) == "≥ $1,000 million"
     assert target_text(_claim(low=1, high=1, unit="billion", basis="USD")) == "$1 billion"
+
+
+def test_bare_crore_amounts_get_the_rupee_sign_once():
+    assert _prose("revenue reached 14,553 crore; capex of 570 crores; cash ₹615 crore") == (
+        "revenue reached ₹14,553 crore; capex of ₹570 crore; cash ₹615 crore"
+    )
