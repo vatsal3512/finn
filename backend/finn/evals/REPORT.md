@@ -32,60 +32,82 @@ category so that rare kinds appear. Each was labelled by reading the whole filin
 annexures included, against FINN's own tier definitions. Where two labels are both
 defensible, both count as right; `golden_triage.json` gives the reason for each.
 
-| | Category right | Tier right | Both right |
+The app's data is written by the scheduled cloud refresh, which keeps its own database.
+So we scored three things: what the app shows, what the same code produced in a local
+run, and three fresh runs with the cache bypassed.
+
+| Answers | Category right | Tier right | Both right |
 |---|---|---|---|
-| Answer shipped in the app | 19 of 19 | 17 of 19 | 17 of 19 |
+| **Shown in the app** (cloud refresh, 28 Oct 15:02 UTC) | 17 of 19 | 17 of 19 | **15 of 19** |
+| Same code, local run | 19 of 19 | 17 of 19 | 17 of 19 |
 | Fresh run 1 | 18 of 19 | 18 of 19 | 17 of 19 |
 | Fresh run 2 | 18 of 19 | 18 of 19 | 17 of 19 |
 | Fresh run 3 | 18 of 19 | 18 of 19 | 17 of 19 |
 
-The misses:
+The misses in the app:
 
-- **Dixon's guarantee** of up to US$7 million for a subsidiary was rated must-see in all
-  four answers. It is about ₹60 crore against revenue of about ₹51,600 crore. The amount
-  sat in an annexure past the 1,800 characters the model reads, so it judged blind. Fixed:
-  see section 6.
+- **Ola Electric's ₹1,000 crore rights issue is shown at "glance".** Its own "why it
+  matters" says the raise is over half of annual revenue, so the tier contradicts the
+  text. All three fresh runs said must-see.
+- **Adani's MoU with Jabil is shown as must-see.** It is a non-binding MoU with no
+  amount. This answer came from the Groq fallback, used when Gemini was busy.
+- **Two categories are wrong.** Paytm's "board meeting closed at 10:15 pm" is called a
+  management change. HDFC Bank's newspaper notice on transferring physical shares is
+  called a postal ballot.
+
+The misses elsewhere:
+
+- **Dixon's guarantee** of up to US$7 million for a subsidiary was rated must-see in the
+  local run and in all three fresh runs. It is about ₹60 crore against revenue of about
+  ₹51,600 crore. The amount sat in an annexure past the 1,800 characters the model reads,
+  so it judged blind. Fixed: see section 6.
 - **Airtel's two DoT penalties** (₹1.41 lakh and ₹2.12 lakh) were rated must-see in the
-  shipped answer, which came from Flash-Lite standing in while Flash was busy. All three
-  fresh Flash runs rated them routine, which is right.
+  local run, by Flash-Lite standing in while Flash was busy. Flash rated them routine
+  every time, which is right.
 - **HDFC Bank's quarterly business update** was called "unclassified" in all three fresh
-  runs; our label accepts "press release" or "results". Defensible either way, and we did
-  not move the label after seeing the answers.
+  runs; our label accepts "press release" or "results". Defensible either way, and no label
+  was moved after seeing the answers.
 
 ## 2. Is it made up?
 
 ### Push cards
 
-Code checked every number and name in all 126 shipped Push cards against what the model
-was given and the full filing. 8 were flagged, and each was read by hand:
+Code checked every number and name in every AI answer against what the model was given
+and the full filing: 125 answers in the app, and 126 from the local run.
 
 | Flag | What it was | Verdict |
 |---|---|---|
-| Ola Electric "53% of annual revenue" (two cards) | The model's own division: 1,000 ÷ 1,880 | Correct |
-| Sun Pharma "16.7%", eMudhra "4.70%" | The same kind of division | Correct |
-| **Polycab "~0.00008% of revenue"** | ₹2.79 crore ÷ ₹34,609 crore is **0.008%** | **Wrong by 100×.** Fixed: code now checks every share of revenue |
+| Ola "over 50%" / "53%", Sun Pharma "16.7%", eMudhra "4.70%", Mazagon "nearly 10%" of revenue | The model's own division | Correct |
+| Maruti production "up about 19.9%" | 242,011 against 201,915 | Correct |
+| **Polycab "~0.00008% of revenue"** (local run) | ₹2.79 crore ÷ ₹34,609 crore is **0.008%** | **Wrong by 100×.** Fixed: code now checks every share of revenue |
+| **Adani "facilities totalling ₹25,749.96 crore"** (app) | The filing prints no total; no sum of its rows gives this | **Wrong: the model added the rows itself, against the rules** |
 | Nazara "Rohit Sharma" | The scanned letter reads "Roh it Shanna" | Correct: the model repaired the OCR |
-| "PAT", "MD", "NCD" | Abbreviations the source spells out | Checker false alarm |
+| "PAT", "MD", "NCD", "Sri Lankan" | Abbreviations, or a word form the source uses ("Sri Lanka") | Checker false alarm |
 
-Reading the golden set by hand found one error the code check could not: the excerpt was
-cut inside a number, so Airtel's "Rs.1,41,000" reached the model as "Rs.1,41", and all three
-fresh runs wrote "a penalty of Rs.1,41". Code found the figure "in the source" because the
-broken figure *was* the source. Fixed: section 6.
+Reading the golden set by hand found an error the code check could not: the excerpt was
+cut inside a number, so Airtel's "Rs.1,41,000" reached the model as "Rs.1,41". All three
+fresh runs wrote "a penalty of Rs.1,41". The app's card says instead that "the full amount
+is truncated in the text", which is honest but unhelpful. Code found the figure "in the
+source" because the broken figure *was* the source. Fixed: section 6.
 
-The second model (Groq's gpt-oss-120b; FINN writes with Gemini) read each of the 19 shipped
-answers against the full filing:
+The second model (Groq's gpt-oss-120b; FINN writes with Gemini) read the 19 answers shown
+in the app against the full filing:
 
-- **Relevant:** 19 of 19 summaries say what happened.
-- **Why it matters adds a fact:** 7 of 7 where one was written.
-- **Tier fair:** 14 of 19. Two are FINN's real misses above (Dixon, Airtel). Two disagree
-  with FINN's rule that a results press release is worth a glance, because the results
-  statement itself is the must-see. One (Sun Pharma's AAA rating) gave no reason.
-- **Unsupported statements:** flagged in 5. One was real but minor: a title said HDFC
-  Bank's Deputy MD "resigns" where the filing says he asked to step down. One was the
-  correct Ola ratio. Three were the checker's errors: Polycab's 52.8% growth against the
-  press release's rounded 53% (FINN used the exact exchange figures); Anup Bagchi's ICICI
-  background (FINN was given it from his appointment filing); "Q2 FY27" for the quarter
-  ended 30 September 2026.
+- **Relevant:** 18 of 19 summaries say what happened. The 19th is Airtel's "amount is
+  truncated".
+- **Why it matters adds a fact:** 6 of the 7 written.
+- **Tier fair:** 14 of 19. Ola's rights issue and Dixon's guarantee are FINN's real misses.
+  Two disagree with FINN's rule that a results press release is worth a glance, because
+  the results statement itself is the must-see. One wants HDFC Bank's business update
+  higher.
+- **Wrong or unsupported statements:** flagged in 7.
+  - Real, both minor: Sun Pharma's title says its NCD ratings were "reaffirmed", but the
+    new NCDs were *assigned* a rating. And Airtel's "truncated" line.
+  - The checker's own errors: Polycab's 52.8% growth against the press release's rounded
+    53% (FINN uses the exact exchange figures); Anup Bagchi's ICICI background (FINN was
+    given it from his appointment filing); Sun's Organon acquisition (the filing names it);
+    "Q2 FY27" for the quarter ended 30 September 2026, twice.
+  - Ola's "over half of annual revenue": correct.
 
 ### Research reports and "Was this expected?" answers
 
@@ -140,10 +162,11 @@ by design: code assigns the period from the call's date.
 
 ## 3. Is it useful?
 
-On the 19 golden filings, "why it matters" was left empty in 11 shipped answers. That is the
-prompt working: it must be empty rather than say something generic. Where written, 7 of 7
-carried a specific figure or name, and none repeated the summary. In the fresh runs, 0 to 2
-per run repeated the summary.
+On the 19 golden filings, "why it matters" was left empty in 12 of the answers in the app
+(11 in the local run). That is the prompt working: it must be left empty rather than say
+something generic. Where it was written, 6 of 7 in the app carried a specific figure or
+name (7 of 7 locally), and none repeated the summary. In the fresh runs, 0 to 2 per run
+repeated the summary.
 
 ## 4. Is it repeatable?
 
@@ -154,6 +177,28 @@ per run repeated the summary.
   and Sun Pharma's professorship press release moved between routine and glance, and
   Paytm's board-meeting notice between "unclassified" and "results".
 - No run changed whether an answer was right.
+
+**Production is less steady than that.** The app's answers and the local run's answers
+come from the same prompt (version 7), but they were made on different days, and
+different models answered: Flash, Flash-Lite standing in when Flash was busy, or the Groq
+fallback. They disagree on **8 of the 19** filings:
+
+| Which answer was right | Filings |
+|---|---|
+| The app's, not the local run's | 2: Dixon, Airtel |
+| The local run's, not the app's | 4: Ola's rights issue, Adani's MoU, Paytm, HDFC's notice |
+| Both acceptable | 2 |
+
+The controlled test gives each filing the same model three times. Production does not,
+so which model answered matters more than the run-to-run noise of any one model. Two
+things follow from this:
+
+1. An important filing answered by Flash-Lite standing in is already asked again until
+   Flash answers. The Groq fallback's answers are not: they are cached as final. Treating
+   them as stand-ins too is the next step. The cache already marks them as degraded, so
+   this means re-asking past those rows.
+2. Re-scoring the app after the version 8 re-read (section 6) tells us whether the fixes
+   helped, measured on what users actually see.
 
 **Research:** the full pipeline (every call read afresh, then judged afresh) was started on
 Kaynes and Asian Paints, three runs each. It stopped when the free tier's daily quota ran

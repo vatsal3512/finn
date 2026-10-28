@@ -13,7 +13,7 @@ from collections import Counter
 from pathlib import Path
 
 from finn.ai.llm import LLM, AIUnavailable, Tier
-from finn.config import DATA_DIR
+from finn.config import DATA_DIR, EXPORT_DIR
 from finn.enrich import triage
 from finn.evals import checks, second
 from finn.store import connect
@@ -81,14 +81,8 @@ def run(runs: int = 3, second_model: bool = True) -> dict:
     batches = [(Tier.FLASH, important[k : k + b]) for k in range(0, len(important), b)]
     batches += [(Tier.LITE, rest[k : k + b]) for k in range(0, len(rest), b)]
 
-    answers: dict[str, dict] = {"shipped": {}}
-    for r in conn.execute(
-        f"SELECT * FROM filing_insights WHERE filing_id IN ({','.join('?' * len(ids))})", ids
-    ):
-        answers["shipped"][r["filing_id"]] = {
-            "category": r["category"], "tier": r["tier"], "title": r["title"],
-            "summary": r["summary"], "why": r["why_it_matters"], "model": r["model"],
-        }  # fmt: skip
+    app = in_app()
+    answers: dict[str, dict] = {"shipped": {i: _shown(app[i]) for i in ids if i in app}}
     llm = LLM.from_env(conn)
     for k in range(1, runs + 1):
         print(f"triage run {k} of {runs}")
@@ -159,19 +153,32 @@ def summarise(per_filing: list[dict], names: list[str]) -> dict:
     return out
 
 
+def in_app() -> dict[str, dict]:
+    """What users see: the app's own data, written by the scheduled cloud refresh. Its
+    database is not this machine's, so its answers can differ from a local run's."""
+    data = json.loads((EXPORT_DIR / "filings.json").read_text(encoding="utf-8"))
+    return {f["id"]: f for f in data["filings"] if f.get("insight")}
+
+
+def _shown(f: dict) -> dict:
+    ins = f["insight"]
+    return {"category": f["category"], "tier": f["tier"], "title": ins["title"],
+            "summary": ins["summary"], "why": ins["why_it_matters"], "model": ins["model"]}  # fmt: skip
+
+
 def all_shipped(conn) -> dict:
-    """The code checks need no labels, so they run over every AI answer in the app."""
-    rows = conn.execute(
-        "SELECT f.*, i.title AS i_title, i.summary AS i_summary, i.why_it_matters AS i_why "
-        "FROM filing_insights i JOIN filings f ON f.id = i.filing_id"
-    ).fetchall()
-    flags, n = [], 0
-    for f in rows:
-        n += 1
-        ref = checks.Reference(triage._item(conn, f), _full_text(f))
-        g = _grounding({"title": f["i_title"], "summary": f["i_summary"], "why": f["i_why"]}, ref)
+    """The code checks need no labels, so they run over every AI answer in the app.
+    Copies of one letter share an answer, so each answer is checked once."""
+    flags, seen = [], set()
+    for fid, f in in_app().items():
+        row = conn.execute("SELECT * FROM filings WHERE id = ?", (fid,)).fetchone()
+        a = _shown(f)
+        if row is None or (f["symbol"], a["summary"]) in seen:  # no local text to check against
+            continue
+        seen.add((f["symbol"], a["summary"]))
+        g = _grounding(a, checks.Reference(triage._item(conn, row), _full_text(row)))
         if g["ungrounded_numbers"] or g["ungrounded_names"]:
-            flags.append({"id": f["id"], "symbol": f["symbol"], "numbers": g["ungrounded_numbers"],
+            flags.append({"id": fid, "symbol": f["symbol"], "numbers": g["ungrounded_numbers"],
                           "names": g["ungrounded_names"],
-                          "text": " | ".join(filter(None, (f["i_title"], f["i_summary"], f["i_why"])))})  # fmt: skip
-    return {"answers": n, "flagged": len(flags), "flags": flags}
+                          "text": " | ".join(filter(None, (a["title"], a["summary"], a["why"])))})  # fmt: skip
+    return {"answers": len(seen), "flagged": len(flags), "flags": flags}
