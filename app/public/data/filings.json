@@ -1,6 +1,260 @@
 {
  "filings": [
   {
+   "id": "nse:106833038",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T19:24:26+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Adani Enterprises Limited has informed the Exchange about Link of Recording",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026192346_SubmissionofAudioRecordingofInvCall28102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "ADANIENT:results:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106833000",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T19:09:29+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Schedule of meet.",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_28102026185916_AirtelSTXEarningCallIntimation.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:results:2026-10-28",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832899",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T18:44:12+05:30",
+   "exchange_label": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "headline": "Adani Enterprises Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "compliance",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026184358_RightsIssue.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "ADANIENT:unclassified:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832887",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T18:42:23+05:30",
+   "exchange_label": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "headline": "Adani Enterprises Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "compliance",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026184213_qip.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "ADANIENT:unclassified:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832611",
+   "symbol": "POLYCAB",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T17:43:39+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "analyst_meet_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026174326_Intimationtostockexchange.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
+   "insight": null,
+   "events": [
+    "investor_meetings"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "POLYCAB:investor_meetings:2026-10-28",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832556",
+   "symbol": "NAZARA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T17:28:59+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Nazara Technologies Limited informs the Exchange about Copy of Newspaper Publication",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_28102026172729_NewspaperPublicationfinal.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "NAZARA:unclassified:2026-10-28",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832366",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T16:46:10+05:30",
+   "exchange_label": "Press Release (Revised)",
+   "headline": "Adani Enterprises Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release\".",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026164539_AELsubmissionofMediaRelease30092026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Revised media release for Q2 FY27 results",
+    "summary": "Revenue grew 75.1% YoY to ₹37,215.6 crore, while profit after tax fell 64.2% YoY to ₹1,221.0 crore in Q2 FY27.",
+    "why_it_matters": "The company reported its highest-ever half-yearly EBITDA of Rs. 11,958 cr, up 56% YoY, excluding a one-time OFAC settlement of Rs. 2,644 cr.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "ADANIENT:results:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832217",
+   "symbol": "MAZDOCK",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T15:56:13+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Mazagon Dock Shipbuilders Limited has informed the Exchange about Copy of Newspaper Publication for Unaudited Financial Results for the quarter ended 30 September 2026.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_28102026155600_Newspaper_Advertisement.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "MAZDOCK:unclassified:2026-10-28",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106832118",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-28T15:22:24+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Adani Enterprises Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Press Release\".",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026152205_AELsubmissionofMediaRelease30092026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Media release for Q2 FY27 financial results",
+    "summary": "Revenue increased 75.1% YoY to ₹37,215.6 crore, while profit after tax declined 64.2% YoY to ₹1,221.0 crore in Q2 FY27.",
+    "why_it_matters": "The company reported its highest-ever half-yearly EBITDA of Rs. 11,958 cr, up 56% YoY, excluding a one-time OFAC settlement of Rs. 2,644 cr.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-28",
+    "ret_pct": -0.41,
+    "vol_ratio": 1.098
+   },
+   "score": 60.0,
+   "group_id": "ADANIENT:results:2026-10-28",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106832040",
    "symbol": "ADANIENT",
    "exchange": "NSE",
@@ -29,8 +283,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.382,
-    "vol_ratio": 0.987
+    "ret_pct": -0.41,
+    "vol_ratio": 1.098
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -66,8 +320,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.382,
-    "vol_ratio": 0.987
+    "ret_pct": -0.41,
+    "vol_ratio": 1.098
    },
    "score": 60.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -103,8 +357,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.382,
-    "vol_ratio": 0.987
+    "ret_pct": -0.41,
+    "vol_ratio": 1.098
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -201,8 +455,8 @@
    ],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.382,
-    "vol_ratio": 0.987
+    "ret_pct": -0.41,
+    "vol_ratio": 1.098
    },
    "score": 120.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -231,8 +485,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 1.048,
-    "vol_ratio": 1.659
+    "ret_pct": 1.127,
+    "vol_ratio": 1.965
    },
    "score": 0.0,
    "group_id": "MARUTI:unclassified:2026-10-28",
@@ -268,8 +522,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.292,
-    "vol_ratio": 0.471
+    "ret_pct": -0.492,
+    "vol_ratio": 0.566
    },
    "score": 8.0,
    "group_id": "POLYCAB:litigation:2026-10-28",
@@ -298,8 +552,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.106,
-    "vol_ratio": 0.761
+    "ret_pct": 1.867,
+    "vol_ratio": 0.945
    },
    "score": 0.0,
    "group_id": "PAYTM:results:2026-10-28",
@@ -336,8 +590,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -3.035,
-    "vol_ratio": 1.222
+    "ret_pct": -3.193,
+    "vol_ratio": 1.463
    },
    "score": 20.0,
    "group_id": "RELIANCE:results:2026-10-27",
@@ -374,8 +628,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 1.048,
-    "vol_ratio": 1.659
+    "ret_pct": 1.127,
+    "vol_ratio": 1.965
    },
    "score": 20.0,
    "group_id": "MARUTI:results:2026-10-27",
@@ -404,8 +658,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 1.83,
-    "vol_ratio": 0.739
+    "ret_pct": 2.124,
+    "vol_ratio": 0.831
    },
    "score": 0.0,
    "group_id": "INDUSINDBK:unclassified:2026-10-27",
@@ -434,8 +688,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -3.035,
-    "vol_ratio": 1.222
+    "ret_pct": -3.193,
+    "vol_ratio": 1.463
    },
    "score": 0.0,
    "group_id": "RELIANCE:results:2026-10-27",
@@ -464,8 +718,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.292,
-    "vol_ratio": 0.471
+    "ret_pct": -0.492,
+    "vol_ratio": 0.566
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-27",
@@ -501,8 +755,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -1.026,
-    "vol_ratio": 2.976
+    "ret_pct": -1.209,
+    "vol_ratio": 3.211
    },
    "score": 50.0,
    "group_id": "MAZDOCK:dividend:2026-10-27",
@@ -531,8 +785,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.292,
-    "vol_ratio": 0.471
+    "ret_pct": -0.492,
+    "vol_ratio": 0.566
    },
    "score": 0.0,
    "group_id": "POLYCAB:unclassified:2026-10-27",
@@ -568,8 +822,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -1.026,
-    "vol_ratio": 2.976
+    "ret_pct": -1.209,
+    "vol_ratio": 3.211
    },
    "score": 50.0,
    "group_id": "MAZDOCK:investor_meetings:2026-10-27",
@@ -605,8 +859,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -1.026,
-    "vol_ratio": 2.976
+    "ret_pct": -1.209,
+    "vol_ratio": 3.211
    },
    "score": 50.0,
    "group_id": "MAZDOCK:dividend:2026-10-27",
@@ -635,8 +889,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.604,
-    "vol_ratio": 0.651
+    "ret_pct": -1.511,
+    "vol_ratio": 0.779
    },
    "score": 0.0,
    "group_id": "ETERNAL:results:2026-10-27",
@@ -665,8 +919,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.106,
-    "vol_ratio": 0.761
+    "ret_pct": 1.867,
+    "vol_ratio": 0.945
    },
    "score": 0.0,
    "group_id": "PAYTM:unclassified:2026-10-27",
@@ -695,8 +949,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 0.106,
-    "vol_ratio": 0.761
+    "ret_pct": 1.867,
+    "vol_ratio": 0.945
    },
    "score": 0.0,
    "group_id": "PAYTM:unclassified:2026-10-27",
@@ -725,8 +979,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": -0.311,
-    "vol_ratio": 0.388
+    "ret_pct": -0.324,
+    "vol_ratio": 0.446
    },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-10-27",
@@ -763,8 +1017,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 1.048,
-    "vol_ratio": 1.659
+    "ret_pct": 1.127,
+    "vol_ratio": 1.965
    },
    "score": 60.0,
    "group_id": "MARUTI:results:2026-10-27",
@@ -800,8 +1054,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-28",
-    "ret_pct": 1.048,
-    "vol_ratio": 1.659
+    "ret_pct": 1.127,
+    "vol_ratio": 1.965
    },
    "score": 60.0,
    "group_id": "MARUTI:results:2026-10-27",
