@@ -56,7 +56,12 @@ jobs:
         env:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
-        run: uv run python -m finn.refresh | tee ../data/last-run.json
+        # data/ does not exist on a fresh runner, and tee opens its file before Python
+        # creates the folder. Without this line tee exits 1, which fails the step even
+        # when every stage succeeded (first cloud run, 28 Oct 2026).
+        run: |
+          mkdir -p ../data
+          uv run python -m finn.refresh | tee ../data/last-run.json
 
       - name: Report which sources worked from the cloud
         if: always()
