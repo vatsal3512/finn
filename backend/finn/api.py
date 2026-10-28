@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import re
 from datetime import UTC, datetime, timedelta
 
@@ -69,7 +70,12 @@ def _cached(symbol: str, max_age: timedelta) -> dict | None:
 
 @app.get("/api/health")
 def health(deep: bool = False) -> dict:
-    out = {"ok": True, "keys": env_summary(), "blob": blobstore.enabled()}  # counts, never keys
+    out = {
+        "ok": True,
+        "commit": os.environ.get("VERCEL_GIT_COMMIT_SHA", "local")[:7],  # which deploy answered
+        "keys": env_summary(),  # counts, never the keys
+        "blob": blobstore.enabled(),
+    }
     if deep:
         out["blob_check"] = blobstore.check()
     return out
