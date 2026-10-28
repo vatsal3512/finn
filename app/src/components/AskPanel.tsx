@@ -18,27 +18,21 @@ export function AskPanel({ filing, ready }: { filing: Filing; ready?: AskAnswer 
 }
 
 function Expected({ a }: { a: AskAnswer }) {
-  const [open, setOpen] = useState(false);
-  const quotes = a.evidence ?? [];
+  const [more, setMore] = useState(false);
+  const first = firstSentences(a.answer, 2);
+  const quote = a.evidence?.[0];
   return (
-    <section className="rounded-xl bg-accent-soft/60 px-3 py-2.5">
-      <button onClick={() => setOpen((o) => !o)} aria-expanded={open} className="block w-full text-left">
-        <span className="flex items-center justify-between">
-          <span className="text-[11px] font-semibold uppercase tracking-[0.08em] text-accent">Was this expected?</span>
-          <span className="text-[12px] text-accent">
-            {open ? "Less" : quotes.length ? `${quotes.length} quote${quotes.length > 1 ? "s" : ""} ›` : "More ›"}
-          </span>
-        </span>
-        <span className={cx("mt-1 block text-[14px] leading-snug", !open && "line-clamp-2")}>
-          {open ? a.answer : firstSentences(a.answer, 1)}
-        </span>
-      </button>
-      {open && (
-        <div className="fade-in">
-          {quotes.map((e, i) => <Quote key={i} e={e} />)}
-          <p className="mt-1.5 text-[11px] text-faint">From {a.calls.join(" and ")}. Quotes checked word for word.</p>
-        </div>
-      )}
+    <section className="rounded-lg bg-accent-soft/60 px-3 py-2.5">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-accent">Was this expected?</p>
+      <p className="mt-1 text-[14px] leading-snug">{more ? a.answer : first}</p>
+      {quote && !more && <Quote e={quote} />}
+      {more && a.evidence?.map((e, i) => <Quote key={i} e={e} />)}
+      <div className="mt-1.5 flex items-center justify-between text-[12px]">
+        <span className="text-faint">From {a.calls.join(" and ")}</span>
+        {(a.answer !== first || (a.evidence?.length ?? 0) > 1) && (
+          <button onClick={() => setMore((m) => !m)} className="text-accent">{more ? "Less" : "More"}</button>
+        )}
+      </div>
     </section>
   );
 }
@@ -98,12 +92,14 @@ function AskLive({ filing }: { filing: Filing }) {
 
 function Quote({ e }: { e: Evidence }) {
   return (
-    <span className="mt-2 block border-l-2 border-accent/40 pl-2.5 text-[13px]">
-      <span className="block leading-snug text-muted">“{e.quote}”</span>
-      <a href={pageLink(e.url, e.page)} target="_blank" rel="noopener noreferrer" className="mt-0.5 block text-[12px] text-faint hover:text-accent">
-        {e.source}{e.page ? `, p. ${e.page}` : ""} ↗
-      </a>
-    </span>
+    <figure className="mt-1.5 text-[13px]">
+      <blockquote className="leading-snug text-muted">“{e.quote}”</blockquote>
+      <figcaption className="mt-0.5 text-[12px] text-faint">
+        <a href={pageLink(e.url, e.page)} target="_blank" rel="noopener noreferrer" className="hover:text-accent">
+          {e.source}{e.page ? `, p. ${e.page}` : ""} ↗
+        </a>
+      </figcaption>
+    </figure>
   );
 }
 

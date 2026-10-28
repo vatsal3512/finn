@@ -58,13 +58,9 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
       {s && (
         <section className="mx-3 mt-3 rounded-xl border border-line bg-surface">
           <button onClick={() => setEditing((e) => !e)} className="flex w-full items-center justify-between px-4 py-3 text-left" aria-expanded={editing}>
-            <span className="min-w-0">
-              <span className="block text-[12px] text-faint">Alert me when</span>
-              <span className="mt-1 flex flex-wrap gap-1.5 text-[13px]">
-                <span className="num rounded-full bg-surface-2 px-2.5 py-1">price moves ±{s.pricePct}%</span>
-                <span className="num rounded-full bg-surface-2 px-2.5 py-1">volume {s.volumeX}× usual</span>
-                <span className="rounded-full bg-surface-2 px-2.5 py-1">{s.categories.length} kinds of filing</span>
-              </span>
+            <span className="text-[14px]">
+              Alert me on moves of <b className="num">±{s.pricePct}%</b>, volume over{" "}
+              <b className="num">{s.volumeX}×</b> its 20-day average, and {s.categories.length} kinds of filing.
             </span>
             <span className="ml-3 shrink-0 text-[13px] text-accent">{editing ? "Done" : "Change"}</span>
           </button>
