@@ -2,7 +2,7 @@
 
 FINN filters the daily flood of exchange filings, prices and fundamentals down to the few
 things an investor needs to see. This document covers the data layer, the AI layer and
-the research engine. The app gets its own section when built.
+the research engine and the phone app.
 
 ## The shape of the system
 
@@ -245,6 +245,26 @@ flowchart LR
 | Judge | Flash, high thinking, 1 call | Sees only checked claims, code verdicts, cash facts and annual-report excerpts |
 | Ask | Flash, low thinking, 1 call | 6 seconds for Mazagon Dock |
 | A ticker never seen before | all of the above | Titan, live: cash quality on screen at 8 seconds, the full report at 69 seconds |
+
+## The phone app
+
+A Next.js app in `app/`, built for a phone screen first and checked down to 320 pixels wide.
+
+| Screen | What it does |
+|---|---|
+| Today | A briefing ("FINN read 14 filings; 1 matters"), then Today's 3 as full cards, the rest as one-liners, and routine filings folded into one line. Each top card answers "Was this expected?" from the company's last two calls. New items since your last visit get a dot. |
+| Alerts | Your own limits for price moves, volume and kinds of filing, saved on the phone and applied at once. Only must-see filings alert. Corporate-action days, such as demergers, are skipped. |
+| Portfolio | The 18 holdings, most attention first, with three months of prices. |
+| Research | Search any NSE company by name or symbol, from NSE's own list of 2,618. The 23 prepared reports are static pages; any other company is researched live, with results shown as each stage finishes. |
+
+| Decision | Why |
+|---|---|
+| **Static pages from the pipeline's JSON.** | Screens open instantly and never wait on a server. The cloud job commits new data every 30 minutes, which redeploys the app. |
+| **One time window for Today and Alerts.** | The brief: "by default the last 24 hours, but let me pick the period". Presets or any custom dates. On a quiet day the app opens on the smallest window with something must-see, and says so. |
+| **The phone's clock decides "now".** | A page built hours ago must not decide what "the last 24 hours" means, so time-based screens render after the page loads. |
+| **Types generated from the backend's schema.** | A renamed field fails the app's build instead of breaking a screen. |
+| **Live reports kept in Vercel Blob.** | A server's temporary disk is wiped on every redeploy, so a live report is stored durably and served instantly next time. |
+| **Installable.** | "Add to Home Screen" opens FINN full-screen with its own icon. |
 
 ## Running it
 
