@@ -93,3 +93,16 @@ def test_a_live_report_is_saved_to_blob(client, monkeypatch):
     monkeypatch.setattr(api.engine, "stream", fake_stream)
     _events(client.get("/api/research/TITAN"))
     assert saved == {"TITAN": {"symbol": "TITAN"}}
+
+
+def test_an_unknown_company_gets_a_plain_answer(client, monkeypatch):
+    def not_listed(symbol, refresh=False, save_dir=None, budget_s=None):
+        yield {"stage": "gather", "message": "Collecting"}
+        raise LookupError("screener.in has no financial data for JPM")
+
+    monkeypatch.setattr(api.blobstore, "load_report", lambda s: None)
+    monkeypatch.setattr(api.engine, "stream", not_listed)
+    last = _events(client.get("/api/research/JPM"))[-1]
+    assert (
+        last["not_found"] and "NSE-listed" in last["message"] and "screener" not in last["message"]
+    )

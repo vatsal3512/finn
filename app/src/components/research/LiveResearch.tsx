@@ -13,6 +13,7 @@ type Event = {
   report?: ResearchReport;
   promises?: Guidance[];
   total?: number;
+  not_found?: boolean;
   notes?: string[];
 };
 
@@ -29,6 +30,7 @@ export function LiveResearch({ symbol }: { symbol: string }) {
   const [events, setEvents] = useState<Event[]>([]);
   const [report, setReport] = useState<ResearchReport | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [notFound, setNotFound] = useState(false);
   const [started] = useState(() => Date.now());
   const [elapsed, setElapsed] = useState(0);
 
@@ -58,7 +60,10 @@ export function LiveResearch({ symbol }: { symbol: string }) {
             const ev = JSON.parse(line) as Event;
             setEvents((e) => [...e, ev]);
             if (ev.stage === "done" && ev.report) setReport(ev.report);
-            if (ev.stage === "error") setError(ev.message);
+            if (ev.stage === "error") {
+              setError(ev.message);
+              setNotFound(!!ev.not_found);
+            }
           }
         }
       } catch (e) {
@@ -81,16 +86,25 @@ export function LiveResearch({ symbol }: { symbol: string }) {
   return (
     <>
     <div className="px-4">
-      <p className="text-[14px] text-muted">
-        FINN has not researched {symbol} before. It is reading the company&apos;s own documents now, which takes one to three minutes. What is settled appears below as it is found.
-      </p>
+      {notFound ? (
+        <p className="text-[14px] text-muted">{error}</p>
+      ) : (
+        <p className="text-[14px] text-muted">
+          FINN has not researched {symbol} before. It is reading the company&apos;s own documents now, which takes one to three minutes. What is settled appears below as it is found.
+        </p>
+      )}
+      {!notFound && (
+      <>
       <ol className="mt-4 space-y-2.5">
         {STEPS.map((s, i) => {
           const done = reached >= DONE_AT[i];
           const current = !done && (i === 0 || reached >= DONE_AT[i - 1]);
+          const failed = current && !!error;
           return (
             <li key={s.stage} className="flex gap-3 text-[14px]">
-              <span className={done ? "text-up" : current ? "text-accent" : "text-faint"} aria-hidden>{done ? "✓" : current ? "●" : "○"}</span>
+              <span className={done ? "text-up" : failed ? "text-down" : current ? "text-accent" : "text-faint"} aria-hidden>
+                {done ? "✓" : failed ? "✕" : current ? "●" : "○"}
+              </span>
               <span className={done ? "" : current ? "text-text" : "text-faint"}>{s.label}</span>
             </li>
           );
@@ -98,6 +112,11 @@ export function LiveResearch({ symbol }: { symbol: string }) {
       </ol>
       {last && !error && <p className="num mt-4 text-[12px] text-faint">{last.message} · {elapsed}s</p>}
       {error && <p className="mt-4 rounded-md bg-down-soft px-3 py-2 text-[13px] text-down">{error}</p>}
+      </>
+      )}
+      {notFound && (
+        <a href="/research" className="mt-4 inline-block text-[14px] text-accent">← Search for a company</a>
+      )}
     </div>
     {snapshot && <div className="mt-5"><SnapshotHeader s={snapshot} /></div>}
     {graded?.promises && (

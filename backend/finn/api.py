@@ -101,8 +101,11 @@ def research(symbol: str, refresh: bool = False) -> StreamingResponse:
                 yield json.dumps(event, default=str) + "\n"
                 if event["stage"] == "done":
                     blobstore.save_report(symbol, event["report"])
-        except LookupError as exc:  # screener.in has no such company
-            yield json.dumps({"stage": "error", "message": str(exc)}) + "\n"
+        except LookupError:  # not a company FINN can find financials for
+            message = (f"FINN could not find {symbol} among NSE-listed companies with published "
+                       "accounts. It researches Indian companies on NSE, with symbols such as "
+                       "INFY, TITAN or M&M.")  # fmt: skip
+            yield json.dumps({"stage": "error", "message": message, "not_found": True}) + "\n"
         except Exception:  # noqa: BLE001 - the stream must end with a message, not a hang
             log.exception("research failed for %s", symbol)
             yield json.dumps({"stage": "error", "message": f"Research on {symbol} failed. "
