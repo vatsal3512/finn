@@ -2,7 +2,7 @@
 // live view renders the same component as its stream completes.
 
 import type { CasePoint, CashQuality, Evidence, Guidance, ResearchReport, Snapshot } from "@/lib/contract";
-import { crore, pageLink, pct } from "@/lib/format";
+import { crore, pageLink } from "@/lib/format";
 import { Chip, cx, Move, SectionTitle, type ChipTone } from "../ui";
 import { CashChart } from "./CashChart";
 
@@ -37,7 +37,7 @@ export function ReportView({ r }: { r: ResearchReport }) {
         <Tile n={count("at_risk")} label="At risk" tone="text-warn" />
         <Tile n={count("pending", "on_track")} label="Still open" tone="text-muted" />
       </div>
-      {r.narrative && <p className="mx-4 mt-3 text-[15px] leading-snug">{r.narrative}</p>}
+      {r.narrative && <Narrative text={r.narrative} />}
       {r.promises.length === 0 && (
         <p className="mx-4 mt-3 text-[13px] text-muted">
           Management gave no explicit guidance on its last {r.stats.calls_read} calls. Many large companies choose not to.
@@ -69,6 +69,20 @@ export function ReportView({ r }: { r: ResearchReport }) {
       )}
       <Method r={r} />
     </div>
+  );
+}
+
+/** The verdict in one sentence; the reasoning one tap away. */
+function Narrative({ text }: { text: string }) {
+  const [first, ...rest] = text.split(/(?<=[.!?])s+(?=[A-Z₹“"(])/);
+  if (!rest.length) return <p className="mx-4 mt-3 text-[15px] leading-snug">{text}</p>;
+  return (
+    <details className="group mx-4 mt-3">
+      <summary className="cursor-pointer list-none text-[15px] leading-snug">
+        {first} <span className="text-[13px] text-accent group-open:hidden">More ›</span>
+      </summary>
+      <p className="fade-in mt-1 text-[15px] leading-snug">{rest.join(" ")}</p>
+    </details>
   );
 }
 
@@ -164,26 +178,75 @@ function Quote({ label, e }: { label: string; e: Evidence }) {
 }
 
 export function CashSection({ c }: { c: CashQuality }) {
+  const years = c.years ?? [];
+  const fcf = years.map((y) => y.free_cash_flow).filter((v): v is number => v != null);
+  const days = years.map((y) => y.debtor_days).filter((v): v is number => v != null);
+  const span = years.length ? `${years[0].year}–${years[years.length - 1].year}` : "";
+  const conv = c.conversion_5y;
   return (
     <>
-      <SectionTitle aside={c.conversion_5y != null ? `5-year cash conversion ${pct(c.conversion_5y * 100, 0).replace("+", "")}${c.parent_conversion_5y != null ? ` · parent alone ${Math.round(c.parent_conversion_5y * 100)}%` : ""}` : undefined}>
-        Do profits turn into cash?
-      </SectionTitle>
-      <div className="mx-3 rounded-xl border border-line bg-surface p-4">
+      <SectionTitle aside={span}>Do profits turn into cash?</SectionTitle>
+      <div className="mx-3 rounded-2xl border border-line bg-surface p-4">
         {!c.applicable ? (
           <p className="text-[13px] text-muted">{c.reason}</p>
         ) : (
           <>
-            {c.read && <p className="mb-3 text-[14px] leading-snug">{c.read}</p>}
-            <CashChart years={c.years ?? []} />
-            <ul className="mt-3 space-y-1.5 text-[13px] text-muted">
-              {(c.signals ?? []).map((s) => <li key={s.quote}>{s.quote}</li>)}
-            </ul>
-            <p className="mt-2 text-[11px] text-faint">Computed by code from the filed cash-flow statements, via screener.in.</p>
+            <div className="grid grid-cols-3 gap-2">
+              <CashTile
+                label="Profit turned to cash"
+                value={conv == null ? "—" : `${Math.round(conv * 100)}%`}
+                tone={conv == null ? "text-muted" : conv >= 0.9 ? "text-up" : conv >= 0.6 ? "text-warn" : "text-down"}
+                hint="Operating cash flow over the years, divided by reported profit. Near or above 100% is healthy."
+              />
+              {c.parent_conversion_5y != null ? (
+                <CashTile label="Parent company alone" value={`${Math.round(c.parent_conversion_5y * 100)}%`} tone="text-up"
+                  hint="The listed company without its subsidiaries. The gap sits in the subsidiaries." />
+              ) : (
+                <CashTile
+                  label="Free cash flow"
+                  value={fcf.length ? crore(fcf.reduce((a, b) => a + b, 0)).replace(" cr", "") : "—"}
+                  sub="₹ crore, total"
+                  tone={fcf.length && fcf.reduce((a, b) => a + b, 0) < 0 ? "text-down" : "text-up"}
+                  hint="Cash from operations minus spending on plants and equipment: what is truly left over."
+                />
+              )}
+              <CashTile
+                label="Days to get paid"
+                value={days.length >= 2 ? `${Math.round(days[0])}→${Math.round(days[days.length - 1])}` : "—"}
+                tone={days.length >= 2 && days[days.length - 1] > days[0] * 1.3 ? "text-down" : "text-muted"}
+                hint="Debtor days: how long customers take to pay. Rising means cash is stuck with customers."
+              />
+            </div>
+            {c.read && <p className="mt-3 line-clamp-2 text-[14px] leading-snug">{c.read}</p>}
+            <div className="mt-3"><CashChart years={years} /></div>
+            {!!c.signals?.length && (
+              <details className="group mt-2">
+                <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-[13px] text-accent">
+                  What the accounts show <span className="transition-transform group-open:rotate-90" aria-hidden>›</span>
+                </summary>
+                <ul className="fade-in mt-1.5 space-y-1.5 text-[13px] text-muted">
+                  {c.signals.map((x) => <li key={x.quote}>{x.quote}</li>)}
+                </ul>
+                <p className="mt-2 text-[11px] text-faint">Computed by code from the filed cash-flow statements, via screener.in.</p>
+              </details>
+            )}
           </>
         )}
       </div>
     </>
+  );
+}
+
+/** A big figure with its meaning one tap away. */
+function CashTile({ label, value, sub, tone, hint }: { label: string; value: string; sub?: string; tone: string; hint: string }) {
+  return (
+    <details className="group rounded-xl bg-surface-2 px-2.5 py-2">
+      <summary className="cursor-pointer list-none">
+        <span className={cx("num block text-[19px] font-semibold leading-tight", tone)}>{value}</span>
+        <span className="mt-0.5 block text-[11px] leading-tight text-muted">{label}{sub ? <><br />{sub}</> : null}</span>
+      </summary>
+      <p className="fade-in mt-1.5 text-[11px] leading-snug text-faint">{hint}</p>
+    </details>
   );
 }
 

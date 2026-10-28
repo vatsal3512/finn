@@ -9,7 +9,7 @@ import { longDate, sessionDay, times, when } from "@/lib/format";
 import { dismissIntro, introDismissed, previousVisit } from "@/lib/visit";
 import { loadWindow, range, saveWindow, type Window } from "@/lib/window";
 import { FilingCard, GlanceRow } from "./FilingCard";
-import { Move, SectionTitle, Wordmark } from "./ui";
+import { cx, Move, SectionTitle, Wordmark } from "./ui";
 import { WindowPicker } from "./WindowPicker";
 
 type Props = {
@@ -88,20 +88,16 @@ export function Today({ feed, holdings, meta, ask }: Props) {
       </header>
 
       {intro && (
-        <section className="fade-in mx-3 mb-3 rounded-2xl border border-line bg-surface p-4">
-          <p className="text-[15px] font-semibold">FINN reads your companies&apos; filings so you don&apos;t have to.</p>
-          <p className="mt-1 text-[13px] leading-snug text-muted">
-            Every filing from your 18 holdings is read and sorted. You see the few that matter, each with what
-            management said about it beforehand. Three things to try:
-          </p>
-          <ol className="mt-2 list-decimal space-y-1 pl-5 text-[13px]">
-            <li>Read the cards below, then change the time window above them.</li>
-            <li><Link href="/alerts" className="text-accent">Alerts</Link>: set your own price and volume limits.</li>
-            <li><Link href="/research/KAYNES" className="text-accent">Research</Link>: see whether a company kept its promises. Try any NSE company.</li>
-          </ol>
-          <button onClick={() => { dismissIntro(); setIntro(false); }} className="mt-3 text-[13px] font-medium text-accent">
-            Got it
-          </button>
+        <section className="fade-in mx-3 mb-3 flex items-start gap-3 rounded-2xl border border-line bg-surface p-3.5">
+          <div className="min-w-0 flex-1">
+            <p className="text-[14px] font-semibold leading-snug">FINN reads your companies&apos; filings, so you don&apos;t have to.</p>
+            <div className="mt-2 flex flex-wrap gap-1.5 text-[12px]">
+              <a href="#top" className="rounded-full bg-surface-2 px-2.5 py-1">See what matters ↓</a>
+              <Link href="/alerts" className="rounded-full bg-surface-2 px-2.5 py-1">Set your alerts</Link>
+              <Link href="/research/KAYNES" className="rounded-full bg-surface-2 px-2.5 py-1">Did a company deliver?</Link>
+            </div>
+          </div>
+          <button onClick={() => { dismissIntro(); setIntro(false); }} aria-label="Dismiss" className="-mr-1 -mt-1 h-7 w-7 shrink-0 rounded-full text-faint">✕</button>
         </section>
       )}
 
@@ -132,9 +128,11 @@ export function Today({ feed, holdings, meta, ask }: Props) {
             </>
           )}
 
-          <SectionTitle aside={view.top.length ? `${view.top.length} of ${view.total}` : undefined}>
-            {win.key === "24h" ? "Today's 3" : "Top 3"}
-          </SectionTitle>
+          <div id="top" className="scroll-mt-2">
+            <SectionTitle aside={view.top.length ? `${view.top.length} of ${view.total}` : undefined}>
+              {win.key === "24h" ? "Today's 3" : "Top 3"}
+            </SectionTitle>
+          </div>
           {view.top.length === 0 ? (
             <div className="mx-4 rounded-lg border border-dashed border-line px-4 py-6 text-center text-[13px] text-muted">
               <p>Nothing must-see in {view.long}.</p>
@@ -152,7 +150,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
 
           {view.glance.length > 0 && (
             <>
-              <SectionTitle aside={view.glance.length}>Worth a glance</SectionTitle>
+              <div id="glance" className="scroll-mt-2"><SectionTitle aside={view.glance.length}>Worth a glance</SectionTitle></div>
               <div className="mx-3 rounded-2xl border border-line bg-surface">
                 {view.glance.map((f) => <GlanceRow key={f.id} f={f} now={now!} isNew={isNew(f)} />)}
               </div>
@@ -176,34 +174,45 @@ type View = {
   fresh: number;
 };
 
-/** The filter, made visible: how much was read, and how little needs reading. */
+/** The filter, made visible: how much FINN read, and how little needs reading. */
 function Briefing({ view, widened, lastVisit, now }: { view: View; widened: boolean; lastVisit: number | null; now: Date }) {
   if (view.total === 0) return null;
+  const parts = [
+    { n: view.routine.length, label: "routine", to: "routine", bar: "bg-faint/40" },
+    { n: view.glance.length, label: "worth a look", to: "glance", bar: "bg-accent/40" },
+    { n: view.top.length, label: view.top.length === 1 ? "matters" : "matter", to: "top", bar: "bg-accent" },
+  ];
+  function go(id: string) {
+    const el = document.getElementById(id);
+    if (el instanceof HTMLDetailsElement) el.open = true;
+    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   return (
     <section className="mx-3 mt-3 rounded-2xl border border-line bg-surface px-4 py-3.5">
-      {widened && <p className="mb-1.5 text-[12px] text-warn">Quiet day: nothing must-see in the last 24 hours.</p>}
-      <p className="text-[15px] leading-snug">
-        {view.lead}, FINN read <b className="num">{view.total}</b> filings from your companies.{" "}
-        <b className="num">{view.top.length}</b> {view.top.length === 1 ? "matters" : "matter"},{" "}
-        <span className="num">{view.glance.length}</span> are worth a glance and{" "}
-        <span className="num">{view.routine.length}</span> are routine.
+      <p className="text-[12px] text-faint">
+        {widened ? `Quiet day · showing ${view.long}` : view.long.charAt(0).toUpperCase() + view.long.slice(1)}
       </p>
-      {view.top.length > 0 && (
-        <ol className="mt-2.5 space-y-1.5">
-          {view.top.map((f, i) => (
-            <li key={f.id}>
-              <a href={`#card-${f.id}`} className="flex gap-2 text-[13px] leading-snug">
-                <span className="num w-3 shrink-0 text-faint">{i + 1}</span>
-                <span><span className="ticker text-[12px]">{f.symbol}</span> <span className="text-muted">{title(f)}</span></span>
-              </a>
-            </li>
-          ))}
-        </ol>
-      )}
+      <div className="mt-2 grid grid-cols-4 items-end gap-1">
+        <div>
+          <p className="num text-[26px] font-semibold leading-none">{view.total}</p>
+          <p className="mt-1 text-[11px] text-muted">filings read</p>
+        </div>
+        {[...parts].reverse().map((x) => (
+          <button key={x.to} onClick={() => go(x.to)} disabled={!x.n} className="text-left disabled:opacity-50">
+            <p className={cx("num text-[26px] font-semibold leading-none", x.to === "top" ? "text-accent" : "")}>{x.n}</p>
+            <p className="mt-1 text-[11px] text-muted">{x.label} ›</p>
+          </button>
+        ))}
+      </div>
+      <div className="mt-3 flex h-2 overflow-hidden rounded-full bg-surface-2" aria-hidden>
+        {parts.map((x) => (
+          <span key={x.to} className={x.bar} style={{ width: `${(x.n / view.total) * 100}%`, minWidth: x.n ? 6 : 0 }} />
+        ))}
+      </div>
       {lastVisit && view.fresh > 0 && (
         <p className="mt-2.5 flex items-center gap-1.5 text-[12px] text-accent">
           <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
-          {view.fresh} new since your last visit, {when(new Date(lastVisit).toISOString(), now)}
+          {view.fresh} new since you last looked, {when(new Date(lastVisit).toISOString(), now)}
         </p>
       )}
     </section>
@@ -219,7 +228,7 @@ function Routine({ items, now }: { items: Filing[]; now: Date }) {
     }, {}),
   ).sort((a, b) => b[1] - a[1]);
   return (
-    <details className="mx-3 mt-6 rounded-2xl border border-line bg-surface">
+    <details id="routine" className="mx-3 mt-6 scroll-mt-2 rounded-2xl border border-line bg-surface">
       <summary className="cursor-pointer list-none px-4 py-3">
         <p className="text-[14px]">
           <span className="font-semibold">{items.length} routine filings</span>
