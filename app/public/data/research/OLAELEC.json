@@ -3,7 +3,7 @@
  "symbol": "OLAELEC",
  "name": "Ola Electric",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:58:15+00:00",
+ "generated_at": "2026-10-28T08:49:41+00:00",
  "snapshot": {
   "about": "Ola Electric manufactures electric two-wheelers, battery cells, and energy storage products.",
   "latest_quarter": "Q1 FY27",
@@ -567,11 +567,11 @@
   "graded_by_code": 4,
   "graded_by_model": 6,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 5,
   "models": [
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 71.1
+  "seconds": 1.2
  }
 }

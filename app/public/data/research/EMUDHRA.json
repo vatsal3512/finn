@@ -3,7 +3,7 @@
  "symbol": "EMUDHRA",
  "name": "eMudhra",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:02:19+00:00",
+ "generated_at": "2026-10-28T08:49:43+00:00",
  "snapshot": {
   "about": "eMudhra provides digital trust, identity, cybersecurity, and certificate lifecycle management solutions internationally.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 28.0,
   "ebitda_margin": 26.0
  },
- "narrative": "Management targets ambitious top-line expansion and consistent PAT growth, backed by reported revenues and solid segment contributions like Cryptas. While operational metrics display strong sequential momentum, longer-term guidance remains open pending future financial verification.",
+ "narrative": "Management met its full-year FY26 revenue guidance of ₹700 crore by delivering ₹713.2 crore. However, free cash flow remains negative at ₹88 crore across four of five years despite rising reported profits.",
  "promises": [
   {
    "id": "P1",
@@ -40,6 +40,30 @@
    "note": null
   },
   {
+   "id": "P12",
+   "metric": "PAT margin",
+   "period": "FY27",
+   "target": "16–16.5%",
+   "statement": "Company expects to maintain PAT margin around 16% to 16.5%.",
+   "said": {
+    "quote": "we may be able to maintain this EBITDA at 25% and the PAT around 16-16.5%",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Profit after tax grew 28% YoY to INR 320 million, with PAT margin remaining healthy at 16.6%",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "First quarter profit margin reached 16.6%, matching the guidance range of 16% to 16.5%."
+  },
+  {
    "id": "P3",
    "metric": "PAT Growth / Doubling Target",
    "period": null,
@@ -53,12 +77,7 @@
    },
    "repeated_in": [],
    "actual": null,
-   "actual_source": {
-    "quote": "and PAT of INR 1,100 million, up 26%",
-    "source": "Q4 FY26 call, 7 May 2026",
-    "page": 3,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -162,7 +181,7 @@
    "id": "P8",
    "metric": "Cryptas Net Profit",
    "period": "FY27",
-   "target": "1 million (USD)",
+   "target": "$1 million",
    "statement": "Management estimates over USD 1 million in profit from Cryptas in FY27.",
    "said": {
     "quote": "This year we are estimating almost over a million dollar of profit from the Cryptas",
@@ -235,25 +254,6 @@
    "note": null
   },
   {
-   "id": "P12",
-   "metric": "PAT margin",
-   "period": "FY27",
-   "target": "16–16.5%",
-   "statement": "Company expects to maintain PAT margin around 16% to 16.5%.",
-   "said": {
-    "quote": "we may be able to maintain this EBITDA at 25% and the PAT around 16-16.5%",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 20,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
    "id": "P13",
    "metric": "PAT doubling horizon",
    "period": "FY29",
@@ -286,12 +286,7 @@
    },
    "repeated_in": [],
    "actual": null,
-   "actual_source": {
-    "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
-    "source": "Computed from screener.in's cash-flow statement and ratios",
-    "page": null,
-    "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
-   },
+   "actual_source": null,
    "verdict": "unclear",
    "verdict_by": "model",
    "note": null
@@ -361,18 +356,12 @@
     "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
    }
   ],
-  "read": "Despite solid reported profits and operating cash flows in recent years, free cash flow remains negative over the broader five-year period due to heavy capital outlays."
+  "read": "Profits do not convert into cash flow, as free cash flow was negative in four out of five years, totaling −₹88 crore."
  },
  "bull": [
   {
-   "point": "Robust revenue and income expansion driven by solid performance in enterprise solutions and trust services.",
+   "point": "Revenue growth is strong, with full-year total income rising 35% year-on-year to 7,132 million rupees.",
    "evidence": [
-    {
-     "quote": "Net profit for the year has increased from INR 872.34 million to INR 1,100.38 million on a consolidated basis",
-     "source": "Annual report 2026",
-     "page": 155,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
-    },
     {
      "quote": "We closed the year with a total income of INR7,132 million, up 35% year-on-year",
      "source": "Q4 FY26 call, 7 May 2026",
@@ -380,47 +369,46 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
     },
     {
-     "quote": "During the quarter, our total income grew by 28% YoY to INR 1,925 million",
+     "quote": "We closed the year with a total income of INR7,132 million, up 35% year-on-year",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Profitability expanded in the first quarter of FY27, with EBITDA margin reaching 26.2% and profit after tax growing 27.9%.",
+   "evidence": [
+    {
+     "quote": "taking our EBITDA margin to 26.2%",
      "source": "Q1 FY27 call, 30 Jul 2026",
      "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+    },
+    {
+     "quote": "Profit after tax for the quarter was INR 320 million, reflecting a 27.9% YoY growth",
+     "source": "Q1 FY27 call, 30 Jul 2026",
+     "page": 5,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
     }
    ]
   },
   {
-   "point": "Strong order book visibility supporting forward guidance and international segment contributions.",
+   "point": "The company holds a strong order book of ₹238 crore to support ongoing revenue growth.",
    "evidence": [
-    {
-     "quote": "Our current ratio in the fiscal stood at 2.9 times (average basis) consolidated, which measures our ability to pay short- term obligation",
-     "source": "Annual report 2026",
-     "page": 155,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
-    },
     {
      "quote": "And with the 238 crores order book that we have called out",
      "source": "Q4 FY26 call, 7 May 2026",
      "page": 6,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
-    },
-    {
-     "quote": "Cryptas contributed approximately INR 200 million of revenue during what is typically a seasonally weak quarter in Europe",
-     "source": "Q1 FY27 call, 30 Jul 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "Negative free cash flow historically despite growing reported net profits.",
+   "point": "Free cash flow conversion is poor, remaining negative in four out of five years and totaling −₹88 crore.",
    "evidence": [
-    {
-     "quote": "The cash and cash equivalents decreased from INR 1,885.54 million to INR 1,268.48 Million (decrease of INR 617.06 Million)",
-     "source": "Annual report 2026",
-     "page": 154,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
-    },
     {
      "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
      "source": "Computed from screener.in's cash-flow statement and ratios",
@@ -430,10 +418,21 @@
    ]
   },
   {
-   "point": "Significant exposure to contingent liabilities relating to partner stock repurchase obligations.",
+   "point": "Contingent liabilities remain present on the balance sheet, standing at 32.29 million rupees at fiscal year end.",
    "evidence": [
     {
      "quote": "The Contingent liabilities on a consolidated and standalone basis as on March 31, 2026 stood at INR 32.29 million as against INR 210.58 million as on March 31, 2025",
+     "source": "Annual report 2026",
+     "page": 154,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Heavy cash outflows for acquisitions and capital expenditures led to an overall reduction in cash reserves.",
+   "evidence": [
+    {
+     "quote": "This decrease was only INR 617.06 million inspite of acquisitions and capital expenditure aggregating to INR 2,482.71 Million as the balance was met out of operating cash flow",
      "source": "Annual report 2026",
      "page": 154,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
@@ -480,13 +479,12 @@
   "quotes_verified": 40,
   "quotes_dropped": 0,
   "graded_by_code": 6,
-  "graded_by_model": 0,
+  "graded_by_model": 1,
   "ai_calls": 5,
-  "cached_calls": 2,
+  "cached_calls": 5,
   "models": [
-   "gemini-3.5-flash-lite",
    "gemini-3.6-flash"
   ],
-  "seconds": 157.9
+  "seconds": 1.0
  }
 }

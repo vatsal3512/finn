@@ -3,7 +3,7 @@
  "symbol": "NAZARA",
  "name": "Nazara Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:59:41+00:00",
+ "generated_at": "2026-10-28T08:49:42+00:00",
  "snapshot": {
   "about": "Global gaming operating platform across mobile, PC, console, offline gaming, adtech, and sports media businesses.",
   "latest_quarter": "Q2 FY27",
@@ -91,7 +91,7 @@
    "id": "P7",
    "metric": "Fundraising target",
    "period": null,
-   "target": "100–200 USD million (USD)",
+   "target": "$100–200 million",
    "statement": "NODWIN is looking to raise between $100 million to $200 million independently.",
    "said": {
     "quote": "NODWIN is looking both to raise funds between $100 million to $200 million independently which should be a mixture of primary and secondary, and then also prepare for an IPO as soon as possible",
@@ -395,11 +395,11 @@
   "graded_by_code": 1,
   "graded_by_model": 3,
   "ai_calls": 5,
-  "cached_calls": 3,
+  "cached_calls": 5,
   "models": [
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 85.9
+  "seconds": 1.2
  }
 }

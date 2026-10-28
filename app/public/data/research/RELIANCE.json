@@ -3,7 +3,7 @@
  "symbol": "RELIANCE",
  "name": "Reliance Industries",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:51:25+00:00",
+ "generated_at": "2026-10-28T08:49:23+00:00",
  "snapshot": {
   "about": "Reliance Industries operates in Oil-to-Chemicals, Retail, Digital Services (Jio), FMCG, Media, Oil & Gas, and New Energy.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": -24.6,
   "ebitda_margin": 15.0
  },
- "narrative": "Management reports strong revenue growth across digital, retail, and new segments, with consolidated topline up 25% year-on-year. However, net profit declined by 24.6% YoY, showing divergence between top-line expansion and bottom-line pressures.",
+ "narrative": "Management reported strong top-line growth of 25% to 27% in Q1 FY27. However, while management claimed net profit grew 6% to 23,200 crore, reported net profit actually declined by 24.6% year-on-year to 23,196 crore.",
  "promises": [
   {
    "id": "P3",
@@ -251,28 +251,11 @@
     "url": "https://www.screener.in/company/RELIANCE/consolidated/"
    }
   ],
-  "read": "Operating cash flows strongly cover reported profits over the five-year period."
+  "read": "Profits convert strongly into cash. Over FY22–FY26, cumulative operating cash flow of ₹755,290 crore comfortably exceeded reported net profit of ₹398,016 crore."
  },
  "bull": [
   {
-   "point": "Robust multi-segment revenue growth continues across telecom, retail, and digital services.",
-   "evidence": [
-    {
-     "quote": "On the financial metrices, the revenue for the year at Rs.1,46,085 Crores, which was up 14.6% year-on-year",
-     "source": "Q4 FY26 call, 24 Apr 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf"
-    },
-    {
-     "quote": "overall, very good performance, 11% growth on a Y-o-Y basis for the full quarter",
-     "source": "Q4 FY26 call, 24 Apr 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Operating cash flow thoroughly covers historical reported profits.",
+   "point": "Operating cash flow generation is exceptionally robust, comfortably exceeding reported cumulative profits over the past five financial years.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹755,290 crore covered all of reported profit, ₹398,016 crore.",
@@ -281,11 +264,45 @@
      "url": "https://www.screener.in/company/RELIANCE/consolidated/"
     }
    ]
+  },
+  {
+   "point": "Jio Platforms delivered steady revenue and EBITDA growth, achieving an EBITDA margin of 53.3% in Q1 FY27.",
+   "evidence": [
+    {
+     "quote": "Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year growth",
+     "source": "Q1 FY27 call, 17 Jul 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    },
+    {
+     "quote": "EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth, with an EBITDA margin of 53.3%",
+     "source": "Q1 FY27 call, 17 Jul 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    }
+   ]
+  },
+  {
+   "point": "FMCG revenues expanded rapidly, reaching ₹8,600 crore in Q1 FY27 while targeting Rs 1 lakh crore by FY30.",
+   "evidence": [
+    {
+     "quote": "This quarter, we delivered Rs. 8,600 Crores revenue on FMCG",
+     "source": "Q1 FY27 call, 17 Jul 2026",
+     "page": 10,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    },
+    {
+     "quote": "we have anyway announced the target is to kind of take this to Rs.1 lakh Crores on FY2030",
+     "source": "Q1 FY27 call, 17 Jul 2026",
+     "page": 30,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    }
+   ]
   }
  ],
  "bear": [
   {
-   "point": "Significant legal proceedings and government demands regarding oil and gas blocks create material contingent exposure.",
+   "point": "The company faces a massive contingent liability from the government regarding gas migration disputes.",
    "evidence": [
     {
      "quote": "A demand letter dated 1st March 2025 for payment of $ 2.81 billion (RIL share $ 1.87 billion) was sent by GoI to the Contractor",
@@ -296,12 +313,23 @@
    ]
   },
   {
-   "point": "Complex ongoing litigation with regulatory authorities and state entities creates uncertainty.",
+   "point": "Auditors flagged complex ongoing litigation with the Government of India as a key audit matter.",
    "evidence": [
     {
-     "quote": "The Company has certain significant ongoing legal proceedings for various complex matters with the Government of India and other parties",
+     "quote": "The Company has certain significant ongoing legal proceedings for various complex matters with the Government of India and other parties, continuing from earlier years",
      "source": "Annual report 2026",
      "page": 91,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The group relies on extensive related-party transactions across its parent entity and multiple subsidiaries.",
+   "evidence": [
+    {
+     "quote": "In furtherance of its business activities, the Company and its subsidiaries have entered into / will enter into transactions / contract(s) / agreement(s) / arrangement(s) with related parties",
+     "source": "Annual report 2026",
+     "page": 16,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
     }
    ]
@@ -344,11 +372,11 @@
   "graded_by_code": 0,
   "graded_by_model": 0,
   "ai_calls": 4,
-  "cached_calls": 2,
+  "cached_calls": 4,
   "models": [
    "gemini-3.5-flash",
-   "gemini-3.5-flash-lite"
+   "gemini-3.6-flash"
   ],
-  "seconds": 32.6
+  "seconds": 1.3
  }
 }

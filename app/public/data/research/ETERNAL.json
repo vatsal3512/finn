@@ -3,7 +3,7 @@
  "symbol": "ETERNAL",
  "name": "Eternal",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:51:30+00:00",
+ "generated_at": "2026-10-28T08:49:29+00:00",
  "snapshot": {
   "about": "Eternal operates food delivery, quick commerce (Blinkit), and other technology platforms in India.",
   "latest_quarter": "Q2 FY27",
@@ -267,7 +267,7 @@
    "id": "P9",
    "metric": "EBITDA absolute",
    "period": "FY29",
-   "target": "1,000,000,000 USD (USD)",
+   "target": "$1,000,000,000",
    "statement": "Management targets $1 billion overall EBITDA by FY29.",
    "said": {
     "quote": "First question is on the overall EBITDA guidance or indication of $1 billion by FY29",
@@ -291,7 +291,7 @@
    "id": "P15",
    "metric": "Adjusted EBITDA",
    "period": "FY29",
-   "target": "1 billion USD (USD)",
+   "target": "$1 billion",
    "statement": "Management maintains its guidance of achieving 1 billion USD in Adjusted EBITDA by FY29.",
    "said": {
     "quote": "We maintain that guidance as of now",
@@ -315,7 +315,7 @@
    "id": "P1",
    "metric": "Going-out NOV",
    "period": "FY30",
-   "target": "3 billion USD (USD)",
+   "target": "$3 billion",
    "statement": "Management maintained guidance of $3 billion NOV for the going-out business in FY30.",
    "said": {
     "quote": "You've maintained your $3 billion NOV guidance for going-out in FY30, which would imply north of 30% CAGR over the next four years",
@@ -579,6 +579,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.9
+  "seconds": 1.1
  }
 }

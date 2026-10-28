@@ -3,7 +3,7 @@
  "symbol": "KAYNES",
  "name": "Kaynes Technology",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:50:49+00:00",
+ "generated_at": "2026-10-28T08:49:18+00:00",
  "snapshot": {
   "about": "Kaynes Technology provides electronics manufacturing services, semiconductor packaging, PCB manufacturing, and space technology solutions.",
   "latest_quarter": "Q1 FY27",
@@ -409,7 +409,7 @@
    "id": "P7",
    "metric": "Target total revenue",
    "period": "FY28",
-   "target": "1 billion (USD)",
+   "target": "$1 billion",
    "statement": "Reiterated long-term target of $1 billion total revenue by FY28.",
    "said": {
     "quote": "So, in FY '28, if you see $1 billion, we might be targeting more than that actually, while we may deliver $1 billion, but we'll target more than that",
@@ -764,10 +764,10 @@
   "graded_by_code": 3,
   "graded_by_model": 1,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 5,
   "models": [
    "gemini-3.5-flash"
   ],
-  "seconds": 252.2
+  "seconds": 1.2
  }
 }

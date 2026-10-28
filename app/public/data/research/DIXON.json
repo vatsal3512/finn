@@ -3,9 +3,9 @@
  "symbol": "DIXON",
  "name": "Dixon Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:52:46+00:00",
+ "generated_at": "2026-10-28T08:49:35+00:00",
  "snapshot": {
-  "about": "Dixon Technologies (India) Limited manufactures and designs electronics including mobile and EMS, telecom, IT hardware, home appliances, lighting, and consumer electronics.",
+  "about": "Provider of electronics manufacturing services (EMS) across mobiles, IT hardware, telecom, home appliances, and lighting.",
   "latest_quarter": "Q1 FY27",
   "revenue": 15548.0,
   "revenue_yoy": 21.1,
@@ -13,16 +13,179 @@
   "net_profit_yoy": 156.4,
   "ebitda_margin": 3.0
  },
- "narrative": "Management targeted strong IT hardware growth, successfully expanding revenues toward ₹1,500 crore as guided. Operating performance remains robust with positive revenue momentum across mobile and telecom segments, matching their strategic forecasts.",
+ "narrative": "Management delivered strong growth with Q1 FY27 revenue of 15,548 crore and profit of 718 crore. However, EBITDA margin of 3.0% diverges from their target of 4.0% to 4.5%, and FY27 telecom guidance was trimmed from 7,500-8,000 crore to 6,700-7,000 crore.",
  "promises": [
   {
-   "id": "P5",
-   "metric": "IT hardware revenue",
-   "period": "FY26",
-   "target": "₹1,200–1,300 crore",
-   "statement": "Targeting IT hardware revenues of almost INR 1,200 crores to INR 1,300 crores this year.",
+   "id": "P18",
+   "metric": "Telecom network revenue",
+   "period": "FY27",
+   "target": "₹7,500–8,000 crore",
+   "statement": "Targeting telecom network business revenue of INR 7,500-8,000 crores in FY27.",
    "said": {
-    "quote": "So, this year, we are targeting revenues of almost INR 1,200 crores to Rs. 1,300 crores in this business",
+    "quote": "We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27",
+    "source": "Q4 FY26 call, 12 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "telecom revenues, please appreciate, we have grown from INR700 crores to INR3,600 crores to INR5,000 crores and we feel, as I mentioned earlier, we're going to be somewhere between INR6,700 crores to INR7,000 crores in this fiscal",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+   },
+   "verdict": "at_risk",
+   "verdict_by": "model",
+   "note": "Full-year telecom target was lowered to 6,700-7,000 crores in Q1 FY27."
+  },
+  {
+   "id": "P8",
+   "metric": "Telecom business revenue",
+   "period": "FY26",
+   "target": "₹5,200 crore",
+   "statement": "Management expects FY26 telecom business revenue close to INR 5,200 crores.",
+   "said": {
+    "quote": "This year, we should have revenues close to INR5,200 crores",
+    "source": "Q3 FY26 call, 29 Jan 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "telecom revenues, please appreciate, we have grown from INR700 crores to INR3,600 crores to INR5,000 crores and we feel, as I mentioned earlier, we're going to be somewhere between INR6,700 crores to INR7,000 crores in this fiscal",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "FY26 telecom revenue reached approximately 5,000 crores, coming close to the targeted 5,200 crores."
+  },
+  {
+   "id": "P11",
+   "metric": "IT hardware products revenue",
+   "period": "FY27",
+   "target": "₹3,500–4,000 crore",
+   "statement": "Management targets FY27 IT hardware products revenue between INR 3,500 crores and INR 4,000 crores.",
+   "said": {
+    "quote": "We feel that for next year, the numbers are going to be somewhere around INR3,500 crores to INR4,000 crores",
+    "source": "Q3 FY26 call, 29 Jan 2026",
+    "page": 17,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "and IT hardware is somewhere around INR1,350-odd crores",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Q1 FY27 IT hardware revenue of 1,350 crores puts the annual target on track."
+  },
+  {
+   "id": "P13",
+   "metric": "Telecom vertical revenue growth",
+   "period": "FY27",
+   "target": "10–99%",
+   "statement": "Management expects high double-digit revenue growth in the telecom vertical in FY27.",
+   "said": {
+    "quote": "We expect this vertical to deliver high double-digit revenue growth in the current fiscal",
+    "source": "Q4 FY26 call, 12 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Revenue for telecom was around closer to INR2,100-odd crores",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Q1 FY27 telecom revenue reached 2,100 crores, supporting high double-digit full-year growth expectations."
+  },
+  {
+   "id": "P14",
+   "metric": "IT Hardware revenue growth",
+   "period": "FY27",
+   "target": "3 x",
+   "statement": "Management expects 3x revenue growth in IT hardware products in FY27.",
+   "said": {
+    "quote": "we expect 3x growth in the revenues in the current fiscal against last year with a huge uptake in order books from all customers",
+    "source": "Q4 FY26 call, 12 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "and IT hardware is somewhere around INR1,350-odd crores",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Q1 FY27 IT hardware revenue of 1,350 crores supports triple-digit growth expectations."
+  },
+  {
+   "id": "P16",
+   "metric": "IT Hardware revenue",
+   "period": "FY27",
+   "target": "≥ ₹4,000 crore",
+   "statement": "IT hardware revenue is targeted to be more than INR 4,000 crores in FY27.",
+   "said": {
+    "quote": "And we feel that our revenue in this fiscal is going to be more than INR4,000 crores",
+    "source": "Q4 FY26 call, 12 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "and IT hardware is somewhere around INR1,350-odd crores",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Q1 FY27 IT hardware revenue of 1,350 crores puts full-year target on track."
+  },
+  {
+   "id": "P1",
+   "metric": "Planned investment commitment",
+   "period": null,
+   "target": "₹3,000 crore",
+   "statement": "Committed investment of approximately INR 3,000 crores over the next three years for components ECMS applications.",
+   "said": {
+    "quote": "We have filed a components ECMS applications for display modules, camera module enclosures, lithium-ion batteries, optical transceiver - SFP and also mechanical enclosures with investment commitment of approximately INR 3,000 crores over the next three years",
+    "source": "Q2 FY26 call, 17 Oct 2025",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Medium-term IT business revenue target",
+   "period": null,
+   "target": "₹4,000–5,000 crore",
+   "statement": "IT business expected to generate INR 4,000 to INR 5,000 crores in revenue in the next two years.",
+   "said": {
+    "quote": "We feel that the IT business for us in next two years should be around Rs. 4,000 crores to Rs. 5,000 crores business",
     "source": "Q2 FY26 call, 17 Oct 2025",
     "page": 14,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
@@ -30,45 +193,59 @@
    "repeated_in": [],
    "actual": null,
    "actual_source": {
-    "quote": "So this year, we feel the revenue should be in the range of INR1,500-odd crores",
-    "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 17,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+    "quote": "And we feel that our revenue in this fiscal is going to be more than INR4,000 crores",
+    "source": "Q4 FY26 call, 12 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
    },
-   "verdict": "met",
+   "verdict": "pending",
    "verdict_by": "model",
-   "note": "IT hardware revenue reached ₹1,500 crore beating the INR 1,200-1,300 crores target."
+   "note": null
   },
   {
-   "id": "P11",
-   "metric": "Q Tech revenue run rate",
+   "id": "P5",
+   "metric": "Target operating margin range",
    "period": null,
-   "target": "₹2,000 crore",
-   "statement": "Looking at a similar run rate of INR 2,000 crores for Q Tech.",
+   "target": "4–4.5%",
+   "statement": "EBITDA/operating margin expected to improve to 4.0%-4.5% range over time with backward integration.",
    "said": {
-    "quote": "And broadly, we are looking at a similar run rate of INR2,000 crores for Q Tech",
+    "quote": "I said I gave a range to you. 4%, 4.5%",
+    "source": "Q2 FY26 call, 17 Oct 2025",
+    "page": 18,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Mobile phone business margin",
+   "period": null,
+   "target": "2.8–3.2%",
+   "statement": "Mobile phone business margin is expected to be between 2.8% and 3.2%.",
+   "said": {
+    "quote": "We still feel that we should be able to have a margin of somewhere between 2.8% to 3.1%, 3.2% in our mobile phone business",
     "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 12,
+    "page": 10,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
    },
    "repeated_in": [],
    "actual": null,
-   "actual_source": {
-    "quote": "So, Siddharth, Q Tech numbers for quarter 3 was closer to INR400-odd crores",
-    "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 12,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
-   },
-   "verdict": "on_track",
+   "actual_source": null,
+   "verdict": "pending",
    "verdict_by": "model",
-   "note": "Q Tech achieved the targeted run rate."
+   "note": null
   },
   {
-   "id": "P3",
-   "metric": "Smartphone manufacturing volume",
+   "id": "P2",
+   "metric": "Mobile phone volume target",
    "period": "FY27",
    "target": "₹5.5–6 crore",
-   "statement": "Smartphone manufacturing volume expected to be 55 to 60 million next year.",
+   "statement": "Mobile volumes expected to reach 55 to 60 million units in FY27.",
    "said": {
     "quote": "So, next year, we feel that we should be somewhere between 55 to 60 million",
     "source": "Q2 FY26 call, 17 Oct 2025",
@@ -83,87 +260,11 @@
    "note": null
   },
   {
-   "id": "P4",
-   "metric": "Longcheer JV manufacturing volume",
-   "period": "FY27",
-   "target": "₹0.8–1 crore",
-   "statement": "Longcheer JV volumes expected to be around 8 to 10 million next fiscal.",
-   "said": {
-    "quote": "We feel that the volumes in this JV for the next fiscal should be somewhere around 8 to 10 million, and this is going to be a part of 60 million, 65 million that we are talking about for next fiscal",
-    "source": "Q2 FY26 call, 17 Oct 2025",
-    "page": 11,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P14",
-   "metric": "IT hardware revenue",
-   "period": "FY27",
-   "target": "₹3,500–4,000 crore",
-   "statement": "Next year IT hardware revenue expected to be around INR 3,500 crores to INR 4,000 crores.",
-   "said": {
-    "quote": "We feel that for next year, the numbers are going to be somewhere around INR3,500 crores to INR4,000 crores",
-    "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 17,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P16",
-   "metric": "Revenue growth",
-   "period": "FY27",
-   "target": null,
-   "statement": "Expect telecom vertical to deliver high double-digit revenue growth in the current fiscal.",
-   "said": {
-    "quote": "We expect this vertical to deliver high double-digit revenue growth in the current fiscal",
-    "source": "Q4 FY26 call, 12 May 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P17",
-   "metric": "Revenue growth",
-   "period": "FY27",
-   "target": "3 x",
-   "statement": "Expect 3x growth in IT hardware revenues in the current fiscal against last year.",
-   "said": {
-    "quote": "and we expect 3x growth in the revenues in the current fiscal against last year with a huge uptake in order books from all customers",
-    "source": "Q4 FY26 call, 12 May 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P18",
-   "metric": "Revenue growth",
+   "id": "P15",
+   "metric": "Lighting JV revenue growth",
    "period": "FY27",
    "target": "2 x",
-   "statement": "Expect lighting revenues to grow almost to 2x in the current fiscal.",
+   "statement": "Management expects Signify lighting JV revenue to grow almost 2x in FY27.",
    "said": {
     "quote": "the JV with Signify continues to deliver strong revenue growth, and we expect the revenues to grow almost to 2x in the current fiscal",
     "source": "Q4 FY26 call, 12 May 2026",
@@ -178,13 +279,13 @@
    "note": null
   },
   {
-   "id": "P19",
-   "metric": "Revenue guidance",
+   "id": "P17",
+   "metric": "Camera module revenue",
    "period": "FY27",
-   "target": "≥ ₹4,000 crore",
-   "statement": "Expect IT hardware revenue to be more than INR 4,000 crores in the current fiscal.",
+   "target": "₹2,500 crore",
+   "statement": "Targeting camera module revenue of around INR 2,500 crores in FY27.",
    "said": {
-    "quote": "And we feel that our revenue in this fiscal is going to be more than INR4,000 crores",
+    "quote": "We are targeting a revenue of almost INR2,500 crores in that business",
     "source": "Q4 FY26 call, 12 May 2026",
     "page": 9,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
@@ -194,71 +295,33 @@
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P19",
+   "metric": "Total revenue target (ex-Vivo)",
+   "period": "FY27",
+   "target": "₹56,000 crore",
+   "statement": "Targeting total revenue of around INR 56,000 crores in FY27 without Vivo.",
+   "said": {
+    "quote": "Next year, we are targeting almost INR56,000 crores without the Vivo numbers, and mobile volume being flat",
+    "source": "Q4 FY26 call, 12 May 2026",
+    "page": 15,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
    "note": null
   },
   {
    "id": "P20",
-   "metric": "Revenue guidance",
-   "period": "FY27",
-   "target": "₹2,500 crore",
-   "statement": "Targeting a revenue of almost INR 2,500 crores in Q Tech business.",
-   "said": {
-    "quote": "Last year, on an annualized basis, we did a revenue of INR1,700 crores. We are targeting a revenue of almost INR2,500 crores in that business",
-    "source": "Q4 FY26 call, 12 May 2026",
-    "page": 9,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P21",
-   "metric": "Revenue guidance",
-   "period": "FY27",
-   "target": "₹7,500–8,000 crore",
-   "statement": "Targeting INR 7,500 crores to INR 8,000 crores in telecom network business in FY27.",
-   "said": {
-    "quote": "We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27. That's another major trigger of growth",
-    "source": "Q4 FY26 call, 12 May 2026",
-    "page": 9,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P22",
-   "metric": "Revenue guidance",
-   "period": "FY27",
-   "target": "₹1,700 crore",
-   "statement": "Lighting revenue target for next year is almost INR 1,700 crores.",
-   "said": {
-    "quote": "The next year target is almost INR1,700 crores. We expect 2x after we have formed the JV with Signify",
-    "source": "Q4 FY26 call, 12 May 2026",
-    "page": 9,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P23",
-   "metric": "Revenue growth",
+   "metric": "Revenue growth guidance (ex-Vivo)",
    "period": "FY27",
    "target": "15–17%",
-   "statement": "Expect company to keep growing at almost 15% to 17% without Vivo.",
+   "statement": "Management expects company revenue to grow 15% to 17% in FY27 without Vivo.",
    "said": {
     "quote": "We feel that without the Vivo also, the company will keep growing at almost 15% to 17%",
     "source": "Q4 FY26 call, 12 May 2026",
@@ -273,16 +336,16 @@
    "note": null
   },
   {
-   "id": "P1",
-   "metric": "Smartphone camera module volume",
-   "period": "FY28",
-   "target": "₹19–20 crore",
-   "statement": "Smartphone camera modules volume expected to reach 190 to 200 million units per annum in next two to three years.",
+   "id": "P22",
+   "metric": "Telecom segment revenue",
+   "period": "FY27",
+   "target": "₹6,700–7,000 crore",
+   "statement": "Telecom segment revenue for FY27 is expected to be between INR 6,700 crores and INR 7,000 crores.",
    "said": {
-    "quote": "And we feel confident that the volume of smartphone camera modules can increase from 40 million units and revenues by INR 2,000 crores in large financial years to 190 to 200 million units per annum with the revenue closer to INR 6,000 crores to INR 7,000 crores and sub-10% EBITDA margins in the next two to three years",
-    "source": "Q2 FY26 call, 17 Oct 2025",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+    "quote": "telecom revenues, please appreciate, we have grown from INR700 crores to INR3,600 crores to INR5,000 crores and we feel, as I mentioned earlier, we're going to be somewhere between INR6,700 crores to INR7,000 crores in this fiscal",
+    "source": "Q1 FY27 call, 31 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
    },
    "repeated_in": [],
    "actual": null,
@@ -292,16 +355,16 @@
    "note": null
   },
   {
-   "id": "P2",
-   "metric": "Smartphone camera module revenue",
-   "period": "FY28",
-   "target": "₹6,000–7,000 crore",
-   "statement": "Smartphone camera module revenue expected to reach INR 6,000 crores to INR 7,000 crores in next two to three years.",
+   "id": "P21",
+   "metric": "Mobile volume growth",
+   "period": "Q2 FY27",
+   "target": "20–25%",
+   "statement": "Management expects 20% to 25% QoQ volume growth in mobile segment in Q2 FY27.",
    "said": {
-    "quote": "And we feel confident that the volume of smartphone camera modules can increase from 40 million units and revenues by INR 2,000 crores in large financial years to 190 to 200 million units per annum with the revenue closer to INR 6,000 crores to INR 7,000 crores and sub-10% EBITDA margins in the next two to three years",
-    "source": "Q2 FY26 call, 17 Oct 2025",
+    "quote": "we expect 20% to 25% volume growth quarter￾on-quarter growth as consumer demand strengthens and we have a strong order book",
+    "source": "Q1 FY27 call, 31 Jul 2026",
     "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
    },
    "repeated_in": [],
    "actual": null,
@@ -311,108 +374,35 @@
    "note": null
   },
   {
-   "id": "P6",
-   "metric": "IT business revenue",
-   "period": "FY28",
-   "target": "₹4,000–5,000 crore",
-   "statement": "IT business revenue expected to be around INR 4,000 crores to INR 5,000 crores in next two years.",
+   "id": "P3",
+   "metric": "IT hardware revenue target",
+   "period": "FY26",
+   "target": "₹1,200–1,300 crore",
+   "statement": "Targeting IT hardware revenues of INR 1,200 to INR 1,300 crores in FY26.",
    "said": {
-    "quote": "We feel that the IT business for us in next two years should be around Rs. 4,000 crores to Rs. 5,000 crores business",
+    "quote": "So, this year, we are targeting revenues of almost INR 1,200 crores to Rs. 1,300 crores in this business",
     "source": "Q2 FY26 call, 17 Oct 2025",
     "page": 14,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
    },
    "repeated_in": [],
    "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P7",
-   "metric": "Facility operations start",
-   "period": "Q2 FY27",
-   "target": null,
-   "statement": "New 4,000 square feet facility for 74:26 JV expected to start operations by Q2 FY27.",
-   "said": {
-    "quote": "Our new 4,000 square feet facility for 74:26 launch at JV for manufacturing of smartphones and other electronic devices is expected to start operations by Q2 of '26-'27",
+   "actual_source": {
+    "quote": "So this year, we feel the revenue should be in the range of INR1,500-odd crores",
     "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 4,
+    "page": 17,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
    },
-   "repeated_in": [
-    "Q3 FY26 call, 29 Jan 2026"
-   ],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P24",
-   "metric": "Mobile volume growth Q-o-Q",
-   "period": "Q2 FY27",
-   "target": "20–25%",
-   "statement": "Expects 20% to 25% volume growth quarter-on-quarter in mobile business.",
-   "said": {
-    "quote": "and we expect 20% to 25% volume growth quarter￾on-quarter growth as consumer demand strengthens and we have a strong order book",
-    "source": "Q1 FY27 call, 31 Jul 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P25",
-   "metric": "JV operations start",
-   "period": "Q3 FY27",
-   "target": null,
-   "statement": "Expects JV with Vivo to commence operations and reflect in revenues from Q3.",
-   "said": {
-    "quote": "We expect the JV to commence operations and start reflecting in our revenues from Q3 of the current fiscal",
-    "source": "Q1 FY27 call, 31 Jul 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P9",
-   "metric": "Smartphone camera modules volume",
-   "period": "FY26",
-   "target": "₹19–20 crore",
-   "statement": "Target to expand smartphone camera modules volume from 40 million units to 190-200 million units per annum.",
-   "said": {
-    "quote": "We're expanding the capacities and deepening the level of manufacturing of camera and fingerprint modules for smartphone and target to expand volumes of smartphone camera modules from 40 million units in this fiscal to 190 million to 200 million units per annum",
-    "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
    "verdict": "unclear",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P12",
-   "metric": "Total capex",
+   "id": "P9",
+   "metric": "Capex",
    "period": "FY26",
    "target": "₹1,100–1,200 crore",
-   "statement": "Overall fiscal capex should be between INR 1,100 crores to INR 1,200 crores.",
+   "statement": "Management expects total FY26 capex to be between INR 1,100 crores and INR 1,200 crores.",
    "said": {
     "quote": "And we feel that in the overall fiscal, it should be somewhere between INR1,100 crores, INR1,200 crores",
     "source": "Q3 FY26 call, 29 Jan 2026",
@@ -421,22 +411,17 @@
    },
    "repeated_in": [],
    "actual": null,
-   "actual_source": {
-    "quote": "So first 9 months, the capex outgo is INR720 crores",
-    "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 17,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
-   },
+   "actual_source": null,
    "verdict": "unclear",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P13",
-   "metric": "IT hardware revenue",
+   "id": "P10",
+   "metric": "IT hardware products revenue",
    "period": "FY26",
    "target": "₹1,500 crore",
-   "statement": "IT hardware revenue for this year expected in range of INR 1,500 crores.",
+   "statement": "Management expects FY26 IT hardware products revenue around INR 1,500 crores.",
    "said": {
     "quote": "So this year, we feel the revenue should be in the range of INR1,500-odd crores",
     "source": "Q3 FY26 call, 29 Jan 2026",
@@ -451,32 +436,13 @@
    "note": null
   },
   {
-   "id": "P8",
-   "metric": "Facility construction completion",
+   "id": "P12",
+   "metric": "Smartphone volume growth",
    "period": "Q1 FY27",
-   "target": null,
-   "statement": "Construction of 1 million square feet facility in Noida expected to be completed by Q1 FY27.",
+   "target": "10–19%",
+   "statement": "Management expects high double-digit QoQ growth in smartphone volume in Q1 FY27.",
    "said": {
-    "quote": "Construction of a 1 million square feet facility in Noida with higher capacities for our anchor customers is expected to be completed by Q1 of financial year '26-'27 and mass production to start by Q2 of '26-'27",
-    "source": "Q3 FY26 call, 29 Jan 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P15",
-   "metric": "Volume growth",
-   "period": "Q1 FY27",
-   "target": null,
-   "statement": "Expect high-double-digit quarter-on-quarter growth in smartphone volumes.",
-   "said": {
-    "quote": "and we expect a high-double￾digit growth quarter-on-quarter in the smartphones volume along with growth in selling prices by 12% to 15%",
+    "quote": "we expect a high-double￾digit growth quarter-on-quarter in the smartphones volume along with growth in selling prices by 12% to 15%",
     "source": "Q4 FY26 call, 12 May 2026",
     "page": 4,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
@@ -489,11 +455,11 @@
    "note": null
   },
   {
-   "id": "P10",
-   "metric": "Smartphone volumes",
+   "id": "P6",
+   "metric": "Smartphone volume",
    "period": "Q4 FY26",
    "target": "₹0.7–0.75 crore",
-   "statement": "Q4 volumes expected to be between 7 million to 7.5 million.",
+   "statement": "Management expects Q4 FY26 smartphone volumes between 7 million and 7.5 million units.",
    "said": {
     "quote": "Q4 volumes are expected to be somewhere between 7 million to 7.5 million",
     "source": "Q3 FY26 call, 29 Jan 2026",
@@ -572,22 +538,34 @@
     "url": "https://www.screener.in/company/DIXON/consolidated/"
    }
   ],
-  "read": "Operating cash flows over FY22 to FY26 fully covered reported profits, indicating strong profit conversion into actual cash."
+  "read": "Profits reliably convert into cash. Operating cash flow of 4,515 crore over FY22 to FY26 fully covered cumulative reported net profit of 3,697 crore."
  },
  "bull": [
   {
-   "point": "IT hardware revenues met expectations reaching approximately ₹1,500 crore.",
+   "point": "IT hardware segment is expanding rapidly, with Q1 FY27 revenues reaching 1,350 crores, putting full-year growth targets on track.",
    "evidence": [
     {
-     "quote": "So this year, we feel the revenue should be in the range of INR1,500-odd crores",
-     "source": "Q3 FY26 call, 29 Jan 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+     "quote": "we expect 3x growth in the revenues in the current fiscal against last year with a huge uptake in order books from all customers",
+     "source": "Q4 FY26 call, 12 May 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+    },
+    {
+     "quote": "And we feel that our revenue in this fiscal is going to be more than INR4,000 crores",
+     "source": "Q4 FY26 call, 12 May 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+    },
+    {
+     "quote": "and IT hardware is somewhere around INR1,350-odd crores",
+     "source": "Q1 FY27 call, 31 Jul 2026",
+     "page": 11,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
     }
    ]
   },
   {
-   "point": "Operating cash flow comprehensively covers reported profits over the multi-year period.",
+   "point": "Operating cash generation is robust, with cumulative operating cash flow comfortably exceeding reported net profits over the past five financial years.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹4,515 crore covered all of reported profit, ₹3,697 crore.",
@@ -596,16 +574,73 @@
      "url": "https://www.screener.in/company/DIXON/consolidated/"
     }
    ]
+  },
+  {
+   "point": "The company maintains strong working capital discipline, operating with a negative working capital cycle across recent quarters.",
+   "evidence": [
+    {
+     "quote": "Upholding our focus on financial discipline, we efficiently manage our working capital cycle at negative 6 days, complemented by a strong balance sheet reflecting a net debt position of INR 203 crores",
+     "source": "Q2 FY26 call, 17 Oct 2025",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+    },
+    {
+     "quote": "Our working capital cycle remains at negative 7 days, complemented by a strong balance sheet, reflecting a net debt position of INR246 crores",
+     "source": "Q3 FY26 call, 29 Jan 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+    },
+    {
+     "quote": "Overall working capital efficiency led to stronger cash flow generation and working capital cycle of negative 8 days",
+     "source": "Q4 FY26 call, 12 May 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+    },
+    {
+     "quote": "Enhanced working capital discipline resulted in an optimal working capital cycle of negative five days",
+     "source": "Q1 FY27 call, 31 Jul 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    }
+   ]
   }
  ],
  "bear": [
   {
-   "point": "The statutory auditors noted that key audit matters included investments in subsidiaries and joint ventures along with related exposure assessments.",
+   "point": "Management lowered full-year FY27 telecom segment revenue guidance from 7,500-8,000 crores to 6,700-7,000 crores.",
    "evidence": [
     {
-     "quote": "Management assesses, on an annual basis, whether indicators of impairment exist for each of its investments",
+     "quote": "We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27",
+     "source": "Q4 FY26 call, 12 May 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+    },
+    {
+     "quote": "telecom revenues, please appreciate, we have grown from INR700 crores to INR3,600 crores to INR5,000 crores and we feel, as I mentioned earlier, we're going to be somewhere between INR6,700 crores to INR7,000 crores in this fiscal",
+     "source": "Q1 FY27 call, 31 Jul 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    }
+   ]
+  },
+  {
+   "point": "EBITDA margin of 3.0% in Q1 FY27 trails management's long-term target of 4.0% to 4.5%.",
+   "evidence": [
+    {
+     "quote": "I said I gave a range to you. 4%, 4.5%",
+     "source": "Q2 FY26 call, 17 Oct 2025",
+     "page": 18,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The company engages in significant material related party transactions across multiple subsidiaries including Padget Electronics and Dixon Electro Appliances.",
+   "evidence": [
+    {
+     "quote": "approval of the Members of the Company be and is hereby accorded to the Material Related Party Transaction(s)/ Contract(s)/ Arrangement(s)/ Agreement(s)",
      "source": "Annual report 2026",
-     "page": 299,
+     "page": 5,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf"
     }
    ]
@@ -646,16 +681,16 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 60,
-  "quotes_verified": 59,
-  "quotes_dropped": 1,
-  "graded_by_code": 1,
-  "graded_by_model": 2,
+  "claims_found": 53,
+  "quotes_verified": 53,
+  "quotes_dropped": 0,
+  "graded_by_code": 2,
+  "graded_by_model": 6,
   "ai_calls": 5,
-  "cached_calls": 0,
+  "cached_calls": 5,
   "models": [
-   "gemini-3.5-flash-lite"
+   "gemini-3.6-flash"
   ],
-  "seconds": 16.3
+  "seconds": 1.4
  }
 }

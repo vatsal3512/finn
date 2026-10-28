@@ -3,7 +3,7 @@
  "symbol": "PERSISTENT",
  "name": "Persistent Systems",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:57:03+00:00",
+ "generated_at": "2026-10-28T08:49:38+00:00",
  "snapshot": {
   "about": "Digital engineering and enterprise modernization services powered by AI across high-tech, financial services, and healthcare verticals.",
   "latest_quarter": "Q2 FY27",
@@ -43,7 +43,7 @@
    "id": "P5",
    "metric": "New deal annual value",
    "period": null,
-   "target": "≥ 125 million (USD)",
+   "target": "≥ $125 million",
    "statement": "A new strategic deal will add roughly $125 million plus on an annual basis.",
    "said": {
     "quote": "So, from this deal perspective, this is a net new deal which will add roughly about $125 million plus on an annual basis and overall for the period of the contract it will be roughly about $650 million plus over 6.5 years",
@@ -62,7 +62,7 @@
    "id": "P6",
    "metric": "New deal total contract value",
    "period": null,
-   "target": "≥ 650 million (USD)",
+   "target": "≥ $650 million",
    "statement": "A new strategic contract will generate roughly $650 million plus over 6.5 years.",
    "said": {
     "quote": "So, from this deal perspective, this is a net new deal which will add roughly about $125 million plus on an annual basis and overall for the period of the contract it will be roughly about $650 million plus over 6.5 years",
@@ -100,7 +100,7 @@
    "id": "P1",
    "metric": "Annual Revenue Target",
    "period": "FY27",
-   "target": "2 billion (USD)",
+   "target": "$2 billion",
    "statement": "Management reaffirmed target of achieving $2 billion in revenue by March 2027.",
    "said": {
     "quote": "I am also happy to share that we remain firmly on track, advancing confidently towards our aspiration of $2 billion by March 2027 and laying the foundation of $5 billion by March 2031",
@@ -119,7 +119,7 @@
    "id": "P9",
    "metric": "One-time Nagarro transaction expenses",
    "period": "FY27",
-   "target": "50 USD (USD)",
+   "target": "$50",
    "statement": "Management expects approximately $50 million of one-time Nagarro transaction expenses across 3 to 4 quarters.",
    "said": {
     "quote": "Overall, we are expecting one-time expenses to the tune of approximately $50 million spread over three to four quarters",
@@ -157,7 +157,7 @@
    "id": "P2",
    "metric": "Annual Revenue Aspiration",
    "period": "FY31",
-   "target": "5 billion (USD)",
+   "target": "$5 billion",
    "statement": "Targeting $5 billion annual revenue aspiration by March 2031.",
    "said": {
     "quote": "I am also happy to share that we remain firmly on track, advancing confidently towards our aspiration of $2 billion by March 2027 and laying the foundation of $5 billion by March 2031",
@@ -178,7 +178,7 @@
    "id": "P4",
    "metric": "Quarterly Revenue Run Rate Target",
    "period": "Q4 FY27",
-   "target": "500 USD million (USD)",
+   "target": "$500 million",
    "statement": "Management targets reaching an annualized revenue run rate exit of ~$500 million per quarter by Q4 FY27.",
    "said": {
     "quote": "FY’27, Q4 exit is where we are looking at the run rate being in the range of $500 million or so",
@@ -414,12 +414,12 @@
   "graded_by_code": 3,
   "graded_by_model": 1,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 5,
   "models": [
    "gemini-3.5-flash",
    "gemini-3.6-flash",
    "gemini-3.8-flash"
   ],
-  "seconds": 41.8
+  "seconds": 1.2
  }
 }

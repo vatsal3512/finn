@@ -3,7 +3,7 @@
  "symbol": "LT",
  "name": "Larsen & Toubro",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:46:36+00:00",
+ "generated_at": "2026-10-28T08:49:16+00:00",
  "snapshot": {
   "about": "Larsen & Toubro is an Indian conglomerate engaged in technology, engineering, construction, manufacturing, and financial services.",
   "latest_quarter": "Q2 FY27",
@@ -591,6 +591,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.2
+  "seconds": 1.5
  }
 }

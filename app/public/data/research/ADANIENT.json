@@ -3,7 +3,7 @@
  "symbol": "ADANIENT",
  "name": "Adani Enterprises",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:52:00+00:00",
+ "generated_at": "2026-10-28T08:49:31+00:00",
  "snapshot": {
   "about": "Adani Enterprises Limited operates an infrastructure-focused incubator portfolio spanning energy, utilities, transport, logistics, and primary industry.",
   "latest_quarter": "Q1 FY27",
@@ -13,34 +13,31 @@
   "net_profit_yoy": -249.8,
   "ebitda_margin": 15.0
  },
- "narrative": "Management targeted aggressive capital expenditure and volume expansions, successfully scaling airport passenger traffic close to expectations. However, total income growth plateaued relative to historical gains, and cumulative cash generation remained negative despite reported operational profits.",
+ "narrative": "Management met airport traffic targets with 95.3 million passengers in FY26 against their guidance of just short of 100 million. However, Q1 FY27 posted a net loss of 1,462 crore despite revenue growing 49.9% to 32,924 crore.",
  "promises": [
   {
-   "id": "P1",
-   "metric": "Capital expenditure guidance",
+   "id": "P6",
+   "metric": "PVC project capex",
    "period": "FY26",
-   "target": "₹36,000 crore",
-   "statement": "Targeting capex of just over INR 36,000 crores in FY26.",
+   "target": "₹9,000 crore",
+   "statement": "Continuing work on the PVC business will add another INR 9,000 crores to capex in FY26.",
    "said": {
-    "quote": "d we are on track in the following year of roughly around just over INR 36,000 crores.",
+    "quote": "And then we expect the continuing work on PVC to add another about 9,000 to the capex",
     "source": "Q4 FY25 call, 1 May 2025",
-    "page": 6,
+    "page": 7,
     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
    },
-   "repeated_in": [
-    "Q2 FY26 call, 1 Nov 2025",
-    "Q3 FY26 call, 1 Feb 2026"
-   ],
+   "repeated_in": [],
    "actual": null,
    "actual_source": {
-    "quote": "our total target that we had outlined was roughly INR36,000 crores",
+    "quote": "currently, our capex that has already been expensed on that business is in the vicinity of about INR9,000 crores",
     "source": "Q3 FY26 call, 1 Feb 2026",
-    "page": 9,
+    "page": 8,
     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
    },
-   "verdict": "missed",
+   "verdict": "met",
    "verdict_by": "model",
-   "note": "Capex target missed."
+   "note": "Expensed capex on coal-to-PVC business reached approximately 9,000 crores by 9M FY26."
   },
   {
    "id": "P9",
@@ -64,7 +61,55 @@
    },
    "verdict": "met",
    "verdict_by": "model",
-   "note": "Traffic reached 95.3 million."
+   "note": "Full-year FY26 passenger traffic reached 95.3 million, achieving the target."
+  },
+  {
+   "id": "P12",
+   "metric": "Coal to PVC capex spent",
+   "period": "Q3 FY26",
+   "target": "₹9,000 crore",
+   "statement": "Expensed capex on coal-to-PVC business is around INR 9,000 crores.",
+   "said": {
+    "quote": "currently, our capex that has already been expensed on that business is in the vicinity of about INR9,000 crores",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 8,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "And then we expect the continuing work on PVC to add another about 9,000 to the capex",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 7,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Matches guidance of adding 9,000 crores capex for the PVC business."
+  },
+  {
+   "id": "P2",
+   "metric": "Mining services volume guidance",
+   "period": "H1 FY27",
+   "target": "60 MMT",
+   "statement": "Mining services dispatch volumes expected to reach close to 60 MMT over the next 18 months.",
+   "said": {
+    "quote": "we expect that we will be closer to 60 over the next 18 months based on the current demand patterns",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 4,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "During the year, the dispatch volume was up by 14% to 49.4 MMT, revenue up by 20% to INR4,536 crores and EBITDA up by 18% to INR1,986 crores",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 3,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "FY26 dispatch volumes reached 49.4 MMT, making progress toward 60 MMT target."
   },
   {
    "id": "P7",
@@ -219,25 +264,6 @@
    "note": null
   },
   {
-   "id": "P2",
-   "metric": "Mining services volume guidance",
-   "period": "H1 FY27",
-   "target": "60 MMT",
-   "statement": "Mining services dispatch volumes expected to reach close to 60 MMT over the next 18 months.",
-   "said": {
-    "quote": "we expect that we will be closer to 60 over the next 18 months based on the current demand patterns",
-    "source": "Q4 FY25 call, 1 May 2025",
-    "page": 4,
-    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
    "id": "P11",
    "metric": "Cell & Module commissioning milestone",
    "period": "H1 FY27",
@@ -272,6 +298,33 @@
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Capital expenditure guidance",
+   "period": "FY26",
+   "target": "₹36,000 crore",
+   "statement": "Targeting capex of just over INR 36,000 crores in FY26.",
+   "said": {
+    "quote": "d we are on track in the following year of roughly around just over INR 36,000 crores.",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 6,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q2 FY26 call, 1 Nov 2025",
+    "Q3 FY26 call, 1 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "we have already done just about INR25,200 crores",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 9,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "verdict": "unclear",
    "verdict_by": "model",
    "note": null
   },
@@ -324,44 +377,6 @@
     "source": "Q4 FY25 call, 1 May 2025",
     "page": 7,
     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P6",
-   "metric": "PVC project capex",
-   "period": "FY26",
-   "target": "₹9,000 crore",
-   "statement": "Continuing work on the PVC business will add another INR 9,000 crores to capex in FY26.",
-   "said": {
-    "quote": "And then we expect the continuing work on PVC to add another about 9,000 to the capex",
-    "source": "Q4 FY25 call, 1 May 2025",
-    "page": 7,
-    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P12",
-   "metric": "Coal to PVC capex spent",
-   "period": "Q3 FY26",
-   "target": "₹9,000 crore",
-   "statement": "Expensed capex on coal-to-PVC business is around INR 9,000 crores.",
-   "said": {
-    "quote": "currently, our capex that has already been expensed on that business is in the vicinity of about INR9,000 crores",
-    "source": "Q3 FY26 call, 1 Feb 2026",
-    "page": 8,
-    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
    },
    "repeated_in": [],
    "actual": null,
@@ -447,11 +462,11 @@
     "url": "https://www.screener.in/company/ADANIENT/consolidated/"
    }
   ],
-  "read": "Operating cash flows covered reported profits over the five-year period, but intensive ongoing investments caused free cash flow to remain deeply negative."
+  "read": "Operating cash flow covered reported profits over FY22–FY26, but heavy capital expenditure caused negative free cash flow in four out of five years while inventory days expanded significantly."
  },
  "bull": [
   {
-   "point": "Airport sector showed robust growth with passenger traffic reaching 95.3 million and segment EBITDA surging significantly.",
+   "point": "Airport segment demonstrated strong operational momentum, achieving 95.3 million passengers and 5,394 crore EBITDA in FY26.",
    "evidence": [
     {
      "quote": "Financial performance during '25-'26, we had passenger traffic of 95.3 million passengers, total income of INR13,081 crores, up by 28% year-over-year",
@@ -468,31 +483,31 @@
    ]
   },
   {
-   "point": "Mining services maintained steady dispatch volume growth alongside expanding revenues and positive EBITDA contributions.",
+   "point": "Cumulative five-year operating cash flow of 36,193 crore comfortably covered total reported profits of 24,501 crore.",
    "evidence": [
     {
-     "quote": "During the year, the dispatch volume was up by 14% to 49.4 MMT, revenue up by 20% to INR4,536 crores and EBITDA up by 18% to INR1,986 crores",
-     "source": "Q4 FY26 call, 1 Apr 2026",
-     "page": 3,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+     "quote": "Over FY22–FY26, operating cash flow of ₹36,193 crore covered all of reported profit, ₹24,501 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/ADANIENT/consolidated/"
     }
    ]
   },
   {
-   "point": "The company successfully completed a large rights issue to support capital-intensive incubating infrastructure projects.",
+   "point": "Third-party independent reviews were conducted to assure the Audit Committee that related party transactions were conducted on an arm's length basis.",
    "evidence": [
     {
-     "quote": "we completed the rights issue raising INR24,930 crores",
-     "source": "Q3 FY26 call, 1 Feb 2026",
-     "page": 3,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+     "quote": "your Company has engaged independent third party for assessment of related party transactions and providing assurance to the Audit Committee that all the transactions were at arm’s length basis",
+     "source": "Annual report 2026",
+     "page": 158,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a859a404-0859-451c-b8aa-f163631188c3.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "Free cash flow was negative across four out of five years, indicating severe cash outflows.",
+   "point": "Massive capital expenditure generated severe cash drain, resulting in negative total free cash flow of 75,217 crore across four of the last five years.",
    "evidence": [
     {
      "quote": "Free cash flow was negative in 4 of 5 years, −₹75,217 crore in total.",
@@ -503,7 +518,7 @@
    ]
   },
   {
-   "point": "Rising inventory days show cash is increasingly tied up within working capital.",
+   "point": "Working capital efficiency deteriorated significantly as inventory days widened from 69 to 126 days between FY24 and FY26.",
    "evidence": [
     {
      "quote": "Inventory days rose from 69 to 126 between FY24 and FY26: cash is waiting longer in the business.",
@@ -514,12 +529,12 @@
    ]
   },
   {
-   "point": "Auditors noted that revenue recognition and coal inventory measurements involve critical estimates and significant management judgment.",
+   "point": "The auditor noted that substantial loans given to group entities were renewed or extended prior to their due dates during the year.",
    "evidence": [
     {
-     "quote": "Material estimation by the Company is involved in recognition and measurement of its revenue",
+     "quote": "certain loans given to companies which are falling due during the year has been renewed/ extended prior to the due date",
      "source": "Annual report 2026",
-     "page": 223,
+     "page": 226,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a859a404-0859-451c-b8aa-f163631188c3.pdf"
     }
    ]
@@ -566,14 +581,13 @@
   "quotes_verified": 53,
   "quotes_dropped": 0,
   "graded_by_code": 0,
-  "graded_by_model": 2,
+  "graded_by_model": 4,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 5,
   "models": [
    "gemini-3.5-flash",
-   "gemini-3.5-flash-lite",
    "gemini-3.6-flash"
   ],
-  "seconds": 30.1
+  "seconds": 1.5
  }
 }

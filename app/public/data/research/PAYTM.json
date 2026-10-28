@@ -3,7 +3,7 @@
  "symbol": "PAYTM",
  "name": "Paytm",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:55:37+00:00",
+ "generated_at": "2026-10-28T08:49:37+00:00",
  "snapshot": {
   "about": "Digital payments, financial services, commerce and cloud technology platforms.",
   "latest_quarter": "Q2 FY27",
@@ -414,10 +414,10 @@
   "graded_by_code": 1,
   "graded_by_model": 1,
   "ai_calls": 5,
-  "cached_calls": 0,
+  "cached_calls": 5,
   "models": [
    "gemini-3.5-flash"
   ],
-  "seconds": 72.0
+  "seconds": 1.3
  }
 }

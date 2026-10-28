@@ -3,7 +3,7 @@
  "symbol": "SUNPHARMA",
  "name": "Sun Pharma",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:51:29+00:00",
+ "generated_at": "2026-10-28T08:49:28+00:00",
  "snapshot": {
   "about": "Sun Pharma is an Indian pharmaceutical company manufacturing innovative and generic medicines globally.",
   "latest_quarter": "Q1 FY27",
@@ -117,7 +117,7 @@
    "id": "P1",
    "metric": "Cost Synergies",
    "period": null,
-   "target": "350 million (USD)",
+   "target": "$350 million",
    "statement": "Management expects cost synergies of around $350 million to materialize over the next two to four years.",
    "said": {
     "quote": "There are also significant potential synergies that could come out, which we have highlighted could be in the range of about $350 million which could be materialized in the next two to four years",
@@ -405,6 +405,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.9
+  "seconds": 1.3
  }
 }

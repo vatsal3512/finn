@@ -3,7 +3,7 @@
  "symbol": "ASIANPAINT",
  "name": "Asian Paints",
  "basis": "consolidated",
- "generated_at": "2026-10-28T07:51:28+00:00",
+ "generated_at": "2026-10-28T08:49:27+00:00",
  "snapshot": {
   "about": "Asian Paints exists to beautify, transform and preserve spaces and objects, bringing happiness to the world.",
   "latest_quarter": "Q1 FY27",
@@ -353,6 +353,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.1
+  "seconds": 1.3
  }
 }
