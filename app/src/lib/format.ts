@@ -69,6 +69,17 @@ export function sessionDay(date: string): string {
   return new Intl.DateTimeFormat("en-GB", { timeZone: IST, day: "numeric", month: "short" }).format(d);
 }
 
+/**
+ * The refresh runs every 30 minutes from 08:30 to 22:30 IST. Data older than two hours in
+ * that window, or twelve overnight, means it has stopped: on 28 Oct 2026 the schedule
+ * stopped silently for six hours, and nothing on screen said so.
+ */
+export function isStale(iso: string, now: Date): boolean {
+  const hours = (now.getTime() - new Date(iso).getTime()) / 3_600_000;
+  const h = Number(new Intl.DateTimeFormat("en-GB", { timeZone: IST, hour: "numeric", hourCycle: "h23" }).format(now));
+  return h >= 9 && h < 23 ? hours > 2 : hours > 12;
+}
+
 export function ago(iso: string, now: Date): string {
   const mins = Math.max(0, (now.getTime() - new Date(iso).getTime()) / 60_000);
   if (mins < 60) return `${Math.round(mins)}m ago`;

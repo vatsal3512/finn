@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { AskAnswer, Filing, Holding, Meta } from "@/lib/contract";
 import { computeAlerts, loadSettings, type PriceAlert } from "@/lib/alerts";
 import { between, byScore, CATEGORY, openingWindow, title, todays3 } from "@/lib/feed";
-import { longDate, sessionDay, times, when } from "@/lib/format";
+import { ago, isStale, longDate, sessionDay, times, when } from "@/lib/format";
 import { dismissIntro, introDismissed, previousVisit } from "@/lib/visit";
 import { loadWindow, range, saveWindow, type Window } from "@/lib/window";
 import { FilingCard, GlanceRow } from "./FilingCard";
@@ -83,9 +83,15 @@ export function Today({ feed, holdings, meta, ask }: Props) {
         <p className="text-right text-[11px] leading-tight text-faint">
           Prices to {meta.latest_session ? sessionDay(meta.latest_session) : "—"} close
           <br />
-          {meta.counts.holdings} holdings
+          {now ? <>Updated {ago(meta.generated_at, now)}</> : <>{meta.counts.holdings} holdings</>}
         </p>
       </header>
+
+      {now && isStale(meta.generated_at, now) && (
+        <p role="status" className="mx-3 mb-3 rounded-xl bg-warn-soft px-3.5 py-2.5 text-[13px] text-warn">
+          Last update {ago(meta.generated_at, now)}. Filings since then are not shown yet.
+        </p>
+      )}
 
       {intro && (
         <section className="fade-in mx-3 mb-3 rounded-2xl border border-line bg-surface p-4">
