@@ -346,3 +346,15 @@ def test_actuals_read_one_basis_only(tmp_path):
     upsert(conn, "financials", rows, ("symbol", "basis", "statement", "period", "line_item"))
     assert Actuals(conn, "MM").get("profit_loss", "Sales", "2026-03") == 1000.0
     assert Actuals(conn, "MM", "standalone").get("profit_loss", "Sales", "2026-03") == 400.0
+
+
+def test_a_point_shows_each_quote_once():
+    from finn.contracts import Evidence, Snapshot
+    from finn.research.engine import Ledger, _points
+    from finn.research.judge import Point
+
+    ev = Evidence(quote="Revenue grew 40% to INR946 crores", source="Q1 FY27 call", page=3, url="u")
+    ledger = Ledger([], [ev, ev.model_copy()], Snapshot(about=None, latest_quarter=None, revenue=None,
+                    revenue_yoy=None, net_profit=None, net_profit_yoy=None, ebitda_margin=None))  # fmt: skip
+    out, dropped = _points([Point(point="Revenue grew.", evidence=["F1", "F2"])], ledger, None)
+    assert dropped == 0 and len(out[0].evidence) == 1

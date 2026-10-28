@@ -192,7 +192,13 @@ def model_verdict(ruling, cid: str, claim, act: Actuals) -> tuple[str, list[str]
 def _points(points, ledger: Ledger, src: Sources) -> tuple[list[CasePoint], int]:
     out, dropped = [], 0
     for p in points[:3]:
-        evidence = [e for e in (ledger.evidence(r) for r in p.evidence) if e]
+        # Two claims read from one sentence (revenue and its growth) share a quote; the
+        # point should show it once.
+        evidence, seen = [], set()
+        for e in (ledger.evidence(r) for r in p.evidence):
+            if e and (e.quote, e.source) not in seen:
+                seen.add((e.quote, e.source))
+                evidence.append(e)
         if p.ar_quote:
             m = src.annual_report.find(p.ar_quote) if src.annual_report else None
             if not m:  # the point named its source, and the source does not say it
