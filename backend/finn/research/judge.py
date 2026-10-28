@@ -71,8 +71,11 @@ class JudgeOut(BaseModel):
     bear: list[Point]
 
 
-def run(llm: LLM, prompt: str) -> JudgeOut:
+def run(llm: LLM, prompt: str, tier: Tier = Tier.REASON) -> JudgeOut:
+    """REASON (high thinking) when computing ahead. A live request uses FLASH (low
+    thinking): on 28 Oct the high-thinking judge took 200 of Titan's 235 live seconds,
+    too close to the server's 300-second limit."""
     return llm.json(
-        "judge", Tier.REASON, prompt, JudgeOut, system=SYSTEM, version=PROMPT_VERSION,
+        "judge", tier, prompt, JudgeOut, system=SYSTEM, version=PROMPT_VERSION,
         max_output_tokens=32768,  # high thinking spends from this budget too
     )  # fmt: skip

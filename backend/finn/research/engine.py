@@ -20,7 +20,7 @@ from collections.abc import Iterator
 from datetime import datetime
 from pathlib import Path
 
-from finn.ai.llm import LLM, AIUnavailable
+from finn.ai.llm import LLM, AIUnavailable, Tier
 from finn.contracts import (
     CasePoint,
     Evidence,
@@ -292,7 +292,8 @@ def stream(
         llm = LLM.from_env(conn, key_offset=7)
         llm.deadline = deadline
         llm.patient = deadline is None
-        judged = judge.run(llm, _judge_prompt(src, ledger, ds, ar_excerpts(src)))
+        tier = Tier.REASON if deadline is None else Tier.FLASH  # someone is waiting live
+        judged = judge.run(llm, _judge_prompt(src, ledger, ds, ar_excerpts(src)), tier)
         j_calls, j_cached = 1, llm.stats["cache_hits"]
         models.add(llm.last_model)
     except AIUnavailable as exc:
