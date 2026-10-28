@@ -474,12 +474,14 @@
       15.2,
       15.6
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
-     "share_of_associates": null,
+     "share_of_associates": 166.3,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026133333_AELBoardoutcome30092026.pdf"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748357_28102026103427_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704483_29072026074413_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565340_04112025110537_WEB.xml"
      ]
     }
    ],
@@ -5249,12 +5251,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Board approves Q2 FY27 financial results",
-    "summary": "Board approved Q2 FY27 results with revenue surging 52.8% YoY to ₹9,898.9 crore and PAT increasing 42.9% YoY to ₹990.0 crore.",
-    "why_it_matters": "Strong top-line growth offset slight YoY EBITDA margin compression from 15.8% to 14.4%, maintaining robust profit delivery.",
+    "title": "Quarterly financial results filed",
+    "summary": "Revenue rose to ₹9,898.9 crore, up 20.6% QoQ and 52.8% YoY, with profit after tax increasing to ₹990.0 crore.",
+    "why_it_matters": "Revenue growth outpaces the company's annual revenue of ₹34,609 crore, indicating strong quarterly performance.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "results"
@@ -5751,12 +5753,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "CRISIL and ICRA assign AAA rating to Sun Pharma NCDs",
-    "summary": "CRISIL and ICRA assigned Crisil AAA/Stable and [ICRA]AAA (Stable) ratings to Sun Pharma's proposed Rs.15,000 Crore Non-Convertible Debentures.",
-    "why_it_matters": "The top-tier AAA credit rating factors in Sun Pharma's financial profile and its proposed acquisition of Organon & Co.",
+    "title": "Credit rating update",
+    "summary": "CRISIL assigned AAA/Stable to Sun Pharma's NCD programme and reaffirmed its long‑term rating, while ICRA reaffirmed AAA/Stable for existing facilities.",
+    "why_it_matters": "Ratings reflect the company's strong financial profile and support its proposed acquisition of Organon & Co.",
     "sentiment": "positive",
     "amount_inr_crore": 15000.0,
-    "model": "gemini-3.5-flash"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "M&A",
@@ -9827,12 +9829,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026233852_Intimationforconstitutionofrightsissuecommittee.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Rights Issue Committee Constituted",
-    "summary": "The Board approved the constitution and terms of reference of a rights issue committee consisting of Mr. Bhavish Aggarwal, Mr. Manoj Kumar Kohli, and Mr. Navalur Dattatreya Singh Shashank.",
-    "why_it_matters": null,
+    "title": "Board approves rights issue committee",
+    "summary": "The board approved the constitution of a rights issue committee chaired by Chairman Bhavish Aggarwal to oversee a forthcoming rights issue.",
+    "why_it_matters": "The committee formation signals intent to raise capital, which could affect share dilution.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "fund_raise"
