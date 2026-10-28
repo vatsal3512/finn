@@ -206,6 +206,34 @@ def _points(points, ledger: Ledger, src: Sources) -> tuple[list[CasePoint], int]
     return out, dropped
 
 
+def _row(i: int, d: Draft, ruling, ledger: Ledger, act: Actuals) -> Guidance:
+    """One promise as the app shows it: what was said, what was delivered, and who judged."""
+    cid = ledger.id_of(d.claim)
+    c, call = d.claim.claim, d.call
+    said = Evidence(quote=d.claim.quote, source=call.doc.label, page=d.claim.page, url=call.doc.url)
+    actual_src = None
+    if d.grade and d.grade.by_outcome:
+        o = d.grade.by_outcome
+        actual_src = Evidence(quote=o.quote, source=d.grade.outcome_call.doc.label, page=o.page,
+                              url=d.grade.outcome_call.doc.url)  # fmt: skip
+    elif d.grade and d.grade.actual:
+        actual_src = Evidence(quote=f"{c.metric}, {c.period}: {d.grade.actual}", source=SCREENER,
+                              url=act.url or "")  # fmt: skip
+    if d.grade:  # code's verdict stands; the judge may only add a note, such as a cut
+        verdict = d.grade.verdict
+        note = _prose(ruling.note) if ruling else None
+    else:
+        verdict, others, note = model_verdict(ruling, cid, c, act)
+        if others:
+            actual_src = next((e for e in map(ledger.evidence, others) if e), None)
+    return Guidance(
+        id=f"P{i}", metric=c.metric, period=c.period, target=target_text(c), statement=c.statement,
+        said=said, repeated_in=[r.doc.label for r in d.repeated_in],
+        actual=d.grade.actual if d.grade else None, actual_source=actual_src, verdict=verdict,
+        verdict_by="code" if d.grade else "model", note=note,
+    )  # fmt: skip
+
+
 # ---------------------------------------------------------------- the pipeline
 
 
@@ -253,8 +281,11 @@ def stream(
         src.notes.append(f"{snapshot.latest_quarter} results are out, but that quarter's call "
                          "transcript is not filed yet, so its guidance is not here.")  # fmt: skip
     ledger = Ledger(calls, cash.signals, snapshot)
-    yield {"stage": "graded", "message": f"{sum(1 for d in ds if d.grade)} of {len(ds)} promises "
-           "graded against reported numbers"}  # fmt: skip
+    # Code's verdicts are final, so the app can show them while the judge works.
+    settled = [_row(i, d, None, ledger, act) for i, d in enumerate(ds, 1) if d.grade]
+    yield {"stage": "graded", "message": f"{len(settled)} of {len(ds)} promises graded against "
+           "reported numbers", "snapshot": snapshot.model_dump(),
+           "promises": [g.model_dump() for g in settled], "total": len(ds)}  # fmt: skip
 
     judged, j_calls, j_cached, models = None, 0, 0, {c.model for c in calls if c.model}
     try:
@@ -270,35 +301,9 @@ def stream(
         )
 
     rulings = {r.id: r for r in (judged.rulings if judged else [])}
-    promises: list[Guidance] = []
-    for i, d in enumerate(ds, 1):
-        cid = ledger.id_of(d.claim)
-        ruling = rulings.get(cid)
-        c, call = d.claim.claim, d.call
-        said = Evidence(
-            quote=d.claim.quote, source=call.doc.label, page=d.claim.page, url=call.doc.url
-        )
-        actual_src = None
-        if d.grade and d.grade.by_outcome:
-            o = d.grade.by_outcome
-            actual_src = Evidence(quote=o.quote, source=d.grade.outcome_call.doc.label, page=o.page,
-                                  url=d.grade.outcome_call.doc.url)  # fmt: skip
-        elif d.grade and d.grade.actual:
-            actual_src = Evidence(quote=f"{c.metric}, {c.period}: {d.grade.actual}", source=SCREENER,
-                                  url=act.url or "")  # fmt: skip
-        if d.grade:  # code's verdict stands; the judge may only add a note, such as a cut
-            verdict, others = d.grade.verdict, []
-            note = _prose(ruling.note) if ruling else None
-        else:
-            verdict, others, note = model_verdict(ruling, cid, c, act)
-            if others:
-                actual_src = next((e for e in map(ledger.evidence, others) if e), None)
-        promises.append(Guidance(
-            id=f"P{i}", metric=c.metric, period=c.period, target=target_text(c), statement=c.statement,
-            said=said, repeated_in=[r.doc.label for r in d.repeated_in],
-            actual=d.grade.actual if d.grade else None, actual_source=actual_src, verdict=verdict,
-            verdict_by="code" if d.grade else "model", note=note,
-        ))  # fmt: skip
+    promises = [
+        _row(i, d, rulings.get(ledger.id_of(d.claim)), ledger, act) for i, d in enumerate(ds, 1)
+    ]
     promises.sort(key=lambda p: (VERDICT_ORDER.index(p.verdict), p.period or ""))
 
     bull, bear, dropped_points = [], [], 0

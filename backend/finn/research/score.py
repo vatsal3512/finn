@@ -197,7 +197,10 @@ def target_text(claim) -> str | None:
     if lo is not None and hi is None:
         body = "≥ " + body
     basis = (claim.basis or "").strip()
-    if basis and not _is_rupee(basis):
+    if basis.upper() in ("USD", "US$", "$"):  # "≥ $1,000 million", not "≥ 1,000 USD (USD)"
+        body = re.sub(r"\s*\b(USD|US\$)\b", "", body)
+        body = re.sub(r"(\d)", r"$\1", body, count=1)
+    elif basis and not _is_rupee(basis):
         body += f" ({basis})"
     return " ".join(body.split())
 

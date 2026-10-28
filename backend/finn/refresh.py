@@ -63,26 +63,35 @@ def main(argv: list[str] | None = None) -> int:
     stages = args.only or STAGES
     conn = connect()
     seed_companies(conn)
+    failed = []
     with Run(conn, "refresh " + " ".join(argv or sys.argv[1:])) as run:
         for stage in STAGES:
             if stage not in stages:
                 continue
             t0 = time.perf_counter()
-            if stage == "corp_actions":
-                run.stats[stage] = corp_actions.run(conn, companies)
-            elif stage == "prices":
-                run.stats[stage] = prices.run(conn, companies)
-            elif stage == "filings":
-                run.stats[stage] = filings.run(conn, companies, days=args.days)
-            elif stage == "enrich":
-                run.stats[stage] = enrich_run(conn, LLM.from_env(conn), days=args.days)
-            elif stage == "export":
-                run.stats[stage] = export.run(conn)
+            # One source failing, such as NSE refusing a cloud server, must not stop the
+            # others: the run exports and commits whatever it could get.
+            try:
+                if stage == "corp_actions":
+                    run.stats[stage] = corp_actions.run(conn, companies)
+                elif stage == "prices":
+                    run.stats[stage] = prices.run(conn, companies)
+                elif stage == "filings":
+                    run.stats[stage] = filings.run(conn, companies, days=args.days)
+                elif stage == "enrich":
+                    run.stats[stage] = enrich_run(conn, LLM.from_env(conn), days=args.days)
+                elif stage == "export":
+                    run.stats[stage] = export.run(conn)
+            except Exception as exc:  # noqa: BLE001 - recorded, and the next stage runs
+                logging.exception("%s failed", stage)
+                run.stats[stage] = {"error": f"{type(exc).__name__}: {str(exc)[:300]}"}
+                failed.append(stage)
             run.stats[stage]["seconds"] = round(time.perf_counter() - t0, 1)
             logging.info("%s done: %s", stage, json.dumps(run.stats[stage], default=str))
         run.stats["requests"] = {c.name: c.requests_made for c in net.all_clients()}
+        run.stats["failed_stages"] = failed
     print(json.dumps(run.stats, indent=2, default=str))
-    return 0
+    return 1 if "export" in failed else 0
 
 
 if __name__ == "__main__":

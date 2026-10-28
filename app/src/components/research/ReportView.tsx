@@ -65,7 +65,7 @@ export function ReportView({ r }: { r: ResearchReport }) {
   );
 }
 
-function SnapshotHeader({ s }: { s: Snapshot }) {
+export function SnapshotHeader({ s }: { s: Snapshot }) {
   return (
     <div className="px-4">
       {s.about && <p className="text-[14px] leading-snug text-muted">{s.about}</p>}
@@ -99,7 +99,7 @@ function Tile({ n, label, tone }: { n: number; label: string; tone: string }) {
   );
 }
 
-function PromiseRow({ p }: { p: Guidance }) {
+export function PromiseRow({ p }: { p: Guidance }) {
   const v = VERDICT[p.verdict];
   return (
     <li className="border-t border-line first:border-t-0">
@@ -156,7 +156,7 @@ function Quote({ label, e }: { label: string; e: Evidence }) {
   );
 }
 
-function CashSection({ c }: { c: CashQuality }) {
+export function CashSection({ c }: { c: CashQuality }) {
   return (
     <>
       <SectionTitle aside={c.conversion_5y != null ? `5-year cash conversion ${pct(c.conversion_5y * 100, 0).replace("+", "")}` : undefined}>

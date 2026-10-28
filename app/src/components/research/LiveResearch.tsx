@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { CashQuality, ResearchReport, Snapshot } from "@/lib/contract";
-import { ReportView } from "./ReportView";
+import type { CashQuality, Guidance, ResearchReport, Snapshot } from "@/lib/contract";
+import { CashSection, PromiseRow, ReportView, SnapshotHeader } from "./ReportView";
+import { SectionTitle } from "../ui";
 
 type Event = {
   stage: "gather" | "cash" | "claims" | "graded" | "done" | "error";
@@ -10,6 +11,8 @@ type Event = {
   cash?: CashQuality;
   snapshot?: Snapshot;
   report?: ResearchReport;
+  promises?: Guidance[];
+  total?: number;
   notes?: string[];
 };
 
@@ -68,10 +71,15 @@ export function LiveResearch({ symbol }: { symbol: string }) {
   if (report) return <ReportView r={report} />;
   const reached = new Set(events.map((e) => e.stage));
   const last = events[events.length - 1];
+  // What is already known is shown while the rest is worked out.
+  const snapshot = [...events].reverse().find((e) => e.snapshot)?.snapshot;
+  const cash = events.find((e) => e.cash)?.cash;
+  const graded = events.find((e) => e.stage === "graded");
   return (
+    <>
     <div className="px-4">
       <p className="text-[14px] text-muted">
-        FINN has not researched {symbol} before. It is reading the company&apos;s own documents now; this takes about a minute.
+        FINN has not researched {symbol} before. It is reading the company&apos;s own documents now, which takes one to three minutes. What is settled appears below as it is found.
       </p>
       <ol className="mt-4 space-y-2.5">
         {STEPS.map((s, i) => {
@@ -88,5 +96,20 @@ export function LiveResearch({ symbol }: { symbol: string }) {
       {last && !error && <p className="num mt-4 text-[12px] text-faint">{last.message} · {elapsed}s</p>}
       {error && <p className="mt-4 rounded-md bg-down-soft px-3 py-2 text-[13px] text-down">{error}</p>}
     </div>
+    {snapshot && <div className="mt-5"><SnapshotHeader s={snapshot} /></div>}
+    {graded?.promises && (
+      <>
+        <SectionTitle aside={`${graded.promises.length} of ${graded.total} so far`}>Settled by the numbers</SectionTitle>
+        {graded.promises.length > 0 ? (
+          <ul className="mx-3 rounded-xl border border-line bg-surface">
+            {graded.promises.map((p) => <PromiseRow key={p.id} p={p} />)}
+          </ul>
+        ) : (
+          <p className="mx-4 text-[13px] text-muted">No promise could be checked against reported numbers; the rest are being weighed.</p>
+        )}
+      </>
+    )}
+    {cash && <CashSection c={cash} />}
+    </>
   );
 }
