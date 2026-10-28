@@ -15,9 +15,11 @@ name: refresh-data
 on:
   # GitHub reads the schedule from the default branch. Switching the default branch away
   # and back drops it without a word: on 28 Oct 2026 the last scheduled run was 09:18 UTC.
-  # A push that touches this file, or disabling and enabling the workflow, restores it.
+  # Changing the cron line, or disabling and enabling the workflow, restores it.
+  # Minutes 7 and 37, not 0 and 30: GitHub delays, and can drop, runs at the top of the
+  # hour, when most schedules fire.
   schedule:
-    - cron: "*/30 3-16 * * *"  # UTC
+    - cron: "7,37 3-16 * * *"  # UTC: 08:37 to 22:37 IST
   workflow_dispatch: {}
 
 permissions:
