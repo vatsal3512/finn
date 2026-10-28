@@ -304,6 +304,15 @@ def test_rupee_targets_show_in_crore_and_cash_promises_as_positive():
     assert target_text(c) == "positive"
 
 
+def test_counted_things_are_not_rupees():
+    phones = _claim(metric_key="other", low=7, high=7.5, unit="million units")
+    assert target_text(phones) == "7–7.5 million units"
+    assert target_text(_claim(metric_key="volume_growth", low=7, high=7.5, unit="million")) == (
+        "7–7.5 million"
+    )
+    assert target_text(_claim(low=2.5, unit="crore")) == "≥ ₹2.5 crore"
+
+
 def test_dollar_targets_read_in_dollars():
     assert target_text(_claim(low=1000, unit="million USD", basis="USD")) == "≥ $1,000 million"
     assert target_text(_claim(low=1, high=1, unit="billion", basis="USD")) == "$1 billion"

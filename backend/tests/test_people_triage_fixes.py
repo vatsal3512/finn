@@ -131,3 +131,31 @@ def test_only_rupee_amounts_are_converted():
     assert amount_crore(item(42646.09, "million", "INR")) == 4264.61
     assert amount_crore(item(2.79, "crore", "Rs.")) == 2.79
     assert amount_crore(item(1250, "crore", None)) == 1250.0
+
+
+def test_excerpt_ends_on_a_word_and_carries_later_amounts():
+    from finn.enrich.triage import excerpt
+
+    opening = "Pursuant to Regulation 30 we submit the details of notices received. " * 30
+    annexure = (
+        "Annexure A Name of the authority: Department of Telecommunications. Notice imposing "
+        "a penalty of Rs.1,41,000 for alleged violation of subscriber verification norms."
+    )
+    out = excerpt(opening + annexure, limit=300)
+    head = out.split(" …")[0]
+    assert opening.startswith(head) and not head.endswith("receiv")  # cut on a word
+    assert "Amounts later in the filing:" in out and "Rs.1,41,000" in out
+    assert excerpt("Board meeting held today.", limit=300) == "Board meeting held today."
+
+
+def test_a_wrong_share_of_revenue_is_corrected_and_a_fair_one_kept():
+    from finn.enrich.triage import checked_shares
+
+    polycab = "The amount is only ~0.00008% of its ₹34,609 crore revenue."
+    assert checked_shares(polycab, 2.79, 34609) == (
+        "The amount is only ~0.0081% of its ₹34,609 crore revenue."
+    )
+    ola = "The issue is over 50% of annual revenue (₹1,880 crore)."
+    assert checked_shares(ola, 1000, 1880) == ola
+    growth = "Revenue grew 30% while the order is small."
+    assert checked_shares(growth, 50, 1000) == growth  # not a share of revenue

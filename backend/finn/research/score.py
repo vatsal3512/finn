@@ -120,6 +120,21 @@ def _is_rupee(basis: str | None) -> bool:
     return not basis or bool(RUPEE_BASIS.match(basis.strip()))
 
 
+# Words a money unit may carry. Any other word names something counted: "million units".
+_MONEY_WORDS = {"inr", "rs", "rupee", "rupees", "crore", "crores", "cr", "lakh", "lakhs",
+                "million", "mn", "billion", "bn", "thousand", "trillion"}  # fmt: skip
+_NOT_MONEY = ("volume_growth", "working_capital_days")
+
+
+def _is_money(claim) -> bool:
+    """Dixon's "7 million to 7.5 million" smartphones came with no currency, and were shown
+    as ₹0.7–0.75 crore. A count is not rupees, whatever its scale word."""
+    if claim.metric_key in _NOT_MONEY or not _is_rupee(claim.basis):
+        return False
+    words = re.findall(r"[a-z]+", (claim.unit or "").lower())
+    return bool(words) and all(w in _MONEY_WORDS for w in words)
+
+
 def _kind(metric_key: str) -> str | None:
     return SERIES[metric_key][1] if metric_key in SERIES else None
 
@@ -181,7 +196,7 @@ def target_text(claim) -> str | None:
         return "positive" if positive else None
     if lo == 0 and hi is None:  # "turn cash positive" arrives as at least ₹0
         return "positive"
-    factor = crore_factor(unit) if _is_rupee(claim.basis) else None
+    factor = crore_factor(unit) if _is_money(claim) else None
     if factor and factor != 1:  # "INR 40,000 million" reads as ₹4,000 crore beside a crore actual
         lo = lo * factor if lo is not None else None
         hi = hi * factor if hi is not None else None
@@ -197,7 +212,7 @@ def target_text(claim) -> str | None:
             else f"{num(lo if lo is not None else hi)}%"
         )
     else:
-        pre = "₹" if _is_rupee(claim.basis) and crore_factor(unit) else ""
+        pre = "₹" if _is_money(claim) and crore_factor(unit) else ""
         unit_txt = re.sub(r"\b(inr|rs\.?)\b", "", unit, flags=re.I).strip()
         if lo is not None and hi not in (None, lo):
             body = f"{pre}{num(lo)}–{num(hi)} {unit_txt}"

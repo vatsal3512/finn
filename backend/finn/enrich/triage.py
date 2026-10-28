@@ -55,7 +55,10 @@ log = logging.getLogger(__name__)
 # v7: v6 stored Adani Enterprises' "$50 billion" market forecast as a deal of ₹5,000
 #     crore. The amount is now only the company's own transaction, with its currency, and
 #     code converts only rupee amounts.
-PROMPT_VERSION = "triage-v7"
+# v8, after the evaluation in finn/evals: the excerpt now ends on a whole word and carries
+#     the amounts found past it (see excerpt), and code checks any share of revenue the
+#     model writes (see checked_shares). The wording of the prompt is unchanged.
+PROMPT_VERSION = "triage-v8"
 BATCH = 6
 EXCERPT_CHARS = 1800
 
@@ -156,10 +159,79 @@ _LETTERHEAD = re.compile(
 )
 
 
+# An amount as filings print it: "Rs.1,41,000", "US$ 7,000,000", "INR 42,646.09 million".
+_AMOUNT = re.compile(
+    # \b keeps "1759 Hrs. 4" from reading as an amount
+    r"(?:\b(?:rs\.?|inr|usd|us\$)|₹|\$)\s?\d[\d,]*(?:\.\d+)?"
+    r"|\b\d[\d,]*(?:\.\d+)?\s?(?:crores?|lakhs?|million|billion)\b",
+    re.I,
+)
+AMOUNT_CHARS = 600  # room for the amounts found past the excerpt
+AMOUNT_BEFORE, AMOUNT_AFTER = 150, 80  # words around each amount, so it says what it is
+
+
 def excerpt(text: str, limit: int = EXCERPT_CHARS) -> str:
+    """The opening of the filing, cut on a word, then the passages around any amounts past it.
+
+    The cut used to fall anywhere: Airtel's "penalty of Rs.1,41,000" reached the model as
+    "Rs.1,41", and the model wrote that figure into the card. Amounts often sit in an
+    annexure past the opening (Dixon's US$7 million guarantee, both Airtel penalties), so
+    the model rated them blind; now it sees each one with the words around it.
+    """
     lines = [ln.strip() for ln in clean(text).splitlines()]
     kept = [ln for ln in lines if ln and not _LETTERHEAD.search(ln)]
-    return re.sub(r"\s+", " ", " ".join(kept))[:limit]
+    flat = re.sub(r"\s+", " ", " ".join(kept))
+    if len(flat) <= limit:
+        return flat
+    head = flat[: limit + 1].rsplit(" ", 1)[0]
+    rest = flat[len(head) :]
+    spans: list[list[int]] = []
+    for m in _AMOUNT.finditer(rest):
+        a, b = max(0, m.start() - AMOUNT_BEFORE), min(len(rest), m.end() + AMOUNT_AFTER)
+        if spans and a <= spans[-1][1]:
+            spans[-1][1] = b
+        else:
+            spans.append([a, b])
+    passages, used = [], 0
+    for a, b in spans:
+        words = rest[a:b].split(" ")
+        words = words[1 if a > 0 else 0 : -1 if b < len(rest) else None]  # half-cut words
+        p = " ".join(words).strip()
+        if not p or used + len(p) > AMOUNT_CHARS:
+            break
+        passages.append(p)
+        used += len(p)
+    if not passages:
+        return head + " …"
+    return head + " … Amounts later in the filing: " + " … ".join(passages)
+
+
+# "53% of annual revenue", "~0.00008% of its ₹34,609 crore revenue"
+_SHARE = re.compile(r"(\d+(?:\.\d+)?)\s?%(?=\s+of\b[^.;]{0,45}?\brevenue)", re.I)
+SHARE_TOLERANCE = 0.15  # "over 50%" for a true 53% is fair; 100 times too small is not
+
+
+def _pct(x: float) -> str:
+    return f"{x:.0f}" if x >= 10 else f"{x:.1f}" if x >= 1 else f"{x:.2g}"
+
+
+def checked_shares(text: str | None, amount: float | None, revenue: float | None) -> str | None:
+    """The model may set an amount against annual revenue, but code does the division.
+
+    Polycab's ₹2.79 crore claim was written as "0.00008% of its ₹34,609 crore revenue";
+    it is 0.008%. A share within rounding of the true one stays as the model wrote it; a
+    wrong one is replaced with the true one.
+    """
+    if not text or not amount or not revenue:
+        return text
+    true = amount / revenue * 100
+
+    def fix(m: re.Match) -> str:
+        if abs(float(m.group(1)) - true) <= SHARE_TOLERANCE * true:
+            return m.group(0)
+        return m.group(0).replace(m.group(1), _pct(true), 1)
+
+    return _SHARE.sub(fix, text)
 
 
 def annual_revenue(conn: sqlite3.Connection, symbol: str) -> float | None:
@@ -320,6 +392,10 @@ def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = 
         for it in out.items:
             if it.id not in by_id:
                 continue
+            amount = amount_crore(it)
+            revenue = annual_revenue(conn, by_id[it.id]["symbol"])
+            it.summary = checked_shares(it.summary, amount, revenue) or ""
+            it.why_it_matters = checked_shares(it.why_it_matters, amount, revenue)
             rows.append(
                 {
                     "filing_id": it.id,
@@ -334,7 +410,7 @@ def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = 
                     "sentiment": it.sentiment
                     if it.sentiment in ("positive", "negative", "neutral", "mixed")
                     else "neutral",
-                    "amount_inr_crore": amount_crore(it),
+                    "amount_inr_crore": amount,
                     "model": llm.last_model,
                     "prompt_version": PROMPT_VERSION,
                     "created_at": now_iso(),
