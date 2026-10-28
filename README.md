@@ -21,6 +21,7 @@ FINN is a phone app for someone who owns Indian stocks. It does two jobs:
 - **It checks promises with arithmetic.** An AI model reads each earnings call and lists what management promised. Then code, not the model, compares each promise with the reported numbers. Kaynes promised at least ₹4,000 crore of revenue for FY26 and reported ₹3,626 crore, so FINN marks it "missed".
 - **Every quote is real.** Before FINN shows a sentence from a call or an annual report, code finds that exact sentence in the document and records the page. A quote that cannot be found is thrown away.
 - **Numbers come from the source.** Results come from the exchange's own data files, and are cross-checked with screener.in. If they don't match, the card says so.
+- **Its output is tested, not trusted.** A model can answer differently each time, so we check what it writes: labels against a hand-labelled set, every quote and number against the source, and the same prompt run three times. 495 of 495 quotes were found word for word, and no number was found to be made up. The checks also found five bugs, now fixed. See [backend/finn/evals/REPORT.md](backend/finn/evals/REPORT.md).
 
 ## How it is built
 

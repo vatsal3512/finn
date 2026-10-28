@@ -1,0 +1,2136 @@
+{
+ "per_filing": [
+  {
+   "id": "nse:106806485",
+   "symbol": "HDFCBANK",
+   "what": "Quarterly business update: advances up about 15% year on year",
+   "accepted": {
+    "category": [
+     "press_release",
+     "results"
+    ],
+    "tier": [
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Quarterly advances and deposits update released",
+     "summary": "Average advances grew about 14.0% to ₹ 31,872 billion and average deposits grew about 16.8% to ₹ 31,665 billion for the September 2026 quarter.",
+     "why": "Average advances grew 14.0% to ₹ 31,872 billion and average deposits grew 16.8% to ₹ 31,665 billion for the quarter compared to the corresponding period last year.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "14.0",
+      "31,872",
+      "16.8",
+      "31,665",
+      "2026",
+      "14.0",
+      "31,872",
+      "16.8",
+      "31,665"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "unclassified",
+     "tier": "glance",
+     "title": "Quarterly business update on advances and deposits",
+     "summary": "The bank reported September 2026 quarter average advances of ₹ 31,872 billion and average deposits of ₹ 31,665 billion.",
+     "why": "Average advances grew around 14.0% year-on-year to ₹ 31,872 billion, while average deposits rose approximately 16.8% to ₹ 31,665 billion.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": false,
+     "tier_ok": true,
+     "numbers": [
+      "2026",
+      "31,872",
+      "31,665",
+      "14.0",
+      "31,872",
+      "16.8",
+      "31,665"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "unclassified",
+     "tier": "glance",
+     "title": "Quarterly business updates on advances and deposits",
+     "summary": "The bank reported average advances under management of ₹ 31,872 billion and average deposits of ₹ 31,665 billion for the September 2026 quarter.",
+     "why": "Average advances grew around 14.0% to ₹ 31,872 billion and average deposits grew around 16.8% to ₹ 31,665 billion compared to the September 2025 period.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": false,
+     "tier_ok": true,
+     "numbers": [
+      "31,872",
+      "31,665",
+      "2026",
+      "14.0",
+      "31,872",
+      "16.8",
+      "31,665",
+      "2025"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run3": {
+     "category": "unclassified",
+     "tier": "glance",
+     "title": "Quarterly advance and deposit updates",
+     "summary": "Bank reported average advances under management of ₹ 31,872 billion for September 2026 quarter, a growth of around 14.0% over September 2025.",
+     "why": "Average deposits grew by 16.8% to ₹ 31,665 billion for the September 2026 quarter compared to ₹ 27,105 billion a year ago.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": false,
+     "tier_ok": true,
+     "numbers": [
+      "31,872",
+      "2026",
+      "14.0",
+      "2025",
+      "16.8",
+      "31,665",
+      "2026",
+      "27,105"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106829218",
+   "symbol": "PAYTM",
+   "what": "Earnings release for Q2 FY27",
+   "accepted": {
+    "category": [
+     "results"
+    ],
+    "tier": [
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY2027 earnings release highlights YoY revenue growth",
+     "summary": "Paytm released its Q2 FY2027 earnings report highlighting a 28% YoY increase in revenue and 90% YoY increase in EBITDA driven by AI adoption.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "90"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY27 Earnings Release Published",
+     "summary": "Paytm reported Q2 FY27 results with revenue up 28% YoY and EBITDA up 90% YoY.",
+     "why": "Performance on a comparable basis is stronger than reported YoY, excluding PIDF incentives in Q2 FY26.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "90"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY2027 earnings release published",
+     "summary": "Paytm reported Q2 FY2027 earnings with revenue up 28% YoY and EBITDA up 90% YoY.",
+     "why": "Performance was driven by merchant and consumer business growth and AI cost efficiency, though excluding PIDF incentives in Q2 FY26 makes comparable YoY growth stronger.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "90"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY2027 earnings release hosted",
+     "summary": "Paytm issued its earnings release for Q2 FY2027, highlighting sustained business momentum, expanded monetization, and AI-driven efficiency.",
+     "why": "Revenue grew 28% YoY while EBITDA rose 90% YoY, driven by business model strength, AI adoption, and merchant and consumer business expansion.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "90"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": false,
+    "note": "Tier classification as glance is inaccurate; the earnings release contains material financial updates that could affect investor view."
+   }
+  },
+  {
+   "id": "nse:106818462",
+   "symbol": "POLYCAB",
+   "what": "Press release on Q2 FY27 results",
+   "accepted": {
+    "category": [
+     "results"
+    ],
+    "tier": [
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Press Release Highlights Record Q2 Performance",
+     "summary": "Revenue surged 52.8% YoY to ₹9,898.9 crore, leading Profit after tax to increase 42.9% YoY to ₹990.0 crore.",
+     "why": "EBITDA expanded 39.4% YoY to ₹1,422.5 crore, supporting earnings growth despite a slight margin compression to 14.4% from 15.8% YoY.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "52.8",
+      "9,898.9",
+      "42.9",
+      "990.0",
+      "39.4",
+      "1,422.5",
+      "14.4",
+      "15.8"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY27 Press Release Issued",
+     "summary": "Polycab India reported Q2 FY27 revenue up 52.8% YoY to ₹9,898.9 crore and PAT up 42.9% YoY to ₹990.0 crore.",
+     "why": "Revenue grew 52.8% YoY while EBITDA margin contracted to 14.4% from 15.8% a year ago.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "52.8",
+      "9,898.9",
+      "42.9",
+      "990.0",
+      "52.8",
+      "14.4",
+      "15.8"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY2027 press release issued",
+     "summary": "Polycab India reported Q2 FY27 revenue of ₹9,898.9 crore, up 52.8% YoY, and PAT of ₹990.0 crore, up 42.9% YoY.",
+     "why": "Revenue grew 52.8% YoY while EBITDA margin contracted from 15.8% to 14.4%.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "9,898.9",
+      "52.8",
+      "990.0",
+      "42.9",
+      "52.8",
+      "15.8",
+      "14.4"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run3": {
+     "category": "results",
+     "tier": "glance",
+     "title": "Q2 FY2027 earnings press release",
+     "summary": "Polycab India released its Q2 FY2027 earnings update reporting revenue of ₹9,898.9 crore and profit after tax of ₹990.0 crore.",
+     "why": "Revenue grew most YoY, rising 52.8% to ₹9,898.9 crore, while EBITDA margin compressed to 14.4% from 15.8% a year ago.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "9,898.9",
+      "990.0",
+      "52.8",
+      "9,898.9",
+      "14.4",
+      "15.8"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [
+     "Revenue surged 52.8% YoY to ₹9,898.9 crore (filing states 53% YoY)",
+     "Profit after tax increased 42.9% YoY to ₹990.0 crore (filing states 43% YoY)",
+     "EBITDA expanded 39.4% YoY to ₹1,422.5 crore (filing states 39% YoY)"
+    ],
+    "wrong": [
+     "Revenue surged 52.8% YoY to ₹9,898.9 crore – filing reports 53% YoY growth",
+     "Profit after tax increased 42.9% YoY to ₹990.0 crore – filing reports 43% YoY growth",
+     "EBITDA expanded 39.4% YoY to ₹1,422.5 crore – filing reports 39% YoY growth"
+    ],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": false,
+    "note": "Summary percentages differ from filing and the assigned tier (glance) understates the significance of a record quarter for a company with ₹34,609 cr annual revenue."
+   }
+  },
+  {
+   "id": "nse:106798830",
+   "symbol": "OLAELEC",
+   "what": "New company secretary appointed",
+   "accepted": {
+    "category": [
+     "management_change"
+    ],
+    "tier": [
+     "glance",
+     "routine"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "management_change",
+     "tier": "glance",
+     "title": "Appointment of Company Secretary and Compliance Officer",
+     "summary": "Ms. Deepa Bansal was appointed as Company Secretary, Compliance Officer, and Key Managerial Personnel effective September 28, 2026.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "management_change",
+     "tier": "routine",
+     "title": "Deepa Bansal Appointed Company Secretary",
+     "summary": "Ola Electric appointed Deepa Bansal as Company Secretary and Compliance Officer effective September 28, 2026.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "management_change",
+     "tier": "routine",
+     "title": "Deepa Bansal appointed Company Secretary",
+     "summary": "Ola Electric appointed Deepa Bansal as Company Secretary and Compliance Officer effective September 28, 2026, succeeding Deepak R.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "management_change",
+     "tier": "routine",
+     "title": "New Company Secretary appointed",
+     "summary": "Ola Electric Mobility appointed Ms. Deepa Bansal as Company Secretary and Compliance Officer, effective September 28, 2026.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "28",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106829496",
+   "symbol": "HDFCBANK",
+   "what": "New MD and CEO takes charge",
+   "accepted": {
+    "category": [
+     "management_change"
+    ],
+    "tier": [
+     "must_see"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Anup Bagchi assumes role as MD and CEO",
+     "summary": "Anup Bagchi has taken charge as Managing Director and CEO of HDFC Bank following Sashidhar Jagdishan's exit upon completion of tenure on October 26, 2026.",
+     "why": "Anup Bagchi transitions from leading ICICI Prudential Life Insurance to head HDFC Bank following the completion of Sashidhar Jagdishan's tenure.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "26",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Anup Bagchi Assumes MD & CEO Role",
+     "summary": "Anup Bagchi assumed charge as MD & CEO of HDFC Bank on October 27, 2026, succeeding Sashidhar Jagdishan.",
+     "why": "Bagchi previously served as MD & CEO of ICICI Prudential Life Insurance and Executive Director at ICICI Bank.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Anup Bagchi takes charge as MD & CEO",
+     "summary": "Anup Bagchi has assumed charge as MD & CEO of HDFC Bank effective October 27, 2026, following the completion of Sashidhar Jagdishan's tenure.",
+     "why": "Bagchi previously served as MD & CEO of ICICI Prudential Life Insurance and Executive Director at ICICI Bank.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run3": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Anup Bagchi assumes MD & CEO role",
+     "summary": "Anup Bagchi assumed charge as MD & CEO of HDFC Bank on October 27, 2026, following Sashidhar Jagdishan's exit upon completing his tenure.",
+     "why": "This leadership change brings in Anup Bagchi, previously MD & CEO of ICICI Prudential Life Insurance, to head India's largest private bank.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [
+     "Anup Bagchi transitions from leading ICICI Prudential Life Insurance to head HDFC Bank"
+    ],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": true,
+    "note": "why_it_matters includes an unsupported claim about Bagchi's prior position"
+   }
+  },
+  {
+   "id": "nse:106821168",
+   "symbol": "HDFCBANK",
+   "what": "Independent director reappointed; Deputy MD to leave",
+   "accepted": {
+    "category": [
+     "management_change"
+    ],
+    "tier": [
+     "must_see",
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Deputy MD Resigns; Independent Director Re-Appointed",
+     "summary": "Deputy MD Kaizad Bharucha requested to step down effective December 31, 2026, while Lily Vadera was approved for re-appointment as Independent Director for 3 years.",
+     "why": "The departure of a long-serving Deputy MD is a major leadership change, while Vadera's role requires shareholder approval.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "31",
+      "2026",
+      "3"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [
+      "Deputy MD Kaizad Bharucha",
+      "Deputy MD"
+     ],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Deputy MD Resigns; Independent Director Reappointed",
+     "summary": "Deputy MD Kaizad Bharucha requested cessation effective December 31, 2026, while Lily Vadera was reappointed as Independent Director.",
+     "why": "Kaizad Bharucha leaves after an association of over three decades with the bank.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "31",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [
+      "Deputy MD Kaizad Bharucha"
+     ],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Deputy MD Kaizad Bharucha resigns",
+     "summary": "Deputy Managing Director Kaizad Bharucha will step down on December 31, 2026, while Independent Director Lily Vadera was re-appointed for three years.",
+     "why": "Bharucha leaves after more than three decades at the bank; his departure requires RBI approval.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "31",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "management_change",
+     "tier": "must_see",
+     "title": "Deputy MD steps down; Director re-appointed",
+     "summary": "HDFC Bank announced Deputy MD Kaizad Bharucha's resignation effective December 31, 2026, and approved Independent Director Lily Vadera's 3-year re-appointment.",
+     "why": "Deputy MD Kaizad Bharucha is stepping down after over three decades at the bank, subject to Reserve Bank of India approval.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "31",
+      "2026",
+      "3"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [
+      "Deputy MD Kaizad Bharucha",
+      "Deputy MD Kaizad Bharucha"
+     ],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [
+     "The departure of a long-serving Deputy MD is a major leadership change"
+    ],
+    "wrong": [
+     "Deputy MD Resigns"
+    ],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": true,
+    "note": "Title states resignation, but filing only reports a request for cessation"
+   }
+  },
+  {
+   "id": "nse:106823800",
+   "symbol": "DIXON",
+   "what": "Guarantee of up to US$7 million for a wholly owned subsidiary",
+   "accepted": {
+    "category": [
+     "fund_raise"
+    ],
+    "tier": [
+     "glance",
+     "routine"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Guarantee issued for material wholly owned subsidiary",
+     "summary": "A corporate guarantee was issued for the unlisted material wholly owned subsidiary, Padget Electronics Private Limited, in favor of Quanta Computer Inc.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": false,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Guarantee issued for unlisted subsidiary Padget Electronics",
+     "summary": "Dixon Technologies issued a guarantee for its unlisted material wholly owned subsidiary Padget Electronics Private Limited in favor of Quanta Computer Inc.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": false,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Guarantee issued for wholly owned subsidiary",
+     "summary": "The company issued a guarantee for its unlisted material wholly owned subsidiary, Padget Electronics Private Limited, in favor of Quanta Computer Inc.",
+     "why": "The guarantee was issued on an arm's length basis for an unlisted material wholly owned subsidiary.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": false,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": true,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Guarantee issued for unlisted subsidiary",
+     "summary": "Dixon issued a guarantee for its unlisted material wholly owned subsidiary, Padget Electronics Private Limited, in favor of Quanta Computer Inc.",
+     "why": "The guarantee was issued for an unlisted subsidiary at an arm's length basis.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": false,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": false,
+    "note": "Tier incorrectly marked as must_see; the guarantee of US$7 M is a minor contingent liability relative to ₹51,586 cr revenue."
+   }
+  },
+  {
+   "id": "nse:106810317",
+   "symbol": "OLAELEC",
+   "what": "Rights issue of up to 1,000 crore at 27 a share",
+   "accepted": {
+    "category": [
+     "fund_raise"
+    ],
+    "tier": [
+     "must_see"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Rights issue up to ₹1,000 crore",
+     "summary": "Board approved rights issue up to ₹1,000 crore at ₹27 per share, 26% discount.",
+     "why": "Issue size equals about 53% of annual revenue (₹1,880 crore).",
+     "model": "openai/gpt-oss-120b",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,000",
+      "1,000",
+      "27",
+      "26",
+      "53",
+      "1,880"
+     ],
+     "ungrounded_numbers": [
+      "53"
+     ],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Board Approves ₹1,000 Crore Rights Issue",
+     "summary": "Ola Electric approved a rights issue of up to ₹1,000 crore at ₹27 per share.",
+     "why": "The ₹1,000 crore capital raise represents over 50% of annual revenue of about ₹1,880 crore.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,000",
+      "1,000",
+      "27",
+      "1,000",
+      "50",
+      "1,880"
+     ],
+     "ungrounded_numbers": [
+      "50"
+     ],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Board approves ₹1,000 crore rights issue",
+     "summary": "Ola Electric's board approved a rights issue of up to ₹1,000 crore at ₹27 per share.",
+     "why": "The ₹1,000 crore issue represents over 50% of annual revenue (₹1,880 crore) and is priced at a 26% discount to market price.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,000",
+      "1,000",
+      "27",
+      "1,000",
+      "50",
+      "1,880",
+      "26"
+     ],
+     "ungrounded_numbers": [
+      "50"
+     ],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run3": {
+     "category": "fund_raise",
+     "tier": "must_see",
+     "title": "Board approves ₹1,000 crore rights issue",
+     "summary": "Ola Electric Mobility's Board approved a rights issue of up to ₹1,000 crore at ₹27 per share, representing a 26% discount.",
+     "why": "The ₹1,000 crore issue equals over 50% of annual revenue (~₹1,880 crore), significantly diluting equity at a 26% discount to market price.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,000",
+      "1,000",
+      "27",
+      "26",
+      "1,000",
+      "50",
+      "1,880",
+      "26"
+     ],
+     "ungrounded_numbers": [
+      "50"
+     ],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [
+     "Issue size equals about 53% of annual revenue (₹1,880 crore)"
+    ],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": true,
+    "note": "why_it_matters includes an unsupported claim about the issue size relative to annual revenue"
+   }
+  },
+  {
+   "id": "nse:106816873",
+   "symbol": "POLYCAB",
+   "what": "NCLAT grants an earlier hearing date in an insolvency appeal",
+   "accepted": {
+    "category": [
+     "litigation"
+    ],
+    "tier": [
+     "routine",
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "litigation",
+     "tier": "routine",
+     "title": "NCLAT grants early hearing for appeal",
+     "summary": "The Hon'ble NCLAT has granted Polycab India's request for an early hearing of its appeal in the Asier Metals matter, advancing it to October 15, 2026.",
+     "why": "This is a procedural scheduling update regarding an ongoing legal appeal originally set for hearing on October 26, 2026.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "15",
+      "2026",
+      "26",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "litigation",
+     "tier": "routine",
+     "title": "Early Hearing Granted in Insolvency Appeal",
+     "summary": "The Hon'ble NCLAT granted an early hearing request for the appeal in Asier Metals Private Limited vs. Polycab India Limited, scheduling it for October 15, 2026.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "15",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "litigation",
+     "tier": "glance",
+     "title": "Early Listing Granted for Insolvency Appeal",
+     "summary": "The Hon'ble NCLAT has approved Polycab India's request for an early hearing on its appeal regarding Asier Metals, moving it to October 15, 2026.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "15",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "litigation",
+     "tier": "routine",
+     "title": "NCLAT Grants Early Hearing Date in Appeal",
+     "summary": "NCLAT has granted an early listing request for the appeal in Asier Metals Private Limited vs. Polycab India Limited, scheduling it for October 15, 2026.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "15",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": false,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106800485",
+   "symbol": "BHARTIARTL",
+   "what": "Two DoT penalties, 1.41 lakh and 2.12 lakh, for subscriber verification",
+   "accepted": {
+    "category": [
+     "litigation"
+    ],
+    "tier": [
+     "routine",
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "litigation",
+     "tier": "must_see",
+     "title": "Penalty notice received from Department of Telecommunications",
+     "summary": "The company received a notice from the Department of Telecommunications imposing a penalty.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": false,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "litigation",
+     "tier": "routine",
+     "title": "Penalty Notice Received from DoT",
+     "summary": "Bharti Airtel received a notice from the Department of Telecommunications imposing a penalty of Rs.1,41.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,41"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "litigation",
+     "tier": "routine",
+     "title": "DoT Imposes Penalty Notice on Company",
+     "summary": "Bharti Airtel received a penalty notice of Rs.1,41 from the Department of Telecommunications, Delhi LSA.",
+     "why": "The penalty of Rs.1,41 is completely negligible relative to the company's annual revenue of about ₹220,049 crore.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,41",
+      "1,41",
+      "220,049"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run3": {
+     "category": "litigation",
+     "tier": "routine",
+     "title": "DoT Imposes Rs 1,41 Penalty Notice",
+     "summary": "Bharti Airtel received a notice from the Department of Telecommunications, Delhi LSA, imposing a penalty of Rs.1,41.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "1,41",
+      "1,41"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": false,
+    "note": "Penalty is negligible relative to revenue, so must_see tier is overstated"
+   }
+  },
+  {
+   "id": "nse:106809698",
+   "symbol": "DIXON",
+   "what": "Definitive JV agreement with Gemtek, after a term sheet in June",
+   "accepted": {
+    "category": [
+     "M&A"
+    ],
+    "tier": [
+     "glance",
+     "must_see"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "Joint venture for optical transceiver manufacturing",
+     "summary": "Dixon entered JV with Gemtek and Dixon Electroconnect to produce SFP and BOSA in India.",
+     "why": null,
+     "model": "openai/gpt-oss-120b",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "Joint Venture Agreement Executed for Telecom Products",
+     "summary": "Dixon Technologies, Gemtek Technology, and Dixon Electroconnect executed a joint venture agreement to manufacture optical transceivers and telecom products in India.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "Joint Venture Executed for Telecom Manufacturing",
+     "summary": "Dixon Technologies executed a JV agreement with Gemtek and Dixon Electroconnect to manufacture Optical Transceiver - SFP and BOSA telecom products.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "Dixon Executes Joint Venture Agreement for Telecom Products",
+     "summary": "Dixon Technologies, Gemtek, and Dixon Electroconnect executed a joint venture agreement to manufacture and supply telecom products like Optical Transceiver - SFP and BOSA.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106816113",
+   "symbol": "ADANIENT",
+   "what": "MoU with Jabil for a 50:50 data-centre hardware JV",
+   "accepted": {
+    "category": [
+     "M&A"
+    ],
+    "tier": [
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "MoU for 50:50 Data Centre JV",
+     "summary": "Adani Enterprises and Jabil signed an MoU to create a 50:50 joint venture building multi‑gigawatt AI data‑centre hardware in India.",
+     "why": "The JV targets India's projected 5–8 GW data‑centre capacity by 2030, addressing a $50 billion hyperscaler spend.",
+     "model": "openai/gpt-oss-120b",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "50",
+      "50",
+      "50",
+      "50",
+      "5",
+      "8",
+      "2030",
+      "50"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run1": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "MoU Signed for Data Centre Hardware JV",
+     "summary": "Adani Enterprises signed an MoU with Jabil to set up a 50:50 joint venture for an AI infrastructure platform in India.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "50",
+      "50"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "MoU Signed for Data Centre Hardware JV",
+     "summary": "Adani Enterprises signed an MoU with Jabil to establish a 50:50 joint venture for building AI infrastructure and data centre hardware in India.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "50",
+      "50"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "M&A",
+     "tier": "glance",
+     "title": "Adani and Jabil Sign MoU for Joint Venture",
+     "summary": "Adani Enterprises signed a MoU with Jabil for a 50:50 joint venture to build an AI data centre hardware platform in India.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "50",
+      "50"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106816165",
+   "symbol": "SUNPHARMA",
+   "what": "AAA assigned to new NCDs, existing ratings reaffirmed",
+   "accepted": {
+    "category": [
+     "credit_rating"
+    ],
+    "tier": [
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "credit_rating",
+     "tier": "glance",
+     "title": "CRISIL and ICRA assign AAA NCD rating",
+     "summary": "CRISIL and ICRA assigned AAA (Stable) ratings to Sun Pharma's proposed Non-Convertible Debenture programme and reaffirmed existing facility ratings.",
+     "why": "The rating agencies factored in the company's strong financial profile and its proposed acquisition of Organon & Co.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "credit_rating",
+     "tier": "glance",
+     "title": "CRISIL and ICRA Assign AAA Ratings",
+     "summary": "CRISIL and ICRA assigned AAA ratings to Sun Pharma's proposed Non-Convertible Debenture programme and reaffirmed existing ratings.",
+     "why": "The ratings factor in Sun Pharma's strong business and financial profile as well as its proposed acquisition of Organon & Co.",
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "credit_rating",
+     "tier": "glance",
+     "title": "CRISIL and ICRA Assign Highest NCD Ratings",
+     "summary": "CRISIL and ICRA assigned AAA/Stable ratings to Sun Pharma's proposed NCD programme and reaffirmed existing facility ratings, factoring in the proposed Organon acquisition.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "credit_rating",
+     "tier": "glance",
+     "title": "CRISIL and ICRA Assign AAA Ratings for NCDs",
+     "summary": "CRISIL and ICRA assigned AAA ratings with a stable outlook to Sun Pharma's proposed Non-Convertible Debenture programme while reaffirming existing ratings.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": true,
+    "tier_fair": false,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106808824",
+   "symbol": "ASIANPAINT",
+   "what": "Notice of the results board meeting, with a record date for any interim dividend",
+   "accepted": {
+    "category": [
+     "results",
+     "dividend",
+     "unclassified"
+    ],
+    "tier": [
+     "routine",
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "dividend",
+     "tier": "glance",
+     "title": "Board meeting date and interim dividend consideration",
+     "summary": "A board meeting is scheduled for 29th October 2026 to consider financial results and an interim dividend, with a record date of 4th November 2026.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "29",
+      "2026",
+      "4",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "dividend",
+     "tier": "glance",
+     "title": "Board meeting scheduled to consider interim dividend",
+     "summary": "The board will meet on October 29, 2026, to consider financial results and an interim dividend, setting November 4, 2026, as the record date.",
+     "why": "An interim dividend for the financial year ending March 31, 2027, will be considered alongside results for the quarter ended September 30, 2026.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "29",
+      "2026",
+      "4",
+      "2026",
+      "31",
+      "2027",
+      "30",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": false,
+     "why_specific": true
+    },
+    "run2": {
+     "category": "dividend",
+     "tier": "glance",
+     "title": "Board meeting scheduled for results and interim dividend",
+     "summary": "A board meeting is scheduled for October 29, 2026, to consider financial results and a possible interim dividend, with a record date of November 4, 2026.",
+     "why": "The record date for the potential interim dividend is set for Wednesday, 4th November 2026.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "29",
+      "2026",
+      "4",
+      "2026",
+      "4",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": true,
+     "why_specific": true
+    },
+    "run3": {
+     "category": "dividend",
+     "tier": "glance",
+     "title": "Board meeting date for interim dividend and results",
+     "summary": "A board meeting is scheduled for 29th October 2026 to consider financial results and an interim dividend, with a record date of 4th November 2026.",
+     "why": "The record date for the potential interim dividend is set for Wednesday, 4th November 2026.",
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "29",
+      "2026",
+      "4",
+      "2026",
+      "4",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": false,
+     "why_repeats": true,
+     "why_specific": true
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106808727",
+   "symbol": "SUNPHARMA",
+   "what": "Press release: endowed professorship at Mount Sinai",
+   "accepted": {
+    "category": [
+     "press_release"
+    ],
+    "tier": [
+     "routine",
+     "glance"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "press_release",
+     "tier": "glance",
+     "title": "Endowed Professorship established at Mount Sinai",
+     "summary": "The company established an endowed professorship in dermatology at the Icahn School of Medicine at Mount Sinai.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "press_release",
+     "tier": "routine",
+     "title": "Endowed Professorship established at Mount Sinai",
+     "summary": "Sun Pharma established an endowed professorship in dermatology at Mount Sinai to support academic leadership, research, and education.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "press_release",
+     "tier": "routine",
+     "title": "Established endowed professorship at Mount Sinai",
+     "summary": "The company established an endowed professorship at Mount Sinai to fund academic leadership in dermatology in perpetuity.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "press_release",
+     "tier": "glance",
+     "title": "Established Endowed Professorship at Mount Sinai",
+     "summary": "Sun Pharma established the Sun Professorship in Dermatology at the Icahn School of Medicine at Mount Sinai to fund academic leadership in perpetuity.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": false,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106809356",
+   "symbol": "BHARTIARTL",
+   "what": "Press release: free international roaming on postpaid plans",
+   "accepted": {
+    "category": [
+     "press_release"
+    ],
+    "tier": [
+     "glance",
+     "routine"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "press_release",
+     "tier": "glance",
+     "title": "Free International Roaming on Postpaid Plans",
+     "summary": "The company announced the launch of new postpaid plans offering free international roaming once every year along with other benefits.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "press_release",
+     "tier": "glance",
+     "title": "Free International Roaming launched on postpaid plans",
+     "summary": "Airtel announced new postpaid plans offering free international roaming once a year along with unlimited data and other benefits.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "press_release",
+     "tier": "glance",
+     "title": "Free international roaming on all postpaid plans",
+     "summary": "The company launched new postpaid plans offering free international roaming for one trip every year, along with other benefits.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "press_release",
+     "tier": "glance",
+     "title": "Launched new postpaid plans with free roaming",
+     "summary": "Airtel announced new postpaid plans offering free international roaming once a year, along with unlimited data and other benefits.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106831073",
+   "symbol": "MARUTI",
+   "what": "Audio recording of the results call uploaded",
+   "accepted": {
+    "category": [
+     "earnings_call"
+    ],
+    "tier": [
+     "routine"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "earnings_call",
+     "tier": "routine",
+     "title": "Audio Recording of Investors Call Released",
+     "summary": "Maruti Suzuki India Limited has uploaded the audio recording of its investors' call held on October 27, 2026, regarding Q2 FY27 results to its website.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "earnings_call",
+     "tier": "routine",
+     "title": "Audio Recording of Q2 FY27 Investors' Call",
+     "summary": "Maruti Suzuki uploaded the audio recording of its investors' call held on October 27, 2026, regarding Q2 FY27 financial results.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "earnings_call",
+     "tier": "routine",
+     "title": "Audio Recording of Q2 FY27 Earnings Call",
+     "summary": "Maruti Suzuki uploaded the audio recording of its investor call held on October 27, 2026, for the quarter ended September 30, 2026.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026",
+      "30",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "earnings_call",
+     "tier": "routine",
+     "title": "Audio Recording of Investor Call Available Online",
+     "summary": "Maruti Suzuki uploaded the audio recording of its Q2 FY27 investor call held on 27th October 2026 to its website.",
+     "why": null,
+     "model": "gemini-3.6-flash",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "27",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [
+     "The summary says the call was regarding Q2 FY27 results, which is not explicitly stated in the filing."
+    ],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "Summary includes an unsupported reference to Q2 FY27 results, which the filing does not explicitly mention."
+   }
+  },
+  {
+   "id": "nse:106829304",
+   "symbol": "PAYTM",
+   "what": "Board meeting closed at 10:15 pm",
+   "accepted": {
+    "category": [
+     "unclassified",
+     "results"
+    ],
+    "tier": [
+     "routine"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "unclassified",
+     "tier": "routine",
+     "title": "Board meeting concluded",
+     "summary": "The company notified that its board meeting which commenced on October 26, 2026 at 07:51 p.m. concluded at 10:15 p.m.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "26",
+      "2026",
+      "07",
+      "51",
+      "10",
+      "15"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "results",
+     "tier": "routine",
+     "title": "Board meeting conclusion intimation",
+     "summary": "One 97 Communications notified the exchange that its board meeting held on October 26, 2026, concluded at 10:15 p.m. IST.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "97",
+      "26",
+      "2026",
+      "10",
+      "15"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "results",
+     "tier": "routine",
+     "title": "Board meeting concluded",
+     "summary": "The meeting of the Board of Directors of the company commenced at 07:51 p.m. and concluded at 10:15 p.m. on October 26, 2026.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "07",
+      "51",
+      "10",
+      "15",
+      "26",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "unclassified",
+     "tier": "routine",
+     "title": "Closure of board meeting",
+     "summary": "The board meeting commenced at 07:51 p.m. and concluded at 10:15 p.m. on October 26, 2026.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [
+      "07",
+      "51",
+      "10",
+      "15",
+      "26",
+      "2026"
+     ],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": false,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  },
+  {
+   "id": "nse:106799738",
+   "symbol": "HDFCBANK",
+   "what": "Newspaper notice on a window for transferring physical shares",
+   "accepted": {
+    "category": [
+     "unclassified"
+    ],
+    "tier": [
+     "routine"
+    ]
+   },
+   "answers": {
+    "shipped": {
+     "category": "unclassified",
+     "tier": "routine",
+     "title": "Newspaper Notice on Physical Share Transfer",
+     "summary": "A notice regarding a special window for transfer and dematerialization of physical shares was published in newspapers.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run1": {
+     "category": "unclassified",
+     "tier": "routine",
+     "title": "Newspaper notice for special physical shares demat window",
+     "summary": "The bank published a newspaper notice regarding a special window for the transfer and dematerialization of physical shares.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run2": {
+     "category": "unclassified",
+     "tier": "routine",
+     "title": "Newspaper notice for special physical shares transfer window",
+     "summary": "The bank published a newspaper notice regarding a special window for the transfer and dematerialization of physical shares.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    },
+    "run3": {
+     "category": "unclassified",
+     "tier": "routine",
+     "title": "Newspaper notice for special physical shares transfer window",
+     "summary": "The bank published a newspaper notice regarding a special window for transfer and dematerialization of physical shares.",
+     "why": null,
+     "model": "gemini-3.5-flash-lite",
+     "category_ok": true,
+     "tier_ok": true,
+     "numbers": [],
+     "ungrounded_numbers": [],
+     "ungrounded_names": [],
+     "why_empty": true,
+     "why_repeats": false,
+     "why_specific": false
+    }
+   },
+   "stable": true,
+   "second_model": {
+    "unsupported": [],
+    "wrong": [],
+    "relevant": true,
+    "why_adds": null,
+    "tier_fair": true,
+    "note": "none"
+   }
+  }
+ ],
+ "summary": {
+  "shipped": {
+   "answered": 19,
+   "category_ok": 19,
+   "tier_ok": 17,
+   "both_ok": 17,
+   "with_ungrounded_number": 1,
+   "with_ungrounded_name": 1,
+   "why_empty": 11,
+   "why_repeats": 0,
+   "why_specific": 7,
+   "models": {
+    "gemini-3.5-flash-lite": 9,
+    "gemini-3.6-flash": 7,
+    "openai/gpt-oss-120b": 3
+   }
+  },
+  "run1": {
+   "answered": 19,
+   "category_ok": 18,
+   "tier_ok": 18,
+   "both_ok": 17,
+   "with_ungrounded_number": 1,
+   "with_ungrounded_name": 1,
+   "why_empty": 11,
+   "why_repeats": 0,
+   "why_specific": 7,
+   "models": {
+    "gemini-3.5-flash-lite": 7,
+    "gemini-3.6-flash": 12
+   }
+  },
+  "run2": {
+   "answered": 19,
+   "category_ok": 18,
+   "tier_ok": 18,
+   "both_ok": 17,
+   "with_ungrounded_number": 1,
+   "with_ungrounded_name": 0,
+   "why_empty": 10,
+   "why_repeats": 2,
+   "why_specific": 6,
+   "models": {
+    "gemini-3.5-flash-lite": 7,
+    "gemini-3.6-flash": 12
+   }
+  },
+  "run3": {
+   "answered": 19,
+   "category_ok": 18,
+   "tier_ok": 18,
+   "both_ok": 17,
+   "with_ungrounded_number": 1,
+   "with_ungrounded_name": 1,
+   "why_empty": 11,
+   "why_repeats": 1,
+   "why_specific": 7,
+   "models": {
+    "gemini-3.5-flash-lite": 7,
+    "gemini-3.6-flash": 12
+   }
+  },
+  "stable_all_runs": 16,
+  "second_model": {
+   "checked": 19,
+   "with_unsupported": 5,
+   "with_wrong": 2,
+   "relevant": 19,
+   "why_adds": 7,
+   "why_present": 7,
+   "tier_fair": 14
+  }
+ },
+ "all_shipped": {
+  "answers": 126,
+  "flagged": 8,
+  "flags": [
+   {
+    "id": "nse:106830222",
+    "symbol": "MARUTI",
+    "numbers": [],
+    "names": [
+     "Consolidated PAT"
+    ],
+    "text": "Press Release on Q2 FY27 Financial Results | Maruti Suzuki reported highest-ever quarterly sales volume of 696,654 units (up 26.5% YoY) and net sales of INR 506,155 million in Q2 FY27. | Consolidated PAT dropped 26.4% YoY to ₹2,466.1 crore due to EBITDA margin narrowing from 12.0% to 8.9%."
+   },
+   {
+    "id": "nse:106821168",
+    "symbol": "HDFCBANK",
+    "numbers": [],
+    "names": [
+     "Deputy MD Kaizad Bharucha",
+     "Deputy MD"
+    ],
+    "text": "Deputy MD Resigns; Independent Director Re-Appointed | Deputy MD Kaizad Bharucha requested to step down effective December 31, 2026, while Lily Vadera was approved for re-appointment as Independent Director for 3 years. | The departure of a long-serving Deputy MD is a major leadership change, while Vadera's role requires shareholder approval."
+   },
+   {
+    "id": "nse:106816143",
+    "symbol": "NAZARA",
+    "numbers": [],
+    "names": [
+     "Director Rohit Sharma"
+    ],
+    "text": "Resignation of Whole-time Director and CFO | Nazara Technologies' Whole-time Director Rohit Sharma and Chief Financial Officer have submitted their resignations to pursue other opportunities. | The simultaneous exit of a Whole-time Director and the CFO represents a major leadership change for the company."
+   },
+   {
+    "id": "nse:106816002",
+    "symbol": "POLYCAB",
+    "numbers": [
+     "0.00008"
+    ],
+    "names": [],
+    "text": "NCLAT stays CIRP order for Polycab | The National Company Law Appellate Tribunal stayed the order initiating corporate insolvency resolution for Polycab India concerning an alleged debt of ₹2.79 crore. | The stay preserves Polycab’s operations, with the disputed amount representing only ~0.00008% of its ₹34,609 crore revenue."
+   },
+   {
+    "id": "nse:106815003",
+    "symbol": "SUNPHARMA",
+    "numbers": [
+     "16.7"
+    ],
+    "names": [
+     "The NCD"
+    ],
+    "text": "Approves INR 10,000 Crore NCD issue | The board approved issuance of listed, rated non‑convertible debentures up to INR 10,000 crore and accepted Gautam Doshi’s resignation as independent director. | The NCD amount equals roughly 16.7% of Sun Pharma’s ₹59,911 crore annual revenue."
+   },
+   {
+    "id": "nse:106810317",
+    "symbol": "OLAELEC",
+    "numbers": [
+     "53"
+    ],
+    "names": [],
+    "text": "Rights issue up to ₹1,000 crore | Board approved rights issue up to ₹1,000 crore at ₹27 per share, 26% discount. | Issue size equals about 53% of annual revenue (₹1,880 crore)."
+   },
+   {
+    "id": "nse:106810214",
+    "symbol": "OLAELEC",
+    "numbers": [
+     "53"
+    ],
+    "names": [],
+    "text": "Rights issue 2:25 ratio, ₹27 price | Board issued 2 shares per 25 existing at ₹27 each, total size ₹1,000 crore. | Size represents roughly 53% of the company's ₹1,880 crore revenue."
+   },
+   {
+    "id": "nse:106826575",
+    "symbol": "EMUDHRA",
+    "numbers": [
+     "4.70"
+    ],
+    "names": [],
+    "text": "ICRA assigns credit rating for bank facilities | ICRA assigned [ICRA]A (Stable)/[ICRA]A1 ratings to 35.00 crore of unallocated bank limits following a periodic review. | The rated bank limits amount to 35.00 crore, representing about 4.70% of the company's annual revenue of about 745 crore."
+   }
+  ]
+ }
+}

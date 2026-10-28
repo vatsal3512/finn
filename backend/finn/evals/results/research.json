@@ -1,0 +1,1380 @@
+{
+ "reports": 23,
+ "answers": 12,
+ "quotes": {
+  "found": 495,
+  "wrong_page": 0,
+  "missing": 0,
+  "no_source": 0,
+  "computed": 31
+ },
+ "numbers": {
+  "in_quote": 994,
+  "in_documents": 113,
+  "converted": 24,
+  "nowhere": 3
+ },
+ "duplicate_quotes": [],
+ "number_flags": [
+  {
+   "where": "ADANIENT promise P7",
+   "in_documents": [
+    "2"
+   ],
+   "text": "Phase 2 capex for Navi Mumbai Airport will be in the tune of INR 30,000 crore. ₹30,000 crore"
+  },
+  {
+   "where": "ADANIENT promise P11",
+   "in_documents": [
+    "6",
+    "2026"
+   ],
+   "text": "New 6 GW solar cell and module lines expected ready by 30th September 2026. "
+  },
+  {
+   "where": "ADANIENT promise P13",
+   "in_documents": [
+    "6"
+   ],
+   "text": "Total capex required for 6 GW cell and module project is INR 10,000 crores. ₹10,000 crore"
+  },
+  {
+   "where": "ASIANPAINT promise P1",
+   "in_documents": [
+    "4",
+    "6"
+   ],
+   "text": "Management expects mid-single-digit value growth for full year FY26. 4–6%"
+  },
+  {
+   "where": "ASIANPAINT narrative",
+   "in_documents": [
+    "4.3",
+    "18.9"
+   ],
+   "text": "Management promised mid-single-digit value growth and 18 to 20 percent PBDIT margins for FY26. Numbers agreed, as decorative value grew 4.3 percent while consolidated PBDIT margin hit 18.9 percent. Q1 FY27 continued strong momentum with revenue up 18 percent."
+  },
+  {
+   "where": "BHARTIARTL bull 1",
+   "in_documents": [
+    "2027"
+   ],
+   "text": "Consolidated revenue expanded to ₹58,539 crore in the first quarter of fiscal 2027 with strong profit growth."
+  },
+  {
+   "where": "BHARTIARTL narrative",
+   "in_documents": [
+    "2027"
+   ],
+   "text": "Management reported continuous quarterly revenue expansion reaching ₹58,539 crore in the first quarter of fiscal 2027, growing 18.3% year-on-year. Reported profitability aligns with management commentary, driven by strong operational execution across mobile and enterprise segments."
+  },
+  {
+   "where": "DIXON promise P13",
+   "in_documents": [
+    "10",
+    "99"
+   ],
+   "text": "Management expects high double-digit revenue growth in the telecom vertical in FY27. 10–99%"
+  },
+  {
+   "where": "DIXON promise P12",
+   "in_documents": [
+    "10",
+    "19"
+   ],
+   "text": "Management expects high double-digit QoQ growth in smartphone volume in Q1 FY27. 10–19%"
+  },
+  {
+   "where": "EMUDHRA promise P3",
+   "in_documents": [
+    "100"
+   ],
+   "text": "Management aims to double PAT over the next 3 years. 100%"
+  },
+  {
+   "where": "EMUDHRA promise P8",
+   "in_documents": [
+    "1",
+    "1"
+   ],
+   "text": "Management estimates over USD 1 million in profit from Cryptas in FY27. $1 million"
+  },
+  {
+   "where": "EMUDHRA promise P2",
+   "in_documents": [
+    "75",
+    "80",
+    "75",
+    "80"
+   ],
+   "text": "Management foresees total FY26 capex of around INR 75 to INR 80 crores including data center. ₹75–80 crore"
+  },
+  {
+   "where": "EMUDHRA narrative",
+   "converted": [
+    "713.2"
+   ],
+   "text": "Management met its full-year FY26 revenue guidance of ₹700 crore by delivering ₹713.2 crore. However, free cash flow remains negative at ₹88 crore across four of five years despite rising reported profits."
+  },
+  {
+   "where": "ETERNAL promise P16",
+   "nowhere": [
+    "0.11"
+   ],
+   "text": "Dark stores in quick commerce are expected to reach around 11 lakh INR NOV per day in steady state. ₹0.11 crore"
+  },
+  {
+   "where": "ETERNAL promise P9",
+   "converted": [
+    "1,000,000,000"
+   ],
+   "text": "Management targets $1 billion overall EBITDA by FY29. $1,000,000,000"
+  },
+  {
+   "where": "ETERNAL promise P15",
+   "in_documents": [
+    "1",
+    "1"
+   ],
+   "text": "Management maintains its guidance of achieving 1 billion USD in Adjusted EBITDA by FY29. $1 billion"
+  },
+  {
+   "where": "ETERNAL bear 3",
+   "in_documents": [
+    "3.5"
+   ],
+   "text": "Quick commerce store rollout capex is exceeding guidance, averaging ₹3.5 crore per store in Q1 versus the ₹2.5 crore target."
+  },
+  {
+   "where": "HDFCBANK bear 1",
+   "converted": [
+    "34.18"
+   ],
+   "in_documents": [
+    "31",
+    "2026"
+   ],
+   "text": "Contingent liabilities expanded significantly to over Rs 34.18 trillion as of March 31, 2026."
+  },
+  {
+   "where": "HFCL promise P4",
+   "in_documents": [
+    "3,400",
+    "3,400"
+   ],
+   "text": "Management expects Optical Fibre Cable business revenue to reach ₹3,400-3,500 crore in FY27. ₹3,400–3,500 crore"
+  },
+  {
+   "where": "HFCL promise P18",
+   "in_documents": [
+    "800",
+    "800"
+   ],
+   "text": "Management expects data center connectivity solutions to generate Rs. 700 to 800 crore in FY27. ₹700–800 crore"
+  },
+  {
+   "where": "INDHOTEL promise P2",
+   "in_documents": [
+    "10"
+   ],
+   "text": "IHCL retains guidance of double-digit revenue growth for FY26. ≥ 10%"
+  },
+  {
+   "where": "INDHOTEL promise P4",
+   "in_documents": [
+    "10"
+   ],
+   "text": "Company expects both Q3 and Q4 to deliver double-digit topline growth year-on-year. ≥ 10%"
+  },
+  {
+   "where": "INDHOTEL promise P23",
+   "in_documents": [
+    "15",
+    "19.9"
+   ],
+   "text": "Management expects to sustain management fee growth at high teens CAGR. 15–19.9%"
+  },
+  {
+   "where": "INDHOTEL promise P9",
+   "in_documents": [
+    "15",
+    "19.9"
+   ],
+   "text": "Management fee income is expected to grow in the high teens in FY27. 15–19.9%"
+  },
+  {
+   "where": "INDHOTEL promise P19",
+   "in_documents": [
+    "10"
+   ],
+   "text": "Management is confident of delivering double-digit revenue growth in FY27 and beyond. ≥ 10%"
+  },
+  {
+   "where": "INDHOTEL promise P14",
+   "in_documents": [
+    "45",
+    "49"
+   ],
+   "text": "Atmantan full year margins are expected to be in high 40s. 45–49%"
+  },
+  {
+   "where": "INDHOTEL promise P15",
+   "in_documents": [
+    "18",
+    "18"
+   ],
+   "text": "Company expects to end FY26 with close to 18% YoY growth in management fee. 18%"
+  },
+  {
+   "where": "INDIGO promise P4",
+   "in_documents": [
+    "17",
+    "19"
+   ],
+   "text": "Capacity is expected to grow by high teens in both Q3 and Q4 of FY26 compared to last year. 17–19%"
+  },
+  {
+   "where": "INDIGO promise P10",
+   "in_documents": [
+    "13",
+    "17"
+   ],
+   "text": "IndiGo estimates a mid-teens improvement in unit passenger revenue in Q1 FY27 over Q1 FY26. 13–17%"
+  },
+  {
+   "where": "INDIGO promise P5",
+   "in_documents": [
+    "0",
+    "3"
+   ],
+   "text": "Company expects flattish to slight growth in PRASK in Q3 FY26. 0–3%"
+  },
+  {
+   "where": "INDIGO promise P13",
+   "in_documents": [
+    "1",
+    "9"
+   ],
+   "text": "IndiGo maintains its FY27 capacity growth guidance in the single digits. 1–9%"
+  },
+  {
+   "where": "INDIGO promise P11",
+   "in_documents": [
+    "0"
+   ],
+   "text": "IndiGo expects flattish capacity growth in Q2 FY27 year-over-year. 0%"
+  },
+  {
+   "where": "INDIGO promise P1",
+   "in_documents": [
+    "10",
+    "14"
+   ],
+   "text": "Company estimates early teens capacity growth for the full financial year 2026. 10–14%"
+  },
+  {
+   "where": "INDIGO promise P2",
+   "in_documents": [
+    "1",
+    "3"
+   ],
+   "text": "Company estimates early single-digit percentage increase in unit costs ex-fuel ex-forex for FY26. 1–3%"
+  },
+  {
+   "where": "INDIGO promise P8",
+   "in_documents": [
+    "4",
+    "6"
+   ],
+   "text": "CASK ex-fuel ex-forex for FY26 is expected to increase mid-single digits compared to FY25. 4–6%"
+  },
+  {
+   "where": "INDIGO bull 3",
+   "in_documents": [
+    "2027"
+   ],
+   "text": "Total income grew nineteen percent year-over-year in the first quarter of fiscal 2027, driven by strong operational demand."
+  },
+  {
+   "where": "INDUSINDBK promise P3",
+   "in_documents": [
+    "0.60",
+    "0.6"
+   ],
+   "nowhere": [
+    "0.70",
+    "0.7"
+   ],
+   "text": "Management intends to bring Net NPA down into the 0.60%-0.70% range over time. 0.6–0.7%"
+  },
+  {
+   "where": "INDUSINDBK promise P5",
+   "in_documents": [
+    "1"
+   ],
+   "text": "IndusInd Bank expects FY27 loan growth to be broadly in line with market growth. 1 x market growth"
+  },
+  {
+   "where": "INDUSINDBK bear 3",
+   "converted": [
+    "11,72,712.68"
+   ],
+   "text": "The bank maintains large contingent liabilities totaling ₹11,72,712.68 crore at the end of FY26."
+  },
+  {
+   "where": "KAYNES promise P5",
+   "converted": [
+    "40,000"
+   ],
+   "text": "Management expects total FY26 revenue to cross at least INR 4,000 crores (INR 40,000 million). ≥ ₹4,000 crore"
+  },
+  {
+   "where": "KAYNES promise P4",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "Expect net working capital to improve to between 70 to 85 days by March 2026. 70–85 days"
+  },
+  {
+   "where": "KAYNES promise P1",
+   "converted": [
+    "1,030",
+    "1,030"
+   ],
+   "text": "Balance requirement for OSAT capex of INR 1,030 crore will be funded through QIP, internal accruals, and transitory debt. ₹1,030 crore"
+  },
+  {
+   "where": "KAYNES promise P2",
+   "converted": [
+    "1,400",
+    "320",
+    "1,400"
+   ],
+   "text": "PCB business plan includes capex of INR 1,400 crore with a balance requirement of INR 320 crore. ₹1,400 crore"
+  },
+  {
+   "where": "KAYNES promise P15",
+   "converted": [
+    "2,500"
+   ],
+   "text": "OSAT business has revenue visibility of over INR 25,000 million over the next 5 years. ≥ ₹2,500 crore"
+  },
+  {
+   "where": "KAYNES promise P12",
+   "in_documents": [
+    "1"
+   ],
+   "text": "Expects to cumulatively spend INR 1,400 crores in the PCB business for Phase 1. ₹1,400 crore"
+  },
+  {
+   "where": "KAYNES promise P16",
+   "in_documents": [
+    "2"
+   ],
+   "text": "Company plans to double the market's growth rate in FY27. 2 x market growth"
+  },
+  {
+   "where": "KAYNES promise P24",
+   "in_documents": [
+    "850"
+   ],
+   "text": "Funding planned FY27 capex of INR 300cr OSAT, INR 300cr PCB, and INR 250cr EMS. ₹850 crore"
+  },
+  {
+   "where": "KAYNES narrative",
+   "in_documents": [
+    "33"
+   ],
+   "text": "Management delivered 33% revenue growth in FY26 to ₹3,626 crore. However, results diverged from targets: revenue missed the promised ₹4,000 crore minimum, operating cash flow was −₹600 crore despite guidance to be positive, and working capital reached 122 days versus 70–85 days."
+  },
+  {
+   "where": "LT promise P5",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "Management revised the Net Working Capital to Revenue target to around 10% by March 2026. 10%"
+  },
+  {
+   "where": "LT promise P13",
+   "converted": [
+    "5,000"
+   ],
+   "text": "Envisages a capital outlay of around Rs 50 billion for Industrial Electronics over the plan period. ₹5,000 crore"
+  },
+  {
+   "where": "LT promise P14",
+   "converted": [
+    "3,000"
+   ],
+   "text": "Envisages Rs 30 billion investment into the Semiconductor business during the plan period. ₹3,000 crore"
+  },
+  {
+   "where": "LT promise P15",
+   "converted": [
+    "15,000"
+   ],
+   "text": "Envisages Rs 150 billion investment in Green Hydrogen over the plan period. ₹15,000 crore"
+  },
+  {
+   "where": "LT promise P16",
+   "converted": [
+    "10,000"
+   ],
+   "text": "Envisages around Rs 100 billion towards the Data Center business over the plan period. ₹10,000 crore"
+  },
+  {
+   "where": "LT promise P17",
+   "converted": [
+    "4,400"
+   ],
+   "text": "Allocating almost Rs 44 billion for the Realty business primarily for commercial real estate development. ₹4,400 crore"
+  },
+  {
+   "where": "LT promise P10",
+   "in_documents": [
+    "31"
+   ],
+   "text": "Targeting 10% to 12% CAGR in order inflow growth over the 5-year Lakshya 31 plan. 10–12%"
+  },
+  {
+   "where": "LT promise P11",
+   "in_documents": [
+    "5",
+    "31"
+   ],
+   "text": "Targeting 12% to 15% revenue CAGR over the 5-year Lakshya 31 period. 12–15%"
+  },
+  {
+   "where": "LT promise P12",
+   "in_documents": [
+    "31"
+   ],
+   "text": "Targeting a Return on Equity between 16% and 17% over the Lakshya 31 plan. 16–17%"
+  },
+  {
+   "where": "LT bear 1",
+   "in_documents": [
+    "8.5"
+   ],
+   "text": "Full-year FY26 revenue growth of 11.8% missed the management guidance of 15%, while P&M segment margin fell short of the 8.5% target."
+  },
+  {
+   "where": "MARUTI promise P1",
+   "in_documents": [
+    "500,000",
+    "500,000"
+   ],
+   "text": "The company expects to add 500,000 units of annual production capacity in FY27. 500,000 units"
+  },
+  {
+   "where": "MAZDOCK promise P5",
+   "in_documents": [
+    "75",
+    "2025"
+   ],
+   "text": "Management is confident of securing the order for three additional P-75 submarines before 31st March 2025. "
+  },
+  {
+   "where": "MAZDOCK promise P12",
+   "in_documents": [
+    "75"
+   ],
+   "text": "Expected value for P-75 additional submarines contract is Rs. 30,000 crore to Rs. 40,000 crore. ₹30,000–40,000 crore"
+  },
+  {
+   "where": "MAZDOCK promise P19",
+   "in_documents": [
+    "4"
+   ],
+   "text": "Plans first phase capex of INR 5,000 crores for a greenfield shipyard in Tuticorin over 4 to 5 years. ₹5,000 crore"
+  },
+  {
+   "where": "MAZDOCK promise P8",
+   "converted": [
+    "125,000"
+   ],
+   "text": "Order book is expected to increase to more than Rs. 1.25 lakh crore in FY26 upon submarine contract signings. ≥ ₹125,000 crore"
+  },
+  {
+   "where": "OLAELEC promise P15",
+   "in_documents": [
+    "30",
+    "32",
+    "30",
+    "32"
+   ],
+   "text": "Gross margins are expected to remain in the 30-32% range over the next quarter or two. 30–32%"
+  },
+  {
+   "where": "OLAELEC bull 3",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "Management expects the Gigafactory to become operational at 6 GWh by September 2026, boosting cell integration."
+  },
+  {
+   "where": "OLAELEC bear 1",
+   "in_documents": [
+    "2020"
+   ],
+   "text": "Auditors reported unfavorable remarks and qualifications under CARO 2020 for the holding company and key subsidiaries across inventory, statutory dues, and financial ratios."
+  },
+  {
+   "where": "PAYTM promise P10",
+   "converted": [
+    "2,500,000",
+    "3,000,000"
+   ],
+   "text": "Paytm targets adding 25 to 30 lakh merchants annually. 2,500,000–3,000,000 merchants"
+  },
+  {
+   "where": "PAYTM promise P7",
+   "in_documents": [
+    "15",
+    "20",
+    "15",
+    "20"
+   ],
+   "text": "Management targets achieving 15% to 20% EBITDA margins in about two and a half to three years. 15–20%"
+  },
+  {
+   "where": "PAYTM promise P2",
+   "in_documents": [
+    "0.2",
+    "0.2"
+   ],
+   "text": "Paytm Postpaid unit economics are expected to stay within 20 bps of previous levels. -0.2–0.2%"
+  },
+  {
+   "where": "PAYTM promise P5",
+   "in_documents": [
+    "100",
+    "100"
+   ],
+   "text": "Paytm expects Buy Now Pay Later monthly disbursals to cross 100 crore INR within six months of launch. ≥ ₹100 crore"
+  },
+  {
+   "where": "POLYCAB promise P7",
+   "converted": [
+    "6,000",
+    "8,000"
+   ],
+   "text": "Management remains on track to execute planned capex of INR 60 billion to INR 80 billion over next 5 years. ₹6,000–8,000 crore"
+  },
+  {
+   "where": "POLYCAB promise P13",
+   "in_documents": [
+    "1.5",
+    "1.5"
+   ],
+   "text": "Management targets company growth at 1.5x of market growth. 1.5 x market growth"
+  },
+  {
+   "where": "POLYCAB promise P2",
+   "converted": [
+    "1,200",
+    "1,600"
+   ],
+   "text": "Project Spring targets investing INR 12 billion to 16 billion annually through FY30. ₹1,200–1,600 crore"
+  },
+  {
+   "where": "POLYCAB narrative",
+   "in_documents": [
+    "13.9",
+    "14.4",
+    "4.1"
+   ],
+   "text": "Management promised long-term EBITDA margins of 11% to 13%, which aligns with FY26 EBITDA margin of 13.9% and Q2 FY27 margin of 14.4%. However, FMEG Q4 FY26 EBIT margin of 4.1% diverged from the 8% to 10% target before recovering."
+  },
+  {
+   "where": "RELIANCE promise P5",
+   "in_documents": [
+    "2"
+   ],
+   "text": "Reliance Retail aims to double its EBITDA over the next three years. 2 x market growth"
+  },
+  {
+   "where": "RELIANCE promise P6",
+   "converted": [
+    "100,000"
+   ],
+   "text": "FMCG business targets Rs. 1 lakh crore revenue by FY30. ₹100,000 crore"
+  },
+  {
+   "where": "RELIANCE promise P7",
+   "in_documents": [
+    "6"
+   ],
+   "text": "KGD6 gas price ceiling is expected to rise towards $9.9 in H2 FY27. 9.9 USD"
+  },
+  {
+   "where": "RELIANCE promise P2",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "The Kurnool beverage plant will be ready by March 2026. "
+  },
+  {
+   "where": "RELIANCE narrative",
+   "in_documents": [
+    "6",
+    "23,200"
+   ],
+   "text": "Management reported strong top-line growth of 25% to 27% in Q1 FY27. However, while management claimed net profit grew 6% to ₹23,200 crore, reported net profit actually declined by 24.6% year-on-year to ₹23,196 crore."
+  },
+  {
+   "where": "SUNPHARMA promise P4",
+   "in_documents": [
+    "12"
+   ],
+   "text": "Management expects the acquisition to be EPS accretive from the first 12 months post-closing. "
+  },
+  {
+   "where": "SUNPHARMA promise P5",
+   "in_documents": [
+    "7",
+    "9"
+   ],
+   "text": "Company expects high single-digit top line growth in FY27. 7–9%"
+  },
+  {
+   "where": "SUNPHARMA promise P9",
+   "in_documents": [
+    "27.8"
+   ],
+   "text": "Effective tax rate expected in a similar range as Q1 FY27 until Organon closing. 27.8%"
+  },
+  {
+   "where": "SUNPHARMA narrative",
+   "in_documents": [
+    "10.1",
+    "15,183.6",
+    "5.4"
+   ],
+   "text": "Management promised high single-digit top-line growth for FY27, matching Q1 FY27 revenue growth of 10.1% YoY to ₹15,183.6 crore. However, Q1 FY27 R&D spending at 5.4% of sales lagged the target range of 6% to 7%."
+  },
+  {
+   "where": "ask PERSISTENT",
+   "in_documents": [
+    "650"
+   ],
+   "text": "In June 2026 (Q1 FY27 call), management stated its $650 million deal would be \"accretive - revenue & margin from Q2 onwards.\" In October 2026 (Q2 FY27 call), management cited an aspirational margin range of 16% to 17%. For Q2 FY27, revenue grew 30.3% YoY to ₹4,663.9 crore, while EBIT margin stood at 15%."
+  },
+  {
+   "where": "ask ETERNAL",
+   "in_documents": [
+    "6"
+   ],
+   "text": "Management maintained a long-term guidance of a 6% Adjusted EBITDA margin for quick commerce in Q1 FY27, expecting margins to directionally improve. In Q2 FY27, management noted that food delivery margins would likely stay flattish over the next 1-2 years due to growth reinvestments. Q2 FY27 reported an overall EBITDA margin of 3.1%."
+  },
+  {
+   "where": "ask ADANIENT",
+   "in_documents": [
+    "9"
+   ],
+   "text": "In February 2026, management reported gross long-term debt of ~INR 78,000 crores (~$9B) and total external debt of ~INR 62,000 crores. In April 2026, CFO Robbie Singh stated that core infrastructure leverage would track between 3.5x to 4.5x, expecting overall leverage (then at 3.9x) to remain flat or decrease slightly in the next fiscal year."
+  },
+  {
+   "where": "ask PAYTM",
+   "in_documents": [
+    "8",
+    "15"
+   ],
+   "text": "In May and July 2026 calls, management guided for accelerated revenue growth in FY27 and sequential increases in profitability beyond Q1's 8% EBITDA margin towards 15–20% in the medium term. The Q2 FY27 results match this, delivering 28.5% YoY revenue growth (₹2,648 crore) and an expanded EBITDA margin of 10.2%."
+  }
+ ],
+ "second_model": {
+  "claims": 455,
+  "checked": 455,
+  "yes": 318,
+  "partly": 113,
+  "no": 24,
+  "not_yes": [
+   {
+    "id": "ADANIENT:P6",
+    "supported": "partly",
+    "problem": "Quote does not specify FY26"
+   },
+   {
+    "id": "ADANIENT:P9",
+    "supported": "partly",
+    "problem": "Quote does not specify FY26"
+   },
+   {
+    "id": "ADANIENT:P7",
+    "supported": "partly",
+    "problem": "Quote does not mention Phase 2 or Navi Mumbai Airport"
+   },
+   {
+    "id": "ADANIENT:P18",
+    "supported": "partly",
+    "problem": "Quote does not name the three businesses"
+   },
+   {
+    "id": "ADANIENT:P10",
+    "supported": "partly",
+    "problem": "Quote does not specify Navi Mumbai Airport assets"
+   },
+   {
+    "id": "ADANIENT:P14",
+    "supported": "partly",
+    "problem": "Quote does not specify FY27"
+   },
+   {
+    "id": "ADANIENT:P15",
+    "supported": "partly",
+    "problem": "Quote does not specify FY27"
+   },
+   {
+    "id": "ADANIENT:P16",
+    "supported": "partly",
+    "problem": "Quote does not specify FY27"
+   },
+   {
+    "id": "ADANIENT:P17",
+    "supported": "partly",
+    "problem": "Quote does not mention Mining Services"
+   },
+   {
+    "id": "ADANIENT:P11",
+    "supported": "partly",
+    "problem": "Quote does not specify the year 2026"
+   },
+   {
+    "id": "ADANIENT:P1",
+    "supported": "partly",
+    "problem": "Quote does not specify FY26"
+   },
+   {
+    "id": "ADANIENT:P3",
+    "supported": "partly",
+    "problem": "Quote lacks mention of capex and FY26"
+   },
+   {
+    "id": "ADANIENT:P4",
+    "supported": "partly",
+    "problem": "Quote lacks mention of capex and FY26"
+   },
+   {
+    "id": "ADANIENT:P5",
+    "supported": "partly",
+    "problem": "Quote lacks mention of capex and FY26"
+   },
+   {
+    "id": "ADANIENT:bull1",
+    "supported": "partly",
+    "problem": "Quote does not attribute passengers and EBITDA to the Airport segment"
+   },
+   {
+    "id": "ADANIENT:bear1",
+    "supported": "partly",
+    "problem": "the total negative free cash flow amount of ₹75,217 crore is not supported by the figures (which sum to about −₹78,189 crore)"
+   },
+   {
+    "id": "ADANIENT:bear3",
+    "supported": "no",
+    "problem": "the quote does not state that the auditor noted this or that the loans were substantial"
+   },
+   {
+    "id": "ASIANPAINT:P5",
+    "supported": "partly",
+    "problem": "quote does not specify FY27 period"
+   },
+   {
+    "id": "ASIANPAINT:bull2",
+    "supported": "partly",
+    "problem": "volume growth not identified as decorative paints"
+   },
+   {
+    "id": "ASIANPAINT:bull3",
+    "supported": "partly",
+    "problem": "growth not identified as International business"
+   },
+   {
+    "id": "ASIANPAINT:bear1",
+    "supported": "partly",
+    "problem": "reason (alleged abuse of market dominance) not mentioned"
+   },
+   {
+    "id": "ASIANPAINT:bear3",
+    "supported": "partly",
+    "problem": "segment (General Industrial) not specified"
+   },
+   {
+    "id": "BHARTIARTL:P4",
+    "supported": "partly",
+    "problem": "quote does not specify FY2026, only says \"this year\""
+   },
+   {
+    "id": "BHARTIARTL:P6",
+    "supported": "partly",
+    "problem": "quote mentions second half of 2026, not H2 FY27"
+   },
+   {
+    "id": "BHARTIARTL:bull1",
+    "supported": "partly",
+    "problem": "\"strong profit growth\" not supported by the provided quote"
+   },
+   {
+    "id": "BHARTIARTL:bull3",
+    "supported": "partly",
+    "problem": "quote does not explicitly mention equity swap transactions"
+   },
+   {
+    "id": "BHARTIARTL:bear1",
+    "supported": "no",
+    "problem": "neither significant financial exposure nor pending judicial forums are mentioned in the quote"
+   },
+   {
+    "id": "BHARTIARTL:bear3",
+    "supported": "no",
+    "problem": "quote only gives quarterly capex amounts, not continuous commitments or multi‑year data centre expansion"
+   },
+   {
+    "id": "DIXON:P21",
+    "supported": "partly",
+    "problem": "quote lacks specification of Q2 FY27"
+   },
+   {
+    "id": "DIXON:P12",
+    "supported": "partly",
+    "problem": "quote lacks specification of Q1 FY27"
+   },
+   {
+    "id": "DIXON:bull1",
+    "supported": "partly",
+    "problem": "quote does not mention full-year growth targets being on track"
+   },
+   {
+    "id": "DIXON:bear3",
+    "supported": "no",
+    "problem": "quote does not mention Padget Electronics or Dixon Electro Appliances"
+   },
+   {
+    "id": "EMUDHRA:P2",
+    "supported": "no",
+    "problem": "Capex is quoted as about INR 60‑62 crore, not INR 75‑80 crore"
+   },
+   {
+    "id": "EMUDHRA:bear1",
+    "supported": "partly",
+    "problem": "total free cash flow amount −₹88 crore not matched by figures (figures sum to −₹106 crore)"
+   },
+   {
+    "id": "ETERNAL:P7",
+    "supported": "partly",
+    "problem": "quote does not specify that the 60% CAGR guidance applies to quick commerce or that it is over three years"
+   },
+   {
+    "id": "ETERNAL:P8",
+    "supported": "partly",
+    "problem": "quote lacks explicit mention of quick commerce and steady‑state context for the 5‑6% margin target"
+   },
+   {
+    "id": "ETERNAL:P15",
+    "supported": "partly",
+    "problem": "quote does not explicitly state that the maintained guidance is for Adjusted EBITDA"
+   },
+   {
+    "id": "ETERNAL:bull3",
+    "supported": "partly",
+    "problem": "the adjective 'strong' describing profit visibility is not mentioned in the quotes"
+   },
+   {
+    "id": "ETERNAL:bear1",
+    "supported": "partly",
+    "problem": "the claim that the GST orders create potential financial liabilities subject to legal disposal is not supported by the quote"
+   },
+   {
+    "id": "ETERNAL:bear2",
+    "supported": "partly",
+    "problem": "the description of cash conversion as 'weak' is not directly stated in the quotes"
+   },
+   {
+    "id": "HDFCBANK:P3",
+    "supported": "partly",
+    "problem": "specific quarter Q3 FY27 not mentioned in quote"
+   },
+   {
+    "id": "HDFCBANK:bull2",
+    "supported": "partly",
+    "problem": "period FY26 not specified for the 1.15% GNPA figure"
+   },
+   {
+    "id": "HDFCBANK:bear1",
+    "supported": "no",
+    "problem": "amount over Rs 34.18 trillion not supported; quote shows 34.18 billion and provides no date"
+   },
+   {
+    "id": "HDFCBANK:bear2",
+    "supported": "partly",
+    "problem": "quote does not mention member approval or that the transaction involves derivative dealings with HDFC Life"
+   },
+   {
+    "id": "HDFCBANK:bear3",
+    "supported": "partly",
+    "problem": "quarter Q1 FY27 not specified for the 5% profit growth figure"
+   },
+   {
+    "id": "HFCL:P4",
+    "supported": "partly",
+    "problem": "Quote states revenue to exceed INR3,500 crore, not the range INR3,400‑3,500 crore"
+   },
+   {
+    "id": "HFCL:P18",
+    "supported": "partly",
+    "problem": "Quote mentions revenue > INR700 crore in the current year, but does not specify FY27 nor an upper bound of INR800 crore"
+   },
+   {
+    "id": "HFCL:bull2",
+    "supported": "partly",
+    "problem": "the claim that the order book is an all-time high is not supported"
+   },
+   {
+    "id": "HFCL:bear3",
+    "supported": "partly",
+    "problem": "quote does not state that HTL Limited is a material subsidiary"
+   },
+   {
+    "id": "INDHOTEL:P21",
+    "supported": "partly",
+    "problem": "Quote does not specify Q1 FY27"
+   },
+   {
+    "id": "INDHOTEL:P9",
+    "supported": "partly",
+    "problem": "Quote does not specify FY27 period"
+   },
+   {
+    "id": "INDHOTEL:P18",
+    "supported": "partly",
+    "problem": "Quote does not specify FY27 period"
+   },
+   {
+    "id": "INDHOTEL:P6",
+    "supported": "partly",
+    "problem": "Quote does not specify FY28 timeframe"
+   },
+   {
+    "id": "INDHOTEL:P15",
+    "supported": "partly",
+    "problem": "Quote does not give the specific 18% growth figure, only mentions high teens"
+   },
+   {
+    "id": "INDHOTEL:bear1",
+    "supported": "partly",
+    "problem": "the claim that growth fell short of the 30% target in H2 FY26 is not directly supported by the provided quotes"
+   },
+   {
+    "id": "INDHOTEL:bear2",
+    "supported": "no",
+    "problem": "the quotes do not mention auditors identifying impairment testing as a key audit matter"
+   },
+   {
+    "id": "INDIGO:P12",
+    "supported": "partly",
+    "problem": "quote does not specify that the >25% growth is for unit passenger revenue (PRASK)"
+   },
+   {
+    "id": "INDIGO:P6",
+    "supported": "partly",
+    "problem": "quote does not specify that the ~10% capacity growth pertains to Q4 FY26"
+   },
+   {
+    "id": "INDIGO:bear2",
+    "supported": "partly",
+    "problem": "quote does not state that the watch is due to severe operational disruptions and external headwinds"
+   },
+   {
+    "id": "INDUSINDBK:P7",
+    "supported": "partly",
+    "problem": "quote does not specify that the 1% target is an exit ROA in FY27"
+   },
+   {
+    "id": "INDUSINDBK:bear1",
+    "supported": "no",
+    "problem": "quote does not mention auditors or an Emphasis of Matter"
+   },
+   {
+    "id": "INDUSINDBK:bear2",
+    "supported": "partly",
+    "problem": "quote does not state that statutory auditors drew attention to the qualified opinion"
+   },
+   {
+    "id": "INDUSINDBK:bear3",
+    "supported": "no",
+    "problem": "quote does not clearly state the contingent liabilities amount nor that it is at the end of FY26"
+   },
+   {
+    "id": "INFY:bear1",
+    "supported": "partly",
+    "problem": "Quote does not state that the ₹1,289 cr provision is an 'exceptional item'"
+   },
+   {
+    "id": "KAYNES:P4",
+    "supported": "partly",
+    "problem": "quote lacks the specific timeframe \"by March 2026\""
+   },
+   {
+    "id": "KAYNES:P16",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P17",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P18",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P19",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P21",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P23",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P24",
+    "supported": "partly",
+    "problem": "quote does not specify the FY27 timeframe"
+   },
+   {
+    "id": "KAYNES:P11",
+    "supported": "partly",
+    "problem": "quote lacks the specific quarter \"Q4 FY26\""
+   },
+   {
+    "id": "KAYNES:bull2",
+    "supported": "partly",
+    "problem": "the claim that the order book demonstrates broad multi-year demand is not mentioned in the quote"
+   },
+   {
+    "id": "KAYNES:bear2",
+    "supported": "partly",
+    "problem": "working capital days figure differs (figures show 133, claim says 122)"
+   },
+   {
+    "id": "LT:P3",
+    "supported": "partly",
+    "problem": "quote does not specify P&M segment"
+   },
+   {
+    "id": "LT:P5",
+    "supported": "partly",
+    "problem": "quote does not mention Net Working Capital to Revenue"
+   },
+   {
+    "id": "LT:P14",
+    "supported": "partly",
+    "problem": "quote does not specify the plan period"
+   },
+   {
+    "id": "LT:P15",
+    "supported": "partly",
+    "problem": "quote does not specify the plan period"
+   },
+   {
+    "id": "LT:P16",
+    "supported": "partly",
+    "problem": "quote does not specify the plan period"
+   },
+   {
+    "id": "LT:P11",
+    "supported": "partly",
+    "problem": "quote lacks mention of CAGR and Lakshya 31 plan"
+   },
+   {
+    "id": "LT:P12",
+    "supported": "partly",
+    "problem": "quote lacks mention of Lakshya 31 plan"
+   },
+   {
+    "id": "LT:bear1",
+    "supported": "partly",
+    "problem": "target margin 8.5% not cited"
+   },
+   {
+    "id": "LT:bear3",
+    "supported": "no",
+    "problem": "auditors highlighting revenue recognition as key audit matter and stage of completion not mentioned"
+   },
+   {
+    "id": "MARUTI:bear1",
+    "supported": "no",
+    "problem": "no evidence that auditors included an emphasis of matter about unquantified EPR obligations"
+   },
+   {
+    "id": "MAZDOCK:P5",
+    "supported": "partly",
+    "problem": "quote does not specify three submarines"
+   },
+   {
+    "id": "MAZDOCK:P7",
+    "supported": "partly",
+    "problem": "quote does not mention potential marginal growth"
+   },
+   {
+    "id": "MAZDOCK:bull1",
+    "supported": "no",
+    "problem": "no evidence that revenue exceeded management targets"
+   },
+   {
+    "id": "MAZDOCK:bear3",
+    "supported": "no",
+    "problem": "quote does not state auditors raised emphasis of matter"
+   },
+   {
+    "id": "NAZARA:P6",
+    "supported": "partly",
+    "problem": "Quote does not specify FY27 period"
+   },
+   {
+    "id": "NAZARA:bear1",
+    "supported": "no",
+    "problem": "Quote does not mention auditor's emphasis of matter"
+   },
+   {
+    "id": "NAZARA:bear2",
+    "supported": "partly",
+    "problem": "the claim specifies Q1 FY27, but the quote does not mention the quarter"
+   },
+   {
+    "id": "OLAELEC:P5",
+    "supported": "partly",
+    "problem": "unit mismatch: claim lists target 6 GW but quote mentions 6 GWh"
+   },
+   {
+    "id": "OLAELEC:P15",
+    "supported": "no",
+    "problem": "quote does not specify the 30‑32% margin range"
+   },
+   {
+    "id": "OLAELEC:bull3",
+    "supported": "partly",
+    "problem": "the quote does not specify the year 2026"
+   },
+   {
+    "id": "OLAELEC:bear1",
+    "supported": "no",
+    "problem": "no evidence of CARO 2020 remarks or specific issues like inventory, statutory dues, and financial ratios"
+   },
+   {
+    "id": "OLAELEC:bear2",
+    "supported": "partly",
+    "problem": "the quote does not mention that the audit trail issue relates to general ledger and revenue software"
+   },
+   {
+    "id": "PAYTM:P8",
+    "supported": "no",
+    "problem": "quote does not mention acceleration across payments, financial services or FY27"
+   },
+   {
+    "id": "PAYTM:P7",
+    "supported": "partly",
+    "problem": "specific EBITDA margin range (15–20%) not stated"
+   },
+   {
+    "id": "PAYTM:bull1",
+    "supported": "partly",
+    "problem": "Q1 FY27 revenue growth 28% not evidenced"
+   },
+   {
+    "id": "PAYTM:bear1",
+    "supported": "no",
+    "problem": "no mention of auditor's emphasis of matter or FEMA contraventions"
+   },
+   {
+    "id": "PAYTM:bear3",
+    "supported": "partly",
+    "problem": "quote does not mention auditors identifying it as a key audit matter"
+   },
+   {
+    "id": "bull2",
+    "supported": "partly",
+    "problem": "quote says cash flow \"covered\" profit, not explicitly \"exceeding\""
+   },
+   {
+    "id": "bear1",
+    "supported": "partly",
+    "problem": "the qualifier \"considerably\" is not supported"
+   },
+   {
+    "id": "bear3",
+    "supported": "no",
+    "problem": "auditors did not designate revenue recognition on fixed-price contracts as a key audit matter"
+   },
+   {
+    "id": "POLYCAB:P9",
+    "supported": "partly",
+    "problem": "quote does not specify that the 12%‑14% figure refers to EBITDA margin"
+   },
+   {
+    "id": "POLYCAB:P11",
+    "supported": "partly",
+    "problem": "quote does not specify that the margin guidance is for EBIT margin of Wires & Cables"
+   },
+   {
+    "id": "POLYCAB:P12",
+    "supported": "partly",
+    "problem": "quote does not specify that the 1.5x‑2x growth target applies to the FMEG segment"
+   },
+   {
+    "id": "POLYCAB:P13",
+    "supported": "no",
+    "problem": "quote lacks any numeric 1.5x target and does not state a specific growth multiple"
+   },
+   {
+    "id": "POLYCAB:P16",
+    "supported": "partly",
+    "problem": "quote does not explicitly state that the EBITDA margin guidance applies to Wires & Cables"
+   },
+   {
+    "id": "POLYCAB:P17",
+    "supported": "partly",
+    "problem": "quote does not mention the FMEG business explicitly"
+   },
+   {
+    "id": "POLYCAB:P3",
+    "supported": "partly",
+    "problem": "quote does not specify that the 8%‑10% EBITDA margin target is for the FMEG segment"
+   },
+   {
+    "id": "POLYCAB:P15",
+    "supported": "partly",
+    "problem": "quote refers to \"this year\" rather than FY27"
+   },
+   {
+    "id": "POLYCAB:bear1",
+    "supported": "partly",
+    "problem": "the claim adds that the risk is before control is transferred to customers, which is not mentioned in the quote"
+   },
+   {
+    "id": "POLYCAB:bear2",
+    "supported": "no",
+    "problem": "the quote does not mention EPC revenue measurement, only general revenue measurement"
+   },
+   {
+    "id": "POLYCAB:bear3",
+    "supported": "partly",
+    "problem": "the claim adds price volatility risks in copper and aluminum raw materials, which are not mentioned in the quote"
+   },
+   {
+    "id": "RELIANCE:P3",
+    "supported": "partly",
+    "problem": "the period FY27 is not mentioned"
+   },
+   {
+    "id": "RELIANCE:P8",
+    "supported": "partly",
+    "problem": "the target percentage 20% is not supported"
+   },
+   {
+    "id": "RELIANCE:P9",
+    "supported": "partly",
+    "problem": "the target percentage 40% is not supported"
+   },
+   {
+    "id": "RELIANCE:P5",
+    "supported": "partly",
+    "problem": "the time horizon \"next three years\" is not mentioned"
+   },
+   {
+    "id": "RELIANCE:P1",
+    "supported": "partly",
+    "problem": "the fiscal year FY26 is not specified"
+   },
+   {
+    "id": "RELIANCE:P2",
+    "supported": "partly",
+    "problem": "the specific year 2026 is not mentioned"
+   },
+   {
+    "id": "RELIANCE:bear1",
+    "supported": "partly",
+    "problem": "the claim of a contingent liability and gas migration dispute is not confirmed"
+   },
+   {
+    "id": "RELIANCE:bear2",
+    "supported": "partly",
+    "problem": "no mention that auditors flagged the litigation as a key audit matter"
+   },
+   {
+    "id": "RELIANCE:bear3",
+    "supported": "partly",
+    "problem": "the qualifier \"extensive\" is not supported"
+   },
+   {
+    "id": "SUNPHARMA:P9",
+    "supported": "partly",
+    "problem": "the specific tax rate value (27.8%) is not provided in the quote"
+   },
+   {
+    "id": "SUNPHARMA:bear1",
+    "supported": "partly",
+    "problem": "the claim that transactions exceeding ₹294,921 million were with a single subsidiary (or are related‑party) is not supported by the quote"
+   },
+   {
+    "id": "ask1",
+    "supported": "partly",
+    "problem": "revenue decline of 16.5% to ₹2,446.1 cr and EBITDA margin 8.1% not evidenced in the quoted material"
+   },
+   {
+    "id": "ask2",
+    "supported": "partly",
+    "problem": "revenue growth of 30.3% to ₹4,663.9 cr and EBIT margin 15% not supported by the provided evidence"
+   },
+   {
+    "id": "ask3",
+    "supported": "no",
+    "problem": "no quote showing lack of guidance and no evidence for 52.6% revenue increase or 14.1% EBITDA margin"
+   },
+   {
+    "id": "ask4",
+    "supported": "no",
+    "problem": "no quote confirming 6% Adjusted EBITDA guidance and no evidence for reported 3.1% EBITDA margin"
+   },
+   {
+    "id": "ask6",
+    "supported": "partly",
+    "problem": "missing quote confirming Rajiv Kumar appointment as Chairman and announcement of a new Whole‑Time Director; start date for Anup Bagchi not shown"
+   },
+   {
+    "id": "ask7",
+    "supported": "partly",
+    "problem": "no quote showing Jagdishan welcomed Chairman Rajiv Kumar or mentioned Whole‑Time Director board process"
+   },
+   {
+    "id": "ask8",
+    "supported": "no",
+    "problem": "no evidence provided that management omitted discussion of the topic on the last two calls"
+   },
+   {
+    "id": "ask9",
+    "supported": "partly",
+    "problem": "no evidence that management did not give specific revenue or margin targets for Q2 FY27"
+   },
+   {
+    "id": "ask11",
+    "supported": "partly",
+    "problem": "no evidence of 15–20% medium‑term EBITDA target, 8% Q1 margin figure, or Q2 FY27 results of 28.5% revenue growth and 10.2% EBITDA margin"
+   },
+   {
+    "id": "ask12",
+    "supported": "partly",
+    "problem": "Q2 FY27 results of 26.0% revenue growth and 8.9% EBITDA margin not supported by the provided quotes"
+   }
+  ]
+ }
+}
