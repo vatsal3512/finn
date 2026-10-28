@@ -291,6 +291,7 @@ def stream(
     try:
         llm = LLM.from_env(conn, key_offset=7)
         llm.deadline = deadline
+        llm.patient = deadline is None
         judged = judge.run(llm, _judge_prompt(src, ledger, ds, ar_excerpts(src)))
         j_calls, j_cached = 1, llm.stats["cache_hits"]
         models.add(llm.last_model)

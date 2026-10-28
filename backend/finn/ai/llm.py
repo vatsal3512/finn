@@ -84,6 +84,7 @@ GROQ_MIN_INTERVAL = 2.2  # about 27 a minute, under the 30 cap
 REQUEST_TIMEOUT_S = 90  # a slow answer is a capacity problem; waiting longer does not help
 BUSY_AFTER = 2  # keys reporting a capacity error before the model is treated as busy
 BUSY_SECONDS = 180
+PATIENT_ROUNDS = 5  # a patient caller waits out up to five busy spells, about 15 minutes
 
 
 class RateLimited(Exception):
@@ -283,6 +284,9 @@ class LLM:
                       "failures": 0}  # fmt: skip
         self.last_model: str | None = None  # which model gave the latest answer
         self.deadline: float | None = None  # time.monotonic() after which no new call starts
+        # Batch work, such as computing research ahead of time, waits for a busy Flash
+        # instead of standing in with Flash-Lite, which found 1 promise where Flash found 11.
+        self.patient = False
 
     @classmethod
     def from_env(cls, conn: sqlite3.Connection, key_offset: int = 0) -> LLM:
@@ -334,60 +338,79 @@ class LLM:
             attempts.append((self.gemini, self.gemini_pool, lite.model, lite.thinking, "step_down"))
 
         errors: list[str] = []
-        for backend, pool, model, thinking, kind in attempts:
-            if self._busy_until.get(model, 0.0) > time.monotonic():
-                errors.append(f"{model}: busy")
-                continue
-            busy_reports = bad_answers = 0
-            for k in pool.available(model):
-                if self.deadline and time.monotonic() > self.deadline:
-                    self.stats["failures"] += 1
-                    raise AIUnavailable(f"{task}: out of time")
-                try:
-                    result = self._try_key(backend, pool, k, model, thinking, task, system, prompt,
-                                           images, schema, max_output_tokens, errors)  # fmt: skip
-                except ModelBusy as exc:
-                    # A 503 comes back in seconds, so two keys must agree. A 504 or a
-                    # timeout has already cost a minute or more, so one is enough.
-                    busy_reports += BUSY_AFTER if exc.slow else 1
-                    if busy_reports >= BUSY_AFTER:
-                        with self._busy_lock:
-                            self._busy_until[model] = time.monotonic() + BUSY_SECONDS
-                        log.warning("%s is over capacity; skipping it for %ss", model, BUSY_SECONDS)
-                        break
+        if self.patient:  # nobody is waiting: wait for the right model rather than stand in
+            attempts = [a for a in attempts if a[4] != "step_down"]
+        for _round in range(1 + (PATIENT_ROUNDS if self.patient else 0)):
+            for backend, pool, model, thinking, kind in attempts:
+                if self._busy_until.get(model, 0.0) > time.monotonic():
+                    errors.append(f"{model}: busy")
                     continue
-                except BadOutput:
-                    bad_answers += 1
-                    if bad_answers >= 2:
-                        log.warning(
-                            "%s gave two unusable answers to %s; trying the next model", model, task
+                busy_reports = bad_answers = 0
+                for k in pool.available(model):
+                    if self.deadline and time.monotonic() > self.deadline:
+                        self.stats["failures"] += 1
+                        raise AIUnavailable(f"{task}: out of time")
+                    try:
+                        result = self._try_key(backend, pool, k, model, thinking, task, system, prompt,
+                                               images, schema, max_output_tokens, errors)  # fmt: skip
+                    except ModelBusy as exc:
+                        # A 503 comes back in seconds, so two keys must agree. A 504 or a
+                        # timeout has already cost a minute or more, so one is enough.
+                        busy_reports += BUSY_AFTER if exc.slow else 1
+                        if busy_reports >= BUSY_AFTER:
+                            with self._busy_lock:
+                                self._busy_until[model] = time.monotonic() + BUSY_SECONDS
+                            log.warning(
+                                "%s is over capacity; skipping it for %ss", model, BUSY_SECONDS
+                            )
+                            break
+                        continue
+                    except BadOutput:
+                        bad_answers += 1
+                        if bad_answers >= 2:
+                            log.warning(
+                                "%s gave two unusable answers to %s; trying the next model",
+                                model,
+                                task,
+                            )
+                            break
+                        continue
+                    if result is None:
+                        continue
+                    if kind != "primary":
+                        self.stats[
+                            {"peer": "peers", "fallback": "fallbacks"}.get(kind, "step_downs")
+                        ] += 1
+                    # A step-down answer is used but not remembered, so the next run asks the
+                    # right model again.
+                    if kind != "step_down":
+                        self.conn.execute(
+                            "INSERT OR REPLACE INTO ai_cache (key, task, model, degraded, response, created_at) "
+                            "VALUES (?, ?, ?, ?, ?, ?)",
+                            (
+                                key,
+                                task,
+                                model,
+                                int(kind == "fallback"),
+                                result.model_dump_json(),
+                                now_iso(),
+                            ),
                         )
-                        break
-                    continue
-                if result is None:
-                    continue
-                if kind != "primary":
-                    self.stats[
-                        {"peer": "peers", "fallback": "fallbacks"}.get(kind, "step_downs")
-                    ] += 1
-                # A step-down answer is used but not remembered, so the next run asks the
-                # right model again.
-                if kind != "step_down":
-                    self.conn.execute(
-                        "INSERT OR REPLACE INTO ai_cache (key, task, model, degraded, response, created_at) "
-                        "VALUES (?, ?, ?, ?, ?, ?)",
-                        (
-                            key,
-                            task,
-                            model,
-                            int(kind == "fallback"),
-                            result.model_dump_json(),
-                            now_iso(),
-                        ),
-                    )
-                    self.conn.commit()
-                self.last_model = model
-                return result
+                        self.conn.commit()
+                    self.last_model = model
+                    return result
+            wait = (
+                min((self._busy_until.get(m, 0.0) for m in route.models), default=0.0)
+                - time.monotonic()
+            )
+            if not self.patient or wait <= 0:
+                break
+            log.info(
+                "every %s model is busy; waiting %.0f s for one, as nobody is waiting",
+                tier.value,
+                wait,
+            )
+            time.sleep(min(wait, BUSY_SECONDS) + 1)
         self.stats["failures"] += 1
         raise AIUnavailable(f"{task}: no key could answer. " + " | ".join(errors[-4:]))
 

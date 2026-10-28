@@ -230,3 +230,21 @@ def test_busy_state_is_shared_between_clients(tmp_path):
     second, g2, _, _ = _llm(tmp_path / "other", busy=set())
     ask(second, "fresh", tier=L.Tier.FLASH)
     assert [c[1] for c in g2.calls] == [PEERS[1]]  # skipped FLASH without trying it
+
+
+def test_a_patient_caller_waits_for_flash_instead_of_standing_in(tmp_path, monkeypatch):
+    import time
+
+    llm, g, q, _ = _llm(tmp_path, busy=set(PEERS))
+    llm.patient = True
+    naps = []
+
+    def nap(seconds):  # the busy spell ends while we wait
+        naps.append(seconds)
+        g.busy.clear()
+        L.LLM._busy_until.clear()
+
+    monkeypatch.setattr(time, "sleep", nap)
+    long_prompt = "word " * 8000  # too big for Groq, so only Gemini can answer
+    assert ask(llm, long_prompt, tier=L.Tier.FLASH).value == "gemini-1"
+    assert naps and llm.last_model == FLASH and llm.stats["step_downs"] == 0

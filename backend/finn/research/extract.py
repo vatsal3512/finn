@@ -149,6 +149,7 @@ def read_calls(
         try:
             llm = LLM.from_env(conn, key_offset=3 * i)
             llm.deadline = deadline
+            llm.patient = deadline is None  # no one is waiting on a precompute
             return read_call(llm, company, doc, period)
         except AIUnavailable as exc:
             log.warning("could not read the %s call: %s", period, exc)
