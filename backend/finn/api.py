@@ -20,6 +20,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
+from finn import blobstore
 from finn.ai.llm import LLM, AIUnavailable, env_summary
 from finn.config import DATA_DIR, EXPORT_DIR
 from finn.contracts import AskAnswer
@@ -49,15 +50,21 @@ def _symbol(raw: str) -> str:
     return s
 
 
+def _fresh(report: dict | None, max_age: timedelta) -> dict | None:
+    if not report:
+        return None
+    age = datetime.now(UTC) - datetime.fromisoformat(report["generated_at"])
+    return report if age < max_age else None
+
+
 def _cached(symbol: str, max_age: timedelta) -> dict | None:
+    """This instance's /tmp, then the reports shipped with the app, then Blob, which
+    outlives the redeploy that every data refresh triggers."""
     for folder in (LIVE, PRECOMPUTED):
         f = folder / f"{symbol}.json"
-        if f.exists():
-            report = json.loads(f.read_text(encoding="utf-8"))
-            age = datetime.now(UTC) - datetime.fromisoformat(report["generated_at"])
-            if age < max_age:
-                return report
-    return None
+        if f.exists() and (report := _fresh(json.loads(f.read_text(encoding="utf-8")), max_age)):
+            return report
+    return _fresh(blobstore.load_report(symbol), max_age)
 
 
 @app.get("/api/health")
@@ -83,6 +90,8 @@ def research(symbol: str, refresh: bool = False) -> StreamingResponse:
                 symbol, refresh=refresh, save_dir=LIVE, budget_s=LIVE_BUDGET_S
             ):
                 yield json.dumps(event, default=str) + "\n"
+                if event["stage"] == "done":
+                    blobstore.save_report(symbol, event["report"])
         except LookupError as exc:  # screener.in has no such company
             yield json.dumps({"stage": "error", "message": str(exc)}) + "\n"
         except Exception:  # noqa: BLE001 - the stream must end with a message, not a hang

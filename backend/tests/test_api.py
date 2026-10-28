@@ -72,3 +72,24 @@ def test_ask_validates_and_answers(client, monkeypatch):
     r = client.post("/api/ask", json={"symbol": "mazdock", "question": "What about margins?"})
     assert r.status_code == 200 and seen == {"symbol": "MAZDOCK", "question": "What about margins?"}
     assert client.post("/api/ask", json={"symbol": "X", "question": "?"}).status_code == 422
+
+
+def test_a_report_in_blob_is_served_without_research(client, monkeypatch):
+    when = datetime.now(UTC).isoformat()
+    monkeypatch.setattr(api.blobstore, "load_report", lambda s: {"symbol": s, "generated_at": when})
+    monkeypatch.setattr(api.engine, "stream", lambda *a, **k: pytest.fail("should not research"))
+    events = _events(client.get("/api/research/TITAN"))
+    assert events[0]["report"]["symbol"] == "TITAN"
+
+
+def test_a_live_report_is_saved_to_blob(client, monkeypatch):
+    saved = {}
+    monkeypatch.setattr(api.blobstore, "load_report", lambda s: None)
+    monkeypatch.setattr(api.blobstore, "save_report", lambda s, r: saved.update({s: r}))
+
+    def fake_stream(symbol, refresh=False, save_dir=None, budget_s=None):
+        yield {"stage": "done", "message": "Done", "report": {"symbol": symbol}}
+
+    monkeypatch.setattr(api.engine, "stream", fake_stream)
+    _events(client.get("/api/research/TITAN"))
+    assert saved == {"TITAN": {"symbol": "TITAN"}}

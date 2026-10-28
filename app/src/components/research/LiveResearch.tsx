@@ -69,7 +69,10 @@ export function LiveResearch({ symbol }: { symbol: string }) {
   }, [symbol]);
 
   if (report) return <ReportView r={report} />;
-  const reached = new Set(events.map((e) => e.stage));
+  // A step is done when the event that completes it arrives, not when it starts.
+  const ORDER = ["gather", "cash", "claims", "graded", "done"];
+  const DONE_AT = [1, 1, 2, 3, 4];
+  const reached = Math.max(-1, ...events.map((e) => ORDER.indexOf(e.stage)));
   const last = events[events.length - 1];
   // What is already known is shown while the rest is worked out.
   const snapshot = [...events].reverse().find((e) => e.snapshot)?.snapshot;
@@ -83,8 +86,8 @@ export function LiveResearch({ symbol }: { symbol: string }) {
       </p>
       <ol className="mt-4 space-y-2.5">
         {STEPS.map((s, i) => {
-          const done = reached.has(s.stage) || (i < STEPS.length - 1 && reached.has(STEPS[i + 1].stage));
-          const current = !done && (i === 0 ? !reached.size : reached.has(STEPS[i - 1].stage));
+          const done = reached >= DONE_AT[i];
+          const current = !done && (i === 0 || reached >= DONE_AT[i - 1]);
           return (
             <li key={s.stage} className="flex gap-3 text-[14px]">
               <span className={done ? "text-up" : current ? "text-accent" : "text-faint"} aria-hidden>{done ? "✓" : current ? "●" : "○"}</span>
