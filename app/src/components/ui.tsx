@@ -62,3 +62,17 @@ export function ExternalLink({ href, children, className }: { href: string; chil
     </a>
   );
 }
+
+/** The app icon, small, beside the name: the same mark as on the home screen. */
+export function Wordmark() {
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <svg width="18" height="18" viewBox="0 0 64 64" aria-hidden>
+        <rect width="64" height="64" rx="14" fill="#0b0d0f" />
+        <path d="M22 16h22v7H30v7h12v7H30v11h-8z" fill="#e6e9ec" />
+        <circle cx="47" cy="44" r="4.5" fill="#3cc585" />
+      </svg>
+      <span className="text-[13px] font-bold tracking-[0.14em]">FINN</span>
+    </span>
+  );
+}

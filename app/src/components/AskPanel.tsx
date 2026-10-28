@@ -1,20 +1,45 @@
 "use client";
 
 import { useState } from "react";
-import type { AskAnswer, Filing } from "@/lib/contract";
-import { contextFor, questionFor } from "@/lib/questions";
+import type { AskAnswer, Evidence, Filing } from "@/lib/contract";
 import { pageLink } from "@/lib/format";
+import { contextFor, questionFor } from "@/lib/questions";
 import { cx } from "./ui";
 
 type State = { status: "idle" | "loading" | "done" | "error"; answer?: AskAnswer; error?: string };
 
 /**
- * "Ask about this": what management said about this event on its last two calls, in its
- * own words. Answers for the top cards are computed ahead; others are asked live.
+ * "Was this expected?": what management said about this event on its last two calls, in
+ * its own words. When the answer was computed ahead it shows on the card at once, because
+ * an alert that explains itself is the point. Otherwise one tap asks live.
  */
 export function AskPanel({ filing, ready }: { filing: Filing; ready?: AskAnswer }) {
+  return ready ? <Expected a={ready} /> : <AskLive filing={filing} />;
+}
+
+function Expected({ a }: { a: AskAnswer }) {
+  const [more, setMore] = useState(false);
+  const first = firstSentences(a.answer, 2);
+  const quote = a.evidence?.[0];
+  return (
+    <section className="rounded-lg bg-accent-soft/60 px-3 py-2.5">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-accent">Was this expected?</p>
+      <p className="mt-1 text-[14px] leading-snug">{more ? a.answer : first}</p>
+      {quote && !more && <Quote e={quote} />}
+      {more && a.evidence?.map((e, i) => <Quote key={i} e={e} />)}
+      <div className="mt-1.5 flex items-center justify-between text-[12px]">
+        <span className="text-faint">From {a.calls.join(" and ")}</span>
+        {(a.answer !== first || (a.evidence?.length ?? 0) > 1) && (
+          <button onClick={() => setMore((m) => !m)} className="text-accent">{more ? "Less" : "More"}</button>
+        )}
+      </div>
+    </section>
+  );
+}
+
+function AskLive({ filing }: { filing: Filing }) {
   const [open, setOpen] = useState(false);
-  const [s, setS] = useState<State>(ready ? { status: "done", answer: ready } : { status: "idle" });
+  const [s, setS] = useState<State>({ status: "idle" });
 
   async function ask() {
     setOpen((o) => !o);
@@ -43,37 +68,43 @@ export function AskPanel({ filing, ready }: { filing: Filing; ready?: AskAnswer 
         )}
         aria-expanded={open}
       >
-        <span>What did management say about this?</span>
+        <span>Was this expected? Ask what management said</span>
         <span aria-hidden className="text-faint">{open ? "−" : "+"}</span>
       </button>
       {open && (
         <div className="fade-in mt-2 space-y-2 border-l-2 border-accent pl-3">
           {s.status === "loading" && <p className="text-[13px] text-muted">Reading the last two earnings calls…</p>}
           {s.status === "error" && <p className="text-[13px] text-down">{s.error}</p>}
-          {s.status === "done" && s.answer && <Answer a={s.answer} />}
+          {s.status === "done" && s.answer && (
+            <>
+              <p className="text-[14px] leading-snug">{s.answer.answer}</p>
+              {s.answer.evidence?.map((e, i) => <Quote key={i} e={e} />)}
+              <p className="text-[11px] text-faint">
+                From {s.answer.calls.join(" and ")}. Quotes are checked word for word against the transcripts.
+              </p>
+            </>
+          )}
         </div>
       )}
     </div>
   );
 }
 
-function Answer({ a }: { a: AskAnswer }) {
+function Quote({ e }: { e: Evidence }) {
   return (
-    <>
-      <p className="text-[14px] leading-snug">{a.answer}</p>
-      {a.evidence?.map((e, i) => (
-        <figure key={i} className="text-[13px]">
-          <blockquote className="text-muted">“{e.quote}”</blockquote>
-          <figcaption className="mt-0.5 text-[12px] text-faint">
-            <a href={pageLink(e.url, e.page)} target="_blank" rel="noopener noreferrer" className="hover:text-accent">
-              {e.source}{e.page ? `, p. ${e.page}` : ""} ↗
-            </a>
-          </figcaption>
-        </figure>
-      ))}
-      <p className="text-[11px] text-faint">
-        From {a.calls.join(" and ")}. Quotes are checked word for word against the transcripts.
-      </p>
-    </>
+    <figure className="mt-1.5 text-[13px]">
+      <blockquote className="leading-snug text-muted">“{e.quote}”</blockquote>
+      <figcaption className="mt-0.5 text-[12px] text-faint">
+        <a href={pageLink(e.url, e.page)} target="_blank" rel="noopener noreferrer" className="hover:text-accent">
+          {e.source}{e.page ? `, p. ${e.page}` : ""} ↗
+        </a>
+      </figcaption>
+    </figure>
   );
+}
+
+/** The opening sentences, so the card says the point and the rest waits behind "More". */
+function firstSentences(text: string, n: number): string {
+  // Split only where a sentence ends and the next begins, not inside "₹2,446.1 crore".
+  return text.split(/(?<=[.!?])\s+(?=[A-Z₹“"(])/).slice(0, n).join(" ");
 }

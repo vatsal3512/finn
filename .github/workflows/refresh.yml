@@ -63,6 +63,16 @@ jobs:
           mkdir -p ../data
           uv run python -m finn.refresh | tee ../data/last-run.json
 
+      - name: Answer "was this expected?" for the top cards
+        # New filings arrive every run; their cards should explain themselves too. Answers
+        # are cached, so only new cards cost a model call. A failure here never blocks the
+        # data commit.
+        continue-on-error: true
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+        run: uv run python -m finn.research --ask 12
+
       - name: Report which sources worked from the cloud
         if: always()
         run: |

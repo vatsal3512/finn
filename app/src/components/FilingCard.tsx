@@ -5,15 +5,16 @@ import { crore, plain, stamp, times, tone, toneText, when } from "@/lib/format";
 import { AskPanel } from "./AskPanel";
 import { Chip, cx, ExternalLink, Move } from "./ui";
 
-type Props = { f: Filing; name?: string; now: Date; ask?: AskAnswer };
+type Props = { f: Filing; name?: string; now: Date; ask?: AskAnswer; isNew?: boolean };
 
 /** A Push card. What it shows depends on what the filing is. */
-export function FilingCard({ f, name, now, ask }: Props) {
+export function FilingCard({ f, name, now, ask, isNew }: Props) {
   const results = f.cards?.find((c): c is ResultsCard => c.type === "results");
   const people = f.cards?.find((c): c is PeopleCard => c.type === "people");
   return (
-    <article className="fade-in mx-3 mb-3 rounded-xl border border-line bg-surface p-4">
+    <article id={`card-${f.id}`} className="fade-in mx-3 mb-4 scroll-mt-4 rounded-2xl border border-line bg-surface p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
       <header className="mb-2 flex items-center gap-2 text-[12px]">
+        {isNew && <span className="h-2 w-2 shrink-0 rounded-full bg-accent" aria-label="New since your last visit" />}
         <span className="ticker text-[13px]">{f.symbol}</span>
         {name && <span className="truncate text-muted">{name}</span>}
         <span className="ml-auto shrink-0 text-faint">{when(f.filed_at, now)}</span>
@@ -23,7 +24,7 @@ export function FilingCard({ f, name, now, ask }: Props) {
           <Chip key={e} tone={e === f.category ? "accent" : "plain"}>{CATEGORY[e] ?? e}</Chip>
         ))}
       </div>
-      <h3 className="text-[16px] font-semibold leading-snug">{title(f)}</h3>
+      <h3 className="mt-1 text-[17px] font-semibold leading-snug tracking-[-0.01em]">{title(f)}</h3>
 
       {results ? (
         <ResultsBlock card={results} why={f.insight?.why_it_matters} />
@@ -170,11 +171,14 @@ function PeopleBlock({ changes }: { changes: PersonChange[] }) {
   );
 }
 
-export function GlanceRow({ f, now }: { f: Filing; now?: Date }) {
+export function GlanceRow({ f, now, isNew }: { f: Filing; now?: Date; isNew?: boolean }) {
   return (
     <details className="group border-t border-line px-4 py-2.5 first:border-t-0">
       <summary className="flex cursor-pointer list-none items-baseline gap-2">
-        <span className="ticker w-[88px] shrink-0 truncate text-[12px]">{f.symbol}</span>
+        <span className="ticker relative w-[88px] shrink-0 truncate text-[12px]">
+          {isNew && <span className="absolute -left-2.5 top-1.5 h-1.5 w-1.5 rounded-full bg-accent" aria-label="new" />}
+          {f.symbol}
+        </span>
         <span className="min-w-0 flex-1 text-[14px] leading-snug">{title(f)}</span>
         <span className="shrink-0 text-[11px] text-faint">{now ? when(f.filed_at, now) : stamp(f.filed_at)}</span>
       </summary>

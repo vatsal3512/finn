@@ -12,7 +12,7 @@ import { sessionDay, times } from "@/lib/format";
 import { loadWindow, range, saveWindow, type Window } from "@/lib/window";
 import { WindowPicker } from "./WindowPicker";
 import { GlanceRow } from "./FilingCard";
-import { cx, Move, SectionTitle } from "./ui";
+import { cx, Move, SectionTitle, Wordmark } from "./ui";
 
 
 
@@ -51,7 +51,7 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
   return (
     <main>
       <header className="px-4 pb-1 pt-5">
-        <p className="text-[12px] font-semibold tracking-[0.12em] text-faint">FINN</p>
+        <Wordmark />
         <h1 className="text-[22px] font-semibold leading-tight">Alerts</h1>
       </header>
 

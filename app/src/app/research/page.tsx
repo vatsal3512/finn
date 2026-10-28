@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/research/SearchBox";
-import { SectionTitle } from "@/components/ui";
+import { SectionTitle, Wordmark } from "@/components/ui";
 import type { ResearchIndexEntry } from "@/lib/contract";
 import { getHoldings, getResearchIndex } from "@/lib/data";
 
@@ -15,7 +15,7 @@ export default async function ResearchPage() {
   return (
     <main>
       <header className="px-4 pb-3 pt-5">
-        <p className="text-[12px] font-semibold tracking-[0.12em] text-faint">FINN</p>
+        <Wordmark />
         <h1 className="text-[22px] font-semibold leading-tight">Did management deliver?</h1>
         <p className="mt-1 text-[13px] leading-snug text-muted">
           Every promise from a company&apos;s last four earnings calls, checked against what it reported. Built only from

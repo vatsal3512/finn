@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Chip, Move, SectionTitle, Sparkline } from "@/components/ui";
+import { Chip, Move, SectionTitle, Sparkline, Wordmark } from "@/components/ui";
 import { getFeed, getHoldings, getMeta, getResearchIndex } from "@/lib/data";
 import { plain, sessionDay, times } from "@/lib/format";
 
@@ -30,7 +30,7 @@ export default async function PortfolioPage() {
   return (
     <main>
       <header className="px-4 pb-1 pt-5">
-        <p className="text-[12px] font-semibold tracking-[0.12em] text-faint">FINN</p>
+        <Wordmark />
         <h1 className="text-[22px] font-semibold leading-tight">Portfolio</h1>
         <p className="text-[12px] text-faint">
           {holdings.length} holdings · end of day {meta.latest_session ? sessionDay(meta.latest_session) : ""} · most attention first
