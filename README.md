@@ -1,45 +1,61 @@
 # FINN: Financial Investment Agent
 
-A mobile-first agent for an Indian-equities investor. It does two things:
+FINN is a phone app for someone who owns Indian stocks. It does two jobs:
 
-- **Push.** It watches a portfolio's exchange filings and end-of-day prices, and surfaces only what matters: at most three cards a day, with the rest collapsed.
-- **Pull.** It researches any NSE company from primary sources only, meaning annual reports and earnings-call transcripts. Its flagship output compares what management promised with what it delivered.
+- **Push:** it reads every filing your companies send to the stock exchange, and shows you only the few that matter today. Everything else is folded away.
+- **Pull:** you name any company listed on NSE, and FINN checks whether its management did what it promised on its earnings calls. It uses only the company's own documents.
 
-Built for the ENAM Holdings AI Engineer Build Challenge, October 2026.
+**Try it on your phone:** https://finn-roan.vercel.app
 
-## Status
+## Try it in 5 minutes
 
-| Part | State |
-|---|---|
-| Data layer: prices, filings, fundamentals | Built and tested |
-| AI layer: results cards, triage, bios | Built and run on every filing in the 30-day window |
-| Research engine: promised vs delivered, cash quality, bull vs bear, "ask about this" | Built. 23 companies computed ahead; any other NSE ticker live in about a minute |
-| Phone app: Today's 3, alerts, portfolio, research | Built. Deploying on Vercel |
+1. **Open Today.** You see at most three cards. A results card shows revenue, EBITDA, profit before tax and profit after tax, this quarter against last quarter and a year ago.
+2. **Tap "What did management say about this?"** on a card. FINN answers from the company's last two earnings calls, and shows the exact sentences it used.
+3. **Change the time window** at the top: 24 hours, 3 days, 7 days, 30 days, or your own dates.
+4. **Open Alerts** and change the limits: how big a price move, how much extra trading volume, and which kinds of filing should alert you.
+5. **Open Research and type a company:** a name like "Infosys" or a symbol like TITAN. Try KAYNES first: it missed three promises in a row. Then try a company nobody prepared, such as CIPLA. FINN reads its documents live, in under a minute or two.
 
-## Where to look
+## What makes FINN different
 
-- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): how it works and why each choice was made.
-- [SCOPE.md](SCOPE.md): what the prototype does and what it leaves out on purpose.
-- [PROGRESS_LOG.md](PROGRESS_LOG.md): the build diary, with every decision and the reason behind it.
+- **It filters.** Out of about 250 filings a month for 18 companies, around 40 are worth reading. The rest are folded into one line, such as "18 routine filings".
+- **It checks promises with arithmetic.** An AI model reads each earnings call and lists what management promised. Then code, not the model, compares each promise with the reported numbers. Kaynes promised at least ₹4,000 crore of revenue for FY26 and reported ₹3,626 crore, so FINN marks it "missed".
+- **Every quote is real.** Before FINN shows a sentence from a call or an annual report, code finds that exact sentence in the document and records the page. A quote that cannot be found is thrown away.
+- **Numbers come from the source.** Results come from the exchange's own data files, and are cross-checked with screener.in. If they don't match, the card says so.
 
-## Quick start
+## How it is built
 
-Requires [uv](https://docs.astral.sh/uv/). It installs the right Python by itself.
+```
+GitHub Actions, every 30 minutes
+  -> fetch prices, filings and results from NSE, BSE and Yahoo Finance
+  -> sort and summarise filings with Gemini
+  -> save the results as JSON files in the repo
+Vercel
+  -> the phone app (Next.js) reads those files, so screens open instantly
+  -> a small Python server (FastAPI) does live research and answers questions
+```
+
+- **Backend:** Python, in `backend/`. The data collectors, the AI layer and the research engine.
+- **App:** Next.js, in `app/`. Its types are generated from the backend's data schema, so the two sides always agree.
+- **AI:** Google Gemini, on the free tier. A cheap, fast model sorts routine filings. A stronger model reads earnings calls and makes the bull and bear case. Every answer is cached, so nothing is paid for twice.
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). What is in and out of scope: [SCOPE.md](SCOPE.md).
+
+## Run it yourself
+
+You need [uv](https://docs.astral.sh/uv/) and Node.js.
 
 ```bash
 cd backend
 uv sync
-uv run python -m finn.refresh       # fetch and export the portfolio's data
-uv run python -m finn.fetch INFY    # fundamentals and documents for any ticker
-uv run python -m finn.enrich        # results cards, AI triage and bios; keys go in backend/.env
-uv run python -m finn.research KAYNES   # promised vs delivered, from the company's own words
-uv run uvicorn finn.api:app         # the live API, for tickers nobody computed ahead
+cp .env.example .env                    # then add your Gemini keys
+uv run python -m finn.refresh           # fetch and sort this month's filings and prices
+uv run python -m finn.research KAYNES   # research one company
+uv run uvicorn finn.api:app --port 8000 # the live server
 uv run pytest
 
 cd ../app
 npm ci
-npm run dev                         # http://localhost:3000, with the API on :8000
-npm run types                       # regenerate the TypeScript contract from the schema
+npm run dev                             # http://localhost:3000
 ```
 
-Data comes from public sources: NSE and BSE filings, Yahoo Finance prices, and the documents indexed on screener.in. Nothing here is investment advice.
+Data comes from public sources: NSE and BSE filings, Yahoo Finance prices, and documents listed on screener.in. Nothing here is investment advice.

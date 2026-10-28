@@ -1,6 +1,6 @@
 """Remove the two kinds of junk line that filings carry, and nothing else.
 
-Tested on 140 real filings before adopting (PROGRESS_LOG.md, step 4 review):
+Tested on 140 real filings before adopting:
 - A filter on "does this line look like words" dropped real content, such as Nazara's
   "• Revenue: 803 (+53% YoY)", and saved only 1.2% of text. Rejected.
 - Cutting the first N characters loses the subject line, which often carries the key

@@ -6,4 +6,4 @@ One-off scripts from 27 October 2026, used to choose the portfolio and research 
 - `scan.py` pulled 30 days of NSE filings for 57 candidate companies.
 - `px.py` measured six months of volatility and volume spikes from Yahoo Finance.
 
-The raw outputs are git-ignored. The reasoning they fed is in PROGRESS_LOG.md, decisions D1 to D3.
+The raw outputs are git-ignored. The companies they led to are listed in SCOPE.md.

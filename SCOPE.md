@@ -1,12 +1,12 @@
 # FINN Scope
 
-Agreed on 2026-10-27. This is what FINN does in the submitted prototype, and what it deliberately leaves out. Items marked **open** still need a decision.
+What FINN does in this prototype, and what it leaves out on purpose.
 
 ## Product idea
 
 FINN's job is filtering, not collecting. The investor sees the few things that matter today and nothing else.
 
-**Interaction model: "Today's 3" with "ask about this".** Agreed on 2026-10-27.
+**Interaction model: "Today's 3" with "ask about this".**
 - The app opens on at most 3 cards: the things that matter most since the investor last looked.
 - Everything else sits below in the full digest, collapsed, with a count such as "44 other items, all routine".
 - Every card has an "ask about this" button that opens research on that exact event, so Push becomes the doorway into Pull.
@@ -82,7 +82,7 @@ These go into the covering email under "what I left out".
 - Voice briefing and swipe-to-train ranking.
 - User accounts and login. The prototype has one demo investor.
 
-## Still open
+## Companies
 
-1. How many API keys to use, and how failover works.
-2. Final company list. The current picks are in PROGRESS_LOG.md, D1 and D2.
+- Portfolio (18): HDFCBANK, RELIANCE, BHARTIARTL, MARUTI, ASIANPAINT, SUNPHARMA, ETERNAL, ADANIENT, INDIGO, POLYCAB, DIXON, MAZDOCK, PAYTM, PERSISTENT, INDUSINDBK, OLAELEC, NAZARA, EMUDHRA. Picked so the week's filings show every feature: results, a CEO change, a fund raise, an insolvency case, sharp price moves.
+- Research picks (5): INFY, LT, KAYNES, INDHOTEL, HFCL, all outside the portfolio, to show research works on any company.

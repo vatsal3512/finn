@@ -40,7 +40,7 @@ def _r(symbol: str, name: str, sector: str, size: str) -> Company:
 
 
 # Picked on 2026-10-27 from live filings and price data. The reason for each pick is
-# recorded in PROGRESS_LOG.md, decision D1.
+# is in SCOPE.md.
 PORTFOLIO: tuple[Company, ...] = (
     _p("HDFCBANK", "HDFC Bank", "Banking", "Large"),
     _p("RELIANCE", "Reliance Industries", "Conglomerate", "Large"),

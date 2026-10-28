@@ -31,3 +31,6 @@ app/node_modules/
 app/.next/
 app/next-env.d.ts
 app/*.tsbuildinfo
+
+# Build notes, kept locally
+PROGRESS_LOG.md
