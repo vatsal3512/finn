@@ -3,7 +3,7 @@
  "symbol": "HDFCBANK",
  "name": "HDFC Bank",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:21+00:00",
+ "generated_at": "2026-10-28T09:25:49+00:00",
  "snapshot": {
   "about": null,
   "latest_quarter": "Q2 FY27",
@@ -233,6 +233,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.4
+  "seconds": 1.3
  }
 }

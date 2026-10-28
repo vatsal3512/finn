@@ -3,7 +3,7 @@
  "symbol": "PERSISTENT",
  "name": "Persistent Systems",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:38+00:00",
+ "generated_at": "2026-10-28T09:26:03+00:00",
  "snapshot": {
   "about": "Digital engineering and enterprise modernization services powered by AI across high-tech, financial services, and healthcare verticals.",
   "latest_quarter": "Q2 FY27",
@@ -420,6 +420,6 @@
    "gemini-3.6-flash",
    "gemini-3.8-flash"
   ],
-  "seconds": 1.2
+  "seconds": 1.1
  }
 }

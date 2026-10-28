@@ -3,7 +3,7 @@
  "symbol": "KAYNES",
  "name": "Kaynes Technology",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:18+00:00",
+ "generated_at": "2026-10-28T09:25:46+00:00",
  "snapshot": {
   "about": "Kaynes Technology provides electronics manufacturing services, semiconductor packaging, PCB manufacturing, and space technology solutions.",
   "latest_quarter": "Q1 FY27",
@@ -768,6 +768,6 @@
   "models": [
    "gemini-3.5-flash"
   ],
-  "seconds": 1.2
+  "seconds": 1.0
  }
 }

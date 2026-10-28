@@ -3,7 +3,7 @@
  "symbol": "SUNPHARMA",
  "name": "Sun Pharma",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:28+00:00",
+ "generated_at": "2026-10-28T09:25:54+00:00",
  "snapshot": {
   "about": "Sun Pharma is an Indian pharmaceutical company manufacturing innovative and generic medicines globally.",
   "latest_quarter": "Q1 FY27",
@@ -405,6 +405,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.3
+  "seconds": 1.0
  }
 }

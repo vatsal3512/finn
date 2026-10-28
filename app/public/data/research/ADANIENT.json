@@ -3,7 +3,7 @@
  "symbol": "ADANIENT",
  "name": "Adani Enterprises",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:31+00:00",
+ "generated_at": "2026-10-28T09:25:56+00:00",
  "snapshot": {
   "about": "Adani Enterprises Limited operates an infrastructure-focused incubator portfolio spanning energy, utilities, transport, logistics, and primary industry.",
   "latest_quarter": "Q1 FY27",
@@ -588,6 +588,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.5
+  "seconds": 1.2
  }
 }

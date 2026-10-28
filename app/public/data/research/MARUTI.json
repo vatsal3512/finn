@@ -3,7 +3,7 @@
  "symbol": "MARUTI",
  "name": "Maruti Suzuki",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:25+00:00",
+ "generated_at": "2026-10-28T09:25:52+00:00",
  "snapshot": {
   "about": "Maruti Suzuki is an Indian automotive manufacturer producing passenger vehicles.",
   "latest_quarter": "Q2 FY27",
@@ -212,6 +212,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.1
+  "seconds": 0.9
  }
 }

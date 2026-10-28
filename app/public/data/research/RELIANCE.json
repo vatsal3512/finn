@@ -3,7 +3,7 @@
  "symbol": "RELIANCE",
  "name": "Reliance Industries",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:23+00:00",
+ "generated_at": "2026-10-28T09:25:50+00:00",
  "snapshot": {
   "about": "Reliance Industries operates in Oil-to-Chemicals, Retail, Digital Services (Jio), FMCG, Media, Oil & Gas, and New Energy.",
   "latest_quarter": "Q1 FY27",
@@ -377,6 +377,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.3
+  "seconds": 1.0
  }
 }

@@ -3,7 +3,7 @@
  "symbol": "INFY",
  "name": "Infosys",
  "basis": "consolidated",
- "generated_at": "2026-10-28T08:49:15+00:00",
+ "generated_at": "2026-10-28T09:25:43+00:00",
  "snapshot": {
   "about": "Digital services, IT consulting, cloud and AI technology services globally.",
   "latest_quarter": "Q2 FY27",
@@ -404,6 +404,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 2.2
+  "seconds": 2.3
  }
 }
