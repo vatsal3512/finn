@@ -12,10 +12,11 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from finn import grounding as checks
 from finn.ai.llm import LLM, AIUnavailable, Tier
 from finn.config import DATA_DIR, EXPORT_DIR
 from finn.enrich import triage
-from finn.evals import checks, second
+from finn.evals import second
 from finn.store import connect
 from finn.textclean import clean
 
@@ -42,11 +43,9 @@ def _fresh(llm: LLM, items: dict, symbols: dict, batches, run: int) -> dict:
             continue
         for it in res.items:
             if it.id in ids:
-                amount = triage.amount_crore(it)
-                revenue = triage.annual_revenue(llm.conn, symbols[it.id])
+                triage.review(llm.conn, symbols[it.id], it, items[it.id])
                 out[it.id] = {"category": it.category, "tier": it.tier, "title": it.title,
-                              "summary": triage.checked_shares(it.summary, amount, revenue),
-                              "why": triage.checked_shares(it.why_it_matters, amount, revenue),
+                              "summary": it.summary, "why": it.why_it_matters,
                               "model": llm.last_model}  # fmt: skip
     return out
 

@@ -1,5 +1,7 @@
-"""Code checks for grounding and usefulness. No model is involved, so these give the same
-answer every time and can run over every output FINN has produced.
+"""Grounding checks: is each number and name a model wrote found in its source?
+
+No model is involved, so these give the same answer every time. Triage runs them on each
+answer before storing it; the evaluation (finn/evals) runs them over every output.
 
 A number counts as grounded when the source contains it, or contains a figure that rounds
 to it ("40%" from "39.8%"). Years match in either form ("FY27" and "2027"), and small
@@ -82,6 +84,17 @@ class Reference:
 
     def converted_numbers(self, text: str) -> list[str]:
         return [t for t in numbers(text) if not self.has_number(t) and self.is_converted(t)]
+
+    def is_sum_of_two(self, token: str) -> bool:
+        """Airtel's "total penalty of Rs. 3,53,000" adds its two penalties, and is fair.
+        Adani's "₹25,749.96 crore" matches no pair of its rows, and is not."""
+        x = _value(token)
+        return any(round(x - v, 2) in self.values for v in self.values if 0 < v < x)
+
+    def unchecked_numbers(self, text: str) -> list[str]:
+        """Figures that are neither in the source, nor converted from it, nor a sum of two
+        of its figures: what a model may not write without code checking it."""
+        return [t for t in self.ungrounded_numbers(text) if not self.is_sum_of_two(t)]
 
     def ungrounded_names(self, text: str) -> list[str]:
         """Names using a word the source never uses. A sentence's first word is skipped:

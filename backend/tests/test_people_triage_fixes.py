@@ -189,3 +189,72 @@ def test_results_numbers_only_for_results_filings_and_only_once_out(tmp_path):
     assert triage._results_numbers(conn, row("nse:1")) is None  # not about results
     assert triage._results_numbers(conn, row("nse:2")) is None  # results not out yet
     assert "1,221.0" in triage._results_numbers(conn, row("nse:4"))
+
+
+def _with_revenue(tmp_path, symbol, quarterly):
+    from finn.store import connect, upsert
+
+    conn = connect(tmp_path / "t.db")
+    upsert(conn, "financials", [
+        {"symbol": symbol, "basis": "consolidated", "statement": "quarters", "period": p,
+         "line_item": "Sales", "value": quarterly, "raw": str(quarterly), "source_url": "s",
+         "fetched_at": "x"}
+        for p in ("2025-12", "2026-03", "2026-06", "2026-09")
+    ], ("symbol", "basis", "statement", "period", "line_item"))  # fmt: skip
+    return conn
+
+
+def _answer(**kw):
+    from finn.enrich.triage import ItemOut
+
+    base = {"id": "nse:1", "events": [], "category": "fund_raise", "tier": "glance",
+            "title": "t", "summary": "s", "why_it_matters": None, "sentiment": "neutral"}  # fmt: skip
+    return ItemOut(**{**base, **kw})
+
+
+def test_review_lifts_a_large_raise_to_must_see_and_never_lowers_by_size(tmp_path):
+    from finn.enrich.triage import review
+
+    conn = _with_revenue(tmp_path, "OLAELEC", 470)  # about ₹1,880 crore a year
+    ola = _answer(amount_value=1000, amount_unit="crore", amount_currency="INR")
+    assert review(conn, "OLAELEC", ola, "rights issue of up to ₹1,000 crore") == 1000
+    assert ola.tier == "must_see"
+    claim = _answer(category="litigation", tier="must_see", amount_value=2.79, amount_unit="crore")
+    review(conn, "OLAELEC", claim, "claim of Rs 2.79 crore")
+    assert claim.tier == "must_see"  # small, but not lowered
+
+
+def test_review_drops_amounts_that_are_not_money_and_unverifiable_lines(tmp_path):
+    from finn.enrich.triage import review
+
+    conn = _with_revenue(tmp_path, "ADANIENT", 27858)
+    jio = _answer(amount_value=270000000, amount_unit="crore")  # a share count, read as rupees
+    assert review(conn, "ADANIENT", jio, "27,00,00,000 (Twenty seven crore) equity shares") is None
+    summed = _answer(
+        category="credit_rating", why_it_matters="Covers facilities totalling Rs 25,749.96 crore."
+    )
+    review(conn, "ADANIENT", summed, "bank facilities 16,505.00; 4,000.00; 240.00; 954.96")
+    assert summed.why_it_matters is None
+    fair = _answer(why_it_matters="The raise of ₹1,000 crore is about 1% of annual revenue.",
+                   amount_value=1000, amount_unit="crore")  # fmt: skip
+    review(conn, "ADANIENT", fair, "rights issue of up to ₹1,000 crore")
+    assert (
+        fair.why_it_matters == "The raise of ₹1,000 crore is about 1% of annual revenue."
+    )  # fair rounding kept
+
+
+def test_important_filing_answered_by_the_groq_fallback_is_asked_again(tmp_path):
+    from finn.enrich import triage
+    from finn.store import connect, upsert
+
+    conn = connect(tmp_path / "t.db")
+    base = {"symbol": "OLAELEC", "exchange": "NSE", "filed_at": "2099-01-01T10:00:00+05:30",
+            "needs_ai": 1, "tier": "glance", "source_url": "u", "fetched_at": "x"}  # fmt: skip
+    upsert(conn, "filings", [{**base, "id": "nse:1", "category": "fund_raise"},
+                             {**base, "id": "nse:2", "category": "other"}], ("id",))  # fmt: skip
+    upsert(conn, "filing_insights", [
+        {"filing_id": fid, "model": triage.GROQ_MODEL, "prompt_version": triage.PROMPT_VERSION,
+         "created_at": "x"} for fid in ("nse:1", "nse:2")
+    ], ("filing_id",))  # fmt: skip
+    todo = triage.pending(conn, days=30)
+    assert [r["id"] for r in todo] == ["nse:1"] and triage._reask(todo[0])

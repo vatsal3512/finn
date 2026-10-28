@@ -248,3 +248,14 @@ def test_a_patient_caller_waits_for_flash_instead_of_standing_in(tmp_path, monke
     long_prompt = "word " * 8000  # too big for Groq, so only Gemini can answer
     assert ask(llm, long_prompt, tier=L.Tier.FLASH).value == "gemini-1"
     assert naps and llm.last_model == FLASH and llm.stats["step_downs"] == 0
+
+
+def test_a_flash_only_call_skips_the_fallback_and_its_cached_answer(tmp_path):
+    llm, g, q, conn = _llm(tmp_path, busy=set(PEERS))
+    assert ask(llm, tier=L.Tier.FLASH).value == "groq-1"  # Flash busy: Groq stands in, cached
+    with pytest.raises(L.AIUnavailable):  # Flash still busy: no Groq, no stand-in, no cache
+        llm.json("t", L.Tier.FLASH, "p", Answer, system="s", version="v1", fallback=False)
+    g.busy.clear()
+    L.LLM._busy_until.clear()
+    out = llm.json("t", L.Tier.FLASH, "p", Answer, system="s", version="v1", fallback=False)
+    assert out.value.startswith("gemini") and len(q.calls) == 1

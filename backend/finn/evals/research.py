@@ -16,8 +16,9 @@ from __future__ import annotations
 import json
 from collections import Counter
 
+from finn import grounding as checks
 from finn.config import DATA_DIR, EXPORT_DIR
-from finn.evals import checks, second
+from finn.evals import second
 from finn.pdftext import load_pages
 from finn.research.quotes import Document
 from finn.store import connect

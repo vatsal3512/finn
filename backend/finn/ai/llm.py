@@ -315,12 +315,16 @@ class LLM:
         version: str,
         images: Sequence[bytes] = (),
         max_output_tokens: int = 4096,
+        fallback: bool = True,
     ) -> T:
+        """fallback=False asks only the tier's own models: no other provider, no cheaper
+        stand-in, and no cached answer that came from one. For re-asking an answer that a
+        fallback gave, so that a busy Flash leaves it as it is rather than replacing it."""
         key = cache_key(task, version, system, prompt, images, tier.value)
         row = self.conn.execute(
-            "SELECT response, model FROM ai_cache WHERE key = ?", (key,)
+            "SELECT response, model, degraded FROM ai_cache WHERE key = ?", (key,)
         ).fetchone()
-        if row:
+        if row and (fallback or not row[2]):
             self.stats["cache_hits"] += 1
             self.last_model = row[1]
             return schema.model_validate_json(row[0])
@@ -340,6 +344,8 @@ class LLM:
         errors: list[str] = []
         if self.patient:  # nobody is waiting: wait for the right model rather than stand in
             attempts = [a for a in attempts if a[4] != "step_down"]
+        if not fallback:
+            attempts = [a for a in attempts if a[4] in ("primary", "peer")]
         for _round in range(1 + (PATIENT_ROUNDS if self.patient else 0)):
             for backend, pool, model, thinking, kind in attempts:
                 if self._busy_until.get(model, 0.0) > time.monotonic():

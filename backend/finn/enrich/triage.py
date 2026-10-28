@@ -25,7 +25,8 @@ from datetime import date, timedelta
 
 from pydantic import BaseModel, Field
 
-from finn.ai.llm import GEMINI_ROUTES, LLM, AIUnavailable, Tier
+from finn import grounding
+from finn.ai.llm import GEMINI_ROUTES, GROQ_MODEL, LLM, AIUnavailable, Tier
 from finn.config import BY_SYMBOL, DATA_DIR
 from finn.contracts import PeopleCard
 from finn.enrich import events, results
@@ -60,7 +61,10 @@ log = logging.getLogger(__name__)
 #     model writes (see checked_shares). The wording of the prompt is unchanged.
 # v9: results numbers go only to filings about results, and only once the results are out
 #     (see _results_numbers). v8 gave a 13 October MoU press release the 28 October results.
-PROMPT_VERSION = "triage-v9"
+# v10: code reviews every answer before it is stored (see review): implausible amounts
+#      dropped, unverifiable figures in "why it matters" dropped, large deals at least
+#      must-see. Important filings answered by the Groq fallback are re-asked of Flash.
+PROMPT_VERSION = "triage-v10"
 BATCH = 6
 EXCERPT_CHARS = 1800
 
@@ -208,8 +212,11 @@ def excerpt(text: str, limit: int = EXCERPT_CHARS) -> str:
     return head + " … Amounts later in the filing: " + " … ".join(passages)
 
 
-# "53% of annual revenue", "~0.00008% of its ₹34,609 crore revenue"
-_SHARE = re.compile(r"(\d+(?:\.\d+)?)\s?%(?=\s+of\b[^.;]{0,45}?\brevenue)", re.I)
+# "53% of annual revenue", "over 53 percent of annual revenue",
+# "~0.00008% of its ₹34,609 crore revenue"
+_SHARE = re.compile(
+    r"(\d+(?:\.\d+)?)\s?(?:%|percent\b|per cent\b)(?=\s+of\b[^.;]{0,45}?\brevenue)", re.I
+)
 SHARE_TOLERANCE = 0.15  # "over 50%" for a true 53% is fair; 100 times too small is not
 
 
@@ -251,26 +258,34 @@ def pending(conn: sqlite3.Connection, days: int) -> list[sqlite3.Row]:
     Companies often file one letter under several labels: Nazara's 12 October board
     outcome went out six times. The copies inherit the original's insight at export.
 
-    An important filing answered by Flash-Lite got a stand-in while Flash was busy, so it
-    is asked again until Flash answers.
+    An important filing answered by a stand-in (Flash-Lite, or the Groq fallback) while
+    Flash was busy is asked again until Flash answers. The evaluation found that which
+    model answered decided more answers than run-to-run noise did: two runs of the same
+    prompt disagreed on 8 of 19 filings, and the Groq answers were among the worst.
     """
     since = (date.today() - timedelta(days=days)).isoformat()
-    lite = GEMINI_ROUTES[Tier.LITE].model
+    stand_ins = (GEMINI_ROUTES[Tier.LITE].model, GROQ_MODEL)
     rows = conn.execute(
         "SELECT f.*, i.model AS answered_by, i.prompt_version AS answered_version "
         "FROM filings f LEFT JOIN filing_insights i ON i.filing_id = f.id "
         "LEFT JOIN filing_signals s ON s.filing_id = f.id "
         "WHERE f.needs_ai = 1 AND f.filed_at >= ? AND s.duplicate_of IS NULL "
-        "AND (i.filing_id IS NULL OR i.prompt_version != ? OR i.model = ?) ORDER BY f.filed_at DESC",
-        (since, PROMPT_VERSION, lite),
+        "AND (i.filing_id IS NULL OR i.prompt_version != ? OR i.model IN (?, ?)) "
+        "ORDER BY f.filed_at DESC",
+        (since, PROMPT_VERSION, *stand_ins),
     ).fetchall()
     return [
         r
         for r in rows
         if r["answered_version"] != PROMPT_VERSION
-        or r["answered_by"] != lite
+        or r["answered_by"] not in stand_ins
         or is_important(conn, r)
     ]
+
+
+def _reask(f: sqlite3.Row) -> bool:
+    """Already answered on this version, by a stand-in: only Flash should replace it."""
+    return f["answered_version"] == PROMPT_VERSION and f["answered_by"] is not None
 
 
 def _events_line(conn: sqlite3.Connection, f: sqlite3.Row) -> str | None:
@@ -378,6 +393,47 @@ def is_important(conn: sqlite3.Connection, f: sqlite3.Row) -> bool:
     return f["tier"] == "must_see" or bool(IMPORTANT & (set(found) | {f["category"]}))
 
 
+# The model reads; code has the last word on what can be checked. Each rule below comes
+# from an answer the evaluation (finn/evals) found wrong.
+IMPLAUSIBLE_TIMES_REVENUE = 3  # Jio's "27,00,00,000 equity shares" was stored as ₹27 crore crore
+FLOOR_SHARE_PCT = 5.0  # a deal or claim this large against revenue could change the view
+FLOOR_CATEGORIES = {"M&A", "fund_raise", "capex", "litigation", "pledging"}
+
+
+def review(conn: sqlite3.Connection, symbol: str, it: ItemOut, given: str) -> float | None:
+    """Code's checks on one answer, before it is stored. Edits `it`; returns the amount.
+
+    - An amount over three times annual revenue is a misread (a share count, a market
+      size), not the company's deal, and is dropped.
+    - Any share of revenue the model writes is recomputed (see checked_shares).
+    - "Why it matters" is dropped if it holds a figure found nowhere in what the model was
+      given: Adani's card summed a rating table into a total the filing never printed.
+      It is optional by design; empty is better than unverifiable.
+    - A deal, fund raise or claim of 5% of revenue or more is at least must-see. Ola's
+      ₹1,000 crore rights issue, over half its revenue, was once rated "glance" by a model
+      whose own text said how large it was.
+    No tier is lowered by size alone: Polycab's ₹2.79 crore claim was small, but the
+    insolvency petition it started was not.
+    """
+    amount = amount_crore(it)
+    revenue = annual_revenue(conn, symbol)
+    if amount and revenue and amount > IMPLAUSIBLE_TIMES_REVENUE * revenue:
+        amount = None
+    it.summary = checked_shares(it.summary, amount, revenue) or ""
+    why = checked_shares(it.why_it_matters, amount, revenue)
+    if why and grounding.Reference(given).unchecked_numbers(_SHARE.sub("", why)):
+        why = None
+    it.why_it_matters = why
+    if (
+        amount
+        and revenue
+        and it.category in FLOOR_CATEGORIES
+        and amount / revenue * 100 >= FLOOR_SHARE_PCT
+    ):
+        it.tier = "must_see"
+    return amount
+
+
 def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = None) -> dict:
     todo = pending(conn, days)[:limit] if limit else pending(conn, days)
     stats = {
@@ -388,18 +444,27 @@ def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = 
         "on_flash": 0,
         "on_lite": 0,
     }
-    important = [f for f in todo if is_important(conn, f)]
+    important = [f for f in todo if is_important(conn, f) and not _reask(f)]
+    reask = [f for f in todo if is_important(conn, f) and _reask(f)]
     rest = [f for f in todo if not is_important(conn, f)]
-    batches = [(Tier.FLASH, important[i : i + BATCH]) for i in range(0, len(important), BATCH)]
-    batches += [(Tier.LITE, rest[i : i + BATCH]) for i in range(0, len(rest), BATCH)]
-    for tier, batch in batches:
-        prompt = "Filings:\n\n" + "\n\n".join(_item(conn, f) for f in batch)
+    batches = [
+        (Tier.FLASH, important[i : i + BATCH], True) for i in range(0, len(important), BATCH)
+    ]
+    batches += [(Tier.LITE, rest[i : i + BATCH], True) for i in range(0, len(rest), BATCH)]
+    # Last, and Flash only: a stand-in's answer stays until Flash can replace it.
+    batches += [(Tier.FLASH, reask[i : i + BATCH], False) for i in range(0, len(reask), BATCH)]
+    for tier, batch, fallback in batches:
+        given = {f["id"]: _item(conn, f) for f in batch}
+        prompt = "Filings:\n\n" + "\n\n".join(given.values())
         try:
-            out = llm.json("triage", tier, prompt, BatchOut, system=SYSTEM, version=PROMPT_VERSION)
+            out = llm.json("triage", tier, prompt, BatchOut, system=SYSTEM,
+                           version=PROMPT_VERSION, fallback=fallback)  # fmt: skip
             stats["on_flash" if tier == Tier.FLASH else "on_lite"] += len(batch)
         except AIUnavailable as exc:
-            log.warning("triage stopped: %s", exc)
             stats["failed_batches"] += 1
+            if not fallback:
+                continue  # Flash is busy; the stand-in's answer stays for now
+            log.warning("triage stopped: %s", exc)
             break
         stats["batches"] += 1
         by_id = {f["id"]: f for f in batch}
@@ -407,10 +472,7 @@ def run(conn: sqlite3.Connection, llm: LLM, days: int = 30, limit: int | None = 
         for it in out.items:
             if it.id not in by_id:
                 continue
-            amount = amount_crore(it)
-            revenue = annual_revenue(conn, by_id[it.id]["symbol"])
-            it.summary = checked_shares(it.summary, amount, revenue) or ""
-            it.why_it_matters = checked_shares(it.why_it_matters, amount, revenue)
+            amount = review(conn, by_id[it.id]["symbol"], it, given[it.id])
             rows.append(
                 {
                     "filing_id": it.id,

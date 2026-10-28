@@ -1,6 +1,6 @@
 """The grounding checks the evaluation relies on. If these were wrong, every score would be."""
 
-from finn.evals import checks
+from finn import grounding as checks
 
 
 def test_numbers_glued_to_a_prefix_count_but_period_labels_do_not():
@@ -42,3 +42,10 @@ def test_why_it_matters_must_add_something_specific():
     )
     assert checks.specific("Priced 26% below market.")
     assert not checks.specific("Fund raising can affect the share price.")
+
+
+def test_a_sum_of_two_given_figures_is_fair_but_an_invented_total_is_not():
+    airtel = checks.Reference("penalty of Rs.1,41,000 and a penalty of Rs.2,12,000")
+    assert airtel.unchecked_numbers("total penalty of Rs. 3,53,000") == []
+    adani = checks.Reference("16,505.00 4,000.00 240.00 954.96 2,000.00 3,000.00")
+    assert adani.unchecked_numbers("facilities totalling Rs 25,749.96 crore") == ["25,749.96"]
