@@ -24,7 +24,7 @@ from finn.ai.llm import LLM, AIUnavailable
 from finn.contracts import (
     CasePoint,
     Evidence,
-    Promise,
+    Guidance,
     ResearchReport,
     ResearchStats,
     Snapshot,
@@ -148,9 +148,23 @@ def _judge_prompt(src: Sources, ledger: Ledger, ds: list[Draft], excerpts) -> st
     return "\n".join(lines)
 
 
+_RUPEES = (
+    (re.compile(r"\bnegative (?:INR |Rs\.? ?|₹)?([\d,.]+) crores? rupees\b", re.I), r"−₹\1 crore"),
+    (re.compile(r"\b([\d,.]+) crores? rupees\b", re.I), r"₹\1 crore"),
+    (re.compile(r"\b(?:INR|Rs\.?) ?([\d,.]+) ?crores?\b", re.I), r"₹\1 crore"),
+    (re.compile(r"\bnegative ₹([\d,.]+)"), r"−₹\1"),
+)
+
+
 def _prose(text: str | None) -> str | None:
-    """Ids belong in evidence lists: 'grew 40% (C31)' becomes 'grew 40%'."""
-    return " ".join(_IDS.sub("", text).split()) if text else None
+    """Ids belong in evidence lists: 'grew 40% (C31)' becomes 'grew 40%'. Amounts read as
+    the app writes them: '600 crore rupees' and 'INR 3,626 crores' become ₹600 crore."""
+    if not text:
+        return None
+    text = " ".join(_IDS.sub("", text).split())
+    for rx, repl in _RUPEES:
+        text = rx.sub(repl, text)
+    return text
 
 
 def model_verdict(ruling, cid: str, claim, act: Actuals) -> tuple[str, list[str], str | None]:
@@ -195,8 +209,13 @@ def _points(points, ledger: Ledger, src: Sources) -> tuple[list[CasePoint], int]
 # ---------------------------------------------------------------- the pipeline
 
 
-def stream(symbol: str, refresh: bool = False, save_dir: Path | None = None) -> Iterator[dict]:
+def stream(
+    symbol: str, refresh: bool = False, save_dir: Path | None = None, budget_s: float | None = None
+) -> Iterator[dict]:
+    """budget_s caps the time spent waiting on models, for a live request. Past it, no new
+    model call starts, and the report says what it could not finish."""
     t0 = time.perf_counter()
+    deadline = time.monotonic() + budget_s if budget_s else None
     conn = connect()
     symbol = symbol.upper()
     yield {
@@ -213,7 +232,13 @@ def stream(symbol: str, refresh: bool = False, save_dir: Path | None = None) -> 
            f"{'an annual report' if src.annual_report else 'no annual report'} found",
            "cash": cash.model_dump(), "snapshot": _snapshot(act, None).model_dump()}  # fmt: skip
 
-    calls = read_calls(src.name, src.transcripts)
+    calls, unread = read_calls(src.name, src.transcripts, deadline)
+    if unread:
+        src.notes.append(f"{unread} of {len(src.transcripts)} calls could not be read in time.")
+    if not calls:
+        yield {"stage": "error", "message": "The AI models are too busy to read the calls right "
+               "now. Try again in a few minutes."}  # fmt: skip
+        return
     for call in calls:
         call.doc.label = _call_label(call)
     n_claims = sum(len(c.claims) + len(c.dropped) for c in calls)
@@ -234,6 +259,7 @@ def stream(symbol: str, refresh: bool = False, save_dir: Path | None = None) -> 
     judged, j_calls, j_cached, models = None, 0, 0, {c.model for c in calls if c.model}
     try:
         llm = LLM.from_env(conn, key_offset=7)
+        llm.deadline = deadline
         judged = judge.run(llm, _judge_prompt(src, ledger, ds, ar_excerpts(src)))
         j_calls, j_cached = 1, llm.stats["cache_hits"]
         models.add(llm.last_model)
@@ -244,7 +270,7 @@ def stream(symbol: str, refresh: bool = False, save_dir: Path | None = None) -> 
         )
 
     rulings = {r.id: r for r in (judged.rulings if judged else [])}
-    promises: list[Promise] = []
+    promises: list[Guidance] = []
     for i, d in enumerate(ds, 1):
         cid = ledger.id_of(d.claim)
         ruling = rulings.get(cid)
@@ -267,7 +293,7 @@ def stream(symbol: str, refresh: bool = False, save_dir: Path | None = None) -> 
             verdict, others, note = model_verdict(ruling, cid, c, act)
             if others:
                 actual_src = next((e for e in map(ledger.evidence, others) if e), None)
-        promises.append(Promise(
+        promises.append(Guidance(
             id=f"P{i}", metric=c.metric, period=c.period, target=target_text(c), statement=c.statement,
             said=said, repeated_in=[r.doc.label for r in d.repeated_in],
             actual=d.grade.actual if d.grade else None, actual_source=actual_src, verdict=verdict,

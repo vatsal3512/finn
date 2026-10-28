@@ -25,3 +25,9 @@ research/*.json
 .idea/
 .DS_Store
 Thumbs.db
+
+# app
+app/node_modules/
+app/.next/
+app/next-env.d.ts
+app/*.tsbuildinfo

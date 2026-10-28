@@ -153,6 +153,13 @@ flowchart LR
   V --> S[(ai_cache + ai_usage)] --> A
 ```
 
+An answer that does not fit the schema is a problem with the model's answer, not the key: on
+28 October the judge's answer for Dixon failed validation on every key for 16 minutes,
+because high thinking used up the output budget and cut the JSON short. Now a cut-off
+answer is detected from the model's finish reason, two unusable answers move the call to
+the next model, and a live request has a deadline: past it no new call starts, and the
+report says what it could not finish.
+
 A quota limit belongs to one key, so the next key answers. A capacity error belongs to the
 model: on 27 October, gemini-3.8-flash returned 503 "high demand" on every key, and one
 call took 270 seconds. So requests time out at 90 seconds, and once two keys report a 503,
@@ -225,7 +232,7 @@ flowchart LR
 | **No vector database.** Each transcript is read whole. | Four transcripts are 52K to 111K tokens and the three annual-report sections about 30K; every model in use takes a million. Cutting transcripts into chunks for retrieval would separate a promise from the later call that tests it. |
 | **Every quote is checked by code.** | The model copies quotes; code finds each one in its document, ignoring line wraps, spacing and running headers, and records the page. What the app shows is the document's own words at that place. A claim whose quote is not there is dropped. In the first runs, 64 of 64 Kaynes quotes and 44 of 44 Infosys quotes were found. |
 | **Code grades whatever numbers allow.** | A company-wide promise in rupees about a period that has ended is compared with screener.in's tables: Kaynes promised FY26 revenue of at least ₹4,000 crore and reported ₹3,626 crore, so code marks it missed. Constant-currency guidance, such as Infosys's, is compared with management's own later statement of the outcome. |
-| **Definitions are matched, not assumed.** | Infosys guides on operating margin, which is EBIT. screener.in's OPM is EBITDA, 24% against an EBIT margin of 20.9%. Comparing the wrong pair would have called a met target beaten, so EBIT margin is computed as operating profit less depreciation. |
+| **Definitions are matched, not assumed.** | Infosys guides on operating margin, which is EBIT. screener.in's OPM is EBITDA, 24% against an EBIT margin of 20.9%. Comparing the wrong pair would have called a met target beaten, so EBIT margin is computed as operating profit less depreciation. Asian Paints' volume growth is not revenue growth, so it is never graded against revenue. A quarter's growth is graded only when the speaker says what it compares with: HFCL's "10% to 15% in this current quarter" was 50.6% over the previous quarter and 127.7% over a year ago. |
 | **Segment targets are never graded against company numbers.** | "OSAT and PCB revenue of ₹450 to 500 crore" compared with Kaynes's total revenue would read as beaten many times over. Each claim says whether it is company-wide. |
 | **The model's verdicts are held to rules in code.** | A promise is not evidence for itself. Before its period ends, or with no period, it can only be on track or at risk. After the period, with nothing reported, it is unclear. Bull and bear points need evidence that exists, and a point whose annual-report quote is not in the report is dropped. |
 | **Cash quality is arithmetic.** | Operating cash flow against profit over five years, free cash flow and working-capital days come straight from the accounts. For Kaynes, −₹615 crore of operating cash against ₹977 crore of reported profit. Banks are skipped: their cash flow moves with deposits and loans. |

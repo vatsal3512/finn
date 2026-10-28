@@ -108,7 +108,17 @@ class ModelBusy(Transient):
 
 
 class AIUnavailable(Exception):
-    """Every key on every provider is resting or failing."""
+    """Every key on every provider is resting or failing, or the caller's time is up."""
+
+
+class Truncated(Exception):
+    """The answer hit max_output_tokens. Thinking tokens count against that budget."""
+
+
+class BadOutput(Exception):
+    """An answer that does not fit the schema. On 28 Oct the judge's answer for Dixon failed
+    validation on every key, 47 seconds a time, for 16 minutes: the same prompt gives the
+    same broken answer whichever key sends it, so after two the next model is tried."""
 
 
 @dataclass
@@ -176,6 +186,9 @@ class GeminiBackend:
             raise Transient(str(exc)) from exc
         except httpx.TimeoutException as exc:
             raise ModelBusy(f"no answer in {REQUEST_TIMEOUT_S}s", slow=True) from exc
+        candidate = (resp.candidates or [None])[0]
+        if getattr(candidate, "finish_reason", None) == types.FinishReason.MAX_TOKENS:
+            raise Truncated(f"cut off at {max_output_tokens} tokens")
         u = resp.usage_metadata
         return Reply(
             resp.text or "",
@@ -226,6 +239,8 @@ class GroqBackend:
             raise Transient(str(exc)) from exc
         except groq.APIConnectionError as exc:
             raise Transient(str(exc)) from exc
+        if resp.choices[0].finish_reason == "length":
+            raise Truncated(f"cut off at {max_output_tokens} tokens")
         u = resp.usage
         return Reply(resp.choices[0].message.content or "", u.prompt_tokens, u.completion_tokens)
 
@@ -267,6 +282,7 @@ class LLM:
         self.stats = {"cache_hits": 0, "calls": 0, "peers": 0, "fallbacks": 0, "step_downs": 0,
                       "failures": 0}  # fmt: skip
         self.last_model: str | None = None  # which model gave the latest answer
+        self.deadline: float | None = None  # time.monotonic() after which no new call starts
 
     @classmethod
     def from_env(cls, conn: sqlite3.Connection, key_offset: int = 0) -> LLM:
@@ -322,8 +338,11 @@ class LLM:
             if self._busy_until.get(model, 0.0) > time.monotonic():
                 errors.append(f"{model}: busy")
                 continue
-            busy_reports = 0
+            busy_reports = bad_answers = 0
             for k in pool.available(model):
+                if self.deadline and time.monotonic() > self.deadline:
+                    self.stats["failures"] += 1
+                    raise AIUnavailable(f"{task}: out of time")
                 try:
                     result = self._try_key(backend, pool, k, model, thinking, task, system, prompt,
                                            images, schema, max_output_tokens, errors)  # fmt: skip
@@ -335,6 +354,14 @@ class LLM:
                         with self._busy_lock:
                             self._busy_until[model] = time.monotonic() + BUSY_SECONDS
                         log.warning("%s is over capacity; skipping it for %ss", model, BUSY_SECONDS)
+                        break
+                    continue
+                except BadOutput:
+                    bad_answers += 1
+                    if bad_answers >= 2:
+                        log.warning(
+                            "%s gave two unusable answers to %s; trying the next model", model, task
+                        )
                         break
                     continue
                 if result is None:
@@ -394,7 +421,11 @@ class LLM:
                 self._log(backend, model, k, task, False, t0, error="model busy")
                 errors.append(f"{k.alias}: {model} busy")
                 raise
-            except (Transient, ValidationError, json.JSONDecodeError) as exc:
+            except (ValidationError, json.JSONDecodeError, Truncated) as exc:
+                self._log(backend, model, k, task, False, t0, error=type(exc).__name__)
+                errors.append(f"{k.alias}: {type(exc).__name__}")
+                raise BadOutput(str(exc)[:200]) from exc
+            except Transient as exc:
                 self._log(backend, model, k, task, False, t0, error=type(exc).__name__)
                 errors.append(f"{k.alias}: {type(exc).__name__}")
                 if attempt == 2:

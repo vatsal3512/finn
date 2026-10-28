@@ -1,0 +1,211 @@
+{
+ "reports": [
+  {
+   "symbol": "ADANIENT",
+   "name": "Adani Enterprises",
+   "generated_at": "2026-10-28T07:52:00+00:00",
+   "promises": 18,
+   "missed": 1,
+   "kept": 1,
+   "pending": 11
+  },
+  {
+   "symbol": "ASIANPAINT",
+   "name": "Asian Paints",
+   "generated_at": "2026-10-28T07:51:28+00:00",
+   "promises": 6,
+   "missed": 0,
+   "kept": 2,
+   "pending": 4
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "name": "Bharti Airtel",
+   "generated_at": "2026-10-28T07:51:26+00:00",
+   "promises": 6,
+   "missed": 0,
+   "kept": 0,
+   "pending": 6
+  },
+  {
+   "symbol": "DIXON",
+   "name": "Dixon Technologies",
+   "generated_at": "2026-10-28T07:52:46+00:00",
+   "promises": 25,
+   "missed": 0,
+   "kept": 1,
+   "pending": 18
+  },
+  {
+   "symbol": "EMUDHRA",
+   "name": "eMudhra",
+   "generated_at": "2026-10-28T08:02:19+00:00",
+   "promises": 14,
+   "missed": 0,
+   "kept": 1,
+   "pending": 12
+  },
+  {
+   "symbol": "ETERNAL",
+   "name": "Eternal",
+   "generated_at": "2026-10-28T07:51:30+00:00",
+   "promises": 16,
+   "missed": 0,
+   "kept": 0,
+   "pending": 15
+  },
+  {
+   "symbol": "HDFCBANK",
+   "name": "HDFC Bank",
+   "generated_at": "2026-10-28T07:50:52+00:00",
+   "promises": 3,
+   "missed": 0,
+   "kept": 0,
+   "pending": 3
+  },
+  {
+   "symbol": "HFCL",
+   "name": "HFCL",
+   "generated_at": "2026-10-28T07:50:51+00:00",
+   "promises": 25,
+   "missed": 0,
+   "kept": 1,
+   "pending": 23
+  },
+  {
+   "symbol": "INDHOTEL",
+   "name": "Indian Hotels",
+   "generated_at": "2026-10-28T07:50:50+00:00",
+   "promises": 23,
+   "missed": 1,
+   "kept": 5,
+   "pending": 14
+  },
+  {
+   "symbol": "INDIGO",
+   "name": "IndiGo",
+   "generated_at": "2026-10-28T07:52:14+00:00",
+   "promises": 9,
+   "missed": 0,
+   "kept": 2,
+   "pending": 2
+  },
+  {
+   "symbol": "INDUSINDBK",
+   "name": "IndusInd Bank",
+   "generated_at": "2026-10-28T07:57:04+00:00",
+   "promises": 9,
+   "missed": 0,
+   "kept": 0,
+   "pending": 8
+  },
+  {
+   "symbol": "INFY",
+   "name": "Infosys",
+   "generated_at": "2026-10-28T07:46:35+00:00",
+   "promises": 9,
+   "missed": 0,
+   "kept": 4,
+   "pending": 5
+  },
+  {
+   "symbol": "KAYNES",
+   "name": "Kaynes Technology",
+   "generated_at": "2026-10-28T07:50:49+00:00",
+   "promises": 24,
+   "missed": 3,
+   "kept": 0,
+   "pending": 18
+  },
+  {
+   "symbol": "LT",
+   "name": "Larsen & Toubro",
+   "generated_at": "2026-10-28T07:46:36+00:00",
+   "promises": 17,
+   "missed": 2,
+   "kept": 3,
+   "pending": 12
+  },
+  {
+   "symbol": "MARUTI",
+   "name": "Maruti Suzuki",
+   "generated_at": "2026-10-28T07:51:27+00:00",
+   "promises": 3,
+   "missed": 0,
+   "kept": 0,
+   "pending": 3
+  },
+  {
+   "symbol": "MAZDOCK",
+   "name": "Mazagon Dock",
+   "generated_at": "2026-10-28T07:54:25+00:00",
+   "promises": 9,
+   "missed": 0,
+   "kept": 2,
+   "pending": 2
+  },
+  {
+   "symbol": "NAZARA",
+   "name": "Nazara Technologies",
+   "generated_at": "2026-10-28T07:59:41+00:00",
+   "promises": 10,
+   "missed": 0,
+   "kept": 0,
+   "pending": 10
+  },
+  {
+   "symbol": "OLAELEC",
+   "name": "Ola Electric",
+   "generated_at": "2026-10-28T07:58:15+00:00",
+   "promises": 17,
+   "missed": 2,
+   "kept": 0,
+   "pending": 13
+  },
+  {
+   "symbol": "PAYTM",
+   "name": "Paytm",
+   "generated_at": "2026-10-28T07:55:37+00:00",
+   "promises": 10,
+   "missed": 0,
+   "kept": 0,
+   "pending": 3
+  },
+  {
+   "symbol": "PERSISTENT",
+   "name": "Persistent Systems",
+   "generated_at": "2026-10-28T07:57:03+00:00",
+   "promises": 10,
+   "missed": 0,
+   "kept": 0,
+   "pending": 9
+  },
+  {
+   "symbol": "POLYCAB",
+   "name": "Polycab India",
+   "generated_at": "2026-10-28T07:52:30+00:00",
+   "promises": 11,
+   "missed": 0,
+   "kept": 0,
+   "pending": 11
+  },
+  {
+   "symbol": "RELIANCE",
+   "name": "Reliance Industries",
+   "generated_at": "2026-10-28T07:51:25+00:00",
+   "promises": 9,
+   "missed": 0,
+   "kept": 0,
+   "pending": 7
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "name": "Sun Pharma",
+   "generated_at": "2026-10-28T07:51:29+00:00",
+   "promises": 9,
+   "missed": 0,
+   "kept": 0,
+   "pending": 9
+  }
+ ]
+}

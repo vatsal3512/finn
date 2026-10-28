@@ -46,8 +46,8 @@ def test_export_matches_contract(tmp_path):
     assert hdfc.close == 680.2 and hdfc.vol_ratio == 2.0
     assert filings.filings[0].tier == "must_see" and counts["must_see"] == 1
     assert meta.alert_defaults.volume_multiple == 2.0
-    assert set(json.loads((tmp_path / "schema.json").read_text())) == {
-        "portfolio",
-        "filings",
-        "meta",
-    }
+    schema = json.loads((tmp_path / "schema.json").read_text())
+    assert set(schema["properties"]) == {
+        "portfolio", "filings", "meta", "research_report", "research_index", "ask",
+    }  # fmt: skip
+    assert "ResultsCard" in schema["$defs"] and "Guidance" in schema["$defs"]

@@ -1,0 +1,425 @@
+{
+ "schema_version": 3,
+ "symbol": "PERSISTENT",
+ "name": "Persistent Systems",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:57:03+00:00",
+ "snapshot": {
+  "about": "Digital engineering and enterprise modernization services powered by AI across high-tech, financial services, and healthcare verticals.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 4664.0,
+  "revenue_yoy": 30.2,
+  "net_profit": 352.0,
+  "net_profit_yoy": -25.3,
+  "ebitda_margin": 14.0
+ },
+ "narrative": "Revenue growth aligned with management guidance, reaching $487.6 million in Q2 FY27 with 20% year-on-year growth. However, net profit declined 25.3% year-on-year to ₹352 crore, and Q2 FY27 EBIT margin of 15% trailed the aspirational 16% to 17% range.",
+ "promises": [
+  {
+   "id": "P10",
+   "metric": "Aspirational EBIT Margin Target",
+   "period": null,
+   "target": "16–17%",
+   "statement": "Management aspires to achieve an EBIT margin range of 16% to 17%.",
+   "said": {
+    "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 19,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "The EBIT margin for the quarter came in at 15%, translating to an EBIT growth of 1.6% quarter-on-quarter and 19.5% year-on-year",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   "verdict": "at_risk",
+   "verdict_by": "model",
+   "note": "Q2 FY27 EBIT margin of 15% fell below the aspirational 16% to 17% range."
+  },
+  {
+   "id": "P5",
+   "metric": "New deal annual value",
+   "period": null,
+   "target": "≥ 125 million (USD)",
+   "statement": "A new strategic deal will add roughly $125 million plus on an annual basis.",
+   "said": {
+    "quote": "So, from this deal perspective, this is a net new deal which will add roughly about $125 million plus on an annual basis and overall for the period of the contract it will be roughly about $650 million plus over 6.5 years",
+    "source": "Investor call, 28 Jun 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "New deal total contract value",
+   "period": null,
+   "target": "≥ 650 million (USD)",
+   "statement": "A new strategic contract will generate roughly $650 million plus over 6.5 years.",
+   "said": {
+    "quote": "So, from this deal perspective, this is a net new deal which will add roughly about $125 million plus on an annual basis and overall for the period of the contract it will be roughly about $650 million plus over 6.5 years",
+    "source": "Investor call, 28 Jun 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "European business revenue mix",
+   "period": null,
+   "target": "≥ 15%",
+   "statement": "Persistent aims to have its European business represent 15% or more of total revenue.",
+   "said": {
+    "quote": "We add to the European business, we live to our dream of having European business at 15% plus",
+    "source": "Investor call, 28 Jun 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Annual Revenue Target",
+   "period": "FY27",
+   "target": "2 billion (USD)",
+   "statement": "Management reaffirmed target of achieving $2 billion in revenue by March 2027.",
+   "said": {
+    "quote": "I am also happy to share that we remain firmly on track, advancing confidently towards our aspiration of $2 billion by March 2027 and laying the foundation of $5 billion by March 2031",
+    "source": "Q3 FY26 call, 20 Jan 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": "Target repeated in later communications to achieve $2 billion revenue by March 2027."
+  },
+  {
+   "id": "P9",
+   "metric": "One-time Nagarro transaction expenses",
+   "period": "FY27",
+   "target": "50 USD (USD)",
+   "statement": "Management expects approximately $50 million of one-time Nagarro transaction expenses across 3 to 4 quarters.",
+   "said": {
+    "quote": "Overall, we are expecting one-time expenses to the tune of approximately $50 million spread over three to four quarters",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Net Debt / Combined EBITDA",
+   "period": "FY30",
+   "target": "1 x",
+   "statement": "Combined leverage (Net Debt / Combined EBITDA) is expected to reduce to 1x by FY30.",
+   "said": {
+    "quote": "The leverage, that is the Net Debt over the combined EBITDA, is going to be 1.9 times-2.5 times based on how much will be the open offer acceptance. So, at 50% plus 1 share to 100%, it is expected to reduce down to 1X by FY2030",
+    "source": "Investor call, 28 Jun 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Annual Revenue Aspiration",
+   "period": "FY31",
+   "target": "5 billion (USD)",
+   "statement": "Targeting $5 billion annual revenue aspiration by March 2031.",
+   "said": {
+    "quote": "I am also happy to share that we remain firmly on track, advancing confidently towards our aspiration of $2 billion by March 2027 and laying the foundation of $5 billion by March 2031",
+    "source": "Q3 FY26 call, 20 Jan 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
+   },
+   "repeated_in": [
+    "Investor call, 28 Jun 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": "Long-term $5 billion revenue target by FY31 reaffirmed in subsequent call."
+  },
+  {
+   "id": "P4",
+   "metric": "Quarterly Revenue Run Rate Target",
+   "period": "Q4 FY27",
+   "target": "500 USD million (USD)",
+   "statement": "Management targets reaching an annualized revenue run rate exit of ~$500 million per quarter by Q4 FY27.",
+   "said": {
+    "quote": "FY’27, Q4 exit is where we are looking at the run rate being in the range of $500 million or so",
+    "source": "Q4 FY26 call, 21 Apr 2026",
+    "page": 19,
+    "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": "Quarterly exit run rate target for Q4 FY27 remains pending future quarterly results."
+  },
+  {
+   "id": "P3",
+   "metric": "Effective Tax Rate",
+   "period": "FY26",
+   "target": "20–24%",
+   "statement": "Effective Tax Rate for FY26 is guided to be between 20% and 24%.",
+   "said": {
+    "quote": "ETR for FY26 will be in the range of 20%-24%",
+    "source": "Q3 FY26 call, 20 Jan 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 845.0,
+    "net_profit": 690.0,
+    "free_cash_flow": 464.0,
+    "cash_conversion": 1.22,
+    "debtor_days": 61.0,
+    "inventory_days": null,
+    "working_capital_days": 4.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 956.0,
+    "net_profit": 921.0,
+    "free_cash_flow": 524.0,
+    "cash_conversion": 1.04,
+    "debtor_days": 69.0,
+    "inventory_days": null,
+    "working_capital_days": 20.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 1302.0,
+    "net_profit": 1093.0,
+    "free_cash_flow": 947.0,
+    "cash_conversion": 1.19,
+    "debtor_days": 62.0,
+    "inventory_days": null,
+    "working_capital_days": 24.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 1157.0,
+    "net_profit": 1400.0,
+    "free_cash_flow": 964.0,
+    "cash_conversion": 0.83,
+    "debtor_days": 82.0,
+    "inventory_days": null,
+    "working_capital_days": 47.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 1767.0,
+    "net_profit": 1865.0,
+    "free_cash_flow": 1572.0,
+    "cash_conversion": 0.95,
+    "debtor_days": 83.0,
+    "inventory_days": null,
+    "working_capital_days": 50.0
+   }
+  ],
+  "conversion_5y": 1.01,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹6,027 crore covered all of reported profit, ₹5,969 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/PERSISTENT/consolidated/"
+   },
+   {
+    "quote": "Debtor days rose from 62 to 83 between FY24 and FY26: cash is waiting longer in the business.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/PERSISTENT/consolidated/"
+   }
+  ],
+  "read": "Operating cash flow of ₹6,027 crore fully covered total reported net profit of ₹5,969 crore over FY22–FY26, though debtor days increased from 62 to 83 days."
+ },
+ "bull": [
+  {
+   "point": "Strong USD revenue expansion in Q2 FY27, reaching $487.6 million with 20% year-on-year growth.",
+   "evidence": [
+    {
+     "quote": "We achieved a healthy revenue growth of 7.8% quarter-on-quarter and 20% year-on-year delivering USD 487.6 million in Q2 FY27",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
+     "quote": "delivering USD 487.6 million in Q2 FY27",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Solid historical cash generation, with five-year cumulative operating cash flow of ₹6,027 crore exceeding cumulative net profit of ₹5,969 crore.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹6,027 crore covered all of reported profit, ₹5,969 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/PERSISTENT/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Healthy order pipeline demonstrated by Q2 FY27 total contract value of $633.5 million and new contract bookings of $367.1 million.",
+   "evidence": [
+    {
+     "quote": "Coming to the order book for the quarter, the total contract value for the quarter stood at USD 633.5 million",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
+     "quote": "with total contract value of new bookings coming in at USD 367.1 million",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Debtor collection cycles slowed considerably, with debtor days increasing from 62 to 83 days between FY24 and FY26.",
+   "evidence": [
+    {
+     "quote": "Debtor days rose from 62 to 83 between FY24 and FY26: cash is waiting longer in the business.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/PERSISTENT/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Recent quarterly profitability weakened, with net profit falling 25.3% year-on-year in Q2 FY27 and EBIT margin missing management's aspirational band.",
+   "evidence": [
+    {
+     "quote": "The EBIT margin for the quarter came in at 15%, translating to an EBIT growth of 1.6% quarter-on-quarter and 19.5% year-on-year",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
+     "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 19,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Auditors designated revenue recognition on fixed-price contracts as a key audit matter due to inherent estimation risks.",
+   "evidence": [
+    {
+     "quote": "there is an inherent risk and presumed fraud risk around the existence of revenue recognised considering the customised and complex nature of these contracts",
+     "source": "Annual report 2026",
+     "page": 297,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q2 FY27 call, 15 Oct 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf",
+   "pages": 26
+  },
+  {
+   "label": "Investor call, 28 Jun 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+   "pages": 29
+  },
+  {
+   "label": "Q4 FY26 call, 21 Apr 2026",
+   "kind": "transcript",
+   "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+   "pages": 26
+  },
+  {
+   "label": "Q3 FY26 call, 20 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf",
+   "pages": 28
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf",
+   "pages": 500
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 48,
+  "quotes_verified": 48,
+  "quotes_dropped": 0,
+  "graded_by_code": 3,
+  "graded_by_model": 1,
+  "ai_calls": 5,
+  "cached_calls": 4,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.6-flash",
+   "gemini-3.8-flash"
+  ],
+  "seconds": 41.8
+ }
+}

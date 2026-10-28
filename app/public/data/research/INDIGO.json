@@ -1,0 +1,435 @@
+{
+ "schema_version": 3,
+ "symbol": "INDIGO",
+ "name": "IndiGo",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:52:14+00:00",
+ "snapshot": {
+  "about": "India's largest passenger airline operating domestic and international flights.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 24584.0,
+  "revenue_yoy": 19.9,
+  "net_profit": -238.0,
+  "net_profit_yoy": -110.9,
+  "ebitda_margin": 13.0
+ },
+ "narrative": "Management projected capacity addition of around 3 to 4 percent for the first quarter of fiscal 2027, and actual reported capacity growth met this expectation at 3 percent. Meanwhile, total income grew strongly by nearly 20 percent year over year.",
+ "promises": [
+  {
+   "id": "P7",
+   "metric": "Unit Passenger Revenue (PRASK)",
+   "period": "Q1 FY27",
+   "target": "13–17%",
+   "statement": "IndiGo estimates a mid-teens improvement in unit passenger revenue in Q1 FY27 over Q1 FY26.",
+   "said": {
+    "quote": "we currently estimate a mid-teens improvement in unit passenger revenue in Q1FY27 vs Q1FY26",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
+   },
+   "repeated_in": [],
+   "actual": "19.9%",
+   "actual_source": {
+    "quote": "Unit Passenger Revenue (PRASK), Q1 FY27: 19.9%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/INDIGO/consolidated/"
+   },
+   "verdict": "beat",
+   "verdict_by": "code",
+   "note": "Beat guidance as management estimated mid-teens improvement in unit passenger revenue, while reported total income grew by 19.9%."
+  },
+  {
+   "id": "P6",
+   "metric": "Capacity addition (ASK)",
+   "period": "Q1 FY27",
+   "target": "3–4%",
+   "statement": "IndiGo expects to add capacity of around 3% to 4% in Q1 FY27 compared to Q1 FY26.",
+   "said": {
+    "quote": "we are expecting to add capacity of around 3-4 percent in Q1FY27 as compared to the same period last year",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "June quarter’s capacity growth came in at 3% on a year-over-year basis, broadly in line with our guidance",
+    "source": "Q1 FY27 call, 23 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Guidance was 3-4 percent capacity addition in Q1 FY27, and actual reported capacity growth came in at 3 percent."
+  },
+  {
+   "id": "P8",
+   "metric": "PRASK growth",
+   "period": "Q2 FY27",
+   "target": "≥ 25%",
+   "statement": "Expecting passenger unit revenue (PRASK) growth of more than 25% year over year in Q2 FY27.",
+   "said": {
+    "quote": "we are expecting growth of more than 25% compared to the same period last year",
+    "source": "Q1 FY27 call, 23 Jul 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": "Pending verification for future period Q2 FY27."
+  },
+  {
+   "id": "P9",
+   "metric": "capacity growth",
+   "period": "Q2 FY27",
+   "target": null,
+   "statement": "Expecting flattish capacity growth in Q2 FY27 compared to last year.",
+   "said": {
+    "quote": "As a result, we are expecting a flattish capacity growth in Q2 FY27 compared to the same period last year",
+    "source": "Q1 FY27 call, 23 Jul 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Capacity growth guidance",
+   "period": "FY26",
+   "target": "10–13%",
+   "statement": "Estimating early teens capacity growth for the full financial year 2026.",
+   "said": {
+    "quote": "With these increases in capacity, we estimate early teens capacity growth for the full financial year 2026 which is slightly higher than our earlier communicated early double-digit guidance of capacity growth",
+    "source": "Q2 FY26 call, 4 Nov 2025",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "the full year ended March 2026, on a consolidated basis we reported total income of around 895 billion rupees, a growth of 6.4% vs last year",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
+   },
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "CASK ex fuel ex forex Growth",
+   "period": "FY26",
+   "target": "4–6%",
+   "statement": "CASK ex-fuel ex-forex for FY26 is expected to increase mid-single digits compared to FY25.",
+   "said": {
+    "quote": "We are currently estimating mid-single digit percentage increase in our unit costs excluding fuel and forex for the full financial year 2026 as compared to the full financial year 2025",
+    "source": "Q3 FY26 call, 22 Jan 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "H2 FY26 capacity growth guidance",
+   "period": "H2 FY26",
+   "target": "15–19%",
+   "statement": "Expecting to grow by high teens for both third and fourth quarter of FY26 compared to last year.",
+   "said": {
+    "quote": "As we move to the seasonally strong second half of the financial year, based on the market opportunity and addition of long-haul, we are pleased to announce that will be able to grow by high teens for both the third and fourth quarter of the current financial year as compared to the same period last year",
+    "source": "Q2 FY26 call, 4 Nov 2025",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "capacity in terms of ASKs grew by around 11% for the quarter, at the upper end of the guided range",
+    "source": "Q3 FY26 call, 22 Jan 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
+   },
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "ASK Capacity Growth",
+   "period": "Q4 FY26",
+   "target": "10%",
+   "statement": "IndiGo expects capacity growth of around 10% in Q4 FY26 compared to last year.",
+   "said": {
+    "quote": "we are expecting to add capacity of around 10 percent as compared to the same period last year",
+    "source": "Q3 FY26 call, 22 Jan 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "For the quarter ended March 2026, we reported a total income of around 238 billion rupees, an increase of around 3 percent",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
+   },
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Unit Passenger Revenue Growth",
+   "period": "Q4 FY26",
+   "target": null,
+   "statement": "Unit passenger revenue is expected to moderate early to mid-single digits compared to last year in Q4 FY26.",
+   "said": {
+    "quote": "we are estimating an early to mid single digit moderation in our unit passenger revenue as compared to a high base of the same quarter last year",
+    "source": "Q3 FY26 call, 22 Jan 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 2091.0,
+    "net_profit": -6162.0,
+    "free_cash_flow": 1750.0,
+    "cash_conversion": null,
+    "debtor_days": 5.0,
+    "inventory_days": null,
+    "working_capital_days": -287.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 12728.0,
+    "net_profit": -306.0,
+    "free_cash_flow": 12163.0,
+    "cash_conversion": null,
+    "debtor_days": 3.0,
+    "inventory_days": null,
+    "working_capital_days": -141.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 21218.0,
+    "net_profit": 8172.0,
+    "free_cash_flow": 20120.0,
+    "cash_conversion": 2.6,
+    "debtor_days": 3.0,
+    "inventory_days": null,
+    "working_capital_days": -144.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 24151.0,
+    "net_profit": 7258.0,
+    "free_cash_flow": 22558.0,
+    "cash_conversion": 3.33,
+    "debtor_days": 3.0,
+    "inventory_days": null,
+    "working_capital_days": -123.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 23470.0,
+    "net_profit": -2394.0,
+    "free_cash_flow": 21767.0,
+    "cash_conversion": null,
+    "debtor_days": 3.0,
+    "inventory_days": null,
+    "working_capital_days": -129.0
+   }
+  ],
+  "conversion_5y": 12.74,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹83,658 crore covered all of reported profit, ₹6,568 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/INDIGO/consolidated/"
+   }
+  ],
+  "read": "Operating cash flow over FY22 to FY26 was ₹83,658 crore, which entirely covered the reported profit of ₹6,568 crore during the same period."
+ },
+ "bull": [
+  {
+   "point": "Dominant market position and solid liquidity buffers recognized by rating agencies alongside robust free cash holdings.",
+   "evidence": [
+    {
+     "quote": "CRISIL and ICRA highlighted the Company’s dominant domestic market leadership (approximately 64% market share), cost competitiveness, and strong liquidity position as key credit strengths",
+     "source": "Annual report 2026",
+     "page": 93,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
+    },
+    {
+     "quote": "ended the December quarter with free cash of 369.4 billion rupees and a restricted cash of 146.6 billion rupees",
+     "source": "Q3 FY26 call, 22 Jan 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Strong international and domestic traffic demand supported healthy total income growth across quarters.",
+   "evidence": [
+    {
+     "quote": "This resulted in a flattish domestic capacity growth and a growth of more than 26 percent on international sectors, as compared to the same period last year",
+     "source": "Q2 FY26 call, 4 Nov 2025",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
+    },
+    {
+     "quote": "reported a total income of 256 billion rupees, a growth of around 19% year over year",
+     "source": "Q1 FY27 call, 23 Jul 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Management successfully delivered on capacity growth guidance matching the projected 3 percent rate.",
+   "evidence": [
+    {
+     "quote": "we are expecting to add capacity of around 3-4 percent in Q1FY27 as compared to the same period last year",
+     "source": "Q4 FY26 call, 29 May 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
+    },
+    {
+     "quote": "June quarter’s capacity growth came in at 3% on a year-over-year basis, broadly in line with our guidance",
+     "source": "Q1 FY27 call, 23 Jul 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Significant exposure to taxation disputes, legal claims, and ongoing appeals regarding aircraft manufacturer incentives.",
+   "evidence": [
+    {
+     "quote": "The income tax authority has assessed the return of income of the Company up to Assessment Year (“AY”) 2022-23 and has revised the taxable income for certain years on account of disallowance of certain expenses and in respect of the tax treatment of certain incentives received from the manufacturer in respect of acquisition of aircraft and engines",
+     "source": "Annual report 2026",
+     "page": 217,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
+    },
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹83,658 crore covered all of reported profit, ₹6,568 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/INDIGO/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Substantial commitments toward lease liabilities and aircraft redelivery obligations create long-term financial pressure.",
+   "evidence": [
+    {
+     "quote": "The Company considers lease liabilities as part of debt for internal leverage monitoring because aircraft leases represent a significant long-term financing commitment and are integral to fleet capacity planning and funding decisions",
+     "source": "Annual report 2026",
+     "page": 217,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
+    },
+    {
+     "quote": "total debt, including the capitalized operating lease liability of around 768.6 billion rupees",
+     "source": "Q3 FY26 call, 22 Jan 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Vulnerability to external volatility including geopolitical tensions, foreign exchange fluctuations, and high aviation turbine fuel prices.",
+   "evidence": [
+    {
+     "quote": "Additionally, outlook revisions later in FY 2026 were owing to geopolitical tensions in the Middle East leading to airspace disruptions, elevated ATF prices and currency volatility",
+     "source": "Annual report 2026",
+     "page": 93,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
+    },
+    {
+     "quote": "Including the impact of foreign exchange movement, we reported a loss of around 25.8 billion rupees during the quarter",
+     "source": "Q2 FY26 call, 4 Nov 2025",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 23 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf",
+   "pages": 20
+  },
+  {
+   "label": "Q4 FY26 call, 29 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q3 FY26 call, 22 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q2 FY26 call, 4 Nov 2025",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf",
+   "pages": 20
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf",
+   "pages": 329
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 30,
+  "quotes_verified": 30,
+  "quotes_dropped": 0,
+  "graded_by_code": 2,
+  "graded_by_model": 1,
+  "ai_calls": 5,
+  "cached_calls": 2,
+  "models": [
+   "gemini-3.5-flash-lite",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 14.0
+ }
+}

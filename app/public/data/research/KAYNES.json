@@ -1,0 +1,773 @@
+{
+ "schema_version": 3,
+ "symbol": "KAYNES",
+ "name": "Kaynes Technology",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:50:49+00:00",
+ "snapshot": {
+  "about": "Kaynes Technology provides electronics manufacturing services, semiconductor packaging, PCB manufacturing, and space technology solutions.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 946.0,
+  "revenue_yoy": 40.6,
+  "net_profit": 56.0,
+  "net_profit_yoy": -25.3,
+  "ebitda_margin": 16.0
+ },
+ "narrative": "Management delivered 33% revenue growth in FY26 to ₹3,626 crore. However, results diverged from targets: revenue missed the promised ₹4,000 crore minimum, operating cash flow was −₹600 crore despite guidance to be positive, and working capital reached 122 days versus 70–85 days.",
+ "promises": [
+  {
+   "id": "P5",
+   "metric": "Full year revenue",
+   "period": "FY26",
+   "target": "≥ ₹4,000 crore",
+   "statement": "Management expects total FY26 revenue to cross at least INR 4,000 crores (INR 40,000 million).",
+   "said": {
+    "quote": "including the last quarter for FY '26, we'll cross about INR4,000 crores minimum and mainly driven by EMS revenues",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": "₹3,626 crore",
+   "actual_source": {
+    "quote": "Full year revenue, FY26: ₹3,626 crore",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/KAYNES/consolidated/"
+   },
+   "verdict": "missed",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "Operating Cash Flow",
+   "period": "FY26",
+   "target": "positive",
+   "statement": "Company expects consolidated operating cash flow to be positive for full year FY26.",
+   "said": {
+    "quote": "And going forward, at consol level, we'll definitely be OCF positive by end of this year",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": "−₹600 crore",
+   "actual_source": {
+    "quote": "Operating Cash Flow, FY26: −₹600 crore",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/KAYNES/consolidated/"
+   },
+   "verdict": "missed",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Net working capital days",
+   "period": "Q4 FY26",
+   "target": "70–85 days",
+   "statement": "Expect net working capital to improve to between 70 to 85 days by March 2026.",
+   "said": {
+    "quote": "So typically, what we expect is about between 70 to 85 days",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We realized our working capital days stood at around 122 days in FY '26, primarily reflecting the business model procurement of the smart meter segment, which has different working capital cycle when compared to the core EMS business",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "Consolidated working capital days reached 122 days in FY26, missing the 70–85 day target."
+  },
+  {
+   "id": "P1",
+   "metric": "OSAT Capex requirement",
+   "period": null,
+   "target": "₹1,030 crore",
+   "statement": "Balance requirement for OSAT capex of INR 1,030 crore will be funded through QIP, internal accruals, and transitory debt.",
+   "said": {
+    "quote": "First balance requirement for OSAT INR10.3 billion will be funded through QIP and spent amount of about 3.8 billion and balance internal accruals capex spread over five years and some transitory debt",
+    "source": "Business update call, 8 Dec 2025",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "PCB Capex plan",
+   "period": null,
+   "target": "₹1,400 crore",
+   "statement": "PCB business plan includes capex of INR 1,400 crore with a balance requirement of INR 320 crore.",
+   "said": {
+    "quote": "Second thing is that with regard to PCB, the current plan includes only capex of 14 billion for which the balance requirement is 3.2 billion and up central government subsidy of about 3 billion",
+    "source": "Business update call, 8 Dec 2025",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "The capex done in FY26 was INR473 crores for OSAT and INR324 crores for PCB",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P15",
+   "metric": "OSAT Revenue visibility",
+   "period": null,
+   "target": "≥ ₹2,500 crore",
+   "statement": "OSAT business has revenue visibility of over INR 25,000 million over the next 5 years.",
+   "said": {
+    "quote": "In OSAT, the order outlook for both the current year and the medium term remains strong with revenue visibility of over INR25,000 million over the next 5 years",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "Cumulative PCB capex Phase 1",
+   "period": "FY27",
+   "target": "₹1,400 crore",
+   "statement": "Expects to cumulatively spend INR 1,400 crores in the PCB business for Phase 1.",
+   "said": {
+    "quote": "That means we'll spend about cumulatively INR1,400 crores in the PC Board business",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 15,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "The capex done in FY26 was INR473 crores for OSAT and INR324 crores for PCB",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P13",
+   "metric": "OSAT capex Phase 1",
+   "period": "FY27",
+   "target": "₹1,700–1,800 crore",
+   "statement": "Expects OSAT Phase 1 capex spend to complete around INR 1,700 crores to INR 1,800 crores.",
+   "said": {
+    "quote": "And then, of course, the OSAT business, the Phase 1 will get completed that is about INR1,700 crores, INR1,800 crores of capex",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 15,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "The capex done in FY26 was INR473 crores for OSAT and INR324 crores for PCB",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "Smart meter device market demand growth",
+   "period": "FY27",
+   "target": "30%",
+   "statement": "Expects market demand growth for smart meter devices of around 30% year-on-year for the next 4-5 years.",
+   "said": {
+    "quote": "So the market demand is so high for the next 4, 5 years, year￾on-year, there will be a growth of around 30%",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 15,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P16",
+   "metric": "Revenue growth relative to market",
+   "period": "FY27",
+   "target": "2 x market growth",
+   "statement": "Company plans to double the market's growth rate in FY27.",
+   "said": {
+    "quote": "We say we'll outgrow the market, we'll penetrate into each and every segment, and we'll double the growth of market growth is what the commitment that we have done",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 8 Aug 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "because of the strategic initiatives of keeping the inventory, keeping the manufacturing flexible, and having a very committed people, we are quite confident of achieving the twice the market growth",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "Rail segment revenue growth",
+   "period": "FY27",
+   "target": "20–25%",
+   "statement": "Management expects rail business to grow by 20% to 25% in FY27.",
+   "said": {
+    "quote": "So rail business, I'm expecting this year to grow by around 20%, 25% because of these coming in",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P18",
+   "metric": "PCB Revenue",
+   "period": "FY27",
+   "target": "₹300–400 crore",
+   "statement": "Company expects PCB revenue of around INR 300 to 400 crores in FY27.",
+   "said": {
+    "quote": "I'm sure and certain we will do a good number of PCB of around INR300 crores to INR400 crores, and OSAT of around INR250 crores to INR300 crores",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 19,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "and we have committed a full year revenue of totally INR500 crores between both INR450 to INR500 crores, which is what we are targeting at this point in time, we are on the target",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P19",
+   "metric": "OSAT Revenue",
+   "period": "FY27",
+   "target": "₹250–300 crore",
+   "statement": "Company expects OSAT revenue of around INR 250 to 300 crores in FY27.",
+   "said": {
+    "quote": "I'm sure and certain we will do a good number of PCB of around INR300 crores to INR400 crores, and OSAT of around INR250 crores to INR300 crores",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 19,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "and we have committed a full year revenue of totally INR500 crores between both INR450 to INR500 crores, which is what we are targeting at this point in time, we are on the target",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P21",
+   "metric": "Cash flow",
+   "period": "FY27",
+   "target": "positive",
+   "statement": "The company expects to turn cash positive by end of FY27.",
+   "said": {
+    "quote": "gives us the confidence that whatever the commitment that we have given to you as a leadership team, that by end of the financial year we'll turn the cash positive, we are pretty confident on that",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "taking it to about a total of about INR259 crores of a negative cash flow, okay",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P22",
+   "metric": "OSAT and PCB Capex target",
+   "period": "FY27",
+   "target": "₹300 crore",
+   "statement": "Targeting capex of about INR 300 crores for OSAT and PCB.",
+   "said": {
+    "quote": "Our current goal is to capex at about INR300 crores for OSAT and PCB",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We said we will be funding for this capex for this year is about INR300 crores for OSAT, INR300 crores for PCB, and about INR250 crores for EMS business",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 16,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P23",
+   "metric": "OSAT and PCB Revenue target",
+   "period": "FY27",
+   "target": "₹450–500 crore",
+   "statement": "Targeting total revenue of INR 450 to 500 crores between OSAT and PCB for FY27.",
+   "said": {
+    "quote": "and we have committed a full year revenue of totally INR500 crores between both INR450 to INR500 crores, which is what we are targeting at this point in time, we are on the target",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "I'm sure and certain we will do a good number of PCB of around INR300 crores to INR400 crores, and OSAT of around INR250 crores to INR300 crores",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 19,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P24",
+   "metric": "Console Capex Guidance",
+   "period": "FY27",
+   "target": "₹850 crore",
+   "statement": "Funding planned FY27 capex of INR 300cr OSAT, INR 300cr PCB, and INR 250cr EMS.",
+   "said": {
+    "quote": "We said we will be funding for this capex for this year is about INR300 crores for OSAT, INR300 crores for PCB, and about INR250 crores for EMS business",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 16,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Our current goal is to capex at about INR300 crores for OSAT and PCB",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Target total revenue",
+   "period": "FY28",
+   "target": "1 billion (USD)",
+   "statement": "Reiterated long-term target of $1 billion total revenue by FY28.",
+   "said": {
+    "quote": "So, in FY '28, if you see $1 billion, we might be targeting more than that actually, while we may deliver $1 billion, but we'll target more than that",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 17,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "OSAT business revenue target",
+   "period": "FY28",
+   "target": "≥ ₹1,500 crore",
+   "statement": "Expects at least INR 1,500 crores revenue from OSAT business in the medium term.",
+   "said": {
+    "quote": "So, at the minimum, you can expect INR1,500 crores from our OSAT business",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "PCB business revenue target",
+   "period": "FY28",
+   "target": "≥ ₹1,000 crore",
+   "statement": "Expects at least INR 1,000 crores revenue from PCB business.",
+   "said": {
+    "quote": "Similarly, you can expect about INR1,000 crores from PC Board business",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P20",
+   "metric": "Operational milestone",
+   "period": "Q3 FY27",
+   "target": null,
+   "statement": "Semicon Unit 2 and Circuit Chennai will be operational by Q3 FY27.",
+   "said": {
+    "quote": "Both Kaynes Semicon Unit 2 and Kaynes Circuit Chennai remain on the track to be operational by quarter 3 FY27, and we will continue to update you transparently on our progress every quarter",
+    "source": "Q1 FY27 call, 8 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Metering business revenue",
+   "period": "FY26",
+   "target": "₹700–800 crore",
+   "statement": "Metering business is expected to contribute between INR 700 crores and INR 800 crores in FY26.",
+   "said": {
+    "quote": "So, from the perspective of percentage of sales for the last quarter, you will have about INR300 crores of this business coming in, which will total up to about between INR700 crores and INR800 crores of smart metering business for the year",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Smart metering revenue",
+   "period": "H2 FY26",
+   "target": "₹300 crore",
+   "statement": "Smart metering revenue execution planned in H2 FY26 is around INR 300 crore.",
+   "said": {
+    "quote": "And then, of course, in the second half, we also plan some execution, which will be of the nature of about INR300-odd crores",
+    "source": "Business update call, 8 Dec 2025",
+    "page": 16,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "Q4 Capex spend",
+   "period": "Q4 FY26",
+   "target": "₹400 crore",
+   "statement": "Expects to spend around INR 400 crores on capex in Q4 FY26.",
+   "said": {
+    "quote": "So, you can take broadly in this year, maybe about another INR400-odd crores of capex will be spent",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 15,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 21.0,
+    "net_profit": 42.0,
+    "free_cash_flow": -21.0,
+    "cash_conversion": 0.5,
+    "debtor_days": 102.0,
+    "inventory_days": 167.0,
+    "working_capital_days": 53.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": -42.0,
+    "net_profit": 95.0,
+    "free_cash_flow": -100.0,
+    "cash_conversion": -0.44,
+    "debtor_days": 74.0,
+    "inventory_days": 191.0,
+    "working_capital_days": 107.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 88.0,
+    "net_profit": 183.0,
+    "free_cash_flow": -295.0,
+    "cash_conversion": 0.48,
+    "debtor_days": 72.0,
+    "inventory_days": 150.0,
+    "working_capital_days": 66.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": -82.0,
+    "net_profit": 293.0,
+    "free_cash_flow": -1031.0,
+    "cash_conversion": -0.28,
+    "debtor_days": 77.0,
+    "inventory_days": 156.0,
+    "working_capital_days": -7.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": -600.0,
+    "net_profit": 364.0,
+    "free_cash_flow": -1841.0,
+    "cash_conversion": -1.65,
+    "debtor_days": 154.0,
+    "inventory_days": 169.0,
+    "working_capital_days": 133.0
+   }
+  ],
+  "conversion_5y": -0.63,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow totalled −₹615 crore against ₹977 crore of reported profit.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/KAYNES/consolidated/"
+   },
+   {
+    "quote": "Operating cash flow was negative in FY23, FY25, FY26 while reported profit was positive.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/KAYNES/consolidated/"
+   },
+   {
+    "quote": "Free cash flow was negative in 5 of 5 years, −₹3,288 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/KAYNES/consolidated/"
+   },
+   {
+    "quote": "Debtor days rose from 72 to 154 between FY24 and FY26: cash is waiting longer in the business.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/KAYNES/consolidated/"
+   }
+  ],
+  "read": "Profits do not convert to cash. Operating cash flow was −₹615 crore over FY22–FY26 against ₹977 crore reported profit, with negative free cash flow every year and expanding debtor days."
+ },
+ "bull": [
+  {
+   "point": "Revenue grew 40% year-on-year in Q1 FY27 to ₹946 crore, supported by strong 48% growth in the core EMS business.",
+   "evidence": [
+    {
+     "quote": "Our total revenue stood at INR946 crores, reflecting an year-on-year growth of 40%, which is largely driven by EMS business",
+     "source": "Q1 FY27 call, 8 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+    },
+    {
+     "quote": "Our total revenue stood at INR946 crores, reflecting an year-on-year growth of 40%, which is largely driven by EMS business",
+     "source": "Q1 FY27 call, 8 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+    },
+    {
+     "quote": "and EMS business alone about 48%",
+     "source": "Q1 FY27 call, 8 Aug 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The company maintains a strong order book of ₹9,000 crore, demonstrating broad multi-year demand for its manufacturing services.",
+   "evidence": [
+    {
+     "quote": "We have a robust order book of around INR9,000 crores",
+     "source": "Q1 FY27 call, 8 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Kaynes secured ₹170 crore in government subsidies for OSAT through July 2026 while advancing its semiconductor and PCB manufacturing facilities.",
+   "evidence": [
+    {
+     "quote": "Both Kaynes Semicon Unit 2 and Kaynes Circuit Chennai remain on the track to be operational by quarter 3 FY27, and we will continue to update you transparently on our progress every quarter",
+     "source": "Q1 FY27 call, 8 Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+    },
+    {
+     "quote": "We also received, happy to say that we also received the government subsidy to the tune of INR170 crores in OSAT business till July 26",
+     "source": "Q1 FY27 call, 8 Aug 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Cash generation is weak, with cumulative operating cash flow at −₹615 crore against ₹977 crore net profit, and free cash flow negative for five straight years.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow totalled −₹615 crore against ₹977 crore of reported profit.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/KAYNES/consolidated/"
+    },
+    {
+     "quote": "Free cash flow was negative in 5 of 5 years, −₹3,288 crore in total.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/KAYNES/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Working capital efficiency has deteriorated, as debtor days lengthened from 72 to 154 days, pushing total working capital days to 122 in FY26.",
+   "evidence": [
+    {
+     "quote": "Debtor days rose from 72 to 154 between FY24 and FY26: cash is waiting longer in the business.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/KAYNES/consolidated/"
+    },
+    {
+     "quote": "We realized our working capital days stood at around 122 days in FY '26, primarily reflecting the business model procurement of the smart meter segment, which has different working capital cycle when compared to the core EMS business",
+     "source": "Q4 FY26 call, 14 May 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The company carries heavy contingent commitments, including significant corporate guarantees issued to subsidiary companies.",
+   "evidence": [
+    {
+     "quote": "g) Corporate Guarantee to Subsidiary Company 23,903.60 2,105.80",
+     "source": "Annual report 2026",
+     "page": 205,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7b3ec474-8dc9-46bc-bf3b-64d55d3b6c30.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 8 Aug 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf",
+   "pages": 20
+  },
+  {
+   "label": "Q4 FY26 call, 14 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf",
+   "pages": 20
+  },
+  {
+   "label": "Q3 FY26 call, 6 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Business update call, 8 Dec 2025",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf",
+   "pages": 22
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7b3ec474-8dc9-46bc-bf3b-64d55d3b6c30.pdf",
+   "pages": 321
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 57,
+  "quotes_verified": 57,
+  "quotes_dropped": 0,
+  "graded_by_code": 3,
+  "graded_by_model": 1,
+  "ai_calls": 5,
+  "cached_calls": 4,
+  "models": [
+   "gemini-3.5-flash"
+  ],
+  "seconds": 252.2
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "schema_version": 3,
+ "symbol": "PAYTM",
+ "name": "Paytm",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:55:37+00:00",
+ "snapshot": {
+  "about": "Digital payments, financial services, commerce and cloud technology platforms.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 2648.0,
+  "revenue_yoy": 28.5,
+  "net_profit": 225.0,
+  "net_profit_yoy": 971.4,
+  "ebitda_margin": 10.0
+ },
+ "narrative": "Management delivered top-line momentum with Q2 FY27 revenue growing 28.5% to ₹2,648 crore and EBITDA margin reaching 10%, aligning with revenue acceleration targets. However, cash flow from operations remains negative and unit economics for Postpaid and marketing services lack detailed disclosures.",
+ "promises": [
+  {
+   "id": "P8",
+   "metric": "Revenue growth",
+   "period": "FY27",
+   "target": null,
+   "statement": "Management expects revenue growth to accelerate across payments, financial services, and marketing services in FY27.",
+   "said": {
+    "quote": "So, in addition to what Vijay said about marketing services and sort of addressed your question, yes, we expect that to be a contributor going forward",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "For example, if you grew 28% YoY, are there any downward pressures on revenues at all in the foreseeable future",
+    "source": "Q1 FY27 call, 21 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Revenue growth reached 28% in Q1 FY27 and 28.5% in Q2 FY27."
+  },
+  {
+   "id": "P10",
+   "metric": "Annual merchant additions",
+   "period": "FY27",
+   "target": "2,500,000–3,000,000 merchants",
+   "statement": "Paytm targets adding 25 to 30 lakh merchants annually.",
+   "said": {
+    "quote": "So we have said broadly 25 to 30 lakhs additions a year",
+    "source": "Q1 FY27 call, 21 Jul 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "EBITDA margin",
+   "period": "FY29",
+   "target": "15–20%",
+   "statement": "Management targets achieving 15% to 20% EBITDA margins in about two and a half to three years.",
+   "said": {
+    "quote": "And EBITDA, we will maintain about two and a half to three years from now, that we should be able to get to those sorts of EBITDA margins",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 21 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": "Management reiterated the 15-20% EBITDA margin target over 2-3 years in Q1 FY27."
+  },
+  {
+   "id": "P2",
+   "metric": "Paytm Postpaid unit economics",
+   "period": null,
+   "target": "-0.2–0.2%",
+   "statement": "Paytm Postpaid unit economics are expected to stay within 20 bps of previous levels.",
+   "said": {
+    "quote": "we expect this to be within 20 bps, give or take of what we had earlier",
+    "source": "Q2 FY26 call, 5 Nov 2025",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "marketing services revenue growth",
+   "period": null,
+   "target": null,
+   "statement": "Marketing services revenue is expected to grow from current levels.",
+   "said": {
+    "quote": "we are at bottom or near bottom, and we should expect this to grow",
+    "source": "Q2 FY26 call, 5 Nov 2025",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "GMV growth vs UPI growth",
+   "period": null,
+   "target": null,
+   "statement": "Company GMV growth is expected to be higher than 20% if overall UPI grows at 20%.",
+   "said": {
+    "quote": "We do think that if UPI is growing at 20%, our GMV growth should be higher than that",
+    "source": "Q2 FY26 call, 5 Nov 2025",
+    "page": 18,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "it was like 23 odd percent in Q3, went to 27 percent in Q4, now 31 percent",
+    "source": "Q1 FY27 call, 21 Jul 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+   },
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "indirect expenses",
+   "period": "FY26",
+   "target": null,
+   "statement": "Indirect costs are expected to remain range bound for the rest of FY26.",
+   "said": {
+    "quote": "for the rest of the year, we expect this to be range bound",
+    "source": "Q2 FY26 call, 5 Nov 2025",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "EBITDA versus Capex",
+   "period": "FY27",
+   "target": null,
+   "statement": "Management expects EBITDA to be significantly higher than capex in FY27.",
+   "said": {
+    "quote": "On question number three, it is the case that we have capex, but next year we expect EBITDA to be significantly higher than capex",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 16,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "The thing is that we probably announced 8% of EBITDA margin this quarter",
+    "source": "Q1 FY27 call, 21 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+   },
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "Monthly disbursal",
+   "period": "Q4 FY26",
+   "target": "≥ ₹100 crore",
+   "statement": "Paytm expects Buy Now Pay Later monthly disbursals to cross 100 crore INR within six months of launch.",
+   "said": {
+    "quote": "And within six months of launch, we expect to cross hundred crores of disbursal",
+    "source": "Q3 FY26 call, 30 Jan 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "PIDF impact offset percentage",
+   "period": "Q4 FY26",
+   "target": "30–40%",
+   "statement": "Paytm expects to offset at least 30-40% of the PIDF impact in Q4 FY26.",
+   "said": {
+    "quote": "Our expectation is at least 30 - 40 percent of this will be offset this quarter and more over time",
+    "source": "Q3 FY26 call, 30 Jan 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": -1236.0,
+    "net_profit": -2396.0,
+    "free_cash_flow": -1741.0,
+    "cash_conversion": null,
+    "debtor_days": 55.0,
+    "inventory_days": null,
+    "working_capital_days": 162.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 416.0,
+    "net_profit": -1776.0,
+    "free_cash_flow": -281.0,
+    "cash_conversion": null,
+    "debtor_days": 57.0,
+    "inventory_days": null,
+    "working_capital_days": 61.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 651.0,
+    "net_profit": -1422.0,
+    "free_cash_flow": -161.0,
+    "cash_conversion": null,
+    "debtor_days": 60.0,
+    "inventory_days": null,
+    "working_capital_days": -18.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": -121.0,
+    "net_profit": -663.0,
+    "free_cash_flow": -438.0,
+    "cash_conversion": null,
+    "debtor_days": 69.0,
+    "inventory_days": null,
+    "working_capital_days": -119.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": -743.0,
+    "net_profit": 552.0,
+    "free_cash_flow": -1211.0,
+    "cash_conversion": -1.35,
+    "debtor_days": 51.0,
+    "inventory_days": null,
+    "working_capital_days": -123.0
+   }
+  ],
+  "conversion_5y": null,
+  "signals": [
+   {
+    "quote": "Operating cash flow was negative in FY26 while reported profit was positive.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/PAYTM/consolidated/"
+   },
+   {
+    "quote": "Free cash flow was negative in 5 of 5 years, −₹3,832 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/PAYTM/consolidated/"
+   }
+  ],
+  "read": "Profits fail to translate into cash. Operating cash flow was negative in FY26 despite reported profits, and free cash flow was negative across all five years, totaling −₹3,832 crore."
+ },
+ "bull": [
+  {
+   "point": "Revenue growth accelerated to 28% YoY in Q1 FY27 and 28.5% in Q2 FY27, with EBITDA margin improving to 10%.",
+   "evidence": [
+    {
+     "quote": "For example, if you grew 28% YoY, are there any downward pressures on revenues at all in the foreseeable future",
+     "source": "Q1 FY27 call, 21 Jul 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+    }
+   ]
+  },
+  {
+   "point": "GMV growth expanded to 31% YoY in Q1 FY27, accelerating from 23% in Q3 FY26 and 27% in Q4 FY26.",
+   "evidence": [
+    {
+     "quote": "it was like 23 odd percent in Q3, went to 27 percent in Q4, now 31 percent",
+     "source": "Q1 FY27 call, 21 Jul 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Paytm maintains strong liquidity with ₹13,500 crore of cash on its balance sheet as of Q1 FY27.",
+   "evidence": [
+    {
+     "quote": "not only do we have INR 13,500 crores of cash, we are now also adding a significant amount of cash",
+     "source": "Q1 FY27 call, 21 Jul 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Auditor report highlighted an emphasis of matter regarding an Enforcement Directorate show cause notice alleging FEMA contraventions against the company.",
+   "evidence": [
+    {
+     "quote": "We draw attention to Note 41 to the standalone financial statements, regarding a Show Cause Notice (\"SCN\") received by the Company and its two subsidiaries, from the Directorate of Enforcement",
+     "source": "Annual report 2026",
+     "page": 203,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Free cash flow has been consistently negative over five years totaling −₹3,832 crore, alongside negative operating cash flow in FY26.",
+   "evidence": [
+    {
+     "quote": "Operating cash flow was negative in FY26 while reported profit was positive.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/PAYTM/consolidated/"
+    },
+    {
+     "quote": "Free cash flow was negative in 5 of 5 years, −₹3,832 crore in total.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/PAYTM/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Investments in subsidiaries require significant management estimates for recoverable value, identified as a key audit matter by auditors.",
+   "evidence": [
+    {
+     "quote": "The determination of recoverable value for impairment assessment involves significant management judgement/ estimates including the following key estimates",
+     "source": "Annual report 2026",
+     "page": 204,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 21 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf",
+   "pages": 15
+  },
+  {
+   "label": "Q4 FY26 call, 7 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf",
+   "pages": 18
+  },
+  {
+   "label": "Q3 FY26 call, 30 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf",
+   "pages": 23
+  },
+  {
+   "label": "Q2 FY26 call, 5 Nov 2025",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf",
+   "pages": 23
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf",
+   "pages": 405
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 26,
+  "quotes_verified": 26,
+  "quotes_dropped": 0,
+  "graded_by_code": 1,
+  "graded_by_model": 1,
+  "ai_calls": 5,
+  "cached_calls": 0,
+  "models": [
+   "gemini-3.5-flash"
+  ],
+  "seconds": 72.0
+ }
+}

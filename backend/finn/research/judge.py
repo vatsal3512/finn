@@ -74,5 +74,5 @@ class JudgeOut(BaseModel):
 def run(llm: LLM, prompt: str) -> JudgeOut:
     return llm.json(
         "judge", Tier.REASON, prompt, JudgeOut, system=SYSTEM, version=PROMPT_VERSION,
-        max_output_tokens=8192,
+        max_output_tokens=32768,  # high thinking spends from this budget too
     )  # fmt: skip

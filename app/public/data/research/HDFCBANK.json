@@ -1,0 +1,238 @@
+{
+ "schema_version": 3,
+ "symbol": "HDFCBANK",
+ "name": "HDFC Bank",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:50:52+00:00",
+ "snapshot": {
+  "about": null,
+  "latest_quarter": "Q2 FY27",
+  "revenue": 95132.0,
+  "revenue_yoy": null,
+  "net_profit": 21537.0,
+  "net_profit_yoy": 5.8,
+  "ebitda_margin": null
+ },
+ "narrative": "Management delivered on key metrics in FY26, with credit growth reaching 12%, deposit growth at 14.4%, and net income rising 11%. Asset quality improved to 1.11% gross NPAs in Q2 FY27. However, reported profit growth slowed to 5% in Q1 FY27.",
+ "promises": [
+  {
+   "id": "P1",
+   "metric": "Liquidity Coverage Ratio (LCR)",
+   "period": null,
+   "target": "110–120%",
+   "statement": "HDFC Bank aims to maintain its LCR between 110% and 120%.",
+   "said": {
+    "quote": "in the past, we have mentioned that our endeavor for LCR is to be between 110% and 120%",
+    "source": "Q4 FY26 call, 18 Apr 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+   },
+   "repeated_in": [
+    "Q2 FY27 call, 17 Oct 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "Last quarter, I think we were about 116%. Now we are 114%",
+    "source": "Q4 FY26 call, 18 Apr 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "LCR stood at 114% in Q4 FY26 and management reaffirmed the 110% to 120% target band in Q2 FY27."
+  },
+  {
+   "id": "P2",
+   "metric": "Business banking loan growth",
+   "period": null,
+   "target": "18–21%",
+   "statement": "HDFC Bank expects MSME business banking growth to continue in the 18% to 21% range.",
+   "said": {
+    "quote": "that will continue to also be in that range of 18% to 20%, 21%, depending upon, obviously, some of the developments in the economy",
+    "source": "Q4 FY26 call, 18 Apr 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "we have seen a business banking which is the largest component of our MSME segment grow at 22.3% this year",
+    "source": "Q1 FY27 call, 18 Jul 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Business banking segment grew 22.3% year-on-year in Q1 FY27, near the target range."
+  },
+  {
+   "id": "P3",
+   "metric": "Net Interest Margin trajectory",
+   "period": "Q3 FY27",
+   "target": null,
+   "statement": "Margin trajectory will be upward starting from next quarter (Q3 FY27).",
+   "said": {
+    "quote": "The trajectory will be upward from the next quarter onwards",
+    "source": "Q2 FY27 call, 17 Oct 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": false,
+  "reason": "Not meaningful for a bank: its operating cash flow moves with deposits and loans.",
+  "years": [],
+  "conversion_5y": null,
+  "signals": [],
+  "read": null
+ },
+ "bull": [
+  {
+   "point": "Retail disbursements accelerated strongly, exceeding ₹90,000 crore in Q2 FY27 compared to ₹76,000 crore in Q1.",
+   "evidence": [
+    {
+     "quote": "The pace of retail disbursements is accelerating and has crossed Rs 90,000 crores during Q2 FY27 as against Rs 76,000 crores in Q1 of this year",
+     "source": "Q2 FY27 call, 17 Oct 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Asset quality remains pristine with the gross NPA ratio declining to 1.11% in Q2 FY27 from 1.15% in FY26.",
+   "evidence": [
+    {
+     "quote": "Our asset quality is extremely healthy at 1.15% gross NPAs",
+     "source": "Q4 FY26 call, 18 Apr 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+    },
+    {
+     "quote": "Our asset quality remains pristine, with GNPA at 1.11%, 13 basis points lower than year￾on-year",
+     "source": "Q2 FY27 call, 17 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Capital position remains robust at 19.7%, supporting strong double-digit growth across credit and deposit franchises.",
+   "evidence": [
+    {
+     "quote": "We had estimated the system credit growth to be around 10.5% to 11.5%. We did 12%, up from 5.5% last year",
+     "source": "Q4 FY26 call, 18 Apr 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+    },
+    {
+     "quote": "Deposit growth rate at 14.4% continues to grow faster than the credit growth, which is what we've always been doing",
+     "source": "Q4 FY26 call, 18 Apr 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+    },
+    {
+     "quote": "We have a strong capital position at 19.7%",
+     "source": "Q4 FY26 call, 18 Apr 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Contingent liabilities expanded significantly to over Rs 34.18 trillion as of March 31, 2026.",
+   "evidence": [
+    {
+     "quote": "Contingent liabilities 12 34,179,458,972 26,474,170,018",
+     "source": "Annual report 2026",
+     "page": 378,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The bank sought member approval for a material modification to related party derivative transactions with subsidiary HDFC Life.",
+   "evidence": [
+    {
+     "quote": "Yes, it is a material modification to a material related party transaction",
+     "source": "Annual report 2026",
+     "page": 16,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Reported profit growth slowed to 5% year-on-year in Q1 FY27 compared to 11% net income growth in FY26.",
+   "evidence": [
+    {
+     "quote": "Net income growth clocked at 11%, similar to the last financial year",
+     "source": "Q4 FY26 call, 18 Apr 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+    },
+    {
+     "quote": "The reported profits when you compare last year this year, it does show 5%",
+     "source": "Q1 FY27 call, 18 Jul 2026",
+     "page": 11,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q2 FY27 call, 17 Oct 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf",
+   "pages": 17
+  },
+  {
+   "label": "Q1 FY27 call, 18 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf",
+   "pages": 17
+  },
+  {
+   "label": "Q4 FY26 call, 18 Apr 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf",
+   "pages": 16
+  },
+  {
+   "label": "Investor call, 19 Mar 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56739132-e21e-4503-aeb6-85f4f53c1244.pdf",
+   "pages": 14
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+   "pages": 678
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 26,
+  "quotes_verified": 26,
+  "quotes_dropped": 0,
+  "graded_by_code": 0,
+  "graded_by_model": 2,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 1.1
+ }
+}

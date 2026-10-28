@@ -1,0 +1,354 @@
+{
+ "schema_version": 3,
+ "symbol": "RELIANCE",
+ "name": "Reliance Industries",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:51:25+00:00",
+ "snapshot": {
+  "about": "Reliance Industries operates in Oil-to-Chemicals, Retail, Digital Services (Jio), FMCG, Media, Oil & Gas, and New Energy.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 309468.0,
+  "revenue_yoy": 27.0,
+  "net_profit": 23196.0,
+  "net_profit_yoy": -24.6,
+  "ebitda_margin": 15.0
+ },
+ "narrative": "Management reports strong revenue growth across digital, retail, and new segments, with consolidated topline up 25% year-on-year. However, net profit declined by 24.6% YoY, showing divergence between top-line expansion and bottom-line pressures.",
+ "promises": [
+  {
+   "id": "P3",
+   "metric": "Capacity Commissioning",
+   "period": "FY27",
+   "target": "10 GW",
+   "statement": "Polysilicon and glass facilities will be commissioned and ramped up to 10 GW during FY27.",
+   "said": {
+    "quote": "During this current year, we will again commission these facilities, fully ramped up to the capacity of 10-gigawatt peak and further expanding it as we progress on 20-gigawatt peak and on capacity",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 23,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Solar PV Manufacturing Capacity",
+   "period": "FY27",
+   "target": "20%",
+   "statement": "New Energy aims to achieve 20-GW annual capacity for integrated solar PV manufacturing on track.",
+   "said": {
+    "quote": "we are on track, and I have got a few pictures to also demonstrate that, to achieve 20-gigawatt annual capacity for our solar PV manufacturing in an integrated fashion",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Battery Manufacturing Capacity",
+   "period": "FY27",
+   "target": "40%",
+   "statement": "Company plans to achieve 40 GWh battery manufacturing capacity this year.",
+   "said": {
+    "quote": "Our battery manufacturing is also progressing well. We will achieve 40-gigawatt hour capacity this year",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "EBITDA Growth",
+   "period": "FY29",
+   "target": "2 x market growth",
+   "statement": "Reliance Retail aims to double its EBITDA over the next three years.",
+   "said": {
+    "quote": "What we are saying is we are looking to double our absolute EBITDA number",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 23,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Revenue Target",
+   "period": "FY30",
+   "target": "₹100,000 crore",
+   "statement": "FMCG business targets Rs. 1 lakh crore revenue by FY30.",
+   "said": {
+    "quote": "we have anyway announced the target is to kind of take this to Rs.1 lakh Crores on FY2030",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 30,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Power Generation Capacity",
+   "period": "H1 FY27",
+   "target": null,
+   "statement": "New energy power generation capacity will begin commissioning over the next 12 to 15 months.",
+   "said": {
+    "quote": "Yes, during next 12 to 15 months our generation capacity will also start coming up",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 29,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Gas Price Ceiling Target",
+   "period": "H2 FY27",
+   "target": "9.9 USD",
+   "statement": "KGD6 gas price ceiling is expected to rise towards $9.9 in H2 FY27.",
+   "said": {
+    "quote": "currently the ceiling price is $8.9, which is almost $1.14 lower than what it was the previous half. But again, we expect this to trend upwards and go towards $9.9 in the second half",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 19,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Capacity Expansion",
+   "period": "FY26",
+   "target": null,
+   "statement": "RCPL will more than double its beverage production capacity during FY26.",
+   "said": {
+    "quote": "We will be more than doubling our capacity on beverages this year",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Plant Completion",
+   "period": "Q4 FY26",
+   "target": null,
+   "statement": "The Kurnool beverage plant will be ready by March 2026.",
+   "said": {
+    "quote": "In fact, one of the beverage plants at Kurnool will be ready by March itself",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 110654.0,
+    "net_profit": 67845.0,
+    "free_cash_flow": 13646.0,
+    "cash_conversion": 1.63,
+    "debtor_days": 12.0,
+    "inventory_days": 83.0,
+    "working_capital_days": -56.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 115032.0,
+    "net_profit": 74088.0,
+    "free_cash_flow": -16770.0,
+    "cash_conversion": 1.55,
+    "debtor_days": 12.0,
+    "inventory_days": 87.0,
+    "working_capital_days": -66.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 158788.0,
+    "net_profit": 79020.0,
+    "free_cash_flow": 21212.0,
+    "cash_conversion": 2.01,
+    "debtor_days": 13.0,
+    "inventory_days": 95.0,
+    "working_capital_days": -53.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 178703.0,
+    "net_profit": 81309.0,
+    "free_cash_flow": 41079.0,
+    "cash_conversion": 2.2,
+    "debtor_days": 16.0,
+    "inventory_days": 85.0,
+    "working_capital_days": -68.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 192113.0,
+    "net_profit": 95754.0,
+    "free_cash_flow": 70023.0,
+    "cash_conversion": 2.01,
+    "debtor_days": 20.0,
+    "inventory_days": 88.0,
+    "working_capital_days": -66.0
+   }
+  ],
+  "conversion_5y": 1.9,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹755,290 crore covered all of reported profit, ₹398,016 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/RELIANCE/consolidated/"
+   }
+  ],
+  "read": "Operating cash flows strongly cover reported profits over the five-year period."
+ },
+ "bull": [
+  {
+   "point": "Robust multi-segment revenue growth continues across telecom, retail, and digital services.",
+   "evidence": [
+    {
+     "quote": "On the financial metrices, the revenue for the year at Rs.1,46,085 Crores, which was up 14.6% year-on-year",
+     "source": "Q4 FY26 call, 24 Apr 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf"
+    },
+    {
+     "quote": "overall, very good performance, 11% growth on a Y-o-Y basis for the full quarter",
+     "source": "Q4 FY26 call, 24 Apr 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Operating cash flow thoroughly covers historical reported profits.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹755,290 crore covered all of reported profit, ₹398,016 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/RELIANCE/consolidated/"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Significant legal proceedings and government demands regarding oil and gas blocks create material contingent exposure.",
+   "evidence": [
+    {
+     "quote": "A demand letter dated 1st March 2025 for payment of $ 2.81 billion (RIL share $ 1.87 billion) was sent by GoI to the Contractor",
+     "source": "Annual report 2026",
+     "page": 127,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Complex ongoing litigation with regulatory authorities and state entities creates uncertainty.",
+   "evidence": [
+    {
+     "quote": "The Company has certain significant ongoing legal proceedings for various complex matters with the Government of India and other parties",
+     "source": "Annual report 2026",
+     "page": 91,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Only 3 readable call transcripts were available."
+ ],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 17 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+   "pages": 32
+  },
+  {
+   "label": "Q4 FY26 call, 24 Apr 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
+   "pages": 31
+  },
+  {
+   "label": "Q3 FY26 call, 16 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
+   "pages": 38
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+   "pages": 187
+  }
+ ],
+ "stats": {
+  "calls_read": 3,
+  "claims_found": 46,
+  "quotes_verified": 46,
+  "quotes_dropped": 0,
+  "graded_by_code": 0,
+  "graded_by_model": 0,
+  "ai_calls": 4,
+  "cached_calls": 2,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.5-flash-lite"
+  ],
+  "seconds": 32.6
+ }
+}

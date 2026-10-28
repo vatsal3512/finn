@@ -1,0 +1,469 @@
+{
+ "schema_version": 3,
+ "symbol": "POLYCAB",
+ "name": "Polycab India",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:52:30+00:00",
+ "snapshot": {
+  "about": "Manufacturer of wires, cables, FMEG products, and EPC services.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 9899.0,
+  "revenue_yoy": 52.8,
+  "net_profit": 990.0,
+  "net_profit_yoy": 42.9,
+  "ebitda_margin": 14.0
+ },
+ "narrative": "Management promised annual capex of INR 12 billion to INR 16 billion, delivering INR 14.8 billion in FY26. Consolidated revenue grew significantly, and EBITDA margins expanded to 14.1% in H1 FY27, matching operational targets.",
+ "promises": [
+  {
+   "id": "P3",
+   "metric": "EBITDA margin",
+   "period": null,
+   "target": "11–13%",
+   "statement": "Long-term EBITDA margin guidance of 11% to 13%.",
+   "said": {
+    "quote": "Yes, your understanding is correct. And if I had to add to that, to refer to our Project Spring guidance, we've given a long-term guidance of 11% to 13%",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 15,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Consistent with our Project Spring roadmap, we continue to maintain our medium- to long-term margin guidance of 11% to 13% for this business",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Company maintains medium- to long-term EBITDA margin guidance within 11% to 13%."
+  },
+  {
+   "id": "P5",
+   "metric": "Capex program",
+   "period": null,
+   "target": "₹6,000–8,000 crore",
+   "statement": "Planned capex program of INR 60 billion to INR 80 billion over the next 5 years.",
+   "said": {
+    "quote": "We remain on track to execute our planned capex program of INR 60 billion to INR 80 billion over the next 5 years, which will further enhance our capabilities, scale and innovation",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Capital expenditure for the quarter stood at INR3.9 billion, taking the total capex for full financial year to approximately INR14.8 billion, and this is very much in line with the Project Spring guidance",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "First year capex of INR 14.8 billion aligns with the multi-year program."
+  },
+  {
+   "id": "P6",
+   "metric": "FMEG growth guidance",
+   "period": null,
+   "target": "1.5–2 x market growth",
+   "statement": "Aiming to deliver 1.5x to 2x of industry growth in FMEG.",
+   "said": {
+    "quote": "We are well aligned with our Project Spring objectives of delivering 1.5x to 2x of industry growth while steadily improving our margins",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 16 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "The FMEG segment delivered an exceptional performance for this quarter, registering a strong 47% year-on-year growth with broad-based contributions across all product categories",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "FMEG revenue growth remains strong, outperforming industry levels."
+  },
+  {
+   "id": "P7",
+   "metric": "EPC sustainable operating margin",
+   "period": null,
+   "target": null,
+   "statement": "EPC annual sustainable operating margin expected to remain in mid- to high single digits.",
+   "said": {
+    "quote": "Looking ahead, the annual sustainable operating margin is expected to remain in the mid- to high single digits over mid- to long term",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Segment profitability stood at INR 386 million, translating to a margin of 7.6%",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "EPC EBIT margins stood at 7.6% and 7.2% in recent quarters."
+  },
+  {
+   "id": "P9",
+   "metric": "Annual capex guidance",
+   "period": null,
+   "target": "₹1,200–1,600 crore",
+   "statement": "Annual capex guidance of INR 12 billion to INR 16 billion per annum.",
+   "said": {
+    "quote": "During FY26, we incurred capex of INR 14.8 billion, in line with our annual guidance of INR 12 billion to INR 16 billion per annum",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Capital expenditure for the quarter stood at INR3.9 billion, taking the total capex for full financial year to approximately INR14.8 billion, and this is very much in line with the Project Spring guidance",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Full year FY26 capex was INR 14.8 billion against INR 12 billion to INR 16 billion guidance."
+  },
+  {
+   "id": "P10",
+   "metric": "Wires and Cables EBIT margin",
+   "period": null,
+   "target": "11–13%",
+   "statement": "Medium- to long-term margin guidance for Wires and Cables is 11% to 13%.",
+   "said": {
+    "quote": "Consistent with our Project Spring roadmap, we continue to maintain our medium- to long-term margin guidance of 11% to 13% for this business",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "In line with our Project Spring roadmap, we remain confident of sustaining medium- to long-term EBITDA margins within our guided range of 11% to 13%",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Guidance maintained and consolidated margins are within range."
+  },
+  {
+   "id": "P1",
+   "metric": "Annual capex",
+   "period": "FY30",
+   "target": "₹12–16 crore",
+   "statement": "Investing ₹12 billion to ₹16 billion annually through FY30 under Project Spring.",
+   "said": {
+    "quote": "Capital expenditure for the quarter was ₹ 3.4 billion, taking the 9M FY26 total to ₹ 10.9 billion, in-line with our Project Spring guidance of investing ₹ 12 billion to ₹ 16 billion annually through FY30",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Capital expenditure for the quarter stood at INR3.9 billion, taking the total capex for full financial year to approximately INR14.8 billion, and this is very much in line with the Project Spring guidance",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Capex for FY26 was INR 14.8 billion, within the guided range."
+  },
+  {
+   "id": "P2",
+   "metric": "EBITDA margin",
+   "period": "FY30",
+   "target": "8–10%",
+   "statement": "FMEG EBITDA margins in the range of 8% to 10% by FY30.",
+   "said": {
+    "quote": "Looking ahead, we are confident in the long-term potential of the FMEG segment and remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30, positioning the business for sustained growth and value creation",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+   },
+   "repeated_in": [
+    "Q4 FY26 call, 6 May 2026",
+    "Q1 FY27 call, 16 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "EBIT margins for the quarter stood at 4.1%, in line with our Project Spring trajectory of achieving 8% to 10% EBITDA margins by financial year 2030",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "FMEG margins are improving and on track for FY30 targets."
+  },
+  {
+   "id": "P11",
+   "metric": "Long-term EBITDA margin guidance",
+   "period": "FY30",
+   "target": "11–13%",
+   "statement": "Project Spring aims to sustain medium- to long-term EBITDA margins within 11% to 13%.",
+   "said": {
+    "quote": "In line with our Project Spring roadmap, we remain confident of sustaining medium- to long-term EBITDA margins within our guided range of 11% to 13%",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "EBITDA increased by 36% year-on-year, with margins remaining healthy at 14.1%, while profit after tax grew by 38% year-on-year, translating into PAT margins of 9.9%",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "EBITDA margins remain robust at 14.1% for H1 FY27."
+  },
+  {
+   "id": "P4",
+   "metric": "Working capital cycle",
+   "period": null,
+   "target": "45–50 days",
+   "statement": "Working capital cycle is expected to revert to 45 to 50 days on a normalized basis.",
+   "said": {
+    "quote": "On a normalized basis, we expect the working capital cycle to revert to our steady-state range of 45 to 50 days",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 16 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "The average working capital cycle improved significantly to 15 days in Quarter 1 Financial Year 2027, aided by a temporary increase in payable days due to the use of letter of credit for raw material procurement",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Export contribution target",
+   "period": "FY30",
+   "target": "≥ 10%",
+   "statement": "Targeting greater than 10% contribution from exports by financial year 2030.",
+   "said": {
+    "quote": "We remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": "Repeated with verdict pending by code."
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 512.0,
+    "net_profit": 917.0,
+    "free_cash_flow": -8.0,
+    "cash_conversion": 0.56,
+    "debtor_days": 39.0,
+    "inventory_days": 86.0,
+    "working_capital_days": 67.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 1428.0,
+    "net_profit": 1282.0,
+    "free_cash_flow": 969.0,
+    "cash_conversion": 1.11,
+    "debtor_days": 32.0,
+    "inventory_days": 104.0,
+    "working_capital_days": 58.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 1296.0,
+    "net_profit": 1803.0,
+    "free_cash_flow": 438.0,
+    "cash_conversion": 0.72,
+    "debtor_days": 41.0,
+    "inventory_days": 105.0,
+    "working_capital_days": 59.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 1809.0,
+    "net_profit": 2046.0,
+    "free_cash_flow": 853.0,
+    "cash_conversion": 0.88,
+    "debtor_days": 42.0,
+    "inventory_days": 86.0,
+    "working_capital_days": 54.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 3811.0,
+    "net_profit": 2708.0,
+    "free_cash_flow": 2340.0,
+    "cash_conversion": 1.41,
+    "debtor_days": 48.0,
+    "inventory_days": 99.0,
+    "working_capital_days": 30.0
+   }
+  ],
+  "conversion_5y": 1.01,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹8,856 crore covered all of reported profit, ₹8,756 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/POLYCAB/consolidated/"
+   }
+  ],
+  "read": "Operating cash flows over FY22 to FY26 fully covered reported profits, indicating healthy conversion of earnings into cash."
+ },
+ "bull": [
+  {
+   "point": "Strong revenue growth and margin expansion driven by W&C and FMEG segments.",
+   "evidence": [
+    {
+     "quote": "Consolidated revenue grew by 53% year-on-year, with all business segments contributing meaningfully to this growth momentum",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+    },
+    {
+     "quote": "EBITDA increased by 39% year-on-year, while EBITDA margins expanded by more than 50 basis points sequentially to 14.4%, supported by a favourable business mix and continued focus on operational efficiencies",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Robust operating cash flow generation exceeding cumulative net profits over five years.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹8,856 crore covered all of reported profit, ₹8,756 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/POLYCAB/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Strong governance framework and related party transactions maintained on an arm's length basis.",
+   "evidence": [
+    {
+     "quote": "All related party transactions are in the ordinary course of business and on arm's length basis and are approved by Audit Committee of the Company",
+     "source": "Annual report 2026",
+     "page": 242,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Inventories and trade payables, including material acceptances, have increased significantly.",
+   "evidence": [
+    {
+     "quote": "Copper and aluminum-based inventory forms a significant part of the Group’s inventory",
+     "source": "Annual report 2026",
+     "page": 310,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf"
+    },
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹8,856 crore covered all of reported profit, ₹8,756 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/POLYCAB/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Revenue recognition for EPC contracts involves complex management estimates on total contract costs.",
+   "evidence": [
+    {
+     "quote": "Considering the complexity of the estimate involved in measurement of total contract costs, extent of management judgement and the significance of these amounts, we have considered measurement of revenue from execution of EPC contracts as a key audit matter",
+     "source": "Annual report 2026",
+     "page": 309,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q2 FY27 call, 15 Oct 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+   "pages": 20
+  },
+  {
+   "label": "Q1 FY27 call, 16 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q4 FY26 call, 6 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q3 FY26 call, 16 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+   "pages": 20
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+   "pages": 527
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 76,
+  "quotes_verified": 76,
+  "quotes_dropped": 0,
+  "graded_by_code": 1,
+  "graded_by_model": 9,
+  "ai_calls": 5,
+  "cached_calls": 0,
+  "models": [
+   "gemini-3.5-flash-lite"
+  ],
+  "seconds": 15.8
+ }
+}

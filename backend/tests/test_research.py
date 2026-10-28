@@ -261,3 +261,44 @@ def test_a_later_periods_number_does_not_put_an_ended_promise_on_track(tmp_path)
     verdict, _, _ = model_verdict(Ruling(id="C3", verdict="on_track", evidence=["C9"]), "C3",
                                   _claim(period="FY26", scope="segment"), _actuals(tmp_path))  # fmt: skip
     assert verdict == "unclear"
+
+
+def _quarters(tmp_path):
+    act = _actuals(tmp_path)
+    for period, sales in (("2025-03", 801), ("2025-12", 1211), ("2026-03", 1824)):  # HFCL's
+        act.values[("quarters", "Sales", period)] = sales
+    act.latest["quarters"] = "2026-06"
+    return act
+
+
+def test_quarter_growth_with_no_stated_comparison_is_not_graded(tmp_path):
+    # HFCL, Feb 2026: "revenue in this current quarter ... somewhere around 10% to 15%".
+    c = _claim(metric_key="revenue_growth", period="Q4 FY26", low=10, high=15, unit="%")
+    assert drafts([_call([c])], _quarters(tmp_path))[0].grade is None
+
+
+def test_sequential_growth_is_compared_with_the_quarter_before(tmp_path):
+    c = _claim(metric_key="revenue_growth", period="Q4 FY26", low=10, high=15, unit="%",
+               compared_with="previous_period")  # fmt: skip
+    g = drafts([_call([c])], _quarters(tmp_path))[0].grade
+    assert g.verdict == "beat" and g.actual == "50.6%"  # 1,824 against 1,211
+
+
+def test_volume_growth_is_never_graded_against_revenue(tmp_path):
+    c = _claim(metric_key="volume_growth", period="FY26", low=8, high=10, unit="%")
+    assert drafts([_call([c])], _actuals(tmp_path))[0].grade is None
+
+
+def test_amounts_in_prose_read_as_rupees_in_crore():
+    assert _prose("missed over 4,000 crore rupees; cash was negative 600 crore rupees") == (
+        "missed over ₹4,000 crore; cash was −₹600 crore"
+    )
+    assert _prose("revenue of INR 3,626.4 crores, cash negative ₹615 crore") == (
+        "revenue of ₹3,626.4 crore, cash −₹615 crore"
+    )
+
+
+def test_rupee_targets_show_in_crore_and_cash_promises_as_positive():
+    assert target_text(_claim(low=40000, unit="million")) == "≥ ₹4,000 crore"
+    c = _claim(metric_key="cash_flow", statement="Operating cash flow will be positive by FY26 end")
+    assert target_text(c) == "positive"

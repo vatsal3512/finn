@@ -1,0 +1,409 @@
+{
+ "schema_version": 3,
+ "symbol": "INFY",
+ "name": "Infosys",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:46:35+00:00",
+ "snapshot": {
+  "about": "Digital services, IT consulting, cloud and AI technology services globally.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 49244.0,
+  "revenue_yoy": 10.7,
+  "net_profit": 7838.0,
+  "net_profit_yoy": 6.3,
+  "ebitda_margin": 24.0
+ },
+ "narrative": "Management met its revised FY26 constant currency revenue growth target of 3% to 3.5% by delivering 3.1%, and achieved its 20% to 22% operating margin guidance with 20.9%. However, FY27 revenue growth guidance was narrowed down from 3.5% to 3.0%.",
+ "promises": [
+  {
+   "id": "P1",
+   "metric": "FY26 Constant currency revenue growth guidance",
+   "period": "FY26",
+   "target": "3–3.5% (constant currency)",
+   "statement": "Management revised FY26 constant currency revenue growth guidance to 3%–3.5%.",
+   "said": {
+    "quote": "The new revenue growth guidance for this financial year is 3% to 3.5% growth in constant currency",
+    "source": "Q3 FY26 call, 14 Jan 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf"
+   },
+   "repeated_in": [],
+   "actual": "3.1%",
+   "actual_source": {
+    "quote": "We had growth of 3.1% for the full year in constant currency terms",
+    "source": "Q4 FY26 call, 23 Apr 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "FY26 Operating margin guidance",
+   "period": "FY26",
+   "target": "20–22%",
+   "statement": "FY26 operating margin guidance maintained at 20% to 22%.",
+   "said": {
+    "quote": "Our operating margin guidance for the financial year remains the same at 20% to 22%",
+    "source": "Q3 FY26 call, 14 Jan 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf"
+   },
+   "repeated_in": [],
+   "actual": "20.9%",
+   "actual_source": {
+    "quote": "FY26 Operating margin guidance, FY26: 20.9%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/INFY/consolidated/"
+   },
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Fresher hiring count target",
+   "period": "FY26",
+   "target": "20,000 employees",
+   "statement": "Company plans to finish hiring 20,000 freshers in FY26.",
+   "said": {
+    "quote": "We have onboarded roughly around 18,000 freshers, and we are well on our way to finish our 20,000 number for this year",
+    "source": "Q3 FY26 call, 14 Jan 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We have recruited 20,000 college graduates this year and through March, that will be the number",
+    "source": "Investor day, 17 Feb 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Management confirmed recruiting 20,000 college graduates for FY26 during Investor Day."
+  },
+  {
+   "id": "P4",
+   "metric": "College graduate hiring",
+   "period": "FY26",
+   "target": "20,000 count",
+   "statement": "Infosys targets recruiting 20,000 college graduates in FY26.",
+   "said": {
+    "quote": "We have recruited 20,000 college graduates this year and through March, that will be the number",
+    "source": "Investor day, 17 Feb 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We have onboarded roughly around 18,000 freshers, and we are well on our way to finish our 20,000 number for this year",
+    "source": "Q3 FY26 call, 14 Jan 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Management confirmed onboarding 20,000 freshers during FY26."
+  },
+  {
+   "id": "P5",
+   "metric": "College graduate hiring",
+   "period": "FY27",
+   "target": "20,000 count",
+   "statement": "Infosys plans to recruit 20,000 college graduates in FY27.",
+   "said": {
+    "quote": "And next financial year, we also have a plan to recruit 20,000 college graduates, we want to talk about the talent and culture approach we have",
+    "source": "Investor day, 17 Feb 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Revenue Growth Guidance",
+   "period": "FY27",
+   "target": "1.5–3.5% (constant currency)",
+   "statement": "Infosys guides FY27 revenue growth of 1.5% to 3.5% year-on-year in constant currency.",
+   "said": {
+    "quote": "Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year-on-year in constant currency terms",
+    "source": "Q4 FY26 call, 23 Apr 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Operating Margin Guidance",
+   "period": "FY27",
+   "target": "20–22%",
+   "statement": "Infosys expects FY27 operating margin between 20% and 22%.",
+   "said": {
+    "quote": "Our operating margin guidance for financial year '27 is 20% to 22%",
+    "source": "Q4 FY26 call, 23 Apr 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 23 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Effective Tax Rate Guidance",
+   "period": "FY27",
+   "target": "29–30%",
+   "statement": "Infosys expects the effective tax rate for FY27 to be in the range of 29% to 30%.",
+   "said": {
+    "quote": "We expect effective tax rates for the FY27 to be in the range of 29% to 30%",
+    "source": "Q4 FY26 call, 23 Apr 2026",
+    "page": 29,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Revenue growth guidance",
+   "period": "FY27",
+   "target": "1.5–3% (constant currency)",
+   "statement": "Infosys expects FY27 revenue growth between 1.5% and 3.0% year-on-year in constant currency.",
+   "said": {
+    "quote": "we have changed our revenue growth guidance to 1.5% to 3% Y-on-Y growth in constant currency terms",
+    "source": "Q1 FY27 call, 23 Jul 2026",
+    "page": 29,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 23885.0,
+    "net_profit": 22146.0,
+    "free_cash_flow": 21724.0,
+    "cash_conversion": 1.08,
+    "debtor_days": 68.0,
+    "inventory_days": null,
+    "working_capital_days": 28.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 22467.0,
+    "net_profit": 24108.0,
+    "free_cash_flow": 19888.0,
+    "cash_conversion": 0.93,
+    "debtor_days": 63.0,
+    "inventory_days": null,
+    "working_capital_days": 31.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 25210.0,
+    "net_profit": 26248.0,
+    "free_cash_flow": 23009.0,
+    "cash_conversion": 0.96,
+    "debtor_days": 72.0,
+    "inventory_days": null,
+    "working_capital_days": 54.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 35694.0,
+    "net_profit": 26750.0,
+    "free_cash_flow": 33457.0,
+    "cash_conversion": 1.33,
+    "debtor_days": 70.0,
+    "inventory_days": null,
+    "working_capital_days": 39.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 33986.0,
+    "net_profit": 29474.0,
+    "free_cash_flow": 31259.0,
+    "cash_conversion": 1.15,
+    "debtor_days": 72.0,
+    "inventory_days": null,
+    "working_capital_days": 33.0
+   }
+  ],
+  "conversion_5y": 1.1,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹141,242 crore covered all of reported profit, ₹128,726 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/INFY/consolidated/"
+   }
+  ],
+  "read": "Profits convert strongly into cash, with total operating cash flow of ₹141,242 crore exceeding reported net profit of ₹128,726 crore over FY22 to FY26."
+ },
+ "bull": [
+  {
+   "point": "The company demonstrated strong cash conversion over five years, generating operating cash flows that fully covered reported profits.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹141,242 crore covered all of reported profit, ₹128,726 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/INFY/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Large deal momentum remained robust with full-year FY26 total contract value reaching $14.9 billion.",
+   "evidence": [
+    {
+     "quote": "Large deals were very good, $14.9 bn for the full year, $3.2 bn for the fourth quarter",
+     "source": "Q4 FY26 call, 23 Apr 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Management successfully delivered on its upgraded FY26 growth targets, achieving 3.1% constant currency revenue growth and crossing $20 billion in total revenue.",
+   "evidence": [
+    {
+     "quote": "We had growth of 3.1% for the full year in constant currency terms",
+     "source": "Q4 FY26 call, 23 Apr 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+    },
+    {
+     "quote": "FY26 revenues crossed $20 bn and grew 3.1% in constant currency terms, within the upgraded guidance band given in January",
+     "source": "Q4 FY26 call, 23 Apr 2026",
+     "page": 28,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Enactment of new labor codes created a significant financial impact, requiring exceptional item provisions of ₹1,289 crore in consolidated profit and loss.",
+   "evidence": [
+    {
+     "quote": "Accordingly, ₹1,146 crore and ₹1,289 crore has been recognized in the Standalone and Consolidated Statement of Profit and Loss, respectively, for the year ended March 31, 2026",
+     "source": "Annual report 2026",
+     "page": 80,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Management lowered the upper bound of its FY27 constant currency revenue growth guidance from 3.5% to 3.0% during the first quarter.",
+   "evidence": [
+    {
+     "quote": "Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year-on-year in constant currency terms",
+     "source": "Q4 FY26 call, 23 Apr 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+    },
+    {
+     "quote": "we have changed our revenue growth guidance to 1.5% to 3% Y-on-Y growth in constant currency terms",
+     "source": "Q1 FY27 call, 23 Jul 2026",
+     "page": 29,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Overall segment profitability declined due to lower employee utilization and increased spending on talent, artificial intelligence, and sales and marketing.",
+   "evidence": [
+    {
+     "quote": "Overall segment profitability has decreased primarily on account of lower utilization; and investments in talent, AI, sales & marketing",
+     "source": "Annual report 2026",
+     "page": 81,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 23 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+   "pages": 48
+  },
+  {
+   "label": "Q4 FY26 call, 23 Apr 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+   "pages": 46
+  },
+  {
+   "label": "Investor day, 17 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf",
+   "pages": 64
+  },
+  {
+   "label": "Q3 FY26 call, 14 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf",
+   "pages": 39
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+   "pages": 383
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 37,
+  "quotes_verified": 37,
+  "quotes_dropped": 0,
+  "graded_by_code": 5,
+  "graded_by_model": 2,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.6-flash"
+  ],
+  "seconds": 1.2
+ }
+}

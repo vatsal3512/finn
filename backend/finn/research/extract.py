@@ -16,7 +16,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-from finn.ai.llm import LLM, Tier
+from finn.ai.llm import LLM, AIUnavailable, Tier
 from finn.research.quotes import Document
 from finn.store import connect
 
@@ -27,9 +27,13 @@ log = logging.getLogger(__name__)
 # v3: working-capital days, which code can grade from the accounts ("70 to 85 days").
 # v4: Infosys guides on operating (EBIT) margin, and v3 filed it as EBITDA margin, so code
 #     compared it with the wrong line and called a met target beaten.
-PROMPT_VERSION = "claims-v4"
+# v5: Asian Paints' volume growth was graded against revenue growth, and HFCL's "10% to
+#     15% in this current quarter", probably over the previous quarter, against a year ago.
+#     Volume growth is now its own metric, and every growth claim says what it compares with.
+PROMPT_VERSION = "claims-v5"
 METRICS = (
-    "revenue_growth", "revenue", "ebitda_margin", "ebit_margin", "ebitda_growth", "pat_growth", "pat",
+    "revenue_growth", "volume_growth", "revenue", "ebitda_margin", "ebit_margin", "ebitda_growth",
+    "pat_growth", "pat",
     "working_capital_days", "order_inflow", "order_book", "capex", "debt", "cash_flow", "other",
 )  # fmt: skip
 
@@ -53,8 +57,12 @@ Rules:
   Indian financial year runs April to March, so FY27 is April 2026 to March 2027. Resolve
   "this year" or "by the end of the financial year" from the call's date. Null if none.
 - metric_key: one of {", ".join(METRICS)}.
-- ebitda_margin only when management says EBITDA. Operating margin or EBIT margin is
-  ebit_margin.
+- revenue_growth is growth in the value of revenue or sales; growth in units, volumes or
+  tonnes is volume_growth. ebitda_margin only when management says EBITDA or PBDIT;
+  operating margin or EBIT margin is ebit_margin.
+- compared_with, for any growth: year_ago, or previous_period when the speaker compares
+  with the quarter or period just before ("sequential", "QoQ", "over last quarter"). Null
+  when the speaker does not say.
 - scope: company for a company-wide number; segment for a business line, product, region,
   subsidiary or plant.
 - low and high: the numbers as stated. A single figure sets both; "at least" sets low only.
@@ -77,6 +85,7 @@ class Claim(BaseModel):
     high: float | None = None
     unit: str | None = None
     basis: str | None = None
+    compared_with: Literal["year_ago", "previous_period"] | None = None
     statement: str
     quote: str
     speaker: str
@@ -116,7 +125,7 @@ def read_call(llm: LLM, company: str, doc: Document, period: str) -> Call:
     prompt = f"Company: {company}. Filed with the exchange in {period}.\n\nTranscript:\n{doc.text}"
     out = llm.json(
         "claims", Tier.FLASH, prompt, CallOut, system=SYSTEM, version=PROMPT_VERSION,
-        max_output_tokens=8192,
+        max_output_tokens=16384,
     )  # fmt: skip
     call = Call(doc, period, out.call, out.call_date, out.is_earnings_call, out.about,
                 model=llm.last_model, cached=llm.stats["cache_hits"] > 0)  # fmt: skip
@@ -129,16 +138,26 @@ def read_call(llm: LLM, company: str, doc: Document, period: str) -> Call:
     return call
 
 
-def read_calls(company: str, docs: list[tuple[Document, str]]) -> list[Call]:
-    """All transcripts at once. Each thread has its own database connection and key order."""
+def read_calls(
+    company: str, docs: list[tuple[Document, str]], deadline: float | None = None
+) -> tuple[list[Call], int]:
+    """All transcripts at once, each thread with its own database connection and key order.
+    Returns the calls read and how many could not be, so a report can say so."""
 
-    def one(i: int, doc: Document, period: str) -> Call:
+    def one(i: int, doc: Document, period: str) -> Call | None:
         conn = connect()
         try:
-            return read_call(LLM.from_env(conn, key_offset=3 * i), company, doc, period)
+            llm = LLM.from_env(conn, key_offset=3 * i)
+            llm.deadline = deadline
+            return read_call(llm, company, doc, period)
+        except AIUnavailable as exc:
+            log.warning("could not read the %s call: %s", period, exc)
+            return None
         finally:
             conn.close()
 
     with ThreadPoolExecutor(max_workers=max(1, len(docs))) as pool:
         futures = [pool.submit(one, i, d, p) for i, (d, p) in enumerate(docs)]
-        return [f.result() for f in futures]
+        results = [f.result() for f in futures]
+    calls = [c for c in results if c]
+    return calls, len(results) - len(calls)

@@ -1,972 +1,1581 @@
 {
- "portfolio": {
-  "$defs": {
-   "Holding": {
-    "properties": {
-     "symbol": {
-      "title": "Symbol",
-      "type": "string"
-     },
-     "name": {
-      "title": "Name",
-      "type": "string"
-     },
-     "sector": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Sector"
-     },
-     "size": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Size"
-     },
-     "last_date": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Last Date"
-     },
-     "close": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Close"
-     },
-     "ret_pct": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Ret Pct"
-     },
-     "vol_ratio": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Vol Ratio"
-     },
-     "series": {
-      "items": {
-       "$ref": "#/$defs/PricePoint"
-      },
-      "title": "Series",
-      "type": "array"
-     },
-     "source_url": {
-      "title": "Source Url",
-      "type": "string"
-     }
-    },
-    "required": [
-     "symbol",
-     "name",
-     "sector",
-     "size",
-     "last_date",
-     "close",
-     "ret_pct",
-     "vol_ratio",
-     "series",
-     "source_url"
-    ],
-    "title": "Holding",
-    "type": "object"
-   },
-   "PricePoint": {
-    "properties": {
-     "date": {
-      "title": "Date",
-      "type": "string"
-     },
-     "close": {
-      "title": "Close",
-      "type": "number"
-     },
-     "ret_pct": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Close-to-close move, percent",
-      "title": "Ret Pct"
-     },
-     "vol_ratio": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Volume over the prior 20-session mean",
-      "title": "Vol Ratio"
-     },
-     "corp_action": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Set when the move is a corporate action",
-      "title": "Corp Action"
-     }
-    },
-    "required": [
-     "date",
-     "close"
-    ],
-    "title": "PricePoint",
-    "type": "object"
-   }
-  },
-  "properties": {
-   "holdings": {
-    "items": {
-     "$ref": "#/$defs/Holding"
-    },
-    "title": "Holdings",
-    "type": "array"
-   }
-  },
-  "required": [
-   "holdings"
-  ],
-  "title": "Portfolio",
-  "type": "object"
- },
- "filings": {
-  "$defs": {
-   "Filing": {
-    "properties": {
-     "id": {
-      "title": "Id",
-      "type": "string"
-     },
-     "symbol": {
-      "title": "Symbol",
-      "type": "string"
-     },
-     "exchange": {
-      "title": "Exchange",
-      "type": "string"
-     },
-     "filed_at": {
-      "title": "Filed At",
-      "type": "string"
-     },
-     "exchange_label": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Exchange Label"
-     },
-     "headline": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Headline"
-     },
-     "category": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Category"
-     },
-     "tier": {
-      "anyOf": [
-       {
-        "enum": [
-         "must_see",
-         "glance",
-         "routine"
-        ],
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Tier"
-     },
-     "classified_by": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "description": "rule, ai, or null when not yet sorted",
-      "title": "Classified By"
-     },
-     "rule": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Rule"
-     },
-     "needs_ai": {
-      "title": "Needs Ai",
-      "type": "boolean"
-     },
-     "text_quality": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Text Quality"
-     },
-     "attachment_url": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Attachment Url"
-     },
-     "source_url": {
-      "title": "Source Url",
-      "type": "string"
-     },
-     "insight": {
-      "anyOf": [
-       {
-        "$ref": "#/$defs/Insight"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null
-     },
-     "events": {
-      "description": "Every event in the filing, lead first",
-      "items": {
-       "type": "string"
-      },
-      "title": "Events",
-      "type": "array"
-     },
-     "cards": {
-      "description": "On the group lead only, merged across the group",
-      "items": {
-       "anyOf": [
-        {
-         "$ref": "#/$defs/ResultsCard"
-        },
-        {
-         "$ref": "#/$defs/PeopleCard"
-        }
-       ]
-      },
-      "title": "Cards",
-      "type": "array"
-     },
-     "price_reaction": {
-      "anyOf": [
-       {
-        "$ref": "#/$defs/PriceReaction"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null
-     },
-     "score": {
-      "default": 0,
-      "description": "Priority for Today's 3: higher shows first",
-      "title": "Score",
-      "type": "number"
-     },
-     "group_id": {
-      "description": "Filings about the same event share a group",
-      "title": "Group Id",
-      "type": "string"
-     },
-     "group_lead": {
-      "default": true,
-      "description": "The one filing of its group to show; the rest are attachments",
-      "title": "Group Lead",
-      "type": "boolean"
-     },
-     "duplicate_of": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Set when this is a copy of an earlier filing's letter",
-      "title": "Duplicate Of"
-     }
-    },
-    "required": [
-     "id",
-     "symbol",
-     "exchange",
-     "filed_at",
-     "exchange_label",
-     "headline",
-     "category",
-     "tier",
-     "classified_by",
-     "rule",
-     "needs_ai",
-     "text_quality",
-     "attachment_url",
-     "source_url",
-     "group_id"
-    ],
-    "title": "Filing",
-    "type": "object"
-   },
-   "Insight": {
-    "properties": {
-     "title": {
-      "title": "Title",
-      "type": "string"
-     },
-     "summary": {
-      "title": "Summary",
-      "type": "string"
-     },
-     "why_it_matters": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Why It Matters"
-     },
-     "sentiment": {
-      "enum": [
-       "positive",
-       "negative",
-       "neutral",
-       "mixed"
-      ],
-      "title": "Sentiment",
-      "type": "string"
-     },
-     "amount_inr_crore": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Amount Inr Crore"
-     },
-     "model": {
-      "title": "Model",
-      "type": "string"
-     }
-    },
-    "required": [
-     "title",
-     "summary",
-     "why_it_matters",
-     "sentiment",
-     "amount_inr_crore",
-     "model"
-    ],
-    "title": "Insight",
-    "type": "object"
-   },
-   "Metric": {
-    "properties": {
-     "key": {
-      "title": "Key",
-      "type": "string"
-     },
-     "label": {
-      "title": "Label",
-      "type": "string"
-     },
-     "current": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Current"
-     },
-     "previous_quarter": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Previous Quarter"
-     },
-     "year_ago": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Year Ago"
-     },
-     "qoq_pct": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Qoq Pct"
-     },
-     "yoy_pct": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Yoy Pct"
-     }
-    },
-    "required": [
-     "key",
-     "label",
-     "current",
-     "previous_quarter",
-     "year_ago",
-     "qoq_pct",
-     "yoy_pct"
-    ],
-    "title": "Metric",
-    "type": "object"
-   },
-   "PeopleCard": {
-    "properties": {
-     "type": {
-      "const": "people",
-      "default": "people",
-      "title": "Type",
-      "type": "string"
-     },
-     "changes": {
-      "items": {
-       "$ref": "#/$defs/PersonChange"
-      },
-      "title": "Changes",
-      "type": "array"
-     }
-    },
-    "required": [
-     "changes"
-    ],
-    "title": "PeopleCard",
-    "type": "object"
-   },
-   "PersonChange": {
-    "properties": {
-     "person": {
-      "title": "Person",
-      "type": "string"
-     },
-     "role": {
-      "title": "Role",
-      "type": "string"
-     },
-     "change": {
-      "enum": [
-       "appointment",
-       "reappointment",
-       "resignation",
-       "retirement",
-       "cessation",
-       "redesignation",
-       "other"
-      ],
-      "title": "Change",
-      "type": "string"
-     },
-     "effective_date": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "title": "Effective Date"
-     },
-     "reason": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "title": "Reason"
-     },
-     "profile": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Bio taken from the filing's own profile section",
-      "title": "Profile"
-     },
-     "previous_roles": {
-      "items": {
-       "type": "string"
-      },
-      "title": "Previous Roles",
-      "type": "array"
-     },
-     "education": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "title": "Education"
-     },
-     "profile_source": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Filing id the profile came from, if not this one",
-      "title": "Profile Source"
-     }
-    },
-    "required": [
-     "person",
-     "role",
-     "change"
-    ],
-    "title": "PersonChange",
-    "type": "object"
-   },
-   "PriceReaction": {
-    "properties": {
-     "session": {
-      "title": "Session",
-      "type": "string"
-     },
-     "ret_pct": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Ret Pct"
-     },
-     "vol_ratio": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "title": "Vol Ratio"
-     }
-    },
-    "required": [
-     "session",
-     "ret_pct",
-     "vol_ratio"
-    ],
-    "title": "PriceReaction",
-    "type": "object"
-   },
-   "ResultsCard": {
-    "description": "Headline numbers for one quarter versus last quarter and a year ago, in rupees crore.",
-    "properties": {
-     "type": {
-      "const": "results",
-      "default": "results",
-      "title": "Type",
-      "type": "string"
-     },
-     "symbol": {
-      "title": "Symbol",
-      "type": "string"
-     },
-     "period_end": {
-      "title": "Period End",
-      "type": "string"
-     },
-     "period_label": {
-      "description": "Indian financial-year quarter, e.g. Q2 FY27",
-      "title": "Period Label",
-      "type": "string"
-     },
-     "basis": {
-      "title": "Basis",
-      "type": "string"
-     },
-     "kind": {
-      "enum": [
-       "standard",
-       "bank"
-      ],
-      "title": "Kind",
-      "type": "string"
-     },
-     "unit": {
-      "default": "\u20b9 crore",
-      "title": "Unit",
-      "type": "string"
-     },
-     "metrics": {
-      "items": {
-       "$ref": "#/$defs/Metric"
-      },
-      "title": "Metrics",
-      "type": "array"
-     },
-     "margin_label": {
-      "anyOf": [
-       {
-        "type": "string"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "title": "Margin Label"
-     },
-     "margin_pct": {
-      "description": "current, previous quarter, year ago",
-      "items": {
-       "anyOf": [
-        {
-         "type": "number"
-        },
-        {
-         "type": "null"
-        }
-       ]
-      },
-      "title": "Margin Pct",
-      "type": "array"
-     },
-     "source": {
-      "enum": [
-       "xbrl",
-       "filing_text",
-       "filing_image",
-       "screener"
-      ],
-      "title": "Source",
-      "type": "string"
-     },
-     "verified": {
-      "anyOf": [
-       {
-        "type": "boolean"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "True when it matches screener.in, False on a mismatch",
-      "title": "Verified"
-     },
-     "check_note": {
-      "title": "Check Note",
-      "type": "string"
-     },
-     "share_of_associates": {
-      "anyOf": [
-       {
-        "type": "number"
-       },
-       {
-        "type": "null"
-       }
-      ],
-      "default": null,
-      "description": "Reported separately from PBT in the filing; shown so the check is transparent",
-      "title": "Share Of Associates"
-     },
-     "source_urls": {
-      "items": {
-       "type": "string"
-      },
-      "title": "Source Urls",
-      "type": "array"
-     }
-    },
-    "required": [
-     "symbol",
-     "period_end",
-     "period_label",
-     "basis",
-     "kind",
-     "metrics",
-     "source",
-     "check_note",
-     "source_urls"
-    ],
-    "title": "ResultsCard",
-    "type": "object"
-   }
-  },
-  "properties": {
-   "filings": {
-    "items": {
-     "$ref": "#/$defs/Filing"
-    },
-    "title": "Filings",
-    "type": "array"
-   }
-  },
-  "required": [
-   "filings"
-  ],
-  "title": "Filings",
-  "type": "object"
- },
- "meta": {
-  "$defs": {
-   "AIStats": {
-    "properties": {
-     "calls": {
-      "title": "Calls",
-      "type": "integer"
-     },
-     "input_tokens": {
-      "title": "Input Tokens",
-      "type": "integer"
-     },
-     "output_tokens": {
-      "title": "Output Tokens",
-      "type": "integer"
-     },
-     "by_model": {
-      "additionalProperties": {
-       "type": "integer"
-      },
-      "title": "By Model",
-      "type": "object"
-     },
-     "cached_answers": {
-      "title": "Cached Answers",
-      "type": "integer"
-     }
-    },
-    "required": [
-     "calls",
-     "input_tokens",
-     "output_tokens",
-     "by_model",
-     "cached_answers"
-    ],
-    "title": "AIStats",
-    "type": "object"
-   },
-   "AlertDefaults": {
-    "properties": {
-     "price_move_pct": {
-      "title": "Price Move Pct",
-      "type": "number"
-     },
-     "volume_multiple": {
-      "title": "Volume Multiple",
-      "type": "number"
-     },
-     "volume_baseline_sessions": {
-      "title": "Volume Baseline Sessions",
-      "type": "integer"
-     }
-    },
-    "required": [
-     "price_move_pct",
-     "volume_multiple",
-     "volume_baseline_sessions"
-    ],
-    "title": "AlertDefaults",
-    "type": "object"
-   }
-  },
-  "properties": {
-   "schema_version": {
-    "default": 3,
-    "title": "Schema Version",
-    "type": "integer"
-   },
-   "generated_at": {
-    "title": "Generated At",
-    "type": "string"
-   },
-   "latest_session": {
-    "anyOf": [
-     {
-      "type": "string"
-     },
-     {
-      "type": "null"
-     }
-    ],
-    "title": "Latest Session"
-   },
-   "filings_window_days": {
-    "title": "Filings Window Days",
-    "type": "integer"
-   },
-   "counts": {
-    "additionalProperties": {
+ "$defs": {
+  "AIStats": {
+   "properties": {
+    "calls": {
      "type": "integer"
     },
-    "title": "Counts",
-    "type": "object"
-   },
-   "alert_defaults": {
-    "$ref": "#/$defs/AlertDefaults"
-   },
-   "ai": {
-    "anyOf": [
-     {
-      "$ref": "#/$defs/AIStats"
+    "input_tokens": {
+     "type": "integer"
+    },
+    "output_tokens": {
+     "type": "integer"
+    },
+    "by_model": {
+     "additionalProperties": {
+      "type": "integer"
      },
-     {
-      "type": "null"
-     }
-    ],
-    "default": null
+     "type": "object"
+    },
+    "cached_answers": {
+     "type": "integer"
+    }
    },
-   "sources": {
-    "items": {
+   "required": [
+    "calls",
+    "input_tokens",
+    "output_tokens",
+    "by_model",
+    "cached_answers"
+   ],
+   "title": "AIStats",
+   "type": "object"
+  },
+  "AlertDefaults": {
+   "properties": {
+    "price_move_pct": {
+     "type": "number"
+    },
+    "volume_multiple": {
+     "type": "number"
+    },
+    "volume_baseline_sessions": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "price_move_pct",
+    "volume_multiple",
+    "volume_baseline_sessions"
+   ],
+   "title": "AlertDefaults",
+   "type": "object"
+  },
+  "AskAnswer": {
+   "description": "'Ask about this': what management said about an event, with quotes found by code.",
+   "properties": {
+    "symbol": {
      "type": "string"
     },
-    "title": "Sources",
-    "type": "array"
-   }
+    "question": {
+     "type": "string"
+    },
+    "addressed": {
+     "type": "boolean"
+    },
+    "answer": {
+     "type": "string"
+    },
+    "evidence": {
+     "items": {
+      "$ref": "#/$defs/Evidence"
+     },
+     "type": "array"
+    },
+    "calls": {
+     "description": "the calls that were read",
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "model": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "asked_at": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "symbol",
+    "question",
+    "addressed",
+    "answer",
+    "calls",
+    "asked_at"
+   ],
+   "title": "AskAnswer",
+   "type": "object"
   },
-  "required": [
-   "generated_at",
-   "latest_session",
-   "filings_window_days",
-   "counts",
-   "alert_defaults",
-   "sources"
-  ],
-  "title": "Meta",
-  "type": "object"
- }
+  "AskAnswers": {
+   "properties": {
+    "answers": {
+     "additionalProperties": {
+      "$ref": "#/$defs/AskAnswer"
+     },
+     "description": "by filing id",
+     "type": "object"
+    }
+   },
+   "required": [
+    "answers"
+   ],
+   "title": "AskAnswers",
+   "type": "object"
+  },
+  "CasePoint": {
+   "properties": {
+    "point": {
+     "type": "string"
+    },
+    "evidence": {
+     "items": {
+      "$ref": "#/$defs/Evidence"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "point",
+    "evidence"
+   ],
+   "title": "CasePoint",
+   "type": "object"
+  },
+  "CashQuality": {
+   "properties": {
+    "applicable": {
+     "type": "boolean"
+    },
+    "reason": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "years": {
+     "items": {
+      "$ref": "#/$defs/CashYear"
+     },
+     "type": "array"
+    },
+    "conversion_5y": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "signals": {
+     "items": {
+      "$ref": "#/$defs/Evidence"
+     },
+     "type": "array"
+    },
+    "read": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    }
+   },
+   "required": [
+    "applicable"
+   ],
+   "title": "CashQuality",
+   "type": "object"
+  },
+  "CashYear": {
+   "properties": {
+    "year": {
+     "type": "string"
+    },
+    "operating_cash_flow": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "net_profit": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "free_cash_flow": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "cash_conversion": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "operating cash flow / net profit"
+    },
+    "debtor_days": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "inventory_days": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "working_capital_days": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    }
+   },
+   "required": [
+    "year",
+    "operating_cash_flow",
+    "net_profit",
+    "free_cash_flow",
+    "cash_conversion",
+    "debtor_days",
+    "inventory_days",
+    "working_capital_days"
+   ],
+   "title": "CashYear",
+   "type": "object"
+  },
+  "Evidence": {
+   "description": "A sentence from a primary document, checked by code to be there, or a computed fact.",
+   "properties": {
+    "quote": {
+     "type": "string"
+    },
+    "source": {
+     "description": "e.g. \"Q1 FY27 call, 8 Aug 2026\" or \"Annual report FY26\"",
+     "type": "string"
+    },
+    "page": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "url": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "quote",
+    "source",
+    "url"
+   ],
+   "title": "Evidence",
+   "type": "object"
+  },
+  "Filing": {
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "symbol": {
+     "type": "string"
+    },
+    "exchange": {
+     "type": "string"
+    },
+    "filed_at": {
+     "type": "string"
+    },
+    "exchange_label": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "headline": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "category": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "tier": {
+     "anyOf": [
+      {
+       "enum": [
+        "must_see",
+        "glance",
+        "routine"
+       ],
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "classified_by": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "rule, ai, or null when not yet sorted"
+    },
+    "rule": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "needs_ai": {
+     "type": "boolean"
+    },
+    "text_quality": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "attachment_url": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "source_url": {
+     "type": "string"
+    },
+    "insight": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/Insight"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "events": {
+     "description": "Every event in the filing, lead first",
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "cards": {
+     "description": "On the group lead only, merged across the group",
+     "items": {
+      "anyOf": [
+       {
+        "$ref": "#/$defs/ResultsCard"
+       },
+       {
+        "$ref": "#/$defs/PeopleCard"
+       }
+      ]
+     },
+     "type": "array"
+    },
+    "price_reaction": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/PriceReaction"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "score": {
+     "default": 0,
+     "description": "Priority for Today's 3: higher shows first",
+     "type": "number"
+    },
+    "group_id": {
+     "description": "Filings about the same event share a group",
+     "type": "string"
+    },
+    "group_lead": {
+     "default": true,
+     "description": "The one filing of its group to show; the rest are attachments",
+     "type": "boolean"
+    },
+    "duplicate_of": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Set when this is a copy of an earlier filing's letter"
+    }
+   },
+   "required": [
+    "id",
+    "symbol",
+    "exchange",
+    "filed_at",
+    "exchange_label",
+    "headline",
+    "category",
+    "tier",
+    "classified_by",
+    "rule",
+    "needs_ai",
+    "text_quality",
+    "attachment_url",
+    "source_url",
+    "group_id"
+   ],
+   "title": "Filing",
+   "type": "object"
+  },
+  "Filings": {
+   "properties": {
+    "filings": {
+     "items": {
+      "$ref": "#/$defs/Filing"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "filings"
+   ],
+   "title": "Filings",
+   "type": "object"
+  },
+  "Guidance": {
+   "description": "One promise from a call, with what was delivered and who judged it.",
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "metric": {
+     "type": "string"
+    },
+    "period": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "target": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "description": "e.g. \"\u2265 \u20b94,000 crore\" or \"1\u20132% (constant currency)\""
+    },
+    "statement": {
+     "type": "string"
+    },
+    "said": {
+     "$ref": "#/$defs/Evidence"
+    },
+    "repeated_in": {
+     "description": "later calls that repeated it",
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "actual": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "actual_source": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/Evidence"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "verdict": {
+     "enum": [
+      "beat",
+      "met",
+      "missed",
+      "on_track",
+      "at_risk",
+      "pending",
+      "unclear"
+     ],
+     "type": "string"
+    },
+    "verdict_by": {
+     "enum": [
+      "code",
+      "model"
+     ],
+     "type": "string"
+    },
+    "note": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    }
+   },
+   "required": [
+    "id",
+    "metric",
+    "period",
+    "target",
+    "statement",
+    "said",
+    "verdict",
+    "verdict_by"
+   ],
+   "title": "Guidance",
+   "type": "object"
+  },
+  "Holding": {
+   "properties": {
+    "symbol": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "sector": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "size": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "last_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "close": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "ret_pct": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "vol_ratio": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "series": {
+     "items": {
+      "$ref": "#/$defs/PricePoint"
+     },
+     "type": "array"
+    },
+    "source_url": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "symbol",
+    "name",
+    "sector",
+    "size",
+    "last_date",
+    "close",
+    "ret_pct",
+    "vol_ratio",
+    "series",
+    "source_url"
+   ],
+   "title": "Holding",
+   "type": "object"
+  },
+  "Insight": {
+   "properties": {
+    "title": {
+     "type": "string"
+    },
+    "summary": {
+     "type": "string"
+    },
+    "why_it_matters": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "sentiment": {
+     "enum": [
+      "positive",
+      "negative",
+      "neutral",
+      "mixed"
+     ],
+     "type": "string"
+    },
+    "amount_inr_crore": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "model": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "title",
+    "summary",
+    "why_it_matters",
+    "sentiment",
+    "amount_inr_crore",
+    "model"
+   ],
+   "title": "Insight",
+   "type": "object"
+  },
+  "Meta": {
+   "properties": {
+    "schema_version": {
+     "default": 3,
+     "type": "integer"
+    },
+    "generated_at": {
+     "type": "string"
+    },
+    "latest_session": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "filings_window_days": {
+     "type": "integer"
+    },
+    "counts": {
+     "additionalProperties": {
+      "type": "integer"
+     },
+     "type": "object"
+    },
+    "alert_defaults": {
+     "$ref": "#/$defs/AlertDefaults"
+    },
+    "ai": {
+     "anyOf": [
+      {
+       "$ref": "#/$defs/AIStats"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "sources": {
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "generated_at",
+    "latest_session",
+    "filings_window_days",
+    "counts",
+    "alert_defaults",
+    "sources"
+   ],
+   "title": "Meta",
+   "type": "object"
+  },
+  "Metric": {
+   "properties": {
+    "key": {
+     "type": "string"
+    },
+    "label": {
+     "type": "string"
+    },
+    "current": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "previous_quarter": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "year_ago": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "qoq_pct": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "yoy_pct": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    }
+   },
+   "required": [
+    "key",
+    "label",
+    "current",
+    "previous_quarter",
+    "year_ago",
+    "qoq_pct",
+    "yoy_pct"
+   ],
+   "title": "Metric",
+   "type": "object"
+  },
+  "PeopleCard": {
+   "properties": {
+    "type": {
+     "const": "people",
+     "default": "people",
+     "type": "string"
+    },
+    "changes": {
+     "items": {
+      "$ref": "#/$defs/PersonChange"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "changes"
+   ],
+   "title": "PeopleCard",
+   "type": "object"
+  },
+  "PersonChange": {
+   "properties": {
+    "person": {
+     "type": "string"
+    },
+    "role": {
+     "type": "string"
+    },
+    "change": {
+     "enum": [
+      "appointment",
+      "reappointment",
+      "resignation",
+      "retirement",
+      "cessation",
+      "redesignation",
+      "other"
+     ],
+     "type": "string"
+    },
+    "effective_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "reason": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "profile": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Bio taken from the filing's own profile section"
+    },
+    "previous_roles": {
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "education": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "profile_source": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Filing id the profile came from, if not this one"
+    }
+   },
+   "required": [
+    "person",
+    "role",
+    "change"
+   ],
+   "title": "PersonChange",
+   "type": "object"
+  },
+  "Portfolio": {
+   "properties": {
+    "holdings": {
+     "items": {
+      "$ref": "#/$defs/Holding"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "holdings"
+   ],
+   "title": "Portfolio",
+   "type": "object"
+  },
+  "PricePoint": {
+   "properties": {
+    "date": {
+     "type": "string"
+    },
+    "close": {
+     "type": "number"
+    },
+    "ret_pct": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Close-to-close move, percent"
+    },
+    "vol_ratio": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Volume over the prior 20-session mean"
+    },
+    "corp_action": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Set when the move is a corporate action"
+    }
+   },
+   "required": [
+    "date",
+    "close"
+   ],
+   "title": "PricePoint",
+   "type": "object"
+  },
+  "PriceReaction": {
+   "properties": {
+    "session": {
+     "type": "string"
+    },
+    "ret_pct": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "vol_ratio": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    }
+   },
+   "required": [
+    "session",
+    "ret_pct",
+    "vol_ratio"
+   ],
+   "title": "PriceReaction",
+   "type": "object"
+  },
+  "ResearchIndex": {
+   "properties": {
+    "reports": {
+     "items": {
+      "$ref": "#/$defs/ResearchIndexEntry"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "reports"
+   ],
+   "title": "ResearchIndex",
+   "type": "object"
+  },
+  "ResearchIndexEntry": {
+   "properties": {
+    "symbol": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "generated_at": {
+     "type": "string"
+    },
+    "promises": {
+     "type": "integer"
+    },
+    "missed": {
+     "type": "integer"
+    },
+    "kept": {
+     "type": "integer"
+    },
+    "pending": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "symbol",
+    "name",
+    "generated_at",
+    "promises",
+    "missed",
+    "kept",
+    "pending"
+   ],
+   "title": "ResearchIndexEntry",
+   "type": "object"
+  },
+  "ResearchReport": {
+   "properties": {
+    "schema_version": {
+     "default": 3,
+     "type": "integer"
+    },
+    "symbol": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "basis": {
+     "type": "string"
+    },
+    "generated_at": {
+     "type": "string"
+    },
+    "snapshot": {
+     "$ref": "#/$defs/Snapshot"
+    },
+    "narrative": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "promises": {
+     "items": {
+      "$ref": "#/$defs/Guidance"
+     },
+     "type": "array"
+    },
+    "cash": {
+     "$ref": "#/$defs/CashQuality"
+    },
+    "bull": {
+     "items": {
+      "$ref": "#/$defs/CasePoint"
+     },
+     "type": "array"
+    },
+    "bear": {
+     "items": {
+      "$ref": "#/$defs/CasePoint"
+     },
+     "type": "array"
+    },
+    "notes": {
+     "description": "what is missing, and why",
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "documents": {
+     "items": {
+      "$ref": "#/$defs/SourceDoc"
+     },
+     "type": "array"
+    },
+    "stats": {
+     "$ref": "#/$defs/ResearchStats"
+    }
+   },
+   "required": [
+    "symbol",
+    "name",
+    "basis",
+    "generated_at",
+    "snapshot",
+    "narrative",
+    "promises",
+    "cash",
+    "bull",
+    "bear",
+    "documents",
+    "stats"
+   ],
+   "title": "ResearchReport",
+   "type": "object"
+  },
+  "ResearchStats": {
+   "properties": {
+    "calls_read": {
+     "type": "integer"
+    },
+    "claims_found": {
+     "type": "integer"
+    },
+    "quotes_verified": {
+     "type": "integer"
+    },
+    "quotes_dropped": {
+     "type": "integer"
+    },
+    "graded_by_code": {
+     "type": "integer"
+    },
+    "graded_by_model": {
+     "type": "integer"
+    },
+    "ai_calls": {
+     "type": "integer"
+    },
+    "cached_calls": {
+     "type": "integer"
+    },
+    "models": {
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "seconds": {
+     "type": "number"
+    }
+   },
+   "required": [
+    "calls_read",
+    "claims_found",
+    "quotes_verified",
+    "quotes_dropped",
+    "graded_by_code",
+    "graded_by_model",
+    "ai_calls",
+    "cached_calls",
+    "models",
+    "seconds"
+   ],
+   "title": "ResearchStats",
+   "type": "object"
+  },
+  "ResultsCard": {
+   "description": "Headline numbers for one quarter versus last quarter and a year ago, in rupees crore.",
+   "properties": {
+    "type": {
+     "const": "results",
+     "default": "results",
+     "type": "string"
+    },
+    "symbol": {
+     "type": "string"
+    },
+    "period_end": {
+     "type": "string"
+    },
+    "period_label": {
+     "description": "Indian financial-year quarter, e.g. Q2 FY27",
+     "type": "string"
+    },
+    "basis": {
+     "type": "string"
+    },
+    "kind": {
+     "enum": [
+      "standard",
+      "bank"
+     ],
+     "type": "string"
+    },
+    "unit": {
+     "default": "\u20b9 crore",
+     "type": "string"
+    },
+    "metrics": {
+     "items": {
+      "$ref": "#/$defs/Metric"
+     },
+     "type": "array"
+    },
+    "margin_label": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null
+    },
+    "margin_pct": {
+     "description": "current, previous quarter, year ago",
+     "items": {
+      "anyOf": [
+       {
+        "type": "number"
+       },
+       {
+        "type": "null"
+       }
+      ]
+     },
+     "type": "array"
+    },
+    "source": {
+     "enum": [
+      "xbrl",
+      "filing_text",
+      "filing_image",
+      "screener"
+     ],
+     "type": "string"
+    },
+    "verified": {
+     "anyOf": [
+      {
+       "type": "boolean"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "True when it matches screener.in, False on a mismatch"
+    },
+    "check_note": {
+     "type": "string"
+    },
+    "share_of_associates": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Reported separately from PBT in the filing; shown so the check is transparent"
+    },
+    "source_urls": {
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    }
+   },
+   "required": [
+    "symbol",
+    "period_end",
+    "period_label",
+    "basis",
+    "kind",
+    "metrics",
+    "source",
+    "check_note",
+    "source_urls"
+   ],
+   "title": "ResultsCard",
+   "type": "object"
+  },
+  "Snapshot": {
+   "properties": {
+    "about": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "latest_quarter": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "revenue": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "revenue_yoy": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "net_profit": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "net_profit_yoy": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "ebitda_margin": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    }
+   },
+   "required": [
+    "about",
+    "latest_quarter",
+    "revenue",
+    "revenue_yoy",
+    "net_profit",
+    "net_profit_yoy",
+    "ebitda_margin"
+   ],
+   "title": "Snapshot",
+   "type": "object"
+  },
+  "SourceDoc": {
+   "properties": {
+    "label": {
+     "type": "string"
+    },
+    "kind": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string"
+    },
+    "pages": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "label",
+    "kind",
+    "url",
+    "pages"
+   ],
+   "title": "SourceDoc",
+   "type": "object"
+  }
+ },
+ "description": "Every file the app reads, in one schema, so its types are generated from this.",
+ "properties": {
+  "portfolio": {
+   "$ref": "#/$defs/Portfolio"
+  },
+  "filings": {
+   "$ref": "#/$defs/Filings"
+  },
+  "meta": {
+   "$ref": "#/$defs/Meta"
+  },
+  "research_report": {
+   "$ref": "#/$defs/ResearchReport"
+  },
+  "research_index": {
+   "$ref": "#/$defs/ResearchIndex"
+  },
+  "ask": {
+   "$ref": "#/$defs/AskAnswers"
+  }
+ },
+ "required": [
+  "portfolio",
+  "filings",
+  "meta",
+  "research_report",
+  "research_index",
+  "ask"
+ ],
+ "title": "FinnData",
+ "type": "object"
 }

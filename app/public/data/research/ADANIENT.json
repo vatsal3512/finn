@@ -1,0 +1,579 @@
+{
+ "schema_version": 3,
+ "symbol": "ADANIENT",
+ "name": "Adani Enterprises",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:52:00+00:00",
+ "snapshot": {
+  "about": "Adani Enterprises Limited operates an infrastructure-focused incubator portfolio spanning energy, utilities, transport, logistics, and primary industry.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 32924.0,
+  "revenue_yoy": 49.9,
+  "net_profit": -1462.0,
+  "net_profit_yoy": -249.8,
+  "ebitda_margin": 15.0
+ },
+ "narrative": "Management targeted aggressive capital expenditure and volume expansions, successfully scaling airport passenger traffic close to expectations. However, total income growth plateaued relative to historical gains, and cumulative cash generation remained negative despite reported operational profits.",
+ "promises": [
+  {
+   "id": "P1",
+   "metric": "Capital expenditure guidance",
+   "period": "FY26",
+   "target": "₹36,000 crore",
+   "statement": "Targeting capex of just over INR 36,000 crores in FY26.",
+   "said": {
+    "quote": "d we are on track in the following year of roughly around just over INR 36,000 crores.",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 6,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q2 FY26 call, 1 Nov 2025",
+    "Q3 FY26 call, 1 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "our total target that we had outlined was roughly INR36,000 crores",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 9,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "Capex target missed."
+  },
+  {
+   "id": "P9",
+   "metric": "Annual Passenger traffic",
+   "period": "FY26",
+   "target": "₹10 crore",
+   "statement": "Expect full-year FY26 passenger traffic just short of 100 million.",
+   "said": {
+    "quote": "we expect around number just short of 100 million for the year",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 3,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Financial performance during '25-'26, we had passenger traffic of 95.3 million passengers, total income of INR13,081 crores, up by 28% year-over-year",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 4,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Traffic reached 95.3 million."
+  },
+  {
+   "id": "P7",
+   "metric": "Navi Mumbai Phase 2 Capex",
+   "period": null,
+   "target": "₹30,000 crore",
+   "statement": "Phase 2 capex for Navi Mumbai Airport will be in the tune of INR 30,000 crore.",
+   "said": {
+    "quote": "We will restart, and it will be in the tune of INR30,000 crores",
+    "source": "Q2 FY26 call, 1 Nov 2025",
+    "page": 7,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q2-FY26-AEL_Earnings-Call-Transcript-v1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "City Side Capex Outlay",
+   "period": null,
+   "target": "₹20,000 crore",
+   "statement": "Total capex outlay planned for city side development is around INR 20,000 crore.",
+   "said": {
+    "quote": "So, the total capex outlay for the city side we have is around INR20,000 crores",
+    "source": "Q2 FY26 call, 1 Nov 2025",
+    "page": 10,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q2-FY26-AEL_Earnings-Call-Transcript-v1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P18",
+   "metric": "Peak EBITDA Contribution",
+   "period": null,
+   "target": "₹6,000–6,800 crore",
+   "statement": "Navi Mumbai Airport, Kutch Copper, and Ganga Expressway will together contribute INR 6,000–6,800 crores peak EBITDA.",
+   "said": {
+    "quote": "overall, these businesses will contribute at peak capacity somewhere between INR6,000 crores to INR6,800 crores",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 10,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "Rate of return on assets",
+   "period": "FY27",
+   "target": "12–14%",
+   "statement": "Expected return rate on Navi Mumbai Airport assets is between 12% and 14%.",
+   "said": {
+    "quote": "expected rate of return on assets of this type is in the range of 12% to 14%",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 3,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "Incremental EBITDA",
+   "period": "FY27",
+   "target": "≥ ₹3,000 crore",
+   "statement": "Navi Mumbai Airport, Kutch Copper, and Ganga Expressway are expected to add over INR 3,000 crores EBITDA in FY27.",
+   "said": {
+    "quote": "In the next fiscal year, AEL is set to unlock EBITDA from Navi Mumbai Airport, Kutch Copper and Ganga Expressway, which are expected to add over INR3,000 crores EBITDA to AEL",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 3,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P15",
+   "metric": "Capital Expenditure",
+   "period": "FY27",
+   "target": "₹40,000 crore",
+   "statement": "Management expects FY27 capital expenditure to be around INR 40,000 crores.",
+   "said": {
+    "quote": "We expect the next year to be around the same level, about INR40,000 crores",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 5,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P16",
+   "metric": "Airports Capex",
+   "period": "FY27",
+   "target": "₹17,000 crore",
+   "statement": "Airports business capex for FY27 will be approximately INR 17,000 crores.",
+   "said": {
+    "quote": "And of that, there are 3 core areas where the capex is, especially airports, which will be roughly, give or take, about INR17,000 crores",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 5,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "Mining Services Volume Growth",
+   "period": "FY27",
+   "target": "20%",
+   "statement": "Management expects high double-digit volume growth around 20% in Mining Services next fiscal year.",
+   "said": {
+    "quote": "You can expect that we will be high double-digit growth next year as well. So say close to 20% mark",
+    "source": "Q4 FY26 call, 1 Apr 2026",
+    "page": 6,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Mining services volume guidance",
+   "period": "H1 FY27",
+   "target": "60 MMT",
+   "statement": "Mining services dispatch volumes expected to reach close to 60 MMT over the next 18 months.",
+   "said": {
+    "quote": "we expect that we will be closer to 60 over the next 18 months based on the current demand patterns",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 4,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "Cell & Module commissioning milestone",
+   "period": "H1 FY27",
+   "target": null,
+   "statement": "New 6 GW solar cell and module lines expected ready by 30th September 2026.",
+   "said": {
+    "quote": "The new lines would be expected to be ready by 30th September this year",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 4,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P13",
+   "metric": "Cell & module capex",
+   "period": "H1 FY27",
+   "target": "₹10,000 crore",
+   "statement": "Total capex required for 6 GW cell and module project is INR 10,000 crores.",
+   "said": {
+    "quote": "The total capex for this project is around INR10,000 crores and it is on schedule completion",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 9,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Green hydrogen ecosystem capex",
+   "period": "FY26",
+   "target": "₹5,500 crore",
+   "statement": "Capex for the green hydrogen ecosystem will be roughly INR 5,500 crores in FY26.",
+   "said": {
+    "quote": "Green hydrogen ecosystem will be roughly 5,500",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 7,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Airports capex",
+   "period": "FY26",
+   "target": "₹10,500 crore",
+   "statement": "Capex for airports will be roughly INR 10,500 crores in FY26.",
+   "said": {
+    "quote": "Airports will be roughly 10,500",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 7,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "Roads capex",
+   "period": "FY26",
+   "target": "₹6,200 crore",
+   "statement": "Capex for roads will be roughly INR 6,200 crores in FY26.",
+   "said": {
+    "quote": "And roads will be roughly 6,200",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 7,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "PVC project capex",
+   "period": "FY26",
+   "target": "₹9,000 crore",
+   "statement": "Continuing work on the PVC business will add another INR 9,000 crores to capex in FY26.",
+   "said": {
+    "quote": "And then we expect the continuing work on PVC to add another about 9,000 to the capex",
+    "source": "Q4 FY25 call, 1 May 2025",
+    "page": 7,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "Coal to PVC capex spent",
+   "period": "Q3 FY26",
+   "target": "₹9,000 crore",
+   "statement": "Expensed capex on coal-to-PVC business is around INR 9,000 crores.",
+   "said": {
+    "quote": "currently, our capex that has already been expensed on that business is in the vicinity of about INR9,000 crores",
+    "source": "Q3 FY26 call, 1 Feb 2026",
+    "page": 8,
+    "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 1385.0,
+    "net_profit": 788.0,
+    "free_cash_flow": -10260.0,
+    "cash_conversion": 1.76,
+    "debtor_days": 72.0,
+    "inventory_days": 46.0,
+    "working_capital_days": -89.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 17626.0,
+    "net_profit": 2422.0,
+    "free_cash_flow": 2972.0,
+    "cash_conversion": 7.28,
+    "debtor_days": 36.0,
+    "inventory_days": 27.0,
+    "working_capital_days": -38.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 10312.0,
+    "net_profit": 3335.0,
+    "free_cash_flow": -11934.0,
+    "cash_conversion": 3.09,
+    "debtor_days": 37.0,
+    "inventory_days": 69.0,
+    "working_capital_days": -61.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 4513.0,
+    "net_profit": 8005.0,
+    "free_cash_flow": -25002.0,
+    "cash_conversion": 0.56,
+    "debtor_days": 36.0,
+    "inventory_days": 73.0,
+    "working_capital_days": -59.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 2357.0,
+    "net_profit": 9951.0,
+    "free_cash_flow": -30993.0,
+    "cash_conversion": 0.24,
+    "debtor_days": 46.0,
+    "inventory_days": 126.0,
+    "working_capital_days": -45.0
+   }
+  ],
+  "conversion_5y": 1.48,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹36,193 crore covered all of reported profit, ₹24,501 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/ADANIENT/consolidated/"
+   },
+   {
+    "quote": "Free cash flow was negative in 4 of 5 years, −₹75,217 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/ADANIENT/consolidated/"
+   },
+   {
+    "quote": "Inventory days rose from 69 to 126 between FY24 and FY26: cash is waiting longer in the business.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/ADANIENT/consolidated/"
+   }
+  ],
+  "read": "Operating cash flows covered reported profits over the five-year period, but intensive ongoing investments caused free cash flow to remain deeply negative."
+ },
+ "bull": [
+  {
+   "point": "Airport sector showed robust growth with passenger traffic reaching 95.3 million and segment EBITDA surging significantly.",
+   "evidence": [
+    {
+     "quote": "Financial performance during '25-'26, we had passenger traffic of 95.3 million passengers, total income of INR13,081 crores, up by 28% year-over-year",
+     "source": "Q4 FY26 call, 1 Apr 2026",
+     "page": 4,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+    },
+    {
+     "quote": "and EBITDA increased by 55% to INR5,394 crores on account of tariff revisions and non-aero growth",
+     "source": "Q4 FY26 call, 1 Apr 2026",
+     "page": 4,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Mining services maintained steady dispatch volume growth alongside expanding revenues and positive EBITDA contributions.",
+   "evidence": [
+    {
+     "quote": "During the year, the dispatch volume was up by 14% to 49.4 MMT, revenue up by 20% to INR4,536 crores and EBITDA up by 18% to INR1,986 crores",
+     "source": "Q4 FY26 call, 1 Apr 2026",
+     "page": 3,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The company successfully completed a large rights issue to support capital-intensive incubating infrastructure projects.",
+   "evidence": [
+    {
+     "quote": "we completed the rights issue raising INR24,930 crores",
+     "source": "Q3 FY26 call, 1 Feb 2026",
+     "page": 3,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Free cash flow was negative across four out of five years, indicating severe cash outflows.",
+   "evidence": [
+    {
+     "quote": "Free cash flow was negative in 4 of 5 years, −₹75,217 crore in total.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/ADANIENT/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Rising inventory days show cash is increasingly tied up within working capital.",
+   "evidence": [
+    {
+     "quote": "Inventory days rose from 69 to 126 between FY24 and FY26: cash is waiting longer in the business.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/ADANIENT/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Auditors noted that revenue recognition and coal inventory measurements involve critical estimates and significant management judgment.",
+   "evidence": [
+    {
+     "quote": "Material estimation by the Company is involved in recognition and measurement of its revenue",
+     "source": "Annual report 2026",
+     "page": 223,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a859a404-0859-451c-b8aa-f163631188c3.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Q1 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
+ "documents": [
+  {
+   "label": "Q4 FY26 call, 1 Apr 2026",
+   "kind": "transcript",
+   "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf",
+   "pages": 12
+  },
+  {
+   "label": "Q3 FY26 call, 1 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf",
+   "pages": 9
+  },
+  {
+   "label": "Q2 FY26 call, 1 Nov 2025",
+   "kind": "transcript",
+   "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q2-FY26-AEL_Earnings-Call-Transcript-v1.pdf",
+   "pages": 11
+  },
+  {
+   "label": "Q4 FY25 call, 1 May 2025",
+   "kind": "transcript",
+   "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY25-Earnings-Call-Transcript.pdf",
+   "pages": 9
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a859a404-0859-451c-b8aa-f163631188c3.pdf",
+   "pages": 396
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 53,
+  "quotes_verified": 53,
+  "quotes_dropped": 0,
+  "graded_by_code": 0,
+  "graded_by_model": 2,
+  "ai_calls": 5,
+  "cached_calls": 4,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.5-flash-lite",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 30.1
+ }
+}

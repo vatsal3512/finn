@@ -205,7 +205,9 @@ class Evidence(BaseModel):
 Verdict = Literal["beat", "met", "missed", "on_track", "at_risk", "pending", "unclear"]
 
 
-class Promise(BaseModel):
+class Guidance(BaseModel):
+    """One promise from a call, with what was delivered and who judged it."""
+
     id: str
     metric: str
     period: str | None
@@ -283,10 +285,52 @@ class ResearchReport(BaseModel):
     generated_at: str
     snapshot: Snapshot
     narrative: str | None
-    promises: list[Promise]
+    promises: list[Guidance]
     cash: CashQuality
     bull: list[CasePoint]
     bear: list[CasePoint]
     notes: list[str] = Field(default_factory=list, description="what is missing, and why")
     documents: list[SourceDoc]
     stats: ResearchStats
+
+
+class AskAnswer(BaseModel):
+    """'Ask about this': what management said about an event, with quotes found by code."""
+
+    symbol: str
+    question: str
+    addressed: bool
+    answer: str
+    evidence: list[Evidence] = Field(default_factory=list)
+    calls: list[str] = Field(description="the calls that were read")
+    model: str | None = None
+    asked_at: str
+
+
+class AskAnswers(BaseModel):
+    answers: dict[str, AskAnswer] = Field(description="by filing id")
+
+
+class ResearchIndexEntry(BaseModel):
+    symbol: str
+    name: str
+    generated_at: str
+    promises: int
+    missed: int
+    kept: int
+    pending: int
+
+
+class ResearchIndex(BaseModel):
+    reports: list[ResearchIndexEntry]
+
+
+class FinnData(BaseModel):
+    """Every file the app reads, in one schema, so its types are generated from this."""
+
+    portfolio: Portfolio
+    filings: Filings
+    meta: Meta
+    research_report: ResearchReport
+    research_index: ResearchIndex
+    ask: AskAnswers

@@ -1,0 +1,596 @@
+{
+ "schema_version": 3,
+ "symbol": "LT",
+ "name": "Larsen & Toubro",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:46:36+00:00",
+ "snapshot": {
+  "about": "Larsen & Toubro is an Indian conglomerate engaged in technology, engineering, construction, manufacturing, and financial services.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 78750.0,
+  "revenue_yoy": 15.8,
+  "net_profit": 5949.0,
+  "net_profit_yoy": 27.2,
+  "ebitda_margin": 11.0
+ },
+ "narrative": "Management promised 15% revenue growth for full year FY26, but missed it as FY26 revenue growth came in at 11.8%. However, order inflow growth exceeded expectations and working capital to revenue improved to 4.1% versus the 10% target.",
+ "promises": [
+  {
+   "id": "P2",
+   "metric": "Revenue growth guidance",
+   "period": "FY26",
+   "target": "15%",
+   "statement": "Company maintains full year FY26 revenue growth guidance at 15%.",
+   "said": {
+    "quote": "Accordingly, we maintain our full year revenue growth guidance at 15%",
+    "source": "Q2 FY26 call, 1 Oct 2025",
+    "page": 10,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 1 Jan 2026"
+   ],
+   "actual": "11.8%",
+   "actual_source": {
+    "quote": "Revenue growth guidance, FY26: 11.8%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/LT/consolidated/"
+   },
+   "verdict": "missed",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "P&M EBITDA margin target",
+   "period": "FY26",
+   "target": "8.5%",
+   "statement": "Company is confident to achieve full year P&M EBITDA margin target of 8.5%.",
+   "said": {
+    "quote": "With the execution momentum expected to pick up in H2, we are reasonably confident to achieve our full year EBITDA margin target of 8.5%",
+    "source": "Q2 FY26 call, 1 Oct 2025",
+    "page": 10,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 1 Jan 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "On this reclassified basis, the FY26 margins for Projects, Products and Manufacturing was 7.8%, and we expect the same to be stable as well in FY27 as well",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "Full year FY26 Projects, Products and Manufacturing margin was 7.8% against the 8.5% target."
+  },
+  {
+   "id": "P1",
+   "metric": "Order inflow growth guidance",
+   "period": "FY26",
+   "target": "≥ 10%",
+   "statement": "Company expects to exceed full year FY26 guidance of 10% growth in group order inflows.",
+   "said": {
+    "quote": "We are confident of exceeding our full year FY '26 guidance of 10% growth in group order inflows for the current year",
+    "source": "Q2 FY26 call, 1 Oct 2025",
+    "page": 9,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 1 Jan 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "Our nine months order inflow has seen a strong growth of 30% Y-on-Y based on a strong capex momentum",
+    "source": "Q3 FY26 call, 1 Jan 2026",
+    "page": 8,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Order inflows grew 30% YoY in 9M FY26 and order book expanded 28% YoY by March 2026."
+  },
+  {
+   "id": "P4",
+   "metric": "Working capital guidance",
+   "period": "FY26",
+   "target": "12%",
+   "statement": "Working capital guidance for FY26 remains unchanged at around 12% by March 2026.",
+   "said": {
+    "quote": "our guidance for working capital for FY '26 remains unchanged at around 12% by March 2026",
+    "source": "Q2 FY26 call, 1 Oct 2025",
+    "page": 10,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "As of March 2026, the Net Working Capital to Revenue ratio improved sharply to 4.1%, reflecting an improvement of 690 basis points on a YoY basis",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 6,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Net working capital to revenue ratio improved to 4.1% as of March 2026, well below 12%."
+  },
+  {
+   "id": "P5",
+   "metric": "Net Working Capital to Revenue Target",
+   "period": "FY26",
+   "target": "10%",
+   "statement": "Management revised the Net Working Capital to Revenue target to around 10% by March 2026.",
+   "said": {
+    "quote": "we expect to close the year with a revised target of around 10%",
+    "source": "Q3 FY26 call, 1 Jan 2026",
+    "page": 9,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "As of March 2026, the Net Working Capital to Revenue ratio improved sharply to 4.1%, reflecting an improvement of 690 basis points on a YoY basis",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 6,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Net working capital to revenue ratio improved to 4.1% as of March 2026, beating the 10% target."
+  },
+  {
+   "id": "P6",
+   "metric": "Order Inflow Growth Guidance",
+   "period": "FY27",
+   "target": "10–12%",
+   "statement": "Group order inflows are expected to grow 10% to 12% in FY27.",
+   "said": {
+    "quote": "Based on this visibility and the opportunities we are pursuing, we expect the group order inflows to grow in the range of 10% to 12% in FY27",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 28 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "Reflecting this momentum, the group order inflows at Rs. 1,080 billion, registered a 14% Y-on-Y growth",
+    "source": "Q1 FY27 call, 28 Jul 2026",
+    "page": 4,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Group order inflows grew 14% YoY in Q1 FY27 and guidance was reaffirmed."
+  },
+  {
+   "id": "P8",
+   "metric": "PP&M Margin Guidance",
+   "period": "FY27",
+   "target": "7.8%",
+   "statement": "Projects, Products and Manufacturing segment margins are expected to remain stable at around 7.8% in FY27.",
+   "said": {
+    "quote": "On this reclassified basis, the FY26 margins for Projects, Products and Manufacturing was 7.8%, and we expect the same to be stable as well in FY27 as well",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 28 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "In line with our Revenue growth guidance, we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio",
+    "source": "Q1 FY27 call, 28 Jul 2026",
+    "page": 11,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Management reaffirmed the 7.8% margin target for the PPM portfolio in FY27."
+  },
+  {
+   "id": "P9",
+   "metric": "Working Capital to Revenue Guidance",
+   "period": "FY27",
+   "target": "10%",
+   "statement": "Working capital to revenue is guided to normalize to around 10% in FY27.",
+   "said": {
+    "quote": "Accordingly, we are guiding the working capital to be around 10% in FY27, which remains well within our targeted range",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 28 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "The NWC to Sales ratio improved significantly to 4.9% in June 2026 from 10.1% in June 2025",
+    "source": "Q1 FY27 call, 28 Jul 2026",
+    "page": 6,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Working capital to sales was 4.9% in June 2026 and FY27 guidance of 10% was maintained."
+  },
+  {
+   "id": "P13",
+   "metric": "Industrial Electronics Capex",
+   "period": null,
+   "target": "₹5,000 crore",
+   "statement": "Envisages a capital outlay of around Rs 50 billion for Industrial Electronics over the plan period.",
+   "said": {
+    "quote": "Within the new business over the plan period, we envisage a capital outlay of approximately Rs 50 billion towards Industrial Electronics",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 12,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q4 FY26 call, 1 May 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "Semiconductor Capex",
+   "period": null,
+   "target": "₹3,000 crore",
+   "statement": "Envisages Rs 30 billion investment into the Semiconductor business during the plan period.",
+   "said": {
+    "quote": "Rs 30 billion into the Semiconductor business largely for the creation of proprietary IPs",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 12,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P15",
+   "metric": "Green Hydrogen Capex",
+   "period": null,
+   "target": "₹15,000 crore",
+   "statement": "Envisages Rs 150 billion investment in Green Hydrogen over the plan period.",
+   "said": {
+    "quote": "Rs 150 billion in Green Hydrogen where we are also actively evaluating options for strategic partnerships to optimize capital deployment",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 12,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P16",
+   "metric": "Data Center Capex",
+   "period": null,
+   "target": "₹10,000 crore",
+   "statement": "Envisages around Rs 100 billion towards the Data Center business over the plan period.",
+   "said": {
+    "quote": "and around Rs 100 billion towards the Data Center business",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 12,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "Realty Capex",
+   "period": null,
+   "target": "₹4,400 crore",
+   "statement": "Allocating almost Rs 44 billion for the Realty business primarily for commercial real estate development.",
+   "said": {
+    "quote": "We are allocating almost Rs 44 billion for the Realty business, primarily to fund development of commercial real estate",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 12,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Revenue Growth Guidance",
+   "period": "FY27",
+   "target": "10–12%",
+   "statement": "Group revenue growth for FY27 is projected between 10% and 12%.",
+   "said": {
+    "quote": "On Revenue, we expect growth to be in the range of 10% to 12% for FY27",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 28 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "Lakshya 31 Order Inflow CAGR",
+   "period": "FY31",
+   "target": "10–12%",
+   "statement": "Targeting 10% to 12% CAGR in order inflow growth over the 5-year Lakshya 31 plan.",
+   "said": {
+    "quote": "Concluding with the Lakshya guidance, over the next five years, we are targeting order inflow growth at a CAGR return of 10% to 12%",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "Lakshya 31 Revenue Growth CAGR",
+   "period": "FY31",
+   "target": "12–15%",
+   "statement": "Targeting 12% to 15% revenue CAGR over the 5-year Lakshya 31 period.",
+   "said": {
+    "quote": "revenue growth of 12% to 15%",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "Lakshya 31 ROE Target",
+   "period": "FY31",
+   "target": "16–17%",
+   "statement": "Targeting a Return on Equity between 16% and 17% over the Lakshya 31 plan.",
+   "said": {
+    "quote": "and a Return on Equity in the range of 16% to 17%",
+    "source": "Q4 FY26 call, 1 May 2026",
+    "page": 13,
+    "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 19164.0,
+    "net_profit": 10419.0,
+    "free_cash_flow": 16124.0,
+    "cash_conversion": 1.84,
+    "debtor_days": 108.0,
+    "inventory_days": 44.0,
+    "working_capital_days": 0.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 22777.0,
+    "net_profit": 12531.0,
+    "free_cash_flow": 18984.0,
+    "cash_conversion": 1.82,
+    "debtor_days": 89.0,
+    "inventory_days": 41.0,
+    "working_capital_days": 2.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 18266.0,
+    "net_profit": 15547.0,
+    "free_cash_flow": 14056.0,
+    "cash_conversion": 1.17,
+    "debtor_days": 81.0,
+    "inventory_days": 32.0,
+    "working_capital_days": -16.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 9151.0,
+    "net_profit": 17673.0,
+    "free_cash_flow": 5611.0,
+    "cash_conversion": 0.52,
+    "debtor_days": 77.0,
+    "inventory_days": 30.0,
+    "working_capital_days": -33.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 16741.0,
+    "net_profit": 18954.0,
+    "free_cash_flow": 12272.0,
+    "cash_conversion": 0.88,
+    "debtor_days": 77.0,
+    "inventory_days": 36.0,
+    "working_capital_days": -27.0
+   }
+  ],
+  "conversion_5y": 1.15,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹86,099 crore covered all of reported profit, ₹75,124 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/LT/consolidated/"
+   }
+  ],
+  "read": "Profits convert strongly into cash. Over FY22 to FY26, cumulative operating cash flow of ₹86,099 crore comfortably exceeded total reported profit of ₹75,124 crore."
+ },
+ "bull": [
+  {
+   "point": "Order book expanded strongly to ₹7.79 trillion in June 2026, up 27% YoY, providing robust revenue visibility.",
+   "evidence": [
+    {
+     "quote": "The total order book stood at Rs. 7.79 trillion as of June ‘26, up by 27% as compared to the June 25 level",
+     "source": "Q1 FY27 call, 28 Jul 2026",
+     "page": 5,
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Working capital management showed exceptional improvement, with net working capital to revenue ratio dropping to 4.1% in March 2026.",
+   "evidence": [
+    {
+     "quote": "As of March 2026, the Net Working Capital to Revenue ratio improved sharply to 4.1%, reflecting an improvement of 690 basis points on a YoY basis",
+     "source": "Q4 FY26 call, 1 May 2026",
+     "page": 6,
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Operating cash flows reliably convert profits into cash, with five-year cumulative cash flow from operations reaching ₹86,099 crore against ₹75,124 crore PAT.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹86,099 crore covered all of reported profit, ₹75,124 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/LT/consolidated/"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Full-year FY26 revenue growth of 11.8% missed the management guidance of 15%, while P&M segment margin fell short of the 8.5% target.",
+   "evidence": [
+    {
+     "quote": "Accordingly, we maintain our full year revenue growth guidance at 15%",
+     "source": "Q2 FY26 call, 1 Oct 2025",
+     "page": 10,
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+    },
+    {
+     "quote": "On the revenue front, growth for FY26 stood at 12% compared to our guidance of 15%",
+     "source": "Q4 FY26 call, 1 May 2026",
+     "page": 5,
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "quote": "On this reclassified basis, the FY26 margins for Projects, Products and Manufacturing was 7.8%, and we expect the same to be stable as well in FY27 as well",
+     "source": "Q4 FY26 call, 1 May 2026",
+     "page": 13,
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "point": "New Labour Codes regulation imposed a one-time negative impact of ₹11.9 billion on reported net profit in Q3 FY26.",
+   "evidence": [
+    {
+     "quote": "The reported PAT for Q3 FY '26 was at Rs 32 billion, down by 4% Y-o-Y, owing to a onetime impact of Rs 11.9 billion arising from the new Labour Codes regulation",
+     "source": "Q3 FY26 call, 1 Jan 2026",
+     "page": 4,
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Auditors highlight revenue recognition across complex long-term construction contracts based on stage of completion as a key audit matter.",
+   "evidence": [
+    {
+     "quote": "Revenues are recognised under Ind AS 115, “Revenue from Contracts with Customers” basis the nature and type of contracts (i.e., products, projects and services) involved",
+     "source": "Annual report 2026",
+     "page": 484,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 28 Jul 2026",
+   "kind": "transcript",
+   "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+   "pages": 26
+  },
+  {
+   "label": "Q4 FY26 call, 1 May 2026",
+   "kind": "transcript",
+   "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+   "pages": 28
+  },
+  {
+   "label": "Q3 FY26 call, 1 Jan 2026",
+   "kind": "transcript",
+   "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q2 FY26 call, 1 Oct 2025",
+   "kind": "transcript",
+   "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf",
+   "pages": 25
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf",
+   "pages": 756
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 59,
+  "quotes_verified": 59,
+  "quotes_dropped": 0,
+  "graded_by_code": 3,
+  "graded_by_model": 7,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 1.2
+ }
+}

@@ -1,0 +1,492 @@
+{
+ "schema_version": 3,
+ "symbol": "EMUDHRA",
+ "name": "eMudhra",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T08:02:19+00:00",
+ "snapshot": {
+  "about": "eMudhra provides digital trust, identity, cybersecurity, and certificate lifecycle management solutions internationally.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 191.0,
+  "revenue_yoy": 29.9,
+  "net_profit": 32.0,
+  "net_profit_yoy": 28.0,
+  "ebitda_margin": 26.0
+ },
+ "narrative": "Management targets ambitious top-line expansion and consistent PAT growth, backed by reported revenues and solid segment contributions like Cryptas. While operational metrics display strong sequential momentum, longer-term guidance remains open pending future financial verification.",
+ "promises": [
+  {
+   "id": "P1",
+   "metric": "Revenue target",
+   "period": "FY26",
+   "target": "₹700 crore",
+   "statement": "Company expects to achieve INR 700 crores in revenue for FY26.",
+   "said": {
+    "quote": "No, we will not revise it, we will achieve that Rs.700 crores",
+    "source": "Q3 FY26 call, 3 Feb 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
+   },
+   "repeated_in": [],
+   "actual": "₹702 crore",
+   "actual_source": {
+    "quote": "Revenue target, FY26: ₹702 crore",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
+   },
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "PAT Growth / Doubling Target",
+   "period": null,
+   "target": "100%",
+   "statement": "Management aims to double PAT over the next 3 years.",
+   "said": {
+    "quote": "Our ambition is to double PAT over the next 3 years",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "and PAT of INR 1,100 million, up 26%",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "Annual organic revenue growth vision",
+   "period": null,
+   "target": "18–20%",
+   "statement": "Company expects organic revenue growth of 18-20% per year over the three-year vision period.",
+   "said": {
+    "quote": "We are expecting organic growth of 18-20% per year",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Organic Revenue Growth",
+   "period": "FY27",
+   "target": "15–18%",
+   "statement": "Management expects FY27 organic revenue growth of 15% to 18%.",
+   "said": {
+    "quote": "This year we are expecting an organic growth of around, because the base has also increased around 15% to 18%",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "PAT Growth",
+   "period": "FY27",
+   "target": "25–30%",
+   "statement": "Management expects FY27 bottom line growth to be between 25% and 30%.",
+   "said": {
+    "quote": "But bottom line may be around between 25% to 30%",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Trust Services Revenue Growth",
+   "period": "FY27",
+   "target": "20%",
+   "statement": "Management estimates around 20% growth in Trust Services in FY27.",
+   "said": {
+    "quote": "This year we estimate 20% will come, but the balance growth predominantly will come in the enterprise product",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Enterprise Product Growth",
+   "period": "FY27",
+   "target": "25–30%",
+   "statement": "Enterprise product segment revenue is estimated to grow by 25% to 30% in FY27.",
+   "said": {
+    "quote": "So, there the growth we estimate is almost 25% to 30%",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Cryptas Net Profit",
+   "period": "FY27",
+   "target": "1 million (USD)",
+   "statement": "Management estimates over USD 1 million in profit from Cryptas in FY27.",
+   "said": {
+    "quote": "This year we are estimating almost over a million dollar of profit from the Cryptas",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Organic revenue growth",
+   "period": "FY27",
+   "target": "18%",
+   "statement": "Management targets organic revenue growth of 18% in FY27.",
+   "said": {
+    "quote": "that is to achieve an organic growth of 18% and work towards achieving a PAT growth of 25%",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "PAT growth",
+   "period": "FY27",
+   "target": "25%",
+   "statement": "Management aims for a 25% PAT growth in FY27.",
+   "said": {
+    "quote": "Overall, we are expecting 25% growth on PAT and then 18% growth on the top-line",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "EBITDA margin",
+   "period": "FY27",
+   "target": "25%",
+   "statement": "Company expects to maintain overall EBITDA margin around 25%.",
+   "said": {
+    "quote": "we may be able to maintain this EBITDA at 25% and the PAT around 16-16.5%",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "PAT margin",
+   "period": "FY27",
+   "target": "16–16.5%",
+   "statement": "Company expects to maintain PAT margin around 16% to 16.5%.",
+   "said": {
+    "quote": "we may be able to maintain this EBITDA at 25% and the PAT around 16-16.5%",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P13",
+   "metric": "PAT doubling horizon",
+   "period": "FY29",
+   "target": "2 x",
+   "statement": "Company targets to double PAT in three years by FY29.",
+   "said": {
+    "quote": "our vision is to have 2x PAT in three years",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 21,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Planned Capex",
+   "period": "FY26",
+   "target": "₹75–80 crore",
+   "statement": "Management foresees total FY26 capex of around INR 75 to INR 80 crores including data center.",
+   "said": {
+    "quote": "This year FY25-26, we planned about INR 60 crores or INR 62 crores something",
+    "source": "Q3 FY26 call, 3 Feb 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
+   },
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 22.0,
+    "net_profit": 41.0,
+    "free_cash_flow": -25.0,
+    "cash_conversion": 0.54,
+    "debtor_days": 88.0,
+    "inventory_days": 26.0,
+    "working_capital_days": 15.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 34.0,
+    "net_profit": 61.0,
+    "free_cash_flow": -28.0,
+    "cash_conversion": 0.56,
+    "debtor_days": 99.0,
+    "inventory_days": 13.0,
+    "working_capital_days": 107.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 73.0,
+    "net_profit": 76.0,
+    "free_cash_flow": -1.0,
+    "cash_conversion": 0.96,
+    "debtor_days": 101.0,
+    "inventory_days": 32.0,
+    "working_capital_days": 112.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 102.0,
+    "net_profit": 87.0,
+    "free_cash_flow": 18.0,
+    "cash_conversion": 1.17,
+    "debtor_days": 102.0,
+    "inventory_days": 16.0,
+    "working_capital_days": 100.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 133.0,
+    "net_profit": 110.0,
+    "free_cash_flow": -52.0,
+    "cash_conversion": 1.21,
+    "debtor_days": 98.0,
+    "inventory_days": 27.0,
+    "working_capital_days": 88.0
+   }
+  ],
+  "conversion_5y": 0.97,
+  "signals": [
+   {
+    "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
+   }
+  ],
+  "read": "Despite solid reported profits and operating cash flows in recent years, free cash flow remains negative over the broader five-year period due to heavy capital outlays."
+ },
+ "bull": [
+  {
+   "point": "Robust revenue and income expansion driven by solid performance in enterprise solutions and trust services.",
+   "evidence": [
+    {
+     "quote": "Net profit for the year has increased from INR 872.34 million to INR 1,100.38 million on a consolidated basis",
+     "source": "Annual report 2026",
+     "page": 155,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
+    },
+    {
+     "quote": "We closed the year with a total income of INR7,132 million, up 35% year-on-year",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+    },
+    {
+     "quote": "During the quarter, our total income grew by 28% YoY to INR 1,925 million",
+     "source": "Q1 FY27 call, 30 Jul 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Strong order book visibility supporting forward guidance and international segment contributions.",
+   "evidence": [
+    {
+     "quote": "Our current ratio in the fiscal stood at 2.9 times (average basis) consolidated, which measures our ability to pay short- term obligation",
+     "source": "Annual report 2026",
+     "page": 155,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
+    },
+    {
+     "quote": "And with the 238 crores order book that we have called out",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+    },
+    {
+     "quote": "Cryptas contributed approximately INR 200 million of revenue during what is typically a seasonally weak quarter in Europe",
+     "source": "Q1 FY27 call, 30 Jul 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Negative free cash flow historically despite growing reported net profits.",
+   "evidence": [
+    {
+     "quote": "The cash and cash equivalents decreased from INR 1,885.54 million to INR 1,268.48 Million (decrease of INR 617.06 Million)",
+     "source": "Annual report 2026",
+     "page": 154,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
+    },
+    {
+     "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Significant exposure to contingent liabilities relating to partner stock repurchase obligations.",
+   "evidence": [
+    {
+     "quote": "The Contingent liabilities on a consolidated and standalone basis as on March 31, 2026 stood at INR 32.29 million as against INR 210.58 million as on March 31, 2025",
+     "source": "Annual report 2026",
+     "page": 154,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 30 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf",
+   "pages": 28
+  },
+  {
+   "label": "Q4 FY26 call, 7 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf",
+   "pages": 12
+  },
+  {
+   "label": "Q3 FY26 call, 3 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf",
+   "pages": 16
+  },
+  {
+   "label": "Investor call, 6 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a626003-dd49-439d-a0f4-5cb42edb5122.pdf",
+   "pages": 7
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf",
+   "pages": 369
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 40,
+  "quotes_verified": 40,
+  "quotes_dropped": 0,
+  "graded_by_code": 6,
+  "graded_by_model": 0,
+  "ai_calls": 5,
+  "cached_calls": 2,
+  "models": [
+   "gemini-3.5-flash-lite",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 157.9
+ }
+}

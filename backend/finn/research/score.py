@@ -60,7 +60,9 @@ class Actuals:
         latest = self.latest["quarters"] if gran != "year" else self.latest["profit_loss"]
         return bool(latest) and end <= latest
 
-    def series_value(self, metric_key: str, end: str, gran: str) -> float | None:
+    def series_value(
+        self, metric_key: str, end: str, gran: str, compared_with: str | None = "year_ago"
+    ) -> float | None:
         if metric_key not in SERIES or gran not in ("year", "quarter"):
             return None
         item, kind = SERIES[metric_key]
@@ -75,7 +77,13 @@ class Actuals:
         current = self.get(st, item, end)
         if kind != "growth" or current is None:
             return current
-        before = self.get(st, item, f"{int(end[:4]) - 1}{end[4:]}")
+        if gran == "quarter" and compared_with is None:
+            return None  # "10% growth this quarter": over a year ago or last quarter? Unknown.
+        if gran == "quarter" and compared_with == "previous_period":
+            y, m = int(end[:4]), int(end[5:7]) - 3
+            before = self.get(st, item, f"{y - 1}-{m + 12:02d}" if m <= 0 else f"{y}-{m:02d}")
+        else:  # a year's growth is always over the year before
+            before = self.get(st, item, f"{int(end[:4]) - 1}{end[4:]}")
         if not before or before <= 0:
             return None
         return round((current / before - 1) * 100, 1)
@@ -160,9 +168,15 @@ def deadline_passed(claim, act: Actuals) -> bool | None:
 def target_text(claim) -> str | None:
     lo, hi, unit = claim.low, claim.high, (claim.unit or "").strip()
     if lo is None and hi is None:
-        return None
+        positive = claim.metric_key == "cash_flow" and POSITIVE.search(claim.statement)
+        return "positive" if positive else None
     if lo == 0 and hi is None:  # "turn cash positive" arrives as at least ₹0
         return "positive"
+    factor = crore_factor(unit) if _is_rupee(claim.basis) else None
+    if factor and factor != 1:  # "INR 40,000 million" reads as ₹4,000 crore beside a crore actual
+        lo = lo * factor if lo is not None else None
+        hi = hi * factor if hi is not None else None
+        unit = "crore"
 
     def num(x: float) -> str:
         return f"{x:,.0f}" if abs(x) >= 100 else f"{x:g}"
@@ -203,7 +217,7 @@ def grade(d: Draft, act: Actuals, outcomes: list[tuple[Verified, Call]]) -> Grad
         cfo = act.get("cash_flow", "Cash from Operating Activity", end)
         if cfo is None:
             return None
-        return Grade("met" if cfo > 0 else "missed", f"{money(cfo)} operating cash flow")
+        return Grade("met" if cfo > 0 else "missed", money(cfo))
 
     kind = _kind(c.metric_key)
     if not kind:
@@ -217,7 +231,7 @@ def grade(d: Draft, act: Actuals, outcomes: list[tuple[Verified, Call]]) -> Grad
     lower_better = kind == "days"
 
     if _is_rupee(c.basis):
-        actual = act.series_value(c.metric_key, end, gran)
+        actual = act.series_value(c.metric_key, end, gran, c.compared_with)
         if actual is not None:
             return Grade(compare(*target, actual, tol, lower_better), fmt_value(actual, kind))
 
@@ -225,7 +239,8 @@ def grade(d: Draft, act: Actuals, outcomes: list[tuple[Verified, Call]]) -> Grad
     for o, call in reversed(outcomes):
         oc = o.claim
         same_basis = _is_rupee(oc.basis) == _is_rupee(c.basis)
-        if oc.metric_key == c.metric_key and oc.scope == "company" and same_basis \
+        same_comparison = oc.compared_with == c.compared_with or gran == "year"
+        if oc.metric_key == c.metric_key and oc.scope == "company" and same_basis and same_comparison \
                 and periods.parse(oc.period) == p and oc.low is not None:  # fmt: skip
             value = _target_in(oc, kind)
             if value and value[0] is not None:

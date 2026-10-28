@@ -16,12 +16,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Audio recording link of Q2 FY27 earnings call",
-    "summary": "The audio recording of the investor call held on 27th October 2026 for Q2 FY27 financial results has been uploaded to the company's website.",
+    "title": "Audio Recording of Investors Call Released",
+    "summary": "Maruti Suzuki India Limited has uploaded the audio recording of its investors' call held on October 27, 2026, regarding Q2 FY27 results to its website.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "earnings_call"
@@ -127,16 +127,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026185613_Interim_Dividend_update.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Interim dividend declared for financial year 2026-27",
-    "summary": "The board approved an interim dividend of ₹5/- per equity share for the financial year 2026-27, subject to tax deduction at source.",
+    "title": "Interim Dividend of Rs 5 declared",
+    "summary": "The board approved an interim dividend of ₹5 per equity share for the financial year 2026-27 with a record date of 03 November 2026.",
     "why_it_matters": null,
     "sentiment": "positive",
-    "amount_inr_crore": 0.0,
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "dividend",
-    "postal_ballot"
+    "dividend"
    ],
    "cards": [],
    "price_reaction": null,
@@ -187,16 +186,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026180421_Investor_Presentation.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Corporate investors presentation on performance published",
-    "summary": "The company has uploaded a corporate investors presentation on its performance for the quarter and period ended on 30 September 2026.",
+    "title": "Corporate Investors Presentation uploaded",
+    "summary": "The company uploaded a corporate investors presentation on company performance for the quarter and period ended on 30 September 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "investor_meetings",
-    "press_release"
+    "investor_meetings"
    ],
    "cards": [],
    "price_reaction": null,
@@ -221,11 +219,11 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026174059_Record_date_for_Interim_dividend.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Record date set for interim dividend 2026-27",
-    "summary": "The board fixed 03 November 2026 as the record date for the interim dividend of ₹5/- per share, payable on or before 26 November 2026.",
+    "title": "Record Date set for Interim Dividend",
+    "summary": "The board fixed 03 November 2026 as the record date for the interim dividend of ₹5 per share, payable on or before 26 November 2026.",
     "why_it_matters": null,
     "sentiment": "positive",
-    "amount_inr_crore": 0.0,
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
@@ -358,12 +356,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Q2 FY27 investor presentation released",
-    "summary": "The company released its investor presentation for Q2 and H1 FY27 standalone results, reporting total sales volume of 696,654 units.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
+    "title": "Investor Presentation on Q2 FY27 Results",
+    "summary": "Maruti Suzuki India Limited released its investor presentation for Q2 FY27 results, showing total sales volume reached 696,654 units during the quarter.",
+    "why_it_matters": "Revenue rose 26.0% YoY to ₹53,355.5 crore, but EBITDA margin dropped to 8.9% from 12.0% a year ago.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -392,12 +390,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Q2 FY27 press release highlights record sales",
-    "summary": "The company reported record quarterly sales volume of 696,654 units, up 26.5% YoY, and highest-ever Net Sales of INR 506,155 million.",
-    "why_it_matters": "Domestic market share reached 40.8%, supported by small car sales up 35.9% and SUV sales up 68.2%, leaving 200,000 pending bookings.",
-    "sentiment": "positive",
-    "amount_inr_crore": 50615.5,
-    "model": "gemini-3.8-flash"
+    "title": "Press Release on Q2 FY27 Financial Results",
+    "summary": "Maruti Suzuki reported highest-ever quarterly sales volume of 696,654 units (up 26.5% YoY) and net sales of INR 506,155 million in Q2 FY27.",
+    "why_it_matters": "Consolidated PAT dropped 26.4% YoY to ₹2,466.1 crore due to EBITDA margin narrowing from 12.0% to 8.9%.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -426,12 +424,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Q2 FY27 profit falls despite revenue growth",
-    "summary": "Q2 FY27 PAT fell 28.5% QoQ and 26.4% YoY to ₹2,466.1 crore, while revenue grew 26.0% YoY to ₹53,355.5 crore.",
-    "why_it_matters": "EBITDA margin contracted sharply to 8.9% from 12.0% a year ago, dragging down profitability despite strong top-line expansion.",
+    "title": "Quarterly Financial Results Submitted",
+    "summary": "Maruti Suzuki India Limited submitted its financial results for the quarter ended September 30, 2026.",
+    "why_it_matters": "Profit after tax fell 26.4% YoY to ₹2,466.1 crore as EBITDA margin contracted from 12.0% to 8.9%.",
     "sentiment": "negative",
-    "amount_inr_crore": 53355.5,
-    "model": "gemini-3.8-flash"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -518,7 +516,7 @@
    "exchange_label": "Giving guarantees/indemnity/ becoming a surety for third party",
    "headline": "Mazagon Dock Shipbuilders Limited has informed the Exchange about Disclosure under Para B of Part A of Schedule III read with Regulation 30 of the SEBI (Listing Obligations andDisclosure Requirements) Regulations, 2015.",
    "category": "fund_raise",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -526,12 +524,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026145940_SBLC_to_CDPLC.PDF",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Credit facility of ₹1,250 crore approved for subsidiary",
-    "summary": "The board approved additional credit facilities of ₹1,250 Crores with SBI Mumbai to issue an SBLC for subsidiary Colombo Dockyard PLC.",
-    "why_it_matters": "The ₹1,250 Crores credit support represents nearly 10% of annual revenue of about ₹12,840 crore.",
+    "title": "Credit Facility Approved for Subsidiary",
+    "summary": "Mazagon Dock approved availing additional credit facilities of ₹1,250 Crores with SBI to issue an SBLC for subsidiary Colombo Dockyard PLC.",
+    "why_it_matters": "The ₹1,250 Crores facility represents about 10% of Mazagon Dock's annual revenue of about ₹12,840 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": 1250.0,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -542,7 +540,7 @@
     "ret_pct": -6.453,
     "vol_ratio": 6.734
    },
-   "score": 135.0,
+   "score": 75.0,
    "group_id": "MAZDOCK:fund_raise:2026-10-27",
    "group_lead": true,
    "duplicate_of": null
@@ -593,12 +591,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026144923_Outcome_of_BM_27102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Q2 FY27 net profit drops 53.8% YoY",
-    "summary": "Q2 FY27 PAT dropped 53.8% YoY to ₹346.4 crore on a 16.5% decline in revenue to ₹2,446.1 crore, alongside an interim dividend.",
-    "why_it_matters": "EBITDA margin collapsed to 8.1% from 23.7% a year ago as EBITDA dropped 71.3% YoY to ₹199.2 crore.",
+    "title": "Q2 FY27 Results and Interim Dividend Announced",
+    "summary": "Mazagon Dock approved Q2 FY27 financial results, declared an interim dividend of ₹5 per share, and proposed increasing authorized share capital.",
+    "why_it_matters": "EBITDA fell 71.3% YoY to ₹199.2 crore as EBITDA margin contracted sharply from 23.7% to 8.1%.",
     "sentiment": "negative",
-    "amount_inr_crore": 2446.1,
-    "model": "gemini-3.8-flash"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -631,12 +629,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026143906_Outcome_of_BM_27102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Q2 FY27 net profit drops 53.8% YoY",
-    "summary": "Q2 FY27 PAT dropped 53.8% YoY to ₹346.4 crore on a 16.5% decline in revenue to ₹2,446.1 crore, alongside an interim dividend.",
-    "why_it_matters": "EBITDA margin collapsed to 8.1% from 23.7% a year ago as EBITDA dropped 71.3% YoY to ₹199.2 crore.",
+    "title": "Q2 FY27 Results and Interim Dividend Announced",
+    "summary": "Mazagon Dock approved Q2 FY27 financial results, declared an interim dividend of ₹5 per share, and proposed increasing authorized share capital.",
+    "why_it_matters": "EBITDA fell 71.3% YoY to ₹199.2 crore as EBITDA margin contracted sharply from 23.7% to 8.1%.",
     "sentiment": "negative",
-    "amount_inr_crore": 2446.1,
-    "model": "gemini-3.8-flash"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -732,12 +730,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026131704_Letter_to_Exchange.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Board Approves Incorporation of Not-For-Profit Subsidiary",
-    "summary": "The Board approved the incorporation of OSAMU SUZUKI CENTRE OF EXCELLENCE (OSCOE) FOUNDATION as a wholly owned Section 8 not-for-profit subsidiary.",
+    "title": "Board approves incorporation of wholly owned subsidiary foundation",
+    "summary": "Maruti Suzuki's Board approved the incorporation of a wholly owned Section 8 not-for-profit subsidiary named Osamu Suzuki Centre of Excellence Foundation.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "M&A"
@@ -799,12 +797,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Anup Bagchi Assumes Charge as MD and CEO",
-    "summary": "Anup Bagchi has assumed charge as MD & CEO effective October 27, 2026, succeeding Sashidhar Jagdishan who vacated office upon tenure completion.",
-    "why_it_matters": "Bagchi, previously MD & CEO of ICICI Prudential Life and ED of ICICI Bank, takes leadership of India's largest private bank.",
+    "title": "Anup Bagchi assumes role as MD and CEO",
+    "summary": "Anup Bagchi has taken charge as Managing Director and CEO of HDFC Bank following Sashidhar Jagdishan's exit upon completion of tenure on October 26, 2026.",
+    "why_it_matters": "Anup Bagchi transitions from leading ICICI Prudential Life Insurance to head HDFC Bank following the completion of Sashidhar Jagdishan's tenure.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -870,12 +868,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026232529_PersistentSEOutcomeAllotmentofsharesOct262026IIFLSigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Allotment of QIP Equity Shares for INR 42,646.09 Million",
-    "summary": "A board committee approved the allotment of 7,683,981 equity shares via QIP at INR 5,550.00 per share, raising INR 42,646.09 million.",
-    "why_it_matters": "The raise represents about a quarter of annual revenue (₹16,801 crore) and expands the paid-up equity base from 158,150,000 to 165,833,981 shares.",
+    "title": "Allotment of QIP equity shares raising INR 42,646.09 million",
+    "summary": "Persistent Systems approved the allotment of 7,683,981 equity shares to QIBs at INR 5,550.00 per share, raising INR 42,646.09 million.",
+    "why_it_matters": "The capital raised via this QIP represents over 25% of the company's annual revenue of about ₹16,801 crore.",
     "sentiment": "positive",
     "amount_inr_crore": 4264.61,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -907,12 +905,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026232129_PersistentSEOutcomeAllotmentofsharesOct262026IIFLSigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Allotment of QIP Equity Shares for INR 42,646.09 Million",
-    "summary": "A board committee approved the allotment of 7,683,981 equity shares via QIP at INR 5,550.00 per share, raising INR 42,646.09 million.",
-    "why_it_matters": "The raise represents about a quarter of annual revenue (₹16,801 crore) and expands the paid-up equity base from 158,150,000 to 165,833,981 shares.",
+    "title": "Allotment of QIP equity shares raising INR 42,646.09 million",
+    "summary": "Persistent Systems approved the allotment of 7,683,981 equity shares to QIBs at INR 5,550.00 per share, raising INR 42,646.09 million.",
+    "why_it_matters": "The capital raised via this QIP represents over 25% of the company's annual revenue of about ₹16,801 crore.",
     "sentiment": "positive",
     "amount_inr_crore": 4264.61,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -925,7 +923,7 @@
    },
    "score": 110.0,
    "group_id": "PERSISTENT:fund_raise:2026-10-26",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -935,7 +933,7 @@
    "filed_at": "2026-10-26T22:30:41+05:30",
    "exchange_label": "General Updates",
    "headline": "One 97 Communications Limited has informed the Exchange about Closure of board meeting",
-   "category": "agm_egm",
+   "category": "unclassified",
    "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -945,14 +943,14 @@
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
     "title": "Board meeting concluded",
-    "summary": "The meeting of the Board of Directors concluded after starting earlier in the day.",
+    "summary": "The company notified that its board meeting which commenced on October 26, 2026 at 07:51 p.m. concluded at 10:15 p.m.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "agm_egm"
+    "unclassified"
    ],
    "cards": [],
    "price_reaction": {
@@ -961,8 +959,8 @@
     "vol_ratio": 1.531
    },
    "score": 0.0,
-   "group_id": "PAYTM:agm_egm:2026-10-26",
-   "group_lead": true,
+   "group_id": "PAYTM:unclassified:2026-10-26",
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -1011,12 +1009,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026212756_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Quarterly and half-year results with investment plan",
-    "summary": "Profit after tax surged 971.4% YoY to INR 225 crore in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose to 10.2%, showing improved cost efficiency.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 profit after tax surges to ₹225 crore",
+    "summary": "Paytm reported consolidated Q2 FY27 PAT of ₹225.0 crore, up 971.4% YoY, while revenue rose 28.5% YoY to ₹2,648.0 crore.",
+    "why_it_matters": "Profit after tax saw the largest move, rising 971.4% YoY as EBITDA margins expanded from 6.8% to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -1049,12 +1047,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026212523_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Quarterly and half-year results with investment plan",
-    "summary": "Profit after tax surged 971.4% YoY to INR 225 crore in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose to 10.2%, showing improved cost efficiency.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 profit after tax surges to ₹225 crore",
+    "summary": "Paytm reported consolidated Q2 FY27 PAT of ₹225.0 crore, up 971.4% YoY, while revenue rose 28.5% YoY to ₹2,648.0 crore.",
+    "why_it_matters": "Profit after tax saw the largest move, rising 971.4% YoY as EBITDA margins expanded from 6.8% to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -1087,12 +1085,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026212036_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Quarterly and half-year results with investment plan",
-    "summary": "Profit after tax surged 971.4% YoY to INR 225 crore in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose to 10.2%, showing improved cost efficiency.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 profit after tax surges to ₹225 crore",
+    "summary": "Paytm reported consolidated Q2 FY27 PAT of ₹225.0 crore, up 971.4% YoY, while revenue rose 28.5% YoY to ₹2,648.0 crore.",
+    "why_it_matters": "Profit after tax saw the largest move, rising 971.4% YoY as EBITDA margins expanded from 6.8% to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -1125,12 +1123,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026211823_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Quarterly and half-year results with investment plan",
-    "summary": "Profit after tax surged 971.4% YoY to INR 225 crore in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose to 10.2%, showing improved cost efficiency.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 profit after tax surges to ₹225 crore",
+    "summary": "Paytm reported consolidated Q2 FY27 PAT of ₹225.0 crore, up 971.4% YoY, while revenue rose 28.5% YoY to ₹2,648.0 crore.",
+    "why_it_matters": "Profit after tax saw the largest move, rising 971.4% YoY as EBITDA margins expanded from 6.8% to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -1155,7 +1153,7 @@
    "exchange_label": "General Updates",
    "headline": "One 97 Communications Limited has informed the Exchange about the Earnings Release for the quarter and half year ended September 30, 2026.",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -1163,16 +1161,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026205445_SEDisclosureReg30EarningRelease.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Quarterly earnings release for Q2 FY27",
-    "summary": "Revenue grew 28% YoY and EBITDA rose 90% YoY in Q2 FY27.",
-    "why_it_matters": "EBITDA margin improved, indicating stronger profitability.",
-    "sentiment": "neutral",
+    "title": "Q2 FY2027 earnings release highlights YoY revenue growth",
+    "summary": "Paytm released its Q2 FY2027 earnings report highlighting a 28% YoY increase in revenue and 90% YoY increase in EBITDA driven by AI adoption.",
+    "why_it_matters": null,
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
-    "results",
-    "M&A"
+    "results"
    ],
    "cards": [],
    "price_reaction": {
@@ -1180,7 +1177,7 @@
     "ret_pct": -3.209,
     "vol_ratio": 1.531
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "PAYTM:results:2026-10-26",
    "group_lead": false,
    "duplicate_of": null
@@ -1201,12 +1198,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026205147_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Quarterly and half-year results with investment plan",
-    "summary": "Profit after tax surged 971.4% YoY to INR 225 crore in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose to 10.2%, showing improved cost efficiency.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 profit after tax surges to ₹225 crore",
+    "summary": "Paytm reported consolidated Q2 FY27 PAT of ₹225.0 crore, up 971.4% YoY, while revenue rose 28.5% YoY to ₹2,648.0 crore.",
+    "why_it_matters": "Profit after tax saw the largest move, rising 971.4% YoY as EBITDA margins expanded from 6.8% to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -1392,15 +1389,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_26102026194240_InvestorpresentationF.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Investor presentation released for Q2 and H1 FY27",
-    "summary": "Q2 FY27 consolidated revenue reached 1,232 crore, up 20% YoY, and EBITDA reached 166 crore, up 52% YoY with an EBITDA margin of 13.5%.",
-    "why_it_matters": "Consolidated EBITDA grew by 52% YoY to reach 166 crore on revenues of 1,232 crore, demonstrating strong operational leverage.",
+    "title": "Investor Presentation for Q2 and H1 FY27",
+    "summary": "The company released its investor presentation for the quarter and half-year ended September 30, 2026, highlighting strong segment metrics and growth.",
+    "why_it_matters": null,
     "sentiment": "positive",
-    "amount_inr_crore": 166.0,
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "results",
     "investor_meetings"
    ],
    "cards": [],
@@ -1409,9 +1405,9 @@
     "ret_pct": 0.262,
     "vol_ratio": 2.033
    },
-   "score": 70.0,
-   "group_id": "NAZARA:results:2026-10-26",
-   "group_lead": false,
+   "score": 50.0,
+   "group_id": "NAZARA:investor_meetings:2026-10-26",
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -1422,7 +1418,7 @@
    "exchange_label": "Press Release",
    "headline": "Nazara Technologies Limited informs the Exchange regarding a press release dated October 26, 2026, titled Nazara reports record Q2FY27: revenue up 53% to INR 803 crore, EBITDA up 93% to INR 120 crore.",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -1430,12 +1426,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_26102026193838_PRIntimationF.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Record Q2 FY27 results announced",
-    "summary": "Revenue reached INR 803 crore, up 53% YoY, and EBITDA rose 93% YoY to INR 120 crore.",
-    "why_it_matters": "EBITDA margin expanded to 14.9%, reflecting strong profitability.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 803.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 press release reports record quarterly revenue",
+    "summary": "Nazara Technologies issued a press release reporting Q2 FY27 consolidated revenue of ₹803.1 crore, up 52.6% YoY, and PAT of ₹35.4 crore.",
+    "why_it_matters": "EBITDA jumped 88.8% YoY to ₹112.9 crore as EBITDA margin expanded to 14.1% from 11.4% a year ago.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -1446,7 +1442,7 @@
     "ret_pct": 0.262,
     "vol_ratio": 2.033
    },
-   "score": 130.0,
+   "score": 70.0,
    "group_id": "NAZARA:results:2026-10-26",
    "group_lead": false,
    "duplicate_of": null
@@ -1467,12 +1463,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_26102026193442_OutcomeofBoardMeetingF.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Quarterly and half-year results filed",
-    "summary": "Revenue hit INR 803 crore, up 53% YoY, EBITDA 112.9 crore, margin 14.1% in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose from 5.8% to 14.1%, indicating strong profit growth.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 803.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 Results Announced",
+    "summary": "Nazara Technologies reported its Q2 FY27 results, with profit after tax rising 204.2% YoY to ₹35.4 crore.",
+    "why_it_matters": "Profit before tax fell 72.9% YoY to ₹49.2 crore despite revenue increasing 52.6% YoY to ₹803.1 crore.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -1496,7 +1492,7 @@
    "exchange_label": "Committee Meeting Updates",
    "headline": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 26, 2026.",
    "category": "fund_raise",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -1504,12 +1500,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026192958_PersistentSEOutcomeQIPissueclosingOct262026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Qualified Institutional Placement approved",
-    "summary": "Board approved issuance of 7,683,981 equity shares at INR 5,550 each.",
-    "why_it_matters": "Discount of INR 211 per share (3.66% below floor) represents modest capital raise.",
+    "title": "QIP Issue Closure and Share Allocation",
+    "summary": "Persistent Systems approved the closure of its QIP issue and allocated 7,683,981 equity shares at an issue price of INR 5,550.00 per share.",
+    "why_it_matters": "The equity shares were allocated at a discount of INR 211.00 per share, representing a 3.66% discount to the floor price.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -1520,9 +1516,9 @@
     "ret_pct": -0.299,
     "vol_ratio": 1.277
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "PERSISTENT:fund_raise:2026-10-26",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -1541,12 +1537,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_26102026192123_OutcomeofBoardMeetingF.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Quarterly and half-year results filed",
-    "summary": "Revenue hit INR 803 crore, up 53% YoY, EBITDA 112.9 crore, margin 14.1% in Q2 FY27.",
-    "why_it_matters": "EBITDA margin rose from 5.8% to 14.1%, indicating strong profit growth.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 803.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Q2 FY27 Results Announced",
+    "summary": "Nazara Technologies reported its Q2 FY27 results, with profit after tax rising 204.2% YoY to ₹35.4 crore.",
+    "why_it_matters": "Profit before tax fell 72.9% YoY to ₹49.2 crore despite revenue increasing 52.6% YoY to ₹803.1 crore.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -1671,12 +1667,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_26102026122925_SE_Intimation_of_allotment_of_NCDs_26_Oct_2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Non-convertible debentures worth INR 7,816 crore allotted",
-    "summary": "Sun Pharma completed private placement of NCDs totaling INR 7,816 crore, fully subscribed.",
-    "why_it_matters": "Greenshoe exercised for additional INR 816 crore, showing strong investor demand.",
+    "title": "Allotment of INR 7,816 Crore NCDs",
+    "summary": "Sun Pharma completed the private placement allotment of rated, listed, unsecured, redeemable non-convertible debentures totaling INR 7,816 crore.",
+    "why_it_matters": "The fund raise of INR 7,816 crore represents approximately 13% of the company's annual revenue of about ₹59,911 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": 7816.0,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -1738,9 +1734,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_24102026214355_RIL_SE_241026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Jio Platforms finalises IPO issue price at INR 1,119 per share",
-    "summary": "Subsidiary Jio Platforms finalised its IPO issue price at ₹1,119 per equity share following the subscription period.",
-    "why_it_matters": "Finalises the fresh issue of up to 27,00,00,000 equity shares of face value ₹10 each.",
+    "title": "Jio Platforms Limited finalises IPO price",
+    "summary": "Subsidiary Jio Platforms Limited finalised its IPO issue price at ₹1,119 per share after the subscription period closed on October 23, 2026.",
+    "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -1797,7 +1793,7 @@
    "exchange_label": "General Updates",
    "headline": "Indusind Bank Limited has informed the Exchange about Newspaper clippings pertaining to the Unaudited Consolidated and Standalone Financial Results for the quarter and half year ended September 30, 2026",
    "category": "results",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "results_text",
    "needs_ai": false,
@@ -1805,12 +1801,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK3_24102026114939_SEDisclosure_NewspaperAdv24102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Unaudited Q2 FY27 Financial Results Newspaper Clippings",
-    "summary": "Unaudited consolidated profit after tax rose 19.7% QoQ to ₹1,241.8 crore, up 384.2% YoY.",
-    "why_it_matters": "Operating profit before provisions grew 3.6% QoQ, highlighting improving earnings beyond the profit surge.",
-    "sentiment": "positive",
-    "amount_inr_crore": 1241.8,
-    "model": "openai/gpt-oss-120b"
+    "title": "Newspaper Publication of Financial Results",
+    "summary": "IndusInd Bank submitted newspaper clippings regarding its unaudited standalone and consolidated financial results for the quarter ended September 30, 2026.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -1889,7 +1885,7 @@
     "ret_pct": 1.138,
     "vol_ratio": 0.928
    },
-   "score": 120.0,
+   "score": 20.0,
    "group_id": "INDUSINDBK:results:2026-10-24",
    "group_lead": true,
    "duplicate_of": null
@@ -1910,11 +1906,11 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_24102026102410_STxIntimation_VictorisAURUM_24Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Q2 FY27 consolidated revenue rises to 53,355.5 crore",
-    "summary": "Consolidated Q2 FY27 revenue grew 26.0% YoY to 53,355.5 crore, while profit after tax declined 26.4% YoY to 2,466.1 crore.",
-    "why_it_matters": "Profit after tax fell 26.4% YoY to 2,466.1 crore despite a 26.0% rise in revenue, with EBITDA margin contracting to 8.9% from 12.0% a year ago.",
+    "title": "Q2 FY27 Consolidated Results and Special Edition Launch",
+    "summary": "Revenue reached 53,355.5 crore, while profit after tax stood at 2,466.1 crore with an EBITDA margin of 8.9%.",
+    "why_it_matters": "Revenue grew 26.0% year-on-year to 53,355.5 crore, but profit after tax dropped 26.4% year-on-year, with the EBITDA margin contracting to 8.9% from 12.0% a year ago.",
     "sentiment": "mixed",
-    "amount_inr_crore": 53355.5,
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
@@ -2071,12 +2067,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_23102026202833_SEdisclosure_ListofSMP23102026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Multiple Senior Management Appointments",
-    "summary": "Bank appointed new heads across 14 senior divisions, including Affluent Banking, Institutional Coverage, Digital, Corporate Banking, and Branch Banking.",
-    "why_it_matters": "Broad leadership reshuffle could influence the bank’s strategic focus across retail and corporate segments.",
+    "title": "Senior Management Personnel Updates",
+    "summary": "IndusInd Bank disclosed updates to its senior management personnel list across various business divisions.",
+    "why_it_matters": "The list details multiple appointments across divisions, including Niraj Piyush Shah as Head, Corporate Banking, and Vineet Dhar as Head, Branch Banking.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -2205,9 +2201,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_23102026165638_Credit_Rating_Intimation.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=EMUDHRA",
    "insight": {
-    "title": "ICRA assigns credit rating to bank facilities",
-    "summary": "ICRA assigned [ICRA]A (Stable)/[ICRA]A1 rating to unallocated bank facilities amounting to 35.00 crore.",
-    "why_it_matters": "Assigned rating of [ICRA]A (Stable) on unallocated credit limits totaling 35.00 crore following a review of the global TLS certificate business incident.",
+    "title": "ICRA assigns credit rating for bank facilities",
+    "summary": "ICRA assigned [ICRA]A (Stable)/[ICRA]A1 ratings to 35.00 crore of unallocated bank limits following a periodic review.",
+    "why_it_matters": "The rated bank limits amount to 35.00 crore, representing about 4.70% of the company's annual revenue of about 745 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": 35.0,
     "model": "gemini-3.5-flash-lite"
@@ -2234,7 +2230,7 @@
    "exchange_label": "Press Release",
    "headline": "Indusind Bank Limited has informed the Exchange regarding a press release dated October 23, 2026, titled \"INDUSIND BANK LIMITED ANNOUNCES FINANCIAL RESULTS FOR THE QUARTER AND HALF YEAR ENDED SEPTEMBER 30, 2026\".",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -2242,15 +2238,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK4_23102026162409_finaluploadPRsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Press Release of Q2 FY27 Financial Results",
-    "summary": "Unaudited Q2 FY27 profit after tax rose 19.7% QoQ to ₹1,242 crore, up 384% YoY.",
-    "why_it_matters": "Provisions fell 11.7% QoQ, boosting net profit.",
+    "title": "Results Press Release Issued",
+    "summary": "IndusInd Bank released a press release announcing its consolidated financial results for the quarter ended September 30, 2026.",
+    "why_it_matters": "Q2 FY27 profit after tax increased 384.2% YoY to ₹1,241.8 crore, driven by a 53.5% YoY reduction in provisions to ₹1,222.6 crore.",
     "sentiment": "positive",
-    "amount_inr_crore": 1242.0,
-    "model": "openai/gpt-oss-120b"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
-    "results"
+    "results",
+    "management_change"
    ],
    "cards": [],
    "price_reaction": {
@@ -2258,7 +2255,7 @@
     "ret_pct": 1.138,
     "vol_ratio": 0.928
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "INDUSINDBK:results:2026-10-23",
    "group_lead": false,
    "duplicate_of": null
@@ -2271,7 +2268,7 @@
    "exchange_label": "Investor Presentation",
    "headline": "Indusind Bank Limited has informed the Exchange about Investor Presentation",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "investor_presentation",
    "needs_ai": false,
@@ -2279,12 +2276,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK4_23102026161027_Investor_Presentationmergedfinalsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Investor Presentation of Q2 FY27 Results",
-    "summary": "Unaudited Q2 FY27 profit after tax increased 19.7% QoQ to ₹1,241.8 crore, up 384.2% YoY.",
-    "why_it_matters": "Operating profit before provisions rose 3.6% QoQ, underscoring earnings growth.",
+    "title": "Q2 FY27 investor presentation filed",
+    "summary": "IndusInd Bank released its investor presentation for the quarter ended September 30, 2026, alongside its financial results.",
+    "why_it_matters": "Accompanies the Q2 FY27 results where net profit jumped 384.2% YoY to ₹1,241.8 crore, primarily driven by a 53.5% decline in provisions.",
     "sentiment": "positive",
-    "amount_inr_crore": 1241.8,
-    "model": "openai/gpt-oss-120b"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -2295,7 +2292,7 @@
     "ret_pct": 1.138,
     "vol_ratio": 0.928
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "INDUSINDBK:results:2026-10-23",
    "group_lead": false,
    "duplicate_of": null
@@ -2316,12 +2313,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK4_23102026160420_Finalsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Appointment of Additional Director Priyanka Sinha",
-    "summary": "Ms. Priyanka Sinha appointed as Non‑Executive Independent Director, effective 23 Oct 2026, after roles at Vodafone India and others.",
-    "why_it_matters": "Brings legal and telecom experience, potentially enhancing governance.",
-    "sentiment": "neutral",
+    "title": "Priyanka Sinha appointed Independent Director",
+    "summary": "Priyanka Sinha, previously Managing Director and General Counsel at Vodafone India Services, has been appointed as an Additional Non-Executive Independent Director for four years.",
+    "why_it_matters": "Adds corporate legal expertise to the board for a four-year term, subject to shareholder approval.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -2512,7 +2509,7 @@
     "ret_pct": 1.138,
     "vol_ratio": 0.928
    },
-   "score": 46.0,
+   "score": 58.0,
    "group_id": "INDUSINDBK:management_change:2026-10-23",
    "group_lead": true,
    "duplicate_of": null
@@ -2533,12 +2530,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK3_23102026155243_Financialresultsfinalsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Board Meeting Result Submission",
-    "summary": "Unaudited consolidated profit after tax rose 19.7% QoQ to ₹1,241.8 crore, up 384.2% YoY.",
-    "why_it_matters": "Operating profit before provisions grew 3.6% QoQ, highlighting improving earnings beyond the profit surge.",
+    "title": "Q2 FY27 net profit surges YoY",
+    "summary": "IndusInd Bank reported a 384.2% YoY increase in Q2 FY27 net profit to ₹1,241.8 crore, while net interest income grew 3.6% YoY to ₹4,569.4 crore.",
+    "why_it_matters": "The massive profit growth was primarily driven by a 53.5% YoY drop in provisions to ₹1,222.6 crore.",
     "sentiment": "positive",
-    "amount_inr_crore": 1241.8,
-    "model": "openai/gpt-oss-120b"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -2668,10 +2665,10 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_22102026230112_PSLCreditRatingIntimationICRA22102026Sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "ICRA assigns and continues credit ratings",
-    "summary": "ICRA continued the Issuer Rating at [ICRA]AA+ on Rating Watch with Negative Implications and assigned a commercial paper rating of [ICRA]A1+ for INR 1,000.00 Crores.",
-    "why_it_matters": "The rating action covers proposed debt instruments totaling INR 7,000.00 Crores, which is significant relative to annual revenue of about ₹16,801 crore.",
-    "sentiment": "negative",
+    "title": "ICRA continues and assigns credit ratings on watch",
+    "summary": "ICRA continued issuer rating of [ICRA]AA+ on rating watch with negative implications and assigned ratings for debt instruments.",
+    "why_it_matters": "The rating action covers significant debt instruments including 5,000.00 crore of non-convertible debentures and 1,000.00 crore of commercial paper, against annual revenue of about 16,801 crore.",
+    "sentiment": "mixed",
     "amount_inr_crore": 1000.0,
     "model": "gemini-3.5-flash-lite"
    },
@@ -2684,7 +2681,7 @@
     "ret_pct": -0.226,
     "vol_ratio": 1.709
    },
-   "score": 109.0,
+   "score": 104.0,
    "group_id": "PERSISTENT:credit_rating:2026-10-22",
    "group_lead": true,
    "duplicate_of": null
@@ -2727,7 +2724,7 @@
    "exchange_label": "Press Release",
    "headline": "eMudhra Limited has informed the Exchange regarding a press release dated October 22, 2026, titled \"eMudhra to Exit global SSL/TLS Certificate Business; Will Sharpen Focus on Core Enterprise Solutions and trust services other than SSL/TLS\".",
    "category": "press_release",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -2735,9 +2732,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_22102026164550_Press_Release_22102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=EMUDHRA",
    "insight": {
-    "title": "Exit global SSL/TLS certificate business",
-    "summary": "The board decided to voluntarily withdraw from the global SSL/TLS certificate business, which contributes about 1% of global revenue, to sharpen focus on core enterprise solutions.",
-    "why_it_matters": "The exit affects a minor revenue segment contributing about 1% of global revenue against annual revenue of about ₹745 crore.",
+    "title": "To exit global SSL/TLS certificate business",
+    "summary": "eMudhra's board decided to voluntarily withdraw from the global SSL/TLS certificate business to focus on core enterprise solutions.",
+    "why_it_matters": "The exiting business contributes about 1% of the global revenue, against annual revenue of about 745 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -2751,7 +2748,7 @@
     "ret_pct": 2.344,
     "vol_ratio": 6.764
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "EMUDHRA:press_release:2026-10-22",
    "group_lead": true,
    "duplicate_of": null
@@ -2892,12 +2889,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_22102026105524_StockExchangeIntimationOctober222026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Rights Issue Application Confirmation",
-    "summary": "The company confirmed receipt of applications from specific investors for its rights issue on Oct 22, 2026.",
+    "title": "Confirmation of rights issue applications received",
+    "summary": "Ola Electric confirmed that specific investors submitted applications in its rights issue of partly paid-up equity shares on October 22, 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -2921,7 +2918,7 @@
    "exchange_label": "Updates",
    "headline": "Please find attached a media statement issued by the Company.",
    "category": "press_release",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -2929,10 +2926,10 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_21102026224413_SE_21102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "US dignitaries visit Jamnagar refinery",
-    "summary": "US Secretary of State Marco Rubio and US Ambassador Sergio Gor visited the Jamnagar refinery and toured new energy giga-factories and data centres.",
+    "title": "US Secretary of State visits Jamnagar refinery",
+    "summary": "Reliance Industries welcomed US Secretary of State Marco Rubio and US Ambassador Sergio Gor to its Jamnagar refinery and new energy sites.",
     "why_it_matters": null,
-    "sentiment": "neutral",
+    "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
@@ -2945,7 +2942,7 @@
     "ret_pct": -2.026,
     "vol_ratio": 1.016
    },
-   "score": 0.0,
+   "score": 40.0,
    "group_id": "RELIANCE:press_release:2026-10-21",
    "group_lead": true,
    "duplicate_of": null
@@ -2966,9 +2963,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026205156_PSLIntimationofCreditRatingNCDsd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Crisil assigns credit rating for NCDs",
-    "summary": "Crisil Ratings assigned a credit rating of Crisil AA+ with Rating Watch with Developing Implications to the proposed Non-Convertible Debentures.",
-    "why_it_matters": "A credit rating on proposed NCDs for an annual revenue of about ₹16,801 crore aids monitoring of debt cost and financial leverage.",
+    "title": "Crisil assigns rating to proposed Non-Convertible Debentures",
+    "summary": "Crisil Ratings Limited assigned a credit rating of ‘Crisil AA+; Rating Watch with Developing Implications’ to the proposed Non-Convertible Debentures.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -3003,14 +3000,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Credit Rating Assigned AAA/Stable",
-    "summary": "ICRA assigned a AAA/Stable rating to Reliance and approved a Rs 50,000 crore bank loan facility.",
-    "why_it_matters": "Bank loan facility of Rs 50,000 crore adds to total rated amount of Rs 72,000 crore.",
-    "sentiment": "neutral",
+    "title": "ICRA assigns ratings for bank facilities",
+    "summary": "ICRA assigned [ICRA]AAA (Stable) to Reliance Industries' ₹50,000.00 crore bank loan facilities and reaffirmed existing ratings on commercial paper and NCDs.",
+    "why_it_matters": "Reaffirms top-tier creditworthiness for ₹72,000.00 crore total debt program, relative to annual revenue of about ₹1,123,055 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": 50000.0,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
+    "fund_raise",
     "credit_rating"
    ],
    "cards": [],
@@ -3019,8 +3017,8 @@
     "ret_pct": -2.026,
     "vol_ratio": 1.016
    },
-   "score": 44.0,
-   "group_id": "RELIANCE:credit_rating:2026-10-21",
+   "score": 50.0,
+   "group_id": "RELIANCE:fund_raise:2026-10-21",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -3040,9 +3038,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026195926_PersistentUpdateonSEOutcomeQIPissueopeningOct212026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Revised floor price for QIP",
-    "summary": "The Special Committee of the Board of Directors set the floor price for the equity share issue as INR 5,761.00 per Equity Share.",
-    "why_it_matters": "Revision of the floor price for the fundraising event relative to annual revenue of about ₹16,801 crore.",
+    "title": "Floor price for QIP issue determined",
+    "summary": "The floor price for the QIP issue was approved and set at INR 5,761.00 per Equity Share based on SEBI ICDR regulations.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -3077,10 +3075,10 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026192219_PersistentSEOutcomeQIPissueopeningOct212026V3signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Opening of QIP issue and floor price",
-    "summary": "The Special Committee of the Board of Directors approved opening the QIP issue and set a floor price of INR 5,550 per Equity Share.",
-    "why_it_matters": "QIP opening represents major capital raising activity relative to annual revenue of about ₹16,801 crore.",
-    "sentiment": "neutral",
+    "title": "Special Committee approves opening of QIP issue",
+    "summary": "The Special Committee of the Board of Directors authorised the opening of the QIP issue and approved a floor price of INR 5,550 per Equity Share.",
+    "why_it_matters": null,
+    "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
@@ -3114,10 +3112,10 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026191632_PersistentSEOutcomeQIPissueopeningOct212026V3signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Opening of QIP issue and floor price",
-    "summary": "The Special Committee of the Board of Directors approved opening the QIP issue and set a floor price of INR 5,550 per Equity Share.",
-    "why_it_matters": "QIP opening represents major capital raising activity relative to annual revenue of about ₹16,801 crore.",
-    "sentiment": "neutral",
+    "title": "Special Committee approves opening of QIP issue",
+    "summary": "The Special Committee of the Board of Directors authorised the opening of the QIP issue and approved a floor price of INR 5,550 per Equity Share.",
+    "why_it_matters": null,
+    "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
@@ -3143,7 +3141,7 @@
    "exchange_label": "Updates",
    "headline": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Giving of guarantees or indemnity or becoming a surety for any third party'.",
    "category": "fund_raise",
-   "tier": "routine",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -3151,8 +3149,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Corporate Guarantee Disclosure for Subsidiary",
-    "summary": "Dixon Technologies issued a guarantee for its unlisted material wholly owned subsidiary, Padget Electronics, in favor of Quanta Computer Inc.",
+    "title": "Guarantee issued for material wholly owned subsidiary",
+    "summary": "A corporate guarantee was issued for the unlisted material wholly owned subsidiary, Padget Electronics Private Limited, in favor of Quanta Computer Inc.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -3167,7 +3165,7 @@
     "ret_pct": -0.813,
     "vol_ratio": 1.018
    },
-   "score": 10.0,
+   "score": 110.0,
    "group_id": "DIXON:fund_raise:2026-10-21",
    "group_lead": true,
    "duplicate_of": null
@@ -3248,12 +3246,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026153325_OutcomeSIGNED.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ETERNAL",
    "insight": {
-    "title": "Unaudited Q2 Results and Slump Sale",
-    "summary": "Quarterly revenue rose 77.6% YoY to ₹24,138 crore; EBITDA surged 214.6% YoY, and the company approved a slump sale of its Going-out India business.",
-    "why_it_matters": "EBITDA margin increased to 3.1% from 1.8% a year ago, indicating improving profitability.",
-    "sentiment": "neutral",
+    "title": "Strong Q2 results and internal business slump sale",
+    "summary": "Eternal reported a 92.3% YoY rise in Q2 FY27 net profit to ₹125.0 crore and approved transferring its Going-out India business to subsidiary ZEPL.",
+    "why_it_matters": "EBITDA margin expanded to 3.1% from 1.8% a year ago, supporting a 214.6% YoY rise in EBITDA to ₹752.0 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -3349,16 +3347,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026152512_SHLsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ETERNAL",
    "insight": {
-    "title": "Shareholders Letter on Q2FY27 Headline Results",
-    "summary": "Eternal Limited released a shareholder letter detailing Q2FY27 financial results, highlighting a sharp increase in YoY Adjusted Revenue growth driven by the quick commerce model shift.",
-    "why_it_matters": "Annual revenue is about Rs 77,956 crore; the report discusses consolidated adjusted revenue and quick commerce 1P model changes.",
+    "title": "Shareholder letter details Q2FY27 headline results",
+    "summary": "The company filed its shareholders letter reporting Q2FY27 results with a sharp increase in YoY Adjusted Revenue growth mainly due to shift to 1P model in quick commerce.",
+    "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
     "results",
-    "press_release"
+    "investor_meetings"
    ],
    "cards": [],
    "price_reaction": {
@@ -3387,12 +3385,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ETERNAL",
    "insight": {
-    "title": "Unaudited Q2 Results and Slump Sale",
-    "summary": "Quarterly revenue rose 77.6% YoY to ₹24,138 crore; EBITDA surged 214.6% YoY, and the company approved a slump sale of its Going-out India business.",
-    "why_it_matters": "EBITDA margin increased to 3.1% from 1.8% a year ago, indicating improving profitability.",
-    "sentiment": "neutral",
+    "title": "Strong Q2 results and internal business slump sale",
+    "summary": "Eternal reported a 92.3% YoY rise in Q2 FY27 net profit to ₹125.0 crore and approved transferring its Going-out India business to subsidiary ZEPL.",
+    "why_it_matters": "EBITDA margin expanded to 3.1% from 1.8% a year ago, supporting a 214.6% YoY rise in EBITDA to ₹752.0 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -3447,7 +3445,7 @@
    "exchange_label": "Press Release",
    "headline": "eMudhra Limited has informed the Exchange regarding a press release dated October 21, 2026, titled \"eMudhra Statement on distrust of select Global TLS Intermediate and one Root CA\".",
    "category": "press_release",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -3455,15 +3453,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_21102026105726_Press_Release_21102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=EMUDHRA",
    "insight": {
-    "title": "Statement on Distrust of Select Global TLS CAs",
-    "summary": "eMudhra issued a press release addressing the distrust of 8 intermediate Certificate Authorities due to a key generation flaw, noting India DSC and eSign businesses remain unaffected.",
-    "why_it_matters": "Annual revenue is about Rs 745 crore; the event impacts global TLS issuing CAs created under its ECC root.",
+    "title": "Statement on distrust of select global TLS intermediate CAs",
+    "summary": "The company issued a press release stating that India DSC and eSign businesses are unaffected and there was no infrastructure compromise or data breach after a flaw was found in 8 intermediate CAs.",
+    "why_it_matters": null,
     "sentiment": "negative",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "litigation",
     "press_release"
    ],
    "cards": [],
@@ -3472,8 +3469,8 @@
     "ret_pct": -20.0,
     "vol_ratio": 4.675
    },
-   "score": 138.0,
-   "group_id": "EMUDHRA:litigation:2026-10-21",
+   "score": 70.0,
+   "group_id": "EMUDHRA:press_release:2026-10-21",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -3493,9 +3490,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_20102026173321_SE_Intimation_of_Press_Release_on_NCCN_Gudelines_Update.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "UNLOXCYT Receives NCCN Guidelines Category 2A Designation",
-    "summary": "Sun Pharma announced that UNLOXCYT received a Category 2A preferred designation in the updated NCCN guidelines for laCSCC patients.",
-    "why_it_matters": "Annual revenue is about Rs 59,911 crore; the designation concerns locally advanced cutaneous squamous cell carcinoma patients.",
+    "title": "Cosibelimab receives preferred designation in NCCN guidelines for laCSCC",
+    "summary": "Sun Pharma announced that UNLOXCYT received a category 2A preferred designation in updated NCCN guidelines for certain patients.",
+    "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -3650,15 +3647,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_17102026193113_RIL_SE_171026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Newspaper Advertisement Publication on Shareholder Reservation",
-    "summary": "Reliance Industries published a newspaper advertisement regarding shareholder reservation in the newspaper Sandesh.",
+    "title": "Newspaper advertisement published for eligible shareholder reservations",
+    "summary": "Reliance Industries published newspaper clippings regarding shareholder reservations in the Sandesh newspaper.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "press_release"
+    "press_release",
+    "investor_meetings"
    ],
    "cards": [],
    "price_reaction": {
@@ -3679,7 +3677,7 @@
    "exchange_label": "General Updates",
    "headline": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -3687,12 +3685,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Director Re-appointment and Deputy MD Resignation",
-    "summary": "Mrs. Lily Vadera reappointed as Independent Director; Mr. Kaizad Bharucha to cease as Deputy MD on Dec 31, 2026.",
-    "why_it_matters": "Resignation ends a three-decade tenure, potentially impacting leadership continuity.",
+    "title": "Deputy MD Resigns; Independent Director Re-Appointed",
+    "summary": "Deputy MD Kaizad Bharucha requested to step down effective December 31, 2026, while Lily Vadera was approved for re-appointment as Independent Director for 3 years.",
+    "why_it_matters": "The departure of a long-serving Deputy MD is a major leadership change, while Vadera's role requires shareholder approval.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -3733,7 +3731,7 @@
     "ret_pct": -2.312,
     "vol_ratio": 1.083
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "HDFCBANK:management_change:2026-10-17",
    "group_lead": true,
    "duplicate_of": null
@@ -3784,12 +3782,12 @@
    "attachment_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d5fb37-aa66-401c-85d6-58ccd3982828.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Q2 FY27 Financial Results",
-    "summary": "Net interest income rose 3.5% QoQ to ₹44,464.2 crore; profit after tax increased 1.6% QoQ to ₹20,700 crore.",
-    "why_it_matters": "Profit after tax grew YoY by 5.6%, showing modest earnings improvement.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 Consolidated Results",
+    "summary": "Consolidated profit after tax rose 5.6% YoY to ₹20,700.0 crore, while net interest income grew 10.5% YoY to ₹44,464.2 crore.",
+    "why_it_matters": "Growth was led by net interest income, which expanded 10.5% YoY, offset slightly by a 10.7% QoQ increase in provisions.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -4000,7 +3998,7 @@
    "filed_at": "2026-10-16T10:55:31+05:30",
    "exchange_label": "Issue of Securities",
    "headline": "Persistent Systems Limited has informed the Exchange about issue of Securities",
-   "category": "M&A",
+   "category": "fund_raise",
    "tier": "glance",
    "classified_by": "ai",
    "rule": "equity_raise",
@@ -4009,15 +4007,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_16102026105516_PersistentSystemsStExchangeOutcomeOctober162026Signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Approved NCD/CP Issuance for Nagarro Acquisition",
-    "summary": "Board approved issuance of non-convertible debentures and commercial paper to fund the acquisition of Nagarro SE.",
-    "why_it_matters": "Financing through debt indicates strategic expansion via acquisition.",
+    "title": "Approved Debt Financing Terms for Nagarro Acquisition",
+    "summary": "The Special Committee approved the terms of Non-Convertible Debentures and Commercial Paper to fund the acquisition of Nagarro SE.",
+    "why_it_matters": "Secures debt financing for the ongoing acquisition of Nagarro SE.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
-    "M&A"
+    "M&A",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -4037,7 +4036,7 @@
    "filed_at": "2026-10-16T10:44:49+05:30",
    "exchange_label": "Committee Meeting Updates",
    "headline": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 16, 2026.",
-   "category": "M&A",
+   "category": "fund_raise",
    "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -4046,15 +4045,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_16102026104432_PersistentSystemsStExchangeOutcomeOctober162026Signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Approved NCD/CP Issuance for Nagarro Acquisition",
-    "summary": "Board approved issuance of non-convertible debentures and commercial paper to fund the acquisition of Nagarro SE.",
-    "why_it_matters": "Financing through debt indicates strategic expansion via acquisition.",
+    "title": "Approved Debt Financing Terms for Nagarro Acquisition",
+    "summary": "The Special Committee approved the terms of Non-Convertible Debentures and Commercial Paper to fund the acquisition of Nagarro SE.",
+    "why_it_matters": "Secures debt financing for the ongoing acquisition of Nagarro SE.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
-    "M&A"
+    "M&A",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -4075,7 +4075,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -4083,12 +4083,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_16102026093958_CIRP15102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT Reserves Order in Asier Metals Matter",
-    "summary": "The NCLAT heard and reserved its order on the appeal involving Asier Metals Private Limited and the company.",
+    "title": "NCLAT Reserves Order in Insolvency Matter",
+    "summary": "The Hon'ble NCLAT heard the appeal in the matter of Asier Metals Private Limited against Polycab India and reserved its order.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -4099,7 +4099,7 @@
     "ret_pct": 0.146,
     "vol_ratio": 1.198
    },
-   "score": 108.0,
+   "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-16",
    "group_lead": true,
    "duplicate_of": null
@@ -4202,7 +4202,7 @@
    "exchange_label": "Action(s) taken or orders passed",
    "headline": "Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -4210,12 +4210,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_15102026191103_Intimation_15102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "ITAT Favourably Decides Appeal With Tax Impact",
-    "summary": "The company received an ITAT order for eight years majorly in its favour, resulting in a positive tax impact of Rs. 130,000 million.",
-    "why_it_matters": "The positive tax impact of Rs. 130,000 million is massive compared to annual revenue of about ₹208,192 crore, significantly reducing contingent liabilities.",
+    "title": "Favorable ITAT Order with ₹130,000 Million Impact",
+    "summary": "The Income Tax Appellate Tribunal ruled mostly in favor of the company for eight tax years, yielding a positive tax impact of approx Rs. 130,000 million.",
+    "why_it_matters": "The positive tax relief of Rs. 130,000 million (approx) compares favorably to annual revenue of about ₹208,192 crore.",
     "sentiment": "positive",
     "amount_inr_crore": 13000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -4226,7 +4226,7 @@
     "ret_pct": 0.384,
     "vol_ratio": 0.906
    },
-   "score": 108.0,
+   "score": 48.0,
    "group_id": "MARUTI:litigation:2026-10-15",
    "group_lead": true,
    "duplicate_of": null
@@ -4299,7 +4299,7 @@
    "exchange_label": "General Updates",
    "headline": "Persistent Systems Limited has informed the Exchange about General Updates",
    "category": "results",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -4307,12 +4307,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026165133_PSLSubmissionofFinancialsSeptember2026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Audited Financial Results Approved",
-    "summary": "The Board of Directors approved the audited financial results for the quarter and half year ended September 30, 2026.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
+    "title": "Q2 FY27 Financial Results Web Links Shared",
+    "summary": "The company reported Q2 FY27 revenue of ₹4,663.9 crore, though net profit fell 25.4% YoY to ₹351.5 crore.",
+    "why_it_matters": "Profitability dropped sharply as EBITDA margin squeezed to 13.6% from 19.1% a year ago.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -4323,7 +4323,7 @@
     "ret_pct": -1.695,
     "vol_ratio": 4.376
    },
-   "score": 30.0,
+   "score": 70.0,
    "group_id": "PERSISTENT:results:2026-10-15",
    "group_lead": false,
    "duplicate_of": null
@@ -4335,7 +4335,7 @@
    "filed_at": "2026-10-15T16:12:31+05:30",
    "exchange_label": "Press Release",
    "headline": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Press Release regarding financial results for the quarter and half year ended September 30, 2026\".",
-   "category": "press_release",
+   "category": "results",
    "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -4344,12 +4344,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026161221_SEIntimationpressrelease15102026Sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Q2 FY27 Financial Results Press Release",
-    "summary": "The company announced Q2 FY27 financial results reporting INR revenue of 46,639.0 million and PAT of 3,515.1 million.",
-    "why_it_matters": "INR revenue grew 30.3% YoY to INR 46,639.0 million, while PAT declined 25.4% YoY to INR 3,515.1 million.",
+    "title": "Q2 FY27 Results Press Release Released",
+    "summary": "Revenue grew 30.3% YoY to ₹4,663.9 crore while Profit after tax declined 25.4% YoY to ₹351.5 crore.",
+    "why_it_matters": "EBITDA margin contracted to 13.6% from 19.1% a year ago, explaining the profit decline despite strong top-line revenue growth.",
     "sentiment": "mixed",
-    "amount_inr_crore": 4663.9,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -4382,12 +4382,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026160546_PSLFactSheetQ2FY27160Sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Investor Presentation and Fact Sheet",
-    "summary": "The company released its consolidated financial data fact sheet and scheduled an investor call for October 15, 2026.",
+    "title": "Investor Presentation and Call Notice Filed",
+    "summary": "Persistent Systems filed its Q2 FY27 investor presentation fact sheet and scheduled an analyst call for October 15, 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -4420,12 +4420,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026155331_PSLBMOutcomeOctober152026159signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Board Approves Q2 FY27 Audited Results",
-    "summary": "The Board of Directors approved the audited standalone and consolidated financial results for the quarter ended September 30, 2026.",
-    "why_it_matters": "Consolidated revenue reached INR 46,639.0 million, representing a 30.3% YoY increase against annual revenue of about ₹16,801 crore.",
+    "title": "Q2 FY27 Audited Results Approved",
+    "summary": "Revenue rose 30.3% YoY to ₹4,663.9 crore, but Profit after tax fell 25.4% YoY to ₹351.5 crore.",
+    "why_it_matters": "Profitability declined significantly due to EBITDA margins falling to 13.6% from 19.1% a year ago.",
     "sentiment": "mixed",
-    "amount_inr_crore": 4663.9,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -4520,9 +4520,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Unaudited Interim Condensed Financial Statements for Q2FY27",
-    "summary": "Polycab India filed standalone and consolidated unaudited interim condensed financial statements along with review reports for the quarter and half year ended September 30, 2026.",
-    "why_it_matters": "Annual revenue is about Rs 34,609 crore; the filing covers financial position and cash flows for Q2FY27.",
+    "title": "Unaudited interim condensed financial statements filed for Q2 FY27",
+    "summary": "Polycab India filed its unaudited interim condensed standalone and consolidated financial statements for the quarter ended September 30, 2026.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -4557,15 +4557,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Earnings presentation for the quarter ended September 30, 2026",
-    "summary": "The company released its earnings presentation for the quarter and half year ended September 30, 2026.",
+    "title": "Q2 FY27 Earnings Presentation Details Growth",
+    "summary": "Revenue increased 52.8% YoY to ₹9,898.9 crore, driving a 42.9% YoY rise in Profit after tax to ₹990.0 crore.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
-    "results"
+    "results",
+    "press_release"
    ],
    "cards": [],
    "price_reaction": {
@@ -4585,7 +4586,7 @@
    "filed_at": "2026-10-15T13:08:53+05:30",
    "exchange_label": "Press Release",
    "headline": "Polycab India Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Financial results for the quarter ended 30th September 2026\".",
-   "category": "press_release",
+   "category": "results",
    "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -4594,12 +4595,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026130834_PressRelease.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Press release on financial results for Q2 FY27",
-    "summary": "The company announced its highest ever second quarter and half year revenue, EBITDA, and profitability for the period ended September 30, 2026.",
-    "why_it_matters": "H1 FY27 revenue reached INR 1,81,086 million, up 46 percent year-on-year against annual revenue of about ₹34,609 crore.",
+    "title": "Press Release Highlights Record Q2 Performance",
+    "summary": "Revenue surged 52.8% YoY to ₹9,898.9 crore, leading Profit after tax to increase 42.9% YoY to ₹990.0 crore.",
+    "why_it_matters": "EBITDA expanded 39.4% YoY to ₹1,422.5 crore, supporting earnings growth despite a slight margin compression to 14.4% from 15.8% YoY.",
     "sentiment": "positive",
-    "amount_inr_crore": 18108.6,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -4632,12 +4633,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Financial results for Q2 FY27 approved by board",
-    "summary": "Consolidated Q2 FY27 revenue rose 52.8 percent YoY to 9,898.9 crore and PAT rose 42.9 percent YoY to 990.0 crore.",
-    "why_it_matters": "EBITDA margin stood at 14.4 percent compared to 15.8 percent a year ago, against an annual revenue of about ₹34,609 crore.",
+    "title": "Q2 FY27 Results Approved by Board",
+    "summary": "Revenue expanded 52.8% YoY to ₹9,898.9 crore while Profit after tax climbed 42.9% YoY to ₹990.0 crore.",
+    "why_it_matters": "Strong top-line expansion offset a small contraction in EBITDA margins from 15.8% to 14.4%.",
     "sentiment": "positive",
-    "amount_inr_crore": 9898.9,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -4732,16 +4733,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026201111_RIL_SE_14102026_.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Jio Platforms IPO Price Band and Bid Lot Announced",
-    "summary": "The IPO Committee approved a price band of ₹1,065 to ₹1,119 per share, an employee discount of ₹54, and a minimum bid lot of 12 equity shares.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
+    "title": "Jio Platforms IPO price band and discount announced",
+    "summary": "The IPO Committee approved a price band from ₹1,065 to ₹1,119 per equity share with an employee discount of ₹54 per share for the IPO.",
+    "why_it_matters": "The subsidiary Jio Platforms is raising capital via an IPO with a price band set between ₹1,065 and ₹1,119 per share.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "fund_raise",
-    "press_release"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -4800,16 +4800,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026183404_RIL_SE14102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Red Herring Prospectus Filed for Jio Platforms IPO",
-    "summary": "The Red Herring Prospectus has been filed for an IPO opening on October 21, 2026, featuring share reservations up to Rs. 500 crore for employees and Rs. 2,500 crore for shareholders.",
-    "why_it_matters": "The IPO includes reservations up to Rs. 500 crore for employees and Rs. 2,500 crore for eligible shareholders.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 2500.0,
+    "title": "Jio Platforms files Red Herring Prospectus for initial public offer",
+    "summary": "Jio Platforms filed its Red Herring Prospectus for an IPO of up to 27,00,00,000 equity shares, with the issue opening on October 21, 2026.",
+    "why_it_matters": "The IPO includes reservations up to Rs. 500 crore for employees and up to Rs. 2,500 crore for eligible public equity shareholders.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "fund_raise",
-    "press_release"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -4928,12 +4927,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_14102026160249_BhartiAirtelReg30disclosure.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Telecom department imposes penalty of Rs 1,50,000",
-    "summary": "The Department of Telecommunications imposed a penalty of Rs 1,50,000 on the company for alleged violations.",
-    "why_it_matters": "The penalty of Rs 1,50,000 is negligible compared to the annual revenue of about ₹220,049 crore.",
+    "title": "DoT imposes penalty of Rs. 1,50,000",
+    "summary": "The Department of Telecommunications, Madhya Pradesh LSA has issued a notice imposing a penalty of Rs. 1,50,000 on Bharti Airtel for an alleged violation.",
+    "why_it_matters": "The penalty amount of Rs. 1,50,000 is negligible compared to the company's annual revenue of about ₹220,049 crore.",
     "sentiment": "negative",
-    "amount_inr_crore": 0.01,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -4965,12 +4964,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT schedules early hearing for insolvency appeal",
-    "summary": "The Hon'ble NCLAT granted the request for early listing, scheduling the appeal hearing in the matter of Asier Metals Private Limited versus the company for October 15, 2026.",
-    "why_it_matters": null,
+    "title": "NCLAT grants early hearing for appeal",
+    "summary": "The Hon'ble NCLAT has granted Polycab India's request for an early hearing of its appeal in the Asier Metals matter, advancing it to October 15, 2026.",
+    "why_it_matters": "This is a procedural scheduling update regarding an ongoing legal appeal originally set for hearing on October 26, 2026.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5002,12 +5001,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_13102026191037_SEDisclosureFGGSTOrderOct_2026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "GST demand on subsidiary First Games reduced",
-    "summary": "The Additional Commissioner of CGST Noida reduced subsidiary First Games Technology Private Limited's proposed GST demand from INR 5,712 crore to INR 703.66 crore plus penalty and interest.",
-    "why_it_matters": "The reduced demand of INR 703.66 crore is substantial relative to annual revenue of about ₹9,554 crore, though the company states there is no incremental impact.",
+    "title": "Subsidiary GST demand reduced to INR 703.66 crore",
+    "summary": "Paytm's subsidiary, First Games Technology, received a GST demand order reducing proposed liability from INR 5,712 crore to INR 703.66 crore plus penalty.",
+    "why_it_matters": "The revised demand of INR 703.66 crore plus equivalent penalty is significant relative to Paytm's annual revenue of about ₹9,554 crore.",
     "sentiment": "mixed",
     "amount_inr_crore": 703.66,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5061,7 +5060,7 @@
    "exchange_label": "Action(s) taken or orders passed",
    "headline": "InterGlobe Aviation Limited has informed the Exchange about Action(s) taken or orders passed",
    "category": "litigation",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -5069,12 +5068,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/Indigo1_13102026181943_LoDR-Order.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDIGO",
    "insight": {
-    "title": "Customs duty order on ATF imports",
-    "summary": "The Customs Authority issued an order confirming a demand for additional customs duty on ATF imports, which the company plans to contest.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
+    "title": "Customs duty demand received for ATF import",
+    "summary": "InterGlobe Aviation received an order from the Customs Authority in Ahmedabad confirming a demand for additional customs duty along with interest, fine, and penalty.",
+    "why_it_matters": "The company plans to contest the order before appellate authorities and expects no significant financial or operational impact.",
+    "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5085,7 +5084,7 @@
     "ret_pct": -1.706,
     "vol_ratio": 1.353
    },
-   "score": 8.0,
+   "score": 53.0,
    "group_id": "INDIGO:litigation:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
@@ -5136,14 +5135,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Credit ratings assigned and reaffirmed",
-    "summary": "CRISIL and ICRA assigned ratings to the proposed NCD programme and reaffirmed ratings for existing facilities.",
-    "why_it_matters": "Ratings factor in the company's strong financial profile and the proposed acquisition of Organon & Co.",
+    "title": "CRISIL and ICRA assign AAA NCD rating",
+    "summary": "CRISIL and ICRA assigned AAA (Stable) ratings to Sun Pharma's proposed Non-Convertible Debenture programme and reaffirmed existing facility ratings.",
+    "why_it_matters": "The rating agencies factored in the company's strong financial profile and its proposed acquisition of Organon & Co.",
     "sentiment": "positive",
-    "amount_inr_crore": 150.0,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
+    "M&A",
     "credit_rating"
    ],
    "cards": [],
@@ -5152,8 +5152,8 @@
     "ret_pct": -1.372,
     "vol_ratio": 1.132
    },
-   "score": 44.0,
-   "group_id": "SUNPHARMA:credit_rating:2026-10-13",
+   "score": 52.0,
+   "group_id": "SUNPHARMA:M&A:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -5173,12 +5173,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_ROID_100344_KMP_Doc.zip",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Whole-time Director and CFO resign",
-    "summary": "Rohit Sharma resigned as Whole-time Director to pursue entrepreneurial opportunities, and another resignation was submitted for the CFO position.",
-    "why_it_matters": "The simultaneous departure of both the Whole-time Director and the Chief Financial Officer is a significant senior management change.",
+    "title": "Resignation of Whole-time Director and CFO",
+    "summary": "Nazara Technologies' Whole-time Director Rohit Sharma and Chief Financial Officer have submitted their resignations to pursue other opportunities.",
+    "why_it_matters": "The simultaneous exit of a Whole-time Director and the CFO represents a major leadership change for the company.",
     "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -5201,8 +5201,8 @@
    "filed_at": "2026-10-13T17:35:16+05:30",
    "exchange_label": "Press Release",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Adani Enterprises, Jabil Sign MoU for 50:50 Data Centre Hardware Joint Venture\".",
-   "category": null,
-   "tier": "must_see",
+   "category": "M&A",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -5210,15 +5210,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_13102026173511_AELIntimationMediaRelease13102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "MoU signed for data centre hardware joint venture",
-    "summary": "Adani Enterprises and Jabil signed an MoU for a 50:50 data centre hardware joint venture to build an AI infrastructure platform.",
-    "why_it_matters": "The JV addresses a massive market opportunity with industry forecasts projecting 5-8 GW capacity by 2030 and over $50 billion in hyperscaler spending.",
-    "sentiment": "positive",
-    "amount_inr_crore": 5000.0,
-    "model": "gemini-3.5-flash-lite"
+    "title": "MoU for 50:50 Data Centre JV",
+    "summary": "Adani Enterprises and Jabil signed an MoU to create a 50:50 joint venture building multi‑gigawatt AI data‑centre hardware in India.",
+    "why_it_matters": "The JV targets India's projected 5–8 GW data‑centre capacity by 2030, addressing a $50 billion hyperscaler spend.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "press_release"
+    "M&A"
    ],
    "cards": [],
    "price_reaction": {
@@ -5226,8 +5226,8 @@
     "ret_pct": 1.024,
     "vol_ratio": 0.932
    },
-   "score": 100.0,
-   "group_id": "ADANIENT:other:2026-10-13",
+   "score": 52.0,
+   "group_id": "ADANIENT:M&A:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -5239,7 +5239,7 @@
    "exchange_label": "Press Release",
    "headline": "Polycab India Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Press Release on NCLAT Order\".",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -5247,16 +5247,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT stays insolvency admission order",
-    "summary": "The NCLAT stayed and kept in abeyance the NCLT order that had initiated a Corporate Insolvency Resolution Process regarding an operational debt of Rs 2.79 crore.",
-    "why_it_matters": "The stay prevents the immediate execution of insolvency proceedings against the company arising from the Asier Metals dispute.",
-    "sentiment": "positive",
+    "title": "NCLAT stays CIRP order for Polycab",
+    "summary": "The National Company Law Appellate Tribunal stayed the order initiating corporate insolvency resolution for Polycab India concerning an alleged debt of ₹2.79 crore.",
+    "why_it_matters": "The stay preserves Polycab’s operations, with the disputed amount representing only ~0.00008% of its ₹34,609 crore revenue.",
+    "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "litigation",
-    "press_release"
+    "litigation"
    ],
    "cards": [],
    "price_reaction": {
@@ -5264,7 +5263,7 @@
     "ret_pct": 0.543,
     "vol_ratio": 2.689
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "POLYCAB:litigation:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
@@ -5306,8 +5305,8 @@
    "filed_at": "2026-10-13T14:55:44+05:30",
    "exchange_label": "Press Release",
    "headline": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Persistent Opens Third Hyderabad Facility to Strengthen AI and Modernization Delivery \".",
-   "category": "results",
-   "tier": "must_see",
+   "category": "press_release",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -5315,87 +5314,24 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_13102026145534_PSLPressRelease13102026Sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Opened Third Hyderabad Facility for AI and Modernization Delivery",
-    "summary": "A new facility was opened in Hyderabad to strengthen AI deployment, cloud platforms, and engineering capabilities for financial services clients, alongside Q2 FY27 results showing revenue at 4,663.9 crore.",
-    "why_it_matters": "Revenue rose 30.3% YoY to 4,663.9 crore, but EBITDA margin dropped to 13.6% from 19.1% a year ago.",
-    "sentiment": "mixed",
-    "amount_inr_crore": 4663.9,
+    "title": "Opens third Hyderabad facility for AI and modernization",
+    "summary": "Persistent Systems inaugurated its third facility in Hyderabad at Phoenix Equinox to strengthen AI and modernization delivery for financial services.",
+    "why_it_matters": null,
+    "sentiment": "positive",
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
     "results",
     "press_release"
    ],
-   "cards": [
-    {
-     "type": "results",
-     "symbol": "PERSISTENT",
-     "period_end": "2026-09-30",
-     "period_label": "Q2 FY27",
-     "basis": "consolidated",
-     "kind": "standard",
-     "unit": "₹ crore",
-     "metrics": [
-      {
-       "key": "revenue",
-       "label": "Revenue",
-       "current": 4663.9,
-       "previous_quarter": 4303.2,
-       "year_ago": 3580.7,
-       "qoq_pct": 8.4,
-       "yoy_pct": 30.3
-      },
-      {
-       "key": "ebitda",
-       "label": "EBITDA",
-       "current": 633.5,
-       "previous_quarter": 696.9,
-       "year_ago": 683.1,
-       "qoq_pct": -9.1,
-       "yoy_pct": -7.3
-      },
-      {
-       "key": "pbt",
-       "label": "Profit before tax",
-       "current": 453.7,
-       "previous_quarter": 623.1,
-       "year_ago": 616.8,
-       "qoq_pct": -27.2,
-       "yoy_pct": -26.4
-      },
-      {
-       "key": "pat",
-       "label": "Profit after tax",
-       "current": 351.5,
-       "previous_quarter": 483.0,
-       "year_ago": 471.5,
-       "qoq_pct": -27.2,
-       "yoy_pct": -25.4
-      }
-     ],
-     "margin_label": "EBITDA margin",
-     "margin_pct": [
-      13.6,
-      16.2,
-      19.1
-     ],
-     "source": "xbrl",
-     "verified": true,
-     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
-     "share_of_associates": null,
-     "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1739401_15102026080919_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706739_02082026064511_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1548199_14102025081605_WEB.xml"
-     ]
-    }
-   ],
+   "cards": [],
    "price_reaction": {
     "session": "2026-10-13",
     "ret_pct": 3.473,
     "vol_ratio": 2.35
    },
-   "score": 130.0,
+   "score": 70.0,
    "group_id": "PERSISTENT:results:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
@@ -5416,15 +5352,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_13102026143153_SE_DisclosureUpdateNPCIOct2026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "NPCI Postpones MDR Levy on Select UPI P2M Transactions",
-    "summary": "Following an NPCI press release, the levy of MDR on select UPI P2M transactions has been postponed to be implemented after Diwali.",
+    "title": "Update on UPI P2M transactions MDR levy",
+    "summary": "NPCI decided that the Merchant Discount Rate on select P2M UPI transactions will be implemented after Diwali.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "litigation",
     "press_release"
    ],
    "cards": [],
@@ -5433,9 +5368,9 @@
     "ret_pct": 1.479,
     "vol_ratio": 1.844
    },
-   "score": 48.0,
-   "group_id": "PAYTM:litigation:2026-10-13",
-   "group_lead": false,
+   "score": 40.0,
+   "group_id": "PAYTM:press_release:2026-10-13",
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -5484,12 +5419,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Director or KMP resignation notified",
-    "summary": "The company informed the exchange about a resignation of a Director, KMP, or SMP.",
+    "title": "Director resignation at Sun Pharma",
+    "summary": "Sun Pharmaceutical Industries disclosed the resignation of a director.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "management_change"
@@ -5547,12 +5482,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Board approved raising up to INR 10,000 Crore via NCDs",
-    "summary": "The board approved issuing listed unsecured redeemable non-convertible debentures up to INR 10,000 Crore, and noted the resignation of Independent Director Gautam Doshi.",
-    "why_it_matters": "The INR 10,000 Crore fund raise is a large capital exercise, representing about 16.7 percent of the company's annual revenue of about ₹59,911 crore.",
+    "title": "Approves INR 10,000 Crore NCD issue",
+    "summary": "The board approved issuance of listed, rated non‑convertible debentures up to INR 10,000 crore and accepted Gautam Doshi’s resignation as independent director.",
+    "why_it_matters": "The NCD amount equals roughly 16.7% of Sun Pharma’s ₹59,911 crore annual revenue.",
     "sentiment": "neutral",
     "amount_inr_crore": 10000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "management_change",
@@ -5585,12 +5520,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026195625_BMOutcome12October2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Board approved raising up to INR 10,000 Crore via NCDs",
-    "summary": "The board approved issuing listed unsecured redeemable non-convertible debentures up to INR 10,000 Crore, and noted the resignation of Independent Director Gautam Doshi.",
-    "why_it_matters": "The INR 10,000 Crore fund raise is a large capital exercise, representing about 16.7 percent of the company's annual revenue of about ₹59,911 crore.",
+    "title": "Approves INR 10,000 Crore NCD issue",
+    "summary": "The board approved issuance of listed, rated non‑convertible debentures up to INR 10,000 crore and accepted Gautam Doshi’s resignation as independent director.",
+    "why_it_matters": "The NCD amount equals roughly 16.7% of Sun Pharma’s ₹59,911 crore annual revenue.",
     "sentiment": "neutral",
     "amount_inr_crore": 10000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "management_change",
@@ -5632,7 +5567,7 @@
    "exchange_label": "Allotment of Securities",
    "headline": "Nazara Technologies Limited informs the Exchange regarding allotment of 2,38,81,711 Equity Shares by way of Preferential issue on private placement basis at its meeting held on October 12, 2026.",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "equity_raise",
    "needs_ai": false,
@@ -5640,15 +5575,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026184557_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board approves leadership changes including new Whole-time Director",
-    "summary": "Mithun Padam Sacheti was re-designated as Executive Director, while Whole-time Director Rohit Sharma resigned effective January 11, 2027.",
-    "why_it_matters": "Changes in executive leadership affect the strategic direction of the company, with Mithun Padam Sacheti stepping in to oversee strategic initiatives.",
+    "title": "Board reports director and CFO changes",
+    "summary": "Nazara Technologies announced redesignation of a director to whole‑time executive, resignations of a whole‑time director and CFO, and appointment of a new CFO.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -5656,7 +5592,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -5669,7 +5605,7 @@
    "exchange_label": "Appointment",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Appointment of Mr Arun Agrawal as Chief Financial Officer and Key Managerial Personnel of the Company with effect from October 16, 2026.",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -5677,15 +5613,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026183945_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board approves leadership changes including new Whole-time Director",
-    "summary": "Mithun Padam Sacheti was re-designated as Executive Director, while Whole-time Director Rohit Sharma resigned effective January 11, 2027.",
-    "why_it_matters": "Changes in executive leadership affect the strategic direction of the company, with Mithun Padam Sacheti stepping in to oversee strategic initiatives.",
+    "title": "Board reports director and CFO changes",
+    "summary": "Nazara Technologies announced redesignation of a director to whole‑time executive, resignations of a whole‑time director and CFO, and appointment of a new CFO.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -5693,7 +5630,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -5706,7 +5643,7 @@
    "exchange_label": "Resignation",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Resignation of Mr Rakesh Shah as Chief Financial Officer ( KMP ) of the Company with effect from the close of business hours on October 15, 2026.",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -5714,15 +5651,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026183312_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board approves leadership changes including new Whole-time Director",
-    "summary": "Mithun Padam Sacheti was re-designated as Executive Director, while Whole-time Director Rohit Sharma resigned effective January 11, 2027.",
-    "why_it_matters": "Changes in executive leadership affect the strategic direction of the company, with Mithun Padam Sacheti stepping in to oversee strategic initiatives.",
+    "title": "Board reports director and CFO changes",
+    "summary": "Nazara Technologies announced redesignation of a director to whole‑time executive, resignations of a whole‑time director and CFO, and appointment of a new CFO.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -5730,7 +5668,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -5743,7 +5681,7 @@
    "exchange_label": "Resignation",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Resignation of Mr Rohit Sharma from the office of Whole-time Director of the Company with effect from the close of business hours on January 11, 2027.",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -5751,15 +5689,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026182751_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board approves leadership changes including new Whole-time Director",
-    "summary": "Mithun Padam Sacheti was re-designated as Executive Director, while Whole-time Director Rohit Sharma resigned effective January 11, 2027.",
-    "why_it_matters": "Changes in executive leadership affect the strategic direction of the company, with Mithun Padam Sacheti stepping in to oversee strategic initiatives.",
+    "title": "Board reports director and CFO changes",
+    "summary": "Nazara Technologies announced redesignation of a director to whole‑time executive, resignations of a whole‑time director and CFO, and appointment of a new CFO.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -5767,7 +5706,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -5780,7 +5719,7 @@
    "exchange_label": "Change in Director(s)",
    "headline": "Nazara Technologies Limited has informed the Exchange regarding Change in Director(s) of the company.",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -5788,15 +5727,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026182312_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board approves leadership changes including new Whole-time Director",
-    "summary": "Mithun Padam Sacheti was re-designated as Executive Director, while Whole-time Director Rohit Sharma resigned effective January 11, 2027.",
-    "why_it_matters": "Changes in executive leadership affect the strategic direction of the company, with Mithun Padam Sacheti stepping in to oversee strategic initiatives.",
+    "title": "Board reports director and CFO changes",
+    "summary": "Nazara Technologies announced redesignation of a director to whole‑time executive, resignations of a whole‑time director and CFO, and appointment of a new CFO.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -5804,7 +5744,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -5817,7 +5757,7 @@
    "exchange_label": "Outcome of Board Meeting",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Outcome of Board Meeting held on October 12, 2026.",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -5825,15 +5765,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026181527_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board approves leadership changes including new Whole-time Director",
-    "summary": "Mithun Padam Sacheti was re-designated as Executive Director, while Whole-time Director Rohit Sharma resigned effective January 11, 2027.",
-    "why_it_matters": "Changes in executive leadership affect the strategic direction of the company, with Mithun Padam Sacheti stepping in to oversee strategic initiatives.",
+    "title": "Board reports director and CFO changes",
+    "summary": "Nazara Technologies announced redesignation of a director to whole‑time executive, resignations of a whole‑time director and CFO, and appointment of a new CFO.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "fund_raise"
    ],
    "cards": [
     {
@@ -5907,7 +5848,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 118.0,
+   "score": 58.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": true,
    "duplicate_of": null
@@ -5928,12 +5869,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "NCLAT hearing on competition matter postponed",
-    "summary": "The NCLAT notified that the matter concerning the Competition Commission of India will not be taken up on November 2, 2026, and a new date will be notified.",
-    "why_it_matters": "It delays the procedural resolution of ongoing regulatory litigation involving the Competition Commission of India.",
+    "title": "Receives NCLAT notice on competition case",
+    "summary": "Maruti Suzuki disclosed a notice from NCLAT stating that the pending competition commission matter will not be heard on 2 Nov 2026, with a new date to be announced.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "litigation"
@@ -6025,9 +5966,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026203133_PSLIntimationofCreditRatingNCDsd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "ICRA Assigns Credit Rating to Proposed Non-Convertible Debentures",
-    "summary": "ICRA Limited assigned a credit rating of '[ICRA]AA+; Rating Watch with Negative Implications' to the proposed Non-Convertible Debentures.",
-    "why_it_matters": "The rating carries negative implications for proposed NCDs, representing a watch on credit quality relative to annual revenue of about ₹16,801 crore.",
+    "title": "ICRA assigns credit rating to proposed NCDs",
+    "summary": "ICRA assigned a credit rating of [ICRA]AA+ with Rating Watch with Negative Implications to proposed NCDs.",
+    "why_it_matters": "The rating carries negative implications for proposed NCDs and the issuer rating of the company.",
     "sentiment": "negative",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -6062,9 +6003,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENT_ROID_100125_KMP_Doc.zip",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Resignation of Dr. Rajesh Gharpure as Chief Delivery Officer",
-    "summary": "Dr. Rajesh Gharpure has resigned from his position as Chief Delivery Officer, effective October 14, 2026, due to personal reasons.",
-    "why_it_matters": "The departure of a key senior management personnel and Chief Delivery Officer could impact operational delivery in the IT services segment.",
+    "title": "Resignation of Chief Delivery Officer",
+    "summary": "Dr. Rajesh Gharpure resigned from the position of Chief Delivery Officer due to personal reasons.",
+    "why_it_matters": "Dr. Rajesh Gharpure leaves his role as SMP and Chief Delivery Officer from October 14, 2026.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -6091,7 +6032,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -6099,12 +6040,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT stays Corporate Insolvency Resolution Process order",
-    "summary": "The NCLAT stayed and kept in abeyance the NCLT Ahmedabad Bench order admitting a Corporate Insolvency Resolution Process over an alleged operational debt of ₹2.79 crore.",
-    "why_it_matters": "The stay temporarily halts insolvency proceedings against the company stemming from an operational debt of ₹2.79 crore, which is a tiny fraction of its annual revenue of about ₹34,609 crore.",
-    "sentiment": "positive",
+    "title": "Stay on Insolvency Order",
+    "summary": "NCLAT stayed the order admitting a Corporate Insolvency Resolution Process over an alleged operational debt of ₹2.79 crore.",
+    "why_it_matters": "Stay may prevent insolvency proceedings, preserving operations despite the small ₹2.79 crore claim.",
+    "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "litigation"
@@ -6115,7 +6056,7 @@
     "ret_pct": 1.817,
     "vol_ratio": 1.151
    },
-   "score": 108.0,
+   "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-09",
    "group_lead": true,
    "duplicate_of": null
@@ -6136,9 +6077,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026192354_PSLSMPResignationIntimation9102026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Resignation of Dr. Rajesh Gharpure as Chief Delivery Officer",
-    "summary": "Dr. Rajesh Gharpure has resigned from his position as Chief Delivery Officer, effective October 14, 2026, due to personal reasons.",
-    "why_it_matters": "The departure of a key senior management personnel and Chief Delivery Officer could impact operational delivery in the IT services segment.",
+    "title": "Resignation of Chief Delivery Officer",
+    "summary": "Dr. Rajesh Gharpure resigned from the position of Chief Delivery Officer due to personal reasons.",
+    "why_it_matters": "Dr. Rajesh Gharpure leaves his role as SMP and Chief Delivery Officer from October 14, 2026.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -6173,12 +6114,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026190022_PSLPressReleaseOctober92026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Ecures majority stake in Nagarro SE",
-    "summary": "Persistent Systems secured approximately 94.04 percent of Nagarro share capital in a takeover offer, with the transaction expected to close by the end of Q1 CY27.",
-    "why_it_matters": "Acquiring a 94.04 percent stake in Nagarro is a major international acquisition for the company relative to its annual revenue of about ₹16,801 crore.",
+    "title": "Acquires 94% Stake in Nagarro",
+    "summary": "Persistent Systems secured approximately 94.04% of Nagarro’s share capital and plans a squeeze‑out of remaining shareholders.",
+    "why_it_matters": "Control of Nagarro significantly expands Persistent’s market presence.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "M&A"
@@ -6270,9 +6211,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026173743_PSLUpdateonVoluntaryPublicTakeoverOfferofNagarroSigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Reached 94.04% Aggregate Stake in Nagarro SE Takeover Offer",
-    "summary": "Persistent Systems secured an aggregate shareholding of approximately 94.04% in Nagarro SE after acquiring an additional 10.79% stake during the voluntary public takeover offer period.",
-    "why_it_matters": "Brings the company near complete ownership of Nagarro SE, advancing a major cross-border acquisition relative to annual revenue of about INR 16,801 crore.",
+    "title": "Update on Voluntary Public Takeover Offer for Nagarro",
+    "summary": "The company secured an aggregate shareholding of approximately 94.04% in Nagarro SE as of October 6, 2026.",
+    "why_it_matters": "Brings the company close to total acquisition of Nagarro SE, amounting to 94.04% of outstanding share capital.",
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -6337,8 +6278,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_09102026152231_SEIntimationtweet.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Promoter and CMD Tweets About Dealer Interactions",
-    "summary": "The Promoter and CMD of Ola Electric tweeted about hosting and interacting with the first 150 onboarded dealers at the company's factory.",
+    "title": "Social media communication by Promoter and CMD",
+    "summary": "The Promoter and CMD tweeted about hosting the first 150 dealers onboarded at the factory.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
@@ -6366,7 +6307,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -6374,12 +6315,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Company appeals against NCLT order admitting CIRP petition",
-    "summary": "The company filed an appeal before the NCLAT to set aside the NCLT Ahmedabad Bench order admitting a Corporate Insolvency Resolution Process for an alleged debt of ₹2.79 crore.",
-    "why_it_matters": "Defending against an insolvency admission for an alleged operational debt of ₹2.79 crore is a critical legal matter for the company, though small against annual revenue of about ₹34,609 crore.",
-    "sentiment": "negative",
+    "title": "Appeal Against CIRP Admission",
+    "summary": "Polycab filed an appeal with NCLAT to set aside the NCLT order admitting a CIRP over a ₹2.79 crore debt.",
+    "why_it_matters": "Appeal could overturn insolvency proceedings, limiting impact on business.",
+    "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "litigation"
@@ -6390,9 +6331,9 @@
     "ret_pct": 1.276,
     "vol_ratio": 0.862
    },
-   "score": 113.0,
+   "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-08",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -6403,7 +6344,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
    "category": "litigation",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -6411,12 +6352,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Additional details provided on NCLT petition",
-    "summary": "The company submitted additional details regarding the NCLT admission of a petition by Asier Metals Private Limited for an alleged operational debt of ₹2.79 crore.",
-    "why_it_matters": null,
-    "sentiment": "negative",
+    "title": "Details of CIRP Petition",
+    "summary": "Polycab disclosed that Asier Metals filed a petition for CIRP against it over an alleged operational debt of ₹2.79 crore.",
+    "why_it_matters": "Petition initiates insolvency process, though debt is minimal relative to revenue.",
+    "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "litigation"
@@ -6427,9 +6368,9 @@
     "ret_pct": 1.276,
     "vol_ratio": 0.862
    },
-   "score": 13.0,
+   "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-08",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -6448,8 +6389,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_08102026171702_PSLCorrigendumtotheOutcomeofInvestorsCallOct82026Sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Corrigendum to Institutional Investor Interaction Date",
-    "summary": "Persistent Systems issued a correction stating that the institutional investor interaction took place on Wednesday, September 30, 2026, instead of Tuesday, September 29, 2026.",
+    "title": "Corrigendum regarding institutional investor interaction date",
+    "summary": "The company clarified that the institutional investor interaction date was Wednesday, September 30, 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -6575,8 +6516,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Newspaper Advertisement Published for Postal Ballot Notice",
-    "summary": "HDFC Bank published newspaper advertisements in Business Standard and Navshakti regarding the issue of its Postal Ballot Notice dated October 1, 2026.",
+    "title": "Postal ballot notice newspaper advertisement",
+    "summary": "The bank published newspaper clippings regarding the issue of a postal ballot notice.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -6642,12 +6583,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026235805_IntimationLetterofOfferOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Letter of Offer submitted for rights issue",
-    "summary": "The board submitted the letter of offer for a rights issue of up to ₹ 9,99,73,61,955 crores of partly paid-up equity shares.",
-    "why_it_matters": "The rights issue size of ₹ 9,99,73,61,955 crores compares to annual revenue of about ₹1,880 crore, representing a massive capital raise relative to the company's size.",
+    "title": "Rights Issue of 37 Million Shares",
+    "summary": "Ola Electric proposed a rights issue of 37,02,72,665 shares at ₹27 each, raising about ₹9,99,73,61,955 crore.",
+    "why_it_matters": "Fund raise exceeds five times its annual revenue of ₹1,880 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": 9997361955.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "fund_raise"
@@ -6660,7 +6601,7 @@
    },
    "score": 110.0,
    "group_id": "OLAELEC:fund_raise:2026-10-07",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -6671,7 +6612,7 @@
    "exchange_label": "General Updates",
    "headline": "Polycab India Limited has informed the Exchange about intimation of NCLT order",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -6679,12 +6620,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLT order admits CIRP petition against company",
-    "summary": "The NCLT admitted a petition under Section 9 of the IBC for initiation of CIRP against the company for an operational debt of ₹2.79 crore.",
-    "why_it_matters": "The debt amount of ₹2.79 crore is tiny compared to annual revenue of about ₹34,609 crore, and the company plans to appeal to NCLAT.",
-    "sentiment": "negative",
+    "title": "NCLT Admits CIRP Petition",
+    "summary": "NCLT admitted a petition for CIRP against Polycab over an alleged operational debt of ₹2.79 crore.",
+    "why_it_matters": "Admission starts insolvency process, though debt is minor versus ₹34,609 crore revenue.",
+    "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "litigation"
@@ -6695,7 +6636,7 @@
     "ret_pct": -1.913,
     "vol_ratio": 0.915
    },
-   "score": 113.0,
+   "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-07",
    "group_lead": true,
    "duplicate_of": null
@@ -6708,7 +6649,7 @@
    "exchange_label": "Action(s) taken or orders passed",
    "headline": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 is attached.",
    "category": "litigation",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -6716,12 +6657,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_07102026223504_RIL_SEletter07102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Customs department levies redemption fine and penalty",
-    "summary": "The Joint Commissioner of Customs levied a redemption fine and penalty aggregating Rs. 18,74,978 for alleged incorrect classification of imported goods.",
-    "why_it_matters": "The fine of Rs. 18,74,978 is negligible compared to annual revenue of about ₹1,123,055 crore, and the company intends to appeal.",
-    "sentiment": "negative",
+    "title": "Customs penalty for misclassification",
+    "summary": "Reliance received a customs order levying a Rs. 18,74,978 fine for underpaid duty.",
+    "why_it_matters": "Fine is negligible versus annual revenue of ₹1,123,055 crore.",
+    "sentiment": "neutral",
     "amount_inr_crore": 0.19,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "litigation"
@@ -6732,7 +6673,7 @@
     "ret_pct": -2.459,
     "vol_ratio": 1.083
    },
-   "score": 13.0,
+   "score": 48.0,
    "group_id": "RELIANCE:litigation:2026-10-07",
    "group_lead": true,
    "duplicate_of": null
@@ -6775,7 +6716,7 @@
    "exchange_label": "Updates",
    "headline": "Ola Electric Mobility Limited has informed the Exchange regarding 'Company Statement' dated October 07, 2026.",
    "category": "fund_raise",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -6783,12 +6724,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026195359_CompanyStatementOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Company statement issued on rights issue",
-    "summary": "The board approved a rights issue of up to ₹1,000 crore at ₹27 per share, payable in two calls.",
-    "why_it_matters": "The issue price is set at about 26% below the current market price, and the promoter will invest alongside all other shareholders.",
-    "sentiment": "positive",
+    "title": "Rights issue up to ₹1,000 crore",
+    "summary": "Board approved rights issue up to ₹1,000 crore at ₹27 per share, 26% discount.",
+    "why_it_matters": "Issue size equals about 53% of annual revenue (₹1,880 crore).",
+    "sentiment": "neutral",
     "amount_inr_crore": 1000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "fund_raise"
@@ -6799,7 +6740,7 @@
     "ret_pct": -4.653,
     "vol_ratio": 1.666
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "OLAELEC:fund_raise:2026-10-07",
    "group_lead": false,
    "duplicate_of": null
@@ -6842,7 +6783,7 @@
    "exchange_label": "Record Date",
    "headline": "Ola Electric Mobility Limited has informed the Exchange that Record date for the purpose of Rights Issue is 13-Oct-2026.",
    "category": "fund_raise",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "equity_raise_text",
    "needs_ai": false,
@@ -6850,12 +6791,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185643_OutcomeRightsIssueOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Board approves rights issue terms and ratio",
-    "summary": "The board approved issuing 37,02,72,665 partly paid-up equity shares in a 2:25 ratio at Rs. 27 per share, aggregating not exceeding ₹ 1,000 crores.",
-    "why_it_matters": "The rights issue provides existing shareholders 2 shares for every 25 held at an issue price of Rs. 27 per share.",
+    "title": "Rights issue 2:25 ratio, ₹27 price",
+    "summary": "Board issued 2 shares per 25 existing at ₹27 each, total size ₹1,000 crore.",
+    "why_it_matters": "Size represents roughly 53% of the company's ₹1,880 crore revenue.",
     "sentiment": "neutral",
     "amount_inr_crore": 1000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "fund_raise"
@@ -6866,7 +6807,7 @@
     "ret_pct": -4.653,
     "vol_ratio": 1.666
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "OLAELEC:fund_raise:2026-10-07",
    "group_lead": false,
    "duplicate_of": "nse:106810214"
@@ -6879,7 +6820,7 @@
    "exchange_label": "Rights Issue",
    "headline": "Ola Electric Mobility Limited has informed the Exchange that Board of Directors at its meeting held on October 07, 2026, has decided to issue equity shares on rights basis in the ratio of 2 : 25, i.e 2 Equity Shares for every 25 Equity Shares held at an Issue Price of Rs. 27 per share.",
    "category": "fund_raise",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "equity_raise",
    "needs_ai": false,
@@ -6887,12 +6828,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185359_OutcomeRightsIssueOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Board approves rights issue terms and ratio",
-    "summary": "The board approved issuing 37,02,72,665 partly paid-up equity shares in a 2:25 ratio at Rs. 27 per share, aggregating not exceeding ₹ 1,000 crores.",
-    "why_it_matters": "The rights issue provides existing shareholders 2 shares for every 25 held at an issue price of Rs. 27 per share.",
+    "title": "Rights issue 2:25 ratio, ₹27 price",
+    "summary": "Board issued 2 shares per 25 existing at ₹27 each, total size ₹1,000 crore.",
+    "why_it_matters": "Size represents roughly 53% of the company's ₹1,880 crore revenue.",
     "sentiment": "neutral",
     "amount_inr_crore": 1000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "fund_raise"
@@ -6903,9 +6844,9 @@
     "ret_pct": -4.653,
     "vol_ratio": 1.666
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "OLAELEC:fund_raise:2026-10-07",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -6984,11 +6925,11 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_07102026181135_AELIntimationCreditRating07102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "CARE Ratings Upgrades Long-Term Ratings to CARE AA Stable",
-    "summary": "CARE Ratings upgraded Adani Enterprises' long-term bank facilities and non-convertible debentures to CARE AA Stable while reaffirming short-term facilities and commercial paper.",
-    "why_it_matters": "Achieves the highest-ever rating in the company's credit history, validating fiscal prudence alongside an annual revenue base of about INR 111,432 crore.",
+    "title": "Credit rating upgraded to AA Stable",
+    "summary": "CARE Ratings upgraded the company's long-term rating to AA Stable, its highest-ever in credit history.",
+    "why_it_matters": "The long-term rating upgrade to AA Stable covers bank facilities and non-convertible debentures totalling thousands of crores, validating disciplined capital management.",
     "sentiment": "positive",
-    "amount_inr_crore": null,
+    "amount_inr_crore": 16505.0,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
@@ -7051,12 +6992,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Joint venture agreement signed for optical transceiver manufacturing",
-    "summary": "The company executed a joint venture agreement to manufacture and supply optical transceivers and telecom products through its subsidiary.",
+    "title": "Joint venture for optical transceiver manufacturing",
+    "summary": "Dixon entered JV with Gemtek and Dixon Electroconnect to produce SFP and BOSA in India.",
     "why_it_matters": null,
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "M&A"
@@ -7118,9 +7059,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_07102026110048_BhartiAirtelPR.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Launches Free International Roaming on All Postpaid Plans",
-    "summary": "Bharti Airtel announced new postpaid plans offering free international roaming once a year alongside unlimited data, fast lane tech, safety features, and entertainment.",
-    "why_it_matters": "A major consumer tariff change for a telecommunications provider with annual revenue of about INR 220,049 crore.",
+    "title": "Free International Roaming on Postpaid Plans",
+    "summary": "The company announced the launch of new postpaid plans offering free international roaming once every year along with other benefits.",
+    "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -7275,8 +7216,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026191216_BMintimationtoStockExchangesOct26.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
    "insight": {
-    "title": "Board meeting to consider interim dividend and financial results",
-    "summary": "The board will meet on October 29, 2026, to consider financial results and an interim dividend, with a record date of November 4, 2026.",
+    "title": "Board meeting date and interim dividend consideration",
+    "summary": "A board meeting is scheduled for 29th October 2026 to consider financial results and an interim dividend, with a record date of 4th November 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -7314,8 +7255,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026190837_BMintimationtoStockExchangesOct26.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
    "insight": {
-    "title": "Board meeting to consider interim dividend and financial results",
-    "summary": "The board will meet on October 29, 2026, to consider financial results and an interim dividend, with a record date of November 4, 2026.",
+    "title": "Board meeting date and interim dividend consideration",
+    "summary": "A board meeting is scheduled for 29th October 2026 to consider financial results and an interim dividend, with a record date of 4th November 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -7353,10 +7294,10 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_06102026182517_SEintimationPRforMSP.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Establishes endowed professorship at Mount Sinai",
-    "summary": "Sun Pharma announced the establishment of the Sun Professorship in Dermatology at the Icahn School of Medicine at Mount Sinai, funding academic leadership in perpetuity.",
+    "title": "Endowed Professorship established at Mount Sinai",
+    "summary": "The company established an endowed professorship in dermatology at the Icahn School of Medicine at Mount Sinai.",
     "why_it_matters": null,
-    "sentiment": "positive",
+    "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
@@ -7441,7 +7382,7 @@
    "filed_at": "2026-10-05T20:18:07+05:30",
    "exchange_label": "General Updates",
    "headline": "Intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "category": "fund_raise",
+   "category": "results",
    "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -7450,16 +7391,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK3_05102026201747_SE_Key_NumbersQ2FY2027.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Business update: net advances rise 11.2% YoY",
-    "summary": "Net advances grew 11.2% year-on-year to Rs 3,62,393 crores as of September 30, 2026, alongside mobilized FCNR(B) deposits aggregating to USD 3.51 billion (~ ₹33,627 crore).",
-    "why_it_matters": "Deposits reached Rs 4,29,038 crores, up 10.1% YoY, and FCNR(B) deposit mobilization under the RBI swap facility reached USD 3.51 billion.",
+    "title": "Quarterly business update on advances and deposits",
+    "summary": "Net advances grew 11.2% YoY to Rs. 3,62,393 crores and total deposits grew 10.1% YoY to Rs. 4,29,038 crores as of September 30, 2026.",
+    "why_it_matters": "Net advances grew 11.2% YoY to Rs. 3,62,393 crores while the CASA ratio dropped to 28.0% compared to 30.7% a year ago.",
     "sentiment": "positive",
-    "amount_inr_crore": 351.0,
+    "amount_inr_crore": 362393.0,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "results",
-    "fund_raise"
+    "results"
    ],
    "cards": [
     {
@@ -7586,15 +7526,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_05102026173620_PRIntimationTheTraitors.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Launches The Traitors: Interactive Game on iOS and Android",
-    "summary": "Fusebox Games, a subsidiary of Nazara, launched The Traitors: Interactive Game on iOS and Android platforms.",
+    "title": "Interactive Game released on iOS and Android",
+    "summary": "Subsidiary Fusebox Games launched The Traitors: Interactive Game on iOS and Android platforms.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "results",
     "press_release"
    ],
    "cards": [],
@@ -7603,8 +7542,8 @@
     "ret_pct": -1.62,
     "vol_ratio": 0.477
    },
-   "score": 60.0,
-   "group_id": "NAZARA:results:2026-10-05",
+   "score": 40.0,
+   "group_id": "NAZARA:press_release:2026-10-05",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -7654,8 +7593,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05102026120416_BhartiAirtelSTXIntimation.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Airtel Business launches IQ Gateway for enterprise messaging",
-    "summary": "Airtel Business launched IQ Gateway, India's first business communications platform with telco-grade network intelligence for safe enterprise messaging.",
+    "title": "Airtel Business launches IQ Gateway communications platform",
+    "summary": "Airtel Business launched IQ Gateway, a DPDP-compliant business communications platform with telco-grade network intelligence.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
@@ -7721,15 +7660,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Reports Q2 FY27 average advances growth of 14%",
-    "summary": "Average advances under management were ₹ 31,872 billion for the September 2026 quarter, a growth of around 14.0% over the corresponding period.",
-    "why_it_matters": "Average deposits grew by 16.8% to ₹ 31,665 billion for the September 2026 quarter compared to the corresponding period last year.",
+    "title": "Quarterly advances and deposits update released",
+    "summary": "Average advances grew about 14.0% to ₹ 31,872 billion and average deposits grew about 16.8% to ₹ 31,665 billion for the September 2026 quarter.",
+    "why_it_matters": "Average advances grew 14.0% to ₹ 31,872 billion and average deposits grew 16.8% to ₹ 31,665 billion for the quarter compared to the corresponding period last year.",
     "sentiment": "positive",
     "amount_inr_crore": 3187200.0,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "results"
+    "results",
+    "investor_meetings"
    ],
    "cards": [],
    "price_reaction": {
@@ -7750,7 +7690,7 @@
    "exchange_label": "Updates",
    "headline": "Ola Electric Mobility Limited has informed the Exchange regarding 'Company announcement on pledge of shares by Promoter'.",
    "category": "pledging",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "pledge_text",
    "needs_ai": false,
@@ -7758,15 +7698,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_04102026180131_Intimation_Press_Release_Ola_Electric_04_Oct.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Promoter pledges 4.32% stake for rights issue subscription",
-    "summary": "The promoter pledged a 4.32% stake in the company solely to fund their subscription to the upcoming rights issue.",
-    "why_it_matters": null,
+    "title": "Promoter pledges 4.32% stake for rights issue",
+    "summary": "Bhavish Aggarwal pledged 4.32% of shares to fund his subscription to the rights issue.",
+    "why_it_matters": "Pledge is solely to fund his subscription, no shares sold.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
-    "fund_raise",
     "pledging"
    ],
    "cards": [],
@@ -7775,8 +7714,8 @@
     "ret_pct": -2.861,
     "vol_ratio": 0.365
    },
-   "score": 110.0,
-   "group_id": "OLAELEC:fund_raise:2026-10-04",
+   "score": 52.0,
+   "group_id": "OLAELEC:pledging:2026-10-04",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -7886,8 +7825,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_02102026125315_Rumour_Verification_Tamil_Nadu_Project.PDF",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Clarified regarding news item on Thoothukudi shipyard project",
-    "summary": "The company clarified that it is focusing on Dighi and Dugarajapatnam clusters and not pursuing the Thoothukudi project.",
+    "title": "Clarification on Thoothukudi Shipyard project news",
+    "summary": "The company clarified that it is focusing on Dighi and Dugarajapatnam clusters and did not pursue Thoothukudi after another anchor shipyard was selected.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -7983,12 +7922,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Anup Bagchi appointed as new MD and CEO",
-    "summary": "The RBI approved the appointment of Mr. Anup Bagchi as Managing Director and CEO for a period of three years.",
-    "why_it_matters": "A top-level leadership change involving the CEO role is critical for a major bank's strategic direction.",
+    "title": "Anup Bagchi appointed MD & CEO of HDFC Bank",
+    "summary": "HDFC Bank appointed Anup Bagchi as Managing Director and CEO, effective Oct 27, 2026.",
+    "why_it_matters": "Replaces Sashidhar Jagdishan, bringing experience from ICICI group.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "openai/gpt-oss-120b"
    },
    "events": [
     "management_change"
@@ -8071,8 +8010,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA123_01102026174411_SEIntimationPR_1Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Two-year data for LEQSELVI in severe alopecia areata shown",
-    "summary": "Sun Pharma announced two-year data from an open-label extension study for LEQSELVI at the EADV Congress 2026.",
+    "title": "New LEQSELVI data presented at EADV Congress 2026",
+    "summary": "Sun Pharma announced two-year data for LEQSELVI in severe alopecia areata showing sustained efficacy and safety at the EADV Congress 2026.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
@@ -8160,7 +8099,7 @@
    "exchange_label": "News Verification",
    "headline": "The Exchange has sought clarification from Adani Enterprises Limited with respect to recent news item captioned Adani Airport Holdings raises $120 million through local bond issue.. The response from the Company is attached.",
    "category": "press_release",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "clarification",
    "needs_ai": false,
@@ -8168,11 +8107,11 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_01102026151007_AELRoumourClarificationfinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Clarification on media report regarding subsidiary bond issue",
-    "summary": "The company clarified that its subsidiary Adani Airport Holdings Limited handled its own bond issue independently.",
-    "why_it_matters": null,
+    "title": "Clarification on subsidiary bond issue news item",
+    "summary": "The company clarified that subsidiary Adani Airport Holdings had previously disclosed its Non-Convertible Debentures proposal, and the parent was not part of the transaction.",
+    "why_it_matters": "The subsidiary Adani Airport Holdings raised $120 million through local bonds via a debt-listed entity route not requiring parent disclosure.",
     "sentiment": "neutral",
-    "amount_inr_crore": 12.0,
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
@@ -8184,7 +8123,7 @@
     "ret_pct": -2.983,
     "vol_ratio": 1.393
    },
-   "score": 0.0,
+   "score": 40.0,
    "group_id": "ADANIENT:press_release:2026-10-01",
    "group_lead": true,
    "duplicate_of": null
@@ -8235,15 +8174,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Production volume reported for September 2026",
-    "summary": "Total production volume reached 242,011 units in September 2026 compared to 201,915 units in September 2025.",
-    "why_it_matters": null,
+    "title": "September 2026 Production Volume Reported",
+    "summary": "Total passenger and light commercial vehicle production for September 2026 was 242,011 units compared to 201,915 units in September 2025.",
+    "why_it_matters": "Total production increased by about 19.8% year-on-year, driven largely by utility vehicle production rising to 109,615 units from 79,496 units.",
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "press_release"
+    "press_release",
+    "unclassified"
    ],
    "cards": [],
    "price_reaction": {
@@ -8272,8 +8212,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_01102026125929_BhartiAirtel-Reg30.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Received notice of penalty from telecom department",
-    "summary": "The company received notices from the Department of Telecommunications regarding penalty orders.",
+    "title": "Penalty notice received from Department of Telecommunications",
+    "summary": "Bharti Airtel received a penalty notice from the Department of Telecommunications, Assam LSA.",
     "why_it_matters": null,
     "sentiment": "negative",
     "amount_inr_crore": null,
@@ -8301,7 +8241,7 @@
    "exchange_label": "Press Release",
    "headline": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\".",
    "category": "press_release",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -8309,87 +8249,25 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026125916_Sales.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Sales reported for September 2026 alongside financial figures",
-    "summary": "The company sold a total of 236,013 units in September 2026 and reported quarterly revenue of INR 53,355.5 crore.",
-    "why_it_matters": "Revenue grew by 26.0% year-on-year to INR 53,355.5 crore against annual revenue of about INR 208,192 crore, while PAT declined by 26.4% year-on-year to INR 2,466.1 crore.",
+    "title": "September 2026 Sales and Q2 FY27 Results",
+    "summary": "In September 2026, total sales reached 236,013 units, and for Q2 FY27 consolidated revenue was 53,355.5 crore with profit after tax of 2,466.1 crore.",
+    "why_it_matters": "Revenue grew 26.0% year-on-year while profit after tax declined by 26.4%, with EBITDA margin dropping to 8.9% from 12.0% a year ago.",
     "sentiment": "mixed",
     "amount_inr_crore": 53355.5,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
     "results",
-    "press_release"
+    "press_release",
+    "unclassified"
    ],
-   "cards": [
-    {
-     "type": "results",
-     "symbol": "MARUTI",
-     "period_end": "2026-09-30",
-     "period_label": "Q2 FY27",
-     "basis": "consolidated",
-     "kind": "standard",
-     "unit": "₹ crore",
-     "metrics": [
-      {
-       "key": "revenue",
-       "label": "Revenue",
-       "current": 53355.5,
-       "previous_quarter": 52469.8,
-       "year_ago": 42344.2,
-       "qoq_pct": 1.7,
-       "yoy_pct": 26.0
-      },
-      {
-       "key": "ebitda",
-       "label": "EBITDA",
-       "current": 4764.1,
-       "previous_quarter": 4313.3,
-       "year_ago": 5086.0,
-       "qoq_pct": 10.5,
-       "yoy_pct": -6.3
-      },
-      {
-       "key": "pbt",
-       "label": "Profit before tax",
-       "current": 3150.1,
-       "previous_quarter": 4343.5,
-       "year_ago": 4272.0,
-       "qoq_pct": -27.5,
-       "yoy_pct": -26.3
-      },
-      {
-       "key": "pat",
-       "label": "Profit after tax",
-       "current": 2466.1,
-       "previous_quarter": 3446.9,
-       "year_ago": 3349.0,
-       "qoq_pct": -28.5,
-       "yoy_pct": -26.4
-      }
-     ],
-     "margin_label": "EBITDA margin",
-     "margin_pct": [
-      8.9,
-      8.2,
-      12.0
-     ],
-     "source": "xbrl",
-     "verified": true,
-     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹69.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
-     "share_of_associates": 69.0,
-     "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
-     ]
-    }
-   ],
+   "cards": [],
    "price_reaction": {
     "session": "2026-10-01",
     "ret_pct": -4.855,
     "vol_ratio": 2.3
    },
-   "score": 130.0,
+   "score": 70.0,
    "group_id": "MARUTI:results:2026-10-01",
    "group_lead": true,
    "duplicate_of": null
@@ -8432,7 +8310,7 @@
    "exchange_label": "Change in Management",
    "headline": "HDFC Bank Limited has informed the Exchange about change in Management",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -8440,9 +8318,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026203611_SE_intimation-_sudhir.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "General Counsel superannuates, successor assumes office",
-    "summary": "Mr. Sudhir Kumar Jha superannuated as Group Head - Legal & Group General Counsel, and Mr. Jigar Shah assumed the position.",
-    "why_it_matters": null,
+    "title": "Retirement of Group Head Legal and General Counsel",
+    "summary": "Sudhir Kumar Jha retired as Group Head - Legal & Group General Counsel, and Jigar Shah assumed the role of General Counsel.",
+    "why_it_matters": "Sudhir Kumar Jha served for 22 years across the HDFC Group, making his departure from the senior management team a notable transition.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -8456,7 +8334,7 @@
     "ret_pct": 1.764,
     "vol_ratio": 1.256
    },
-   "score": 46.0,
+   "score": 106.0,
    "group_id": "HDFCBANK:management_change:2026-09-30",
    "group_lead": false,
    "duplicate_of": null
@@ -8529,7 +8407,7 @@
    "exchange_label": "Change in Management",
    "headline": "HDFC Bank Limited has informed the Exchange about change in Management",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -8537,9 +8415,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Chief Compliance Officer tenure ends, successor announced",
-    "summary": "Mr. Rakesh Kumar Rajput completed his tenure as Chief Compliance Officer, with Mr. V. N. Srivatsan appointed to succeed him.",
-    "why_it_matters": null,
+    "title": "Chief Compliance Officer tenure completion and appointment",
+    "summary": "Rakesh Kumar Rajput completed his tenure as Chief Compliance Officer, with V. N. Srivatsan appointed to succeed him effective January 4, 2027.",
+    "why_it_matters": "V. N. Srivatsan is joining from ICICI Bank Limited for a three-year tenure, while Venkateswaran L handles the interim responsibility.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -8623,7 +8501,7 @@
     "ret_pct": 1.764,
     "vol_ratio": 1.256
    },
-   "score": 46.0,
+   "score": 106.0,
    "group_id": "HDFCBANK:management_change:2026-09-30",
    "group_lead": true,
    "duplicate_of": null
@@ -8704,9 +8582,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Income Tax Penalty Order Received",
-    "summary": "An income tax penalty of Rs. 149.64 million was imposed on Suzuki Motor Gujarat for FY 2022-23.",
-    "why_it_matters": "The penalty of Rs. 149.64 million is negligible compared to the company's annual revenue of about ₹208,192 crore.",
+    "title": "Income Tax Penalty Order received by Suzuki Motor Gujarat",
+    "summary": "Suzuki Motor Gujarat Private Limited received a penalty order of Rs. 149.64 million under Section 270A of the Income-tax Act, 1961 for FY 2022-23.",
+    "why_it_matters": "The penalty amount of Rs. 149.64 million is negligible compared to Maruti Suzuki's annual revenue of about ₹208,192 crore, and the company plans to file an appeal.",
     "sentiment": "negative",
     "amount_inr_crore": 14.96,
     "model": "gemini-3.5-flash-lite"
@@ -8733,7 +8611,7 @@
    "exchange_label": "Outcome of Board Meeting",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding Outcome of Rights Issue Committee Meeting held on Wednesday September 30, 2026.",
    "category": "fund_raise",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "equity_raise_text",
    "needs_ai": false,
@@ -8741,8 +8619,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_30092026171121_OutcomeRICommittee30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Reminder Notices for Rights Issue Call Money",
-    "summary": "Reminder notices were approved for payment of first and second/final call money on partly paid-up equity shares.",
+    "title": "Rights Issue Committee approves issuance of reminder notices",
+    "summary": "The Rights Issue Committee approved issuing reminder notices for the payment of First Call and Second & Final Call money on partly paid-up shares.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -8757,7 +8635,7 @@
     "ret_pct": -2.983,
     "vol_ratio": 1.393
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "ADANIENT:fund_raise:2026-09-30",
    "group_lead": false,
    "duplicate_of": "nse:106802777"
@@ -8770,7 +8648,7 @@
    "exchange_label": "Committee Meeting Updates",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding Outcome of Rights Committee Meeting held on Wednesday, September 30, 2026.",
    "category": "fund_raise",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -8778,8 +8656,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_30092026170710_OutcomeRICommittee30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Reminder Notices for Rights Issue Call Money",
-    "summary": "Reminder notices were approved for payment of first and second/final call money on partly paid-up equity shares.",
+    "title": "Rights Issue Committee approves issuance of reminder notices",
+    "summary": "The Rights Issue Committee approved issuing reminder notices for the payment of First Call and Second & Final Call money on partly paid-up shares.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -8794,7 +8672,7 @@
     "ret_pct": -2.983,
     "vol_ratio": 1.393
    },
-   "score": 50.0,
+   "score": 110.0,
    "group_id": "ADANIENT:fund_raise:2026-09-30",
    "group_lead": true,
    "duplicate_of": null
@@ -8845,15 +8723,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30092026144453_AnnouncementAviat30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Subsidiary enters into IP license agreement with Aviat Networks",
-    "summary": "Dixon Electro Appliances Private Limited executed an Intellectual Property License Agreement with Aviat Networks for microwave radios.",
+    "title": "Subsidiary Enters IP License Agreement for Microwave Radios",
+    "summary": "Dixon Electro Appliances Private Limited entered an intellectual property license agreement with Aviat Networks to manufacture microwave radios.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "press_release"
+    "press_release",
+    "unclassified"
    ],
    "cards": [],
    "price_reaction": {
@@ -8882,8 +8761,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026094634_STxIntimation_ChangeinManagement_30Sep2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Change in Management",
-    "summary": "The company informed the exchange about a change in management.",
+    "title": "Management change notification submitted by company",
+    "summary": "Maruti Suzuki India Limited informed the exchange about a change in management, though the attachment contains no reliable text.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -9091,7 +8970,7 @@
    "exchange_label": "Change in Management",
    "headline": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -9099,10 +8978,10 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026182828_Regulation30DisclosureAGM28092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Re-appointment of Whole Time Director and Managing Director",
-    "summary": "Shareholders approved the re-appointment of Mr. Sunil Vachani as Whole Time Director and Mr. Atul B. Lall as Managing Director for five years.",
-    "why_it_matters": "Secures key leadership continuity for a five-year term starting May 5, 2027.",
-    "sentiment": "positive",
+    "title": "Reappointment of Managing Director and Whole Time Director",
+    "summary": "Shareholders approved the reappointment of Mr. Sunil Vachani as Whole Time Director and Mr. Atul B. Lall as Managing Director for five years starting May 5, 2027.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
@@ -9153,7 +9032,7 @@
     "ret_pct": -1.132,
     "vol_ratio": 0.815
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "DIXON:management_change:2026-09-29",
    "group_lead": true,
    "duplicate_of": null
@@ -9226,7 +9105,7 @@
    "exchange_label": "Action(s) taken or orders passed",
    "headline": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
    "category": "litigation",
-   "tier": "routine",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -9234,8 +9113,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29092026172859_BhartiAirtel-Reg30disclosure.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Penalty Notice Received from Department of Telecommunications",
-    "summary": "The company received a penalty notice from the Department of Telecommunications, Delhi LSA.",
+    "title": "Penalty notice received from Department of Telecommunications",
+    "summary": "The company received a notice from the Department of Telecommunications imposing a penalty.",
     "why_it_matters": null,
     "sentiment": "negative",
     "amount_inr_crore": null,
@@ -9250,7 +9129,7 @@
     "ret_pct": -0.802,
     "vol_ratio": 1.433
    },
-   "score": 13.0,
+   "score": 113.0,
    "group_id": "BHARTIARTL:litigation:2026-09-29",
    "group_lead": true,
    "duplicate_of": null
@@ -9263,7 +9142,7 @@
    "exchange_label": "News Verification",
    "headline": "The Exchange has sought clarification from Adani Enterprises Limited with respect to recent news item captioned Adani Airport Holdings raises $120 million through local bond issue.. The response from the Company is awaited.",
    "category": "press_release",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "clarification",
    "needs_ai": false,
@@ -9271,15 +9150,14 @@
    "attachment_url": null,
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Clarification sought on $120 million bond issue news",
-    "summary": "The Exchange sought clarification regarding a news item that Adani Airport Holdings raised $120 million through a local bond issue.",
+    "title": "Exchange Seeks Clarification on News Item",
+    "summary": "The exchange sought clarification regarding a news item titled Adani Airport Holdings raises $120 million through local bond issue.",
     "why_it_matters": null,
     "sentiment": "neutral",
-    "amount_inr_crore": 12.0,
+    "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "fund_raise",
     "press_release"
    ],
    "cards": [],
@@ -9288,8 +9166,8 @@
     "ret_pct": -2.338,
     "vol_ratio": 1.028
    },
-   "score": 110.0,
-   "group_id": "ADANIENT:fund_raise:2026-09-29",
+   "score": 0.0,
+   "group_id": "ADANIENT:press_release:2026-09-29",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -9300,7 +9178,7 @@
    "filed_at": "2026-09-29T12:12:17+05:30",
    "exchange_label": "General Updates",
    "headline": "Newspaper publication regarding special window for transfer and dematerialization of physical shares of HDFC Bank Limited.",
-   "category": "dividend",
+   "category": "unclassified",
    "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -9309,15 +9187,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29092026121137_SE_Intimation_-_Special_window.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Newspaper notice for physical shares transfer and dematerialization",
-    "summary": "The Bank published a notice in newspapers regarding a special window for the transfer and dematerialization of physical shares.",
+    "title": "Newspaper Notice on Physical Share Transfer",
+    "summary": "A notice regarding a special window for transfer and dematerialization of physical shares was published in newspapers.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "dividend",
     "unclassified"
    ],
    "cards": [],
@@ -9327,7 +9204,7 @@
     "vol_ratio": 1.345
    },
    "score": 0.0,
-   "group_id": "HDFCBANK:dividend:2026-09-29",
+   "group_id": "HDFCBANK:unclassified:2026-09-29",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -9347,8 +9224,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_29092026085455_AELDisclosureofSettlementOrderdated29092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "SEBI Settlement Order Passed",
-    "summary": "A settlement order was passed by SEBI in respect of settlement applications filed by the company and its directors without admission or denial of findings.",
+    "title": "SEBI settlement order passed for company and directors",
+    "summary": "A Settlement Order was passed by SEBI regarding settlement applications filed by the company and several current and erstwhile directors without admission or denial of findings.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -9384,47 +9261,25 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026233852_Intimationforconstitutionofrightsissuecommittee.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Rights issue committee constituted",
-    "summary": "The board constituted a rights issue committee consisting of Mr. Bhavish Aggarwal, Mr. Manoj Kumar Kohli, and Mr. Navalur Dattatreya Singh Shashank.",
-    "why_it_matters": "Sets up the execution team for the previously announced ₹ 1,000 crore fund raise, which is large relative to annual revenue of about ₹1,880 crore.",
+    "title": "Rights issue committee constituted by board",
+    "summary": "The board approved the constitution and terms of reference for a rights issue committee.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "management_change",
     "fund_raise"
    ],
-   "cards": [
-    {
-     "type": "people",
-     "changes": [
-      {
-       "person": "Deepa Bansal",
-       "role": "Company Secretary and Compliance Officer",
-       "change": "appointment",
-       "effective_date": "2026-09-28",
-       "reason": null,
-       "profile": "Ms. Deepa Bansal is an Associate Member of the Institute of Company Secretaries of India and holds a Bachelor's degree in Commerce. She has more than 11 years of experience in corporate secretarial functions, corporate governance, IPO Listing, Fund raising, corporate restructuring and other regulatory compliances frameworks.",
-       "previous_roles": [
-        "Company Secretary, Kothari Petrochemicals Limited",
-        "Company Secretary, Tessolve Semiconductor Pvt. Ltd.",
-        "Company Secretary, Medi Assist Healthcare Services Limited"
-       ],
-       "education": "Bachelor's degree in Commerce",
-       "profile_source": null
-      }
-     ]
-    }
-   ],
+   "cards": [],
    "price_reaction": {
     "session": "2026-09-29",
     "ret_pct": -1.162,
     "vol_ratio": 1.145
    },
-   "score": 106.0,
-   "group_id": "OLAELEC:management_change:2026-09-28",
-   "group_lead": true,
+   "score": 110.0,
+   "group_id": "OLAELEC:fund_raise:2026-09-28",
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -9443,16 +9298,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026200828_SEIntimationforVR.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Postal ballot results approved by requisite majority",
-    "summary": "The company announced that the resolution set out in the postal ballot notice dated 25 August 2026 has been approved by shareholders.",
+    "title": "Postal Ballot Results Completed",
+    "summary": "The postal ballot initiated on 25 August 2026 was completed on 26 September 2026 with resolutions approved by shareholders.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "postal_ballot",
-    "agm_egm"
+    "postal_ballot"
    ],
    "cards": [],
    "price_reaction": {
@@ -9481,9 +9335,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026195546_SEintimationOutcomeofBMRightsIssue.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Board approved rights issue up to ₹ 1,000 crore",
-    "summary": "The board approved issuing partly paid-up equity shares of face value ₹10 each for an amount not exceeding ₹ 1,000 crore via a rights issue.",
-    "why_it_matters": "The ₹ 1,000 crore fund raise represents more than half of annual revenue of about ₹1,880 crore.",
+    "title": "Board approves rights issue up to Rs 1,000 crore",
+    "summary": "The board approved issuing partly paid-up equity shares via a rights issue for an amount not exceeding ₹ 1,000 crore.",
+    "why_it_matters": "The rights issue amount of ₹ 1,000 crore is large relative to the annual revenue of about ₹1,880 crore.",
     "sentiment": "positive",
     "amount_inr_crore": 1000.0,
     "model": "gemini-3.5-flash-lite"
@@ -9518,8 +9372,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026195126_SEIntimationAppointmentofCompanySecretaryandComplianceOfficer.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Deepa Bansal appointed company secretary",
-    "summary": "Ms. Deepa Bansal was appointed as the Company Secretary, Compliance Officer, and Key Managerial Personnel effective September 28, 2026.",
+    "title": "Appointment of Company Secretary and Compliance Officer",
+    "summary": "Ms. Deepa Bansal was appointed as Company Secretary, Compliance Officer, and Key Managerial Personnel effective September 28, 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -9555,9 +9409,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026194153_SEintimationOutcomeofBMRightsIssue.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Board approved rights issue up to ₹ 1,000 crore",
-    "summary": "The board approved issuing partly paid-up equity shares of face value ₹10 each for an amount not exceeding ₹ 1,000 crore via a rights issue.",
-    "why_it_matters": "The ₹ 1,000 crore fund raise represents more than half of annual revenue of about ₹1,880 crore.",
+    "title": "Board approves rights issue up to Rs 1,000 crore",
+    "summary": "The board approved issuing partly paid-up equity shares via a rights issue for an amount not exceeding ₹ 1,000 crore.",
+    "why_it_matters": "The rights issue amount of ₹ 1,000 crore is large relative to the annual revenue of about ₹1,880 crore.",
     "sentiment": "positive",
     "amount_inr_crore": 1000.0,
     "model": "gemini-3.5-flash-lite"
@@ -9614,7 +9468,7 @@
    "exchange_label": "General Updates",
    "headline": "Ola Electric Mobility Limited has informed the Exchange about Disclosure pursuant to Regulation 30(5) of SEBI (LODR) Regulations, 2015",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -9622,15 +9476,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026193709_SEIntimationDisclosureofMaterialityReg30.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Revised list of key managerial personnel approved",
-    "summary": "The Board approved a revised list of key managerial personnel including Bhavish Aggarwal as Chairman and Managing Director and Deepak Rastogi as CFO.",
+    "title": "Board approved revised list of key managerial personnel",
+    "summary": "The board approved a revised list of key managerial personnel for determining materiality of events and disclosures.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "unclassified"
    ],
    "cards": [],
    "price_reaction": {
@@ -9638,7 +9493,7 @@
     "ret_pct": -1.162,
     "vol_ratio": 1.145
    },
-   "score": 58.0,
+   "score": 6.0,
    "group_id": "OLAELEC:management_change:2026-09-28",
    "group_lead": false,
    "duplicate_of": null
@@ -9659,8 +9514,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026192134_SEIntimationAppointmentofCompanySecretaryandComplianceOfficer.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Deepa Bansal appointed company secretary",
-    "summary": "Ms. Deepa Bansal was appointed as the Company Secretary, Compliance Officer, and Key Managerial Personnel effective September 28, 2026.",
+    "title": "Appointment of Company Secretary and Compliance Officer",
+    "summary": "Ms. Deepa Bansal was appointed as Company Secretary, Compliance Officer, and Key Managerial Personnel effective September 28, 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -9669,7 +9524,28 @@
    "events": [
     "management_change"
    ],
-   "cards": [],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Deepa Bansal",
+       "role": "Company Secretary and Compliance Officer",
+       "change": "appointment",
+       "effective_date": "2026-09-28",
+       "reason": null,
+       "profile": "Ms. Deepa Bansal is an Associate Member of the Institute of Company Secretaries of India and holds a Bachelor's degree in Commerce. She has more than 11 years of experience in corporate secretarial functions, corporate governance, IPO Listing, Fund raising, corporate restructuring and other regulatory compliances frameworks.",
+       "previous_roles": [
+        "Company Secretary, Kothari Petrochemicals Limited",
+        "Company Secretary, Tessolve Semiconductor Pvt. Ltd.",
+        "Company Secretary, Medi Assist Healthcare Services Limited"
+       ],
+       "education": "Bachelor's degree in Commerce",
+       "profile_source": null
+      }
+     ]
+    }
+   ],
    "price_reaction": {
     "session": "2026-09-29",
     "ret_pct": -1.162,
@@ -9677,7 +9553,7 @@
    },
    "score": 46.0,
    "group_id": "OLAELEC:management_change:2026-09-28",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -9748,7 +9624,7 @@
    "exchange_label": "General Updates",
    "headline": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -9756,8 +9632,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_28092026170516_STxIntimation_28Sep2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Competition Commission hearing adjourned to November",
-    "summary": "The ongoing matter with the Competition Commission of India was listed for a hearing and adjourned to 02nd November 2026.",
+    "title": "Competition Commission of India matter adjourned to November",
+    "summary": "The ongoing matter with the Competition Commission of India was listed for hearing and adjourned to 02nd November 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
@@ -9772,7 +9648,7 @@
     "ret_pct": -1.091,
     "vol_ratio": 1.282
    },
-   "score": 108.0,
+   "score": 8.0,
    "group_id": "MARUTI:litigation:2026-09-28",
    "group_lead": true,
    "duplicate_of": null
@@ -9823,8 +9699,8 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK4_28092026121715_FinalUplodSESigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Launched dedicated banking vertical for global capability centres",
-    "summary": "The bank announced the launch of a dedicated banking vertical to serve India's Global Capability Centre ecosystem.",
+    "title": "Bank launches dedicated banking vertical for GCCs",
+    "summary": "The bank announced the launch of a dedicated banking vertical targeting India's Global Capability Centres.",
     "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
@@ -9832,7 +9708,7 @@
    },
    "events": [
     "press_release",
-    "investor_meetings"
+    "unclassified"
    ],
    "cards": [],
    "price_reaction": {
@@ -9861,9 +9737,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_28092026121428_SEDisclosureBoardCommentsNSE.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Follow up for independent directors",
-    "summary": "The board wrote to the Ministry of Defence to appoint sufficient independent directors to address regulatory non-compliance fines.",
-    "why_it_matters": "Resolving the shortage of independent directors is critical to avoid ongoing exchange penalties, as appointments rest with the President of India.",
+    "title": "Board comments on exchange fine for director shortfall",
+    "summary": "The board reviewed a fine notice for non-compliance with director requirements and asked the Ministry of Defence to appoint Independent Directors.",
+    "why_it_matters": "As a government company, the power to appoint directors vests with the President of India, leaving the board to follow up with the Ministry.",
     "sentiment": "negative",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"
@@ -9890,7 +9766,7 @@
    "filed_at": "2026-09-28T08:20:40+05:30",
    "exchange_label": "Press Release",
    "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release for Lerodalcibep licensing agreement.",
-   "category": "M&A",
+   "category": "press_release",
    "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
@@ -9899,9 +9775,9 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026082027_SE_Intimation_of_PR_for_lerodalcibep_licensing.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Global Licensing Agreement for Lerodalcibep",
-    "summary": "LIB Therapeutics and Sun Pharma announced a global licensing, commercialization and manufacturing agreement for Lerodalcibep, with Lyrokaul approved in the EU.",
-    "why_it_matters": "Expands the company's product portfolio with an EU-approved drug for international markets outside the US and China.",
+    "title": "Global licensing and commercialization agreement for Lerodalcibep announced",
+    "summary": "LIB Therapeutics and Sun Pharma announced a global licensing, commercialization and manufacturing agreement for Lerodalcibep.",
+    "why_it_matters": null,
     "sentiment": "positive",
     "amount_inr_crore": null,
     "model": "gemini-3.5-flash-lite"

@@ -1,0 +1,577 @@
+{
+ "schema_version": 3,
+ "symbol": "OLAELEC",
+ "name": "Ola Electric",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:58:15+00:00",
+ "snapshot": {
+  "about": "Ola Electric manufactures electric two-wheelers, battery cells, and energy storage products.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 455.0,
+  "revenue_yoy": -45.0,
+  "net_profit": -336.0,
+  "net_profit_yoy": null,
+  "ebitda_margin": -36.0
+ },
+ "narrative": "Management promised Q1 FY27 consolidated revenue of ₹500 to 550 crore, but reported only ₹455 crore, a 45% YoY decline. Profitability remains under pressure with net profit at ₹-336 crore and EBITDA margin at -36%.",
+ "promises": [
+  {
+   "id": "P10",
+   "metric": "Revenue Guidance",
+   "period": "Q1 FY27",
+   "target": "₹500–550 crore",
+   "statement": "Management expects Q1 FY27 consolidated revenue of INR 500 to 550 crore.",
+   "said": {
+    "quote": "Looking ahead to Q1 FY27, we expect 40,000 to 45,000 orders and consolidated revenue of 500 to 550 crores, nearly double of the Q4 level",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": "₹455 crore",
+   "actual_source": {
+    "quote": "Revenue Guidance, Q1 FY27: ₹455 crore",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/OLAELEC/consolidated/"
+   },
+   "verdict": "missed",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "Installed cell capacity target",
+   "period": "Q4 FY26",
+   "target": "6 GW",
+   "statement": "Gigafactory cell installed capacity scaling to 6 GWh by March 2026.",
+   "said": {
+    "quote": "We are currently at 2.5 gigawatt hour install capacity, scaling to 6 gigawatt hour by March 2026",
+    "source": "Q3 FY26 call, 13 Feb 2026",
+    "page": 6,
+    "url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_18022026232136_Intimation_Transcript_of_the_Earnings_Conference.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 13 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "The Gigafactory is expected to be operational at 6 GWh by September, supporting greater own-cell integration in our vehicles as well as opportunities across energy storage and other applications",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "March 2026 timeline for 6 GWh Gigafactory capacity was delayed to September 2026."
+  },
+  {
+   "id": "P4",
+   "metric": "Monthly EBITDA breakeven volume",
+   "period": null,
+   "target": "15,000 units",
+   "statement": "Consolidated EBITDA breakeven volume lowers to approximately 15,000 units per month.",
+   "said": {
+    "quote": "At this level, our EBITDA breakeven reduces to approximately 15,000 units per month",
+    "source": "Q3 FY26 call, 13 Feb 2026",
+    "page": 5,
+    "url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_18022026232136_Intimation_Transcript_of_the_Earnings_Conference.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 13 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "With the reset OpEx base and current gross margin structure, adjusted operating EBITDA breakeven is achievable at around 20,000 to 25,000 units per month",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "verdict": "at_risk",
+   "verdict_by": "model",
+   "note": "EBITDA breakeven volume target was raised from 15,000 to 20,000-25,000 units per month in Q4 FY26."
+  },
+  {
+   "id": "P3",
+   "metric": "Quarterly OPEX target",
+   "period": "H1 FY27",
+   "target": "₹250–300 crore",
+   "statement": "Expects steady state quarterly OPEX of ₹250 to ₹300 crores over next couple of quarters.",
+   "said": {
+    "quote": "and we expect steady state between, give or take ₹250 to ₹300 crores over the next couple of quarters",
+    "source": "Q3 FY26 call, 13 Feb 2026",
+    "page": 5,
+    "url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_18022026232136_Intimation_Transcript_of_the_Earnings_Conference.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 13 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "expect OpEx to move towards approximately 350 crores.",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "verdict": "at_risk",
+   "verdict_by": "model",
+   "note": "Management raised quarterly opex guidance to ₹350 crore in Q4 FY26 and ₹300-325 crore in Q1 FY27."
+  },
+  {
+   "id": "P11",
+   "metric": "Auto Maintenance CapEx",
+   "period": "FY27",
+   "target": "₹50 crore",
+   "statement": "Auto segment annual maintenance CapEx is expected to be around INR 50 crore.",
+   "said": {
+    "quote": "Vipul, in Auto, on an annual basis you should expect very incremental CapEx, maybe ₹50-odd crores that's about it",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 16,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "except for the Cell project that is now being completed, capex beyond that will be around ₹30-50 crore",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Maintenance capex guidance of ₹50 crore re-affirmed at ₹30-50 crore in Q1 FY27."
+  },
+  {
+   "id": "P7",
+   "metric": "Quarterly OpEx",
+   "period": "H1 FY27",
+   "target": "₹350 crore",
+   "statement": "Consolidated quarterly OpEx base is expected to move towards approximately INR 350 crore.",
+   "said": {
+    "quote": "expect OpEx to move towards approximately 350 crores.",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Over the next couple of quarters, we expect opex to come down into the ₹300-325 crore range, which is where our target is",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Quarterly opex guided towards ₹350 crore and subsequently targeted at ₹300-325 crore range in Q1 FY27."
+  },
+  {
+   "id": "P6",
+   "metric": "Monthly OpEx",
+   "period": "Q2 FY27",
+   "target": "₹100–120 crore",
+   "statement": "Monthly OpEx is expected to come down to INR 100-120 crore over the next couple of quarters.",
+   "said": {
+    "quote": "And we are further saying that in the next couple of quarters, we'll actually get our OpEx down to about 100-120 crores a month; so further down while business rebounds",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Over the next couple of quarters, we expect opex to come down into the ₹300-325 crore range, which is where our target is",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Monthly opex target of ₹100-120 crore aligns with Q1 FY27 guidance of ₹300-325 crore."
+  },
+  {
+   "id": "P8",
+   "metric": "EBITDA Breakeven Deliveries",
+   "period": null,
+   "target": "20,000–25,000 units per month",
+   "statement": "Adjusted operating EBITDA breakeven is achievable at 20,000 to 25,000 units per month.",
+   "said": {
+    "quote": "With the reset OpEx base and current gross margin structure, adjusted operating EBITDA breakeven is achievable at around 20,000 to 25,000 units per month",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Gross margin target",
+   "period": "FY27",
+   "target": "35–40%",
+   "statement": "Gross margins are expected to stabilize in the range of 35% to 40% during FY27.",
+   "said": {
+    "quote": "We continue to see gross margins stabilizing in the range of 35% to 40% during the financial year 26-27",
+    "source": "Q3 FY26 call, 13 Feb 2026",
+    "page": 3,
+    "url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_18022026232136_Intimation_Transcript_of_the_Earnings_Conference.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 13 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "Operating Cash Burn",
+   "period": "FY27",
+   "target": "₹300–500 crore",
+   "statement": "Operating cash burn is expected to be INR 300-500 crore over FY27.",
+   "said": {
+    "quote": ", there will be about ₹300-₹500 crores of operating cashflow burn over the course of this year as the volumes go up.",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 17,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "Annual Capex Target",
+   "period": "FY27",
+   "target": "₹30–50 crore",
+   "statement": "Beyond the cell project, capex for the year will be around ₹30-50 crore.",
+   "said": {
+    "quote": "except for the Cell project that is now being completed, capex beyond that will be around ₹30-50 crore",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P13",
+   "metric": "Service Revenue Target",
+   "period": "FY28",
+   "target": "₹400–500 crore",
+   "statement": "Roadmap targets service revenue of ₹400-500 crore by FY 2027-28.",
+   "said": {
+    "quote": "with our roadmap targeting service revenue of approximately ₹400-500 crore by FY 2027-28",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P15",
+   "metric": "Gross Margin Target",
+   "period": "H1 FY27",
+   "target": "30–32%",
+   "statement": "Gross margins are expected to remain in the 30-32% range over the next quarter or two.",
+   "said": {
+    "quote": "We expect margins to remain in this range over the next quarter or two and to improve further as commodity prices ease",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P16",
+   "metric": "Quarterly Opex Target",
+   "period": "H1 FY27",
+   "target": "₹300–325 crore",
+   "statement": "Management expects quarterly opex to reduce into the ₹300-325 crore range over the next couple of quarters.",
+   "said": {
+    "quote": "Over the next couple of quarters, we expect opex to come down into the ₹300-325 crore range, which is where our target is",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "Gigafactory Operational Capacity",
+   "period": "Q2 FY27",
+   "target": "6 GWh",
+   "statement": "The Gigafactory is expected to be operational at 6 GWh by September.",
+   "said": {
+    "quote": "The Gigafactory is expected to be operational at 6 GWh by September, supporting greater own-cell integration in our vehicles as well as opportunities across energy storage and other applications",
+    "source": "Q1 FY27 call, 7 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Warranty provision range",
+   "period": "FY26",
+   "target": "2–3%",
+   "statement": "Warranty provisions for FY26 are expected in the range of 2-3%.",
+   "said": {
+    "quote": "the warranty provisions for the current financial year are expected in a range of 2-3%, which is among the lowest in the Indian EV industry",
+    "source": "Q3 FY26 call, 13 Feb 2026",
+    "page": 4,
+    "url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_18022026232136_Intimation_Transcript_of_the_Earnings_Conference.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 13 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Orders Guidance",
+   "period": "Q1 FY27",
+   "target": "40,000–45,000 units",
+   "statement": "Management expects Q1 FY27 orders of 40,000 to 45,000 units.",
+   "said": {
+    "quote": "Looking ahead to Q1 FY27, we expect 40,000 to 45,000 orders and consolidated revenue of 500 to 550 crores",
+    "source": "Q4 FY26 call, 20 May 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": -885.0,
+    "net_profit": -784.0,
+    "free_cash_flow": -1772.0,
+    "cash_conversion": null,
+    "debtor_days": 15.0,
+    "inventory_days": 216.0,
+    "working_capital_days": -249.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": -1507.0,
+    "net_profit": -1472.0,
+    "free_cash_flow": -2350.0,
+    "cash_conversion": null,
+    "debtor_days": 12.0,
+    "inventory_days": 83.0,
+    "working_capital_days": -93.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": -633.0,
+    "net_profit": -1584.0,
+    "free_cash_flow": -1845.0,
+    "cash_conversion": null,
+    "debtor_days": 12.0,
+    "inventory_days": 58.0,
+    "working_capital_days": -120.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": -2391.0,
+    "net_profit": -2276.0,
+    "free_cash_flow": -3367.0,
+    "cash_conversion": null,
+    "debtor_days": 1.0,
+    "inventory_days": 77.0,
+    "working_capital_days": -33.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": -775.0,
+    "net_profit": -1833.0,
+    "free_cash_flow": -1492.0,
+    "cash_conversion": null,
+    "debtor_days": 5.0,
+    "inventory_days": 63.0,
+    "working_capital_days": -185.0
+   }
+  ],
+  "conversion_5y": null,
+  "signals": [
+   {
+    "quote": "Free cash flow was negative in 5 of 5 years, −₹10,826 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/OLAELEC/consolidated/"
+   }
+  ],
+  "read": "Profits do not turn into cash. The company generated negative free cash flow across all five reported years, accumulating total losses of ₹10,826 crore."
+ },
+ "bull": [
+  {
+   "point": "The company achieved strong Auto segment gross margins of 30.5% in Q1 FY27 despite a challenging commodity environment.",
+   "evidence": [
+    {
+     "quote": "Despite a challenging commodity environment, we sustained Auto gross margin at 30.5%, reflecting the underlying strength of our product economics",
+     "source": "Q1 FY27 call, 7 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The company generated positive operating cash flow of ₹91 crore in Q4 FY26 supported by gross margin expansion and PLI inflows.",
+   "evidence": [
+    {
+     "quote": "We exited the year with industry-leading gross margins at 38.5%, a much lower cost base, sharply improved execution metrics, better product quality, our first operating cash flow positive quarter",
+     "source": "Q4 FY26 call, 20 May 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+    },
+    {
+     "quote": "Consolidated CFO was 91 crores, supported by strong gross margins, PLI inflows, lower OpEx and tighter working capital discipline",
+     "source": "Q4 FY26 call, 20 May 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Management expects the Gigafactory to become operational at 6 GWh by September 2026, boosting cell integration.",
+   "evidence": [
+    {
+     "quote": "The Gigafactory is expected to be operational at 6 GWh by September, supporting greater own-cell integration in our vehicles as well as opportunities across energy storage and other applications",
+     "source": "Q1 FY27 call, 7 Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Auditors reported unfavorable remarks and qualifications under CARO 2020 for the holding company and key subsidiaries across inventory, statutory dues, and financial ratios.",
+   "evidence": [
+    {
+     "quote": "following companies incorporated in India and included in the consolidated financial statements, have unfavourable remarks, qualification or adverse remarks given by the respective auditors in their reports",
+     "source": "Annual report 2026",
+     "page": 160,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e163f5cd-dad3-411b-8f2f-9c2b9ee4c1c0.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The statutory auditors identified internal control deficiencies as audit trail edit logs were not enabled at database level for general ledger and revenue software.",
+   "evidence": [
+    {
+     "quote": "the feature of recording audit trail (edit log) facility was not enabled at database level to log any direct data changes",
+     "source": "Annual report 2026",
+     "page": 158,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e163f5cd-dad3-411b-8f2f-9c2b9ee4c1c0.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The business suffers from severe cash drain, generating negative free cash flow in all five years totaling ₹10,826 crore.",
+   "evidence": [
+    {
+     "quote": "Free cash flow was negative in 5 of 5 years, −₹10,826 crore in total.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/OLAELEC/consolidated/"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 7 Aug 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf",
+   "pages": 13
+  },
+  {
+   "label": "Q4 FY26 call, 20 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d725cde8-6465-44ff-98fe-b143c3ef910e.pdf",
+   "pages": 21
+  },
+  {
+   "label": "Q3 FY26 call, 13 Feb 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_18022026232136_Intimation_Transcript_of_the_Earnings_Conference.pdf",
+   "pages": 14
+  },
+  {
+   "label": "Q3 FY26 call, 13 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=961975b5-b60f-4d4a-a361-e5afd02e3ca3.pdf",
+   "pages": 14
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e163f5cd-dad3-411b-8f2f-9c2b9ee4c1c0.pdf",
+   "pages": 341
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 42,
+  "quotes_verified": 42,
+  "quotes_dropped": 0,
+  "graded_by_code": 4,
+  "graded_by_model": 6,
+  "ai_calls": 5,
+  "cached_calls": 4,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 71.1
+ }
+}

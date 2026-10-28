@@ -1,0 +1,584 @@
+{
+ "schema_version": 3,
+ "symbol": "ETERNAL",
+ "name": "Eternal",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:51:30+00:00",
+ "snapshot": {
+  "about": "Eternal operates food delivery, quick commerce (Blinkit), and other technology platforms in India.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 24138.0,
+  "revenue_yoy": 77.6,
+  "net_profit": 125.0,
+  "net_profit_yoy": 92.3,
+  "ebitda_margin": 3.1
+ },
+ "narrative": "Management delivers strong top-line momentum with revenue growing 77.6% YoY to ₹24,138 crore in Q2 FY27. However, high store addition capex of ₹700 crore for 200 stores exceeds the ₹2.5 crore per store target, compressing EBITDA margin to 3.1%.",
+ "promises": [
+  {
+   "id": "P12",
+   "metric": "Capex per store",
+   "period": null,
+   "target": "₹2.5 crore",
+   "statement": "Management guides capex per store for quick commerce to be around INR 2.5 crore.",
+   "said": {
+    "quote": "You say on a per store basis, one should look at around INR 2.5 crore of capex",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "You added around 200 stores this quarter, but your capex was around INR 700 crore",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "verdict": "at_risk",
+   "verdict_by": "model",
+   "note": "Adding 200 stores on 700 crore capex implies 3.5 crore per store versus 2.5 crore target."
+  },
+  {
+   "id": "P2",
+   "metric": "Net Working Capital Days",
+   "period": null,
+   "target": "18 days",
+   "statement": "Net working capital is not expected to exceed 18 days.",
+   "said": {
+    "quote": "Even though we might see capex per store going up over the next few quarters, we don't expect net working capital to be beyond those 18 days that we had shared earlier",
+    "source": "Q3 FY26 call, 21 Jan 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Currently, as we have mentioned in question five, we are at 14 days",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Working capital currently stands at 14 days, below the 18-day upper limit."
+  },
+  {
+   "id": "P5",
+   "metric": "Food Delivery Revenue Growth",
+   "period": null,
+   "target": "20%",
+   "statement": "Food delivery year-on-year growth is expected to slowly trend up towards 20%.",
+   "said": {
+    "quote": "we expect year-on-year growth to continue slowly trending up towards 20% YoY, is what our current sense on the market is",
+    "source": "Q3 FY26 call, 21 Jan 2026",
+    "page": 11,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "in food, order growth was 15% YoY but the active delivery partners on a monthly basis went up by 30%",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Order growth was 15% YoY in Q4, trending towards 20%."
+  },
+  {
+   "id": "P13",
+   "metric": "Steady-state net working capital days",
+   "period": null,
+   "target": "12 days",
+   "statement": "Management expects steady-state net working capital days for Blinkit to reduce to 12 days.",
+   "said": {
+    "quote": "The 12 days that we are saying here is a steady-state estimate right now",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Currently, as we have mentioned in question five, we are at 14 days",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Blinkit net working capital is currently 14 days, approaching the 12-day steady-state target."
+  },
+  {
+   "id": "P3",
+   "metric": "Adjusted EBITDA Margin",
+   "period": null,
+   "target": "5–6 % of NOV",
+   "statement": "Management maintains high confidence of Blinkit margins reaching 5% to 6% of NOV in the long term.",
+   "said": {
+    "quote": "in the long term, in our letter we have mentioned that our confidence on margins going to 5% to 6% of NOV remains high",
+    "source": "Q3 FY26 call, 21 Jan 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Going-out Segment Breakeven",
+   "period": null,
+   "target": null,
+   "statement": "Going-out business losses are expected to trend sequentially towards breakeven in four to six quarters.",
+   "said": {
+    "quote": "we now expect the losses to come down sequentially from here towards breakeven in the next four to six quarters",
+    "source": "Q3 FY26 call, 21 Jan 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "NOV CAGR",
+   "period": null,
+   "target": "60%",
+   "statement": "Company guides to a 60% NOV CAGR for quick commerce over three years.",
+   "said": {
+    "quote": "We've given overall guidance of 60% CAGR and that would obviously mean some reasonable store expansion",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "EBITDA margin",
+   "period": null,
+   "target": "5–6%",
+   "statement": "Quick commerce margin is targetted to reach 5-6% at steady state.",
+   "said": {
+    "quote": "As we move to 5-6% margin that we are saying we will get to at some point, contribution margin will go up",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "EBIT margin guidance",
+   "period": null,
+   "target": "4%",
+   "statement": "Management targets a long-term GAAP EBIT margin of 4% for Blinkit.",
+   "said": {
+    "quote": "And then you get to a GAAP EBIT margin of 4% as long-term",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "Adjusted EBITDA margin guidance",
+   "period": null,
+   "target": "6%",
+   "statement": "Management expects long-term Adjusted EBITDA margin for Blinkit to be close to 6%.",
+   "said": {
+    "quote": "One last question - that comment on EBIT margin of 4% and Adjusted EBITDA margin of close to 6%",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 10,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "EBITDA margin",
+   "period": null,
+   "target": null,
+   "statement": "Food delivery margins are expected to remain broadly flattish over the next one to two years.",
+   "said": {
+    "quote": "broadly, over the next 1 or 2 years, we expect the margins to remain flattish",
+    "source": "Q2 FY27 call, 21 Oct 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P16",
+   "metric": "NOV per day per store",
+   "period": null,
+   "target": "₹0.11 crore",
+   "statement": "Dark stores in quick commerce are expected to reach around 11 lakh INR NOV per day in steady state.",
+   "said": {
+    "quote": "We gave guidance last time that in steady state it could get to about INR 11 lakh per day per store",
+    "source": "Q2 FY27 call, 21 Oct 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "EBITDA absolute",
+   "period": "FY29",
+   "target": "1,000,000,000 USD (USD)",
+   "statement": "Management targets $1 billion overall EBITDA by FY29.",
+   "said": {
+    "quote": "First question is on the overall EBITDA guidance or indication of $1 billion by FY29",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We maintain that guidance as of now",
+    "source": "Q2 FY27 call, 21 Oct 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P15",
+   "metric": "Adjusted EBITDA",
+   "period": "FY29",
+   "target": "1 billion USD (USD)",
+   "statement": "Management maintains its guidance of achieving 1 billion USD in Adjusted EBITDA by FY29.",
+   "said": {
+    "quote": "We maintain that guidance as of now",
+    "source": "Q2 FY27 call, 21 Oct 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "First question is on the overall EBITDA guidance or indication of $1 billion by FY29",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Going-out NOV",
+   "period": "FY30",
+   "target": "3 billion USD (USD)",
+   "statement": "Management maintained guidance of $3 billion NOV for the going-out business in FY30.",
+   "said": {
+    "quote": "You've maintained your $3 billion NOV guidance for going-out in FY30, which would imply north of 30% CAGR over the next four years",
+    "source": "Q3 FY26 call, 21 Jan 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Dark stores count",
+   "period": "FY26",
+   "target": "3,000 stores",
+   "statement": "Management expects to reach 3,000 dark stores by March.",
+   "said": {
+    "quote": "On store addition, we're on track on our guidance for March of 3,000 stores",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": -693.0,
+    "net_profit": -1222.0,
+    "free_cash_flow": -750.0,
+    "cash_conversion": null,
+    "debtor_days": 14.0,
+    "inventory_days": 28.0,
+    "working_capital_days": 316.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": -844.0,
+    "net_profit": -971.0,
+    "free_cash_flow": -945.0,
+    "cash_conversion": null,
+    "debtor_days": 24.0,
+    "inventory_days": 22.0,
+    "working_capital_days": 200.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 646.0,
+    "net_profit": 351.0,
+    "free_cash_flow": 444.0,
+    "cash_conversion": 1.84,
+    "debtor_days": 24.0,
+    "inventory_days": 11.0,
+    "working_capital_days": 41.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 308.0,
+    "net_profit": 527.0,
+    "free_cash_flow": -623.0,
+    "cash_conversion": 0.58,
+    "debtor_days": 35.0,
+    "inventory_days": 12.0,
+    "working_capital_days": 45.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 632.0,
+    "net_profit": 366.0,
+    "free_cash_flow": -1114.0,
+    "cash_conversion": 1.73,
+    "debtor_days": 12.0,
+    "inventory_days": 26.0,
+    "working_capital_days": 23.0
+   }
+  ],
+  "conversion_5y": null,
+  "signals": [
+   {
+    "quote": "Free cash flow was negative in 4 of 5 years, −₹2,988 crore in total.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/ETERNAL/consolidated/"
+   },
+   {
+    "quote": "Inventory days rose from 11 to 26 between FY24 and FY26: cash is waiting longer in the business.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/ETERNAL/consolidated/"
+   }
+  ],
+  "read": "Profits do not translate into cash flow, as free cash flow was −₹2,988 crore over five years and inventory days expanded from 11 to 26 days."
+ },
+ "bull": [
+  {
+   "point": "Quick commerce demonstrates hypergrowth with order volume growing slightly above 90% YoY in Q4 and 21% quarter-on-quarter in Q1.",
+   "evidence": [
+    {
+     "quote": "In QC, the order growth was slightly above 90%, but the rider growth was 120%",
+     "source": "Q4 FY26 call, 28 Apr 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+    },
+    {
+     "quote": "you did deliver 21% QoQ volume growth",
+     "source": "Q1 FY27 call, 22 Jul 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Blinkit maintains disciplined operational metrics with net working capital at 14 days, below the 18-day threshold, heading towards steady-state targets.",
+   "evidence": [
+    {
+     "quote": "Even though we might see capex per store going up over the next few quarters, we don't expect net working capital to be beyond those 18 days that we had shared earlier",
+     "source": "Q3 FY26 call, 21 Jan 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+    },
+    {
+     "quote": "Currently, as we have mentioned in question five, we are at 14 days",
+     "source": "Q1 FY27 call, 22 Jul 2026",
+     "page": 12,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+    },
+    {
+     "quote": "The 12 days that we are saying here is a steady-state estimate right now",
+     "source": "Q1 FY27 call, 22 Jul 2026",
+     "page": 12,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Management maintains strong long-term profit visibility, targeting 1 billion USD Adjusted EBITDA by FY29 and flattish near-term food delivery margins.",
+   "evidence": [
+    {
+     "quote": "First question is on the overall EBITDA guidance or indication of $1 billion by FY29",
+     "source": "Q4 FY26 call, 28 Apr 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+    },
+    {
+     "quote": "broadly, over the next 1 or 2 years, we expect the margins to remain flattish",
+     "source": "Q2 FY27 call, 21 Oct 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+    },
+    {
+     "quote": "We maintain that guidance as of now",
+     "source": "Q2 FY27 call, 21 Oct 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "Tax authorities have issued orders regarding GST on delivery charges, creating potential financial liabilities subject to legal disposal.",
+   "evidence": [
+    {
+     "quote": "We draw attention to Note 37(a) to the consolidated financial statement relating to the orders received by the Company from GST authorities in respect of GST on delivery charges",
+     "source": "Annual report 2026",
+     "page": 190,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The business suffers from weak cash conversion, generating cumulative negative free cash flow of ₹2,988 crore while inventory days rose to 26 days.",
+   "evidence": [
+    {
+     "quote": "Free cash flow was negative in 4 of 5 years, −₹2,988 crore in total.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/ETERNAL/consolidated/"
+    },
+    {
+     "quote": "Inventory days rose from 11 to 26 between FY24 and FY26: cash is waiting longer in the business.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/ETERNAL/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Quick commerce store rollout capex is exceeding guidance, averaging ₹3.5 crore per store in Q1 versus the ₹2.5 crore target.",
+   "evidence": [
+    {
+     "quote": "You say on a per store basis, one should look at around INR 2.5 crore of capex",
+     "source": "Q1 FY27 call, 22 Jul 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+    },
+    {
+     "quote": "You added around 200 stores this quarter, but your capex was around INR 700 crore",
+     "source": "Q1 FY27 call, 22 Jul 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q2 FY27 call, 21 Oct 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+   "pages": 16
+  },
+  {
+   "label": "Q1 FY27 call, 22 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf",
+   "pages": 17
+  },
+  {
+   "label": "Q4 FY26 call, 28 Apr 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf",
+   "pages": 18
+  },
+  {
+   "label": "Q3 FY26 call, 21 Jan 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf",
+   "pages": 18
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf",
+   "pages": 422
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 24,
+  "quotes_verified": 24,
+  "quotes_dropped": 0,
+  "graded_by_code": 0,
+  "graded_by_model": 4,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.6-flash"
+  ],
+  "seconds": 0.9
+ }
+}

@@ -14,7 +14,7 @@ Built for the ENAM Holdings AI Engineer Build Challenge, October 2026.
 | Data layer: prices, filings, fundamentals | Built and tested |
 | AI layer: results cards, triage, bios | Built and run on every filing in the 30-day window |
 | Research engine: promised vs delivered, cash quality, bull vs bear, "ask about this" | Built. 23 companies computed ahead; any other NSE ticker live in about a minute |
-| Phone app | In progress |
+| Phone app: Today's 3, alerts, portfolio, research | Built. Deploying on Vercel |
 
 ## Where to look
 
@@ -35,6 +35,11 @@ uv run python -m finn.enrich        # results cards, AI triage and bios; keys go
 uv run python -m finn.research KAYNES   # promised vs delivered, from the company's own words
 uv run uvicorn finn.api:app         # the live API, for tickers nobody computed ahead
 uv run pytest
+
+cd ../app
+npm ci
+npm run dev                         # http://localhost:3000, with the API on :8000
+npm run types                       # regenerate the TypeScript contract from the schema
 ```
 
 Data comes from public sources: NSE and BSE filings, Yahoo Finance prices, and the documents indexed on screener.in. Nothing here is investment advice.

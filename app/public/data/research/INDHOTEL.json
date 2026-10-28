@@ -1,0 +1,690 @@
+{
+ "schema_version": 3,
+ "symbol": "INDHOTEL",
+ "name": "Indian Hotels",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:50:50+00:00",
+ "snapshot": {
+  "about": "Indian Hotels Company Limited operates hotels, resorts, and hospitality services across various brands globally.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 2484.0,
+  "revenue_yoy": 21.7,
+  "net_profit": 380.0,
+  "net_profit_yoy": 19.5,
+  "ebitda_margin": 28.0
+ },
+ "narrative": "Management's guidance of double-digit revenue growth matched performance, with Q4 FY26 growing 14% and full-year revenue expanding 16%. However, new business revenue growth reached 25% for FY26, missing the 30% second-half target.",
+ "promises": [
+  {
+   "id": "P1",
+   "metric": "New Businesses Growth Guidance",
+   "period": "H2 FY26",
+   "target": "30%",
+   "statement": "Management expects new business growth to reach 30% in H2 FY26.",
+   "said": {
+    "quote": "We expect these numbers to grow from 22% to 30% in the second half of this year",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 3,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Our new businesses vertical comprising Ginger, Qmin, Ama, Stays & Trails and Tree of Life delivered 25% growth in FY '26. This resulted in a consolidated revenue of INR753 crores",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "Full year FY26 new business growth was 25 percent against the 30 percent H2 guidance."
+  },
+  {
+   "id": "P2",
+   "metric": "Full Year Revenue Growth Guidance",
+   "period": "FY26",
+   "target": "≥ 10%",
+   "statement": "IHCL retains guidance of double-digit revenue growth for FY26.",
+   "said": {
+    "quote": "IHCL remains confident of achieving its guidance of double digit revenue growth for the year driven by structural tailwinds for the industry",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 4,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 12 Feb 2026"
+   ],
+   "actual": "16.2%",
+   "actual_source": {
+    "quote": "Full Year Revenue Growth Guidance, FY26: 16.2%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/INDHOTEL/consolidated/"
+   },
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "FY26 Capex Guidance",
+   "period": "FY26",
+   "target": "₹1,000–1,200 crore",
+   "statement": "FY26 capex expected to be in the Rs. 1,000 to Rs. 1,200 crore range.",
+   "said": {
+    "quote": "So, I think we originally guided to Rs. 1,000 crores to Rs. 1,200 crores CAPEX number. I think we are on track for that",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 9,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "IHCL in FY '25-'26 spent over INR1,000 crores towards capex, out of which around INR650 crores was used for renovations, routine maintenance and digital initiatives, while the rest half was used towards greenfield projects",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Management reported FY26 capex spent was over ₹1,000 crore."
+  },
+  {
+   "id": "P4",
+   "metric": "Q3 and Q4 Topline Growth Guidance",
+   "period": "H2 FY26",
+   "target": "≥ 10%",
+   "statement": "Company expects both Q3 and Q4 to deliver double-digit topline growth year-on-year.",
+   "said": {
+    "quote": "we remain confident that in the future both Q3 and Q4 should witness double digit growth for us on the topline",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 5,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "On a consolidated basis, revenue for Q3 2025-26 grew 12% year-on-year to INR 2,900 crores",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Consolidated revenue grew 12 percent in Q3 FY26 and 14 percent in Q4 FY26."
+  },
+  {
+   "id": "P21",
+   "metric": "Q1 FY27 Revenue Growth",
+   "period": "Q1 FY27",
+   "target": "≥ 12%",
+   "statement": "Company expects Q1 FY27 revenue growth to be above 12%.",
+   "said": {
+    "quote": "We think we should be above 12% for the quarter",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 13,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "repeated_in": [],
+   "actual": "14.6%",
+   "actual_source": {
+    "quote": "Q1 FY27 Revenue Growth, Q1 FY27: 14.6%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/INDHOTEL/consolidated/"
+   },
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P13",
+   "metric": "Revenue Growth",
+   "period": "Q4 FY26",
+   "target": "12–14%",
+   "statement": "Management expects 12% to 14% topline growth in Q4 FY26.",
+   "said": {
+    "quote": "So, I would say 12% to 14% in Q4 as a topline growth is realistic",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": "14.0%",
+   "actual_source": {
+    "quote": "Revenue Growth, Q4 FY26: 14.0%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/INDHOTEL/consolidated/"
+   },
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P16",
+   "metric": "Capital Expenditure",
+   "period": null,
+   "target": "₹1,000 crore",
+   "statement": "IHCL plans to spend approximately INR 1,000 crores in CAPEX.",
+   "said": {
+    "quote": "We are planning to spend approximately, we have guided on that before also, approximately INR 1,000 crores in CAPEX, which includes routine and new, and also renovation or expansion",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 18,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "IHCL in FY '25-'26 spent over INR1,000 crores towards capex, out of which around INR650 crores was used for renovations, routine maintenance and digital initiatives, while the rest half was used towards greenfield projects",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Actual FY26 capex spent exceeded ₹1,000 crore."
+  },
+  {
+   "id": "P10",
+   "metric": "Revenue Growth",
+   "period": null,
+   "target": "≥ 25%",
+   "statement": "Ginger and new business verticals are expected to deliver 25%+ revenue growth.",
+   "said": {
+    "quote": "Ginger and our new business verticals are expected to deliver 25% plus revenue growth supported by integration benefits and scale efficiencies",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "Taj Bandstand Topline Contribution",
+   "period": null,
+   "target": "≥ ₹1,000 crore",
+   "statement": "Upon stabilization, Taj Bandstand is expected to contribute INR 1,000+ crores to IHCL's topline.",
+   "said": {
+    "quote": "From a financial standpoint upon stabilization Taj Bandstand is expected to contribute INR 1,000 plus crores to IHCL's topline with EBITDA margins close to 50%",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P22",
+   "metric": "Annual Capex",
+   "period": null,
+   "target": "₹1,000–1,200 crore",
+   "statement": "Company will continue to invest INR 1,000 crores to INR 1,200 crores annually in capex.",
+   "said": {
+    "quote": "Even going forward, we will continue to invest INR1,000 crores to INR1,200 crores annually to strengthen our existing competitive advantages and at the same time, build new ones",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P23",
+   "metric": "Management Fee Income CAGR",
+   "period": null,
+   "target": "15–19.9%",
+   "statement": "Management expects to sustain management fee growth at high teens CAGR.",
+   "said": {
+    "quote": "Looking ahead, we remain confident of sustaining management fee growth at high teens CAGR, supported by a strong pipeline of hotel openings and incremental contributions from newly added hotels",
+    "source": "Q1 FY27 call, 21 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9041a34-064a-418c-a179-94cb08772f9d.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "FY27 Capex Guidance",
+   "period": "FY27",
+   "target": "₹1,200 crore",
+   "statement": "FY27 capex expected to be around Rs. 1,200 crores.",
+   "said": {
+    "quote": "But you should assume anywhere between Rs. 1,200 crores for next year as well",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 12,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Revenue Contribution from Acquisitions",
+   "period": "FY27",
+   "target": "₹250–300 crore",
+   "statement": "Acquisitions are expected to contribute INR 250-300 crores to consolidated topline in FY27.",
+   "said": {
+    "quote": "Importantly, these acquisitions are expected to contribute meaningfully in the range of INR 250 crores to INR 300 crores to IHCL's consolidated topline in FY’26-‘27",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Management Fee Growth",
+   "period": "FY27",
+   "target": "15–19.9%",
+   "statement": "Management fee income is expected to grow in the high teens in FY27.",
+   "said": {
+    "quote": "Management fee income is set to grow in the high teens driven by 60 plus openings",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "Atmantan Revenue",
+   "period": "FY27",
+   "target": "₹100 crore",
+   "statement": "Atmantan is projected to generate approximately INR 100 crores revenue in FY27.",
+   "said": {
+    "quote": "This property and this brand is projected to generate revenue of approximately INR 100 crores in FY’27 with strong margin characteristics aligned to the premium wellness positioning",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [
+    "Q3 FY26 call, 12 Feb 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "Hotel Openings",
+   "period": "FY27",
+   "target": "≥ 60 hotels",
+   "statement": "Company expects 60-plus hotel openings across brands and geographies in FY27.",
+   "said": {
+    "quote": "In conclusion, in FY '27, we expect 60-plus hotel openings across brands and geographies",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P18",
+   "metric": "Acquisitions Incremental Revenue",
+   "period": "FY27",
+   "target": "≥ ₹250 crore",
+   "statement": "Recent acquisitions are expected to contribute over INR 250 crores in incremental revenue in FY27.",
+   "said": {
+    "quote": "Number two, our recent acquisitions are expected to contribute over INR250 crores in incremental revenue",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P19",
+   "metric": "FY27 Revenue Growth Guidance",
+   "period": "FY27",
+   "target": "≥ 10%",
+   "statement": "Management is confident of delivering double-digit revenue growth in FY27 and beyond.",
+   "said": {
+    "quote": "On the outlook, as we look ahead to FY '27 and beyond, we remain confident of delivering double-digit revenue growth with sustained margins, strong cash generation and improved quality of earnings",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 21 Jul 2026",
+    "Q1 FY27 call, 21 Jul 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P20",
+   "metric": "FY27 Top Line Growth Range",
+   "period": "FY27",
+   "target": "12–14%",
+   "statement": "Management expects top-line growth between 12% and 14% in FY27.",
+   "said": {
+    "quote": "We remain fairly confident that we will again deliver double-digit growth between 12%, let's say, and 14% in the FY '27 fiscal",
+    "source": "Q4 FY26 call, 11 May 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Revenue Addition from Clarks Portfolio",
+   "period": "FY28",
+   "target": "₹100 crore",
+   "statement": "Medium term expects around Rs. 100 crores addition from Clarks portfolio by FY28.",
+   "said": {
+    "quote": "I think medium term, we are looking at about Rs. 100 crores getting added from this portfolio without doing too much heavy lifting",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 11,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Hotel Openings Guidance",
+   "period": "FY26",
+   "target": "≥ 30 hotels",
+   "statement": "Targeting opening of more than 30 new hotels in FY26.",
+   "said": {
+    "quote": "We are well on track to achieve our target of opening 30-plus new hotels in the current fiscal year",
+    "source": "Q2 FY26 call, 15 Nov 2025",
+    "page": 3,
+    "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P14",
+   "metric": "Atmantan EBITDA Margin",
+   "period": "FY26",
+   "target": "45–49%",
+   "statement": "Atmantan full year margins are expected to be in high 40s.",
+   "said": {
+    "quote": ", they are comfortably above 40% and for the full year, we expected to be in high 40s only.",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P15",
+   "metric": "Management Fee Growth",
+   "period": "FY26",
+   "target": "18%",
+   "statement": "Company expects to end FY26 with close to 18% YoY growth in management fee.",
+   "said": {
+    "quote": "That's what we are guiding towards high teens growth on the management fee given the strong pipeline of openings with large portion coming up in the first half",
+    "source": "Q3 FY26 call, 12 Feb 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 672.0,
+    "net_profit": -265.0,
+    "free_cash_flow": 387.0,
+    "cash_conversion": null,
+    "debtor_days": 30.0,
+    "inventory_days": 143.0,
+    "working_capital_days": -165.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 1619.0,
+    "net_profit": 1053.0,
+    "free_cash_flow": 1191.0,
+    "cash_conversion": 1.54,
+    "debtor_days": 28.0,
+    "inventory_days": 84.0,
+    "working_capital_days": -84.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 1935.0,
+    "net_profit": 1330.0,
+    "free_cash_flow": 1302.0,
+    "cash_conversion": 1.45,
+    "debtor_days": 26.0,
+    "inventory_days": 82.0,
+    "working_capital_days": -61.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 2194.0,
+    "net_profit": 2038.0,
+    "free_cash_flow": 1133.0,
+    "cash_conversion": 1.08,
+    "debtor_days": 28.0,
+    "inventory_days": 64.0,
+    "working_capital_days": -40.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 2471.0,
+    "net_profit": 2247.0,
+    "free_cash_flow": 1444.0,
+    "cash_conversion": 1.1,
+    "debtor_days": 27.0,
+    "inventory_days": 57.0,
+    "working_capital_days": -37.0
+   }
+  ],
+  "conversion_5y": 1.39,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹8,891 crore covered all of reported profit, ₹6,403 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/INDHOTEL/consolidated/"
+   }
+  ],
+  "read": "Profits cleanly convert to cash, with cumulative operating cash flow of ₹8,891 crore exceeding reported net profit of ₹6,403 crore over FY22 to FY26."
+ },
+ "bull": [
+  {
+   "point": "Full-year FY26 revenue grew 16% to ₹9,971 crore with EBITDA margin reaching 34.9%, fulfilling double-digit revenue guidance.",
+   "evidence": [
+    {
+     "quote": "Other parts of our performance highlights for FY '26 is that on a consolidated basis, revenue for '25-'26 grew 16% year-on-year to INR9,971 crores",
+     "source": "Q4 FY26 call, 11 May 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+    },
+    {
+     "quote": "EBITDA grew 16% year-on-year to INR3,477 crores, yielding EBITDA margin of 34.9%",
+     "source": "Q4 FY26 call, 11 May 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Q1 FY27 revenue grew 15% year-on-year to ₹2,419 crore, backed by cash reserves of over ₹4,400 crore.",
+   "evidence": [
+    {
+     "quote": "Our consolidated revenue grew 15% year-on-year to INR2,419 crores",
+     "source": "Q1 FY27 call, 21 Jul 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9041a34-064a-418c-a179-94cb08772f9d.pdf"
+    },
+    {
+     "quote": "Our balance sheet continues to be healthy with gross cash reserves of over INR4,400 crores",
+     "source": "Q1 FY27 call, 21 Jul 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9041a34-064a-418c-a179-94cb08772f9d.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Operating cash flow of ₹8,891 crore over FY22 to FY26 significantly exceeded total net profit of ₹6,403 crore.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹8,891 crore covered all of reported profit, ₹6,403 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/INDHOTEL/consolidated/"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "New business growth fell short of management's 30% target for the second half of FY26, delivering 25% for the full year.",
+   "evidence": [
+    {
+     "quote": "We expect these numbers to grow from 22% to 30% in the second half of this year",
+     "source": "Q2 FY26 call, 15 Nov 2025",
+     "page": 3,
+     "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf"
+    },
+    {
+     "quote": "Our new businesses vertical comprising Ginger, Qmin, Ama, Stays & Trails and Tree of Life delivered 25% growth in FY '26. This resulted in a consolidated revenue of INR753 crores",
+     "source": "Q4 FY26 call, 11 May 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Auditors identified impairment testing of investments in subsidiaries, joint ventures, and associates as a key audit matter.",
+   "evidence": [
+    {
+     "quote": "The Company evaluates the indicators of impairment of the said investments regularly by reference to the requirements under Ind AS 36 Impairment of Assets",
+     "source": "Annual report 2026",
+     "page": 158,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d58afeb7-2026-4d97-aa3e-a5bd6ab58d7f.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 21 Jul 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9041a34-064a-418c-a179-94cb08772f9d.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q4 FY26 call, 11 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8332278-c59c-497a-9eb4-235c90843d62.pdf",
+   "pages": 18
+  },
+  {
+   "label": "Q3 FY26 call, 12 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=685b29d3-5355-4b0c-b42d-b7674636c342.pdf",
+   "pages": 19
+  },
+  {
+   "label": "Q2 FY26 call, 15 Nov 2025",
+   "kind": "transcript",
+   "url": "https://ir.ihcltata.com/media/n20jfczf/ihcl-global-earnings-call-transcript_q2fy26.pdf",
+   "pages": 17
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d58afeb7-2026-4d97-aa3e-a5bd6ab58d7f.pdf",
+   "pages": 350
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 58,
+  "quotes_verified": 58,
+  "quotes_dropped": 0,
+  "graded_by_code": 6,
+  "graded_by_model": 4,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.6-flash"
+  ],
+  "seconds": 1.4
+ }
+}

@@ -1,0 +1,410 @@
+{
+ "schema_version": 3,
+ "symbol": "SUNPHARMA",
+ "name": "Sun Pharma",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:51:29+00:00",
+ "snapshot": {
+  "about": "Sun Pharma is an Indian pharmaceutical company manufacturing innovative and generic medicines globally.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 15300.0,
+  "revenue_yoy": 10.5,
+  "net_profit": 2901.0,
+  "net_profit_yoy": 26.5,
+  "ebitda_margin": 29.0
+ },
+ "narrative": "Management promised high single-digit top-line growth for FY27, matching Q1 FY27 revenue growth of 10.1% YoY to ₹15,183.6 crore. However, Q1 FY27 R&D spending at 5.4% of sales lagged the target range of 6% to 7%.",
+ "promises": [
+  {
+   "id": "P3",
+   "metric": "Transaction Closure Timeline",
+   "period": null,
+   "target": "6–9 months",
+   "statement": "The acquisition of Organon is expected to close in 6 to 9 months.",
+   "said": {
+    "quote": "we expect this deal to close in about six to nine month time",
+    "source": "Investor call, 5 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We expect the acquisition to be completed in Q4 FY27",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Management consistently targets transaction closure in Q4 FY27."
+  },
+  {
+   "id": "P6",
+   "metric": "R&D spend as % of sales",
+   "period": "FY27",
+   "target": "6–7%",
+   "statement": "R&D spend is expected to be 6% to 7% of sales in FY27.",
+   "said": {
+    "quote": "We expect our FY27 R&D spend to be 6% to 7% of the sales for the next year",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Consolidated investments towards R&D for Q1 FY27 stands at INR8,264 million or 5.4% of sales",
+    "source": "Q1 FY27 call, 6 Aug 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Q1 FY27 R&D spend was 5.4% of sales, slightly below target range."
+  },
+  {
+   "id": "P8",
+   "metric": "Effective Tax Rate",
+   "period": "FY27",
+   "target": "25%",
+   "statement": "Effective tax rate is expected to be in the range of 25% for next year.",
+   "said": {
+    "quote": "We expect the effective tax rate to be in the range of 25%",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 17,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Going forward, and until Organon closing, we expect the tax rate to be in a similar range as in Q1",
+    "source": "Q1 FY27 call, 6 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Reconfirmed expected tax rate range in Q1 FY27 call."
+  },
+  {
+   "id": "P7",
+   "metric": "Organon acquisition completion milestone",
+   "period": "Q4 FY27",
+   "target": null,
+   "statement": "Company expects Organon acquisition to complete in Q4 FY27.",
+   "said": {
+    "quote": "We expect the acquisition to be completed in Q4 FY27",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 6 Aug 2026"
+   ],
+   "actual": null,
+   "actual_source": {
+    "quote": "We expect the acquisition to be completed in Q4 of financial year '27",
+    "source": "Q1 FY27 call, 6 Aug 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Reiterated Q4 FY27 completion timeline during Q1 FY27 call."
+  },
+  {
+   "id": "P1",
+   "metric": "Cost Synergies",
+   "period": null,
+   "target": "350 million (USD)",
+   "statement": "Management expects cost synergies of around $350 million to materialize over the next two to four years.",
+   "said": {
+    "quote": "There are also significant potential synergies that could come out, which we have highlighted could be in the range of about $350 million which could be materialized in the next two to four years",
+    "source": "Investor call, 5 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Net Debt to EBITDA",
+   "period": null,
+   "target": "2.3 x",
+   "statement": "Post-acquisition combined company net debt to EBITDA is expected to be 2.3x.",
+   "said": {
+    "quote": "We also see that Sun from a net cash positive position post this acquisition will get into a net debt by EBITDA of 2.3x",
+    "source": "Investor call, 5 May 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "EPS Accretion",
+   "period": null,
+   "target": null,
+   "statement": "Management expects the acquisition to be EPS accretive from the first 12 months post-closing.",
+   "said": {
+    "quote": "we believe this will be EPS accretive from the beginning",
+    "source": "Investor call, 5 May 2026",
+    "page": 17,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "Consolidated top line growth",
+   "period": "FY27",
+   "target": "7–9%",
+   "statement": "Company expects high single-digit top line growth in FY27.",
+   "said": {
+    "quote": "On the guidance, we expect high single-digit consolidated top line growth for FY27 based on our current understanding of the regulatory and macro environment",
+    "source": "Q4 FY26 call, 29 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 6 Aug 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Effective tax rate",
+   "period": "FY27",
+   "target": "27.8%",
+   "statement": "Effective tax rate expected in a similar range as Q1 FY27 until Organon closing.",
+   "said": {
+    "quote": "Going forward, and until Organon closing, we expect the tax rate to be in a similar range as in Q1",
+    "source": "Q1 FY27 call, 6 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 8985.0,
+    "net_profit": 3389.0,
+    "free_cash_flow": 7550.0,
+    "cash_conversion": 2.65,
+    "debtor_days": 99.0,
+    "inventory_days": 315.0,
+    "working_capital_days": 47.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 4959.0,
+    "net_profit": 8513.0,
+    "free_cash_flow": 2895.0,
+    "cash_conversion": 0.58,
+    "debtor_days": 95.0,
+    "inventory_days": 360.0,
+    "working_capital_days": 40.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 12135.0,
+    "net_profit": 9610.0,
+    "free_cash_flow": 9964.0,
+    "cash_conversion": 1.26,
+    "debtor_days": 85.0,
+    "inventory_days": 338.0,
+    "working_capital_days": 55.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 14072.0,
+    "net_profit": 10965.0,
+    "free_cash_flow": 12005.0,
+    "cash_conversion": 1.28,
+    "debtor_days": 91.0,
+    "inventory_days": 348.0,
+    "working_capital_days": 65.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 12419.0,
+    "net_profit": 11509.0,
+    "free_cash_flow": 8906.0,
+    "cash_conversion": 1.08,
+    "debtor_days": 97.0,
+    "inventory_days": 363.0,
+    "working_capital_days": 54.0
+   }
+  ],
+  "conversion_5y": 1.2,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹52,570 crore covered all of reported profit, ₹43,986 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/SUNPHARMA/consolidated/"
+   }
+  ],
+  "read": "Profits convert strongly into cash. Cumulative operating cash flow of ₹52,570 crore comfortably exceeded total reported net profit of ₹43,986 crore over the FY22–FY26 period."
+ },
+ "bull": [
+  {
+   "point": "Strong cash generation fully backs earnings, with operating cash flow exceeding cumulative net profit over the past five financial years.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹52,570 crore covered all of reported profit, ₹43,986 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/SUNPHARMA/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "India formulation sales demonstrated robust growth, expanding 16% year-on-year in the first quarter of FY27 to ₹54,749 million.",
+   "evidence": [
+    {
+     "quote": "Sales of India formulations were INR54,749 million for the quarter, recording a growth of 16%",
+     "source": "Q1 FY27 call, 6 Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    },
+    {
+     "quote": "Sales of India formulations were INR54,749 million for the quarter, recording a growth of 16%",
+     "source": "Q1 FY27 call, 6 Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Innovative medicine sales grew 12.8% year-on-year to $351 million in the first quarter of FY27.",
+   "evidence": [
+    {
+     "quote": "In Q1 FY27, our innovative medicine sales were up 12.8% to reach USD351 million",
+     "source": "Q1 FY27 call, 6 Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    },
+    {
+     "quote": "In Q1 FY27, our innovative medicine sales were up 12.8% to reach USD351 million",
+     "source": "Q1 FY27 call, 6 Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "The company engages in massive material related-party transactions, including transactions exceeding ₹294,921 million with a single subsidiary.",
+   "evidence": [
+    {
+     "quote": "The aggregate amount of transactions for FY26 was ₹ 294,921.1 Million",
+     "source": "Annual report 2026",
+     "page": 63,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf"
+    }
+   ]
+  },
+  {
+   "point": "US business sales declined by 9.7% year-on-year in Q1 FY27 to USD 427 million, indicating headwinds in key overseas markets.",
+   "evidence": [
+    {
+     "quote": "Overall, the U.S. business reported sales of USD427 million for the quarter, declining by 9.7%",
+     "source": "Q1 FY27 call, 6 Aug 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    }
+   ]
+  },
+  {
+   "point": "The pending Organon acquisition will shift the company from a net cash position to a net debt to EBITDA ratio of 2.3x.",
+   "evidence": [
+    {
+     "quote": "We also see that Sun from a net cash positive position post this acquisition will get into a net debt by EBITDA of 2.3x",
+     "source": "Investor call, 5 May 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 6 Aug 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf",
+   "pages": 21
+  },
+  {
+   "label": "Investor call, 5 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+   "pages": 25
+  },
+  {
+   "label": "Q4 FY26 call, 29 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+   "pages": 18
+  },
+  {
+   "label": "Q3 FY26 call, 4 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1082d0ab-d6fb-40f5-873e-d7301397cd05.pdf",
+   "pages": 22
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
+   "pages": 345
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 49,
+  "quotes_verified": 49,
+  "quotes_dropped": 0,
+  "graded_by_code": 1,
+  "graded_by_model": 4,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
+  ],
+  "seconds": 0.9
+ }
+}

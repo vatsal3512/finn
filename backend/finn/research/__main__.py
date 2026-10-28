@@ -14,7 +14,7 @@ import logging
 
 from finn.ai.llm import LLM
 from finn.config import EXPORT_DIR, PORTFOLIO, RESEARCH
-from finn.contracts import ResearchReport
+from finn.contracts import AskAnswers, ResearchIndex, ResearchIndexEntry, ResearchReport
 from finn.research.ask import ask
 from finn.research.engine import research
 from finn.store import connect
@@ -30,11 +30,14 @@ def write_index() -> None:
             continue
         r = ResearchReport.model_validate_json(f.read_text(encoding="utf-8"))
         verdicts = [p.verdict for p in r.promises]
-        rows.append({"symbol": r.symbol, "name": r.name, "generated_at": r.generated_at,
-                     "promises": len(verdicts), "missed": verdicts.count("missed"),
-                     "kept": sum(v in ("met", "beat") for v in verdicts),
-                     "pending": sum(v in ("pending", "on_track", "at_risk") for v in verdicts)})  # fmt: skip
-    (OUT / "index.json").write_text(json.dumps({"reports": rows}, indent=1), encoding="utf-8")
+        rows.append(ResearchIndexEntry(
+            symbol=r.symbol, name=r.name, generated_at=r.generated_at, promises=len(verdicts),
+            missed=verdicts.count("missed"), kept=sum(v in ("met", "beat") for v in verdicts),
+            pending=sum(v in ("pending", "on_track", "at_risk") for v in verdicts),
+        ))  # fmt: skip
+    (OUT / "index.json").write_text(
+        ResearchIndex(reports=rows).model_dump_json(indent=1), encoding="utf-8"
+    )
 
 
 # The question each kind of Push card asks of management's own words.
@@ -80,19 +83,19 @@ def ask_top(n: int) -> None:
     )[:n]
     conn = connect()
     llm = LLM.from_env(conn, key_offset=9)
-    answers = {}
+    answers: dict = {}
     for f in top:
         insight = f.get("insight") or {}
         context = f"{insight.get('title') or f['headline']}. {insight.get('summary') or ''}".strip()
         context += _card_facts(f)
         question = QUESTIONS.get(f["category"], DEFAULT_QUESTION)
         try:
-            answers[f["id"]] = ask(conn, llm, f["symbol"], question, context).model_dump()
+            answers[f["id"]] = ask(conn, llm, f["symbol"], question, context)
             logging.info("asked %s %s", f["symbol"], f["category"])
         except Exception as exc:  # noqa: BLE001 - one card failing should not stop the rest
             logging.error("ask failed for %s: %s", f["id"], exc)
     out = EXPORT_DIR / "ask.json"
-    out.write_text(json.dumps({"answers": answers}, indent=1), encoding="utf-8")
+    out.write_text(AskAnswers(answers=answers).model_dump_json(indent=1), encoding="utf-8")
 
 
 def main(argv: list[str] | None = None) -> int:

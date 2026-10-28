@@ -1,0 +1,335 @@
+{
+ "schema_version": 3,
+ "symbol": "BHARTIARTL",
+ "name": "Bharti Airtel",
+ "basis": "consolidated",
+ "generated_at": "2026-10-28T07:51:26+00:00",
+ "snapshot": {
+  "about": "Telecom services provider offering mobile, fixed line, digital, B2B, cloud, data centers, and financial services.",
+  "latest_quarter": "Q1 FY27",
+  "revenue": 58539.0,
+  "revenue_yoy": 18.3,
+  "net_profit": 10012.0,
+  "net_profit_yoy": 34.9,
+  "ebitda_margin": 57.0
+ },
+ "narrative": "Management reported continuous quarterly revenue expansion reaching ₹58,539 crore in the first quarter of fiscal 2027, growing 18.3% year-on-year. Reported profitability aligns with management commentary, driven by strong operational execution across mobile and enterprise segments.",
+ "promises": [
+  {
+   "id": "P1",
+   "metric": "Nxtra Data Center Capacity Target",
+   "period": null,
+   "target": "≥ 1 GW",
+   "statement": "Bharti Airtel aims to expand Nxtra data center operating capacity to over 1 gigawatt in the next few years.",
+   "said": {
+    "quote": "The partnership with Google, coupled with the ongoing expansion in Nxtra, gives us a clear visibility to get to over 1 gigawatt in the next few years",
+    "source": "Q2 FY26 call, 4 Nov 2025",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
+   "metric": "Data center capacity",
+   "period": null,
+   "target": "1 GW",
+   "statement": "Data center capacity planned to reach 1 gigawatt within the next 3 to 4 years.",
+   "said": {
+    "quote": "Our plan is to reach 1 gigawatt capacity in the next three to four years and grow significantly ahead of the market",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Data Center Capacity Target",
+   "period": null,
+   "target": "1 gigawatt",
+   "statement": "Nxtra is targeting building 1 gigawatt capacity over the next few years.",
+   "said": {
+    "quote": "In data centers, we continue to make steady progress against our ambition of building 1 gigawatt capacity over the next few years",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 5 Aug 2026"
+   ],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "Edge Data Centers Build-out Target",
+   "period": null,
+   "target": "56 edge data centers",
+   "statement": "Company plans to build 56 edge data centers in the next 18 to 24 months.",
+   "said": {
+    "quote": "we are focused right now on building in the next 18 to 24 months- 56 world class edge data centers",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
+   "metric": "Total Capex Expectation",
+   "period": "FY27",
+   "target": null,
+   "statement": "Capex for the coming year is expected to be in the ballpark of FY2026.",
+   "said": {
+    "quote": "So the net result of all of that, if you look at the capex, while we do not give guidance typically, our sense is that we will be in the ballpark of this year, give or take a little bit",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Capex for the quarter was about Rs.13,390 Crores and the operational discipline continues to remain an enabler of our strong performance",
+    "source": "Q1 FY27 call, 5 Aug 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
+   "metric": "Airtel Money London listing milestone",
+   "period": "H2 FY27",
+   "target": null,
+   "statement": "Airtel Money is preparing for a London listing in H2 FY27.",
+   "said": {
+    "quote": "Given this growth trajectory and the large addressable opportunity, Airtel Money is now preparing for a London listing in the second half of 2026",
+    "source": "Q1 FY27 call, 5 Aug 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+   },
+   "repeated_in": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  }
+ ],
+ "cash": {
+  "applicable": true,
+  "reason": null,
+  "years": [
+   {
+    "year": "FY22",
+    "operating_cash_flow": 55017.0,
+    "net_profit": 8305.0,
+    "free_cash_flow": 28996.0,
+    "cash_conversion": 6.62,
+    "debtor_days": 13.0,
+    "inventory_days": null,
+    "working_capital_days": -239.0
+   },
+   {
+    "year": "FY23",
+    "operating_cash_flow": 65325.0,
+    "net_profit": 12287.0,
+    "free_cash_flow": 38875.0,
+    "cash_conversion": 5.32,
+    "debtor_days": 10.0,
+    "inventory_days": null,
+    "working_capital_days": -217.0
+   },
+   {
+    "year": "FY24",
+    "operating_cash_flow": 78898.0,
+    "net_profit": 8558.0,
+    "free_cash_flow": 38970.0,
+    "cash_conversion": 9.22,
+    "debtor_days": 12.0,
+    "inventory_days": null,
+    "working_capital_days": -236.0
+   },
+   {
+    "year": "FY25",
+    "operating_cash_flow": 98332.0,
+    "net_profit": 37481.0,
+    "free_cash_flow": 58990.0,
+    "cash_conversion": 2.62,
+    "debtor_days": 16.0,
+    "inventory_days": null,
+    "working_capital_days": -277.0
+   },
+   {
+    "year": "FY26",
+    "operating_cash_flow": 122230.0,
+    "net_profit": 33823.0,
+    "free_cash_flow": 76683.0,
+    "cash_conversion": 3.61,
+    "debtor_days": 14.0,
+    "inventory_days": null,
+    "working_capital_days": -222.0
+   }
+  ],
+  "conversion_5y": 4.18,
+  "signals": [
+   {
+    "quote": "Over FY22–FY26, operating cash flow of ₹419,802 crore covered all of reported profit, ₹100,454 crore.",
+    "source": "Computed from screener.in's cash-flow statement and ratios",
+    "page": null,
+    "url": "https://www.screener.in/company/BHARTIARTL/consolidated/"
+   }
+  ],
+  "read": "Profits convert strongly into cash. Over five fiscal years, cumulative operating cash flow of ₹419,802 crore easily surpassed reported net profit of ₹100,454 crore."
+ },
+ "bull": [
+  {
+   "point": "Consolidated revenue expanded to ₹58,539 crore in the first quarter of fiscal 2027 with strong profit growth.",
+   "evidence": [
+    {
+     "quote": "Our consolidated revenue was Rs.58,500 Crores, growing at about 5.7% sequentially",
+     "source": "Q1 FY27 call, 5 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+    },
+    {
+     "quote": "Our consolidated revenue was Rs.58,500 Crores, growing at about 5.7% sequentially",
+     "source": "Q1 FY27 call, 5 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Operating cash flow generation is exceptionally strong, fully converting reported net profits into cash over five fiscal years.",
+   "evidence": [
+    {
+     "quote": "Over FY22–FY26, operating cash flow of ₹419,802 crore covered all of reported profit, ₹100,454 crore.",
+     "source": "Computed from screener.in's cash-flow statement and ratios",
+     "page": null,
+     "url": "https://www.screener.in/company/BHARTIARTL/consolidated/"
+    }
+   ]
+  },
+  {
+   "point": "Airtel Africa economic interest is being strengthened through equity swap transactions to enhance capital allocation flexibility.",
+   "evidence": [
+    {
+     "quote": "The Board believes that the arrangement will enhance alignment between Bharti Airtel and Airtel Africa, provide greater flexibility in capital allocation and cash flow management across the Group",
+     "source": "Annual report 2026",
+     "page": 125,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf"
+    }
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "point": "The company faces significant financial exposure from disputed legal and regulatory matters currently pending before judicial forums.",
+   "evidence": [
+    {
+     "quote": "The Company has recognised provisions for probable outflows relating to regulatory matters, as applicable and have disclosed contingencies for regulatory matters where the obligations are considered possible",
+     "source": "Annual report 2026",
+     "page": 167,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Regulatory and legal disputes require significant management judgment and present uncertainty regarding final financial outcomes.",
+   "evidence": [
+    {
+     "quote": "there is significant judgement to determine the possible outcome of matters under dispute and determining the amounts involved, which may vary depending on the outcome of the matters",
+     "source": "Annual report 2026",
+     "page": 167,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Substantial capital expenditure commitments are required continuously to maintain network infrastructure and execute multi-year data center expansion plans.",
+   "evidence": [
+    {
+     "quote": "Capex for the quarter was about Rs.11,800 crores",
+     "source": "Q3 FY26 call, 6 Feb 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf"
+    },
+    {
+     "quote": "Capex for the quarter was about Rs.13,390 Crores and the operational discipline continues to remain an enabler of our strong performance",
+     "source": "Q1 FY27 call, 5 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "documents": [
+  {
+   "label": "Q1 FY27 call, 5 Aug 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf",
+   "pages": 17
+  },
+  {
+   "label": "Q4 FY26 call, 14 May 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf",
+   "pages": 16
+  },
+  {
+   "label": "Q3 FY26 call, 6 Feb 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf",
+   "pages": 18
+  },
+  {
+   "label": "Q2 FY26 call, 4 Nov 2025",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf",
+   "pages": 17
+  },
+  {
+   "label": "Annual report 2026",
+   "kind": "annual_report",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf",
+   "pages": 303
+  }
+ ],
+ "stats": {
+  "calls_read": 4,
+  "claims_found": 55,
+  "quotes_verified": 55,
+  "quotes_dropped": 0,
+  "graded_by_code": 0,
+  "graded_by_model": 0,
+  "ai_calls": 5,
+  "cached_calls": 5,
+  "models": [
+   "gemini-3.6-flash"
+  ],
+  "seconds": 1.2
+ }
+}

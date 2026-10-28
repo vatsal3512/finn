@@ -12,6 +12,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from pydantic import BaseModel
+from pydantic.json_schema import GenerateJsonSchema
 
 from finn import contracts as C
 from finn.config import (
@@ -203,6 +204,13 @@ def ai_stats(conn: sqlite3.Connection) -> C.AIStats:
     )
 
 
+class _NoFieldTitles(GenerateJsonSchema):
+    """Field titles turn into one TypeScript alias per field ("Symbol1", "Close1")."""
+
+    def field_title_should_be_set(self, schema) -> bool:
+        return False
+
+
 def run(conn: sqlite3.Connection, out_dir: Path = EXPORT_DIR) -> dict:
     hs = holdings(conn)
     fs = filings(conn)
@@ -238,9 +246,7 @@ def run(conn: sqlite3.Connection, out_dir: Path = EXPORT_DIR) -> dict:
     _write(C.Portfolio(holdings=hs), out_dir / "portfolio.json")
     _write(C.Filings(filings=fs), out_dir / "filings.json")
     _write(meta, out_dir / "meta.json")
-    schema = {
-        name: model.model_json_schema()
-        for name, model in (("portfolio", C.Portfolio), ("filings", C.Filings), ("meta", C.Meta))
-    }
+    # One schema with shared $defs, from which the app generates its TypeScript types.
+    schema = C.FinnData.model_json_schema(schema_generator=_NoFieldTitles)
     (out_dir / "schema.json").write_text(json.dumps(schema, indent=1), encoding="utf-8")
     return meta.counts

@@ -42,7 +42,7 @@ def test_a_fresh_report_is_served_from_the_cache_without_any_work(client, tmp_pa
 def test_a_stale_report_is_researched_again_and_streamed(client, tmp_path, monkeypatch):
     _write(tmp_path / "pre", "KAYNES", timedelta(days=30))
 
-    def fake_stream(symbol, refresh=False, save_dir=None):
+    def fake_stream(symbol, refresh=False, save_dir=None, budget_s=None):
         yield {"stage": "gather", "message": "Collecting"}
         yield {"stage": "done", "message": "Done", "report": {"symbol": symbol}}
 
@@ -51,7 +51,7 @@ def test_a_stale_report_is_researched_again_and_streamed(client, tmp_path, monke
 
 
 def test_a_failure_ends_the_stream_with_a_message(client, monkeypatch):
-    def broken(symbol, refresh=False, save_dir=None):
+    def broken(symbol, refresh=False, save_dir=None, budget_s=None):
         yield {"stage": "gather", "message": "Collecting"}
         raise RuntimeError("boom")
 

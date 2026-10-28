@@ -22,8 +22,9 @@ from pydantic import BaseModel, Field
 
 from finn.ai.llm import LLM, AIUnavailable, env_summary
 from finn.config import DATA_DIR, EXPORT_DIR
+from finn.contracts import AskAnswer
 from finn.research import engine
-from finn.research.ask import MAX_QUESTION, AskAnswer, ask
+from finn.research.ask import MAX_QUESTION, ask
 from finn.store import connect
 
 log = logging.getLogger(__name__)
@@ -33,6 +34,7 @@ PRECOMPUTED = EXPORT_DIR / "research"  # shipped with the app
 LIVE = DATA_DIR / "research"  # written by live runs
 FRESH = timedelta(days=7)
 REFRESH_AFTER = timedelta(hours=1)  # a refresh request inside this window is served the cache
+LIVE_BUDGET_S = 240  # model time for one live request, inside Vercel's 300-second limit
 
 app = FastAPI(title="FINN", docs_url="/api/docs", openapi_url="/api/openapi.json")
 app.add_middleware(
@@ -77,7 +79,9 @@ def research(symbol: str, refresh: bool = False) -> StreamingResponse:
             )
             return
         try:
-            for event in engine.stream(symbol, refresh=refresh, save_dir=LIVE):
+            for event in engine.stream(
+                symbol, refresh=refresh, save_dir=LIVE, budget_s=LIVE_BUDGET_S
+            ):
                 yield json.dumps(event, default=str) + "\n"
         except LookupError as exc:  # screener.in has no such company
             yield json.dumps({"stage": "error", "message": str(exc)}) + "\n"

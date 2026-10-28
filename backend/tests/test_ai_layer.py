@@ -95,10 +95,29 @@ def test_image_tasks_never_go_to_groq(tmp_path):
     assert q.calls == []
 
 
-def test_bad_json_is_retried_once_on_the_same_key(tmp_path):
-    llm, g, _, _ = _llm(tmp_path, {"gemini-1": ["bad_json", "ok"]})
-    assert ask(llm).value == "gemini-1"
-    assert [c[0] for c in g.calls] == ["gemini-1", "gemini-1"]
+def test_an_unusable_answer_moves_to_the_next_key(tmp_path):
+    llm, g, _, _ = _llm(tmp_path, {"gemini-1": ["bad_json"]})
+    assert ask(llm).value == "gemini-2"
+    assert [c[0] for c in g.calls] == ["gemini-1", "gemini-2"]
+
+
+def test_two_unusable_answers_move_to_the_next_model(tmp_path):
+    # Dixon, 28 Oct: the judge's answer failed validation on every key for 16 minutes.
+    llm, g, _, _ = _llm(tmp_path, {"gemini-1": ["bad_json"], "gemini-2": ["bad_json"]}, n_gemini=5)
+    assert ask(llm, tier=L.Tier.REASON).value == "gemini-1"
+    assert [c[:2] for c in g.calls] == [
+        ("gemini-1", L.FLASH_PEERS[0]), ("gemini-2", L.FLASH_PEERS[0]), ("gemini-1", L.FLASH_PEERS[1]),
+    ]  # fmt: skip
+
+
+def test_no_call_starts_after_the_deadline(tmp_path):
+    import time
+
+    llm, g, _, _ = _llm(tmp_path)
+    llm.deadline = time.monotonic() - 1
+    with pytest.raises(L.AIUnavailable, match="out of time"):
+        ask(llm)
+    assert g.calls == []
 
 
 def test_answers_are_cached(tmp_path):

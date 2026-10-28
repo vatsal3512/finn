@@ -12,10 +12,10 @@ from __future__ import annotations
 
 import sqlite3
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 from finn.ai.llm import LLM, Tier
-from finn.contracts import Evidence
+from finn.contracts import AskAnswer, Evidence
 from finn.research.engine import _call_label
 from finn.research.extract import Call
 from finn.research.gather import gather
@@ -47,17 +47,6 @@ class AskOut(BaseModel):
     addressed: bool
     answer: str
     quotes: list[AskQuote]
-
-
-class AskAnswer(BaseModel):
-    symbol: str
-    question: str
-    addressed: bool
-    answer: str
-    evidence: list[Evidence] = Field(default_factory=list)
-    calls: list[str] = Field(description="the calls that were read")
-    model: str | None = None
-    asked_at: str
 
 
 def ask(
