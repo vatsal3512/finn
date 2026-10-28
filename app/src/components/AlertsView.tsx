@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { Filing, Holding, Meta } from "@/lib/contract";
 import {
-  computeAlerts, IMPORTANT, lastSeen, loadSettings, markSeen, saveSettings,
+  computeAlerts, defaultSettings, IMPORTANT, lastSeen, loadSettings, markSeen, saveSettings,
   type AlertSettings, type PriceAlert,
 } from "@/lib/alerts";
 import { CATEGORY } from "@/lib/feed";
@@ -17,9 +17,11 @@ import { cx, Move, SectionTitle, Wordmark } from "./ui";
 
 
 export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings: Holding[]; meta: Meta }) {
-  const [now, setNow] = useState<Date | null>(null);
-  const [seenBefore, setSeenBefore] = useState(0);
-  const [s, setS] = useState<AlertSettings | null>(null);
+  // First paint uses the data's own time and the default limits, so the list shows at once;
+  // the phone's clock and the investor's saved limits take over on mount.
+  const [now, setNow] = useState<Date>(() => new Date(meta.generated_at));
+  const [seenBefore, setSeenBefore] = useState(Number.POSITIVE_INFINITY); // no "new" dots until known
+  const [s, setS] = useState<AlertSettings>(() => defaultSettings(meta.alert_defaults));
   const [editing, setEditing] = useState(false);
   const [win, setWin] = useState<Window>({ key: "7d" });
 
@@ -42,9 +44,9 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
     saveWindow(w);
   }
 
-  const r = now ? range(win, now) : null;
+  const r = range(win, now);
   const run = useMemo(
-    () => (now && s ? computeAlerts(holdings, feed, s, range(win, now).since, range(win, now).until) : null),
+    () => computeAlerts(holdings, feed, s, range(win, now).since, range(win, now).until),
     [now, s, holdings, feed, win],
   );
 
@@ -59,8 +61,8 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
         <section className="mx-3 mt-3 rounded-xl border border-line bg-surface">
           <button onClick={() => setEditing((e) => !e)} className="flex w-full items-center justify-between px-4 py-3 text-left" aria-expanded={editing}>
             <span className="text-[14px]">
-              Alert me on moves of <b className="num">±{s.pricePct}%</b>, volume over{" "}
-              <b className="num">{s.volumeX}×</b> its 20-day average, and {s.categories.length} kinds of filing.
+              Alert me on a move of <b className="num">±{s.pricePct}%</b>, <i>or</i> volume over{" "}
+              <b className="num">{s.volumeX}×</b> its 20-day average, <i>or</i> {s.categories.length} kinds of filing.
             </span>
             <span className="ml-3 shrink-0 text-[13px] text-accent">{editing ? "Done" : "Change"}</span>
           </button>
@@ -95,12 +97,10 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
         </section>
       )}
 
-      {!run || !now ? (
-        <p className="px-4 py-10 text-center text-[13px] text-faint">Loading…</p>
-      ) : (
+      {(
         <>
           <div className="mt-4"><WindowPicker value={win} now={now} onChange={choose} /></div>
-          <SectionTitle aside={r?.long}>{run.alerts.length} alerts</SectionTitle>
+          <SectionTitle aside={r.long}>{run.alerts.length} alerts</SectionTitle>
           {run.alerts.length === 0 && (
             <p className="mx-4 text-[13px] text-muted">Nothing crossed your thresholds. Loosen them above to see more.</p>
           )}

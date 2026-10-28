@@ -36,7 +36,14 @@ export default async function PortfolioPage() {
           {holdings.length} holdings · end of day {meta.latest_session ? sessionDay(meta.latest_session) : ""} · most attention first
         </p>
       </header>
-      <SectionTitle aside="3 months · close, day · volume, month">Holdings</SectionTitle>
+      <SectionTitle>Holdings</SectionTitle>
+      {/* Column labels, aligned with the row below: each column says what its two lines are. */}
+      <div className="mx-3 flex items-end gap-3 px-4 pb-1 text-[10px] uppercase leading-tight tracking-[0.06em] text-faint">
+        <span className="min-w-0 flex-1" />
+        <span className="hidden w-[72px] text-center min-[360px]:block">3 months</span>
+        <span className="w-[76px] text-right">Price<br />day</span>
+        <span className="w-[52px] text-right">Volume<br />month</span>
+      </div>
       <ul className="mx-3 rounded-xl border border-line bg-surface">
         {rows.map(({ h, closes, month }) => (
           <li key={h.symbol} className="border-t border-line first:border-t-0">

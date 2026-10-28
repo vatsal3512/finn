@@ -21,6 +21,15 @@ function Expected({ a }: { a: AskAnswer }) {
   const [more, setMore] = useState(false);
   const first = firstSentences(a.answer, 2);
   const quote = a.evidence?.[0];
+  if (!a.addressed) {
+    // "Management did not discuss this on its last two calls" is an answer, but one line's worth.
+    return (
+      <p className="text-[12px] text-faint">
+        <span className="font-semibold uppercase tracking-[0.08em]">Was this expected?</span>{" "}
+        Not mentioned on the {a.calls.join(" or ")}.
+      </p>
+    );
+  }
   return (
     <section className="rounded-lg bg-accent-soft/60 px-3 py-2.5">
       <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-accent">Was this expected?</p>

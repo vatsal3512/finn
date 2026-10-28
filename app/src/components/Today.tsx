@@ -20,9 +20,11 @@ type Props = {
 };
 
 export function Today({ feed, holdings, meta, ask }: Props) {
-  // "Now" is the phone's clock, so this renders after mount: a static page built hours
-  // ago must not decide what "the last 24 hours" means.
-  const [now, setNow] = useState<Date | null>(null);
+  // The page is built ahead of time, so the first paint measures "the last 24 hours" from
+  // when the data was made, and shows the feed at once instead of "Loading…". On mount the
+  // phone's clock takes over (live), since a page built hours ago must not decide "today".
+  const [now, setNow] = useState<Date>(() => new Date(meta.generated_at));
+  const [live, setLive] = useState(false);
   const [win, setWin] = useState<Window>({ key: "24h" });
   const [widened, setWidened] = useState(false);
   const [lastVisit, setLastVisit] = useState<number | null>(null);
@@ -30,6 +32,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
   useEffect(() => {
     const n = new Date();
     setNow(n);
+    setLive(true);
     setLastVisit(previousVisit(n.getTime()));
     setIntro(!introDismissed());
     const chosen = loadWindow();
@@ -50,7 +53,6 @@ export function Today({ feed, holdings, meta, ask }: Props) {
 
   const names = useMemo(() => Object.fromEntries(holdings.map((h) => [h.symbol, h.name])), [holdings]);
   const view = useMemo(() => {
-    if (!now) return null;
     const r = range(win, now);
     const inWin = between(feed, r.since, r.until);
     const top = todays3(inWin);
@@ -78,16 +80,16 @@ export function Today({ feed, holdings, meta, ask }: Props) {
       <header className="flex items-end justify-between px-4 pb-3 pt-5">
         <div>
           <Wordmark />
-          <h1 className="mt-1 text-[22px] font-semibold leading-tight">{now ? longDate(now) : "Today"}</h1>
+          <h1 className="mt-1 text-[22px] font-semibold leading-tight">{live ? longDate(now) : "Today"}</h1>
         </div>
         <p className="text-right text-[11px] leading-tight text-faint">
           Prices to {meta.latest_session ? sessionDay(meta.latest_session) : "—"} close
           <br />
-          {now ? <>Updated {ago(meta.generated_at, now)}</> : <>{meta.counts.holdings} holdings</>}
+          {live ? <>Updated {ago(meta.generated_at, now)}</> : <>{meta.counts.holdings} holdings</>}
         </p>
       </header>
 
-      {now && isStale(meta.generated_at, now) && (
+      {live && isStale(meta.generated_at, now) && (
         <p role="status" className="mx-3 mb-3 rounded-xl bg-warn-soft px-3.5 py-2.5 text-[13px] text-warn">
           Last update {ago(meta.generated_at, now)}. Filings since then are not shown yet.
         </p>
@@ -111,13 +113,11 @@ export function Today({ feed, holdings, meta, ask }: Props) {
         </section>
       )}
 
-      {now && <WindowPicker value={win} now={now} onChange={choose} />}
+      <WindowPicker value={win} now={now} onChange={choose} />
 
-      {!view ? (
-        <p className="px-4 py-10 text-center text-[13px] text-faint">Loading…</p>
-      ) : (
+      {(
         <>
-          <Briefing view={view} widened={widened} lastVisit={lastVisit} now={now!} />
+          <Briefing view={view} widened={widened} lastVisit={lastVisit} now={now} />
 
           {view.moves.length > 0 && (
             <>
@@ -152,7 +152,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
             </div>
           ) : (
             view.top.map((f) => (
-              <FilingCard key={f.id} f={f} name={names[f.symbol]} now={now!} ask={ask[f.id]} isNew={isNew(f)} />
+              <FilingCard key={f.id} f={f} name={names[f.symbol]} now={now} ask={ask[f.id]} isNew={isNew(f)} />
             ))
           )}
 
@@ -160,12 +160,12 @@ export function Today({ feed, holdings, meta, ask }: Props) {
             <>
               <SectionTitle aside={view.glance.length}>Worth a glance</SectionTitle>
               <div className="mx-3 rounded-2xl border border-line bg-surface">
-                {view.glance.map((f) => <GlanceRow key={f.id} f={f} now={now!} isNew={isNew(f)} />)}
+                {view.glance.map((f) => <GlanceRow key={f.id} f={f} now={now} isNew={isNew(f)} />)}
               </div>
             </>
           )}
 
-          {view.routine.length > 0 && <Routine items={view.routine} now={now!} />}
+          {view.routine.length > 0 && <Routine items={view.routine} now={now} />}
         </>
       )}
     </main>

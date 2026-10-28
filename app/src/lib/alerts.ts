@@ -35,8 +35,12 @@ const STORE = "finn.alerts.v1";
 const SEEN = "finn.alerts.seen.v1";
 export const SEEN_EVENT = "finn:alerts-seen";
 
+export function defaultSettings(d: Defaults): AlertSettings {
+  return { pricePct: d.price_move_pct, volumeX: d.volume_multiple, categories: IMPORTANT };
+}
+
 export function loadSettings(d: Defaults): AlertSettings {
-  const base = { pricePct: d.price_move_pct, volumeX: d.volume_multiple, categories: IMPORTANT };
+  const base = defaultSettings(d);
   try {
     const raw = localStorage.getItem(STORE);
     return raw ? { ...base, ...JSON.parse(raw) } : base;

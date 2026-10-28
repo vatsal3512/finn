@@ -367,3 +367,48 @@ def test_a_point_shows_each_quote_once():
                     revenue_yoy=None, net_profit=None, net_profit_yoy=None, ebitda_margin=None))  # fmt: skip
     out, dropped = _points([Point(point="Revenue grew.", evidence=["F1", "F2"])], ledger, None)
     assert dropped == 0 and len(out[0].evidence) == 1
+
+
+def test_a_watt_hour_quote_keeps_its_unit():
+    q = "scaling to 6 gigawatt hour by March 2026"
+    assert target_text(_claim(metric_key="other", low=6, unit="GW", quote=q)) == "≥ 6 GWh"
+    assert (
+        target_text(_claim(metric_key="other", low=6, unit="GW", quote="6 GW of solar")) == "≥ 6 GW"
+    )
+
+
+def test_a_revised_target_replaces_the_old_one_and_keeps_it_as_history(tmp_path):
+    from finn.research.score import drafts
+
+    conn = connect(tmp_path / "t.db")
+    act = Actuals(conn, "OLAELEC")
+    feb = _claim(
+        metric_key="other",
+        metric="Quarterly OPEX target",
+        period="H1 FY27",
+        low=250,
+        high=300,
+        unit="crore",
+    )
+    may = _claim(
+        metric_key="other", metric="Quarterly OpEx", period="H1 FY27", low=350, unit="crore"
+    )
+    other = _claim(
+        metric_key="other", metric="Monthly OpEx", period="Q2 FY27", low=100, high=120, unit="crore"
+    )
+    ds = drafts([_call([feb], "2026-02"), _call([may, other], "2026-05")], act)
+    assert len(ds) == 2
+    opex = next(d for d in ds if d.claim.claim.metric == "Quarterly OpEx")
+    assert [v.claim.low for v, _ in opex.revised_from] == [250]
+
+
+def test_negative_rupees_read_one_way():
+    assert _prose("net profit at ₹-₹336 crore") == "net profit at −₹336 crore"
+    assert _prose("net profit at ₹-336 crore") == "net profit at −₹336 crore"
+
+
+def test_a_range_is_not_a_minus():
+    assert _prose("guidance cut from 7,500-₹8,000 crore to 6,700-7,000 crore") == (
+        "guidance cut from ₹7,500–8,000 crore to ₹6,700–7,000 crore"
+    )
+    assert _prose("₹7,500–8,000 crore") == "₹7,500–8,000 crore"

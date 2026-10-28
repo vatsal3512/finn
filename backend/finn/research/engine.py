@@ -17,7 +17,7 @@ import logging
 import re
 import time
 from collections.abc import Iterator
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 from finn.ai.llm import LLM, AIUnavailable, Tier
@@ -27,6 +27,7 @@ from finn.contracts import (
     Guidance,
     ResearchReport,
     ResearchStats,
+    Revision,
     Snapshot,
     SourceDoc,
 )
@@ -117,12 +118,19 @@ class Ledger:
         return self.facts.get(ref)
 
 
+def _rs(v: float | None) -> str:
+    """Money as the app writes it: −₹336, not ₹-336, which the model echoed as ₹-₹336."""
+    v = v or 0
+    return f"−₹{abs(v):,.0f}" if v < 0 else f"₹{v:,.0f}"
+
+
 def _judge_prompt(src: Sources, ledger: Ledger, ds: list[Draft], excerpts) -> str:
-    lines = [f"Company: {src.name}" + (f" ({src.sector})" if src.sector else ""), ""]
+    lines = [f"Company: {src.name}" + (f" ({src.sector})" if src.sector else ""),
+             f"Today: {date.today():%d %B %Y}", ""]  # fmt: skip
     s = ledger.snapshot
     if s.latest_quarter:
-        lines.append(f"Latest quarter {s.latest_quarter} (screener.in): revenue ₹{s.revenue or 0:,.0f} crore"
-                     f" ({s.revenue_yoy:+.1f}% YoY), net profit ₹{s.net_profit or 0:,.0f} crore"
+        lines.append(f"Latest quarter {s.latest_quarter} (screener.in): revenue {_rs(s.revenue)} crore"
+                     f" ({s.revenue_yoy:+.1f}% YoY), net profit {_rs(s.net_profit)} crore"
                      f" ({(s.net_profit_yoy or 0):+.1f}% YoY), EBITDA margin {s.ebitda_margin}%."
                      if s.revenue_yoy is not None else f"Latest quarter {s.latest_quarter}.")  # fmt: skip
     lines += ["", "Claims (id | call | kind | statement | quote):"]
@@ -153,7 +161,11 @@ _RUPEES = (
     (re.compile(r"\b([\d,.]+) crores? rupees\b", re.I), r"₹\1 crore"),
     (re.compile(r"\b(?:INR|Rs\.?) ?([\d,.]+) ?crores?\b", re.I), r"₹\1 crore"),
     (re.compile(r"\bnegative ₹([\d,.]+)"), r"−₹\1"),
-    (re.compile(r"(?<![₹\d,.])(\d[\d,.]*) crores?\b"), r"₹\1 crore"),  # "14,553 crore"
+    # A range, not a minus: "7,500-8,000 crore" and the older "7,500-₹8,000 crore".
+    (re.compile(r"(?:\b(?:INR|Rs\.?) ?|₹)?(?<![\d,.])(\d[\d,.]*) ?[-–] ?₹?(\d[\d,.]*) crores?\b", re.I),
+     r"₹\1–\2 crore"),
+    (re.compile(r"₹ ?[-−] ?₹?([\d,.]+)|(?<![\d,.])[-−]₹([\d,.]+)"), lambda m: f"−₹{m[1] or m[2]}"),  # "₹-336"
+    (re.compile(r"(?<![₹\d,.\-−–])(\d[\d,.]*) crores?\b"), r"₹\1 crore"),  # "14,553 crore"
 )
 
 
@@ -236,6 +248,9 @@ def _row(i: int, d: Draft, ruling, ledger: Ledger, act: Actuals) -> Guidance:
     return Guidance(
         id=f"P{i}", metric=c.metric, period=c.period, target=target_text(c), statement=c.statement,
         said=said, repeated_in=[r.doc.label for r in d.repeated_in],
+        revised_from=[Revision(target=target_text(v.claim), source=k.doc.label,
+                               said=Evidence(quote=v.quote, source=k.doc.label, page=v.page, url=k.doc.url))
+                      for v, k in d.revised_from],
         actual=d.grade.actual if d.grade else None, actual_source=actual_src, verdict=verdict,
         verdict_by="code" if d.grade else "model", note=note,
     )  # fmt: skip

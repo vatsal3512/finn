@@ -35,7 +35,7 @@ export function FilingCard({ f, name, now, ask, isNew }: Props) {
         </>
       )}
       {people && <PeopleBlock changes={people.changes} />}
-      {f.insight?.amount_inr_crore != null && !results && (
+      {f.insight?.amount_inr_crore != null && !results && !saysAmount(f, f.insight.amount_inr_crore) && (
         <p className="mt-2 text-[13px] text-muted">
           Amount <span className="num text-text">{crore(f.insight.amount_inr_crore)}</span>
         </p>
@@ -51,6 +51,12 @@ export function FilingCard({ f, name, now, ask, isNew }: Props) {
       </div>
     </article>
   );
+}
+
+/** The amount is already in the title or summary ("₹1,250 Crore"), so a line repeating it is noise. */
+function saysAmount(f: Filing, amount: number): boolean {
+  const text = `${title(f)} ${f.insight?.summary ?? ""}`;
+  return [plain(amount, 0), plain(amount, 2), String(amount)].some((n) => n !== "0" && text.includes(n));
 }
 
 function Reaction({ f }: { f: Filing }) {
@@ -172,6 +178,9 @@ function PeopleBlock({ changes }: { changes: PersonChange[] }) {
 }
 
 export function GlanceRow({ f, now, isNew }: { f: Filing; now?: Date; isNew?: boolean }) {
+  // A leadership change worth a glance still carries the bio, one tap away.
+  const people = f.cards?.find((c): c is PeopleCard => c.type === "people");
+  const bio = people?.changes.some((c) => c.profile);
   return (
     <details className="group border-t border-line px-4 py-2.5 first:border-t-0">
       <summary className="flex cursor-pointer list-none items-baseline gap-2">
@@ -179,13 +188,17 @@ export function GlanceRow({ f, now, isNew }: { f: Filing; now?: Date; isNew?: bo
           {isNew && <span className="absolute -left-2.5 top-1.5 h-1.5 w-1.5 rounded-full bg-accent" aria-label="new" />}
           {f.symbol}
         </span>
-        <span className="min-w-0 flex-1 text-[14px] leading-snug">{title(f)}</span>
+        <span className="min-w-0 flex-1 text-[14px] leading-snug">
+          {title(f)}
+          {bio && <span className="ml-1.5 whitespace-nowrap text-[11px] text-accent">Bio ›</span>}
+        </span>
         <span className="shrink-0 text-[11px] text-faint">{now ? when(f.filed_at, now) : stamp(f.filed_at)}</span>
       </summary>
       <div className="mt-2 space-y-1.5 pl-[96px] text-[13px]">
         {f.insight?.summary && <p className="text-muted">{f.insight.summary}</p>}
         {f.insight?.why_it_matters && <p>{f.insight.why_it_matters}</p>}
         {!f.insight && f.headline && <p className="text-muted">{f.headline}</p>}
+        {people && <PeopleBlock changes={people.changes} />}
         <div className="flex gap-4">
           {f.attachment_url && <ExternalLink href={f.attachment_url}>Filing</ExternalLink>}
           <span className="text-faint">{CATEGORY[f.category ?? ""] ?? f.category}</span>

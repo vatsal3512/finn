@@ -120,10 +120,16 @@ export function PromiseRow({ p }: { p: Guidance }) {
                 {p.target ?? "—"}{p.actual ? <> → <span className="text-text">{p.actual}</span></> : null}
               </span>
             )}
+            {!!p.revised_from?.length && (
+              <span className="num block text-[11px] text-faint">
+                Revised from {p.revised_from.map((r) => r.target ?? "—").join(", then ")}
+              </span>
+            )}
           </span>
         </summary>
         <div className="space-y-2 px-4 pb-3 pl-[88px] text-[13px]">
-          <Quote label="Said" e={p.said} />
+          {p.revised_from?.map((r) => <Quote key={r.source} label="Earlier" e={r.said} />)}
+          <Quote label={p.revised_from?.length ? "Latest" : "Said"} e={p.said} />
           {!!p.repeated_in?.length && <p className="text-[12px] text-faint">Repeated on the {p.repeated_in.join(", ")}.</p>}
           {p.actual_source && <Quote label="Delivered" e={p.actual_source} />}
           {p.note && <p>{p.note}</p>}

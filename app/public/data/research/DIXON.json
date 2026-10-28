@@ -13,7 +13,7 @@
   "net_profit_yoy": 156.4,
   "ebitda_margin": 3.0
  },
- "narrative": "Management delivered strong growth with Q1 FY27 revenue of ₹15,548 crore and profit of ₹718 crore. However, EBITDA margin of 3.0% diverges from their target of 4.0% to 4.5%, and FY27 telecom guidance was trimmed from 7,500-₹8,000 crore to 6,700-₹7,000 crore.",
+ "narrative": "Management delivered strong growth with Q1 FY27 revenue of ₹15,548 crore and profit of ₹718 crore. However, EBITDA margin of 3.0% diverges from their target of 4.0% to 4.5%, and FY27 telecom guidance was trimmed from ₹7,500–8,000 crore to ₹6,700–7,000 crore.",
  "promises": [
   {
    "id": "P18",
@@ -608,7 +608,7 @@
  ],
  "bear": [
   {
-   "point": "Management lowered full-year FY27 telecom segment revenue guidance from 7,500-₹8,000 crore to 6,700-₹7,000 crore.",
+   "point": "Management lowered full-year FY27 telecom segment revenue guidance from ₹7,500–8,000 crore to ₹6,700–7,000 crore.",
    "evidence": [
     {
      "quote": "We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27",

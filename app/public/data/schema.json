@@ -586,6 +586,13 @@
      },
      "type": "array"
     },
+    "revised_from": {
+     "description": "earlier targets for the same metric and period, oldest first",
+     "items": {
+      "$ref": "#/$defs/Revision"
+     },
+     "type": "array"
+    },
     "actual": {
      "anyOf": [
       {
@@ -1447,6 +1454,35 @@
     "source_urls"
    ],
    "title": "ResultsCard",
+   "type": "object"
+  },
+  "Revision": {
+   "description": "An earlier target that a later call replaced, such as Ola's H1 FY27 quarterly opex:\n\u20b9250\u2013300 crore in February, \u20b9350 crore in May, \u20b9300\u2013325 crore in August.",
+   "properties": {
+    "target": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ]
+    },
+    "source": {
+     "description": "the call that gave it, e.g. \"Q3 FY26 call, 13 Feb 2026\"",
+     "type": "string"
+    },
+    "said": {
+     "$ref": "#/$defs/Evidence"
+    }
+   },
+   "required": [
+    "target",
+    "source",
+    "said"
+   ],
+   "title": "Revision",
    "type": "object"
   },
   "Snapshot": {

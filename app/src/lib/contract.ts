@@ -236,6 +236,10 @@ export interface Guidance {
    * later calls that repeated it
    */
   repeated_in?: string[];
+  /**
+   * earlier targets for the same metric and period, oldest first
+   */
+  revised_from?: Revision[];
   actual?: string | null;
   actual_source?: Evidence | null;
   verdict: "beat" | "met" | "missed" | "on_track" | "at_risk" | "pending" | "unclear";
@@ -253,6 +257,18 @@ export interface Evidence {
   source: string;
   page?: number | null;
   url: string;
+}
+/**
+ * An earlier target that a later call replaced, such as Ola's H1 FY27 quarterly opex:
+ * ₹250–300 crore in February, ₹350 crore in May, ₹300–325 crore in August.
+ */
+export interface Revision {
+  target: string | null;
+  /**
+   * the call that gave it, e.g. "Q3 FY26 call, 13 Feb 2026"
+   */
+  source: string;
+  said: Evidence;
 }
 export interface CashQuality {
   applicable: boolean;

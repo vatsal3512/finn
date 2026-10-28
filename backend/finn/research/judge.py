@@ -18,7 +18,10 @@ from finn.ai.llm import LLM, Tier
 
 # v2: v1 cited a promise as the evidence that it was on track, and wrote claim ids into
 #     its prose. Code now enforces both rules as well (engine.py).
-PROMPT_VERSION = "judge-v2"
+# v3: on 29 Oct, Ola's bull case said the Gigafactory "expects to be operational by
+#     September 2026", a deadline already past, and points opened with "The company...".
+#     The prompt now carries today's date, and both rules.
+PROMPT_VERSION = "judge-v3"
 
 SYSTEM = """You are an equity analyst holding an Indian company's management to its own words.
 
@@ -46,6 +49,10 @@ or its share price. If the material does not settle something, say so.
    ar_quote (at most 30 words, copied exactly from one excerpt). For the bear case, use the
    annual report where it shows risk: an auditor's qualification or emphasis of matter,
    large contingent liabilities, material related-party dealings.
+   Open each point with the fact itself ("Auto gross margin held at 30.5% in Q1 FY27..."),
+   never with "The company", "Management" or "The auditors".
+5. Today's date is given. A promise whose deadline is before today is not a future
+   catalyst: say what happened, or, if the material does not show it, leave it out.
 Write plain sentences: never put ids such as C3 or F1 in narrative, notes, cash_read or
 points; ids go only in the evidence lists."""
 

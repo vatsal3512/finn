@@ -113,6 +113,7 @@ class Draft:
     claim: Verified
     call: Call
     repeated_in: list[Call] = field(default_factory=list)
+    revised_from: list[tuple[Verified, Call]] = field(default_factory=list)  # oldest first
     grade: Grade | None = None
 
 
@@ -189,8 +190,21 @@ def deadline_passed(claim, act: Actuals) -> bool | None:
     return act.has_ended(*p) if p else None
 
 
+def _energy_unit(unit: str, quote: str) -> str:
+    """Capacity in GW and storage in GWh are different things. Ola's "6 gigawatt hour" was
+    extracted as 6 GW; the quote's own unit wins."""
+    if unit.lower() in ("gw", "mw", "kw") and re.search(
+        rf"\b{unit}h\b|{ {'gw': 'giga', 'mw': 'mega', 'kw': 'kilo'}[unit.lower()] }watt[- ]?hours?",
+        quote,
+        re.I,
+    ):
+        return unit + "h"
+    return unit
+
+
 def target_text(claim) -> str | None:
-    lo, hi, unit = claim.low, claim.high, (claim.unit or "").strip()
+    lo, hi = claim.low, claim.high
+    unit = _energy_unit((claim.unit or "").strip(), claim.quote or "")
     if lo is None and hi is None:
         positive = claim.metric_key == "cash_flow" and POSITIVE.search(claim.statement)
         return "positive" if positive else None
@@ -282,8 +296,33 @@ def _same_promise(a, b) -> bool:
         periods.parse(a.period) == periods.parse(b.period)  # fmt: skip
 
 
+_LABEL_NOISE = re.compile(r"\b(?:target|targets|guidance|guided|expected|expectation|goal|plan)\b")
+
+
+def _label(metric: str) -> str:
+    """'Quarterly OPEX target', 'Quarterly OpEx' and 'Quarterly Opex Target' are one metric."""
+    return re.sub(r"[^a-z]", "", _LABEL_NOISE.sub("", metric.lower()))
+
+
+def _revises(old, new) -> bool:
+    """Same metric, scope and period, a different number: the later call moved the target."""
+    return (
+        old.period is not None
+        and old.metric_key == new.metric_key
+        and old.scope == new.scope
+        and periods.parse(old.period) == periods.parse(new.period)
+        and _label(old.metric) == _label(new.metric)
+        and (old.unit or "") == (new.unit or "")
+    )
+
+
 def drafts(calls: list[Call], act: Actuals) -> list[Draft]:
-    """Every guidance claim, oldest call first; a later repeat is folded into the first."""
+    """Every guidance claim, oldest call first.
+
+    A later repeat is folded into the first. A later revision replaces it, keeping the
+    earlier targets as history: Ola gave three H1 FY27 opex targets on three calls, which
+    read as three promises, one "at risk" and one "on track", for the same thing.
+    """
     ordered = sorted(calls, key=lambda c: c.period)
     outcomes = [(v, call) for call in ordered for v in call.claims if v.claim.kind == "outcome"]
     out: list[Draft] = []
@@ -294,6 +333,13 @@ def drafts(calls: list[Call], act: Actuals) -> list[Draft]:
             twin = next((d for d in out if _same_promise(d.claim.claim, v.claim)), None)
             if twin:
                 twin.repeated_in.append(call)
+                continue
+            old = next((i for i, d in enumerate(out) if _revises(d.claim.claim, v.claim)), None)
+            if old is not None:
+                prev = out[old]
+                out[old] = Draft(
+                    v, call, revised_from=[*prev.revised_from, (prev.claim, prev.call)]
+                )
                 continue
             out.append(Draft(v, call))
     for d in out:

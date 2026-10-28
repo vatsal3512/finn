@@ -205,6 +205,15 @@ class Evidence(BaseModel):
 Verdict = Literal["beat", "met", "missed", "on_track", "at_risk", "pending", "unclear"]
 
 
+class Revision(BaseModel):
+    """An earlier target that a later call replaced, such as Ola's H1 FY27 quarterly opex:
+    ₹250–300 crore in February, ₹350 crore in May, ₹300–325 crore in August."""
+
+    target: str | None
+    source: str = Field(description='the call that gave it, e.g. "Q3 FY26 call, 13 Feb 2026"')
+    said: Evidence
+
+
 class Guidance(BaseModel):
     """One promise from a call, with what was delivered and who judged it."""
 
@@ -215,6 +224,10 @@ class Guidance(BaseModel):
     statement: str
     said: Evidence
     repeated_in: list[str] = Field(default_factory=list, description="later calls that repeated it")
+    revised_from: list[Revision] = Field(
+        default_factory=list,
+        description="earlier targets for the same metric and period, oldest first",
+    )
     actual: str | None = None
     actual_source: Evidence | None = None
     verdict: Verdict
