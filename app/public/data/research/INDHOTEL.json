@@ -3,7 +3,7 @@
  "symbol": "INDHOTEL",
  "name": "Indian Hotels",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:38+00:00",
+ "generated_at": "2026-10-28T09:56:48+00:00",
  "snapshot": {
   "about": "Indian Hotels Company Limited operates hotels, resorts, and hospitality services across various brands globally.",
   "latest_quarter": "Q2 FY27",
@@ -551,6 +551,7 @@
    }
   ],
   "conversion_5y": 1.39,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹8,891 crore covered all of reported profit, ₹6,403 crore.",
@@ -685,6 +686,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.8
+  "seconds": 3.4
  }
 }

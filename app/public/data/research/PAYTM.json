@@ -3,7 +3,7 @@
  "symbol": "PAYTM",
  "name": "Paytm",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:50+00:00",
+ "generated_at": "2026-10-28T09:58:42+00:00",
  "snapshot": {
   "about": "Digital payments, financial services, commerce and cloud technology platforms.",
   "latest_quarter": "Q2 FY27",
@@ -279,6 +279,7 @@
    }
   ],
   "conversion_5y": null,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Operating cash flow was negative in FY26 while reported profit was positive.",
@@ -418,6 +419,6 @@
   "models": [
    "gemini-3.5-flash"
   ],
-  "seconds": 0.9
+  "seconds": 5.1
  }
 }

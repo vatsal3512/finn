@@ -3,7 +3,7 @@
  "symbol": "RELIANCE",
  "name": "Reliance Industries",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:41+00:00",
+ "generated_at": "2026-10-28T09:57:00+00:00",
  "snapshot": {
   "about": "Reliance Industries operates in Oil-to-Chemicals, Retail, Digital Services (Jio), FMCG, Media, Oil & Gas, and New Energy.",
   "latest_quarter": "Q1 FY27",
@@ -243,6 +243,7 @@
    }
   ],
   "conversion_5y": 1.9,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹755,290 crore covered all of reported profit, ₹398,016 crore.",
@@ -377,6 +378,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.9
+  "seconds": 5.5
  }
 }

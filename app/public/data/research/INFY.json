@@ -3,7 +3,7 @@
  "symbol": "INFY",
  "name": "Infosys",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:36+00:00",
+ "generated_at": "2026-10-28T09:56:41+00:00",
  "snapshot": {
   "about": "Digital services, IT consulting, cloud and AI technology services globally.",
   "latest_quarter": "Q2 FY27",
@@ -265,6 +265,7 @@
    }
   ],
   "conversion_5y": 1.1,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹141,242 crore covered all of reported profit, ₹128,726 crore.",
@@ -404,6 +405,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.8
+  "seconds": 2.9
  }
 }

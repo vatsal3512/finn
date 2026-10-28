@@ -3,7 +3,7 @@
  "symbol": "MAZDOCK",
  "name": "Mazagon Dock",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:50+00:00",
+ "generated_at": "2026-10-28T09:58:37+00:00",
  "snapshot": {
   "about": "Constructs and repairs warships, submarines, commercial vessels, and offshore structures for defense and commercial clients.",
   "latest_quarter": "Q2 FY27",
@@ -463,6 +463,7 @@
    }
   ],
   "conversion_5y": 0.17,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, only 17% of reported profit arrived as operating cash (₹1,485 of ₹8,659 crore).",
@@ -615,6 +616,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.4
+  "seconds": 5.6
  }
 }

@@ -3,7 +3,7 @@
  "symbol": "SUNPHARMA",
  "name": "Sun Pharma",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:45+00:00",
+ "generated_at": "2026-10-28T10:00:06+00:00",
  "snapshot": {
   "about": "Sun Pharma is an Indian pharmaceutical company manufacturing innovative and generic medicines globally.",
   "latest_quarter": "Q1 FY27",
@@ -267,6 +267,7 @@
    }
   ],
   "conversion_5y": 1.2,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹52,570 crore covered all of reported profit, ₹43,986 crore.",
@@ -405,6 +406,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.5
+  "seconds": 0.3
  }
 }

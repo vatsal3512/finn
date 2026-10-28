@@ -3,7 +3,7 @@
  "symbol": "HFCL",
  "name": "HFCL",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:39+00:00",
+ "generated_at": "2026-10-28T09:56:50+00:00",
  "snapshot": {
   "about": "HFCL manufactures optical fiber, cables, connectivity solutions, and defense and aerospace equipment.",
   "latest_quarter": "Q2 FY27",
@@ -601,6 +601,7 @@
    }
   ],
   "conversion_5y": 0.28,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, only 28% of reported profit arrived as operating cash (₹413 of ₹1,484 crore).",
@@ -768,6 +769,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.2
+  "seconds": 1.7
  }
 }

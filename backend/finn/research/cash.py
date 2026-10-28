@@ -96,7 +96,14 @@ def compute(act: Actuals, is_bank: bool, parent: Actuals | None = None) -> CashQ
                                f"{y0} and {y1}: cash is waiting longer in the business.")  # fmt: skip
 
     own = _conversion(parent, ends) if parent else None
-    if own is not None and conversion is not None and own - conversion >= GAP and own >= 0.8:
+    # Only a real shortfall: Bharti's group already converts 418%, so no gap is worth saying.
+    if (
+        own is not None
+        and conversion is not None
+        and conversion < 0.7
+        and own - conversion >= GAP
+        and own >= 0.8
+    ):
         # Said first: it changes how every other number here should be read.
         signals.insert(0, f"The parent company alone turned {own:.0%} of its profit into operating "
                           f"cash over {span}; the shortfall sits in its subsidiaries.")  # fmt: skip

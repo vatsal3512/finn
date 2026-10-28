@@ -3,7 +3,7 @@
  "symbol": "INDUSINDBK",
  "name": "IndusInd Bank",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:52+00:00",
+ "generated_at": "2026-10-28T09:58:52+00:00",
  "snapshot": {
   "about": null,
   "latest_quarter": "Q2 FY27",
@@ -194,6 +194,7 @@
   "reason": "Not meaningful for a bank: its operating cash flow moves with deposits and loans.",
   "years": [],
   "conversion_5y": null,
+  "parent_conversion_5y": null,
   "signals": [],
   "read": null
  },
@@ -319,6 +320,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.5
+  "seconds": 4.9
  }
 }

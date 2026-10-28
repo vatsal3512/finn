@@ -3,7 +3,7 @@
  "symbol": "ADANIENT",
  "name": "Adani Enterprises",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:46+00:00",
+ "generated_at": "2026-10-28T09:58:17+00:00",
  "snapshot": {
   "about": "Adani Enterprises Limited operates an infrastructure-focused incubator portfolio spanning energy, utilities, transport, logistics, and primary industry.",
   "latest_quarter": "Q1 FY27",
@@ -442,6 +442,7 @@
    }
   ],
   "conversion_5y": 1.48,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹36,193 crore covered all of reported profit, ₹24,501 crore.",
@@ -588,6 +589,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.1
+  "seconds": 5.9
  }
 }

@@ -3,7 +3,7 @@
  "symbol": "LT",
  "name": "Larsen & Toubro",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:37+00:00",
+ "generated_at": "2026-10-28T09:56:44+00:00",
  "snapshot": {
   "about": "Larsen & Toubro is an Indian conglomerate engaged in technology, engineering, construction, manufacturing, and financial services.",
   "latest_quarter": "Q2 FY27",
@@ -451,6 +451,7 @@
    }
   ],
   "conversion_5y": 1.15,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹86,099 crore covered all of reported profit, ₹75,124 crore.",
@@ -591,6 +592,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.8
+  "seconds": 2.7
  }
 }

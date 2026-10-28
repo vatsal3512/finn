@@ -3,7 +3,7 @@
  "symbol": "DIXON",
  "name": "Dixon Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:49+00:00",
+ "generated_at": "2026-10-28T09:58:32+00:00",
  "snapshot": {
   "about": "Provider of electronics manufacturing services (EMS) across mobiles, IT hardware, telecom, home appliances, and lighting.",
   "latest_quarter": "Q1 FY27",
@@ -530,6 +530,7 @@
    }
   ],
   "conversion_5y": 1.22,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹4,515 crore covered all of reported profit, ₹3,697 crore.",
@@ -691,6 +692,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.1
+  "seconds": 5.0
  }
 }

@@ -3,7 +3,7 @@
   {
    "symbol": "ADANIENT",
    "name": "Adani Enterprises",
-   "generated_at": "2026-10-28T09:26:46+00:00",
+   "generated_at": "2026-10-28T09:58:17+00:00",
    "promises": 18,
    "missed": 0,
    "kept": 3,
@@ -12,7 +12,7 @@
   {
    "symbol": "ASIANPAINT",
    "name": "Asian Paints",
-   "generated_at": "2026-10-28T09:26:44+00:00",
+   "generated_at": "2026-10-28T09:57:44+00:00",
    "promises": 6,
    "missed": 0,
    "kept": 2,
@@ -21,7 +21,7 @@
   {
    "symbol": "BHARTIARTL",
    "name": "Bharti Airtel",
-   "generated_at": "2026-10-28T09:26:42+00:00",
+   "generated_at": "2026-10-28T10:00:06+00:00",
    "promises": 6,
    "missed": 0,
    "kept": 0,
@@ -30,7 +30,7 @@
   {
    "symbol": "DIXON",
    "name": "Dixon Technologies",
-   "generated_at": "2026-10-28T09:26:49+00:00",
+   "generated_at": "2026-10-28T09:58:32+00:00",
    "promises": 22,
    "missed": 0,
    "kept": 1,
@@ -39,7 +39,7 @@
   {
    "symbol": "EMUDHRA",
    "name": "eMudhra",
-   "generated_at": "2026-10-28T09:26:55+00:00",
+   "generated_at": "2026-10-28T10:00:06+00:00",
    "promises": 14,
    "missed": 0,
    "kept": 1,
@@ -48,7 +48,7 @@
   {
    "symbol": "ETERNAL",
    "name": "Eternal",
-   "generated_at": "2026-10-28T09:26:45+00:00",
+   "generated_at": "2026-10-28T09:58:11+00:00",
    "promises": 16,
    "missed": 0,
    "kept": 0,
@@ -57,7 +57,7 @@
   {
    "symbol": "HDFCBANK",
    "name": "HDFC Bank",
-   "generated_at": "2026-10-28T09:26:41+00:00",
+   "generated_at": "2026-10-28T09:56:55+00:00",
    "promises": 3,
    "missed": 0,
    "kept": 0,
@@ -66,7 +66,7 @@
   {
    "symbol": "HFCL",
    "name": "HFCL",
-   "generated_at": "2026-10-28T09:26:39+00:00",
+   "generated_at": "2026-10-28T09:56:50+00:00",
    "promises": 25,
    "missed": 0,
    "kept": 1,
@@ -75,7 +75,7 @@
   {
    "symbol": "INDHOTEL",
    "name": "Indian Hotels",
-   "generated_at": "2026-10-28T09:26:38+00:00",
+   "generated_at": "2026-10-28T09:56:48+00:00",
    "promises": 23,
    "missed": 1,
    "kept": 5,
@@ -84,7 +84,7 @@
   {
    "symbol": "INDIGO",
    "name": "IndiGo",
-   "generated_at": "2026-10-28T09:26:47+00:00",
+   "generated_at": "2026-10-28T09:58:22+00:00",
    "promises": 13,
    "missed": 1,
    "kept": 3,
@@ -93,7 +93,7 @@
   {
    "symbol": "INDUSINDBK",
    "name": "IndusInd Bank",
-   "generated_at": "2026-10-28T09:26:52+00:00",
+   "generated_at": "2026-10-28T09:58:52+00:00",
    "promises": 9,
    "missed": 0,
    "kept": 0,
@@ -102,7 +102,7 @@
   {
    "symbol": "INFY",
    "name": "Infosys",
-   "generated_at": "2026-10-28T09:26:36+00:00",
+   "generated_at": "2026-10-28T09:56:41+00:00",
    "promises": 9,
    "missed": 0,
    "kept": 4,
@@ -111,7 +111,7 @@
   {
    "symbol": "KAYNES",
    "name": "Kaynes Technology",
-   "generated_at": "2026-10-28T09:26:37+00:00",
+   "generated_at": "2026-10-28T09:56:45+00:00",
    "promises": 24,
    "missed": 3,
    "kept": 0,
@@ -120,7 +120,7 @@
   {
    "symbol": "LT",
    "name": "Larsen & Toubro",
-   "generated_at": "2026-10-28T09:26:37+00:00",
+   "generated_at": "2026-10-28T09:56:44+00:00",
    "promises": 17,
    "missed": 2,
    "kept": 3,
@@ -129,7 +129,7 @@
   {
    "symbol": "MARUTI",
    "name": "Maruti Suzuki",
-   "generated_at": "2026-10-28T09:26:43+00:00",
+   "generated_at": "2026-10-28T09:57:40+00:00",
    "promises": 3,
    "missed": 0,
    "kept": 0,
@@ -138,7 +138,7 @@
   {
    "symbol": "MAZDOCK",
    "name": "Mazagon Dock",
-   "generated_at": "2026-10-28T09:26:50+00:00",
+   "generated_at": "2026-10-28T09:58:37+00:00",
    "promises": 19,
    "missed": 1,
    "kept": 4,
@@ -147,7 +147,7 @@
   {
    "symbol": "NAZARA",
    "name": "Nazara Technologies",
-   "generated_at": "2026-10-28T09:26:54+00:00",
+   "generated_at": "2026-10-28T09:59:01+00:00",
    "promises": 10,
    "missed": 0,
    "kept": 0,
@@ -156,7 +156,7 @@
   {
    "symbol": "OLAELEC",
    "name": "Ola Electric",
-   "generated_at": "2026-10-28T09:26:53+00:00",
+   "generated_at": "2026-10-28T09:58:56+00:00",
    "promises": 17,
    "missed": 2,
    "kept": 0,
@@ -165,7 +165,7 @@
   {
    "symbol": "PAYTM",
    "name": "Paytm",
-   "generated_at": "2026-10-28T09:26:50+00:00",
+   "generated_at": "2026-10-28T09:58:42+00:00",
    "promises": 10,
    "missed": 0,
    "kept": 0,
@@ -174,7 +174,7 @@
   {
    "symbol": "PERSISTENT",
    "name": "Persistent Systems",
-   "generated_at": "2026-10-28T09:26:52+00:00",
+   "generated_at": "2026-10-28T09:58:47+00:00",
    "promises": 10,
    "missed": 0,
    "kept": 0,
@@ -183,7 +183,7 @@
   {
    "symbol": "POLYCAB",
    "name": "Polycab India",
-   "generated_at": "2026-10-28T09:26:48+00:00",
+   "generated_at": "2026-10-28T09:58:27+00:00",
    "promises": 19,
    "missed": 0,
    "kept": 0,
@@ -192,7 +192,7 @@
   {
    "symbol": "RELIANCE",
    "name": "Reliance Industries",
-   "generated_at": "2026-10-28T09:26:41+00:00",
+   "generated_at": "2026-10-28T09:57:00+00:00",
    "promises": 9,
    "missed": 0,
    "kept": 0,
@@ -201,7 +201,7 @@
   {
    "symbol": "SUNPHARMA",
    "name": "Sun Pharma",
-   "generated_at": "2026-10-28T09:26:45+00:00",
+   "generated_at": "2026-10-28T10:00:06+00:00",
    "promises": 9,
    "missed": 0,
    "kept": 0,

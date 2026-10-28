@@ -3,7 +3,7 @@
  "symbol": "PERSISTENT",
  "name": "Persistent Systems",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:52+00:00",
+ "generated_at": "2026-10-28T09:58:47+00:00",
  "snapshot": {
   "about": "Digital engineering and enterprise modernization services powered by AI across high-tech, financial services, and healthcare verticals.",
   "latest_quarter": "Q2 FY27",
@@ -269,6 +269,7 @@
    }
   ],
   "conversion_5y": 1.01,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹6,027 crore covered all of reported profit, ₹5,969 crore.",
@@ -420,6 +421,6 @@
    "gemini-3.6-flash",
    "gemini-3.8-flash"
   ],
-  "seconds": 1.2
+  "seconds": 4.3
  }
 }

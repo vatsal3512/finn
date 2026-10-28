@@ -3,7 +3,7 @@
  "symbol": "NAZARA",
  "name": "Nazara Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:54+00:00",
+ "generated_at": "2026-10-28T09:59:01+00:00",
  "snapshot": {
   "about": "Global gaming operating platform across mobile, PC, console, offline gaming, adtech, and sports media businesses.",
   "latest_quarter": "Q2 FY27",
@@ -277,6 +277,7 @@
    }
   ],
   "conversion_5y": 1.18,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹376 crore covered all of reported profit, ₹320 crore.",
@@ -400,6 +401,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.8
+  "seconds": 5.1
  }
 }

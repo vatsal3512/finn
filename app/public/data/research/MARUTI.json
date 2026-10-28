@@ -3,7 +3,7 @@
  "symbol": "MARUTI",
  "name": "Maruti Suzuki",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:43+00:00",
+ "generated_at": "2026-10-28T09:57:40+00:00",
  "snapshot": {
   "about": "Maruti Suzuki is an Indian automotive manufacturer producing passenger vehicles.",
   "latest_quarter": "Q2 FY27",
@@ -129,6 +129,7 @@
    }
   ],
   "conversion_5y": 1.18,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹64,736 crore covered all of reported profit, ₹54,812 crore.",
@@ -183,6 +184,9 @@
   }
  ],
  "notes": [
+  "Could not fetch transcript 2026-01: not a PDF: https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_26.pdf",
+  "Could not fetch transcript 2025-10: not a PDF: https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_26.pdf",
+  "Could not fetch transcript 2025-08: not a PDF: https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q1_FY_26.pdf",
   "Only 1 readable call transcripts were available.",
   "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
  ],
@@ -212,6 +216,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.6
+  "seconds": 6.4
  }
 }

@@ -3,7 +3,7 @@
  "symbol": "KAYNES",
  "name": "Kaynes Technology",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:37+00:00",
+ "generated_at": "2026-10-28T09:56:45+00:00",
  "snapshot": {
   "about": "Kaynes Technology provides electronics manufacturing services, semiconductor packaging, PCB manufacturing, and space technology solutions.",
   "latest_quarter": "Q1 FY27",
@@ -595,6 +595,7 @@
    }
   ],
   "conversion_5y": -0.63,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow totalled −₹615 crore against ₹977 crore of reported profit.",
@@ -768,6 +769,6 @@
   "models": [
    "gemini-3.5-flash"
   ],
-  "seconds": 0.5
+  "seconds": 0.7
  }
 }

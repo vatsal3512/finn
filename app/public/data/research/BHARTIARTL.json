@@ -3,7 +3,7 @@
  "symbol": "BHARTIARTL",
  "name": "Bharti Airtel",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:42+00:00",
+ "generated_at": "2026-10-28T10:00:06+00:00",
  "snapshot": {
   "about": "Telecom services provider offering mobile, fixed line, digital, B2B, cloud, data centers, and financial services.",
   "latest_quarter": "Q1 FY27",
@@ -193,6 +193,7 @@
    }
   ],
   "conversion_5y": 4.18,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹419,802 crore covered all of reported profit, ₹100,454 crore.",
@@ -330,6 +331,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.6
+  "seconds": 0.5
  }
 }

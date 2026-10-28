@@ -3,7 +3,7 @@
  "symbol": "POLYCAB",
  "name": "Polycab India",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:48+00:00",
+ "generated_at": "2026-10-28T09:58:27+00:00",
  "snapshot": {
   "about": "Polycab India Limited manufactures wires, cables, fast-moving electrical goods (FMEG), and executes EPC projects.",
   "latest_quarter": "Q2 FY27",
@@ -534,6 +534,7 @@
    }
   ],
   "conversion_5y": 1.01,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹8,856 crore covered all of reported profit, ₹8,756 crore.",
@@ -665,6 +666,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 1.0
+  "seconds": 4.5
  }
 }

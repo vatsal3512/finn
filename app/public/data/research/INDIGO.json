@@ -3,7 +3,7 @@
  "symbol": "INDIGO",
  "name": "IndiGo",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:47+00:00",
+ "generated_at": "2026-10-28T09:58:22+00:00",
  "snapshot": {
   "about": "India's leading airline providing domestic and international air travel services.",
   "latest_quarter": "Q1 FY27",
@@ -344,6 +344,7 @@
    }
   ],
   "conversion_5y": 12.74,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Over FY22–FY26, operating cash flow of ₹83,658 crore covered all of reported profit, ₹6,568 crore.",
@@ -475,6 +476,6 @@
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.5
+  "seconds": 4.7
  }
 }

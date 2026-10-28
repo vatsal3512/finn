@@ -3,7 +3,7 @@
  "symbol": "OLAELEC",
  "name": "Ola Electric",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:26:53+00:00",
+ "generated_at": "2026-10-28T09:58:56+00:00",
  "snapshot": {
   "about": "Ola Electric manufactures electric two-wheelers, battery cells, and energy storage products.",
   "latest_quarter": "Q1 FY27",
@@ -440,6 +440,7 @@
    }
   ],
   "conversion_5y": null,
+  "parent_conversion_5y": null,
   "signals": [
    {
     "quote": "Free cash flow was negative in 5 of 5 years, −₹10,826 crore in total.",
@@ -572,6 +573,6 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.7
+  "seconds": 4.9
  }
 }
