@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { AskAnswer, Filing, Holding, Meta } from "@/lib/contract";
 import { computeAlerts, loadSettings, type PriceAlert } from "@/lib/alerts";
+import { useTicking } from "@/lib/clock";
 import { between, byScore, CATEGORY, openingWindow, title, todays3 } from "@/lib/feed";
 import { ago, isStale, longDate, sessionDay, times, when } from "@/lib/format";
 import { dismissIntro, introDismissed, previousVisit } from "@/lib/visit";
@@ -29,6 +30,7 @@ export function Today({ feed, holdings, meta, ask }: Props) {
   const [widened, setWidened] = useState(false);
   const [lastVisit, setLastVisit] = useState<number | null>(null);
   const [intro, setIntro] = useState(false);
+  useTicking(setNow);
   useEffect(() => {
     const n = new Date();
     setNow(n);

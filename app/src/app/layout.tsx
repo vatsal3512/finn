@@ -34,7 +34,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en-IN" className={`${inter.variable} ${mono.variable}`}>
       <body>
         <div className="mx-auto min-h-dvh max-w-[520px] pb-[calc(72px+env(safe-area-inset-bottom))]">{children}</div>
-        <TabBar holdings={badgeHoldings} filings={badgeFilings} defaults={meta.alert_defaults} />
+        <TabBar holdings={badgeHoldings} filings={badgeFilings} defaults={meta.alert_defaults} builtAt={meta.generated_at} />
       </body>
     </html>
   );

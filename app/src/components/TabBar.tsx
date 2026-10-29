@@ -11,6 +11,7 @@ type Props = {
   holdings: Pick<Holding, "symbol" | "name" | "series">[];
   filings: Pick<Filing, "id" | "filed_at" | "category" | "tier" | "group_lead" | "duplicate_of">[];
   defaults: Defaults;
+  builtAt: string; // when this page's data was made
 };
 
 const TABS = [
@@ -20,9 +21,30 @@ const TABS = [
   { href: "/research", label: "Research", d: "M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14ZM21 21l-5-5" },
 ];
 
-export function TabBar({ holdings, filings, defaults }: Props) {
+export function TabBar({ holdings, filings, defaults, builtAt }: Props) {
   const path = usePathname();
   const [unread, setUnread] = useState(0);
+
+  // The data is built into each page, so a page left open keeps its old filings and
+  // prices. On coming back to the app, and every ten minutes while it is open, ask whether
+  // newer data is out, and if so load it.
+  useEffect(() => {
+    const check = async () => {
+      if (document.visibilityState !== "visible") return;
+      try {
+        const m = (await (await fetch("/data/meta.json", { cache: "no-store" })).json()) as { generated_at?: string };
+        if (m.generated_at && m.generated_at > builtAt) window.location.reload();
+      } catch {
+        /* offline: keep what is on screen */
+      }
+    };
+    const t = setInterval(check, 600_000);
+    document.addEventListener("visibilitychange", check);
+    return () => {
+      clearInterval(t);
+      document.removeEventListener("visibilitychange", check);
+    };
+  }, [builtAt]);
 
   useEffect(() => {
     const count = () => {

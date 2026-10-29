@@ -7,6 +7,7 @@ import {
   computeAlerts, defaultSettings, IMPORTANT, lastSeen, loadSettings, markSeen, saveSettings,
   type AlertSettings, type PriceAlert,
 } from "@/lib/alerts";
+import { useTicking } from "@/lib/clock";
 import { CATEGORY } from "@/lib/feed";
 import { sessionDay, times } from "@/lib/format";
 import { loadWindow, range, saveWindow, type Window } from "@/lib/window";
@@ -24,6 +25,7 @@ export function AlertsView({ feed, holdings, meta }: { feed: Filing[]; holdings:
   const [s, setS] = useState<AlertSettings>(() => defaultSettings(meta.alert_defaults));
   const [editing, setEditing] = useState(false);
   const [win, setWin] = useState<Window>({ key: "7d" });
+  useTicking(setNow);
 
   useEffect(() => {
     const n = Date.now();
