@@ -104,23 +104,24 @@ def reason(r: ResearchReport, filed: list[Filed], now: datetime) -> tuple[str, s
 
 
 def changes(old: ResearchReport, new: ResearchReport) -> list[str]:
-    """What a rebuild changed, in a few words each, for the line above the report."""
+    """What a rebuild changed, in a few words each, for the line above the report.
+
+    A model names the same promise differently on a fresh reading ("FY26 Capex Guidance",
+    then "Capital Expenditure"), so promises are matched by what is stable: the call they
+    come from, and the sentence quoted from it."""
     out = []
-    first = lambda r: next((d.label for d in r.documents if d.kind == "transcript"), None)  # noqa: E731
-    if first(new) and first(new) != first(old):
-        out.append(f"Now reads the {first(new)}.")
-    before = {(p.metric, p.period): p.verdict for p in old.promises}
-    graded = [
-        p
-        for p in new.promises
-        if before.get((p.metric, p.period)) in OPEN and p.verdict not in OPEN
-    ]
+    calls = lambda r: [d.label for d in r.documents if d.kind == "transcript"]  # noqa: E731
+    read = [c for c in calls(new) if c not in calls(old)]
+    if read:
+        fresh = sum(p.said.source in read for p in new.promises)
+        what = f"the {read[0]}" if len(read) == 1 else f"{len(read)} more calls, the newest the {read[0]}"
+        out.append(f"Now reads {what}"
+                   + (f": {fresh} promise{'s' if fresh != 1 else ''} from {'it' if len(read) == 1 else 'them'}." if fresh else "."))  # fmt: skip
+    before = {p.said.quote: p.verdict for p in old.promises}
+    graded = [p for p in new.promises if before.get(p.said.quote) in OPEN and p.verdict not in OPEN]
     if graded:
         out.append(f"{len(graded)} promise{'s' if len(graded) > 1 else ''} newly graded: "
                    + ", ".join(f"{p.metric} {p.verdict.replace('_', ' ')}" for p in graded[:3]) + ".")  # fmt: skip
-    added = sum((p.metric, p.period) not in before for p in new.promises)
-    if added:
-        out.append(f"{added} new promise{'s' if added > 1 else ''} from the latest calls.")
     return out
 
 

@@ -18,8 +18,9 @@ def _report(symbol="MARUTI", calls=("Q4 FY26 call, 28 Apr 2026",), built="2026-1
                      "net_profit": None, "net_profit_yoy": None, "ebitda_margin": None},
         "narrative": None, "promises": [
             {"id": f"P{i}", "metric": m, "period": "FY26", "target": None, "statement": m,
-             "said": {"quote": "q", "source": "s", "url": "u"}, "verdict": v, "verdict_by": "code"}
-            for i, (m, v) in enumerate(promises, 1)],
+             "said": {"quote": f"we expect {m.lower()}", "source": src, "url": "u"}, "verdict": v,
+             "verdict_by": "code"}
+            for i, (m, v, src) in enumerate((*p, calls[-1] if calls else "s")[:3] for p in promises)],
         "cash": {"applicable": False, "reason": "bank"}, "bull": [], "bear": [], "notes": list(notes),
         "documents": [{"label": c, "kind": "transcript", "url": "u", "pages": 1} for c in calls],
         "stats": {"calls_read": len(calls) if calls_read is None else calls_read, "claims_found": 0,
@@ -82,14 +83,19 @@ def test_a_later_call_or_settled_results_put_a_report_behind():
 
 
 def test_changes_say_what_a_rebuild_did():
-    old = _report(promises=[("Revenue", "pending"), ("Margin", "on_track")])
-    new = _report(calls=("Q2 FY27 call, 27 Oct 2026", "Q4 FY26 call, 28 Apr 2026"),
-                  promises=[("Revenue", "missed"), ("Margin", "on_track"), ("Capex", "pending")])  # fmt: skip
+    april, october = "Q4 FY26 call, 28 Apr 2026", "Q2 FY27 call, 27 Oct 2026"
+    old = _report(calls=(april,), promises=[("Revenue", "pending"), ("Margin", "on_track")])
+    new = _report(calls=(october, april),
+                  promises=[("Revenue", "missed", april), ("Margin", "on_track", april),
+                            ("Capex", "pending", october), ("Hotels", "pending", october)])  # fmt: skip
     assert changes(old, new) == [
-        "Now reads the Q2 FY27 call, 27 Oct 2026.",
+        "Now reads the Q2 FY27 call, 27 Oct 2026: 2 promises from it.",
         "1 promise newly graded: Revenue missed.",
-        "1 new promise from the latest calls.",
     ]
+    # A fresh reading may name a promise differently; its quote still matches, so nothing is "new".
+    renamed = new.model_copy(update={"documents": old.documents, "promises": [
+        new.promises[0].model_copy(update={"metric": "Topline"})]})  # fmt: skip
+    assert changes(old, renamed) == ["1 promise newly graded: Topline missed."]
 
 
 def test_an_incomplete_or_thinner_rebuild_never_replaces_a_report():
@@ -127,7 +133,9 @@ def test_run_rebuilds_up_to_the_limit_and_marks_the_rest(tmp_path, monkeypatch):
     stats = update.run(conn, tmp_path, limit=1)
     assert built == ["ADANIENT"] and stats["updated"] == ["ADANIENT"]
     a = json.loads((tmp_path / "ADANIENT.json").read_text())
-    assert a["pending"] is None and a["changes"][0] == "Now reads the Q2 FY27 call, 27 Oct 2026."
+    assert a["pending"] is None and a["changes"][0].startswith(
+        "Now reads the Q2 FY27 call, 27 Oct 2026"
+    )
     m = json.loads((tmp_path / "MARUTI.json").read_text())
     assert m["pending"] == "A new call transcript was filed on 28 Oct 2026."
     # The next run takes Maruti; Adani is current now, so it is not rebuilt again.
