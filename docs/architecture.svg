@@ -45,7 +45,7 @@
 
   <!-- push pipeline -->
   <rect x="340" y="150" width="670" height="400" rx="14" class="box"/>
-  <text x="360" y="176" class="lane">PUSH · GITHUB ACTIONS, EVERY 30 MINUTES, 08:30–22:30 IST</text>
+  <text x="360" y="176" class="lane">PUSH · GITHUB ACTIONS, EVERY 30 MINUTES, AROUND THE CLOCK</text>
 
   <rect x="365" y="195" width="620" height="46" rx="9" class="data"/>
   <text x="381" y="223"><tspan class="bt">Collect</tspan><tspan class="b" dx="8">new filings, prices and results into SQLite, kept between runs in the Actions cache</tspan></text>

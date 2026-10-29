@@ -28,7 +28,7 @@ FINN is a phone app for someone who owns Indian stocks. It does two jobs:
 ![FINN: how it works](docs/architecture.png)
 
 ```
-GitHub Actions, every 30 minutes
+GitHub Actions, every 30 minutes, around the clock
   -> fetch prices, filings and results from NSE, BSE and Yahoo Finance
   -> sort and summarise filings with Gemini
   -> save the results as JSON files in the repo
