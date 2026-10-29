@@ -191,8 +191,8 @@ function Briefing({ view, widened, lastVisit, now }: { view: View; widened: bool
       <p className="text-[15px] leading-snug">
         {view.lead}, FINN read <b className="num">{view.total}</b> filings from your companies.{" "}
         <b className="num">{view.top.length}</b> {view.top.length === 1 ? "matters" : "matter"},{" "}
-        <span className="num">{view.glance.length}</span> are worth a glance and{" "}
-        <span className="num">{view.routine.length}</span> are routine.
+        <span className="num">{view.glance.length}</span> {view.glance.length === 1 ? "is" : "are"} worth a glance and{" "}
+        <span className="num">{view.routine.length}</span> {view.routine.length === 1 ? "is" : "are"} routine.
       </p>
       {view.top.length > 0 && (
         <ol className="mt-2.5 space-y-1.5">

@@ -6,13 +6,16 @@ baseline, otherwise a spike would dilute the very average it is compared with.
 
 The investor's thresholds are applied in the app, not here, so changing "unusual" from
 2x to 3x volume never needs a server or a re-run.
+
+The refresh runs during market hours too, but a session is stored only once it has
+closed: half a day's volume against a full-day average would read as a quiet day.
 """
 
 from __future__ import annotations
 
 import logging
 import sqlite3
-from datetime import date, timedelta
+from datetime import UTC, date, datetime, time, timedelta, timezone
 
 import pandas as pd
 import yfinance as yf
@@ -24,6 +27,14 @@ from finn.store import now_iso, upsert
 log = logging.getLogger(__name__)
 
 SOURCE = "https://finance.yahoo.com/quote/{ticker}/history"
+IST = timezone(timedelta(hours=5, minutes=30))
+SETTLED = time(16, 0)  # NSE closes at 15:30; Yahoo's daily bar is final a little after
+
+
+def last_settled(now: datetime) -> date:
+    """The latest day whose session, if there was one, has closed."""
+    ist = now.astimezone(IST)
+    return ist.date() if ist.time() >= SETTLED else ist.date() - timedelta(days=1)
 
 
 def compute_metrics(
@@ -68,6 +79,8 @@ def _download(companies: list[Company], start: date) -> dict[str, pd.DataFrame]:
 
 def run(conn: sqlite3.Connection, companies: list[Company]) -> dict:
     start = date.today() - timedelta(days=PRICE_HISTORY_DAYS)
+    settled = last_settled(datetime.now(UTC))
+    conn.execute("DELETE FROM prices WHERE date > ?", (settled.isoformat(),))  # earlier runs today
     frames = _download(companies, start)
     fetched = now_iso()
     stats = {"companies": len(frames), "rows": 0, "missing": [], "latest_session": None}
@@ -76,6 +89,7 @@ def run(conn: sqlite3.Connection, companies: list[Company]) -> dict:
         if frame is None:
             stats["missing"].append(c.symbol)
             continue
+        frame = frame[[pd.Timestamp(ix).date() <= settled for ix in frame.index]]
         m = compute_metrics(frame, price_breaks(conn, c.symbol))
         rows = [
             {

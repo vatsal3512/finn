@@ -1,8 +1,10 @@
+from datetime import UTC, date, datetime
+
 import pandas as pd
 import pytest
 
 from finn.collectors.corp_actions import kind_of
-from finn.collectors.prices import compute_metrics
+from finn.collectors.prices import compute_metrics, last_settled
 
 
 def _frame(volumes, closes=None):
@@ -15,6 +17,21 @@ def test_volume_ratio_excludes_today_from_its_own_baseline():
     m = compute_metrics(_frame([1000] * 20 + [3000]), breaks={}, window=20)
     # Baseline is the previous 20 sessions (1000), so a 3000 day is exactly 3x.
     assert m["vol_ratio"].iloc[-1] == pytest.approx(3.0)
+
+
+@pytest.mark.parametrize(
+    ("utc", "settled"),
+    [
+        (datetime(2026, 10, 29, 8, 4, tzinfo=UTC), date(2026, 10, 28)),  # 13:34 IST, market open
+        (datetime(2026, 10, 29, 10, 31, tzinfo=UTC), date(2026, 10, 29)),  # 16:01 IST, closed
+        (
+            datetime(2026, 10, 28, 19, 0, tzinfo=UTC),
+            date(2026, 10, 28),
+        ),  # 00:30 IST, before the open
+    ],
+)
+def test_a_session_counts_only_once_it_has_closed(utc, settled):
+    assert last_settled(utc) == settled
 
 
 def test_no_ratio_until_the_baseline_is_full():
