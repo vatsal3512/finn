@@ -480,8 +480,8 @@
       17.6
      ],
      "source": "xbrl",
-     "verified": null,
-     "check_note": "screener.in has no figures for this quarter yet.",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹42.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
      "share_of_associates": 42.0,
      "source_urls": [
       "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
