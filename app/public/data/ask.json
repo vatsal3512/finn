@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:25+00:00"
+   "asked_at": "2026-10-29T16:06:40+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-29T15:36:25+00:00"
+   "asked_at": "2026-10-29T16:06:40+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,22 +88,16 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:25+00:00"
+   "asked_at": "2026-10-29T16:06:40+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026 (Q1 FY27 call), management guided for full-year FY27 volume growth of 8-10% and maintained an 18-20% PBDIT margin guidance, while noting Q2 traditionally yields lower margins due to product mix. Standalone Q2 FY27 revenue grew 14.9% YoY to ₹8,453.8 crore, but EBITDA margin at 17.0% fell below the 18-20% band.",
+   "answer": "In July 2026 (Q1 FY27 call), management maintained guidance for full-year volume growth at 8% to 10% and PBDIT margins at 18% to 20%. The reported Q2 FY27 EBITDA margin of 15.6% missed this margin guidance range, although revenue grew 16.9% YoY to ₹9,976.5 crore.",
    "evidence": [
     {
      "quote": "At the current stage, we are looking at the band of 8-10% for the full FY27",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 20,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
-    },
-    {
-     "quote": "What we have seen is that quarter two has traditionally been a lower margin because of the mix of what we sell in quarter two overall",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 20,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
@@ -119,8 +113,8 @@
     "Q1 FY27 call, Aug 2026",
     "Q4 FY26 call, Jun 2026"
    ],
-   "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T15:36:25+00:00"
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T16:06:48+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -152,7 +146,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:26+00:00"
+   "asked_at": "2026-10-29T16:06:49+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -184,7 +178,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:26+00:00"
+   "asked_at": "2026-10-29T16:06:49+00:00"
   },
   "nse:106818661": {
    "symbol": "PERSISTENT",
@@ -216,7 +210,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:26+00:00"
+   "asked_at": "2026-10-29T16:06:49+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -248,7 +242,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:26+00:00"
+   "asked_at": "2026-10-29T16:06:50+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
@@ -280,7 +274,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T15:36:27+00:00"
+   "asked_at": "2026-10-29T16:06:50+00:00"
   },
   "nse:106834360": {
    "symbol": "INDIGO",
@@ -300,7 +294,7 @@
     "Q3 FY26 call, Jan 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:27+00:00"
+   "asked_at": "2026-10-29T16:06:50+00:00"
   },
   "nse:106830187": {
    "symbol": "MARUTI",
@@ -331,7 +325,7 @@
     "Q4 FY26 call, Apr 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:27+00:00"
+   "asked_at": "2026-10-29T16:06:51+00:00"
   },
   "nse:106821168": {
    "symbol": "HDFCBANK",
@@ -363,7 +357,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T15:36:27+00:00"
+   "asked_at": "2026-10-29T16:06:51+00:00"
   }
  }
 }

@@ -1,11 +1,11 @@
 {
  "schema_version": 3,
- "generated_at": "2026-10-29T15:36:24+00:00",
+ "generated_at": "2026-10-29T16:06:39+00:00",
  "latest_session": "2026-10-29",
  "filings_window_days": 30,
  "counts": {
   "holdings": 18,
-  "filings": 267,
+  "filings": 269,
   "events": 190,
   "duplicates": 25,
   "must_see": 37,
