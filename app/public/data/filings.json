@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106834553",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T16:45:56+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Asian Paints Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "failed",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026164544_SEIntimation_Investor_Presentation_Q2FY26-27pdfsigned.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Q2 FY27 Investor Presentation Released",
+    "summary": "Q2 FY27 standalone revenue grew 14.9% YoY to ₹8,453.8 crore, while Profit after tax increased 14.6% YoY to ₹1,095.5 crore.",
+    "why_it_matters": "EBITDA margin contracted sequentially to 17.0% from 21.9% a quarter ago, driving EBITDA down 28.4% QoQ to ₹1,440.3 crore.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "ASIANPAINT:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106834429",
    "symbol": "INDIGO",
    "exchange": "NSE",
@@ -114,11 +147,11 @@
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1710.9,
-       "previous_quarter": 3463.6,
+       "current": 1907.4,
+       "previous_quarter": 3267.1,
        "year_ago": 579.5,
-       "qoq_pct": -50.6,
-       "yoy_pct": 195.2
+       "qoq_pct": -41.6,
+       "yoy_pct": 229.1
       },
       {
        "key": "pbt",
@@ -141,16 +174,18 @@
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      7.3,
-      14.1,
+      8.2,
+      13.3,
       3.1
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/Indigo1_29102026155229_Outcome_of_BM_29102026_Final.pdf"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748898_29102026043937_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1700112_23072026054230_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565177_04112025075201_WEB.xml"
      ]
     }
    ],

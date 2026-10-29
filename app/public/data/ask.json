@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:27+00:00"
+   "asked_at": "2026-10-29T11:34:48+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-29T11:04:27+00:00"
+   "asked_at": "2026-10-29T11:34:48+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,7 +88,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:27+00:00"
+   "asked_at": "2026-10-29T11:34:48+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
@@ -120,7 +120,7 @@
     "Q4 FY26 call, Jun 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T11:04:27+00:00"
+   "asked_at": "2026-10-29T11:34:48+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -152,7 +152,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:27+00:00"
+   "asked_at": "2026-10-29T11:34:49+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -184,7 +184,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:28+00:00"
+   "asked_at": "2026-10-29T11:34:49+00:00"
   },
   "nse:106818661": {
    "symbol": "PERSISTENT",
@@ -216,7 +216,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:28+00:00"
+   "asked_at": "2026-10-29T11:34:49+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -248,7 +248,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:28+00:00"
+   "asked_at": "2026-10-29T11:34:49+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
@@ -280,20 +280,14 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T11:04:28+00:00"
+   "asked_at": "2026-10-29T11:34:50+00:00"
   },
   "nse:106834360": {
    "symbol": "INDIGO",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026, management guided Q2 FY27 capacity growth to be flattish and PRASK growth to exceed 25% YoY. While reported Q2 FY27 revenue rose 25.9% YoY to ₹23,363.8 crore, aligning with revenue expectations, margins remained severely pressured with a 7.3% EBITDA margin and a ₹1,879.1 crore net loss due to sustained high fuel and operating costs.",
+   "answer": "In July 2026, management guided Q2 FY27 passenger unit revenue (PRASK) growth of over 25% year-over-year. The results match revenue expectations, with Q2 FY27 revenue growing 25.9% YoY to ₹23,363.8 crore. However, management noted persistent cost pressures; EBITDA margin reached 8.2% (up from 3.1%), but net loss stood at ₹1,879.1 crore.",
    "evidence": [
-    {
-     "quote": "As a result, we are expecting a flattish capacity growth in Q2 FY27 compared to the same period last year",
-     "source": "Q1 FY27 call, Jul 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
-    },
     {
      "quote": "In terms of unit passenger revenue or PRASK for Q2FY27, with the current balanced demand￾supply equation and the higher fares holding up, we are expecting growth of more than 25% compared to the same period last year",
      "source": "Q1 FY27 call, Jul 2026",
@@ -312,7 +306,7 @@
     "Q4 FY26 call, Jun 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:29+00:00"
+   "asked_at": "2026-10-29T11:34:52+00:00"
   },
   "nse:106830187": {
    "symbol": "MARUTI",
@@ -343,7 +337,7 @@
     "Q4 FY26 call, Apr 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:29+00:00"
+   "asked_at": "2026-10-29T11:34:53+00:00"
   },
   "nse:106821168": {
    "symbol": "HDFCBANK",
@@ -375,7 +369,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T11:04:29+00:00"
+   "asked_at": "2026-10-29T11:34:53+00:00"
   }
  }
 }
