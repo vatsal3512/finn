@@ -29,8 +29,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.541,
-    "vol_ratio": 0.296
+    "ret_pct": 0.131,
+    "vol_ratio": 0.368
    },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
@@ -66,8 +66,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 1.261,
-    "vol_ratio": 0.503
+    "ret_pct": 1.036,
+    "vol_ratio": 0.588
    },
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
@@ -96,8 +96,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.061,
-    "vol_ratio": 0.196
+    "ret_pct": 3.691,
+    "vol_ratio": 0.212
    },
    "score": 0.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
@@ -126,8 +126,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 3.565,
-    "vol_ratio": 0.601
+    "ret_pct": 4.145,
+    "vol_ratio": 0.7
    },
    "score": 0.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -156,8 +156,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.96,
-    "vol_ratio": 0.33
+    "ret_pct": 1.119,
+    "vol_ratio": 0.372
    },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
@@ -186,8 +186,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 3.565,
-    "vol_ratio": 0.601
+    "ret_pct": 4.145,
+    "vol_ratio": 0.7
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -216,8 +216,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 3.565,
-    "vol_ratio": 0.601
+    "ret_pct": 4.145,
+    "vol_ratio": 0.7
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -246,8 +246,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.762,
-    "vol_ratio": 0.285
+    "ret_pct": 0.872,
+    "vol_ratio": 0.325
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
@@ -276,8 +276,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 1.175,
-    "vol_ratio": 0.346
+    "ret_pct": 0.887,
+    "vol_ratio": 0.361
    },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
@@ -292,7 +292,7 @@
    "exchange_label": "Press Release (Revised)",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release\".",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -300,12 +300,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026164539_AELsubmissionofMediaRelease30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Revised Q2 FY27 Results Press Release",
-    "summary": "Q2 FY27 unaudited results show profit before tax rising 248.4% QoQ to ₹2,002 crore, while revenue grew 13% to ₹37,215.6 crore.",
-    "why_it_matters": "EBITDA margin slipped to 14.8% from 15.2% a quarter earlier, indicating pressure despite profit surge.",
-    "sentiment": "neutral",
+    "title": "Revised Q2 FY27 Media Release",
+    "summary": "Adani Enterprises submitted a revised media release for its Q2 FY27 results, reporting PAT of ₹1,221.0 crore.",
+    "why_it_matters": "PAT fell 64.2% YoY to ₹1,221.0 crore, while revenue grew 75.1% YoY to ₹37,215.6 crore.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -315,10 +315,10 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 3.565,
-    "vol_ratio": 0.601
+    "ret_pct": 4.145,
+    "vol_ratio": 0.7
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -345,8 +345,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": -0.098,
-    "vol_ratio": 0.661
+    "ret_pct": -0.029,
+    "vol_ratio": 0.706
    },
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
@@ -361,7 +361,7 @@
    "exchange_label": "Press Release",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Press Release\".",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -369,12 +369,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026152205_AELsubmissionofMediaRelease30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Q2 FY27 Results Press Release",
-    "summary": "Q2 FY27 unaudited results show profit before tax rising 248.4% QoQ to ₹2,002 crore, while revenue grew 13% to ₹37,215.6 crore.",
-    "why_it_matters": "EBITDA margin slipped to 14.8% from 15.2% a quarter earlier, indicating pressure despite profit surge.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 Media Release",
+    "summary": "Adani Enterprises released its Q2 FY27 media release following its board meeting.",
+    "why_it_matters": "Consolidated PAT declined 64.2% YoY to ₹1,221.0 crore despite a 75.1% YoY revenue jump.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -387,7 +387,7 @@
     "ret_pct": -0.41,
     "vol_ratio": 1.098
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -445,12 +445,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026143849_AELsubmissionofPresentation.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Investor Presentation of Q2 FY27 Results",
-    "summary": "Presentation highlights record half‑year EBITDA of Rs 11,958 cr, a 56% YoY increase, with Q2 revenue of Rs 37,215.6 cr.",
-    "why_it_matters": "EBITDA grew 56% YoY versus 75% revenue growth, showing improving margins.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 Investor Presentation",
+    "summary": "Adani Enterprises uploaded its Q2 FY27 earnings investor presentation.",
+    "why_it_matters": "EBITDA margin slipped to 14.8% from 15.6% a year ago, while revenue rose 75.1% YoY.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
@@ -521,12 +521,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026133333_AELBoardoutcome30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Board Approval of Q2 FY27 Results",
-    "summary": "Q2 FY27 unaudited results show profit before tax rising 248.4% QoQ to ₹2,002 crore, while revenue grew 13% to ₹37,215.6 crore.",
-    "why_it_matters": "Profit surged despite Rs 845.76 crore pending conflict matter.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 Financial Results Approved",
+    "summary": "Adani Enterprises reported Q2 FY27 consolidated PAT of ₹1,221.0 crore, down 64.2% YoY.",
+    "why_it_matters": "PAT dropped sharply due to lower margins, even as consolidated revenue surged 75.1% YoY to ₹37,215.6 crore.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -643,7 +643,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange on the update of NCLAT order dated October 27, 2026",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -651,12 +651,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT Order Prevents Polycab Delisting",
-    "summary": "NCLAT ordered MSCI to keep Polycab listed pending final order, averting immediate delisting.",
-    "why_it_matters": "Delisting risk removed, preserving marketability of shares.",
-    "sentiment": "neutral",
+    "title": "NCLAT Interim Direction on MSCI Delisting",
+    "summary": "NCLAT issued an order directing MSCI not to delist Polycab India shares until the appeal order is pronounced.",
+    "why_it_matters": "Prevents immediate index exclusion and forced selling by index funds while the legal matter remains pending.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -667,7 +667,7 @@
     "ret_pct": -0.492,
     "vol_ratio": 0.567
    },
-   "score": 108.0,
+   "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-28",
    "group_lead": true,
    "duplicate_of": null
@@ -710,7 +710,7 @@
    "exchange_label": "General Updates",
    "headline": "Trading in equity shares of Jio Platforms Limited (JPL) will commence from October 28, 2026.Further, a meeting of board of directors of JPL is scheduled to be held on Friday, October 30, 2026, inter alia, to consider and approve the standalone and consolidated unaudited financial results of JPL for the quarter and half year ended September 30, 2026.",
    "category": "fund_raise",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "results_text",
    "needs_ai": false,
@@ -718,14 +718,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026220855_RIL_SELETTER_271026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Jio Platforms IPO Allotment Completed",
-    "summary": "Jio Platforms allotted up to 27 crore equity shares, completing its IPO and receiving trading approval.",
-    "why_it_matters": "IPO raises fresh capital, expanding Jio’s funding base.",
-    "sentiment": "neutral",
+    "title": "Jio Platforms Listing and Board Meeting",
+    "summary": "Reliance Industries announced that subsidiary Jio Platforms completed IPO share allotment and lists on October 28, 2026.",
+    "why_it_matters": "Marks the trading debut of subsidiary Jio Platforms, which will also hold a board meeting on October 30 for financial results.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
+    "results",
     "fund_raise"
    ],
    "cards": [],
@@ -734,8 +735,8 @@
     "ret_pct": -3.193,
     "vol_ratio": 1.464
    },
-   "score": 110.0,
-   "group_id": "RELIANCE:fund_raise:2026-10-27",
+   "score": 60.0,
+   "group_id": "RELIANCE:results:2026-10-27",
    "group_lead": true,
    "duplicate_of": null
   },
@@ -755,15 +756,14 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Investors' call audio recording uploaded",
-    "summary": "The company uploaded the audio recording of its investors' call on Q2 FY27 results held on 27 Oct 2026.",
-    "why_it_matters": "No new financial data beyond the results already disclosed.",
+    "title": "Audio recording link of Q2 FY27 earnings call",
+    "summary": "The company has uploaded the audio recording of its Q2 FY27 earnings call held on October 27, 2026, to its website.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
-    "results",
     "earnings_call"
    ],
    "cards": [],
@@ -772,7 +772,7 @@
     "ret_pct": 1.127,
     "vol_ratio": 1.965
    },
-   "score": 20.0,
+   "score": 0.0,
    "group_id": "MARUTI:results:2026-10-27",
    "group_lead": false,
    "duplicate_of": null
@@ -834,7 +834,7 @@
    },
    "score": 0.0,
    "group_id": "RELIANCE:results:2026-10-27",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -1137,7 +1137,7 @@
    "exchange_label": "Investor Presentation",
    "headline": "Maruti Suzuki India Limited has informed the Exchange about Investor Presentation",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "investor_presentation",
    "needs_ai": false,
@@ -1145,16 +1145,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Investor presentation on Q2 FY27 results",
-    "summary": "The company filed an investor presentation detailing Q2 FY27 results and the amalgamation of Suzuki Motor Gujarat with MSIL.",
-    "why_it_matters": "Amalgamation restates prior periods, affecting comparability of results.",
-    "sentiment": "neutral",
+    "title": "Investor presentation for Q2 FY27 results",
+    "summary": "Profit after tax dropped 28.5% QoQ to ₹2,466.1 crore, while revenue grew 1.7% to ₹53,355.5 crore, alongside presentation materials highlighting sales volumes.",
+    "why_it_matters": "EBITDA margin contracted year-on-year to 8.9% from 12.0%, even as sales volume expanded to 696,654 units from 550,874 units.",
+    "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
-    "results",
-    "M&A"
+    "results"
    ],
    "cards": [],
    "price_reaction": {
@@ -1162,7 +1161,7 @@
     "ret_pct": 1.127,
     "vol_ratio": 1.965
    },
-   "score": 120.0,
+   "score": 65.0,
    "group_id": "MARUTI:results:2026-10-27",
    "group_lead": false,
    "duplicate_of": null
@@ -1175,7 +1174,7 @@
    "exchange_label": "Press Release",
    "headline": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Maruti Suzuki India Limited Financial Results Q2 and H1 FY 2026-27\".",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -1183,15 +1182,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Press release announcing Q2 FY27 results",
-    "summary": "Maruti Suzuki released a press statement confirming Q2 FY27 results, including a record sales volume of 696,654 units.",
-    "why_it_matters": "Highest‑ever quarterly sales volume highlights strong demand.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 results press release highlights sales volumes",
+    "summary": "Net profit fell 28.5% QoQ to ₹2,466.1 crore despite a 26.0% YoY rise in revenue to ₹53,355.5 crore, driven by record quarterly sales volume.",
+    "why_it_matters": "Operating profit was hurt by West-Asia conflict-linked commodity increases, and non-operating income declined due to mark-to-market losses on invested surplus.",
+    "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
-    "results"
+    "results",
+    "press_release"
    ],
    "cards": [],
    "price_reaction": {
@@ -1199,7 +1199,7 @@
     "ret_pct": 1.127,
     "vol_ratio": 1.965
    },
-   "score": 120.0,
+   "score": 65.0,
    "group_id": "MARUTI:results:2026-10-27",
    "group_lead": false,
    "duplicate_of": null
@@ -1220,12 +1220,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Board meeting submission of Q2 FY27 results",
-    "summary": "The company filed its Q2 FY27 financial results to the exchange following the board meeting on 27 Oct 2026.",
-    "why_it_matters": "Provides official results despite lack of textual details in the filing.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 PAT falls 28.5% QoQ",
+    "summary": "Profit after tax declined 28.5% QoQ and 26.4% YoY to ₹2,466.1 crore, while revenue rose 26.0% YoY to ₹53,355.5 crore.",
+    "why_it_matters": "EBITDA margin squeezed sharply to 8.9% compared to 12.0% in the previous year, with PBT decreasing 27.5% quarter-on-quarter.",
+    "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
     "results"
@@ -1299,7 +1299,7 @@
     "ret_pct": 2.05,
     "vol_ratio": 0.908
    },
-   "score": 120.0,
+   "score": 125.0,
    "group_id": "MARUTI:results:2026-10-27",
    "group_lead": true,
    "duplicate_of": null
@@ -1320,12 +1320,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026145940_SBLC_to_CDPLC.PDF",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Approval of ₹1,250 Crore credit facility",
-    "summary": "Board approved an additional ₹1,250 Crore credit facility with SBI for issuing SBLC to subsidiary Colombo Dockyard.",
-    "why_it_matters": "Amount equals roughly 9.8% of annual revenue, indicating sizable financing.",
+    "title": "Approval for ₹1,250 crore additional credit facilities",
+    "summary": "The board approved availing additional credit facilities of ₹1,250 Crores with SBI Mumbai to issue an SBLC for subsidiary Colombo Dockyard PLC.",
+    "why_it_matters": "The ₹1,250 Crores credit facility is about 10% of annual revenue, supporting bank guarantees for its Sri Lankan subsidiary's clients.",
     "sentiment": "neutral",
     "amount_inr_crore": 1250.0,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
     "fund_raise"
@@ -1387,12 +1387,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026144923_Outcome_of_BM_27102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Unaudited Q2 FY27 results and interim dividend",
-    "summary": "The company disclosed unaudited Q2 FY27 results showing a 16.9% revenue decline and announced an interim dividend of ₹5 per share.",
-    "why_it_matters": "Revenue fell 16.9% YoY, signaling a slowdown in sales.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 PAT falls 53.8% YoY; interim dividend",
+    "summary": "Profit after tax slumped 53.8% YoY to ₹346.4 crore on a 16.5% drop in revenue to ₹2,446.1 crore; declared ₹5 interim dividend.",
+    "why_it_matters": "EBITDA dropped 71.3% YoY with margin collapsing to 8.1% from 23.7% a year ago, reflecting significant operational compression.",
+    "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
     "results",
@@ -1404,7 +1404,7 @@
     "ret_pct": -6.453,
     "vol_ratio": 6.736
    },
-   "score": 145.0,
+   "score": 150.0,
    "group_id": "MAZDOCK:results:2026-10-27",
    "group_lead": false,
    "duplicate_of": "nse:106830108"
@@ -1425,12 +1425,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_27102026143906_Outcome_of_BM_27102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
    "insight": {
-    "title": "Unaudited Q2 FY27 results and interim dividend",
-    "summary": "The company disclosed unaudited Q2 FY27 results showing a 16.9% revenue decline and announced an interim dividend of ₹5 per share.",
-    "why_it_matters": "Revenue fell 16.9% YoY, signaling a slowdown in sales.",
-    "sentiment": "neutral",
+    "title": "Q2 FY27 PAT falls 53.8% YoY; interim dividend",
+    "summary": "Profit after tax slumped 53.8% YoY to ₹346.4 crore on a 16.5% drop in revenue to ₹2,446.1 crore; declared ₹5 interim dividend.",
+    "why_it_matters": "EBITDA dropped 71.3% YoY with margin collapsing to 8.1% from 23.7% a year ago, reflecting significant operational compression.",
+    "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.8-flash"
    },
    "events": [
     "results",
@@ -1505,7 +1505,7 @@
     "ret_pct": -6.453,
     "vol_ratio": 6.736
    },
-   "score": 145.0,
+   "score": 150.0,
    "group_id": "MAZDOCK:results:2026-10-27",
    "group_lead": true,
    "duplicate_of": null
@@ -1518,7 +1518,7 @@
    "exchange_label": "Acquisition",
    "headline": "Maruti Suzuki India Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary",
    "category": "M&A",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "subsidiary_setup",
    "needs_ai": false,
@@ -1526,12 +1526,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026131704_Letter_to_Exchange.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Incorporation of OSCOE Foundation subsidiary",
-    "summary": "Board approved creation of OSCOE Foundation as a wholly owned subsidiary, with INR 100,000 paid-up share capital.",
-    "why_it_matters": "Establishes a dedicated centre of excellence; funded with INR 100,000 share capital.",
+    "title": "Incorporation of Wholly Owned Subsidiary OSCOE Foundation",
+    "summary": "Maruti Suzuki approved the incorporation of OSAMU SUZUKI CENTRE OF EXCELLENCE (OSCOE) FOUNDATION as a wholly owned Section 8 subsidiary.",
+    "why_it_matters": "The initial capital subscription of INR 100,000 is negligible relative to the company's annual revenue of about ₹208,192 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "M&A"
@@ -1542,7 +1542,7 @@
     "ret_pct": 2.05,
     "vol_ratio": 0.908
    },
-   "score": 52.0,
+   "score": 12.0,
    "group_id": "MARUTI:M&A:2026-10-27",
    "group_lead": true,
    "duplicate_of": null
@@ -1593,12 +1593,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Anup Bagchi appointed MD & CEO",
-    "summary": "Anup Bagchi takes over as MD & CEO of HDFC Bank, succeeding Sashidhar Jagdishan.",
-    "why_it_matters": "New CEO previously held senior roles at ICICI group, could influence strategy.",
+    "title": "Anup Bagchi Assumes Charge as MD and CEO",
+    "summary": "Anup Bagchi has taken over as Managing Director and CEO, succeeding Sashidhar Jagdishan who vacated office following the end of his tenure.",
+    "why_it_matters": "The shift in leadership at the chief executive level directly impacts strategic execution across the bank's core operations.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "management_change"
@@ -1663,12 +1663,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026232529_PersistentSEOutcomeAllotmentofsharesOct262026IIFLSigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "QIP raises INR 42,646.09 million",
-    "summary": "Board approved allotment of 7,683,981 equity shares at INR 5,550 each, raising INR 42,646.09 million.",
-    "why_it_matters": "Funding equals about 25% of annual revenue, a significant capital boost.",
-    "sentiment": "neutral",
+    "title": "Allotment of Equity Shares via Qualified Institutional Placement",
+    "summary": "Persistent Systems approved the allotment of 7,683,981 equity shares to QIBs at INR 5,550.00 per share, raising INR 42,646.09 million.",
+    "why_it_matters": "The INR 42,646.09 million equity dilution represents a major fund raise relative to annual revenue of about ₹16,801 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": 4264.61,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
@@ -1700,12 +1700,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026232129_PersistentSEOutcomeAllotmentofsharesOct262026IIFLSigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "QIP raises INR 42,646.09 million",
-    "summary": "Board approved allotment of 7,683,981 equity shares at INR 5,550 each, raising INR 42,646.09 million.",
-    "why_it_matters": "Funding equals about 25% of annual revenue, a significant capital boost.",
-    "sentiment": "neutral",
+    "title": "Allotment of Equity Shares via Qualified Institutional Placement",
+    "summary": "Persistent Systems approved the allotment of 7,683,981 equity shares to QIBs at INR 5,550.00 per share, raising INR 42,646.09 million.",
+    "why_it_matters": "The INR 42,646.09 million equity dilution represents a major fund raise relative to annual revenue of about ₹16,801 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": 4264.61,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
@@ -1804,15 +1804,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026212756_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Q2 FY27 results and INR 500 crore investments",
-    "summary": "Q2 FY27 results released; Board approved up to INR 500 crore investments in Paytm Cloud and Paytm Singapore subsidiaries.",
-    "why_it_matters": "Investments total INR 1,000 crore, supporting subsidiary expansion over next year.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Approval of Q2 FY27 Unaudited Financial Results",
+    "summary": "Paytm approved its Q2 FY27 financial results, reporting consolidated revenue of ₹2,648.0 crore and profit after tax of ₹225.0 crore.",
+    "why_it_matters": "Profit after tax rose to ₹225.0 crore from a low base, supported by EBITDA margin expanding to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "results"
+    "results",
+    "litigation"
    ],
    "cards": [],
    "price_reaction": {
@@ -1841,15 +1842,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026212523_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Q2 FY27 results and INR 500 crore investments",
-    "summary": "Q2 FY27 results released; Board approved up to INR 500 crore investments in Paytm Cloud and Paytm Singapore subsidiaries.",
-    "why_it_matters": "Investments total INR 1,000 crore, supporting subsidiary expansion over next year.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Approval of Q2 FY27 Unaudited Financial Results",
+    "summary": "Paytm approved its Q2 FY27 financial results, reporting consolidated revenue of ₹2,648.0 crore and profit after tax of ₹225.0 crore.",
+    "why_it_matters": "Profit after tax rose to ₹225.0 crore from a low base, supported by EBITDA margin expanding to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "results"
+    "results",
+    "litigation"
    ],
    "cards": [],
    "price_reaction": {
@@ -1878,15 +1880,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026212036_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Q2 FY27 results and INR 500 crore investments",
-    "summary": "Q2 FY27 results released; Board approved up to INR 500 crore investments in Paytm Cloud and Paytm Singapore subsidiaries.",
-    "why_it_matters": "Investments total INR 1,000 crore, supporting subsidiary expansion over next year.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Approval of Q2 FY27 Unaudited Financial Results",
+    "summary": "Paytm approved its Q2 FY27 financial results, reporting consolidated revenue of ₹2,648.0 crore and profit after tax of ₹225.0 crore.",
+    "why_it_matters": "Profit after tax rose to ₹225.0 crore from a low base, supported by EBITDA margin expanding to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "results"
+    "results",
+    "litigation"
    ],
    "cards": [],
    "price_reaction": {
@@ -1915,15 +1918,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026211823_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Q2 FY27 results and INR 500 crore investments",
-    "summary": "Q2 FY27 results released; Board approved up to INR 500 crore investments in Paytm Cloud and Paytm Singapore subsidiaries.",
-    "why_it_matters": "Investments total INR 1,000 crore, supporting subsidiary expansion over next year.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Approval of Q2 FY27 Unaudited Financial Results",
+    "summary": "Paytm approved its Q2 FY27 financial results, reporting consolidated revenue of ₹2,648.0 crore and profit after tax of ₹225.0 crore.",
+    "why_it_matters": "Profit after tax rose to ₹225.0 crore from a low base, supported by EBITDA margin expanding to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "results"
+    "results",
+    "litigation"
    ],
    "cards": [],
    "price_reaction": {
@@ -1944,7 +1948,7 @@
    "exchange_label": "General Updates",
    "headline": "One 97 Communications Limited has informed the Exchange about the Earnings Release for the quarter and half year ended September 30, 2026.",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -1952,15 +1956,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026205445_SEDisclosureReg30EarningRelease.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Q2 FY27 results show strong profit growth",
-    "summary": "Q2 FY27 revenue reached ₹2,648 crore, PAT ₹225 crore, EBITDA margin 10.2%, up sharply YoY.",
-    "why_it_matters": "PAT surged 971% YoY, indicating rapid profitability increase.",
+    "title": "Earnings Release for Q2 FY27",
+    "summary": "Paytm reported Q2 FY27 revenue of ₹2,648.0 crore, up 28.5% YoY, and profit after tax of ₹225.0 crore.",
+    "why_it_matters": "EBITDA margin improved to 10.2% from 8.3% in the prior quarter, driven by growth across merchant and consumer segments.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "results"
+    "results",
+    "M&A"
    ],
    "cards": [],
    "price_reaction": {
@@ -1968,7 +1973,7 @@
     "ret_pct": -3.209,
     "vol_ratio": 1.531
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "PAYTM:results:2026-10-26",
    "group_lead": false,
    "duplicate_of": null
@@ -1989,15 +1994,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_26102026205147_OutcomeofBMOctober262026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "Q2 FY27 results and INR 500 crore investments",
-    "summary": "Q2 FY27 results released; Board approved up to INR 500 crore investments in Paytm Cloud and Paytm Singapore subsidiaries.",
-    "why_it_matters": "Investments total INR 1,000 crore, supporting subsidiary expansion over next year.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 500.0,
-    "model": "openai/gpt-oss-120b"
+    "title": "Approval of Q2 FY27 Unaudited Financial Results",
+    "summary": "Paytm approved its Q2 FY27 financial results, reporting consolidated revenue of ₹2,648.0 crore and profit after tax of ₹225.0 crore.",
+    "why_it_matters": "Profit after tax rose to ₹225.0 crore from a low base, supported by EBITDA margin expanding to 10.2%.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "results"
+    "results",
+    "litigation"
    ],
    "cards": [
     {
@@ -2254,12 +2260,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_26102026193442_OutcomeofBoardMeetingF.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Reported Q2 FY27 financial results",
-    "summary": "The company reported Q2 FY27 revenue of 803.1 crore and profit after tax of 35.4 crore.",
-    "why_it_matters": "Profit after tax grew by 204.2% YoY to 35.4 crore against annual revenue of about ₹2,036 crore, with an EBITDA margin of 14.1%.",
+    "title": "Q2 FY27 Consolidated Financial Results Approved",
+    "summary": "Nazara Technologies reported Q2 FY27 revenue of ₹803.1 crore, with profit after tax rising 204.2% YoY to ₹35.4 crore.",
+    "why_it_matters": "Profit after tax increased sharply YoY while EBITDA margin improved to 14.1% from 11.4% a year ago.",
     "sentiment": "positive",
-    "amount_inr_crore": 803.1,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "results"
@@ -2291,12 +2297,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026192958_PersistentSEOutcomeQIPissueclosingOct262026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Approved QIP allocation of equity shares",
-    "summary": "The committee approved the closure of the QIP issue and allocated 7,683,981 equity shares at 5,550.00 per share.",
-    "why_it_matters": "The issue raised equity at a price of INR 5,550.00 per share, including a premium of INR 5,545.00 per share, representing a 3.66% discount to the floor price.",
-    "sentiment": "neutral",
+    "title": "Closure and Allocation of Qualified Institutional Placement",
+    "summary": "Persistent Systems approved closing its QIP and allocated 7,683,981 equity shares at an issue price of INR 5,550.00 per share.",
+    "why_it_matters": "The equity placement expands share capital and dilutes existing equity, raising funds to support growth initiatives.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
@@ -2328,12 +2334,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_26102026192123_OutcomeofBoardMeetingF.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Reported Q2 FY27 financial results",
-    "summary": "The company reported Q2 FY27 revenue of 803.1 crore and profit after tax of 35.4 crore.",
-    "why_it_matters": "Profit after tax grew by 204.2% YoY to 35.4 crore against annual revenue of about ₹2,036 crore, with an EBITDA margin of 14.1%.",
+    "title": "Q2 FY27 Consolidated Financial Results Approved",
+    "summary": "Nazara Technologies reported Q2 FY27 revenue of ₹803.1 crore, with profit after tax rising 204.2% YoY to ₹35.4 crore.",
+    "why_it_matters": "Profit after tax increased sharply YoY while EBITDA margin improved to 14.1% from 11.4% a year ago.",
     "sentiment": "positive",
-    "amount_inr_crore": 803.1,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "results"
@@ -2458,12 +2464,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_26102026122925_SE_Intimation_of_allotment_of_NCDs_26_Oct_2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Allotment of Non-Convertible Debentures",
-    "summary": "The company completed the allotment of rated, listed, unsecured, redeemable non-convertible debentures on a private placement basis.",
-    "why_it_matters": "The aggregate face value of INR 7,816 crore is substantial compared to the annual revenue of about ₹59,911 crore.",
+    "title": "Allotment of INR 7,816 Crore NCDs",
+    "summary": "Sun Pharma completed the private placement allotment of rated, listed, unsecured NCDs totaling INR 7,816 crore.",
+    "why_it_matters": "The fund raise represents over 13% of annual revenue, exercising a greenshoe option of ₹816 crore above the base issue.",
     "sentiment": "neutral",
     "amount_inr_crore": 7816.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
@@ -2593,12 +2599,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK3_24102026114939_SEDisclosure_NewspaperAdv24102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Published Q2 FY27 financial results newspaper clippings",
-    "summary": "The bank published newspaper clippings of its unaudited consolidated and standalone financial results for the quarter and half year ended September 30, 2026.",
-    "why_it_matters": "Consolidated profit after tax was 1,241.8 crore against annual revenue of about ₹45,484 crore.",
+    "title": "Newspaper Publication of Financial Results",
+    "summary": "IndusInd Bank published its Q2 FY27 unaudited consolidated and standalone financial results in newspapers.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "results"
@@ -2787,7 +2793,7 @@
    "exchange_label": "Change in Management",
    "headline": "IndusInd Bank Limited has informed the Exchange about changes in Senior Management Personnel of the Bank",
    "category": "management_change",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "independent_director",
    "needs_ai": false,
@@ -2795,12 +2801,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_23102026202833_SEdisclosure_ListofSMP23102026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Updated list of Senior Management Personnel",
-    "summary": "The bank informed the exchange about changes and an updated list of its Senior Management Personnel.",
-    "why_it_matters": null,
+    "title": "Updates to Senior Management Personnel List",
+    "summary": "IndusInd Bank disclosed updates to its Senior Management Personnel across multiple department head positions.",
+    "why_it_matters": "Broad additions to department leadership adjust organizational execution structures across core retail and corporate divisions.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "management_change"
@@ -2811,7 +2817,7 @@
     "ret_pct": 1.138,
     "vol_ratio": 0.928
    },
-   "score": 6.0,
+   "score": 46.0,
    "group_id": "INDUSINDBK:management_change:2026-10-23",
    "group_lead": false,
    "duplicate_of": null
@@ -2958,7 +2964,7 @@
    "exchange_label": "Press Release",
    "headline": "Indusind Bank Limited has informed the Exchange regarding a press release dated October 23, 2026, titled \"INDUSIND BANK LIMITED ANNOUNCES FINANCIAL RESULTS FOR THE QUARTER AND HALF YEAR ENDED SEPTEMBER 30, 2026\".",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -2966,12 +2972,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK4_23102026162409_finaluploadPRsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
    "insight": {
-    "title": "Announced Q2 FY27 financial results and press release",
-    "summary": "The company released its financial results for the quarter and half year ended September 30, 2026, reporting net profit of ₹1,242 crores for Q2 FY27.",
-    "why_it_matters": "Net interest income was ₹4,569 crores compared to ₹4,409 crores in Q2 FY26, supporting a net profit of ₹1,242 crores.",
+    "title": "Results Press Release and Director Appointment",
+    "summary": "IndusInd Bank issued a Q2 FY27 financial results press release and noted the appointment of Ms. Priyanka Sinha as Additional Director.",
+    "why_it_matters": "Net profit reached ₹1,242 crore in Q2 FY27, backed by operating profit expanding 40.4% YoY to ₹2,874.4 crore.",
     "sentiment": "positive",
-    "amount_inr_crore": 1242.0,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "results",
@@ -2983,7 +2989,7 @@
     "ret_pct": 1.138,
     "vol_ratio": 0.928
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "INDUSINDBK:results:2026-10-23",
    "group_lead": false,
    "duplicate_of": null
