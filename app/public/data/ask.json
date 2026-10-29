@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:00+00:00"
+   "asked_at": "2026-10-29T10:34:20+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-29T10:04:00+00:00"
+   "asked_at": "2026-10-29T10:34:20+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,262 +88,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:00+00:00"
-  },
-  "nse:106829089": {
-   "symbol": "NAZARA",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In May 2026 (Q4 FY26), management stated it would accelerate growth in both revenues and EBITDA in FY27. In August 2026 (Q1 FY27), management declined to provide specific financial guidance, but noted Bluetile's consolidation starting Q2 FY27 would add scale. The Q2 FY27 results match this, with revenue growing 52.6% YoY and EBITDA rising 88.8% YoY.",
-   "evidence": [
-    {
-     "quote": "and we will continue to accelerate growth both in revenues and EBITDA in FY '27",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-    },
-    {
-     "quote": "And subject to the final closing, we are expecting to start consolidating this entire business from Q2 FY27",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
-    },
-    {
-     "quote": "At Nazara level, do we want to give any guidance in terms of revenue, EBITDA, or margin? Nitish Mittersain: Not at this point of time",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 14,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
-    }
-   ],
-   "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:01+00:00"
-  },
-  "nse:106823393": {
-   "symbol": "ETERNAL",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "Management did not give specific revenue or margin guidance for Q2 FY27, stating in July 2026 that they had \"no guidance on that.\" They provided broader directional views, expecting food delivery margins to remain flattish over the next 1–2 years (October 2026) and quick commerce long-term Adjusted EBITDA margins to reach 6% (July 2026).",
-   "evidence": [
-    {
-     "quote": "Sorry, Swapnil, we don't want to comment on the quarter right now, no guidance on that",
-     "source": "Q1 FY27 call, Jul 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
-    },
-    {
-     "quote": "Directionally, we want to maintain margins broadly and reinvest in growth as much as it makes sense to continue to drive the growth upwards",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
-    },
-    {
-     "quote": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Jul 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:01+00:00"
-  },
-  "nse:106818661": {
-   "symbol": "PERSISTENT",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In June 2026, management stated that a major $650 million deal would be revenue and margin accretive starting Q2 FY27. They also maintained an aspirational EBIT margin target of 16% to 17%. The 30.3% YoY revenue growth matched growth expectations, but Q2 EBIT margin came in lower at 15% due to wage hikes and deal amortization.",
-   "evidence": [
-    {
-     "quote": "And yes, it will be accretive - revenue & margin from Q2 onwards",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 25,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
-    },
-    {
-     "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 19,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    },
-    {
-     "quote": "EBIT margins for Q2 FY27 came in at 15%, 130 basis points declined year-on-year",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:01+00:00"
-  },
-  "nse:106810133": {
-   "symbol": "ADANIENT",
-   "question": "What has management said about debt, leverage and its credit profile?",
-   "addressed": true,
-   "answer": "In February 2026, management reported gross long-term debt of ~INR 78,000 crores and total external debt of ~INR 62,000 crores. In April 2026, CFO Robbie Singh stated overall leverage stood at 3.9x and is expected to remain flat or decrease slightly, guiding core infrastructure leverage to a 3.5x to 4.5x range while maintaining conservative mining leverage.",
-   "evidence": [
-    {
-     "quote": "the 3.9x is likely to remain either flat or slightly down",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 10,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
-    },
-    {
-     "quote": "we guide to that in the core infra while we are growing, we will be closer to the 3.5 to 4.5 range.",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 9,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
-    },
-    {
-     "quote": "So the external debt of that would be ~INR 62,000 crores",
-     "source": "Q3 FY26 call, Feb 2026",
-     "page": 7,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
-    }
-   ],
-   "calls": [
-    "Q4 FY26 call, Apr 2026",
-    "Q3 FY26 call, Feb 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:01+00:00"
-  },
-  "nse:106805308": {
-   "symbol": "HDFCBANK",
-   "question": "What has management said on recent calls about leadership, succession or this role?",
-   "addressed": true,
-   "answer": "In October 2026 (Q2 FY27), Sashidhar Jagdishan welcomed Anup Bagchi as the incoming MD and CEO as Jagdishan's tenure ended. Bagchi stated he would gather stakeholder insights and present his strategic perspective soon. Management also announced Deputy MD Kaizad Bharucha's early retirement effective December 2026. In July 2026 (Q1 FY27), leadership welcomed new Chairman Rajiv Kumar.",
-   "evidence": [
-    {
-     "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "I'm really grateful to the Board for the trust placed in me as MD and CEO",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Jul 2026"
-   ],
-   "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T10:04:02+00:00"
-  },
-  "nse:106830187": {
-   "symbol": "MARUTI",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": false,
-   "answer": "In the Q4 FY26 call, management did not provide specific revenue or margin targets for Q2 FY27. They declined to give explicit margin guidance due to dynamic cost headwinds and geopolitical uncertainties, but stated they expect Maruti Suzuki's overall sales volume to grow by over 10% in FY27 and return to a healthy margin trajectory once disruptions ease.",
-   "evidence": [
-    {
-     "quote": "The broad expectation, which our Chairman also conveyed, is growth of over 10% this year as compared to the last year",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 8,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    },
-    {
-     "quote": "So it's always difficult to give out a guidance on margins",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 11,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    },
-    {
-     "quote": "So we are very confident and optimistic that subject to these headwinds of the war, the commodities and the energy prices, after that is over, we'll come back to a healthy trajectory",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 11,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    }
-   ],
-   "calls": [
-    "Q4 FY26 call, Apr 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:02+00:00"
-  },
-  "nse:106821168": {
-   "symbol": "HDFCBANK",
-   "question": "What has management said on recent calls about leadership, succession or this role?",
-   "addressed": true,
-   "answer": "In October 2026, outgoing CEO Sashidhar Jagdishan welcomed incoming MD and CEO Anup Bagchi and announced that Deputy Managing Director Kaizad Bharucha requested early retirement effective December 2026. In July 2026, Jagdishan welcomed new Chairman Rajiv Kumar and noted that the Board was actively addressing the process to enhance Whole-Time Directors on the Board.",
-   "evidence": [
-    {
-     "quote": "I'm really grateful to the Board for the trust placed in me as MD and CEO",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Jul 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T10:04:02+00:00"
-  },
-  "nse:106819733": {
-   "symbol": "PERSISTENT",
-   "question": "What has management said about raising money: how much, why, and what it is for?",
-   "addressed": true,
-   "answer": "In the Q2 FY27 call (October 2026), management announced plans to raise USD 1.25 billion in combined debt and equity, including USD 450 million via equity or equity-linked instruments. This long-term financing strategy aims to replace the 18-month Euro 1.4 billion bridge loan—used to acquire Nagarro—with longer tenure capital under favorable terms.",
-   "evidence": [
-    {
-     "quote": "In terms of financing, we intend replacing the Euro 1.4 billion 18-month bridge loan with longer tenure, capital and favorable terms",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    },
-    {
-     "quote": "As a part of this long-term financing strategy, we will be raising USD 1.25 billion in terms of both debt and equity",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    },
-    {
-     "quote": "Out of this, USD 450 million will be raised through equity, qualified institutional placement or equity-linked instruments like FCCB or combination of similar instruments",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T10:04:02+00:00"
+   "asked_at": "2026-10-29T10:34:20+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
@@ -375,7 +120,262 @@
     "Q4 FY26 call, Jun 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T10:04:03+00:00"
+   "asked_at": "2026-10-29T10:34:21+00:00"
+  },
+  "nse:106829089": {
+   "symbol": "NAZARA",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In May 2026 (Q4 FY26), management stated it would accelerate growth in both revenues and EBITDA in FY27. In August 2026 (Q1 FY27), management declined to provide specific financial guidance, but noted Bluetile's consolidation starting Q2 FY27 would add scale. The Q2 FY27 results match this, with revenue growing 52.6% YoY and EBITDA rising 88.8% YoY.",
+   "evidence": [
+    {
+     "quote": "and we will continue to accelerate growth both in revenues and EBITDA in FY '27",
+     "source": "Q4 FY26 call, May 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+    },
+    {
+     "quote": "And subject to the final closing, we are expecting to start consolidating this entire business from Q2 FY27",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
+    },
+    {
+     "quote": "At Nazara level, do we want to give any guidance in terms of revenue, EBITDA, or margin? Nitish Mittersain: Not at this point of time",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, May 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:21+00:00"
+  },
+  "nse:106823393": {
+   "symbol": "ETERNAL",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "Management did not give specific revenue or margin guidance for Q2 FY27, stating in July 2026 that they had \"no guidance on that.\" They provided broader directional views, expecting food delivery margins to remain flattish over the next 1–2 years (October 2026) and quick commerce long-term Adjusted EBITDA margins to reach 6% (July 2026).",
+   "evidence": [
+    {
+     "quote": "Sorry, Swapnil, we don't want to comment on the quarter right now, no guidance on that",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+    },
+    {
+     "quote": "Directionally, we want to maintain margins broadly and reinvest in growth as much as it makes sense to continue to drive the growth upwards",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+    },
+    {
+     "quote": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Oct 2026",
+    "Q1 FY27 call, Jul 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:21+00:00"
+  },
+  "nse:106818661": {
+   "symbol": "PERSISTENT",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In June 2026, management stated that a major $650 million deal would be revenue and margin accretive starting Q2 FY27. They also maintained an aspirational EBIT margin target of 16% to 17%. The 30.3% YoY revenue growth matched growth expectations, but Q2 EBIT margin came in lower at 15% due to wage hikes and deal amortization.",
+   "evidence": [
+    {
+     "quote": "And yes, it will be accretive - revenue & margin from Q2 onwards",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 25,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+    },
+    {
+     "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 19,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
+     "quote": "EBIT margins for Q2 FY27 came in at 15%, 130 basis points declined year-on-year",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Oct 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:21+00:00"
+  },
+  "nse:106810133": {
+   "symbol": "ADANIENT",
+   "question": "What has management said about debt, leverage and its credit profile?",
+   "addressed": true,
+   "answer": "In February 2026, management reported gross long-term debt of ~INR 78,000 crores and total external debt of ~INR 62,000 crores. In April 2026, CFO Robbie Singh stated overall leverage stood at 3.9x and is expected to remain flat or decrease slightly, guiding core infrastructure leverage to a 3.5x to 4.5x range while maintaining conservative mining leverage.",
+   "evidence": [
+    {
+     "quote": "the 3.9x is likely to remain either flat or slightly down",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 10,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+    },
+    {
+     "quote": "we guide to that in the core infra while we are growing, we will be closer to the 3.5 to 4.5 range.",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 9,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
+    },
+    {
+     "quote": "So the external debt of that would be ~INR 62,000 crores",
+     "source": "Q3 FY26 call, Feb 2026",
+     "page": 7,
+     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
+    }
+   ],
+   "calls": [
+    "Q4 FY26 call, Apr 2026",
+    "Q3 FY26 call, Feb 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:21+00:00"
+  },
+  "nse:106805308": {
+   "symbol": "HDFCBANK",
+   "question": "What has management said on recent calls about leadership, succession or this role?",
+   "addressed": true,
+   "answer": "In October 2026 (Q2 FY27), Sashidhar Jagdishan welcomed Anup Bagchi as the incoming MD and CEO as Jagdishan's tenure ended. Bagchi stated he would gather stakeholder insights and present his strategic perspective soon. Management also announced Deputy MD Kaizad Bharucha's early retirement effective December 2026. In July 2026 (Q1 FY27), leadership welcomed new Chairman Rajiv Kumar.",
+   "evidence": [
+    {
+     "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    },
+    {
+     "quote": "I'm really grateful to the Board for the trust placed in me as MD and CEO",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    },
+    {
+     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 17,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Oct 2026",
+    "Q1 FY27 call, Jul 2026"
+   ],
+   "model": "gemini-3.5-flash",
+   "asked_at": "2026-10-29T10:34:22+00:00"
+  },
+  "nse:106834360": {
+   "symbol": "INDIGO",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In July 2026, management guided Q2 FY27 capacity growth to be flattish and PRASK growth to exceed 25% YoY. While reported Q2 FY27 revenue rose 25.9% YoY to ₹23,363.8 crore, aligning with revenue expectations, margins remained severely pressured with a 7.3% EBITDA margin and a ₹1,879.1 crore net loss due to sustained high fuel and operating costs.",
+   "evidence": [
+    {
+     "quote": "As a result, we are expecting a flattish capacity growth in Q2 FY27 compared to the same period last year",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    },
+    {
+     "quote": "In terms of unit passenger revenue or PRASK for Q2FY27, with the current balanced demand￾supply equation and the higher fares holding up, we are expecting growth of more than 25% compared to the same period last year",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    },
+    {
+     "quote": "In closing, the June quarter reflects the strength of the revenue environment and the depth of the demand base, but also the reality of a highly elevated cost",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Jul 2026",
+    "Q4 FY26 call, Jun 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:49+00:00"
+  },
+  "nse:106830187": {
+   "symbol": "MARUTI",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": false,
+   "answer": "In the Q4 FY26 call, management did not provide specific revenue or margin targets for Q2 FY27. They declined to give explicit margin guidance due to dynamic cost headwinds and geopolitical uncertainties, but stated they expect Maruti Suzuki's overall sales volume to grow by over 10% in FY27 and return to a healthy margin trajectory once disruptions ease.",
+   "evidence": [
+    {
+     "quote": "The broad expectation, which our Chairman also conveyed, is growth of over 10% this year as compared to the last year",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 8,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    },
+    {
+     "quote": "So it's always difficult to give out a guidance on margins",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 11,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    },
+    {
+     "quote": "So we are very confident and optimistic that subject to these headwinds of the war, the commodities and the energy prices, after that is over, we'll come back to a healthy trajectory",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 11,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    }
+   ],
+   "calls": [
+    "Q4 FY26 call, Apr 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:49+00:00"
+  },
+  "nse:106821168": {
+   "symbol": "HDFCBANK",
+   "question": "What has management said on recent calls about leadership, succession or this role?",
+   "addressed": true,
+   "answer": "In October 2026, outgoing CEO Sashidhar Jagdishan welcomed incoming MD and CEO Anup Bagchi and announced that Deputy Managing Director Kaizad Bharucha requested early retirement effective December 2026. In July 2026, Jagdishan welcomed new Chairman Rajiv Kumar and noted that the Board was actively addressing the process to enhance Whole-Time Directors on the Board.",
+   "evidence": [
+    {
+     "quote": "I'm really grateful to the Board for the trust placed in me as MD and CEO",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    },
+    {
+     "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    },
+    {
+     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 17,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Oct 2026",
+    "Q1 FY27 call, Jul 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T10:34:50+00:00"
   }
  }
 }

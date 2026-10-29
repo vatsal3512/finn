@@ -1,6 +1,100 @@
 {
  "filings": [
   {
+   "id": "nse:106834360",
+   "symbol": "INDIGO",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T15:53:45+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "InterGlobe Aviation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/Indigo1_29102026155229_Outcome_of_BM_29102026_Final.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDIGO",
+   "insight": {
+    "title": "Consolidated Q2 FY27 Financial Results Submitted",
+    "summary": "Consolidated Q2 FY27 net loss reached ₹1,879.1 crore despite a 25.9% YoY increase in revenue to ₹23,363.8 crore.",
+    "why_it_matters": "EBITDA margin dropped sharply to 7.3% from 14.1% a quarter ago, driving profit after tax down 689.5% QoQ.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "INDIGO",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 23363.8,
+       "previous_quarter": 24584.1,
+       "year_ago": 18555.3,
+       "qoq_pct": -5.0,
+       "yoy_pct": 25.9
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 1710.9,
+       "previous_quarter": 3463.6,
+       "year_ago": 579.5,
+       "qoq_pct": -50.6,
+       "yoy_pct": 195.2
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": -1876.5,
+       "previous_quarter": -238.4,
+       "year_ago": -2481.7,
+       "qoq_pct": -687.1,
+       "yoy_pct": 24.4
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": -1879.1,
+       "previous_quarter": -238.0,
+       "year_ago": -2582.1,
+       "qoq_pct": -689.5,
+       "yoy_pct": 27.2
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      7.3,
+      14.1,
+      3.1
+     ],
+     "source": "filing_text",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/Indigo1_29102026155229_Outcome_of_BM_29102026_Final.pdf"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 125.0,
+   "group_id": "INDIGO:results:2026-10-29",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106834102",
    "symbol": "ASIANPAINT",
    "exchange": "NSE",
@@ -28,8 +122,12 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.762,
+    "vol_ratio": 3.705
+   },
+   "score": 130.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -62,8 +160,12 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.762,
+    "vol_ratio": 3.705
+   },
+   "score": 130.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -96,8 +198,12 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.762,
+    "vol_ratio": 3.705
+   },
+   "score": 130.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -130,8 +236,12 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.762,
+    "vol_ratio": 3.705
+   },
+   "score": 130.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -225,8 +335,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.762,
+    "vol_ratio": 3.705
+   },
+   "score": 130.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": true,
    "duplicate_of": null
@@ -258,7 +372,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 1.232,
+    "vol_ratio": 0.739
+   },
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-10-29",
    "group_lead": true,
@@ -284,8 +402,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.166,
+    "vol_ratio": 1.297
+   },
+   "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-29",
    "group_lead": false,
    "duplicate_of": null
@@ -310,8 +432,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.166,
+    "vol_ratio": 1.297
+   },
+   "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-29",
    "group_lead": true,
    "duplicate_of": null
@@ -343,7 +469,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": -1.321,
+    "vol_ratio": 0.622
+   },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
    "group_lead": true,
@@ -376,7 +506,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.812,
+    "vol_ratio": 1.352
+   },
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
    "group_lead": true,
@@ -402,7 +536,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 2.168,
+    "vol_ratio": 0.275
+   },
    "score": 0.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
    "group_lead": true,
@@ -428,8 +566,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.166,
+    "vol_ratio": 1.297
+   },
+   "score": 15.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -454,7 +596,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 1.232,
+    "vol_ratio": 0.739
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
    "group_lead": true,
@@ -480,8 +626,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.166,
+    "vol_ratio": 1.297
+   },
+   "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -506,10 +656,14 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.166,
+    "vol_ratio": 1.297
+   },
+   "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -532,7 +686,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.846,
+    "vol_ratio": 0.616
+   },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
    "group_lead": true,
@@ -558,7 +716,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 1.35,
+    "vol_ratio": 1.056
+   },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
    "group_lead": true,
@@ -593,8 +755,12 @@
     "credit_rating"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.166,
+    "vol_ratio": 1.297
+   },
+   "score": 75.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -619,7 +785,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 1.726,
+    "vol_ratio": 1.278
+   },
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
    "group_lead": true,
@@ -774,7 +944,7 @@
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
