@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:14+00:00"
+   "asked_at": "2026-10-29T22:39:26+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-29T22:09:15+00:00"
+   "asked_at": "2026-10-29T22:39:26+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,7 +88,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:15+00:00"
+   "asked_at": "2026-10-29T22:39:26+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
@@ -114,7 +114,7 @@
     "Q4 FY26 call, Jun 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:15+00:00"
+   "asked_at": "2026-10-29T22:39:26+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -146,7 +146,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:15+00:00"
+   "asked_at": "2026-10-29T22:39:27+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -178,7 +178,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:15+00:00"
+   "asked_at": "2026-10-29T22:39:27+00:00"
   },
   "nse:106818661": {
    "symbol": "PERSISTENT",
@@ -210,7 +210,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:15+00:00"
+   "asked_at": "2026-10-29T22:39:27+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -242,7 +242,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:16+00:00"
+   "asked_at": "2026-10-29T22:39:28+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
@@ -274,7 +274,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T22:09:16+00:00"
+   "asked_at": "2026-10-29T22:39:28+00:00"
   },
   "nse:106834360": {
    "symbol": "INDIGO",
@@ -294,7 +294,7 @@
     "Q3 FY26 call, Jan 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:16+00:00"
+   "asked_at": "2026-10-29T22:39:28+00:00"
   },
   "nse:106830187": {
    "symbol": "MARUTI",
@@ -325,7 +325,7 @@
     "Q4 FY26 call, Apr 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:16+00:00"
+   "asked_at": "2026-10-29T22:39:29+00:00"
   },
   "nse:106821168": {
    "symbol": "HDFCBANK",
@@ -357,7 +357,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T22:09:16+00:00"
+   "asked_at": "2026-10-29T22:39:29+00:00"
   }
  }
 }
