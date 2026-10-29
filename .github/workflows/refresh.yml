@@ -94,7 +94,20 @@ jobs:
         env:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
-        run: uv run python -m finn.research --update 2
+        run: |
+          out=$(uv run python -m finn.research --update 2)
+          echo "$out"
+          { echo "### Research reports"; echo '```json'; echo "$out" | tail -1; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Refresh NSE's list of listed companies, once a day
+        # The search box suggests from this list. New listings join it daily; a symbol
+        # not yet in it can still be researched by typing it.
+        continue-on-error: true
+        run: |
+          stamp=../data/symbols-fetched
+          if [ ! -f "$stamp" ] || [ -n "$(find "$stamp" -mmin +1440)" ]; then
+            uv run python -m finn.collectors.symbols && touch "$stamp"
+          fi
 
       - name: Report which sources worked from the cloud
         if: always()

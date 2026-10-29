@@ -37,9 +37,10 @@ export function SearchBox() {
   function submit() {
     if (exact) return go(exact[0]);
     if (matches.length) return go(matches[0][0]);
-    // The list may lag a new listing, so a well-formed symbol is still tried.
+    // The list may lag a new listing, so a well-formed symbol is still tried; for one that is
+    // not on NSE, such as JPM, the server says so plainly.
     const raw = query.toUpperCase().replace(/\.NS$/, "");
-    if (SYMBOL.test(raw) && list === null) go(raw);
+    if (SYMBOL.test(raw)) go(raw);
   }
 
   return (
