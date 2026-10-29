@@ -160,3 +160,32 @@ def test_a_holding_whose_newest_call_is_old_is_checked_on_nse_too(monkeypatch):
     asked.clear()
     update._filed(conn, recent)
     assert not asked  # a recent call: Push's own filings are enough
+
+
+def test_a_report_short_of_calls_takes_one_it_lacks():
+    # Reliance read three calls; NSE has a fourth, older than the newest.
+    r = _report(
+        "RELIANCE",
+        calls=(
+            "Q1 FY27 call, 17 Jul 2026",
+            "Q4 FY26 call, 24 Apr 2026",
+            "Q2 FY26 call, 17 Oct 2025",
+        ),
+    )
+    own = Filed(
+        "nse:1", "2026-04-28T18:00:00+05:30", "Transcript", "earnings_call"
+    )  # April's own transcript
+    assert reason(r, [own], NOW) is None
+    missing = Filed(
+        "nse:2", "2026-01-20T18:00:00+05:30", "Transcript", "earnings_call"
+    )  # January's call
+    assert reason(r, [own, missing], NOW) == (
+        "transcript:nse:2",
+        "A call transcript filed on 20 Jan 2026 is not in this report.",
+    )
+    full = _report(
+        "RELIANCE", calls=("a, 17 Jul 2026", "b, 24 Apr 2026", "c, 16 Jan 2026", "d, 17 Oct 2025")
+    )
+    assert (
+        reason(full, [Filed("nse:3", "2025-07-20T18:00:00+05:30", "Transcript")], NOW) is None
+    )  # older than four

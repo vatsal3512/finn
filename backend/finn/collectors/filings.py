@@ -22,7 +22,7 @@ from datetime import date, datetime, timedelta
 from finn import net, rules
 from finn.config import DATA_DIR, DOCS_DIR, FILINGS_LOOKBACK_DAYS, Company
 from finn.pdftext import extract_any, save_text
-from finn.store import now_iso, upsert
+from finn.store import now_iso, today_ist, upsert
 
 log = logging.getLogger(__name__)
 
@@ -113,7 +113,7 @@ def fetch_bse(company: Company, bse_code: str, start: date, end: date) -> list[d
 
 def fetch_window(conn: sqlite3.Connection, company: Company, days: int) -> tuple[list[dict], str]:
     """Filings for one company, from NSE or, if NSE fails, from BSE."""
-    end = date.today()
+    end = today_ist()
     start = end - timedelta(days=days)
     try:
         return fetch_nse(company, start, end), "NSE"

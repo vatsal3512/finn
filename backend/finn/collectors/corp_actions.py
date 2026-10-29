@@ -10,11 +10,11 @@ from __future__ import annotations
 import logging
 import re
 import sqlite3
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 
 from finn import net
 from finn.config import CORP_ACTION_LOOKBACK_DAYS, Company
-from finn.store import now_iso, upsert
+from finn.store import now_iso, today_ist, upsert
 
 log = logging.getLogger(__name__)
 
@@ -51,7 +51,7 @@ def _iso(d: str) -> str | None:
 
 
 def fetch(company: Company, days: int = CORP_ACTION_LOOKBACK_DAYS) -> list[dict]:
-    end = date.today()
+    end = today_ist()
     start = end - timedelta(days=days)
     params = {
         "index": "equities",

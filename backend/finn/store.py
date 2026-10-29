@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 import sqlite3
 from collections.abc import Iterable, Mapping
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -220,8 +220,17 @@ CREATE TABLE IF NOT EXISTS filing_signals (
 MIGRATIONS = (("filing_insights", "events", "TEXT"),)
 
 
+IST = timezone(timedelta(hours=5, minutes=30))
+
+
 def now_iso() -> str:
     return datetime.now(UTC).isoformat(timespec="seconds")
+
+
+def today_ist() -> date:
+    """India's date. The servers run on UTC, which is still yesterday until 05:30 IST: an
+    exchange asked for filings "up to today" then misses the night's."""
+    return datetime.now(IST).date()
 
 
 def connect(path: Path = DB_PATH) -> sqlite3.Connection:

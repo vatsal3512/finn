@@ -21,10 +21,10 @@ from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 from finn.collectors import filings
-from finn.config import BY_SYMBOL, DATA_DIR, PORTFOLIO
+from finn.config import BY_SYMBOL, DATA_DIR, PORTFOLIO, TRANSCRIPTS_PER_COMPANY
 from finn.contracts import ResearchReport
 from finn.research.engine import research
-from finn.store import now_iso
+from finn.store import now_iso, today_ist
 
 log = logging.getLogger(__name__)
 
@@ -58,30 +58,43 @@ class Filed:
     category: str | None = None
 
 
-def newest_call(r: ResearchReport) -> date | None:
-    """The date of the newest call a report read, from its label: "Q2 FY27 call, 21 Oct 2026"."""
+def call_dates(r: ResearchReport) -> list[date]:
+    """The dates of the calls a report read, newest first, from labels such as
+    "Q2 FY27 call, 21 Oct 2026" (or "Investor call, Aug 2026": the middle of the month)."""
+    out = []
     for d in r.documents:
         if d.kind != "transcript":
             continue
         if m := re.search(r"(\d{1,2} \w{3} \d{4})", d.label):
-            return datetime.strptime(m.group(1), "%d %b %Y").date()
-        if m := re.search(r"(\w{3} \d{4})", d.label):
-            return datetime.strptime(f"15 {m.group(1)}", "%d %b %Y").date()
-    return None
+            out.append(datetime.strptime(m.group(1), "%d %b %Y").date())
+        elif m := re.search(r"(\w{3} \d{4})", d.label):
+            out.append(datetime.strptime(f"15 {m.group(1)}", "%d %b %Y").date())
+    return sorted(out, reverse=True)
+
+
+def newest_call(r: ResearchReport) -> date | None:
+    return next(iter(call_dates(r)), None)
 
 
 def reason(r: ResearchReport, filed: list[Filed], now: datetime) -> tuple[str, str] | None:
     """Why a report is behind, as (key, sentence), or None. The key names the filing, so a
     rebuild is not repeated for the same one."""
-    called = newest_call(r)
+    calls = call_dates(r)
     built = datetime.fromisoformat(r.generated_at)
     for f in sorted(filed, key=lambda f: f.filed_at, reverse=True):
         at = datetime.fromisoformat(f.filed_at)
         day = f"{at.day} {at:%b %Y}"
-        if "transcript" in f.text.lower() and (
-            called is None or at.date() > called + timedelta(days=SAME_CALL_DAYS)
-        ):
-            return f"transcript:{f.id}", f"A new call transcript was filed on {day}."
+        if "transcript" in f.text.lower():
+            if not calls or at.date() > calls[0] + timedelta(days=SAME_CALL_DAYS):
+                return f"transcript:{f.id}", f"A new call transcript was filed on {day}."
+            of_a_read_call = any(
+                c <= at.date() <= c + timedelta(days=SAME_CALL_DAYS) for c in calls
+            )
+            if len(calls) < TRANSCRIPTS_PER_COMPANY and not of_a_read_call:
+                return (
+                    f"transcript:{f.id}",
+                    f"A call transcript filed on {day} is not in this report.",
+                )
         is_results = f.category == "results" or (
             f.category is None and _RESULTS.search(f.text) and not _NOT_YET.search(f.text)
         )
@@ -121,7 +134,7 @@ def _filed(conn: sqlite3.Connection, r: ResearchReport) -> list[Filed] | None:
     """Recent filings: Push's own for a holding; NSE's for a research pick, or for a report
     whose newest call is so old that a newer one should exist (screener.in missed Maruti's
     July 2026 call). NSE is asked at most every six hours; None means not asked this time."""
-    today = date.today()
+    today = today_ist()
     called = newest_call(r)
     out: list[Filed] = []
     if r.symbol in HOLDINGS:
@@ -132,7 +145,7 @@ def _filed(conn: sqlite3.Connection, r: ResearchReport) -> list[Filed] | None:
         )
         out = [Filed(x["id"], x["filed_at"], f"{x['exchange_label']} {x['headline']} {x['attachment_url']}",
                      x["category"] or "") for x in rows]  # fmt: skip
-        if called and today - called < STALE_CALL:
+        if called and today - called < STALE_CALL and r.stats.calls_read >= TRANSCRIPTS_PER_COMPANY:
             return out
     key = f"update_nse_checked:{r.symbol}"
     last = conn.execute("SELECT value FROM meta WHERE key = ?", (key,)).fetchone()
@@ -140,10 +153,9 @@ def _filed(conn: sqlite3.Connection, r: ResearchReport) -> list[Filed] | None:
         return out if r.symbol in HOLDINGS else None
     conn.execute("INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)", (key, now_iso()))
     conn.commit()
-    since = max(
-        today - timedelta(days=NSE_MAX_DAYS),
-        min(called or today, today - timedelta(days=LOOKBACK_DAYS)),
-    )
+    since = today - timedelta(days=NSE_MAX_DAYS)  # a report short of calls: look back a year
+    if called and r.stats.calls_read >= TRANSCRIPTS_PER_COMPANY:
+        since = max(since, min(called, today - timedelta(days=LOOKBACK_DAYS)))
     try:
         items = filings.fetch_nse(BY_SYMBOL[r.symbol], since, today)
     except Exception as exc:  # noqa: BLE001 - try again on a later run

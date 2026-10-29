@@ -19,7 +19,7 @@ from finn.collectors import filings, fundamentals
 from finn.config import DATA_DIR, TRANSCRIPTS_PER_COMPANY
 from finn.pdftext import load_pages
 from finn.research.quotes import Document
-from finn.store import now_iso
+from finn.store import now_iso, today_ist
 
 log = logging.getLogger(__name__)
 
@@ -101,7 +101,7 @@ def _calls_from_nse(conn: sqlite3.Connection, company, force: bool = False) -> l
     """Download the calls screener.in has not listed. Returns their periods. force is for a
     rebuild asked for because a new transcript was seen, or by the reader."""
     have = [r["period"] for r in _readable(conn, company.symbol)]
-    today = date.today()
+    today = today_ist()
     key = f"nse_transcripts_checked:{company.symbol}"
     last = conn.execute("SELECT value FROM meta WHERE key = ?", (key,)).fetchone()
     if not force and (

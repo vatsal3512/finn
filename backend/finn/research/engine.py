@@ -17,7 +17,7 @@ import logging
 import re
 import time
 from collections.abc import Iterator
-from datetime import date, datetime
+from datetime import datetime
 from pathlib import Path
 
 from finn.ai.llm import LLM, AIUnavailable, Tier
@@ -36,7 +36,7 @@ from finn.research import judge, periods
 from finn.research.extract import Call, read_calls
 from finn.research.gather import Sources, ar_excerpts, gather
 from finn.research.score import Actuals, Draft, deadline_passed, drafts, target_text
-from finn.store import connect, now_iso
+from finn.store import connect, now_iso, today_ist
 
 log = logging.getLogger(__name__)
 
@@ -126,7 +126,7 @@ def _rs(v: float | None) -> str:
 
 def _judge_prompt(src: Sources, ledger: Ledger, ds: list[Draft], excerpts) -> str:
     lines = [f"Company: {src.name}" + (f" ({src.sector})" if src.sector else ""),
-             f"Today: {date.today():%d %B %Y}", ""]  # fmt: skip
+             f"Today: {today_ist():%d %B %Y}", ""]  # fmt: skip
     s = ledger.snapshot
     if s.latest_quarter:
         lines.append(f"Latest quarter {s.latest_quarter} (screener.in): revenue {_rs(s.revenue)} crore"
@@ -162,9 +162,16 @@ _RUPEES = (
     (re.compile(r"\b(?:INR|Rs\.?) ?([\d,.]+) ?crores?\b", re.I), r"₹\1 crore"),
     (re.compile(r"\bnegative ₹([\d,.]+)"), r"−₹\1"),
     # A range, not a minus: "7,500-8,000 crore" and the older "7,500-₹8,000 crore".
-    (re.compile(r"(?:\b(?:INR|Rs\.?) ?|₹)?(?<![\d,.])(\d[\d,.]*) ?[-–] ?₹?(\d[\d,.]*) crores?\b", re.I),
-     r"₹\1–\2 crore"),
-    (re.compile(r"₹ ?[-−] ?₹?([\d,.]+)|(?<![\d,.])[-−]₹([\d,.]+)"), lambda m: f"−₹{m[1] or m[2]}"),  # "₹-336"
+    (
+        re.compile(
+            r"(?:\b(?:INR|Rs\.?) ?|₹)?(?<![\d,.])(\d[\d,.]*) ?[-–] ?₹?(\d[\d,.]*) crores?\b", re.I
+        ),
+        r"₹\1–\2 crore",
+    ),
+    (
+        re.compile(r"₹ ?[-−] ?₹?([\d,.]+)|(?<![\d,.])[-−]₹([\d,.]+)"),
+        lambda m: f"−₹{m[1] or m[2]}",
+    ),  # "₹-336"
     (re.compile(r"(?<![₹\d,.\-−–])(\d[\d,.]*) crores?\b"), r"₹\1 crore"),  # "14,553 crore"
 )
 

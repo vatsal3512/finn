@@ -15,19 +15,18 @@ from __future__ import annotations
 
 import logging
 import sqlite3
-from datetime import UTC, date, datetime, time, timedelta, timezone
+from datetime import UTC, date, datetime, time, timedelta
 
 import pandas as pd
 import yfinance as yf
 
 from finn.collectors.corp_actions import price_breaks
 from finn.config import PRICE_HISTORY_DAYS, VOLUME_BASELINE_SESSIONS, Company
-from finn.store import now_iso, upsert
+from finn.store import IST, now_iso, upsert
 
 log = logging.getLogger(__name__)
 
 SOURCE = "https://finance.yahoo.com/quote/{ticker}/history"
-IST = timezone(timedelta(hours=5, minutes=30))
 SETTLED = time(16, 0)  # NSE closes at 15:30; Yahoo's daily bar is final a little after
 
 
