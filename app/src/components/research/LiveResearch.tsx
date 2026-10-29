@@ -31,7 +31,8 @@ export function LiveResearch({ symbol }: { symbol: string }) {
   const [report, setReport] = useState<ResearchReport | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [notFound, setNotFound] = useState(false);
-  const [started] = useState(() => Date.now());
+  const [attempt, setAttempt] = useState(0);
+  const [started, setStarted] = useState(() => Date.now());
   const [elapsed, setElapsed] = useState(0);
 
   useEffect(() => {
@@ -44,10 +45,11 @@ export function LiveResearch({ symbol }: { symbol: string }) {
     (async () => {
       try {
         const r = await fetch(`/api/research/${encodeURIComponent(symbol)}`, { signal: ctrl.signal });
-        if (!r.ok || !r.body) throw new Error(r.status === 422 ? "That is not an NSE symbol." : `FINN's server answered ${r.status}.`);
+        if (!r.ok || !r.body) throw new Error(r.status === 422 ? "That is not an NSE symbol." : "FINN's server could not start this research just now.");
         const reader = r.body.getReader();
         const dec = new TextDecoder();
         let buf = "";
+        let ended = false;
         for (;;) {
           const { done, value } = await reader.read();
           if (done) break;
@@ -59,6 +61,7 @@ export function LiveResearch({ symbol }: { symbol: string }) {
             if (!line) continue;
             const ev = JSON.parse(line) as Event;
             setEvents((e) => [...e, ev]);
+            if (ev.stage === "done" || ev.stage === "error") ended = true;
             if (ev.stage === "done" && ev.report) setReport(ev.report);
             if (ev.stage === "error") {
               setError(ev.message);
@@ -66,12 +69,21 @@ export function LiveResearch({ symbol }: { symbol: string }) {
             }
           }
         }
+        // A stream can be cut, for instance while a new version of the server goes live.
+        if (!ended) throw new Error("The connection to FINN's server dropped before the report was finished.");
       } catch (e) {
         if (!ctrl.signal.aborted) setError(e instanceof Error ? e.message : "Could not reach FINN's server.");
       }
     })();
     return () => ctrl.abort();
-  }, [symbol]);
+  }, [symbol, attempt]);
+
+  function retry() {
+    setEvents([]);
+    setError(null);
+    setStarted(Date.now());
+    setAttempt((a) => a + 1);
+  }
 
   if (report) return <ReportView r={report} />;
   // A step is done when the event that completes it arrives, not when it starts.
@@ -111,7 +123,12 @@ export function LiveResearch({ symbol }: { symbol: string }) {
         })}
       </ol>
       {last && !error && <p className="num mt-4 text-[12px] text-faint">{last.message} · {elapsed}s</p>}
-      {error && <p className="mt-4 rounded-md bg-down-soft px-3 py-2 text-[13px] text-down">{error}</p>}
+      {error && (
+        <div className="mt-4 rounded-md bg-down-soft px-3 py-2 text-[13px] text-down">
+          <p>{error}</p>
+          <button onClick={retry} className="mt-1.5 font-semibold underline underline-offset-2">Try again</button>
+        </div>
+      )}
       </>
       )}
       {notFound && (

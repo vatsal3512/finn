@@ -53,17 +53,31 @@ function AskLive({ filing }: { filing: Filing }) {
   async function ask() {
     setOpen((o) => !o);
     if (s.status !== "idle") return;
+    await load();
+  }
+
+  async function load() {
     setS({ status: "loading" });
-    try {
-      const r = await fetch("/api/ask", {
+    const post = () =>
+      fetch("/api/ask", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ symbol: filing.symbol, question: questionFor(filing), context: contextFor(filing) }),
       });
-      if (!r.ok) throw new Error(((await r.json().catch(() => ({}))) as { detail?: string }).detail ?? `HTTP ${r.status}`);
+    try {
+      // One quiet retry: a request can fail while a new version of the server goes live.
+      let r = await post().catch(() => null);
+      if (!r || r.status >= 500) {
+        await new Promise((res) => setTimeout(res, 2000));
+        r = await post();
+      }
+      if (!r.ok) {
+        const detail = ((await r.json().catch(() => ({}))) as { detail?: unknown }).detail;
+        throw new Error(typeof detail === "string" ? detail : "FINN's server could not answer just now.");
+      }
       setS({ status: "done", answer: (await r.json()) as AskAnswer });
     } catch (e) {
-      setS({ status: "error", error: e instanceof Error ? e.message : "Could not reach FINN's server." });
+      setS({ status: "error", error: e instanceof Error && !(e instanceof TypeError) ? e.message : "Could not reach FINN's server." });
     }
   }
 
@@ -83,7 +97,12 @@ function AskLive({ filing }: { filing: Filing }) {
       {open && (
         <div className="fade-in mt-2 space-y-2 border-l-2 border-accent pl-3">
           {s.status === "loading" && <p className="text-[13px] text-muted">Reading the last two earnings calls…</p>}
-          {s.status === "error" && <p className="text-[13px] text-down">{s.error}</p>}
+          {s.status === "error" && (
+            <p className="text-[13px] text-down">
+              {s.error}{" "}
+              <button onClick={load} className="font-semibold underline underline-offset-2">Try again</button>
+            </p>
+          )}
           {s.status === "done" && s.answer && (
             <>
               <p className="text-[14px] leading-snug">{s.answer.answer}</p>
