@@ -23,7 +23,10 @@ export default async function PortfolioPage() {
         Math.abs(h.ret_pct ?? 0) / meta.alert_defaults.price_move_pct +
         (h.vol_ratio ?? 0) / meta.alert_defaults.volume_multiple +
         (mustSee[h.symbol] ?? 0) * 0.5;
-      return { h, closes, month, attention };
+      // If one company's prices stopped arriving, its row says so rather than pass as today's.
+      const last = h.series[h.series.length - 1]?.date;
+      const behind = last && meta.latest_session && last < meta.latest_session ? last : null;
+      return { h, closes, month, attention, behind };
     })
     .sort((a, b) => b.attention - a.attention);
 
@@ -45,7 +48,7 @@ export default async function PortfolioPage() {
         <span className="w-[52px] text-right">Volume<br />month</span>
       </div>
       <ul className="mx-3 rounded-xl border border-line bg-surface">
-        {rows.map(({ h, closes, month }) => (
+        {rows.map(({ h, closes, month, behind }) => (
           <li key={h.symbol} className="border-t border-line first:border-t-0">
             <Link href={`/research/${h.symbol}`} className="flex items-center gap-3 px-4 py-2.5">
               <div className="min-w-0 flex-1">
@@ -65,6 +68,7 @@ export default async function PortfolioPage() {
               <div className="w-[76px] text-right">
                 <p className="num text-[13px]">{plain(h.close, 1)}</p>
                 <p className="text-[12px]"><Move value={h.ret_pct} /></p>
+                {behind && <p className="text-[10px] text-warn">as of {sessionDay(behind)}</p>}
               </div>
               <div className="w-[52px] text-right text-[12px]">
                 <p className={(h.vol_ratio ?? 0) >= meta.alert_defaults.volume_multiple ? "num font-semibold" : "num text-muted"}>
