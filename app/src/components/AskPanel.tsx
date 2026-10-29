@@ -6,6 +6,8 @@ import { pageLink } from "@/lib/format";
 import { contextFor, questionFor } from "@/lib/questions";
 import { cx } from "./ui";
 
+class ServerSaid extends Error {}
+
 type State = { status: "idle" | "loading" | "done" | "error"; answer?: AskAnswer; error?: string };
 
 /**
@@ -58,26 +60,28 @@ function AskLive({ filing }: { filing: Filing }) {
 
   async function load() {
     setS({ status: "loading" });
-    const post = () =>
+    const post = (timeoutMs?: number) =>
       fetch("/api/ask", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ symbol: filing.symbol, question: questionFor(filing), context: contextFor(filing) }),
+        signal: timeoutMs ? AbortSignal.timeout(timeoutMs) : undefined,
       });
     try {
-      // One quiet retry: a request can fail while a new version of the server goes live.
-      let r = await post().catch(() => null);
+      // One quiet retry: while a new version of the server goes live, a request can fail or
+      // hang. An answer normally takes 1 to 20 seconds.
+      let r = await post(40_000).catch(() => null);
       if (!r || r.status >= 500) {
         await new Promise((res) => setTimeout(res, 2000));
         r = await post();
       }
       if (!r.ok) {
         const detail = ((await r.json().catch(() => ({}))) as { detail?: unknown }).detail;
-        throw new Error(typeof detail === "string" ? detail : "FINN's server could not answer just now.");
+        throw new ServerSaid(typeof detail === "string" ? detail : "FINN's server could not answer just now.");
       }
       setS({ status: "done", answer: (await r.json()) as AskAnswer });
     } catch (e) {
-      setS({ status: "error", error: e instanceof Error && !(e instanceof TypeError) ? e.message : "Could not reach FINN's server." });
+      setS({ status: "error", error: e instanceof ServerSaid ? e.message : "Could not reach FINN's server." });
     }
   }
 
