@@ -1,6 +1,80 @@
 {
  "filings": [
   {
+   "id": "nse:106833712",
+   "symbol": "MARUTI",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T10:50:48+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Maruti Suzuki, India s No. 1 Electric Vehicle exporter, crosses EV exports of 50,000 units\".",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_29102026104658_StxIntimation_EVExports.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
+   "insight": {
+    "title": "Crosses 50,000 EV Export Milestone",
+    "summary": "Maruti Suzuki announced that cumulative EV exports have crossed 50,000 units since shipments began in August 2025.",
+    "why_it_matters": "The company accounts for nearly 93% of India's EV exports in the passenger vehicle category during April-September 2026.",
+    "sentiment": "positive",
+    "amount_inr_crore": 25288.7,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.507,
+    "vol_ratio": 0.227
+   },
+   "score": 40.0,
+   "group_id": "MARUTI:press_release:2026-10-29",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106833561",
+   "symbol": "RELIANCE",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T08:55:40+05:30",
+   "exchange_label": "Other Restructuring",
+   "headline": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited",
+   "category": "press_release",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_29102026084603_SE_29102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
+   "insight": {
+    "title": "Voluntary Strike Off of Hamleys Step-Down Subsidiary",
+    "summary": "The Registrar of Companies, United Kingdom published a notice for the voluntary strike off and dissolution of step-down subsidiary Hamleys (Franchising) Limited.",
+    "why_it_matters": "The dissolved subsidiary had a turnover of Rs. 56.08 crore in calendar year 2025, contributing just 0.0048% to consolidated turnover.",
+    "sentiment": "neutral",
+    "amount_inr_crore": 56.08,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 1.503,
+    "vol_ratio": 0.377
+   },
+   "score": 0.0,
+   "group_id": "RELIANCE:press_release:2026-10-29",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106833182",
    "symbol": "EMUDHRA",
    "exchange": "NSE",
@@ -20,8 +94,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.113,
+    "vol_ratio": 0.165
+   },
+   "score": 15.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
    "group_lead": true,
    "duplicate_of": null
@@ -46,7 +124,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 3.214,
+    "vol_ratio": 0.493
+   },
    "score": 0.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
@@ -72,7 +154,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.708,
+    "vol_ratio": 0.199
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
    "group_lead": true,
@@ -98,7 +184,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 3.214,
+    "vol_ratio": 0.493
+   },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
    "group_lead": false,
@@ -124,7 +214,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 3.214,
+    "vol_ratio": 0.493
+   },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
    "group_lead": false,
@@ -150,7 +244,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 1.888,
+    "vol_ratio": 0.204
+   },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
    "group_lead": true,
@@ -176,7 +274,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.863,
+    "vol_ratio": 0.219
+   },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
    "group_lead": true,
@@ -211,7 +313,11 @@
     "credit_rating"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 3.214,
+    "vol_ratio": 0.493
+   },
    "score": 120.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
@@ -237,7 +343,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.358,
+    "vol_ratio": 0.573
+   },
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
    "group_lead": true,
@@ -475,8 +585,8 @@
       15.6
      ],
      "source": "xbrl",
-     "verified": null,
-     "check_note": "screener.in has no figures for this quarter yet.",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 166.3,
      "source_urls": [
       "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748357_28102026103427_WEB.xml",
@@ -555,7 +665,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -0.492,
-    "vol_ratio": 0.566
+    "vol_ratio": 0.567
    },
    "score": 108.0,
    "group_id": "POLYCAB:litigation:2026-10-28",
@@ -585,7 +695,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": 1.867,
-    "vol_ratio": 0.945
+    "vol_ratio": 0.946
    },
    "score": 0.0,
    "group_id": "PAYTM:results:2026-10-28",
@@ -622,7 +732,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -3.193,
-    "vol_ratio": 1.463
+    "vol_ratio": 1.464
    },
    "score": 110.0,
    "group_id": "RELIANCE:fund_raise:2026-10-27",
@@ -720,7 +830,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -3.193,
-    "vol_ratio": 1.463
+    "vol_ratio": 1.464
    },
    "score": 0.0,
    "group_id": "RELIANCE:results:2026-10-27",
@@ -750,7 +860,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -0.492,
-    "vol_ratio": 0.566
+    "vol_ratio": 0.567
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-27",
@@ -787,7 +897,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -1.209,
-    "vol_ratio": 3.211
+    "vol_ratio": 3.212
    },
    "score": 50.0,
    "group_id": "MAZDOCK:dividend:2026-10-27",
@@ -817,7 +927,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -0.492,
-    "vol_ratio": 0.566
+    "vol_ratio": 0.567
    },
    "score": 0.0,
    "group_id": "POLYCAB:unclassified:2026-10-27",
@@ -855,7 +965,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -1.209,
-    "vol_ratio": 3.211
+    "vol_ratio": 3.212
    },
    "score": 70.0,
    "group_id": "MAZDOCK:results:2026-10-27",
@@ -892,7 +1002,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -1.209,
-    "vol_ratio": 3.211
+    "vol_ratio": 3.212
    },
    "score": 50.0,
    "group_id": "MAZDOCK:dividend:2026-10-27",
@@ -952,7 +1062,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": 1.867,
-    "vol_ratio": 0.945
+    "vol_ratio": 0.946
    },
    "score": 0.0,
    "group_id": "PAYTM:unclassified:2026-10-27",
@@ -982,7 +1092,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": 1.867,
-    "vol_ratio": 0.945
+    "vol_ratio": 0.946
    },
    "score": 0.0,
    "group_id": "PAYTM:unclassified:2026-10-27",
@@ -1012,7 +1122,7 @@
    "price_reaction": {
     "session": "2026-10-28",
     "ret_pct": -0.324,
-    "vol_ratio": 0.446
+    "vol_ratio": 0.448
    },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-10-27",
@@ -9810,555 +9920,6 @@
    },
    "score": 23.0,
    "group_id": "ADANIENT:litigation:2026-09-29",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106799237",
-   "symbol": "OLAELEC",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T23:39:15+05:30",
-   "exchange_label": "General Updates",
-   "headline": "Ola Electric Mobility Limited has informed the Exchange about General Updates",
-   "category": "fund_raise",
-   "tier": "routine",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026233852_Intimationforconstitutionofrightsissuecommittee.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
-   "insight": {
-    "title": "Board approves rights issue committee",
-    "summary": "The board approved the constitution of a rights issue committee chaired by Chairman Bhavish Aggarwal to oversee a forthcoming rights issue.",
-    "why_it_matters": "The committee formation signals intent to raise capital, which could affect share dilution.",
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "fund_raise"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.162,
-    "vol_ratio": 1.145
-   },
-   "score": 10.0,
-   "group_id": "OLAELEC:fund_raise:2026-09-28",
-   "group_lead": false,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798950",
-   "symbol": "SUNPHARMA",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T20:09:05+05:30",
-   "exchange_label": "Updates",
-   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding 'Completion and Result of Postal Ballot dated 25 August 2026'.",
-   "category": "postal_ballot",
-   "tier": "routine",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026200828_SEIntimationforVR.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
-   "insight": {
-    "title": "Completed Postal Ballot results approved by shareholders",
-    "summary": "The postal ballot notice dated 25 August 2026 was completed on 26 September 2026, with the resolution approved by the requisite majority.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
-   },
-   "events": [
-    "postal_ballot"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": 1.469,
-    "vol_ratio": 1.976
-   },
-   "score": 0.0,
-   "group_id": "SUNPHARMA:postal_ballot:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798922",
-   "symbol": "OLAELEC",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:56:48+05:30",
-   "exchange_label": "Issue of Securities",
-   "headline": "Ola Electric Mobility Limited has informed the Exchange about issue of equity shares on rights basis",
-   "category": "fund_raise",
-   "tier": "must_see",
-   "classified_by": "ai",
-   "rule": "equity_raise",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026195546_SEintimationOutcomeofBMRightsIssue.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
-   "insight": {
-    "title": "Board approves ₹1,000 crore rights issue",
-    "summary": "Ola Electric's board approved a rights issue of up to ₹1,000 crore to raise equity capital.",
-    "why_it_matters": "Amount equals about 53% of its ₹1,880 crore revenue, a sizable dilution.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 1000.0,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "fund_raise"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.162,
-    "vol_ratio": 1.145
-   },
-   "score": 110.0,
-   "group_id": "OLAELEC:fund_raise:2026-09-28",
-   "group_lead": false,
-   "duplicate_of": "nse:106798900"
-  },
-  {
-   "id": "nse:106798916",
-   "symbol": "OLAELEC",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:52:25+05:30",
-   "exchange_label": "Appointment",
-   "headline": "Ola Electric Mobility Limited has informed the Exchange regarding Appointment of Ms. Deepa Bansal as Company Secretary & Compliance Officer of the company w.e.f. September 28, 2026.",
-   "category": "management_change",
-   "tier": "glance",
-   "classified_by": "ai",
-   "rule": "management",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026195126_SEIntimationAppointmentofCompanySecretaryandComplianceOfficer.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
-   "insight": {
-    "title": "Appointment of new Company Secretary",
-    "summary": "Ola Electric appointed Ms. Deepa Bansal as Company Secretary and Compliance Officer effective 28 September 2026.",
-    "why_it_matters": "Bansal previously held CS roles at Kothari Petrochemicals, Tessolve, and Medi Assist.",
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "management_change"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.162,
-    "vol_ratio": 1.145
-   },
-   "score": 46.0,
-   "group_id": "OLAELEC:management_change:2026-09-28",
-   "group_lead": false,
-   "duplicate_of": "nse:106798830"
-  },
-  {
-   "id": "nse:106798900",
-   "symbol": "OLAELEC",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:48:35+05:30",
-   "exchange_label": "Outcome of Board Meeting",
-   "headline": "Ola Electric Mobility Limited has informed the Exchange that Board of Directors at its meeting held on September 28, 2026, has decided to issue equity shares on rights basis",
-   "category": "fund_raise",
-   "tier": "must_see",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026194153_SEintimationOutcomeofBMRightsIssue.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
-   "insight": {
-    "title": "Board approves ₹1,000 crore rights issue",
-    "summary": "Ola Electric's board approved a rights issue of up to ₹1,000 crore to raise equity capital.",
-    "why_it_matters": "Amount equals about 53% of its ₹1,880 crore revenue, a sizable dilution.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 1000.0,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "fund_raise"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.162,
-    "vol_ratio": 1.145
-   },
-   "score": 110.0,
-   "group_id": "OLAELEC:fund_raise:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798883",
-   "symbol": "PERSISTENT",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:44:25+05:30",
-   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "headline": "Persistent Systems Limited has informed the Exchange about Presentation",
-   "category": "earnings_call",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "call_material",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_28092026194403_PSLOutcomeofInvestorSessionsSeptember282026Sd.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
-   "insight": null,
-   "events": [
-    "earnings_call"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -3.125,
-    "vol_ratio": 0.625
-   },
-   "score": 0.0,
-   "group_id": "PERSISTENT:results:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798856",
-   "symbol": "OLAELEC",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:37:25+05:30",
-   "exchange_label": "General Updates",
-   "headline": "Ola Electric Mobility Limited has informed the Exchange about Disclosure pursuant to Regulation 30(5) of SEBI (LODR) Regulations, 2015",
-   "category": "management_change",
-   "tier": "routine",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026193709_SEIntimationDisclosureofMaterialityReg30.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
-   "insight": {
-    "title": "Revised list of Key Managerial Personnel disclosed",
-    "summary": "The board approved a revised list of Key Managerial Personnel including Mr. Bhavish Aggarwal as Chairman and Managing Director.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
-   },
-   "events": [
-    "management_change"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.162,
-    "vol_ratio": 1.145
-   },
-   "score": 18.0,
-   "group_id": "OLAELEC:management_change:2026-09-28",
-   "group_lead": false,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798830",
-   "symbol": "OLAELEC",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:27:38+05:30",
-   "exchange_label": "Outcome of Board Meeting",
-   "headline": "Ola Electric Mobility Limited has informed the Exchange regarding Appointment of Company Secretary and Compliance Officer w.e.f. September 28, 2026",
-   "category": "management_change",
-   "tier": "glance",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026192134_SEIntimationAppointmentofCompanySecretaryandComplianceOfficer.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
-   "insight": {
-    "title": "Appointment of new Company Secretary",
-    "summary": "Ola Electric appointed Ms. Deepa Bansal as Company Secretary and Compliance Officer effective 28 September 2026.",
-    "why_it_matters": "Bansal previously held CS roles at Kothari Petrochemicals, Tessolve, and Medi Assist.",
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "management_change"
-   ],
-   "cards": [
-    {
-     "type": "people",
-     "changes": [
-      {
-       "person": "Ms. Deepa Bansal",
-       "role": "Company Secretary and Compliance Officer and Key Managerial Personnel",
-       "change": "appointment",
-       "effective_date": "2026-09-28",
-       "reason": null,
-       "profile": "Ms. Deepa Bansal is an Associate Member of the Institute of Company Secretaries of India and holds a Bachelor's degree in Commerce. She has more than 11 years of experience in corporate secretarial functions, corporate governance, IPO Listing, Fund raising, corporate restructuring and other regulatory compliances frameworks.",
-       "previous_roles": [
-        "Company Secretary, Kothari Petrochemicals Limited",
-        "Company Secretary, Tessolve Semiconductor Pvt. Ltd.",
-        "Company Secretary, Medi Assist Healthcare Services Limited"
-       ],
-       "education": "Bachelor's degree in Commerce",
-       "profile_source": null
-      }
-     ]
-    }
-   ],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.162,
-    "vol_ratio": 1.145
-   },
-   "score": 46.0,
-   "group_id": "OLAELEC:management_change:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798823",
-   "symbol": "DIXON",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T19:26:50+05:30",
-   "exchange_label": "Shareholders meeting",
-   "headline": "Proceeding of 33rd AGM of Dixon Technologies (India) Limited held on 28th September, 2026.",
-   "category": "agm_egm",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "agm_egm",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_28092026192515_Proceedingsof33rdAGM28092026.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
-   "insight": null,
-   "events": [
-    "agm_egm"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -2.859,
-    "vol_ratio": 0.926
-   },
-   "score": 0.0,
-   "group_id": "DIXON:agm_egm:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106798080",
-   "symbol": "POLYCAB",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T17:25:05+05:30",
-   "exchange_label": "Trading Window",
-   "headline": "Polycab India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-   "category": "unclassified",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "trading_window",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28092026172448_Intimation_Trading_Window_Closure.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
-   "insight": null,
-   "events": [
-    "unclassified"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.08,
-    "vol_ratio": 4.128
-   },
-   "score": 10.0,
-   "group_id": "POLYCAB:unclassified:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106797948",
-   "symbol": "MARUTI",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T17:06:21+05:30",
-   "exchange_label": "General Updates",
-   "headline": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "category": "litigation",
-   "tier": "routine",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTI_28092026170516_STxIntimation_28Sep2026.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
-   "insight": {
-    "title": "Competition Commission of India matter adjourned",
-    "summary": "The ongoing matter with the Competition Commission of India was listed for hearing and adjourned to 02nd November 2026 for arguments to continue.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
-   },
-   "events": [
-    "litigation"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": -1.091,
-    "vol_ratio": 1.282
-   },
-   "score": 8.0,
-   "group_id": "MARUTI:litigation:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106797555",
-   "symbol": "PAYTM",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T15:50:05+05:30",
-   "exchange_label": "Trading Window",
-   "headline": "One 97 Communications Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-   "category": "unclassified",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "trading_window",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_28092026154950_SEDisclosureTradingWindowClosureQ2.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
-   "insight": null,
-   "events": [
-    "unclassified"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-29",
-    "ret_pct": 2.885,
-    "vol_ratio": 0.899
-   },
-   "score": 0.0,
-   "group_id": "PAYTM:unclassified:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106796830",
-   "symbol": "INDUSINDBK",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T12:20:14+05:30",
-   "exchange_label": "Press Release",
-   "headline": "IndusInd Bank Limited has informed the Exchange regarding a press release dated September 28, 2026, titled \"IndusInd Bank launches Dedicated Banking Vertical for India's Growing Global Capability Centres (GCCs)\".",
-   "category": "press_release",
-   "tier": "glance",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK4_28092026121715_FinalUplodSESigned.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
-   "insight": {
-    "title": "Launched dedicated banking vertical for Global Capability Centres",
-    "summary": "IndusInd Bank launched a dedicated GCC Banking vertical bringing together corporate and employee banking capabilities under a single relationship.",
-    "why_it_matters": null,
-    "sentiment": "positive",
-    "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
-   },
-   "events": [
-    "press_release"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-28",
-    "ret_pct": -0.274,
-    "vol_ratio": 0.853
-   },
-   "score": 40.0,
-   "group_id": "INDUSINDBK:press_release:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106796823",
-   "symbol": "MAZDOCK",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T12:14:56+05:30",
-   "exchange_label": "Updates",
-   "headline": "Mazagon Dock Shipbuilders Limited has informed the Exchange regarding 'Board comments on fine levied by the Exchange'.",
-   "category": "management_change",
-   "tier": "glance",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_28092026121428_SEDisclosureBoardCommentsNSE.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
-   "insight": {
-    "title": "Board comments on exchange fine and director appointment",
-    "summary": "The board reviewed the exchange fine, advised continued follow‑up with the Ministry of Defence for appointing independent directors, and noted a Rs.10,000 processing fee payable if the fine exceeds Rs.5,000.",
-    "why_it_matters": "Fine is modest relative to ₹12,840 crore revenue, but reflects compliance risk for the government‑owned shipbuilder.",
-    "sentiment": "neutral",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "management_change"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-28",
-    "ret_pct": -2.801,
-    "vol_ratio": 1.105
-   },
-   "score": 46.0,
-   "group_id": "MAZDOCK:management_change:2026-09-28",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106796336",
-   "symbol": "SUNPHARMA",
-   "exchange": "NSE",
-   "filed_at": "2026-09-28T08:20:40+05:30",
-   "exchange_label": "Press Release",
-   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release for Lerodalcibep licensing agreement.",
-   "category": "press_release",
-   "tier": "must_see",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026082027_SE_Intimation_of_PR_for_lerodalcibep_licensing.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
-   "insight": {
-    "title": "Global licensing agreement for Lerodalcibep announced",
-    "summary": "LIB Therapeutics and Sun Pharma announced a global licensing, commercialization and manufacturing agreement for Lerodalcibep, a PCSK9 Inhibitor, Ex-US and China.",
-    "why_it_matters": "Strengthens Sun Pharma’s Innovative Medicines portfolio through access to a US$3.7 billion PCSK9 market Ex-US and China.",
-    "sentiment": "positive",
-    "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
-   },
-   "events": [
-    "M&A",
-    "press_release"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-09-28",
-    "ret_pct": -0.767,
-    "vol_ratio": 0.604
-   },
-   "score": 112.0,
-   "group_id": "SUNPHARMA:M&A:2026-09-28",
    "group_lead": true,
    "duplicate_of": null
   }
