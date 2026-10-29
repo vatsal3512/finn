@@ -1,7 +1,7 @@
 # Scheduled data refresh: the Push side's heartbeat, and our test of cloud access.
 #
-# Every 30 minutes from about 08:30 to 22:00 India time it fetches corporate actions,
-# prices and filings, then commits the exported JSON. The web host redeploys on the
+# Every 30 minutes, around the clock, it fetches corporate actions, prices and filings,
+# then commits the exported JSON. The web host redeploys on the
 # commit, so the app always serves fresh static files.
 #
 # The database and document text are not committed. They persist between runs in the
@@ -13,17 +13,21 @@
 name: refresh-data
 
 on:
-  # GitHub reads the schedule from the default branch. Switching the default branch away
-  # and back drops it without a word: on 28 Oct 2026 the last scheduled run was 09:18 UTC.
-  # Changing the cron line, or disabling and enabling the workflow, restores it.
-  # Minutes 7 and 37, not 0 and 30: GitHub delays, and can drop, runs at the top of the
-  # hour, when most schedules fire.
+  # GitHub's cron is best effort, and for this repository it was not enough: after the
+  # default branch was switched on 28 Oct 2026, scheduled runs stopped, then came hours
+  # late, then not at all. So each run starts the next one itself (the last step), and
+  # the cron only restarts that chain if it ever breaks. Set the repository variable
+  # KEEP_REFRESHING to "false" to stop the chain.
   schedule:
-    - cron: "7,37 3-16 * * *"  # UTC: 08:37 to 22:37 IST
+    - cron: "17 * * * *"  # hourly, as a restart
   workflow_dispatch: {}
+  push:  # changing this file starts the chain at once
+    branches: [main]
+    paths: [.github/workflows/refresh.yml]
 
 permissions:
   contents: write
+  actions: write  # to start the next run
 
 concurrency:
   group: refresh-data
@@ -32,11 +36,15 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 50  # about 15 to refresh, then waiting out the 30-minute cycle
     defaults:
       run:
         working-directory: backend
     steps:
+      - name: Note the start time
+        working-directory: .
+        run: echo "STARTED=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
 
       - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884  # v10.3.0
@@ -102,4 +110,24 @@ jobs:
             # data, so replaying its commit on top is safe.
             git pull --rebase origin main
             git push
+          fi
+
+      - name: Start the next run, 30 minutes after this one started
+        # Runs even when a step above failed, so one bad run does not end the chain. It
+        # starts a run only if none is already waiting or running: the hourly cron, or a
+        # manual run, must not start a second chain.
+        if: ${{ !cancelled() && github.repository == 'vatsal3512/finn' && vars.KEEP_REFRESHING != 'false' }}
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          wait=$(( 1800 - ($(date +%s) - STARTED) ))
+          if [ "$wait" -gt 0 ]; then sleep "$wait"; fi
+          others=$(gh run list --workflow refresh.yml --limit 20 --json databaseId,status \
+            --jq "[.[] | select(.databaseId != ${{ github.run_id }} and .status != \"completed\")] | length")
+          if [ "$others" = "0" ]; then
+            gh workflow run refresh.yml --ref main
+            echo "Next run started."
+          else
+            echo "$others other run(s) already waiting or running; not starting another."
           fi
