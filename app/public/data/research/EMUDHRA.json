@@ -3,7 +3,7 @@
  "symbol": "EMUDHRA",
  "name": "eMudhra",
  "basis": "consolidated",
- "generated_at": "2026-10-28T10:00:06+00:00",
+ "generated_at": "2026-10-29T08:05:04+00:00",
  "snapshot": {
   "about": "eMudhra provides digital trust, identity, cybersecurity, and certificate lifecycle management solutions internationally.",
   "latest_quarter": "Q1 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 28.0,
   "ebitda_margin": 26.0
  },
- "narrative": "Management met its full-year FY26 revenue guidance of ₹700 crore by delivering ₹713.2 crore. However, free cash flow remains negative at ₹88 crore across four of five years despite rising reported profits.",
+ "narrative": "Management delivered on its fiscal 2026 revenue target of ₹700 crore, reporting ₹713.2 crore. First quarter fiscal 2027 revenue grew 28 percent to ₹192.5 crore. However, long-term cash generation diverges, with cumulative five-year free cash flow remaining negative at ₹88 crore.",
  "promises": [
   {
    "id": "P1",
@@ -28,6 +28,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": "₹702 crore",
    "actual_source": {
     "quote": "Revenue target, FY26: ₹702 crore",
@@ -41,6 +42,31 @@
   },
   {
    "id": "P12",
+   "metric": "Annual organic revenue growth vision",
+   "period": null,
+   "target": "18–20%",
+   "statement": "Company expects organic revenue growth of 18-20% per year over the three-year vision period.",
+   "said": {
+    "quote": "We are expecting organic growth of 18-20% per year",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "During the quarter, our total income grew by 28% YoY to INR 1,925 million",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "First quarter fiscal 2027 total income grew 28 percent year on year."
+  },
+  {
+   "id": "P10",
    "metric": "PAT margin",
    "period": "FY27",
    "target": "16–16.5%",
@@ -52,6 +78,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "Profit after tax grew 28% YoY to INR 320 million, with PAT margin remaining healthy at 16.6%",
@@ -61,7 +88,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "First quarter profit margin reached 16.6%, matching the guidance range of 16% to 16.5%."
+   "note": "First quarter fiscal 2027 profit after tax margin reached 16.6 percent."
   },
   {
    "id": "P3",
@@ -76,25 +103,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
    },
    "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P14",
-   "metric": "Annual organic revenue growth vision",
-   "period": null,
-   "target": "18–20%",
-   "statement": "Company expects organic revenue growth of 18-20% per year over the three-year vision period.",
-   "said": {
-    "quote": "We are expecting organic growth of 18-20% per year",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 20,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -103,17 +112,29 @@
   },
   {
    "id": "P4",
-   "metric": "Organic Revenue Growth",
+   "metric": "Organic revenue growth",
    "period": "FY27",
-   "target": "15–18%",
-   "statement": "Management expects FY27 organic revenue growth of 15% to 18%.",
+   "target": "18%",
+   "statement": "Management targets organic revenue growth of 18% in FY27.",
    "said": {
-    "quote": "This year we are expecting an organic growth of around, because the base has also increased around 15% to 18%",
-    "source": "Q4 FY26 call, 7 May 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+    "quote": "that is to achieve an organic growth of 18% and work towards achieving a PAT growth of 25%",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": "15–18%",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "said": {
+      "quote": "This year we are expecting an organic growth of around, because the base has also increased around 15% to 18%",
+      "source": "Q4 FY26 call, 7 May 2026",
+      "page": 8,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+     }
+    }
+   ],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -122,17 +143,29 @@
   },
   {
    "id": "P5",
-   "metric": "PAT Growth",
+   "metric": "PAT growth",
    "period": "FY27",
-   "target": "25–30%",
-   "statement": "Management expects FY27 bottom line growth to be between 25% and 30%.",
+   "target": "25%",
+   "statement": "Management aims for a 25% PAT growth in FY27.",
    "said": {
-    "quote": "But bottom line may be around between 25% to 30%",
-    "source": "Q4 FY26 call, 7 May 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+    "quote": "Overall, we are expecting 25% growth on PAT and then 18% growth on the top-line",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": "25–30%",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "said": {
+      "quote": "But bottom line may be around between 25% to 30%",
+      "source": "Q4 FY26 call, 7 May 2026",
+      "page": 8,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+     }
+    }
+   ],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -152,6 +185,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -171,6 +205,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -190,6 +225,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -198,44 +234,6 @@
   },
   {
    "id": "P9",
-   "metric": "Organic revenue growth",
-   "period": "FY27",
-   "target": "18%",
-   "statement": "Management targets organic revenue growth of 18% in FY27.",
-   "said": {
-    "quote": "that is to achieve an organic growth of 18% and work towards achieving a PAT growth of 25%",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P10",
-   "metric": "PAT growth",
-   "period": "FY27",
-   "target": "25%",
-   "statement": "Management aims for a 25% PAT growth in FY27.",
-   "said": {
-    "quote": "Overall, we are expecting 25% growth on PAT and then 18% growth on the top-line",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 12,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P11",
    "metric": "EBITDA margin",
    "period": "FY27",
    "target": "25%",
@@ -247,6 +245,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -254,7 +253,7 @@
    "note": null
   },
   {
-   "id": "P13",
+   "id": "P11",
    "metric": "PAT doubling horizon",
    "period": "FY29",
    "target": "2 x",
@@ -266,8 +265,14 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": null,
+   "actual_source": {
+    "quote": "Our ambition is to double PAT over the next 3 years",
+    "source": "Q4 FY26 call, 7 May 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+   },
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -285,6 +290,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -357,12 +363,18 @@
     "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
    }
   ],
-  "read": "Profits do not convert into cash flow, as free cash flow was negative in four out of five years, totaling −₹88 crore."
+  "read": "Profits fail to convert into cash, as free cash flow was negative in four out of five years, totaling a −₹88 crore."
  },
  "bull": [
   {
-   "point": "Revenue growth is strong, with full-year total income rising 35% year-on-year to 7,132 million rupees.",
+   "point": "Total income for FY26 reached 7,132 million rupees, representing 35% year-on-year growth and meeting annual guidance.",
    "evidence": [
+    {
+     "quote": "No, we will not revise it, we will achieve that Rs.700 crores",
+     "source": "Q3 FY26 call, 3 Feb 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
+    },
     {
      "quote": "We closed the year with a total income of INR7,132 million, up 35% year-on-year",
      "source": "Q4 FY26 call, 7 May 2026",
@@ -372,37 +384,37 @@
    ]
   },
   {
-   "point": "Profitability expanded in the first quarter of FY27, with EBITDA margin reaching 26.2% and profit after tax growing 27.9%.",
+   "point": "First quarter FY27 EBITDA margin expanded to 26.2% with total income rising 28% year-on-year to 1,925 million rupees.",
    "evidence": [
     {
-     "quote": "taking our EBITDA margin to 26.2%",
+     "quote": "During the quarter, our total income grew by 28% YoY to INR 1,925 million",
      "source": "Q1 FY27 call, 30 Jul 2026",
      "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
     },
     {
-     "quote": "Profit after tax for the quarter was INR 320 million, reflecting a 27.9% YoY growth",
+     "quote": "taking our EBITDA margin to 26.2%",
      "source": "Q1 FY27 call, 30 Jul 2026",
-     "page": 5,
+     "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
     }
    ]
   },
   {
-   "point": "The company holds a strong order book of ₹238 crore to support ongoing revenue growth.",
+   "point": "Operating cash flow reached 1,328.49 million rupees in FY26, supported by organic business growth across enterprise and trust segments.",
    "evidence": [
     {
-     "quote": "And with the 238 crores order book that we have called out",
-     "source": "Q4 FY26 call, 7 May 2026",
-     "page": 6,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+     "quote": "Our primary sources of liquidity have historically been cash generated from operations. We expect that cash generated from operations will be our primary source of liquidity",
+     "source": "Annual report 2026",
+     "page": 155,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "Free cash flow conversion is poor, remaining negative in four out of five years and totaling −₹88 crore.",
+   "point": "Free cash flow remained negative in four of five years, accumulating a total deficit of ₹88 crore.",
    "evidence": [
     {
      "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
@@ -413,10 +425,10 @@
    ]
   },
   {
-   "point": "Contingent liabilities remain present on the balance sheet, standing at 32.29 million rupees at fiscal year end.",
+   "point": "Cash balances declined by 617.06 million rupees in FY26 following substantial cash deployments toward acquisitions and capital expenditure.",
    "evidence": [
     {
-     "quote": "The Contingent liabilities on a consolidated and standalone basis as on March 31, 2026 stood at INR 32.29 million as against INR 210.58 million as on March 31, 2025",
+     "quote": "The cash and cash equivalents decreased from INR 1,885.54 million to INR 1,268.48 Million (decrease of INR 617.06 Million)",
      "source": "Annual report 2026",
      "page": 154,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
@@ -424,10 +436,10 @@
    ]
   },
   {
-   "point": "Heavy cash outflows for acquisitions and capital expenditures led to an overall reduction in cash reserves.",
+   "point": "Contingent liabilities stood at 32.29 million rupees as of March 31, 2026, alongside trade receivables days sales outstanding at 92 days.",
    "evidence": [
     {
-     "quote": "This decrease was only INR 617.06 million inspite of acquisitions and capital expenditure aggregating to INR 2,482.71 Million as the balance was met out of operating cash flow",
+     "quote": "The Contingent liabilities on a consolidated and standalone basis as on March 31, 2026 stood at INR 32.29 million as against INR 210.58 million as on March 31, 2025",
      "source": "Annual report 2026",
      "page": 154,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
@@ -473,13 +485,14 @@
   "claims_found": 40,
   "quotes_verified": 40,
   "quotes_dropped": 0,
-  "graded_by_code": 6,
-  "graded_by_model": 1,
+  "graded_by_code": 4,
+  "graded_by_model": 2,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
+   "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 0.2
+  "seconds": 662.2
  }
 }

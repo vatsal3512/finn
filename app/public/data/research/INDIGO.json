@@ -3,7 +3,7 @@
  "symbol": "INDIGO",
  "name": "IndiGo",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:58:22+00:00",
+ "generated_at": "2026-10-29T07:45:25+00:00",
  "snapshot": {
   "about": "India's leading airline providing domestic and international air travel services.",
   "latest_quarter": "Q1 FY27",
@@ -13,8 +13,33 @@
   "net_profit_yoy": -110.9,
   "ebitda_margin": 13.0
  },
- "narrative": "Management delivered on passenger unit revenue in the first quarter of fiscal 2027, beating its mid-teens guidance with nineteen point nine percent growth and matching capacity growth guidance at three percent. However, third-quarter capacity missed high-teens targets at eleven percent.",
+ "narrative": "Q1 FY27 unit passenger revenue beat mid-teens guidance with 19.9% growth, and Q1 FY27 capacity met guidance at 3%. However, Q3 FY26 capacity grew 11%, missing high-teens guidance, and full-year FY26 recorded a net loss of 23.9 billion rupees.",
  "promises": [
+  {
+   "id": "P1",
+   "metric": "Capacity growth (ASK)",
+   "period": "FY26",
+   "target": "10–14%",
+   "statement": "Company estimates early teens capacity growth for the full financial year 2026.",
+   "said": {
+    "quote": "With these increases in capacity, we estimate early teens capacity growth for the full financial year 2026 which is slightly higher than our earlier communicated early double-digit guidance of capacity growth",
+    "source": "Q2 FY26 call, 4 Nov 2025",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "We added capacity in an optimized manner and grew by around 3 percent in terms of seats deployed and around 8 percent in terms of ASKs",
+    "source": "Q2 FY26 call, 4 Nov 2025",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "Capacity growth of 8% in Q2, 11% in Q3, and guided 10% in Q4 fell short of early teens."
+  },
   {
    "id": "P4",
    "metric": "Capacity growth in Q3 FY26 and Q4 FY26",
@@ -28,6 +53,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "capacity in terms of ASKs grew by around 11% for the quarter, at the upper end of the guided range",
@@ -37,7 +63,7 @@
    },
    "verdict": "missed",
    "verdict_by": "model",
-   "note": "Third-quarter capacity grew eleven percent against high-teens guidance, and fourth-quarter target was reduced."
+   "note": "Q3 FY26 ASK capacity grew 11%, missing the guided high-teens growth target."
   },
   {
    "id": "P10",
@@ -52,6 +78,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": "19.9%",
    "actual_source": {
     "quote": "Unit Passenger Revenue (PRASK), Q1 FY27: 19.9%",
@@ -76,6 +103,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": "6.2%",
    "actual_source": {
     "quote": "Passenger unit revenue (PRASK) growth, Q3 FY26: 6.2%",
@@ -100,6 +128,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "June quarter’s capacity growth came in at 3% on a year-over-year basis",
@@ -109,7 +138,7 @@
    },
    "verdict": "met",
    "verdict_by": "model",
-   "note": "First-quarter fiscal 2027 capacity grew three percent, matching guidance."
+   "note": "Q1 FY27 capacity grew 3% year-over-year, meeting the guided 3% to 4% range."
   },
   {
    "id": "P13",
@@ -124,11 +153,17 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
+   "actual_source": {
+    "quote": "June quarter’s capacity growth came in at 3% on a year-over-year basis",
+    "source": "Q1 FY27 call, 23 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+   },
+   "verdict": "on_track",
    "verdict_by": "model",
-   "note": null
+   "note": "Q1 FY27 capacity grew 3% and Q2 FY27 is expected flattish, aligning with single-digit growth."
   },
   {
    "id": "P3",
@@ -143,6 +178,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -162,6 +198,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -181,29 +218,11 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P1",
-   "metric": "Capacity growth (ASK)",
-   "period": "FY26",
-   "target": "10–14%",
-   "statement": "Company estimates early teens capacity growth for the full financial year 2026.",
-   "said": {
-    "quote": "With these increases in capacity, we estimate early teens capacity growth for the full financial year 2026 which is slightly higher than our earlier communicated early double-digit guidance of capacity growth",
-    "source": "Q2 FY26 call, 4 Nov 2025",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
    "note": null
   },
   {
@@ -219,6 +238,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac76f1e-a0ac-44b6-baf0-15732ddf5c77.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "We are currently estimating mid-single digit percentage increase in our unit costs excluding fuel and forex for the full financial year 2026 as compared to the full financial year 2025",
@@ -243,6 +263,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -262,6 +283,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -281,6 +303,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -353,11 +376,11 @@
     "url": "https://www.screener.in/company/INDIGO/consolidated/"
    }
   ],
-  "read": "Profits convert strongly into cash. Operating cash flow of ₹83,658 crore from fiscal 2022 to 2026 comfortably exceeded reported net profit of ₹6,568 crore."
+  "read": "Profits convert strongly into cash, with cumulative operating cash flow of ₹83,658 crore far exceeding reported profit of ₹6,568 crore over FY22 to FY26."
  },
  "bull": [
   {
-   "point": "Passenger unit revenue grew nineteen point nine percent in the first quarter of fiscal 2027, comfortably exceeding management guidance of mid-teens growth.",
+   "point": "Unit passenger revenue in Q1 FY27 increased 19.9% year-over-year, surpassing the guided mid-teens improvement.",
    "evidence": [
     {
      "quote": "we currently estimate a mid-teens improvement in unit passenger revenue in Q1FY27 vs Q1FY26",
@@ -368,7 +391,7 @@
    ]
   },
   {
-   "point": "Cash generation remains robust, with cumulative five-year operating cash flow far exceeding reported net profits.",
+   "point": "Operating cash flow of ₹83,658 crore covered cumulative reported net profit of ₹6,568 crore over FY22 to FY26.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹83,658 crore covered all of reported profit, ₹6,568 crore.",
@@ -379,23 +402,23 @@
    ]
   },
   {
-   "point": "Total income grew nineteen percent year-over-year in the first quarter of fiscal 2027, driven by strong operational demand.",
+   "point": "Free cash balance reached ₹36,940 crore at the end of Q3 FY26, maintaining robust liquidity buffers.",
    "evidence": [
     {
-     "quote": "total income of 256 billion rupees, a growth of around 19% year over year",
-     "source": "Q1 FY27 call, 23 Jul 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+     "quote": "ended the December quarter with free cash of 369.4 billion rupees and a restricted cash of 146.6 billion rupees",
+     "source": "Q3 FY26 call, 22 Jan 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "The company faces outstanding taxation disputes and legal claims that are not acknowledged as debts.",
+   "point": "Debt to equity ratio surged to 13.21 times in FY26 from 7.21 times in FY25 as total debt reached 852,463 million rupees.",
    "evidence": [
     {
-     "quote": "The Company is a party to various taxation disputes and legal claims, which are not acknowledged as debts",
+     "quote": "Debt Equity Ratio (in times) (C = A/B) 13.21 7.21",
      "source": "Annual report 2026",
      "page": 217,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
@@ -403,21 +426,10 @@
    ]
   },
   {
-   "point": "Credit rating agencies placed long-term ratings on watch with negative implications following severe operational disruptions and external headwinds.",
+   "point": "Full-year FY26 ended with a net loss of 23.9 billion rupees, followed by a net loss of ₹238 crore in Q1 FY27.",
    "evidence": [
     {
-     "quote": "As on Mar 18, 2026 [ICRA] A1+ [ICRA] AA/Watch with Negative Implications",
-     "source": "Annual report 2026",
-     "page": 93,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Profitability has turned negative, with substantial quarterly net losses recorded in recent periods.",
-   "evidence": [
-    {
-     "quote": "This quarter we reported a loss of 25.4 billion rupees",
+     "quote": "for the financial year ended March 2026 a loss of 23.9 billion rupees",
      "source": "Q4 FY26 call, 29 May 2026",
      "page": 3,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a99374a-6e98-4aec-9b83-ddd57d9fd2a5.pdf"
@@ -427,6 +439,17 @@
      "source": "Q1 FY27 call, 23 Jul 2026",
      "page": 3,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Credit ratings faced negative watch revisions by rating agencies in late FY26 following operational disruptions and external headwinds.",
+   "evidence": [
+    {
+     "quote": "As on Mar 18, 2026 [ICRA] A1+ [ICRA] AA/Watch with Negative Implications",
+     "source": "Annual report 2026",
+     "page": 93,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf"
     }
    ]
   }
@@ -470,12 +493,13 @@
   "quotes_verified": 36,
   "quotes_dropped": 0,
   "graded_by_code": 3,
-  "graded_by_model": 2,
+  "graded_by_model": 4,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
+   "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 4.7
+  "seconds": 177.5
  }
 }

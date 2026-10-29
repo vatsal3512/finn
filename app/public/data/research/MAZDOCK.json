@@ -3,7 +3,7 @@
  "symbol": "MAZDOCK",
  "name": "Mazagon Dock",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:58:37+00:00",
+ "generated_at": "2026-10-29T07:49:23+00:00",
  "snapshot": {
   "about": "Constructs and repairs warships, submarines, commercial vessels, and offshore structures for defense and commercial clients.",
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": -53.8,
   "ebitda_margin": 8.0
  },
- "narrative": "Management delivered on revenue growth, achieving ₹13,006 crore in FY26 against a ₹12,500 crore target. However, profitability diverged sharply in Q2 FY27, with net profit falling 53.8% to ₹346 crore and EBITDA margin dropping to 8.0%.",
+ "narrative": "Management beat revenue growth targets, delivering 20.8% growth in FY25 against 10% to 12% guidance and ₹13,006 crore in FY26. However, order book expansion diverged significantly, dropping to ₹27,415 crore in FY26 against expected ₹1.25 lakh crore due to delayed submarine contracts.",
  "promises": [
   {
    "id": "P5",
@@ -28,6 +28,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eb1c6e-2073-4a9e-a63b-ef282578e134.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "We are expecting the P-75 additional submarines and the P-75(I) submarines contract to be signed in this financial year. And that is expected to increase our order book from the present Rs. 32,000 crore to more than Rs. 1.25 lakh crores",
@@ -37,7 +38,32 @@
    },
    "verdict": "missed",
    "verdict_by": "model",
-   "note": "Submarine order was not secured by March 2025 as expected."
+   "note": "Submarine order was not secured by March 2025 and was deferred into next financial year."
+  },
+  {
+   "id": "P8",
+   "metric": "Order Book",
+   "period": "FY26",
+   "target": "≥ ₹125,000 crore",
+   "statement": "Order book is expected to increase to more than Rs. 1.25 lakh crore in FY26 upon submarine contract signings.",
+   "said": {
+    "quote": "We are expecting the P-75 additional submarines and the P-75(I) submarines contract to be signed in this financial year. And that is expected to increase our order book from the present Rs. 32,000 crore to more than Rs. 1.25 lakh crores",
+    "source": "Q4 FY25 call, 30 May 2025",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "So right now, the order book stands at around INR 27,415 crores",
+    "source": "Q2 FY26 call, 28 Oct 2025",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
+   },
+   "verdict": "missed",
+   "verdict_by": "model",
+   "note": "Order book stood at twenty-seven thousand crore in late FY26 as submarine contract remained unsigned."
   },
   {
    "id": "P1",
@@ -52,6 +78,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b75cdc-ec61-41e3-a31e-1903937cf920.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": "20.8%",
    "actual_source": {
     "quote": "Revenue growth, FY25: 20.8%",
@@ -64,7 +91,7 @@
    "note": null
   },
   {
-   "id": "P13",
+   "id": "P7",
    "metric": "Revenue growth",
    "period": "FY26",
    "target": "10%",
@@ -76,6 +103,18 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": "positive",
+     "source": "Q3 FY25 call, 7 Feb 2025",
+     "said": {
+      "quote": "We are not saying that next year growth is not projected at 20%. We are saying that there would not be a decline in next year revenues",
+      "source": "Q3 FY25 call, 7 Feb 2025",
+      "page": 9,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eb1c6e-2073-4a9e-a63b-ef282578e134.pdf"
+     }
+    }
+   ],
    "actual": "13.8%",
    "actual_source": {
     "quote": "Revenue growth, FY26: 13.8%",
@@ -88,7 +127,7 @@
    "note": null
   },
   {
-   "id": "P14",
+   "id": "P13",
    "metric": "Revenue",
    "period": "FY26",
    "target": "₹12,500 crore",
@@ -100,6 +139,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": "₹13,006 crore",
    "actual_source": {
     "quote": "Revenue, FY26: ₹13,006 crore",
@@ -109,73 +149,6 @@
    },
    "verdict": "beat",
    "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P7",
-   "metric": "Revenue growth",
-   "period": "FY26",
-   "target": "positive",
-   "statement": "Management expects no revenue decline in FY26 compared to FY25, with potential marginal growth.",
-   "said": {
-    "quote": "We are not saying that next year growth is not projected at 20%. We are saying that there would not be a decline in next year revenues",
-    "source": "Q3 FY25 call, 7 Feb 2025",
-    "page": 9,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eb1c6e-2073-4a9e-a63b-ef282578e134.pdf"
-   },
-   "repeated_in": [],
-   "actual": "13.8%",
-   "actual_source": {
-    "quote": "Revenue growth, FY26: 13.8%",
-    "source": "screener.in, compiled from the company's filed results",
-    "page": null,
-    "url": "https://www.screener.in/company/MAZDOCK/consolidated/"
-   },
-   "verdict": "met",
-   "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P10",
-   "metric": "Revenue growth",
-   "period": null,
-   "target": "8–10%",
-   "statement": "Company expects annual revenue growth of around 8% to 10%.",
-   "said": {
-    "quote": "But by and large we will see that the growth of the company is almost around 8% to 10% every year",
-    "source": "Q4 FY25 call, 30 May 2025",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "We anticipate that this year, we will have revenue of approximately INR 12,500 crores or so",
-    "source": "Q2 FY26 call, 28 Oct 2025",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "FY26 revenue grew over 12%, beating the 8% to 10% target."
-  },
-  {
-   "id": "P2",
-   "metric": "Normal PBT margin",
-   "period": null,
-   "target": "12–15%",
-   "statement": "Management considers 12% to 15% as the normal PBT margin for their industry and new projects.",
-   "said": {
-    "quote": "Normalized margin for our industry would be something around 12% to 15%",
-    "source": "Q2 FY25 call, 5 Nov 2024",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b75cdc-ec61-41e3-a31e-1903937cf920.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
    "note": null
   },
   {
@@ -191,6 +164,32 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b75cdc-ec61-41e3-a31e-1903937cf920.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "But our main capex going forward for the next 5 years will be approximately INR 5,000 crores for a greenfield shipyard, which we intend to set up in Tuticorin in Tamil Nadu for commercial shipbuilding",
+    "source": "Q2 FY26 call, 28 Oct 2025",
+    "page": 13,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "Capex plan was later extended to four to five years for greenfield shipyard."
+  },
+  {
+   "id": "P2",
+   "metric": "Normal PBT margin",
+   "period": null,
+   "target": "12–15%",
+   "statement": "Management considers 12% to 15% as the normal PBT margin for their industry and new projects.",
+   "said": {
+    "quote": "Normalized margin for our industry would be something around 12% to 15%",
+    "source": "Q2 FY25 call, 5 Nov 2024",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b75cdc-ec61-41e3-a31e-1903937cf920.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -210,8 +209,14 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eb1c6e-2073-4a9e-a63b-ef282578e134.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": null,
+   "actual_source": {
+    "quote": "Normalized margin for our industry would be something around 12% to 15%",
+    "source": "Q2 FY25 call, 5 Nov 2024",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b75cdc-ec61-41e3-a31e-1903937cf920.pdf"
+   },
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -229,6 +234,32 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "So we have always given this kind of a projection that a sustainable margin would be something around 12% to 15%",
+    "source": "Q3 FY25 call, 7 Feb 2025",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eb1c6e-2073-4a9e-a63b-ef282578e134.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "Revenue growth",
+   "period": null,
+   "target": "8–10%",
+   "statement": "Company expects annual revenue growth of around 8% to 10%.",
+   "said": {
+    "quote": "But by and large we will see that the growth of the company is almost around 8% to 10% every year",
+    "source": "Q4 FY25 call, 30 May 2025",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -248,6 +279,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -267,14 +299,20 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": null,
+   "actual_source": {
+    "quote": "We are expecting the P-75 additional submarines and the P-75(I) submarines contract to be signed in this financial year. And that is expected to increase our order book from the present Rs. 32,000 crore to more than Rs. 1.25 lakh crores",
+    "source": "Q4 FY25 call, 30 May 2025",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
+   },
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P16",
+   "id": "P15",
    "metric": "Revenue Growth",
    "period": null,
    "target": "50%",
@@ -286,6 +324,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -293,7 +332,7 @@
    "note": null
   },
   {
-   "id": "P17",
+   "id": "P16",
    "metric": "Operating Margin",
    "period": null,
    "target": "≥ 15%",
@@ -305,6 +344,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -312,7 +352,7 @@
    "note": null
   },
   {
-   "id": "P19",
+   "id": "P18",
    "metric": "Greenfield Shipyard Capex",
    "period": null,
    "target": "₹5,000 crore",
@@ -324,6 +364,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -331,7 +372,7 @@
    "note": null
   },
   {
-   "id": "P15",
+   "id": "P14",
    "metric": "Revenue Growth",
    "period": "FY27",
    "target": "5%",
@@ -343,6 +384,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -362,6 +404,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eb1c6e-2073-4a9e-a63b-ef282578e134.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -369,26 +412,7 @@
    "note": null
   },
   {
-   "id": "P8",
-   "metric": "Order Book",
-   "period": "FY26",
-   "target": "≥ ₹125,000 crore",
-   "statement": "Order book is expected to increase to more than Rs. 1.25 lakh crore in FY26 upon submarine contract signings.",
-   "said": {
-    "quote": "We are expecting the P-75 additional submarines and the P-75(I) submarines contract to be signed in this financial year. And that is expected to increase our order book from the present Rs. 32,000 crore to more than Rs. 1.25 lakh crores",
-    "source": "Q4 FY25 call, 30 May 2025",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P18",
+   "id": "P17",
    "metric": "Capital Expenditure",
    "period": "FY26",
    "target": "₹500 crore",
@@ -400,6 +424,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -478,49 +503,48 @@
     "url": "https://www.screener.in/company/MAZDOCK/consolidated/"
    }
   ],
-  "read": "Profits convert poorly to cash. Only 17% of reported profit turned into operating cash flow over FY22–FY26, with negative cash flow in FY22 and FY26 despite positive profits."
+  "read": "Profits convert poorly into cash. Between FY22 and FY26, only 17% of reported net profit generated operating cash, with negative cash flows in FY22 and FY26."
  },
  "bull": [
   {
-   "point": "Revenue performance exceeded management targets in consecutive years, reaching ₹13,006 crore in FY26.",
+   "point": "Revenue from operations reached a record ₹11,432 crore in FY25 with EBITDA margin rising to 28.24%.",
    "evidence": [
     {
-     "quote": "We had indicated -- we are looking at a growth of around 10% to 12% over last year as far as the top line is concerned",
-     "source": "Q2 FY25 call, 5 Nov 2024",
-     "page": 16,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b75cdc-ec61-41e3-a31e-1903937cf920.pdf"
-    },
-    {
-     "quote": "definitely for FY'26 we can confidently say yes we will be 10% more",
+     "quote": "This year we have recorded the highest revenue from operations which is Rs. 11, 432 crores and the profit before tax is Rs. 3,109 crores",
      "source": "Q4 FY25 call, 30 May 2025",
-     "page": 12,
+     "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
     },
     {
-     "quote": "We anticipate that this year, we will have revenue of approximately INR 12,500 crores or so",
+     "quote": "and the EBITDA margin of 28.24% against 26.93% reported in last year",
+     "source": "Q4 FY25 call, 30 May 2025",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Standalone revenue expanded 9% year-on-year to ₹5,555 crore in H1 FY26 alongside strong Q2 PAT of ₹715 crore.",
+   "evidence": [
+    {
+     "quote": "and we stood at a PAT of INR 715 crores, which is also 27% above the corresponding period of last year",
      "source": "Q2 FY26 call, 28 Oct 2025",
-     "page": 5,
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
+    },
+    {
+     "quote": "And if I talk about the half year's standalone performance, the revenue from operations stood at INR 5,555 crores, which is 9% above the corresponding last half year",
+     "source": "Q2 FY26 call, 28 Oct 2025",
+     "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
     }
    ]
   },
   {
-   "point": "Strong order pipeline with major submarine and shipbuilding projects targeted to expand the order book significantly.",
+   "point": "Full year FY26 revenue reached ₹13,006 crore, exceeding management guidance.",
    "evidence": [
     {
-     "quote": "We are expecting the P-75 additional submarines and the P-75(I) submarines contract to be signed in this financial year. And that is expected to increase our order book from the present Rs. 32,000 crore to more than Rs. 1.25 lakh crores",
-     "source": "Q4 FY25 call, 30 May 2025",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
-    },
-    {
-     "quote": "Yes, it's expected to be in the range of anywhere between 30,000 crores to 40,000 crores",
-     "source": "Q4 FY25 call, 30 May 2025",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
-    },
-    {
-     "quote": "So right now, the order book stands at around INR 27,415 crores",
+     "quote": "We anticipate that this year, we will have revenue of approximately INR 12,500 crores or so",
      "source": "Q2 FY26 call, 28 Oct 2025",
      "page": 5,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
@@ -530,18 +554,18 @@
  ],
  "bear": [
   {
-   "point": "The auditor highlighted a substantial provision for expected losses on onerous fixed-price contracts.",
+   "point": "Provision for expected loss on onerous contracts surged to ₹1,05,959 lakhs in FY26 due to fixed-price project cost overruns.",
    "evidence": [
     {
-     "quote": "For the year ended March 31,2026, the provision for expected loss on onerous contracts amounted to ₹ 1,05,959 Lakhs (PY ₹52,138 Lakhs)",
+     "quote": "Recognition of a provision for expected loss on onerous contracts amounted to ₹ 1,05,959 Lakhs in accordance with Ind AS 115",
      "source": "Annual report 2026",
-     "page": 153,
+     "page": 151,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b7ec224-9db5-455b-bf51-6777bba75b31.pdf"
     }
    ]
   },
   {
-   "point": "Operating cash conversion is extremely poor, with negative cash flow in FY26 despite reported profitability.",
+   "point": "Operating cash flow turned negative in FY26, with only 17% of reported cumulative profit converting into cash between FY22 and FY26.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, only 17% of reported profit arrived as operating cash (₹1,485 of ₹8,659 crore).",
@@ -558,12 +582,12 @@
    ]
   },
   {
-   "point": "Auditors raised emphasis of matter regarding unconfirmed and unreconciled balances with key customer Indian Navy.",
+   "point": "Indemnity bonds issued to customers created significant exposure, with contingent liabilities standing at ₹24,73,195 lakhs in FY26.",
    "evidence": [
     {
-     "quote": "Balance due to/from Indian Navy (Debtor) is subject to confirmation and reconciliation",
+     "quote": "Indemnity Bonds issued by the Company to customers (mainly Ministry of Defence) for various contracts",
      "source": "Annual report 2026",
-     "page": 151,
+     "page": 212,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b7ec224-9db5-455b-bf51-6777bba75b31.pdf"
     }
    ]
@@ -609,13 +633,13 @@
   "claims_found": 33,
   "quotes_verified": 32,
   "quotes_dropped": 1,
-  "graded_by_code": 5,
-  "graded_by_model": 2,
+  "graded_by_code": 4,
+  "graded_by_model": 3,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 5.6
+  "seconds": 91.2
  }
 }

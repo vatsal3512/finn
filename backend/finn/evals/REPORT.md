@@ -21,7 +21,7 @@ uv run python -m finn.evals stability   # the full research pipeline, 3 times
 ```
 
 Every result, with every flag, is saved in `results/`. The numbers below come from those
-files, run on 28 October 2026.
+files, run on 28 and 29 October 2026.
 
 ---
 
@@ -111,28 +111,39 @@ in the app against the full filing:
 
 ### Research reports and "Was this expected?" answers
 
-All 23 shipped research reports and 12 answers:
+All 23 shipped research reports and 12 answers. The reports were checked twice: as first
+shipped (28 October), and after 20 of them were rebuilt with the fixes in section 6
+(29 October; `results/research-rebuilt.json`).
 
-- **Quotes:** 495 of 495 were found again, word for word, in the source document, on the
-  page cited. A further 31 evidence lines are figures code computed from the accounts and
-  label as such; they are not quotes.
-- **Numbers:** 1,134 numbers in promises, targets, bull and bear points and summaries.
+| | 28 October | 29 October, rebuilt |
+|---|---|---|
+| Quotes found word for word, on the page cited | **495 of 495** | **472 of 472** |
+| Evidence lines that are figures code computed (labelled so; not quotes) | 31 | 30 |
+| The same quote cited twice in one point | 5 | 0 |
+| Numbers checked | 1,134 | 1,202 |
+
+Where each number was found, on 29 October:
 
 | Where the number was found | Count |
 |---|---|
-| In the quote it cites, or in figures code computed from the accounts | 994 |
-| The same, in another unit (₹713.2 crore from "INR 7,132 million"); all 24 read by hand and correct | 24 |
-| Not in the quote it cites, but in the company's own documents | 113 |
-| Nowhere; all 3 read by hand: correct conversions (11 lakh = ₹0.11 crore; a 0.60–0.70% range) | 3 |
+| In the quote it cites, or in figures code computed from the accounts | 1,051 |
+| The same, in another unit (₹36,940 crore from "369.4 billion rupees"); all 25 read by hand and correct | 25 |
+| Not in the quote it cites, but in the company's own documents | 122 |
+| Nowhere; all 4 read by hand and correct | 4 |
 
-Of the 113, 42 are precise figures (100 or more, or with decimals), which are strong
-evidence; 71 are small whole numbers such as 2 or 10, which prove little on their own.
+The 4 "nowhere" numbers are conversions the checker cannot do: 11 lakh as ₹0.11 crore,
+both ends of a 0.60–0.70% range, and HDFC Bank's contingent liabilities as ₹34.17 lakh
+crore, from an annual-report table printed in ₹ thousands (34,179,458,972).
+
+Of the 122, 49 are precise figures (100 or more, or with decimals), which are strong
+evidence; 73 are small whole numbers such as 2 or 10, which prove little on their own.
 
 The checks start from the quote, not from what the model says about it. A promise's target
 is the model's reading of its quote, so the target is checked against the quote too, not
 trusted.
 
-The second model read all 455 claims with the quotes they cite. It was run twice; its own
+The second model read all 455 claims in the 28 October reports with the quotes they cite
+(the rebuilt reports were checked by code only). It was run twice; its own
 answers changed between runs (324 / 111 / 20 for yes / partly / no, then 318 / 113 / 24).
 So its flags are leads for a person, not verdicts. **All 31 different "no" verdicts were
 read against the documents:**
@@ -217,7 +228,11 @@ an empty card would be worse.
 
 **Research:** the full pipeline (every call read afresh, then judged afresh) was started on
 Kaynes and Asian Paints, three runs each. It stopped when the free tier's daily quota ran
-out. *[Results to be added after the quota resets.]*
+out, and was not run again. A full run reads every call afresh, and it draws on the same
+free daily quota that the live refresh needs to re-ask Flash about cards a stand-in
+answered. On 29 October that quota went to the app and to the rebuild of the 20 reports
+above. So research repeatability is **not measured**. What is measured: every quote and
+number in every report, as shipped, after each rebuild.
 
 ## 5. The checker was checked
 
@@ -245,19 +260,50 @@ Each fix has a test in `tests/test_evals.py`.
 | An invented total (Adani's ₹25,749.96 crore) | Code drops a "why it matters" line with a figure that is not in the filing, a unit conversion of one, or a sum of two (v10) |
 | Ola's ₹1,000 crore raise, 53% of revenue, once rated "glance" | A deal or claim of 5% of revenue or more is at least must-see, whichever model answered (v10) |
 | Stand-in answers stuck on important cards | Re-asked of Flash only until Flash answers (v10) |
+| A bull point cited a deadline already past as a catalyst | The judge is told today's date; a passed deadline is not a catalyst (judge v3) |
+| A guidance revised on a later call showed as two promises | Merged into one, graded on the latest figure, with "Revised from" and both quotes |
 | Nothing on screen said when the data stopped updating | Today shows "Updated 19m ago", and an amber line when the data is stale |
 
 All of code's checks on a triage answer now sit in one function, `review()` in
 `finn/enrich/triage.py`, which production and this evaluation both call, so the evaluation
 scores exactly what production stores. The grounding checks live in `finn/grounding.py`.
 
-*[Golden set on version 10 with Flash answering: to be added once the quota resets.]*
+**The golden set on version 10** (29 October, 07:20 UTC; `results/triage-v10-flash.json`).
+Flash's quota had only partly reset, so in each run Flash answered 6 of its 12 important
+filings and Groq stood in for the rest. Split by who answered, across all three runs:
+
+| Who answered | Answers | Both labels right |
+|---|---|---|
+| Flash | 18 | **16 (89%)** |
+| Flash-Lite (routine filings, its own job) | 21 | 13 (62%) |
+| Groq, standing in for Flash | 17 | 10 (59%) |
+
+All 7 of Groq's misses are the same mistake: a glance filing rated must-see. That is the
+case for the version 10 re-ask, and the reason an answer counts as final only once Flash
+gives it. Flash-Lite's misses are mostly one filing: HDFC Bank's business update, called
+"investor meetings" every time.
+
+What the version 8 to 10 fixes changed, against version 7:
+
+- **"Why it matters" now says something.** It was left empty in 2 to 5 answers per run,
+  down from 11, because the model now sees the amounts later in the filing. It carried a
+  specific figure or name in 10 to 13, up from 7.
+- **Numbers not in the filing:** 0 or 1 per run, as before.
+- **Second model, on 18 shipped answers:** 17 relevant; "why it matters" adds a fact in
+  13 of 13. It flagged 3 statements as wrong. Read against the filings, one is real:
+  Flash-Lite dated HDFC Bank's figures 30 September 2025 instead of 2026. A year that
+  appears elsewhere in the filing passes code's number check, so this one needs the
+  second reader. The other two are the checker's errors: Adani's "$100 billion, 5 GW"
+  and Sun Pharma's reaffirmed ICRA AAA are both in the filing.
 
 ## Limits
 
 - 19 labelled filings is a small set. It catches systematic errors, not rare ones.
 - The labels were made by one reader. Where a label could be argued, both answers count.
 - Recall was not measured: nobody listed by hand every promise in a transcript, so we know
-  the promises FINN found are real, not that it found them all. The research stability run
-  measures part of this: a promise found in one run and not another was missed once.
+  the promises FINN found are real, not that it found them all.
+- Research repeatability was not measured (section 4).
+- LT, Indian Hotels and Reliance kept their 28 October reports: when the rebuild reached
+  them, the judge model was at its daily cap, and an incomplete report never replaces a
+  complete one.
 - The second model is a model. Its flags were read by a person before any was counted.

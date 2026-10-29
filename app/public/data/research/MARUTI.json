@@ -3,7 +3,7 @@
  "symbol": "MARUTI",
  "name": "Maruti Suzuki",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:57:40+00:00",
+ "generated_at": "2026-10-29T07:38:01+00:00",
  "snapshot": {
   "about": "Maruti Suzuki is an Indian automotive manufacturer producing passenger vehicles.",
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": -26.4,
   "ebitda_margin": 9.0
  },
- "narrative": "Management expected over ten percent growth, and Q2 FY27 revenue grew twenty-six percent to fifty-three thousand three hundred fifty-six crore rupees. However, net profit declined twenty-six point four percent to two thousand four hundred sixty-six crore rupees, showing profitability divergence.",
+ "narrative": "Management targeted over 10% sales volume growth and ₹14,000 crore capex for FY27. In Q2 FY27, revenue expanded 26.0% year-on-year to ₹53,356 crore, but net profit dropped 26.4% to ₹2,466 crore with an EBITDA margin of 9.0%.",
  "promises": [
   {
    "id": "P1",
@@ -28,6 +28,7 @@
     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -47,6 +48,7 @@
     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -66,6 +68,7 @@
     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -138,11 +141,11 @@
     "url": "https://www.screener.in/company/MARUTI/consolidated/"
    }
   ],
-  "read": "Profits reliably turn into cash. Operating cash flow of sixty-four thousand seven hundred thirty-six crore rupees exceeded total reported net profit over the past five years."
+  "read": "Operating cash flow of ₹64,736 crore comfortably exceeded reported net profit of ₹54,812 crore over FY22–FY26, indicating strong profit-to-cash conversion."
  },
  "bull": [
   {
-   "point": "Strong cash conversion track record, with multi-year operating cash flows comfortably surpassing cumulative reported net profits.",
+   "point": "Operating cash flow totaled ₹64,736 crore over FY22–FY26, fully backing cumulative net profit of ₹54,812 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹64,736 crore covered all of reported profit, ₹54,812 crore.",
@@ -153,18 +156,18 @@
    ]
   },
   {
-   "point": "Full-year FY26 net sales delivered twenty point two percent growth while net profit reached an all-time high.",
+   "point": "Annual vehicle sales reached a historic peak of 2.42 million units in FY26, driven by record exports of 447,000 units.",
    "evidence": [
     {
-     "quote": "The company registered record net sales of over INR1.74 trillion in financial year '25-26, a growth of 20.2% over the previous year",
+     "quote": "First, the company recorded its highest ever annual sales of 2.42 million vehicles",
      "source": "Q4 FY26 call, 28 Apr 2026",
-     "page": 6,
+     "page": 4,
      "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
     },
     {
-     "quote": "The company achieved its all-time high net profit of over INR144.4 billion in financial year '25-26 compared to net profit of about INR142.9 billion in the previous year",
+     "quote": "which includes the highest ever export of 447,000 vehicles",
      "source": "Q4 FY26 call, 28 Apr 2026",
-     "page": 6,
+     "page": 4,
      "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
     }
    ]
@@ -172,10 +175,10 @@
  ],
  "bear": [
   {
-   "point": "Auditors included an emphasis of matter regarding unquantified obligations under Extended Producer Responsibility rules for end-of-life vehicles.",
+   "point": "Extended Producer Responsibility obligations carry estimation uncertainty as highlighted in the auditor's emphasis of matter.",
    "evidence": [
     {
-     "quote": "Note 38(B) to the standalone financial statements",
+     "quote": "inability of the Company to reliably estimate and account for in the books its obligations under Extended Producer Responsibility (‘EPR",
      "source": "Annual report 2026",
      "page": 187,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf"
@@ -184,9 +187,6 @@
   }
  ],
  "notes": [
-  "Could not fetch transcript 2026-01: not a PDF: https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_26.pdf",
-  "Could not fetch transcript 2025-10: not a PDF: https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_26.pdf",
-  "Could not fetch transcript 2025-08: not a PDF: https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q1_FY_26.pdf",
   "Only 1 readable call transcripts were available.",
   "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
  ],
@@ -212,10 +212,10 @@
   "graded_by_code": 0,
   "graded_by_model": 0,
   "ai_calls": 2,
-  "cached_calls": 2,
+  "cached_calls": 1,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 6.4
+  "seconds": 35.6
  }
 }

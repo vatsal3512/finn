@@ -1,0 +1,771 @@
+{
+ "reports": 23,
+ "answers": 12,
+ "quotes": {
+  "found": 472,
+  "wrong_page": 0,
+  "missing": 0,
+  "no_source": 0,
+  "computed": 30
+ },
+ "numbers": {
+  "in_quote": 1051,
+  "in_documents": 122,
+  "converted": 25,
+  "nowhere": 4
+ },
+ "duplicate_quotes": [],
+ "number_flags": [
+  {
+   "where": "ADANIENT promise P9",
+   "in_documents": [
+    "10"
+   ],
+   "text": "Expect full-year FY26 passenger traffic just short of 100 million. ₹10 crore"
+  },
+  {
+   "where": "ADANIENT promise P7",
+   "in_documents": [
+    "2"
+   ],
+   "text": "Phase 2 capex for Navi Mumbai Airport will be in the tune of INR 30,000 crore. ₹30,000 crore"
+  },
+  {
+   "where": "ADANIENT promise P11",
+   "in_documents": [
+    "6",
+    "2026"
+   ],
+   "text": "New 6 GW solar cell and module lines expected ready by 30th September 2026. "
+  },
+  {
+   "where": "ADANIENT promise P13",
+   "in_documents": [
+    "6"
+   ],
+   "text": "Total capex required for 6 GW cell and module project is INR 10,000 crores. ₹10,000 crore"
+  },
+  {
+   "where": "ADANIENT bear 2",
+   "in_documents": [
+    "18,079.11"
+   ],
+   "text": "Existing loans to subsidiaries totaling ₹18,079.11 crore falling due during the year were renewed or extended prior to due dates."
+  },
+  {
+   "where": "ASIANPAINT promise P1",
+   "in_documents": [
+    "4",
+    "6"
+   ],
+   "text": "Management expects mid-single-digit value growth for full year FY26. 4–6%"
+  },
+  {
+   "where": "ASIANPAINT bear 2",
+   "in_documents": [
+    "488.74"
+   ],
+   "text": "Contingent liabilities totaled ₹488.74 crore at the end of FY26, with significant sums locked in disputed tax litigation before appellate authorities."
+  },
+  {
+   "where": "ASIANPAINT narrative",
+   "in_documents": [
+    "18.9"
+   ],
+   "text": "Management targeted 18% to 20% PBDIT margins and mid-single-digit value growth for FY26. The reported numbers aligned well, with FY26 consolidated PBDIT margin reaching 18.9% and decorative value growing 4.3%. In Q1 FY27, revenue expanded 17.9% with an EBITDA margin of 21.0%."
+  },
+  {
+   "where": "BHARTIARTL bear 1",
+   "in_documents": [
+    "47,044"
+   ],
+   "text": "Disputed statutory and tax demands total 47,044 million, posing ongoing regulatory litigation and outflow risks."
+  },
+  {
+   "where": "DIXON promise P13",
+   "in_documents": [
+    "10",
+    "99"
+   ],
+   "text": "Management expects high double-digit revenue growth in the telecom vertical in FY27. 10–99%"
+  },
+  {
+   "where": "DIXON promise P12",
+   "in_documents": [
+    "10",
+    "19"
+   ],
+   "text": "Management expects high double-digit QoQ growth in smartphone volume in Q1 FY27. 10–19%"
+  },
+  {
+   "where": "EMUDHRA promise P3",
+   "in_documents": [
+    "100"
+   ],
+   "text": "Management aims to double PAT over the next 3 years. 100%"
+  },
+  {
+   "where": "EMUDHRA promise P8",
+   "in_documents": [
+    "1",
+    "1"
+   ],
+   "text": "Management estimates over USD 1 million in profit from Cryptas in FY27. $1 million"
+  },
+  {
+   "where": "EMUDHRA promise P2",
+   "in_documents": [
+    "75",
+    "80",
+    "75",
+    "80"
+   ],
+   "text": "Management foresees total FY26 capex of around INR 75 to INR 80 crores including data center. ₹75–80 crore"
+  },
+  {
+   "where": "EMUDHRA bull 3",
+   "in_documents": [
+    "1,328.49"
+   ],
+   "text": "Operating cash flow reached 1,328.49 million rupees in FY26, supported by organic business growth across enterprise and trust segments."
+  },
+  {
+   "where": "EMUDHRA bear 3",
+   "in_documents": [
+    "92"
+   ],
+   "text": "Contingent liabilities stood at 32.29 million rupees as of March 31, 2026, alongside trade receivables days sales outstanding at 92 days."
+  },
+  {
+   "where": "EMUDHRA narrative",
+   "converted": [
+    "713.2",
+    "192.5"
+   ],
+   "text": "Management delivered on its fiscal 2026 revenue target of ₹700 crore, reporting ₹713.2 crore. First quarter fiscal 2027 revenue grew 28 percent to ₹192.5 crore. However, long-term cash generation diverges, with cumulative five-year free cash flow remaining negative at ₹88 crore."
+  },
+  {
+   "where": "ETERNAL promise P16",
+   "nowhere": [
+    "0.11"
+   ],
+   "text": "Dark stores in quick commerce are expected to reach around 11 lakh INR NOV per day in steady state. ₹0.11 crore"
+  },
+  {
+   "where": "ETERNAL promise P9",
+   "converted": [
+    "1,000,000,000"
+   ],
+   "text": "Management targets $1 billion overall EBITDA by FY29. $1,000,000,000"
+  },
+  {
+   "where": "ETERNAL promise P15",
+   "in_documents": [
+    "1",
+    "1"
+   ],
+   "text": "Management maintains its guidance of achieving 1 billion USD in Adjusted EBITDA by FY29. $1 billion"
+  },
+  {
+   "where": "HDFCBANK bear 1",
+   "nowhere": [
+    "34.17"
+   ],
+   "in_documents": [
+    "31",
+    "2026"
+   ],
+   "text": "Contingent liabilities grew significantly to over Rs 34.17 lakh crore as of March 31, 2026, driven by foreign exchange and derivative contracts."
+  },
+  {
+   "where": "HDFCBANK bear 2",
+   "in_documents": [
+    "900",
+    "2,500"
+   ],
+   "text": "Material related-party derivative transaction limits with subsidiary HDFC Life Insurance were raised nearly threefold from ₹900 crore to ₹2,500 crore."
+  },
+  {
+   "where": "HFCL promise P4",
+   "in_documents": [
+    "3,400",
+    "3,400"
+   ],
+   "text": "Management expects Optical Fibre Cable business revenue to reach ₹3,400-3,500 crore in FY27. ₹3,400–3,500 crore"
+  },
+  {
+   "where": "HFCL promise P16",
+   "in_documents": [
+    "800",
+    "800"
+   ],
+   "text": "Management expects data center connectivity solutions to generate Rs. 700 to 800 crore in FY27. ₹700–800 crore"
+  },
+  {
+   "where": "INDHOTEL promise P2",
+   "in_documents": [
+    "10"
+   ],
+   "text": "IHCL retains guidance of double-digit revenue growth for FY26. ≥ 10%"
+  },
+  {
+   "where": "INDHOTEL promise P4",
+   "in_documents": [
+    "10"
+   ],
+   "text": "Company expects both Q3 and Q4 to deliver double-digit topline growth year-on-year. ≥ 10%"
+  },
+  {
+   "where": "INDHOTEL promise P23",
+   "in_documents": [
+    "15",
+    "19.9"
+   ],
+   "text": "Management expects to sustain management fee growth at high teens CAGR. 15–19.9%"
+  },
+  {
+   "where": "INDHOTEL promise P9",
+   "in_documents": [
+    "15",
+    "19.9"
+   ],
+   "text": "Management fee income is expected to grow in the high teens in FY27. 15–19.9%"
+  },
+  {
+   "where": "INDHOTEL promise P19",
+   "in_documents": [
+    "10"
+   ],
+   "text": "Management is confident of delivering double-digit revenue growth in FY27 and beyond. ≥ 10%"
+  },
+  {
+   "where": "INDHOTEL promise P14",
+   "in_documents": [
+    "45",
+    "49"
+   ],
+   "text": "Atmantan full year margins are expected to be in high 40s. 45–49%"
+  },
+  {
+   "where": "INDHOTEL promise P15",
+   "in_documents": [
+    "18",
+    "18"
+   ],
+   "text": "Company expects to end FY26 with close to 18% YoY growth in management fee. 18%"
+  },
+  {
+   "where": "INDIGO promise P1",
+   "in_documents": [
+    "10",
+    "14"
+   ],
+   "text": "Company estimates early teens capacity growth for the full financial year 2026. 10–14%"
+  },
+  {
+   "where": "INDIGO promise P4",
+   "in_documents": [
+    "17",
+    "19"
+   ],
+   "text": "Capacity is expected to grow by high teens in both Q3 and Q4 of FY26 compared to last year. 17–19%"
+  },
+  {
+   "where": "INDIGO promise P10",
+   "in_documents": [
+    "13",
+    "17"
+   ],
+   "text": "IndiGo estimates a mid-teens improvement in unit passenger revenue in Q1 FY27 over Q1 FY26. 13–17%"
+  },
+  {
+   "where": "INDIGO promise P5",
+   "in_documents": [
+    "0",
+    "3"
+   ],
+   "text": "Company expects flattish to slight growth in PRASK in Q3 FY26. 0–3%"
+  },
+  {
+   "where": "INDIGO promise P13",
+   "in_documents": [
+    "1",
+    "9"
+   ],
+   "text": "IndiGo maintains its FY27 capacity growth guidance in the single digits. 1–9%"
+  },
+  {
+   "where": "INDIGO promise P11",
+   "in_documents": [
+    "0"
+   ],
+   "text": "IndiGo expects flattish capacity growth in Q2 FY27 year-over-year. 0%"
+  },
+  {
+   "where": "INDIGO promise P2",
+   "in_documents": [
+    "1",
+    "3"
+   ],
+   "text": "Company estimates early single-digit percentage increase in unit costs ex-fuel ex-forex for FY26. 1–3%"
+  },
+  {
+   "where": "INDIGO promise P8",
+   "in_documents": [
+    "4",
+    "6"
+   ],
+   "text": "CASK ex-fuel ex-forex for FY26 is expected to increase mid-single digits compared to FY25. 4–6%"
+  },
+  {
+   "where": "INDIGO bull 3",
+   "converted": [
+    "36,940"
+   ],
+   "text": "Free cash balance reached ₹36,940 crore at the end of Q3 FY26, maintaining robust liquidity buffers."
+  },
+  {
+   "where": "INDIGO bear 1",
+   "in_documents": [
+    "852,463"
+   ],
+   "text": "Debt to equity ratio surged to 13.21 times in FY26 from 7.21 times in FY25 as total debt reached 852,463 million rupees."
+  },
+  {
+   "where": "INDIGO narrative",
+   "in_documents": [
+    "11"
+   ],
+   "text": "Q1 FY27 unit passenger revenue beat mid-teens guidance with 19.9% growth, and Q1 FY27 capacity met guidance at 3%. However, Q3 FY26 capacity grew 11%, missing high-teens guidance, and full-year FY26 recorded a net loss of 23.9 billion rupees."
+  },
+  {
+   "where": "INDUSINDBK promise P3",
+   "in_documents": [
+    "0.60",
+    "0.6"
+   ],
+   "nowhere": [
+    "0.70",
+    "0.7"
+   ],
+   "text": "Management intends to bring Net NPA down into the 0.60%-0.70% range over time. 0.6–0.7%"
+  },
+  {
+   "where": "INDUSINDBK promise P1",
+   "in_documents": [
+    "1"
+   ],
+   "text": "IndusInd Bank expects FY27 loan growth to be broadly in line with market growth. 1 x market growth"
+  },
+  {
+   "where": "INDUSINDBK narrative",
+   "in_documents": [
+    "2,270"
+   ],
+   "text": "Management targeted a 1% exit Return on Assets while profit after tax improved from ₹128 crore in Q3 FY26 to ₹1,037 crore in Q1 FY27. Pre-provision operating profit grew from ₹2,270 crore to ₹2,773 crore over the same period."
+  },
+  {
+   "where": "INFY promise P6",
+   "in_documents": [
+    "2"
+   ],
+   "text": "The $2 billion net new mega deal is expected to contribute over 1% growth in FY28. ≥ 1%"
+  },
+  {
+   "where": "INFY bear 2",
+   "in_documents": [
+    "1,289"
+   ],
+   "text": "Enactment of new Labour Codes resulted in an exceptional liability charge of ₹1,289 crore in consolidated profit and loss for FY26."
+  },
+  {
+   "where": "KAYNES promise P5",
+   "converted": [
+    "40,000"
+   ],
+   "text": "Management expects total FY26 revenue to cross at least INR 4,000 crores (INR 40,000 million). ≥ ₹4,000 crore"
+  },
+  {
+   "where": "KAYNES promise P4",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "Expect net working capital to improve to between 70 to 85 days by March 2026. 70–85 days"
+  },
+  {
+   "where": "KAYNES promise P16",
+   "in_documents": [
+    "2"
+   ],
+   "text": "Company plans to double the market's growth rate in FY27. 2 x market growth"
+  },
+  {
+   "where": "KAYNES promise P1",
+   "converted": [
+    "1,030",
+    "1,030"
+   ],
+   "text": "Balance requirement for OSAT capex of INR 1,030 crore will be funded through QIP, internal accruals, and transitory debt. ₹1,030 crore"
+  },
+  {
+   "where": "KAYNES promise P2",
+   "converted": [
+    "1,400",
+    "320",
+    "1,400"
+   ],
+   "text": "PCB business plan includes capex of INR 1,400 crore with a balance requirement of INR 320 crore. ₹1,400 crore"
+  },
+  {
+   "where": "KAYNES promise P15",
+   "converted": [
+    "2,500"
+   ],
+   "text": "OSAT business has revenue visibility of over INR 25,000 million over the next 5 years. ≥ ₹2,500 crore"
+  },
+  {
+   "where": "KAYNES promise P12",
+   "in_documents": [
+    "1"
+   ],
+   "text": "Expects to cumulatively spend INR 1,400 crores in the PCB business for Phase 1. ₹1,400 crore"
+  },
+  {
+   "where": "KAYNES promise P24",
+   "in_documents": [
+    "850"
+   ],
+   "text": "Funding planned FY27 capex of INR 300cr OSAT, INR 300cr PCB, and INR 250cr EMS. ₹850 crore"
+  },
+  {
+   "where": "KAYNES bear 2",
+   "in_documents": [
+    "31",
+    "2026"
+   ],
+   "text": "Corporate guarantees to subsidiary companies surged to 23,903.60 million rupees as of March 31, 2026, creating significant off-balance-sheet commitment risks."
+  },
+  {
+   "where": "KAYNES narrative",
+   "in_documents": [
+    "122"
+   ],
+   "text": "Management promised minimum FY26 revenue of ₹4,000 crore, 70 to 85 working capital days, and positive operating cash flow. Numbers diverged as revenue reached ₹3,626 crore, working capital stretched to 122 days, and operating cash flow was negative ₹600 crore."
+  },
+  {
+   "where": "LT promise P5",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "Management revised the Net Working Capital to Revenue target to around 10% by March 2026. 10%"
+  },
+  {
+   "where": "LT promise P13",
+   "converted": [
+    "5,000"
+   ],
+   "text": "Envisages a capital outlay of around Rs 50 billion for Industrial Electronics over the plan period. ₹5,000 crore"
+  },
+  {
+   "where": "LT promise P14",
+   "converted": [
+    "3,000"
+   ],
+   "text": "Envisages Rs 30 billion investment into the Semiconductor business during the plan period. ₹3,000 crore"
+  },
+  {
+   "where": "LT promise P15",
+   "converted": [
+    "15,000"
+   ],
+   "text": "Envisages Rs 150 billion investment in Green Hydrogen over the plan period. ₹15,000 crore"
+  },
+  {
+   "where": "LT promise P16",
+   "converted": [
+    "10,000"
+   ],
+   "text": "Envisages around Rs 100 billion towards the Data Center business over the plan period. ₹10,000 crore"
+  },
+  {
+   "where": "LT promise P17",
+   "converted": [
+    "4,400"
+   ],
+   "text": "Allocating almost Rs 44 billion for the Realty business primarily for commercial real estate development. ₹4,400 crore"
+  },
+  {
+   "where": "LT promise P10",
+   "in_documents": [
+    "31"
+   ],
+   "text": "Targeting 10% to 12% CAGR in order inflow growth over the 5-year Lakshya 31 plan. 10–12%"
+  },
+  {
+   "where": "LT promise P11",
+   "in_documents": [
+    "5",
+    "31"
+   ],
+   "text": "Targeting 12% to 15% revenue CAGR over the 5-year Lakshya 31 period. 12–15%"
+  },
+  {
+   "where": "LT promise P12",
+   "in_documents": [
+    "31"
+   ],
+   "text": "Targeting a Return on Equity between 16% and 17% over the Lakshya 31 plan. 16–17%"
+  },
+  {
+   "where": "LT bear 1",
+   "in_documents": [
+    "8.5"
+   ],
+   "text": "Full-year FY26 revenue growth of 11.8% missed the management guidance of 15%, while P&M segment margin fell short of the 8.5% target."
+  },
+  {
+   "where": "MARUTI promise P1",
+   "in_documents": [
+    "500,000",
+    "500,000"
+   ],
+   "text": "The company expects to add 500,000 units of annual production capacity in FY27. 500,000 units"
+  },
+  {
+   "where": "MAZDOCK promise P5",
+   "in_documents": [
+    "75",
+    "2025"
+   ],
+   "text": "Management is confident of securing the order for three additional P-75 submarines before 31st March 2025. "
+  },
+  {
+   "where": "MAZDOCK promise P8",
+   "converted": [
+    "125,000"
+   ],
+   "text": "Order book is expected to increase to more than Rs. 1.25 lakh crore in FY26 upon submarine contract signings. ≥ ₹125,000 crore"
+  },
+  {
+   "where": "MAZDOCK promise P12",
+   "in_documents": [
+    "75"
+   ],
+   "text": "Expected value for P-75 additional submarines contract is Rs. 30,000 crore to Rs. 40,000 crore. ₹30,000–40,000 crore"
+  },
+  {
+   "where": "MAZDOCK promise P18",
+   "in_documents": [
+    "4"
+   ],
+   "text": "Plans first phase capex of INR 5,000 crores for a greenfield shipyard in Tuticorin over 4 to 5 years. ₹5,000 crore"
+  },
+  {
+   "where": "MAZDOCK bull 1",
+   "in_documents": [
+    "11,432"
+   ],
+   "text": "Revenue from operations reached a record ₹11,432 crore in FY25 with EBITDA margin rising to 28.24%."
+  },
+  {
+   "where": "MAZDOCK bear 3",
+   "in_documents": [
+    "24,73,195"
+   ],
+   "text": "Indemnity bonds issued to customers created significant exposure, with contingent liabilities standing at ₹24,73,195 lakhs in FY26."
+  },
+  {
+   "where": "MAZDOCK narrative",
+   "in_documents": [
+    "27,415"
+   ],
+   "text": "Management beat revenue growth targets, delivering 20.8% growth in FY25 against 10% to 12% guidance and ₹13,006 crore in FY26. However, order book expansion diverged significantly, dropping to ₹27,415 crore in FY26 against expected ₹1.25 lakh crore due to delayed submarine contracts."
+  },
+  {
+   "where": "OLAELEC promise P14",
+   "in_documents": [
+    "30",
+    "32",
+    "30",
+    "32"
+   ],
+   "text": "Gross margins are expected to remain in the 30-32% range over the next quarter or two. 30–32%"
+  },
+  {
+   "where": "PAYTM promise P10",
+   "converted": [
+    "2,500,000",
+    "3,000,000"
+   ],
+   "text": "Paytm targets adding 25 to 30 lakh merchants annually. 2,500,000–3,000,000 merchants"
+  },
+  {
+   "where": "PAYTM promise P2",
+   "in_documents": [
+    "0.2",
+    "0.2"
+   ],
+   "text": "Paytm Postpaid unit economics are expected to stay within 20 bps of previous levels. -0.2–0.2%"
+  },
+  {
+   "where": "PAYTM promise P7",
+   "in_documents": [
+    "15",
+    "20",
+    "15",
+    "20"
+   ],
+   "text": "Management targets achieving 15% to 20% EBITDA margins in about two and a half to three years. 15–20%"
+  },
+  {
+   "where": "PAYTM promise P5",
+   "in_documents": [
+    "100",
+    "100"
+   ],
+   "text": "Paytm expects Buy Now Pay Later monthly disbursals to cross 100 crore INR within six months of launch. ≥ ₹100 crore"
+  },
+  {
+   "where": "PAYTM narrative",
+   "in_documents": [
+    "15"
+   ],
+   "text": "Management promised accelerating revenue growth and expanding EBITDA margins toward 15-20%. In Q2 FY27, revenue grew 28.5% YoY to ₹2,648 crore and EBITDA margin reached 10.0%, aligning with margin expansion goals. However, free cash flow remained negative overall."
+  },
+  {
+   "where": "POLYCAB promise P7",
+   "converted": [
+    "6,000",
+    "8,000"
+   ],
+   "text": "Management remains on track to execute planned capex of INR 60 billion to INR 80 billion over next 5 years. ₹6,000–8,000 crore"
+  },
+  {
+   "where": "POLYCAB promise P2",
+   "converted": [
+    "1,200",
+    "1,600"
+   ],
+   "text": "Project Spring targets investing INR 12 billion to 16 billion annually through FY30. ₹1,200–1,600 crore"
+  },
+  {
+   "where": "POLYCAB promise P13",
+   "in_documents": [
+    "1.5",
+    "1.5"
+   ],
+   "text": "Management targets company growth at 1.5x of market growth. 1.5 x market growth"
+  },
+  {
+   "where": "POLYCAB bull 1",
+   "in_documents": [
+    "2027"
+   ],
+   "text": "Consolidated revenue grew 53% year-on-year in second quarter fiscal 2027 to ₹9,899 crore, supported by strong performance across segments."
+  },
+  {
+   "where": "POLYCAB bull 2",
+   "in_documents": [
+    "2027"
+   ],
+   "text": "FMEG segment registered breakthrough revenue growth of 124% year-on-year in second quarter fiscal 2027, with EBIT margins reaching 10.1%."
+  },
+  {
+   "where": "POLYCAB narrative",
+   "in_documents": [
+    "2027"
+   ],
+   "text": "Management promised 11% to 13% long-term EBITDA margins and 45 to 50 days working capital cycle. Operating results matched margin targets, achieving 14.0% EBITDA margin in second quarter fiscal 2027, while working capital improved significantly to 11 days."
+  },
+  {
+   "where": "RELIANCE promise P5",
+   "in_documents": [
+    "2"
+   ],
+   "text": "Reliance Retail aims to double its EBITDA over the next three years. 2 x market growth"
+  },
+  {
+   "where": "RELIANCE promise P6",
+   "converted": [
+    "100,000"
+   ],
+   "text": "FMCG business targets Rs. 1 lakh crore revenue by FY30. ₹100,000 crore"
+  },
+  {
+   "where": "RELIANCE promise P7",
+   "in_documents": [
+    "6"
+   ],
+   "text": "KGD6 gas price ceiling is expected to rise towards $9.9 in H2 FY27. 9.9 USD"
+  },
+  {
+   "where": "RELIANCE promise P2",
+   "in_documents": [
+    "2026"
+   ],
+   "text": "The Kurnool beverage plant will be ready by March 2026. "
+  },
+  {
+   "where": "RELIANCE narrative",
+   "in_documents": [
+    "6",
+    "23,200"
+   ],
+   "text": "Management reported strong top-line growth of 25% to 27% in Q1 FY27. However, while management claimed net profit grew 6% to ₹23,200 crore, reported net profit actually declined by 24.6% year-on-year to ₹23,196 crore."
+  },
+  {
+   "where": "SUNPHARMA promise P4",
+   "in_documents": [
+    "12"
+   ],
+   "text": "Management expects the acquisition to be EPS accretive from the first 12 months post-closing. "
+  },
+  {
+   "where": "SUNPHARMA promise P5",
+   "in_documents": [
+    "7",
+    "9"
+   ],
+   "text": "Company expects high single-digit top line growth in FY27. 7–9%"
+  },
+  {
+   "where": "SUNPHARMA promise P8",
+   "in_documents": [
+    "27.8"
+   ],
+   "text": "Effective tax rate expected in a similar range as Q1 FY27 until Organon closing. 27.8%"
+  },
+  {
+   "where": "SUNPHARMA bull 1",
+   "in_documents": [
+    "151,836"
+   ],
+   "text": "First quarter FY27 sales grew 10.1% year-on-year to ₹151,836 million, driven by 16% growth in Indian formulations."
+  },
+  {
+   "where": "SUNPHARMA narrative",
+   "in_documents": [
+    "151,836",
+    "5.4"
+   ],
+   "converted": [
+    "28.9"
+   ],
+   "text": "Management guided for high single-digit top line growth in FY27. In Q1 FY27, sales grew 10.1% year-on-year to ₹151,836 million, exceeding expectations, while EBITDA margin landed at 28.9% and R&D spend reached 5.4% of sales."
+  },
+  {
+   "where": "ask PERSISTENT",
+   "in_documents": [
+    "17"
+   ],
+   "text": "Management did not provide explicit forward-looking guidance numbers for revenue or margins for Q2 FY27. However, they expressed an aspirational goal of reaching 16% to 17% EBIT margins over time. For the quarter ended September 30, 2026, reported revenue was ₹4,663.9 crore (up 30.3% YoY) and EBIT margin was 15%."
+  },
+  {
+   "where": "ask ADANIENT",
+   "in_documents": [
+    "3.9"
+   ],
+   "text": "Management stated that core infrastructure net external debt is around INR 45,000 crores, backed by a regulatory asset base under $4 billion. For metals, materials, and mining, net external debt is about $2 billion against $6 billion in operating assets. Core infra leverage is guided to remain in the 3.5x to 4.5x range (at 3.9x currently), with conservative leverage kept for mining."
+  }
+ ]
+}

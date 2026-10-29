@@ -3,7 +3,7 @@
  "symbol": "INDUSINDBK",
  "name": "IndusInd Bank",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:58:52+00:00",
+ "generated_at": "2026-10-29T07:51:50+00:00",
  "snapshot": {
   "about": null,
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": null,
   "ebitda_margin": null
  },
- "narrative": "Management reported profit after tax rising to ₹1,037 crore and pre-provision operating profit reaching ₹2,773 crore in Q1 FY27, recovering from Q4 FY26 profit after tax of ₹594 crore. Full-year FY27 loan growth and RoA guidance remain pending.",
+ "narrative": "Management targeted a 1% exit Return on Assets while profit after tax improved from ₹128 crore in Q3 FY26 to ₹1,037 crore in Q1 FY27. Pre-provision operating profit grew from ₹2,270 crore to ₹2,773 crore over the same period.",
  "promises": [
   {
    "id": "P3",
@@ -28,6 +28,7 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter3/IndusInd-Bank-Analyst-Call-Q3FY26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -35,7 +36,7 @@
    "note": null
   },
   {
-   "id": "P8",
+   "id": "P7",
    "metric": "LCR range",
    "period": null,
    "target": "115–120%",
@@ -47,6 +48,7 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -55,25 +57,6 @@
   },
   {
    "id": "P1",
-   "metric": "Loan growth",
-   "period": "FY27",
-   "target": null,
-   "statement": "Management aims to grow loan book in line with the market in FY27.",
-   "said": {
-    "quote": "our intent is to grow in line with market in the financial year 2026-2027 and be in the vicinity of 1% ROA as we get to the back end of that year",
-    "source": "Q3 FY26 call, Jan 2026",
-    "page": 8,
-    "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter3/IndusInd-Bank-Analyst-Call-Q3FY26.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P5",
    "metric": "Loan growth",
    "period": "FY27",
    "target": "1 x market growth",
@@ -85,6 +68,18 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": null,
+     "source": "Q3 FY26 call, Jan 2026",
+     "said": {
+      "quote": "our intent is to grow in line with market in the financial year 2026-2027 and be in the vicinity of 1% ROA as we get to the back end of that year",
+      "source": "Q3 FY26 call, Jan 2026",
+      "page": 8,
+      "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter3/IndusInd-Bank-Analyst-Call-Q3FY26.pdf"
+     }
+    }
+   ],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -92,7 +87,7 @@
    "note": null
   },
   {
-   "id": "P6",
+   "id": "P5",
    "metric": "Micro loans book growth",
    "period": "FY27",
    "target": null,
@@ -104,6 +99,7 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -111,7 +107,7 @@
    "note": null
   },
   {
-   "id": "P7",
+   "id": "P6",
    "metric": "Return on Assets (RoA)",
    "period": "FY27",
    "target": "1%",
@@ -125,6 +121,7 @@
    "repeated_in": [
     "Q1 FY27 call, 22 Jul 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -132,7 +129,7 @@
    "note": null
   },
   {
-   "id": "P9",
+   "id": "P8",
    "metric": "Loan book growth",
    "period": "FY27",
    "target": null,
@@ -144,6 +141,7 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2026-2027/Quarter1/IndusInd-Bank_Analyst-Call_Q1FY27_20260722.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -163,6 +161,7 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter3/IndusInd-Bank-Analyst-Call-Q3FY26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -182,6 +181,7 @@
     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter3/IndusInd-Bank-Analyst-Call-Q3FY26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -200,8 +200,14 @@
  },
  "bull": [
   {
-   "point": "Profit after tax showed strong sequential recovery, rising to ₹1,037 crore in Q1 FY27 from ₹594 crore in Q4 FY26.",
+   "point": "Profit after tax expanded from ₹128 crore in Q3 FY26 to ₹594 crore in Q4 FY26 and reached ₹1,037 crore in Q1 FY27.",
    "evidence": [
+    {
+     "quote": "As a result, the profit after tax for the quarter was at Rs.128 crores",
+     "source": "Q3 FY26 call, Jan 2026",
+     "page": 3,
+     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter3/IndusInd-Bank-Analyst-Call-Q3FY26.pdf"
+    },
     {
      "quote": "As a result, the profit after tax for the quarter was at Rs.594 crores vs Rs.128 crores QoQ",
      "source": "Q4 FY26 call, 15 Apr 2026",
@@ -217,8 +223,14 @@
    ]
   },
   {
-   "point": "Pre-provision operating profit grew 21% quarter-on-quarter to ₹2,773 crore in Q1 FY27.",
+   "point": "Pre-provision operating profit increased from ₹2,295 crore in Q4 FY26 to ₹2,773 crore in Q1 FY27, delivering 21% sequential growth.",
    "evidence": [
+    {
+     "quote": "Our pre-provision operating profit at Rs.2,295 crores remained steady QoQ",
+     "source": "Q4 FY26 call, 15 Apr 2026",
+     "page": 2,
+     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
+    },
     {
      "quote": "Pre-provision operating profit stood at Rs.2,773 crore growing 8% YoY and 21% QoQ",
      "source": "Q1 FY27 call, 22 Jul 2026",
@@ -228,10 +240,16 @@
    ]
   },
   {
-   "point": "Home loan portfolio expanded 45% year-on-year to reach ₹6,510 crore in Q4 FY26.",
+   "point": "Home loan portfolio grew 45% year-on-year to ₹6,510 crore in Q4 FY26, while affordable housing loans increased 24% to ₹2,839 crore.",
    "evidence": [
     {
      "quote": "Our home loan book maintained robust momentum with outstanding at Rs.6,510 crores growing 45% YoY and 6% QoQ",
+     "source": "Q4 FY26 call, 15 Apr 2026",
+     "page": 4,
+     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
+    },
+    {
+     "quote": "Our affordable housing loan book at Rs.2,839 crores grew by 24% YoY while Kisan credit and other rural loans at Rs.4,385 crores grew 3% QoQ",
      "source": "Q4 FY26 call, 15 Apr 2026",
      "page": 4,
      "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
@@ -241,10 +259,10 @@
  ],
  "bear": [
   {
-   "point": "Auditors highlighted an Emphasis of Matter concerning accounting of derivatives, interest and fee income, and internal control enhancements.",
+   "point": "Standalone financial statements include an emphasis of matter regarding control deficiencies and disciplinary actions related to derivative, interest, and fee income accounting.",
    "evidence": [
     {
-     "quote": "explains the status of matters related to accounting of derivatives, interest and fee income and other assets and other liabilities and subsequent steps to strengthen the systems, process and related controls",
+     "quote": "status of matters related to accounting of derivatives, interest and fee income and other assets and other liabilities and subsequent steps to strengthen the systems, process and related controls",
      "source": "Annual report 2026",
      "page": 276,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9d812711-189d-437a-824d-a068b3211fea.pdf"
@@ -252,23 +270,12 @@
    ]
   },
   {
-   "point": "The statutory auditors drew attention to a qualified opinion issued by the auditor of a subsidiary company.",
+   "point": "Consolidated financial audit report highlights a qualified opinion issued by the statutory auditor of a subsidiary entity.",
    "evidence": [
     {
-     "quote": "refers to the qualified opinion issued by the auditor of the subsidiary",
+     "quote": "refers to the qualified opinion issued by the auditor of the subsidiary, vide",
      "source": "Annual report 2026",
      "page": 350,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9d812711-189d-437a-824d-a068b3211fea.pdf"
-    }
-   ]
-  },
-  {
-   "point": "The bank maintains large contingent liabilities totaling ₹11,72,712.68 crore at the end of FY26.",
-   "evidence": [
-    {
-     "quote": "Contingent Liabilities 12 1172712,68,18",
-     "source": "Annual report 2026",
-     "page": 284,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9d812711-189d-437a-824d-a068b3211fea.pdf"
     }
    ]
@@ -315,11 +322,11 @@
   "graded_by_code": 0,
   "graded_by_model": 0,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 4.9
+  "seconds": 44.6
  }
 }

@@ -3,7 +3,7 @@
  "symbol": "PERSISTENT",
  "name": "Persistent Systems",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:58:47+00:00",
+ "generated_at": "2026-10-29T07:51:06+00:00",
  "snapshot": {
   "about": "Digital engineering and enterprise modernization services powered by AI across high-tech, financial services, and healthcare verticals.",
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": -25.3,
   "ebitda_margin": 14.0
  },
- "narrative": "Revenue growth aligned with management guidance, reaching $487.6 million in Q2 FY27 with 20% year-on-year growth. However, net profit declined 25.3% year-on-year to ₹352 crore, and Q2 FY27 EBIT margin of 15% trailed the aspirational 16% to 17% range.",
+ "narrative": "Revenue reached $487.6 million in Q2 FY27 with 20% year-on-year USD growth, aligning with expansion claims. However, Q2 FY27 net profit fell 25.3% year-on-year to ₹352 crore, while EBIT margin dropped to 15%, below the 16% to 17% target range.",
  "promises": [
   {
    "id": "P10",
@@ -28,6 +28,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "The EBIT margin for the quarter came in at 15%, translating to an EBIT growth of 1.6% quarter-on-quarter and 19.5% year-on-year",
@@ -37,7 +38,7 @@
    },
    "verdict": "at_risk",
    "verdict_by": "model",
-   "note": "Q2 FY27 EBIT margin of 15% fell below the aspirational 16% to 17% range."
+   "note": "Q2 FY27 EBIT margin was 15%, below the targeted 16% to 17% aspirational range."
   },
   {
    "id": "P5",
@@ -52,6 +53,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -71,6 +73,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -90,6 +93,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -109,11 +113,12 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "code",
-   "note": "Target repeated in later communications to achieve $2 billion revenue by March 2027."
+   "note": null
   },
   {
    "id": "P9",
@@ -128,6 +133,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -147,6 +153,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -168,11 +175,12 @@
    "repeated_in": [
     "Investor call, 28 Jun 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "code",
-   "note": "Long-term $5 billion revenue target by FY31 reaffirmed in subsequent call."
+   "note": null
   },
   {
    "id": "P4",
@@ -187,11 +195,12 @@
     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "code",
-   "note": "Quarterly exit run rate target for Q4 FY27 remains pending future quarterly results."
+   "note": null
   },
   {
    "id": "P3",
@@ -206,6 +215,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b68ef2b0-b285-4696-8c08-e3bb58039b0e.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -284,11 +294,11 @@
     "url": "https://www.screener.in/company/PERSISTENT/consolidated/"
    }
   ],
-  "read": "Operating cash flow of ₹6,027 crore fully covered total reported net profit of ₹5,969 crore over FY22–FY26, though debtor days increased from 62 to 83 days."
+  "read": "Operating cash flow fully covered reported net profit over FY22 to FY26, though debtor days stretched from 62 to 83 days, delaying cash collection."
  },
  "bull": [
   {
-   "point": "Strong USD revenue expansion in Q2 FY27, reaching $487.6 million with 20% year-on-year growth.",
+   "point": "Revenue expanded 20% year-on-year in USD terms to reach $487.6 million in Q2 FY27, backed by new bookings of $367.1 million.",
    "evidence": [
     {
      "quote": "We achieved a healthy revenue growth of 7.8% quarter-on-quarter and 20% year-on-year delivering USD 487.6 million in Q2 FY27",
@@ -301,11 +311,17 @@
      "source": "Q2 FY27 call, 15 Oct 2026",
      "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
+     "quote": "with total contract value of new bookings coming in at USD 367.1 million",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
     }
    ]
   },
   {
-   "point": "Solid historical cash generation, with five-year cumulative operating cash flow of ₹6,027 crore exceeding cumulative net profit of ₹5,969 crore.",
+   "point": "Operating cash flow of ₹6,027 crore fully backed reported profits of ₹5,969 crore over FY22 to FY26.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹6,027 crore covered all of reported profit, ₹5,969 crore.",
@@ -316,16 +332,10 @@
    ]
   },
   {
-   "point": "Healthy order pipeline demonstrated by Q2 FY27 total contract value of $633.5 million and new contract bookings of $367.1 million.",
+   "point": "Total contract value for Q2 FY27 reached $633.5 million, maintaining steady deal intake across key service lines.",
    "evidence": [
     {
      "quote": "Coming to the order book for the quarter, the total contract value for the quarter stood at USD 633.5 million",
-     "source": "Q2 FY27 call, 15 Oct 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    },
-    {
-     "quote": "with total contract value of new bookings coming in at USD 367.1 million",
      "source": "Q2 FY27 call, 15 Oct 2026",
      "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
@@ -335,7 +345,7 @@
  ],
  "bear": [
   {
-   "point": "Debtor collection cycles slowed considerably, with debtor days increasing from 62 to 83 days between FY24 and FY26.",
+   "point": "Debtor days increased significantly from 62 to 83 days between FY24 and FY26, showing slower collection from customers.",
    "evidence": [
     {
      "quote": "Debtor days rose from 62 to 83 between FY24 and FY26: cash is waiting longer in the business.",
@@ -346,7 +356,18 @@
    ]
   },
   {
-   "point": "Recent quarterly profitability weakened, with net profit falling 25.3% year-on-year in Q2 FY27 and EBIT margin missing management's aspirational band.",
+   "point": "Fixed-price contract revenue recognition carries inherent estimation risks regarding future effort to complete performance obligations.",
+   "evidence": [
+    {
+     "quote": "The Group inter alia engages in Fixed-price contracts, wherein, revenue is recognised over the period of time using the percentage of completion computed as per the input method",
+     "source": "Annual report 2026",
+     "page": 297,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf"
+    }
+   ]
+  },
+  {
+   "point": "EBIT margin fell to 15% in Q2 FY27, below the 16% to 17% target range, alongside expected $50 million transaction costs.",
    "evidence": [
     {
      "quote": "The EBIT margin for the quarter came in at 15%, translating to an EBIT growth of 1.6% quarter-on-quarter and 19.5% year-on-year",
@@ -355,21 +376,16 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
     },
     {
+     "quote": "Overall, we are expecting one-time expenses to the tune of approximately $50 million spread over three to four quarters",
+     "source": "Q2 FY27 call, 15 Oct 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
      "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
      "source": "Q2 FY27 call, 15 Oct 2026",
      "page": 19,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Auditors designated revenue recognition on fixed-price contracts as a key audit matter due to inherent estimation risks.",
-   "evidence": [
-    {
-     "quote": "there is an inherent risk and presumed fraud risk around the existence of revenue recognised considering the customised and complex nature of these contracts",
-     "source": "Annual report 2026",
-     "page": 297,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf"
     }
    ]
   }
@@ -415,12 +431,12 @@
   "graded_by_code": 3,
   "graded_by_model": 1,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
    "gemini-3.5-flash",
    "gemini-3.6-flash",
    "gemini-3.8-flash"
   ],
-  "seconds": 4.3
+  "seconds": 63.0
  }
 }

@@ -3,7 +3,7 @@
  "symbol": "HDFCBANK",
  "name": "HDFC Bank",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:56:55+00:00",
+ "generated_at": "2026-10-29T07:33:10+00:00",
  "snapshot": {
   "about": null,
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 5.8,
   "ebitda_margin": null
  },
- "narrative": "Management delivered on key metrics in FY26, with credit growth reaching 12%, deposit growth at 14.4%, and net income rising 11%. Asset quality improved to 1.11% gross NPAs in Q2 FY27. However, reported profit growth slowed to 5% in Q1 FY27.",
+ "narrative": "Management targeted 18% to 21% MSME business banking growth and achieved 22.3% in Q1 FY27. Gross NPAs improved to 1.11% in Q2 FY27. Upward margin trajectory guidance for Q3 FY27 remains pending evaluation.",
  "promises": [
   {
    "id": "P1",
@@ -30,6 +30,7 @@
    "repeated_in": [
     "Q2 FY27 call, 17 Oct 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "Last quarter, I think we were about 116%. Now we are 114%",
@@ -39,7 +40,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "LCR stood at 114% in Q4 FY26 and management reaffirmed the 110% to 120% target band in Q2 FY27."
+   "note": "Liquidity coverage ratio was reported at 114% in Q4 FY26, remaining within the target range."
   },
   {
    "id": "P2",
@@ -54,6 +55,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "we have seen a business banking which is the largest component of our MSME segment grow at 22.3% this year",
@@ -63,7 +65,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Business banking segment grew 22.3% year-on-year in Q1 FY27, near the target range."
+   "note": "Business banking grew 22.3% year-on-year in Q1 FY27, exceeding the 18% to 21% guidance."
   },
   {
    "id": "P3",
@@ -78,6 +80,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -96,25 +99,25 @@
  },
  "bull": [
   {
-   "point": "Retail disbursements accelerated strongly, exceeding ₹90,000 crore in Q2 FY27 compared to ₹76,000 crore in Q1.",
+   "point": "MSME business banking segment grew 22.3% year-on-year in Q1 FY27, beating the guidance range of 18% to 21%.",
    "evidence": [
     {
-     "quote": "The pace of retail disbursements is accelerating and has crossed Rs 90,000 crores during Q2 FY27 as against Rs 76,000 crores in Q1 of this year",
-     "source": "Q2 FY27 call, 17 Oct 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+     "quote": "that will continue to also be in that range of 18% to 20%, 21%, depending upon, obviously, some of the developments in the economy",
+     "source": "Q4 FY26 call, 18 Apr 2026",
+     "page": 12,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+    },
+    {
+     "quote": "we have seen a business banking which is the largest component of our MSME segment grow at 22.3% this year",
+     "source": "Q1 FY27 call, 18 Jul 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
     }
    ]
   },
   {
-   "point": "Asset quality remains pristine with the gross NPA ratio declining to 1.11% in Q2 FY27 from 1.15% in FY26.",
+   "point": "Gross NPA ratio improved to 1.11% in Q2 FY27, declining 13 basis points year-on-year.",
    "evidence": [
-    {
-     "quote": "Our asset quality is extremely healthy at 1.15% gross NPAs",
-     "source": "Q4 FY26 call, 18 Apr 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
-    },
     {
      "quote": "Our asset quality remains pristine, with GNPA at 1.11%, 13 basis points lower than year￾on-year",
      "source": "Q2 FY27 call, 17 Oct 2026",
@@ -124,32 +127,20 @@
    ]
   },
   {
-   "point": "Capital position remains robust at 19.7%, supporting strong double-digit growth across credit and deposit franchises.",
+   "point": "Retail disbursements accelerated significantly to cross ₹90,000 crore in Q2 FY27 from ₹76,000 crore in Q1 FY27.",
    "evidence": [
     {
-     "quote": "We had estimated the system credit growth to be around 10.5% to 11.5%. We did 12%, up from 5.5% last year",
-     "source": "Q4 FY26 call, 18 Apr 2026",
+     "quote": "The pace of retail disbursements is accelerating and has crossed Rs 90,000 crores during Q2 FY27 as against Rs 76,000 crores in Q1 of this year",
+     "source": "Q2 FY27 call, 17 Oct 2026",
      "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
-    },
-    {
-     "quote": "Deposit growth rate at 14.4% continues to grow faster than the credit growth, which is what we've always been doing",
-     "source": "Q4 FY26 call, 18 Apr 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
-    },
-    {
-     "quote": "We have a strong capital position at 19.7%",
-     "source": "Q4 FY26 call, 18 Apr 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "Contingent liabilities expanded significantly to over Rs 34.18 trillion as of March 31, 2026.",
+   "point": "Contingent liabilities grew significantly to over Rs 34.17 lakh crore as of March 31, 2026, driven by foreign exchange and derivative contracts.",
    "evidence": [
     {
      "quote": "Contingent liabilities 12 34,179,458,972 26,474,170,018",
@@ -160,30 +151,13 @@
    ]
   },
   {
-   "point": "The bank sought member approval for a material modification to related party derivative transactions with subsidiary HDFC Life.",
+   "point": "Material related-party derivative transaction limits with subsidiary HDFC Life Insurance were raised nearly threefold from ₹900 crore to ₹2,500 crore.",
    "evidence": [
     {
-     "quote": "Yes, it is a material modification to a material related party transaction",
+     "quote": "approval of the Members of the Bank be and is hereby accorded for material modification to the transactions relating to Derivatives, for entering into",
      "source": "Annual report 2026",
-     "page": 16,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Reported profit growth slowed to 5% year-on-year in Q1 FY27 compared to 11% net income growth in FY26.",
-   "evidence": [
-    {
-     "quote": "Net income growth clocked at 11%, similar to the last financial year",
-     "source": "Q4 FY26 call, 18 Apr 2026",
      "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf"
-    },
-    {
-     "quote": "The reported profits when you compare last year this year, it does show 5%",
-     "source": "Q1 FY27 call, 18 Jul 2026",
-     "page": 11,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf"
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf"
     }
    ]
   }
@@ -229,11 +203,10 @@
   "graded_by_code": 0,
   "graded_by_model": 2,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
-   "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 5.1
+  "seconds": 47.7
  }
 }

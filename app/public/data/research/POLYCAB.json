@@ -3,7 +3,7 @@
  "symbol": "POLYCAB",
  "name": "Polycab India",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:58:27+00:00",
+ "generated_at": "2026-10-29T07:46:56+00:00",
  "snapshot": {
   "about": "Polycab India Limited manufactures wires, cables, fast-moving electrical goods (FMEG), and executes EPC projects.",
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 42.9,
   "ebitda_margin": 14.0
  },
- "narrative": "Management promised long-term EBITDA margins of 11% to 13%, which aligns with FY26 EBITDA margin of 13.9% and Q2 FY27 margin of 14.4%. However, FMEG Q4 FY26 EBIT margin of 4.1% diverged from the 8% to 10% target before recovering.",
+ "narrative": "Management promised 11% to 13% long-term EBITDA margins and 45 to 50 days working capital cycle. Operating results matched margin targets, achieving 14.0% EBITDA margin in second quarter fiscal 2027, while working capital improved significantly to 11 days.",
  "promises": [
   {
    "id": "P1",
@@ -28,16 +28,17 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "our working capital cycle has improved to 25 days in Quarter 4",
-    "source": "Q4 FY26 call, 6 May 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+    "quote": "We also witnessed further improvement in our working capital efficiency, with the average working capital cycle reducing to approximately 11 days in second quarter fiscal '27",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Working capital cycle improved to 11 days in Q2 FY27, below the long-term target range."
+   "note": "Working capital cycle reached 11 days in second quarter fiscal 2027, well below the target range."
   },
   {
    "id": "P4",
@@ -52,6 +53,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "Despite the lower revenue base, profitability remained healthy at INR 338 million, translating into a margin of 11%",
@@ -61,7 +63,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "EPC EBIT margins stood at 11% in Q1 FY27 and 7.2% in Q2 FY27."
+   "note": "EPC EBIT margin stood at 11% in first quarter and 7.2% in second quarter fiscal 2027."
   },
   {
    "id": "P5",
@@ -78,16 +80,17 @@
    "repeated_in": [
     "Q4 FY26 call, 6 May 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "EBITDA grew faster than revenue, increasing by 35% year-on-year with margins expanding to 13.9%",
-    "source": "Q4 FY26 call, 6 May 2026",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+    "quote": "EBITDA increased by 32% year￾on-year and the margins stood at 13.8%, reflecting an improvement of approximately 70 basis points sequentially over the previous quarter",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "EBITDA margins reached 13.9% in FY26 and expanded to 14.4% in Q2 FY27."
+   "note": "EBITDA margin reached 13.8% in first quarter and 14.4% in second quarter fiscal 2027."
   },
   {
    "id": "P6",
@@ -105,6 +108,7 @@
     "Q1 FY27 call, 16 Jul 2026",
     "Q2 FY27 call, 15 Oct 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "We also witnessed further improvement in our working capital efficiency, with the average working capital cycle reducing to approximately 11 days in second quarter fiscal '27",
@@ -114,7 +118,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Working capital cycle reduced to 11 days in Q2 FY27 while long-term targets remain unchanged."
+   "note": "Average working capital cycle stood at 11 days in second quarter fiscal 2027."
   },
   {
    "id": "P7",
@@ -129,16 +133,17 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "Capital expenditure during the quarter amounted to INR 3.2 billion, reflecting our continued commitment to building capacity and strengthening future growth drivers",
-    "source": "Q1 FY27 call, 16 Jul 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+    "quote": "taking the total capex for full financial year to approximately INR14.8 billion",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Long-term capex plan progresses with 6.1 billion rupees spent in H1 FY27."
+   "note": "Capex reached 14.8 billion rupees in fiscal 2026 and 6.1 billion rupees in first half fiscal 2027."
   },
   {
    "id": "P9",
@@ -153,6 +158,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "EBITDA increased by 32% year￾on-year and the margins stood at 13.8%, reflecting an improvement of approximately 70 basis points sequentially over the previous quarter",
@@ -162,7 +168,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "EBITDA margins were 13.8% in Q1 FY27 and 14.4% in Q2 FY27."
+   "note": "Consolidated EBITDA margin reached 13.8% in first quarter and 14.4% in second quarter fiscal 2027."
   },
   {
    "id": "P10",
@@ -177,16 +183,17 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "During the first half of the year, we incurred capital expenditures of INR 6.1 billion, reflecting our ongoing investments in capacity expansion, supply chain capabilities and future growth platforms",
-    "source": "Q2 FY27 call, 15 Oct 2026",
+    "quote": "taking the total capex for full financial year to approximately INR14.8 billion",
+    "source": "Q4 FY26 call, 6 May 2026",
     "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Incurred 6.1 billion rupees capex in H1 FY27 towards annual capacity expansion."
+   "note": "Capex reached 14.8 billion rupees in fiscal 2026 and 6.1 billion rupees in first half fiscal 2027."
   },
   {
    "id": "P11",
@@ -201,6 +208,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "EBIT margins for the Wires & Cables business stood at 13.3%",
@@ -210,55 +218,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Wires and Cables EBIT margin reached 13.3% in Q1 FY27 and 14.2% in Q2 FY27."
-  },
-  {
-   "id": "P12",
-   "metric": "FMEG growth relative to industry",
-   "period": null,
-   "target": "1.5–2 x market growth",
-   "statement": "Company aims to grow FMEG segment at 1.5x to 2x of industry growth.",
-   "said": {
-    "quote": "Our strategic priorities remain unchanged to grow at 1.5x to 2x of the industry growth while progressively enhancing profitability",
-    "source": "Q1 FY27 call, 16 Jul 2026",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "The FMEG segment delivered a breakthrough quarter, registering a remarkable 124% year-on-year growth with strong performance across all major product categories",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "FMEG segment registered 124% YoY growth in Q2 FY27, delivering strong market outperformance."
-  },
-  {
-   "id": "P13",
-   "metric": "Overall market relative growth guidance",
-   "period": null,
-   "target": "1.5 x market growth",
-   "statement": "Management targets company growth at 1.5x of market growth.",
-   "said": {
-    "quote": "So as long as there is growth in the volumes or growth in the market, we definitely do better than the industry growth rate. That is the only guidance we can give",
-    "source": "Q1 FY27 call, 16 Jul 2026",
-    "page": 9,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "Consolidated revenue grew by 53% year-on-year, with all business segments contributing meaningfully to this growth momentum",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Consolidated revenue grew 53% YoY in Q2 FY27 and 46% YoY in H1 FY27."
+   "note": "Wires and cables segment EBIT margin reached 13.3% in first quarter and 14.2% in second quarter fiscal 2027."
   },
   {
    "id": "P16",
@@ -273,6 +233,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "EBIT margins in the Wires and Cables segment stood at 14.2%",
@@ -282,55 +243,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Segment EBIT margin achieved 14.2% in Q2 FY27, exceeding medium-term guidance range."
-  },
-  {
-   "id": "P17",
-   "metric": "FMEG growth relative target",
-   "period": null,
-   "target": "1.5–2 x market growth",
-   "statement": "Target for FMEG business is to grow at 1.5x to 2x of industry growth rate.",
-   "said": {
-    "quote": "Our objective continues to be growing at 1.5x to 2x of the industry growth rate while steadily enhancing profitability",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "The FMEG segment delivered a breakthrough quarter, registering a remarkable 124% year-on-year growth with strong performance across all major product categories",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "FMEG segment revenue surged 124% YoY in Q2 FY27 showing strong operational momentum."
-  },
-  {
-   "id": "P18",
-   "metric": "Wires and Cables relative volume growth target",
-   "period": null,
-   "target": "1.5 x market growth",
-   "statement": "Polycab aims to grow Wires and Cables volumes at 1.5x of market growth rate long term.",
-   "said": {
-    "quote": "What we have called out already, as an anchor to look into the volume growth, is that whatever the market grows, we will do 1.5x of that in cable and wires",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 13,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "The Wires and Cables segment delivered a strong quarter, recording 47% year-on-year revenue growth",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Segment revenue surged 47% YoY with domestic business growing 50% YoY in Q2 FY27."
+   "note": "Wires and cables segment EBIT margin reached 14.2% in second quarter fiscal 2027."
   },
   {
    "id": "P2",
@@ -345,6 +258,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "taking the total capex for full financial year to approximately INR14.8 billion",
@@ -354,7 +268,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Annual capex reached 14.8 billion rupees in FY26 and H1 FY27 capex reached 6.1 billion rupees."
+   "note": "Annual capex reached 14.8 billion rupees in fiscal 2026 and 6.1 billion rupees in first half fiscal 2027."
   },
   {
    "id": "P3",
@@ -373,42 +287,117 @@
     "Q1 FY27 call, 16 Jul 2026",
     "Q2 FY27 call, 15 Oct 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "EBIT margins for the quarter were 8%, very much in line with the milestones laid out under Project Spring, where we target EBITDA margins of 8% to 10% by FY 2030",
+    "quote": "The segment also achieved a major profitability milestone, with EBIT margins crossing the double-digit mark for the first time and recording a 10.1% margin during the quarter",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": "FMEG segment EBIT margin reached 10.1% in second quarter fiscal 2027, hitting the target ahead of schedule."
+  },
+  {
+   "id": "P12",
+   "metric": "FMEG growth relative to industry",
+   "period": null,
+   "target": "1.5–2 x market growth",
+   "statement": "Company aims to grow FMEG segment at 1.5x to 2x of industry growth.",
+   "said": {
+    "quote": "Our strategic priorities remain unchanged to grow at 1.5x to 2x of the industry growth while progressively enhancing profitability",
     "source": "Q1 FY27 call, 16 Jul 2026",
     "page": 6,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
    },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "FMEG segment EBIT margins expanded to 8% in Q1 FY27 and 10.1% in Q2 FY27."
-  },
-  {
-   "id": "P8",
-   "metric": "Export contribution to revenue target",
-   "period": "FY30",
-   "target": "≥ 10%",
-   "statement": "Company targets greater than 10% contribution from exports by FY30.",
-   "said": {
-    "quote": "We remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030",
-    "source": "Q4 FY26 call, 6 May 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
-   },
-   "repeated_in": [
-    "Q1 FY27 call, 16 Jul 2026"
-   ],
+   "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "Our international business delivered robust performance, growing 18% year-on-year and contributing 4.4% of consolidated revenue",
-    "source": "Q4 FY26 call, 6 May 2026",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+    "quote": "The FMEG segment delivered another outstanding quarter, recording 71% year-on-year growth with strong contributions across all product categories",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
    },
-   "verdict": "on_track",
+   "verdict": "pending",
    "verdict_by": "model",
-   "note": "International sales contributed 4.4% in Q4 FY26 and export sales grew 17% YoY in Q2 FY27."
+   "note": null
+  },
+  {
+   "id": "P13",
+   "metric": "Overall market relative growth guidance",
+   "period": null,
+   "target": "1.5 x market growth",
+   "statement": "Management targets company growth at 1.5x of market growth.",
+   "said": {
+    "quote": "So as long as there is growth in the volumes or growth in the market, we definitely do better than the industry growth rate. That is the only guidance we can give",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Consolidated revenues grew by 39% year-on-year, supported by sustained momentum across both our wires and cables and FMEG businesses",
+    "source": "Q1 FY27 call, 16 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "FMEG growth relative target",
+   "period": null,
+   "target": "1.5–2 x market growth",
+   "statement": "Target for FMEG business is to grow at 1.5x to 2x of industry growth rate.",
+   "said": {
+    "quote": "Our objective continues to be growing at 1.5x to 2x of the industry growth rate while steadily enhancing profitability",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "The FMEG segment delivered a breakthrough quarter, registering a remarkable 124% year-on-year growth with strong performance across all major product categories",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P18",
+   "metric": "Wires and Cables relative volume growth target",
+   "period": null,
+   "target": "1.5 x market growth",
+   "statement": "Polycab aims to grow Wires and Cables volumes at 1.5x of market growth rate long term.",
+   "said": {
+    "quote": "What we have called out already, as an anchor to look into the volume growth, is that whatever the market grows, we will do 1.5x of that in cable and wires",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 13,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Within this, the domestic Wires and Cables business grew by an impressive 50% year￾on-year, driven by healthy demand conditions, strong channel execution and favourable commodity linked realizations",
+    "source": "Q2 FY27 call, 15 Oct 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+   },
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
   },
   {
    "id": "P14",
@@ -423,13 +412,9 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "The EPC segment reported revenues of INR 6,171 million in Q2 FY27, representing a healthy year-on-year growth of 53%",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -447,13 +432,9 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "The EPC segment reported revenues of INR 6,171 million in Q2 FY27, representing a healthy year-on-year growth of 53%",
-    "source": "Q2 FY27 call, 15 Oct 2026",
-    "page": 7,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -471,8 +452,36 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Export contribution to revenue target",
+   "period": "FY30",
+   "target": "≥ 10%",
+   "statement": "Company targets greater than 10% contribution from exports by FY30.",
+   "said": {
+    "quote": "We remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
+   "repeated_in": [
+    "Q1 FY27 call, 16 Jul 2026"
+   ],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Our international business delivered robust performance, growing 18% year-on-year and contributing 4.4% of consolidated revenue",
+    "source": "Q4 FY26 call, 6 May 2026",
+    "page": 7,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+   },
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -543,11 +552,11 @@
     "url": "https://www.screener.in/company/POLYCAB/consolidated/"
    }
   ],
-  "read": "Profits reliably convert into cash. Over FY22 to FY26, cumulative operating cash flow of ₹8,856 crore fully covered total reported profit of ₹8,756 crore."
+  "read": "Over fiscal 2022 to 2026, operating cash flow of ₹8,856 crore fully covered reported net profit of ₹8,756 crore, demonstrating strong cash conversion."
  },
  "bull": [
   {
-   "point": "Polycab achieved rapid top-line growth, with consolidated revenue expanding 53% year-on-year to ₹9,899 crore in Q2 FY27.",
+   "point": "Consolidated revenue grew 53% year-on-year in second quarter fiscal 2027 to ₹9,899 crore, supported by strong performance across segments.",
    "evidence": [
     {
      "quote": "Consolidated revenue grew by 53% year-on-year, with all business segments contributing meaningfully to this growth momentum",
@@ -558,7 +567,7 @@
    ]
   },
   {
-   "point": "FMEG profitability improved sharply, with segment EBIT margin crossing 10.1% in Q2 FY27 alongside 124% YoY revenue growth.",
+   "point": "FMEG segment registered breakthrough revenue growth of 124% year-on-year in second quarter fiscal 2027, with EBIT margins reaching 10.1%.",
    "evidence": [
     {
      "quote": "The FMEG segment delivered a breakthrough quarter, registering a remarkable 124% year-on-year growth with strong performance across all major product categories",
@@ -575,7 +584,7 @@
    ]
   },
   {
-   "point": "Cash conversion is exceptionally strong, with cumulative operating cash flows fully covering reported net profits over FY22 to FY26.",
+   "point": "Operating cash flow of ₹8,856 crore exceeded total reported profit of ₹8,756 crore between fiscal 2022 and 2026.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹8,856 crore covered all of reported profit, ₹8,756 crore.",
@@ -588,7 +597,7 @@
  ],
  "bear": [
   {
-   "point": "Auditors highlighted revenue recognition as a key audit matter due to the risk of overstatement before control is transferred to customers.",
+   "point": "Revenue recognition involves significant risk of being overstated before control transfers, requiring extensive testing of contract terms and sales invoices.",
    "evidence": [
     {
      "quote": "Revenue is a key performance indicator for the Group considered by all stakeholders including management to evaluate performance of the Group resulting in the risk of revenue being overstated",
@@ -599,10 +608,10 @@
    ]
   },
   {
-   "point": "Auditors noted EPC revenue measurement involves significant complexity and management judgement in estimating total contract costs.",
+   "point": "EPC contract revenue relies on complex management estimates of total contract costs to measure percentage of completion and identify potential loss contracts.",
    "evidence": [
     {
-     "quote": "Considering the complexity of the estimate involved in measurement of total contract costs, extent of management judgement and the significance of these amounts, we have considered measurement of revenue",
+     "quote": "One of the key estimates involved in recognizing EPC contract revenue is the estimated total contract cost. It is used to determine the percentage of completion of the relevant performance obligation",
      "source": "Annual report 2026",
      "page": 309,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf"
@@ -610,10 +619,10 @@
    ]
   },
   {
-   "point": "Inventory valuation was designated a key audit matter due to its size and price volatility risks in copper and aluminum raw materials.",
+   "point": "Wires and cables inventory valuation carries complexity and risk from fluctuations in copper and aluminum prices requiring derivative commodity hedge accounting.",
    "evidence": [
     {
-     "quote": "We have considered Inventory Valuation as a key audit matter because of its size, the assumptions used in the valuation and the complexity, which are relevant when determining the amounts",
+     "quote": "We have considered Inventory Valuation as a key audit matter because of its size, the assumptions used in the valuation and the complexity, which are relevant when determining the amounts recorded",
      "source": "Annual report 2026",
      "page": 310,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf"
@@ -660,12 +669,12 @@
   "quotes_verified": 82,
   "quotes_dropped": 0,
   "graded_by_code": 0,
-  "graded_by_model": 16,
+  "graded_by_model": 11,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 4.5
+  "seconds": 91.5
  }
 }

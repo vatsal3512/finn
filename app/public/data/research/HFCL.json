@@ -3,7 +3,7 @@
  "symbol": "HFCL",
  "name": "HFCL",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:56:50+00:00",
+ "generated_at": "2026-10-29T07:32:22+00:00",
  "snapshot": {
   "about": "HFCL manufactures optical fiber, cables, connectivity solutions, and defense and aerospace equipment.",
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 447.2,
   "ebitda_margin": 25.0
  },
- "narrative": "Management delivered strong Q2 FY27 revenue growth of ₹2,541.79 crore and net profit of ₹394.22 crore, raising FY27 revenue guidance to at least 80%. However, long-term cash conversion remains weak despite strong top-line targets.",
+ "narrative": "Revenue grew 143.6% year-on-year to ₹2,542 crore in the latest quarter alongside a 447.2% surge in net profit to ₹394 crore, matching management's elevated growth expectations. However, cash flow conversion remains weak as rapid operational scaling expands working capital requirements.",
  "promises": [
   {
    "id": "P2",
@@ -28,6 +28,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": "50.6%",
    "actual_source": {
     "quote": "Sequential Revenue Growth, Q4 FY26: 50.6%",
@@ -52,6 +53,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -59,7 +61,7 @@
    "note": null
   },
   {
-   "id": "P21",
+   "id": "P18",
    "metric": "Planned Investment",
    "period": null,
    "target": "₹1,800 crore",
@@ -71,6 +73,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -92,6 +95,7 @@
    "repeated_in": [
     "Q3 FY26 call, 3 Feb 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -111,6 +115,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -119,24 +124,31 @@
   },
   {
    "id": "P5",
-   "metric": "Defence Revenue",
+   "metric": "Defence revenue",
    "period": "FY27",
-   "target": "₹400–500 crore",
-   "statement": "Management expects defence product revenues of ₹400-500 crore next financial year.",
+   "target": "₹500–600 crore",
+   "statement": "Management targets ₹500 crore to ₹600 crore in Defence revenue for FY27.",
    "said": {
-    "quote": "Defence line of products, I think we should be something like INR400 crores to INR500 crores",
-    "source": "Q3 FY26 call, 3 Feb 2026",
-    "page": 18,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
+    "quote": "So revenue this year, as I said, maintain INR500 crores to INR600 crores",
+    "source": "Q2 FY27 call, 19 Oct 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": "₹400–500 crore",
+     "source": "Q3 FY26 call, 3 Feb 2026",
+     "said": {
+      "quote": "Defence line of products, I think we should be something like INR400 crores to INR500 crores",
+      "source": "Q3 FY26 call, 3 Feb 2026",
+      "page": 18,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
+     }
+    }
+   ],
    "actual": null,
-   "actual_source": {
-    "quote": "At the beginning of the financial year, we had shared our aspiration of achieving approximately ₹500 crore of Revenue in Defence sector during FY27",
-    "source": "Q1 FY27 call, 22 Jul 2026",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -156,6 +168,7 @@
    "repeated_in": [
     "Q1 FY27 call, 22 Jul 2026"
    ],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -175,6 +188,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -194,30 +208,48 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "Even in the first year of production, which is the current year, we expect a revenue of more than Rs.700 crores with a clear visibility to increase it further multiple folds in subsequent years",
-    "source": "Q1 FY27 call, 22 Jul 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
    "id": "P12",
-   "metric": "Revenue growth guidance",
+   "metric": "Revenue growth",
    "period": "FY27",
-   "target": "20–25%",
-   "statement": "Management expects to scale up revenue by 20% to 25% in FY27.",
+   "target": "≥ 80%",
+   "statement": "Management expects revenue growth of at least 80% in FY27.",
    "said": {
-    "quote": "we should definitely be able to scale it up by 20% to 25% at least",
-    "source": "Q4 FY26 call, 30 Apr 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
+    "quote": "today when I present Q2FY27 results to you, i am extremely pleased to share that, based on our current expectations and business visibility, we expect revenue growth of at least 80% in this financial year",
+    "source": "Q2 FY27 call, 19 Oct 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": "20–25%",
+     "source": "Q4 FY26 call, 30 Apr 2026",
+     "said": {
+      "quote": "we should definitely be able to scale it up by 20% to 25% at least",
+      "source": "Q4 FY26 call, 30 Apr 2026",
+      "page": 8,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
+     }
+    },
+    {
+     "target": "≥ 40%",
+     "source": "Q1 FY27 call, 22 Jul 2026",
+     "said": {
+      "quote": "we, to the best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and above",
+      "source": "Q1 FY27 call, 22 Jul 2026",
+      "page": 4,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
+     }
+    }
+   ],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -237,6 +269,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -245,49 +278,6 @@
   },
   {
    "id": "P14",
-   "metric": "Capital Expenditure",
-   "period": "FY27",
-   "target": "₹600 crore",
-   "statement": "Total capex for FY27 is expected to be roughly around Rs 600 crore.",
-   "said": {
-    "quote": "total capex for FY26 would be roughly about the current FY27 could be roughly about INR600 crores, part of which has already been incurred",
-    "source": "Q4 FY26 call, 30 Apr 2026",
-    "page": 13,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "This year, total capex is INR640 crores, which includes part of the preform",
-    "source": "Q1 FY27 call, 22 Jul 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
-   },
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P15",
-   "metric": "Revenue growth guidance",
-   "period": "FY27",
-   "target": "≥ 40%",
-   "statement": "HFCL raised its FY27 revenue growth target to 40% and above.",
-   "said": {
-    "quote": "we, to the best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and above",
-    "source": "Q1 FY27 call, 22 Jul 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P16",
    "metric": "Capital Expenditure",
    "period": "FY27",
    "target": "₹640 crore",
@@ -299,19 +289,26 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
    },
    "repeated_in": [],
+   "revised_from": [
+    {
+     "target": "₹600 crore",
+     "source": "Q4 FY26 call, 30 Apr 2026",
+     "said": {
+      "quote": "total capex for FY26 would be roughly about the current FY27 could be roughly about INR600 crores, part of which has already been incurred",
+      "source": "Q4 FY26 call, 30 Apr 2026",
+      "page": 13,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
+     }
+    }
+   ],
    "actual": null,
-   "actual_source": {
-    "quote": "total capex for FY26 would be roughly about the current FY27 could be roughly about INR600 crores, part of which has already been incurred",
-    "source": "Q4 FY26 call, 30 Apr 2026",
-    "page": 13,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P18",
+   "id": "P16",
    "metric": "Data Center Connectivity Revenue",
    "period": "FY27",
    "target": "₹700–800 crore",
@@ -323,62 +320,15 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "It is expected that data centre interconnect solutions will contribute about Rs.400 crore additional revenue in FY26-27 and about Rs.800 crore in FY27- 28",
-    "source": "Q4 FY26 call, 30 Apr 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
    "id": "P20",
-   "metric": "Revenue growth",
-   "period": "FY27",
-   "target": "≥ 80%",
-   "statement": "Management expects revenue growth of at least 80% in FY27.",
-   "said": {
-    "quote": "today when I present Q2FY27 results to you, i am extremely pleased to share that, based on our current expectations and business visibility, we expect revenue growth of at least 80% in this financial year",
-    "source": "Q2 FY27 call, 19 Oct 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "code",
-   "note": null
-  },
-  {
-   "id": "P22",
-   "metric": "Defence revenue",
-   "period": "FY27",
-   "target": "₹500–600 crore",
-   "statement": "Management targets ₹500 crore to ₹600 crore in Defence revenue for FY27.",
-   "said": {
-    "quote": "So revenue this year, as I said, maintain INR500 crores to INR600 crores",
-    "source": "Q2 FY27 call, 19 Oct 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "Defence line of products, I think we should be something like INR400 crores to INR500 crores",
-    "source": "Q3 FY26 call, 3 Feb 2026",
-    "page": 18,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
-   },
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P24",
    "metric": "Connectivity Solutions Revenue",
    "period": "FY27",
    "target": "≥ ₹800 crore",
@@ -390,13 +340,9 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "It is expected that data centre interconnect solutions will contribute about Rs.400 crore additional revenue in FY26-27 and about Rs.800 crore in FY27- 28",
-    "source": "Q4 FY26 call, 30 Apr 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
@@ -414,19 +360,15 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "And next year, we have projected a revenue of INR2,000 crores, which was INR800 crores this year",
-    "source": "Q2 FY27 call, 19 Oct 2026",
-    "page": 10,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P17",
+   "id": "P15",
    "metric": "Capital Expenditure",
    "period": "FY28",
    "target": "₹615 crore",
@@ -438,6 +380,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -445,7 +388,7 @@
    "note": null
   },
   {
-   "id": "P23",
+   "id": "P19",
    "metric": "Defence revenue",
    "period": "FY28",
    "target": "≥ ₹2,000 crore",
@@ -457,6 +400,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -464,7 +408,7 @@
    "note": null
   },
   {
-   "id": "P25",
+   "id": "P21",
    "metric": "Connectivity Solutions Revenue",
    "period": "FY28",
    "target": "₹2,000 crore",
@@ -476,19 +420,15 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "It is expected that data centre interconnect solutions will contribute about Rs.400 crore additional revenue in FY26-27 and about Rs.800 crore in FY27- 28",
-    "source": "Q4 FY26 call, 30 Apr 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P19",
+   "id": "P17",
    "metric": "Defence & Aerospace Revenue",
    "period": "FY29",
    "target": "≥ ₹3,000 crore",
@@ -500,6 +440,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -519,6 +460,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -538,6 +480,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b343f8f-c184-416f-902d-f13fa9638bad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -628,11 +571,11 @@
     "url": "https://www.screener.in/company/HFCL/consolidated/"
    }
   ],
-  "read": "Profits convert poorly into cash, with operating cash flow representing only 28% of reported profit over FY22–FY26 and free cash flow remaining negative in four of five years."
+  "read": "Profits do not convert well into cash. Only 28% of reported profits became operating cash over five years, with negative free cash flow in four years and rising inventory days."
  },
  "bull": [
   {
-   "point": "Revenue and net profit grew sharply in Q2 FY27, with quarterly revenue reaching ₹2,541.79 crore and net profit hitting ₹394.22 crore.",
+   "point": "Consolidated revenue surged 143.6% year-on-year to ₹2,541.79 crore in Q2 FY27, while net profit grew 448.1% to ₹394.22 crore.",
    "evidence": [
     {
      "quote": "Consolidated profit after tax in Q2 FY27 rose to ₹394.22 crore, as compared to ₹71.92 crore in Q2 FY26, an increase of 448.14% year-on-year and 60.49% quarter-on-quarter",
@@ -649,7 +592,7 @@
    ]
   },
   {
-   "point": "Order book reached an all-time high of ₹28,900 crore in Q2 FY27, offering strong multi-year revenue visibility.",
+   "point": "Total order book expanded to ₹28,900 crore in Q2 FY27, providing strong multi-year revenue visibility.",
    "evidence": [
     {
      "quote": "Our order book stands at ₹28,900 crore, providing multi-year revenue visibility",
@@ -660,22 +603,10 @@
    ]
   },
   {
-   "point": "Management continuously raised FY27 revenue growth guidance, elevating target from 20-25% initially to at least 80%.",
+   "point": "EBITDA margin expanded to 25.89% in Q2 FY27, up 640 basis points year-on-year and 264 basis points quarter-on-quarter.",
    "evidence": [
     {
-     "quote": "we should definitely be able to scale it up by 20% to 25% at least",
-     "source": "Q4 FY26 call, 30 Apr 2026",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d0dd925-2be0-4b2f-9445-072ed9304615.pdf"
-    },
-    {
-     "quote": "we, to the best of our estimates, can raise our aspirations for FY27 to a revenue growth of 40% and above",
-     "source": "Q1 FY27 call, 22 Jul 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc45887-fdfd-4470-8565-f5f5b09fee2d.pdf"
-    },
-    {
-     "quote": "today when I present Q2FY27 results to you, i am extremely pleased to share that, based on our current expectations and business visibility, we expect revenue growth of at least 80% in this financial year",
+     "quote": "Equally significant, EBITDA margin expanded to 25.89%, improving by 640 basis points year-on-year and 264 basis points quarter-on-quarter",
      "source": "Q2 FY27 call, 19 Oct 2026",
      "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
@@ -685,10 +616,10 @@
  ],
  "bear": [
   {
-   "point": "Cash flow generation is weak, with negative operating cash flows in FY24 and FY26 and cumulative free cash flow of −₹1,271 crore.",
+   "point": "Free cash flow totaled −₹1,271 crore over five years, with operating cash representing only 28% of reported cumulative profits.",
    "evidence": [
     {
-     "quote": "Operating cash flow was negative in FY24, FY26 while reported profit was positive.",
+     "quote": "Over FY22–FY26, only 28% of reported profit arrived as operating cash (₹413 of ₹1,484 crore).",
      "source": "Computed from screener.in's cash-flow statement and ratios",
      "page": null,
      "url": "https://www.screener.in/company/HFCL/consolidated/"
@@ -702,24 +633,24 @@
    ]
   },
   {
-   "point": "Inventory holding period lengthened significantly, rising from 135 to 191 days between FY24 and FY26.",
+   "point": "Corporate guarantees totaling ₹571.02 crore were extended to material subsidiary HTL Limited for loans and facilities as of March 31, 2026.",
+   "evidence": [
+    {
+     "quote": "In addition, Corporate Guarantees to the extent of ₹571.02 crore have been given for the term loans and working capital facilities of HTL Limited as at March 31, 2026",
+     "source": "Annual report 2026",
+     "page": 111,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/60894750-bb6f-4e13-8e70-876062e55b18.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Inventory days increased from 135 to 191 days between FY24 and FY26, trapping capital for longer periods in business operations.",
    "evidence": [
     {
      "quote": "Inventory days rose from 135 to 191 between FY24 and FY26: cash is waiting longer in the business.",
      "source": "Computed from screener.in's cash-flow statement and ratios",
      "page": null,
      "url": "https://www.screener.in/company/HFCL/consolidated/"
-    }
-   ]
-  },
-  {
-   "point": "The company has provided significant financial support and guarantees to its material subsidiary.",
-   "evidence": [
-    {
-     "quote": "Corporate Guarantees to the extent of ₹571.02 crore have been given for the term loans and working capital facilities of HTL Limited as at March 31, 2026",
-     "source": "Annual report 2026",
-     "page": 111,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/60894750-bb6f-4e13-8e70-876062e55b18.pdf"
     }
    ]
   }
@@ -762,13 +693,14 @@
   "claims_found": 50,
   "quotes_verified": 49,
   "quotes_dropped": 1,
-  "graded_by_code": 5,
+  "graded_by_code": 3,
   "graded_by_model": 0,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
+   "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 1.7
+  "seconds": 288.9
  }
 }

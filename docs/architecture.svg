@@ -152,7 +152,7 @@
   <rect x="810" y="830" width="750" height="130" rx="12" class="code"/>
   <text x="830" y="860" class="bt">Evaluation (finn/evals)</text>
   <text x="830" y="884" class="b">19 filings labelled by hand: are the AI's labels right?</text>
-  <text x="830" y="904" class="b">Every quote and number traced to its source: 495 of 495 quotes found word for word.</text>
+  <text x="830" y="904" class="b">Every quote and number traced to its source: 472 of 472 quotes found word for word.</text>
   <text x="830" y="924" class="b">A second model from another family re-reads the output; every flag is read by a person.</text>
   <text x="830" y="944" class="b">The same prompts run 3 times: does the answer hold?</text>
 </svg>

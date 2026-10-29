@@ -3,7 +3,7 @@
  "symbol": "ETERNAL",
  "name": "Eternal",
  "basis": "consolidated",
- "generated_at": "2026-10-28T09:58:11+00:00",
+ "generated_at": "2026-10-29T07:41:43+00:00",
  "snapshot": {
   "about": "Eternal operates food delivery, quick commerce (Blinkit), and other technology platforms in India.",
   "latest_quarter": "Q2 FY27",
@@ -13,32 +13,8 @@
   "net_profit_yoy": 92.3,
   "ebitda_margin": 3.1
  },
- "narrative": "Management delivers strong top-line momentum with revenue growing 77.6% YoY to ₹24,138 crore in Q2 FY27. However, high store addition capex of ₹700 crore for 200 stores exceeds the ₹2.5 crore per store target, compressing EBITDA margin to 3.1%.",
+ "narrative": "Management targets rapid growth with food delivery order growth reaching 15% year-on-year and quick commerce quarterly volume up 21%. However, Q2 FY27 net profit reached only ₹125 crore on revenue of ₹24,138 crore, leaving EBITDA margin slim at 3.1%.",
  "promises": [
-  {
-   "id": "P12",
-   "metric": "Capex per store",
-   "period": null,
-   "target": "₹2.5 crore",
-   "statement": "Management guides capex per store for quick commerce to be around INR 2.5 crore.",
-   "said": {
-    "quote": "You say on a per store basis, one should look at around INR 2.5 crore of capex",
-    "source": "Q1 FY27 call, 22 Jul 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
-   },
-   "repeated_in": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "You added around 200 stores this quarter, but your capex was around INR 700 crore",
-    "source": "Q1 FY27 call, 22 Jul 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
-   },
-   "verdict": "at_risk",
-   "verdict_by": "model",
-   "note": "Adding 200 stores on ₹700 crore capex implies ₹3.5 crore per store versus ₹2.5 crore target."
-  },
   {
    "id": "P2",
    "metric": "Net Working Capital Days",
@@ -52,6 +28,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "Currently, as we have mentioned in question five, we are at 14 days",
@@ -61,7 +38,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Working capital currently stands at 14 days, below the 18-day upper limit."
+   "note": "Blinkit net working capital was reported at 14 days in Q1 FY27."
   },
   {
    "id": "P5",
@@ -76,6 +53,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "in food, order growth was 15% YoY but the active delivery partners on a monthly basis went up by 30%",
@@ -85,7 +63,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Order growth was 15% YoY in Q4, trending towards 20%."
+   "note": "Food delivery order growth reached 15% year-on-year in Q4 FY26."
   },
   {
    "id": "P13",
@@ -100,6 +78,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "Currently, as we have mentioned in question five, we are at 14 days",
@@ -109,7 +88,7 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Blinkit net working capital is currently 14 days, approaching the 12-day steady-state target."
+   "note": "Blinkit current net working capital was 14 days in Q1 FY27 near 12-day target."
   },
   {
    "id": "P3",
@@ -124,6 +103,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -143,6 +123,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -162,6 +143,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -181,6 +163,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -200,6 +183,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -219,6 +203,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -238,6 +223,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -257,6 +243,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
@@ -276,6 +263,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "We maintain that guidance as of now",
@@ -300,6 +288,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": {
     "quote": "First question is on the overall EBITDA guidance or indication of $1 billion by FY29",
@@ -324,9 +313,35 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P12",
+   "metric": "Capex per store",
+   "period": null,
+   "target": "₹2.5 crore",
+   "statement": "Management guides capex per store for quick commerce to be around INR 2.5 crore.",
+   "said": {
+    "quote": "You say on a per store basis, one should look at around INR 2.5 crore of capex",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "You added around 200 stores this quarter, but your capex was around INR 700 crore",
+    "source": "Q1 FY27 call, 22 Jul 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+   },
+   "verdict": "unclear",
    "verdict_by": "model",
    "note": null
   },
@@ -343,6 +358,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
    },
    "repeated_in": [],
+   "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "unclear",
@@ -421,11 +437,11 @@
     "url": "https://www.screener.in/company/ETERNAL/consolidated/"
    }
   ],
-  "read": "Profits do not translate into cash flow, as free cash flow was −₹2,988 crore over five years and inventory days expanded from 11 to 26 days."
+  "read": "Profits do not convert to cash, with total free cash flow negative at ₹2,988 crore over five years and inventory days expanding from 11 to 26."
  },
  "bull": [
   {
-   "point": "Quick commerce demonstrates hypergrowth with order volume growing slightly above 90% YoY in Q4 and 21% quarter-on-quarter in Q1.",
+   "point": "Quick commerce order growth exceeded 90% year-on-year in Q4 FY26, alongside 21% quarter-on-quarter volume expansion in Q1 FY27.",
    "evidence": [
     {
      "quote": "In QC, the order growth was slightly above 90%, but the rider growth was 120%",
@@ -442,14 +458,25 @@
    ]
   },
   {
-   "point": "Blinkit maintains disciplined operational metrics with net working capital at 14 days, below the 18-day threshold, heading towards steady-state targets.",
+   "point": "Food delivery maintained steady growth with 15% year-on-year order expansion in Q4 FY26 and segment EBITDA margin reaching 5.5%.",
    "evidence": [
     {
-     "quote": "Even though we might see capex per store going up over the next few quarters, we don't expect net working capital to be beyond those 18 days that we had shared earlier",
-     "source": "Q3 FY26 call, 21 Jan 2026",
-     "page": 6,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f3f29f-c5c0-49b5-b425-a22374bf08ad.pdf"
+     "quote": "in food, order growth was 15% YoY but the active delivery partners on a monthly basis went up by 30%",
+     "source": "Q4 FY26 call, 28 Apr 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
     },
+    {
+     "quote": "We are at 5.5% from a margin perspective",
+     "source": "Q4 FY26 call, 28 Apr 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Net working capital for Blinkit stood at 14 days in Q1 FY27, approaching the steady-state target of 12 days.",
+   "evidence": [
     {
      "quote": "Currently, as we have mentioned in question five, we are at 14 days",
      "source": "Q1 FY27 call, 22 Jul 2026",
@@ -463,52 +490,23 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
     }
    ]
-  },
-  {
-   "point": "Management maintains strong long-term profit visibility, targeting 1 billion USD Adjusted EBITDA by FY29 and flattish near-term food delivery margins.",
-   "evidence": [
-    {
-     "quote": "First question is on the overall EBITDA guidance or indication of $1 billion by FY29",
-     "source": "Q4 FY26 call, 28 Apr 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf"
-    },
-    {
-     "quote": "broadly, over the next 1 or 2 years, we expect the margins to remain flattish",
-     "source": "Q2 FY27 call, 21 Oct 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
-    },
-    {
-     "quote": "We maintain that guidance as of now",
-     "source": "Q2 FY27 call, 21 Oct 2026",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
-    }
-   ]
   }
  ],
  "bear": [
   {
-   "point": "Tax authorities have issued orders regarding GST on delivery charges, creating potential financial liabilities subject to legal disposal.",
-   "evidence": [
-    {
-     "quote": "We draw attention to Note 37(a) to the consolidated financial statement relating to the orders received by the Company from GST authorities in respect of GST on delivery charges",
-     "source": "Annual report 2026",
-     "page": 190,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf"
-    }
-   ]
-  },
-  {
-   "point": "The business suffers from weak cash conversion, generating cumulative negative free cash flow of ₹2,988 crore while inventory days rose to 26 days.",
+   "point": "Free cash flow was negative in four out of five years, resulting in cumulative cash burn of ₹2,988 crore.",
    "evidence": [
     {
      "quote": "Free cash flow was negative in 4 of 5 years, −₹2,988 crore in total.",
      "source": "Computed from screener.in's cash-flow statement and ratios",
      "page": null,
      "url": "https://www.screener.in/company/ETERNAL/consolidated/"
-    },
+    }
+   ]
+  },
+  {
+   "point": "Inventory days increased significantly from 11 to 26 days between FY24 and FY26, tying up working capital longer in business operations.",
+   "evidence": [
     {
      "quote": "Inventory days rose from 11 to 26 between FY24 and FY26: cash is waiting longer in the business.",
      "source": "Computed from screener.in's cash-flow statement and ratios",
@@ -518,19 +516,13 @@
    ]
   },
   {
-   "point": "Quick commerce store rollout capex is exceeding guidance, averaging ₹3.5 crore per store in Q1 versus the ₹2.5 crore target.",
+   "point": "Tax demand orders received from GST authorities on delivery charges created legal uncertainty as noted in the auditor report.",
    "evidence": [
     {
-     "quote": "You say on a per store basis, one should look at around INR 2.5 crore of capex",
-     "source": "Q1 FY27 call, 22 Jul 2026",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
-    },
-    {
-     "quote": "You added around 200 stores this quarter, but your capex was around INR 700 crore",
-     "source": "Q1 FY27 call, 22 Jul 2026",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
+     "quote": "We draw attention to Note 37(a) to the consolidated financial statement relating to the orders received by the Company from GST authorities in respect of GST on delivery charges",
+     "source": "Annual report 2026",
+     "page": 190,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b6a4218-6bde-4c99-b10c-39ec7553cc42.pdf"
     }
    ]
   }
@@ -574,12 +566,12 @@
   "quotes_verified": 24,
   "quotes_dropped": 0,
   "graded_by_code": 0,
-  "graded_by_model": 4,
+  "graded_by_model": 3,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 4,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 3.1
+  "seconds": 156.1
  }
 }
