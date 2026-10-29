@@ -12,7 +12,7 @@
    "classified_by": "ai",
    "rule": "investor_presentation",
    "needs_ai": false,
-   "text_quality": "failed",
+   "text_quality": "ok",
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026164544_SEIntimation_Investor_Presentation_Q2FY26-27pdfsigned.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
    "insight": {
