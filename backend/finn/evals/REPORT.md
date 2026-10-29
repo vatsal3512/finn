@@ -296,6 +296,11 @@ What the version 8 to 10 fixes changed, against version 7:
   second reader. The other two are the checker's errors: Adani's "$100 billion, 5 GW"
   and Sun Pharma's reaffirmed ICRA AAA are both in the filing.
 
+**The re-ask, seen in the app.** At 05:35 UTC on 29 October the app's cards for the golden
+filings held 8 Groq answers, from the night Flash was capped. At 08:05 UTC they held 4; the
+others had been re-asked and answered by Flash. All 5 Flash answers in the app are right,
+and the app scores 14 of 18 (one filing has aged out of its 30-day window).
+
 ## Limits
 
 - 19 labelled filings is a small set. It catches systematic errors, not rare ones.
