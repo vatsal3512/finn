@@ -1,6 +1,72 @@
 {
  "filings": [
   {
+   "id": "nse:106834429",
+   "symbol": "INDIGO",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T16:11:08+05:30",
+   "exchange_label": "Press Release",
+   "headline": "InterGlobe Aviation Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release on financial results for the quarter and Half Year ended September 30, 2026\".",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/Indigo1_29102026161010_Press_Release_29102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDIGO",
+   "insight": {
+    "title": "Quarterly Financial Results Press Release",
+    "summary": "For Q2 FY27, revenue rose 25.9% YoY to ₹23,363.8 crore, while PAT was -₹1,879.1 crore (up 27.2% YoY).",
+    "why_it_matters": "EBITDA margin improved to 7.3% from 3.1% YoY, but exceptionally high fuel costs and rupee depreciation weighed heavily on profitability.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "INDIGO:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106834416",
+   "symbol": "INDIGO",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T16:06:30+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "InterGlobe Aviation Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/Indigo1_29102026160610_Investor_Presentation_29102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDIGO",
+   "insight": {
+    "title": "Q2 FY27 Investor Presentation Submitted",
+    "summary": "The company submitted its quarterly investor presentation for Q2 FY27 reporting revenue of ₹23,363.8 crore and a net loss of ₹1,879.1 crore.",
+    "why_it_matters": "EBITDA margin stood at 7.3%, recovering from 3.1% a year ago, while PAT dropped 689.5% quarter-on-quarter.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "INDIGO:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106834360",
    "symbol": "INDIGO",
    "exchange": "NSE",
