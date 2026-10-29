@@ -4,6 +4,7 @@ uv run python -m finn.research KAYNES
 uv run python -m finn.research INFY LT --refresh
 uv run python -m finn.research --all        # the research set and the portfolio
 uv run python -m finn.research --ask 12     # "ask about this" for the top 12 Push cards
+uv run python -m finn.research --update 2   # rebuild up to 2 reports their companies have outdated
 """
 
 from __future__ import annotations
@@ -15,6 +16,7 @@ import logging
 from finn.ai.llm import LLM
 from finn.config import EXPORT_DIR, PORTFOLIO, RESEARCH
 from finn.contracts import AskAnswers, ResearchIndex, ResearchIndexEntry, ResearchReport
+from finn.research import update
 from finn.research.ask import ask
 from finn.research.engine import research
 from finn.store import connect
@@ -108,6 +110,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument(
         "--ask", type=int, metavar="N", help='answer "ask about this" for the top N cards'
     )
+    ap.add_argument(
+        "--update", type=int, metavar="N", help="rebuild up to N reports that new filings outdate"
+    )
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)-7s %(name)s: %(message)s",
                         datefmt="%H:%M:%S")  # fmt: skip
@@ -118,10 +123,13 @@ def main(argv: list[str] | None = None) -> int:
         symbols += [c.symbol for c in RESEARCH + PORTFOLIO if c.symbol not in symbols]
     if args.ask:
         ask_top(args.ask)
-        if not symbols:
-            return 0
+    if args.update:
+        print(json.dumps(update.run(connect(), OUT, args.update)))
+        write_index()
+    if (args.ask or args.update) and not symbols:
+        return 0
     if not symbols:
-        ap.error("give at least one symbol, --all or --ask N")
+        ap.error("give at least one symbol, --all, --ask N or --update N")
     failed = []
     for s in symbols:
         try:

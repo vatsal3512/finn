@@ -32,6 +32,7 @@ export function LiveResearch({ symbol }: { symbol: string }) {
   const [error, setError] = useState<string | null>(null);
   const [notFound, setNotFound] = useState(false);
   const [attempt, setAttempt] = useState(0);
+  const [refresh, setRefresh] = useState(false);
   const [started, setStarted] = useState(() => Date.now());
   const [elapsed, setElapsed] = useState(0);
 
@@ -44,7 +45,9 @@ export function LiveResearch({ symbol }: { symbol: string }) {
     const ctrl = new AbortController();
     (async () => {
       try {
-        const r = await fetch(`/api/research/${encodeURIComponent(symbol)}`, { signal: ctrl.signal });
+        const r = await fetch(`/api/research/${encodeURIComponent(symbol)}${refresh ? "?refresh=true" : ""}`, {
+          signal: ctrl.signal,
+        });
         if (!r.ok || !r.body) throw new Error(r.status === 422 ? "That is not an NSE symbol." : "FINN's server could not start this research just now.");
         const reader = r.body.getReader();
         const dec = new TextDecoder();
@@ -76,16 +79,23 @@ export function LiveResearch({ symbol }: { symbol: string }) {
       }
     })();
     return () => ctrl.abort();
-  }, [symbol, attempt]);
+  }, [symbol, attempt, refresh]);
 
   function retry() {
+    setReport(null);
     setEvents([]);
     setError(null);
     setStarted(Date.now());
     setAttempt((a) => a + 1);
   }
 
-  if (report) return <ReportView r={report} />;
+  // A saved report a day old may predate a call; the reader can ask FINN to look again.
+  const dayOld = report && Date.now() - new Date(report.generated_at).getTime() > 86_400_000;
+  const recheck = () => {
+    setRefresh(true);
+    retry();
+  };
+  if (report) return <ReportView r={report} onRecheck={dayOld && !refresh ? recheck : undefined} />;
   // A step is done when the event that completes it arrives, not when it starts.
   const ORDER = ["gather", "cash", "claims", "graded", "done"];
   const DONE_AT = [1, 1, 2, 3, 4];

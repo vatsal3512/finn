@@ -86,6 +86,16 @@ jobs:
           GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
         run: uv run python -m finn.research --ask 12
 
+      - name: Update research reports their companies have outdated
+        # A new call transcript or new results means a shipped report is behind. Two are
+        # rebuilt per run; the rest say in the app that they are catching up. A failure
+        # keeps the old report, and never blocks the data commit.
+        continue-on-error: true
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          GROQ_API_KEYS: ${{ secrets.GROQ_API_KEYS }}
+        run: uv run python -m finn.research --update 2
+
       - name: Report which sources worked from the cloud
         if: always()
         run: |

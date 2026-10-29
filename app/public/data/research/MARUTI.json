@@ -3,9 +3,9 @@
  "symbol": "MARUTI",
  "name": "Maruti Suzuki",
  "basis": "consolidated",
- "generated_at": "2026-10-29T07:38:01+00:00",
+ "generated_at": "2026-10-29T11:45:06+00:00",
  "snapshot": {
-  "about": "Maruti Suzuki is an Indian automotive manufacturer producing passenger vehicles.",
+  "about": null,
   "latest_quarter": "Q2 FY27",
   "revenue": 53356.0,
   "revenue_yoy": 26.0,
@@ -187,15 +187,32 @@
   }
  ],
  "notes": [
-  "Only 1 readable call transcripts were available.",
   "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
  ],
  "documents": [
+  {
+   "label": "Q1 FY27 call, 31 Jul 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_06082026173039_STxIntimation_Transcript_6Aug2026.pdf",
+   "pages": 1
+  },
   {
    "label": "Q4 FY26 call, 28 Apr 2026",
    "kind": "transcript",
    "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf",
    "pages": 12
+  },
+  {
+   "label": "Q3 FY26 call, 28 Jan 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02022026205924_Transcript_02022026.pdf",
+   "pages": 1
+  },
+  {
+   "label": "Q2 FY26 call, 31 Oct 2025",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_03112025215634_STxIntimation_Transcript31Oct2025.pdf",
+   "pages": 1
   },
   {
    "label": "Annual report 2026",
@@ -205,17 +222,21 @@
   }
  ],
  "stats": {
-  "calls_read": 1,
+  "calls_read": 4,
   "claims_found": 14,
   "quotes_verified": 14,
   "quotes_dropped": 0,
   "graded_by_code": 0,
   "graded_by_model": 0,
-  "ai_calls": 2,
-  "cached_calls": 1,
+  "ai_calls": 5,
+  "cached_calls": 5,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 35.6
- }
+  "seconds": 0.4
+ },
+ "changes": [
+  "Now reads the Q1 FY27 call, 31 Jul 2026."
+ ],
+ "pending": null
 }

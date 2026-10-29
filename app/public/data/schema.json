@@ -1266,6 +1266,25 @@
     },
     "stats": {
      "$ref": "#/$defs/ResearchStats"
+    },
+    "changes": {
+     "description": "what the last automatic update changed",
+     "items": {
+      "type": "string"
+     },
+     "type": "array"
+    },
+    "pending": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "a filing since this report was built, that it has not read yet"
     }
    },
    "required": [

@@ -3,8 +3,8 @@
   {
    "symbol": "ADANIENT",
    "name": "Adani Enterprises",
-   "generated_at": "2026-10-29T07:42:27+00:00",
-   "promises": 18,
+   "generated_at": "2026-10-29T11:43:45+00:00",
+   "promises": 13,
    "missed": 0,
    "kept": 1,
    "pending": 8
@@ -129,7 +129,7 @@
   {
    "symbol": "MARUTI",
    "name": "Maruti Suzuki",
-   "generated_at": "2026-10-29T07:38:01+00:00",
+   "generated_at": "2026-10-29T11:45:06+00:00",
    "promises": 3,
    "missed": 0,
    "kept": 0,

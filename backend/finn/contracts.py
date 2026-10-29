@@ -308,6 +308,12 @@ class ResearchReport(BaseModel):
     notes: list[str] = Field(default_factory=list, description="what is missing, and why")
     documents: list[SourceDoc]
     stats: ResearchStats
+    changes: list[str] = Field(
+        default_factory=list, description="what the last automatic update changed"
+    )
+    pending: str | None = Field(
+        default=None, description="a filing since this report was built, that it has not read yet"
+    )
 
 
 class AskAnswer(BaseModel):

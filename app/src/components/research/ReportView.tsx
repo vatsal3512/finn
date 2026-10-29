@@ -2,7 +2,7 @@
 // live view renders the same component as its stream completes.
 
 import type { CasePoint, CashQuality, Evidence, Guidance, ResearchReport, Snapshot } from "@/lib/contract";
-import { crore, pageLink, pct } from "@/lib/format";
+import { crore, pageLink, pct, stamp } from "@/lib/format";
 import { Chip, cx, Move, SectionTitle, type ChipTone } from "../ui";
 import { CashChart } from "./CashChart";
 
@@ -16,7 +16,7 @@ const VERDICT: Record<Guidance["verdict"], { label: string; tone: ChipTone }> = 
   unclear: { label: "Can't tell", tone: "faint" },
 };
 
-export function ReportView({ r }: { r: ResearchReport }) {
+export function ReportView({ r, onRecheck }: { r: ResearchReport; onRecheck?: () => void }) {
   const graded = r.promises.filter((p) => !["pending", "unclear"].includes(p.verdict));
   const open = r.promises.filter((p) => p.verdict === "pending");
   const unclear = r.promises.filter((p) => p.verdict === "unclear");
@@ -24,6 +24,7 @@ export function ReportView({ r }: { r: ResearchReport }) {
   return (
     <div className="fade-in">
       <SnapshotHeader s={r.snapshot} />
+      <Freshness r={r} onRecheck={onRecheck} />
 
       {r.stats.calls_read === 0 ? (
         // No earnings calls: nothing to hold management to, but the accounts still speak.
@@ -68,6 +69,32 @@ export function ReportView({ r }: { r: ResearchReport }) {
         <ul className="mx-4 mt-5 space-y-1 text-[12px] text-warn">{r.notes!.map((n) => <li key={n}>{n}</li>)}</ul>
       )}
       <Method r={r} />
+    </div>
+  );
+}
+
+/** What the report was built from, and whether the company has filed anything since. */
+function Freshness({ r, onRecheck }: { r: ResearchReport; onRecheck?: () => void }) {
+  const call = r.documents.find((d) => d.kind === "transcript")?.label;
+  return (
+    <div className="mx-4 mt-3 space-y-1.5 text-[12px] leading-snug">
+      <p className="text-faint">
+        Built {stamp(r.generated_at)}
+        {call ? `, from calls up to the ${call}` : ""}.
+        {onRecheck && (
+          <>
+            {" "}
+            <button onClick={onRecheck} className="text-accent">Check for newer filings</button>
+          </>
+        )}
+      </p>
+      {r.pending ? (
+        <p className="rounded-md bg-warn-soft px-3 py-2 text-warn">
+          {r.pending} This report has not read it yet; FINN updates it within a few hours.
+        </p>
+      ) : (
+        !!r.changes?.length && <p className="rounded-md bg-accent-soft px-3 py-2 text-accent">Updated: {r.changes.join(" ")}</p>
+      )}
     </div>
   );
 }

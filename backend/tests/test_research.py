@@ -330,9 +330,11 @@ def test_nse_is_asked_only_when_a_newer_call_could_exist():
     from finn.research.gather import needs_nse_check
 
     today = date(2026, 10, 28)
-    assert not needs_nse_check("2026-08", today)  # Kaynes: the August call is recent
-    assert needs_nse_check("2026-07", today)  # Infosys: July, and October's call may be out
-    assert needs_nse_check(None, today)
+    four = ["2025-11", "2026-02", "2026-05"]
+    assert not needs_nse_check([*four, "2026-08"], today)  # Kaynes: the August call is recent
+    assert needs_nse_check([*four, "2026-07"], today)  # Infosys: July, and October's may be out
+    assert needs_nse_check(["2026-08"], today)  # fewer than four calls: look for the rest
+    assert needs_nse_check([], today)
 
 
 def test_a_healthy_parent_inside_a_cash_hungry_group_is_said_first(tmp_path):

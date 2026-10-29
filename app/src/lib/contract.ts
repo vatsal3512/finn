@@ -209,6 +209,14 @@ export interface ResearchReport {
   notes?: string[];
   documents: SourceDoc[];
   stats: ResearchStats;
+  /**
+   * what the last automatic update changed
+   */
+  changes?: string[];
+  /**
+   * a filing since this report was built, that it has not read yet
+   */
+  pending?: string | null;
 }
 export interface Snapshot {
   about: string | null;
