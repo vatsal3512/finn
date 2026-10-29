@@ -1,6 +1,257 @@
 {
  "filings": [
   {
+   "id": "nse:106834102",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T14:14:43+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Please find enclosed the Press Release on the performance of the Company for the quarter and half year ended 30th September 2026.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141409_OutcomeofBM29102026signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Standalone Q2 FY27 results and interim dividend declared",
+    "summary": "Q2 FY27 standalone revenue rose 14.9% YoY to ₹8,453.8 crore while PAT grew 14.6% YoY to ₹1,095.5 crore, alongside a ₹5.75 per share dividend.",
+    "why_it_matters": "EBITDA margin contracted to 17.0% from 21.9% in the prior quarter, causing EBITDA to fall 28.4% QoQ.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "dividend"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": -1.129,
+    "vol_ratio": 2.749
+   },
+   "score": 130.0,
+   "group_id": "ASIANPAINT:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": "nse:106834087"
+  },
+  {
+   "id": "nse:106834098",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T14:12:34+05:30",
+   "exchange_label": "Updates",
+   "headline": "The Board of Directors at their meeting held today i.e., 29th October 2026, has, inter alia, approved the payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141215_OutcomeofBM29102026signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Standalone Q2 FY27 results and interim dividend declared",
+    "summary": "Q2 FY27 standalone revenue rose 14.9% YoY to ₹8,453.8 crore while PAT grew 14.6% YoY to ₹1,095.5 crore, alongside a ₹5.75 per share dividend.",
+    "why_it_matters": "EBITDA margin contracted to 17.0% from 21.9% in the prior quarter, causing EBITDA to fall 28.4% QoQ.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "dividend"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": -1.129,
+    "vol_ratio": 2.749
+   },
+   "score": 130.0,
+   "group_id": "ASIANPAINT:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": "nse:106834087"
+  },
+  {
+   "id": "nse:106834096",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T14:10:22+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Standalone Q2 FY27 results and interim dividend declared",
+    "summary": "Q2 FY27 standalone revenue rose 14.9% YoY to ₹8,453.8 crore while PAT grew 14.6% YoY to ₹1,095.5 crore, alongside a ₹5.75 per share dividend.",
+    "why_it_matters": "EBITDA margin contracted to 17.0% from 21.9% in the prior quarter, causing EBITDA to fall 28.4% QoQ.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "dividend"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": -1.129,
+    "vol_ratio": 2.749
+   },
+   "score": 130.0,
+   "group_id": "ASIANPAINT:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": "nse:106834087"
+  },
+  {
+   "id": "nse:106834090",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T14:08:00+05:30",
+   "exchange_label": "Dividend",
+   "headline": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027.",
+   "category": "dividend",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "results_text",
+   "needs_ai": false,
+   "text_quality": "failed",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Interim dividend approved alongside financial results",
+    "summary": "The Board approved an interim dividend of Rs. 5.75 per equity share of Re. 1 face value for FY 2026-27.",
+    "why_it_matters": "Q2 PAT fell 25.9% QoQ despite a 14.6% YoY rise, alongside approval of the interim dividend.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "dividend"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": -1.129,
+    "vol_ratio": 2.749
+   },
+   "score": 70.0,
+   "group_id": "ASIANPAINT:results:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106834087",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T14:04:43+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "Asian Paints Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Standalone Q2 FY27 results and interim dividend declared",
+    "summary": "Q2 FY27 standalone revenue rose 14.9% YoY to ₹8,453.8 crore while PAT grew 14.6% YoY to ₹1,095.5 crore, alongside a ₹5.75 per share dividend.",
+    "why_it_matters": "EBITDA margin contracted to 17.0% from 21.9% in the prior quarter, causing EBITDA to fall 28.4% QoQ.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "dividend"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "ASIANPAINT",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "standalone",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 8453.8,
+       "previous_quarter": 9183.4,
+       "year_ago": 7356.3,
+       "qoq_pct": -7.9,
+       "yoy_pct": 14.9
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 1440.3,
+       "previous_quarter": 2011.7,
+       "year_ago": 1360.1,
+       "qoq_pct": -28.4,
+       "yoy_pct": 5.9
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 1468.1,
+       "previous_quarter": 1982.0,
+       "year_ago": 1288.8,
+       "qoq_pct": -25.9,
+       "yoy_pct": 13.9
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 1095.5,
+       "previous_quarter": 1478.3,
+       "year_ago": 956.3,
+       "qoq_pct": -25.9,
+       "yoy_pct": 14.6
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      17.0,
+      21.9,
+      18.5
+     ],
+     "source": "filing_text",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf"
+     ]
+    }
+   ],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": -1.129,
+    "vol_ratio": 2.749
+   },
+   "score": 130.0,
+   "group_id": "ASIANPAINT:results:2026-10-29",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106834064",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
@@ -29,8 +280,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.811,
-    "vol_ratio": 0.521
+    "ret_pct": 0.816,
+    "vol_ratio": 0.55
    },
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-10-29",
@@ -59,8 +310,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 5.17,
-    "vol_ratio": 0.948
+    "ret_pct": 5.694,
+    "vol_ratio": 1.061
    },
    "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-29",
@@ -89,8 +340,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 5.17,
-    "vol_ratio": 0.948
+    "ret_pct": 5.694,
+    "vol_ratio": 1.061
    },
    "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-29",
@@ -126,8 +377,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.105,
-    "vol_ratio": 0.462
+    "ret_pct": -1.287,
+    "vol_ratio": 0.503
    },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
@@ -163,8 +414,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 1.002,
-    "vol_ratio": 0.913
+    "ret_pct": 1.261,
+    "vol_ratio": 0.951
    },
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
@@ -193,8 +444,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.031,
-    "vol_ratio": 0.239
+    "ret_pct": 1.807,
+    "vol_ratio": 0.244
    },
    "score": 0.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
@@ -223,8 +474,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 5.17,
-    "vol_ratio": 0.948
+    "ret_pct": 5.694,
+    "vol_ratio": 1.061
    },
    "score": 15.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -253,8 +504,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.811,
-    "vol_ratio": 0.521
+    "ret_pct": 0.816,
+    "vol_ratio": 0.55
    },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
@@ -283,8 +534,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 5.17,
-    "vol_ratio": 0.948
+    "ret_pct": 5.694,
+    "vol_ratio": 1.061
    },
    "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -313,8 +564,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 5.17,
-    "vol_ratio": 0.948
+    "ret_pct": 5.694,
+    "vol_ratio": 1.061
    },
    "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -343,8 +594,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.801,
-    "vol_ratio": 0.45
+    "ret_pct": 1.491,
+    "vol_ratio": 0.509
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
@@ -373,8 +624,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.812,
-    "vol_ratio": 0.479
+    "ret_pct": 1.363,
+    "vol_ratio": 0.529
    },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
@@ -412,8 +663,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 5.17,
-    "vol_ratio": 0.948
+    "ret_pct": 5.694,
+    "vol_ratio": 1.061
    },
    "score": 75.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -442,8 +693,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.716,
-    "vol_ratio": 0.954
+    "ret_pct": 1.645,
+    "vol_ratio": 1.088
    },
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
@@ -7468,12 +7719,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLT admits petition for corporate insolvency resolution process",
-    "summary": "The NCLT Ahmedabad Bench admitted a petition for a corporate insolvency resolution process against the company over an alleged operational debt of ₹2.79 crore.",
-    "why_it_matters": "The alleged operational debt of ₹2.79 crore is trivial compared to the company's annual revenue of about ₹34,609 crore and net cash in excess of Rs.4,000 crores.",
+    "title": "NCLT Admits Insolvency Petition Against Company",
+    "summary": "NCLT admitted a Section 9 IBC petition against the company for an alleged operational debt of ₹2.79 crore.",
+    "why_it_matters": "The company maintains a strong zero-debt position with cash and investment liquidity exceeding Rs.4,000 crores and plans to appeal.",
     "sentiment": "negative",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -7505,12 +7756,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_07102026223504_RIL_SEletter07102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Customs order received levying redemption fine and penalty",
-    "summary": "The Joint Commissioner of Customs levied a redemption fine and penalty aggregating Rs. 18,74,978 on the company alleging incorrect classification of imported goods.",
-    "why_it_matters": "The penalty of Rs. 18,74,978 is negligible compared to annual revenue of about ₹1,123,055 crore.",
+    "title": "Customs Duty Penalty Levied",
+    "summary": "Customs authority levied a redemption fine and penalty of Rs. 18,74,978 due to alleged incorrect classification of imported goods.",
+    "why_it_matters": "The fine of Rs. 18,74,978 is negligible relative to annual revenue of about ₹1,123,055 crore.",
     "sentiment": "negative",
-    "amount_inr_crore": 0.19,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -7572,12 +7823,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026195359_CompanyStatementOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Board approved rights issue of up to ₹1,000 crore",
-    "summary": "The Board approved a rights issue of up to ₹1,000 crore at ₹27 per share, payable in two calls.",
-    "why_it_matters": "The issue size of ₹1,000 crore is substantial compared to annual revenue of about ₹1,880 crore.",
-    "sentiment": "positive",
+    "title": "Company Statement on Rights Issue",
+    "summary": "The Board approved a rights issue of up to ₹1,000 crore at ₹27 per share, a 26% discount.",
+    "why_it_matters": "The capital raise represents a significant portion of its annual revenue of about ₹1,880 crore.",
+    "sentiment": "neutral",
     "amount_inr_crore": 1000.0,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -7639,12 +7890,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185643_OutcomeRightsIssueOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Rights issue terms approved at ₹ 27 per share",
-    "summary": "The Board approved a rights issue of 37,02,72,665 partly paid-up equity shares aggregating to ₹ 9,99,73,61,955/- at ₹ 27 per share.",
-    "why_it_matters": "The issue amount of ₹ 9,99,73,61,955/- represents significant capital raising relative to annual revenue of about ₹1,880 crore.",
+    "title": "Rights Issue Terms Approved",
+    "summary": "The Board approved rights issue terms to raise up to ₹ 9,99,73,61,955 at ₹ 27 per share.",
+    "why_it_matters": "The proposed fund raise represents over half of the company's annual revenue of about ₹1,880 crore.",
     "sentiment": "positive",
-    "amount_inr_crore": 999.74,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -7676,12 +7927,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185359_OutcomeRightsIssueOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Rights issue terms approved at ₹ 27 per share",
-    "summary": "The Board approved a rights issue of 37,02,72,665 partly paid-up equity shares aggregating to ₹ 9,99,73,61,955/- at ₹ 27 per share.",
-    "why_it_matters": "The issue amount of ₹ 9,99,73,61,955/- represents significant capital raising relative to annual revenue of about ₹1,880 crore.",
+    "title": "Rights Issue Terms Approved",
+    "summary": "The Board approved rights issue terms to raise up to ₹ 9,99,73,61,955 at ₹ 27 per share.",
+    "why_it_matters": "The proposed fund raise represents over half of the company's annual revenue of about ₹1,880 crore.",
     "sentiment": "positive",
-    "amount_inr_crore": 999.74,
-    "model": "gemini-3.5-flash-lite"
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise"
@@ -7840,12 +8091,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Joint venture agreement executed with Gemtek Technology Co., Ltd",
-    "summary": "The parties executed a joint venture agreement for Dixon Electroconnect to carry on the business of manufacturing and supply of telecom products.",
-    "why_it_matters": "The JV company has an authorized and paid up share capital of INR 1,00,000, which is negligible compared to annual revenue of about ₹51,586 crore.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 0.01,
-    "model": "gemini-3.5-flash-lite"
+    "title": "Execution of Telecom Joint Venture Agreement",
+    "summary": "The company executed a joint venture agreement with Gemtek Technology Co., Ltd and Dixon Electroconnect Private Limited.",
+    "why_it_matters": "The JV will manufacture and supply Optical Transceiver - SFP and BOSA or other telecom products in India.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "M&A"
@@ -8478,12 +8729,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_04102026180131_Intimation_Press_Release_Ola_Electric_04_Oct.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Promoter pledges 4.32% stake for rights issue",
-    "summary": "Promoter Bhavish Aggarwal has pledged a 4.32% stake in the company to participate in the upcoming rights issue.",
-    "why_it_matters": "Promoter pledging can change the view on the stock, though it is stated to be solely for funding subscription to the rights issue.",
+    "title": "Promoter Pledges Stake for Rights Issue",
+    "summary": "Promoter Bhavish Aggarwal pledged a 4.32% stake in the company solely to fund his rights issue subscription.",
+    "why_it_matters": "Promoter shares are being pledged rather than sold to participate in the upcoming rights issue.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "fund_raise",
@@ -8703,12 +8954,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Mr. Anup Bagchi appointed as MD & CEO",
-    "summary": "The RBI approved the appointment of Mr. Anup Bagchi as Managing Director & CEO of the bank for three years effective October 27, 2026, replacing Mr. Sashidhar Jagdishan.",
-    "why_it_matters": "A change in the CEO of a major bank with annual revenue of about ₹359,956 crore could significantly impact its strategic direction.",
-    "sentiment": "neutral",
+    "title": "Appointment of Anup Bagchi as MD and CEO",
+    "summary": "HDFC Bank announced the appointment of Mr. Anup Bagchi as MD & CEO for 3 years effective October 27, 2026, replacing Mr. Sashidhar Jagdishan.",
+    "why_it_matters": "Mr. Bagchi previously served as MD & CEO of ICICI Prudential Life Insurance, Executive Director of ICICI Bank, and CEO & MD of ICICI Securities.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "management_change"
@@ -8982,7 +9233,7 @@
    "exchange_label": "Action(s) taken or orders passed",
    "headline": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
    "category": "litigation",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -8990,12 +9241,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_01102026125929_BhartiAirtel-Reg30.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Received tax authority and DoT penalty orders",
-    "summary": "The company received penalty notices from the Department of Telecommunications for alleged subscriber verification norm violations.",
-    "why_it_matters": null,
+    "title": "DoT Imposes Minor Penalties for Subscriber Verification Violations",
+    "summary": "Bharti Airtel received penalty notices from DoT Assam and Maharashtra LSAs totaling Rs.8,63,000 for alleged subscriber verification violations.",
+    "why_it_matters": "The combined penalty amount of Rs.8,63,000 is negligible compared to the company's annual revenue of about ₹220,049 crore.",
     "sentiment": "negative",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -9006,7 +9257,7 @@
     "ret_pct": -0.905,
     "vol_ratio": 1.011
    },
-   "score": 53.0,
+   "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-10-01",
    "group_lead": true,
    "duplicate_of": null
@@ -9086,7 +9337,7 @@
    "exchange_label": "Change in Management",
    "headline": "HDFC Bank Limited has informed the Exchange about change in Management",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -9094,12 +9345,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026203611_SE_intimation-_sudhir.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Legal and group general counsel leadership change",
-    "summary": "Sudhir Kumar Jha superannuated as Group Head - Legal & Group General Counsel, and Jigar Shah took over the role.",
-    "why_it_matters": "Mr. Jha superannuated after 22 years of service with the HDFC Group, making way for Jigar Shah to take over as General Counsel.",
+    "title": "Superannuation of General Counsel and Appointment of Successor",
+    "summary": "Group Head - Legal & Group General Counsel Mr. Sudhir Kumar Jha superannuated, with Mr. Jigar Shah assuming the General Counsel role on October 1, 2026.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "management_change"
@@ -9110,7 +9361,7 @@
     "ret_pct": 1.764,
     "vol_ratio": 1.256
    },
-   "score": 106.0,
+   "score": 6.0,
    "group_id": "HDFCBANK:management_change:2026-09-30",
    "group_lead": false,
    "duplicate_of": null
@@ -9183,7 +9434,7 @@
    "exchange_label": "Change in Management",
    "headline": "HDFC Bank Limited has informed the Exchange about change in Management",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -9191,12 +9442,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
    "insight": {
-    "title": "Chief Compliance Officer tenure completion and appointment",
-    "summary": "Rakesh Kumar Rajput completed his three-year tenure as Chief Compliance Officer, and V. N. Srivatsan was appointed to succeed him.",
-    "why_it_matters": "V. N. Srivatsan is scheduled to join on January 4, 2027, with Venkateswaran L holding interim responsibility as Chief Compliance Officer.",
+    "title": "Appointment of New Chief Compliance Officer",
+    "summary": "Mr. Rakesh Kumar Rajput completed his tenure as CCO, and Mr. V. N. Srivatsan was approved to succeed him starting January 4, 2027.",
+    "why_it_matters": "Mr. Srivatsan joins from ICICI Bank, with Mr. Venkateswaran L serving as interim CCO until January 2027.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "management_change"
@@ -9277,7 +9528,7 @@
     "ret_pct": 1.764,
     "vol_ratio": 1.256
    },
-   "score": 106.0,
+   "score": 46.0,
    "group_id": "HDFCBANK:management_change:2026-09-30",
    "group_lead": true,
    "duplicate_of": null
@@ -9358,12 +9609,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026171404_STxIntimation_IncomeTaxPenaltyOrder_30Sep2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Income Tax Authority penalty order received",
-    "summary": "Suzuki Motor Gujarat Private Limited received a penalty order under Section 270A of the Income-tax Act, 1961 for FY 2022-23.",
-    "why_it_matters": "The penalty of Rs. 149.64 million was imposed on account of certain additions and disallowances sustained in the Final Assessment Order.",
+    "title": "Income Tax Penalty Order Received for Amalgamated Subsidiary",
+    "summary": "Amalgamated entity Suzuki Motor Gujarat received an Income Tax penalty order of Rs. 149.64 million under Section 270A for FY 2022-23.",
+    "why_it_matters": "The company plans to appeal the penalty of Rs. 149.64 million, which is small relative to annual revenue of about ₹208,192 crore.",
     "sentiment": "negative",
     "amount_inr_crore": 14.96,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -9387,7 +9638,7 @@
    "exchange_label": "Outcome of Board Meeting",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding Outcome of Rights Issue Committee Meeting held on Wednesday September 30, 2026.",
    "category": "fund_raise",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "equity_raise_text",
    "needs_ai": false,
@@ -9395,12 +9646,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_30092026171121_OutcomeRICommittee30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Rights issue committee approves reminder notices",
-    "summary": "The Rights Issue Committee approved reminder notices for the payment of first call money and second and final call money.",
-    "why_it_matters": "The reminder notices are sent to holders of partly paid-up equity shares who have not yet paid the call money.",
+    "title": "Reminder Notices Approved for Unpaid Rights Issue Call Money",
+    "summary": "The Rights Issue Committee approved sending reminder notices to holders of partly paid-up equity shares who have not paid call money.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
@@ -9411,7 +9662,7 @@
     "ret_pct": -2.983,
     "vol_ratio": 1.393
    },
-   "score": 110.0,
+   "score": 10.0,
    "group_id": "ADANIENT:fund_raise:2026-09-30",
    "group_lead": false,
    "duplicate_of": "nse:106802777"
@@ -9424,7 +9675,7 @@
    "exchange_label": "Committee Meeting Updates",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding Outcome of Rights Committee Meeting held on Wednesday, September 30, 2026.",
    "category": "fund_raise",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -9432,12 +9683,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_30092026170710_OutcomeRICommittee30092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Rights issue committee approves reminder notices",
-    "summary": "The Rights Issue Committee approved reminder notices for the payment of first call money and second and final call money.",
-    "why_it_matters": "The reminder notices are sent to holders of partly paid-up equity shares who have not yet paid the call money.",
+    "title": "Reminder Notices Approved for Unpaid Rights Issue Call Money",
+    "summary": "The Rights Issue Committee approved sending reminder notices to holders of partly paid-up equity shares who have not paid call money.",
+    "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
@@ -9448,7 +9699,7 @@
     "ret_pct": -2.983,
     "vol_ratio": 1.393
    },
-   "score": 110.0,
+   "score": 10.0,
    "group_id": "ADANIENT:fund_raise:2026-09-30",
    "group_lead": true,
    "duplicate_of": null
@@ -9528,7 +9779,7 @@
    "exchange_label": "Change in Management",
    "headline": "Maruti Suzuki India Limited has informed the Exchange about change in Management",
    "category": "management_change",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -9536,12 +9787,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30092026094634_STxIntimation_ChangeinManagement_30Sep2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "Management change filing submitted",
-    "summary": "The company informed the exchange about a change in management.",
+    "title": "Management change filing",
+    "summary": "The filing document is a scan without readable text regarding a change in management.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "management_change"
@@ -9552,7 +9803,7 @@
     "ret_pct": 0.758,
     "vol_ratio": 1.051
    },
-   "score": 106.0,
+   "score": 6.0,
    "group_id": "MARUTI:management_change:2026-09-30",
    "group_lead": true,
    "duplicate_of": null
@@ -9753,15 +10004,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026182828_Regulation30DisclosureAGM28092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Reappointment of Whole Time Director and Managing Director",
-    "summary": "The board reappointed Mr. Sunil Vachani as Whole Time Director and Mr. Atul B. Lall as Managing Director, effective 5 May 2027.",
-    "why_it_matters": "Vachani brings experience as Honorary Consul General, Benin; Lall joins from directorships at Happy Forgings, Max Estates, and Aditya Infotech.",
-    "sentiment": "neutral",
+    "title": "Re-appointment of Whole Time Director and Managing Director",
+    "summary": "Shareholders approved the re-appointment of Mr. Sunil Vachani as Whole Time Director and Mr. Atul B. Lall as Managing Director for 5 years effective May 5, 2027.",
+    "why_it_matters": "Ensures long-term leadership stability, with Mr. Vachani previously serving as Honorary Consul General, Benin and Mr. Lall holding multiple directorships.",
+    "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "management_change"
+    "management_change",
+    "agm_egm"
    ],
    "cards": [
     {
@@ -9888,12 +10140,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29092026172859_BhartiAirtel-Reg30disclosure.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "Penalty notices for subscriber verification violations",
-    "summary": "Bharti Airtel received penalty notices of Rs.1,41,000 and Rs.2,12,000 for alleged subscriber verification violations.",
-    "why_it_matters": "Penalties total Rs.3,53,000, negligible versus ₹220,049 crore revenue.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 0.02,
-    "model": "openai/gpt-oss-120b"
+    "title": "Minor DoT penalties imposed",
+    "summary": "Department of Telecommunications imposed penalties of Rs. 1,41,000 and Rs. 2,12,000 for alleged subscriber verification norm violations.",
+    "why_it_matters": "The penalties are immaterial compared to annual revenue of about ₹220,049 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -9904,7 +10156,7 @@
     "ret_pct": -0.802,
     "vol_ratio": 1.433
    },
-   "score": 8.0,
+   "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-09-29",
    "group_lead": true,
    "duplicate_of": null
@@ -9991,7 +10243,7 @@
    "exchange_label": "Action(s) taken or orders passed",
    "headline": "Adani Enterprises Limited has informed the Exchange about Action(s) taken or orders passed",
    "category": "litigation",
-   "tier": "routine",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -9999,12 +10251,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_29092026085455_AELDisclosureofSettlementOrderdated29092026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "Settlement of SEBI case with INR 37.05 lakh fine",
-    "summary": "Adani Enterprises settled SEBI proceedings, paying a fine of INR 37,05,000 with no material financial impact.",
-    "why_it_matters": "Fine equals roughly 0.00033% of ₹111,432 crore revenue, negligible.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 0.37,
-    "model": "openai/gpt-oss-120b"
+    "title": "SEBI settlement order passed",
+    "summary": "SEBI passed a settlement order for the company and its directors upon payment of a settlement amount without admission or denial of alleged violations.",
+    "why_it_matters": "The settlement amount of INR 37,05,000 resolves alleged regulatory violations and has no material financial impact relative to annual revenue.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -10015,7 +10267,7 @@
     "ret_pct": 5.009,
     "vol_ratio": 1.974
    },
-   "score": 23.0,
+   "score": 63.0,
    "group_id": "ADANIENT:litigation:2026-09-29",
    "group_lead": true,
    "duplicate_of": null

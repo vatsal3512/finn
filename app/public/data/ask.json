@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:35+00:00"
+   "asked_at": "2026-10-29T09:06:28+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-29T08:35:36+00:00"
+   "asked_at": "2026-10-29T09:06:28+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,7 +88,39 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:36+00:00"
+   "asked_at": "2026-10-29T09:06:28+00:00"
+  },
+  "nse:106834087": {
+   "symbol": "ASIANPAINT",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In July 2026 (Q1 FY27 call), management guided for full-year FY27 volume growth of 8-10% and maintained an 18-20% PBDIT margin guidance, while noting Q2 traditionally yields lower margins due to product mix. Standalone Q2 FY27 revenue grew 14.9% YoY to ₹8,453.8 crore, but EBITDA margin at 17.0% fell below the 18-20% band.",
+   "evidence": [
+    {
+     "quote": "At the current stage, we are looking at the band of 8-10% for the full FY27",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    },
+    {
+     "quote": "What we have seen is that quarter two has traditionally been a lower margin because of the mix of what we sell in quarter two overall",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    },
+    {
+     "quote": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, Jun 2026"
+   ],
+   "model": "gemini-3.5-flash",
+   "asked_at": "2026-10-29T09:08:18+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -120,7 +152,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:36+00:00"
+   "asked_at": "2026-10-29T09:08:18+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -152,7 +184,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:36+00:00"
+   "asked_at": "2026-10-29T09:08:18+00:00"
   },
   "nse:106818661": {
    "symbol": "PERSISTENT",
@@ -184,7 +216,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:36+00:00"
+   "asked_at": "2026-10-29T09:08:18+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -216,13 +248,13 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:37+00:00"
+   "asked_at": "2026-10-29T09:08:19+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
    "question": "What has management said on recent calls about leadership, succession or this role?",
    "addressed": true,
-   "answer": "In Q2 FY27, outgoing MD & CEO Sashidhar Jagdishan announced the end of his tenure and welcomed Anup Bagchi as the new leader. Anup Bagchi expressed gratitude for his appointment as MD & CEO. Management also announced Deputy MD Kaizad Bharucha's early retirement by December. In Q1 FY27, management welcomed new Chairman Rajiv Kumar.",
+   "answer": "In October 2026 (Q2 FY27), Sashidhar Jagdishan welcomed Anup Bagchi as the incoming MD and CEO as Jagdishan's tenure ended. Bagchi stated he would gather stakeholder insights and present his strategic perspective soon. Management also announced Deputy MD Kaizad Bharucha's early retirement effective December 2026. In July 2026 (Q1 FY27), leadership welcomed new Chairman Rajiv Kumar.",
    "evidence": [
     {
      "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
@@ -237,7 +269,7 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
     },
     {
-     "quote": "So, as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
+     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
      "source": "Q2 FY27 call, Oct 2026",
      "page": 17,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
@@ -247,8 +279,8 @@
     "Q2 FY27 call, Oct 2026",
     "Q1 FY27 call, Jul 2026"
    ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:37+00:00"
+   "model": "gemini-3.5-flash",
+   "asked_at": "2026-10-29T09:08:25+00:00"
   },
   "nse:106830187": {
    "symbol": "MARUTI",
@@ -279,7 +311,7 @@
     "Q4 FY26 call, Apr 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:38+00:00"
+   "asked_at": "2026-10-29T09:08:26+00:00"
   },
   "nse:106821168": {
    "symbol": "HDFCBANK",
@@ -311,7 +343,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:38+00:00"
+   "asked_at": "2026-10-29T09:08:26+00:00"
   },
   "nse:106819733": {
    "symbol": "PERSISTENT",
@@ -343,33 +375,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T08:35:38+00:00"
-  },
-  "nse:106831929": {
-   "symbol": "ADANIENT",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In April 2026 (Q4 FY26 call), management noted that switching solar module sales entirely to India compresses margins, causing short-term compression. Furthermore, for Q2 FY27, management had not provided specific numerical guidance for overall group revenue or margins, focusing instead on long-term EBITDA targets from new projects, so direct comparison with Q2 FY27 results cannot be made.",
-   "evidence": [
-    {
-     "quote": "And the thing it does - it compresses the margin, but that gain we will make from productivity as we go through this. So short term there is slight margin compression, which you will notice in the numbers",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 5,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
-    },
-    {
-     "quote": "In the next fiscal year, AEL is set to unlock EBITDA from Navi Mumbai Airport, Kutch Copper and Ganga Expressway, which are expected to add over INR3,000 crores EBITDA to AEL",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 3,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
-    }
-   ],
-   "calls": [
-    "Q4 FY26 call, Apr 2026",
-    "Q3 FY26 call, Feb 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T08:35:39+00:00"
+   "asked_at": "2026-10-29T09:08:26+00:00"
   }
  }
 }

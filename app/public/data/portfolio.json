@@ -6,9 +6,9 @@
    "sector": "Banking",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 683.3499755859375,
-   "ret_pct": -0.285,
-   "vol_ratio": 0.568,
+   "close": 685.6500244140625,
+   "ret_pct": 0.051,
+   "vol_ratio": 0.653,
    "series": [
     {
      "date": "2026-05-08",
@@ -845,9 +845,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 683.3499755859375,
-     "ret_pct": -0.285,
-     "vol_ratio": 0.568,
+     "close": 685.6500244140625,
+     "ret_pct": 0.051,
+     "vol_ratio": 0.653,
      "corp_action": null
     }
    ],
@@ -859,9 +859,9 @@
    "sector": "Conglomerate",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 1169.5999755859375,
-   "ret_pct": 1.002,
-   "vol_ratio": 0.913,
+   "close": 1172.5999755859375,
+   "ret_pct": 1.261,
+   "vol_ratio": 0.951,
    "series": [
     {
      "date": "2026-05-08",
@@ -1698,9 +1698,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 1169.5999755859375,
-     "ret_pct": 1.002,
-     "vol_ratio": 0.913,
+     "close": 1172.5999755859375,
+     "ret_pct": 1.261,
+     "vol_ratio": 0.951,
      "corp_action": null
     }
    ],
@@ -1712,9 +1712,9 @@
    "sector": "Telecom",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 1963.9000244140625,
-   "ret_pct": 0.811,
-   "vol_ratio": 0.521,
+   "close": 1964.0,
+   "ret_pct": 0.816,
+   "vol_ratio": 0.55,
    "series": [
     {
      "date": "2026-05-08",
@@ -2551,9 +2551,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 1963.9000244140625,
-     "ret_pct": 0.811,
-     "vol_ratio": 0.521,
+     "close": 1964.0,
+     "ret_pct": 0.816,
+     "vol_ratio": 0.55,
      "corp_action": null
     }
    ],
@@ -2565,9 +2565,9 @@
    "sector": "Automobiles",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 11462.0,
-   "ret_pct": 0.105,
-   "vol_ratio": 0.462,
+   "close": 11430.0,
+   "ret_pct": -1.287,
+   "vol_ratio": 0.503,
    "series": [
     {
      "date": "2026-05-08",
@@ -3404,9 +3404,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 11462.0,
-     "ret_pct": 0.105,
-     "vol_ratio": 0.462,
+     "close": 11430.0,
+     "ret_pct": -1.287,
+     "vol_ratio": 0.503,
      "corp_action": null
     }
    ],
@@ -3418,9 +3418,9 @@
    "sector": "Paints",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 2253.39990234375,
-   "ret_pct": -1.036,
-   "vol_ratio": 1.246,
+   "close": 2258.800048828125,
+   "ret_pct": -1.129,
+   "vol_ratio": 2.749,
    "series": [
     {
      "date": "2026-05-08",
@@ -4257,9 +4257,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 2253.39990234375,
-     "ret_pct": -1.036,
-     "vol_ratio": 1.246,
+     "close": 2258.800048828125,
+     "ret_pct": -1.129,
+     "vol_ratio": 2.749,
      "corp_action": null
     }
    ],
@@ -4271,9 +4271,9 @@
    "sector": "Pharmaceuticals",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 1760.5999755859375,
-   "ret_pct": 0.176,
-   "vol_ratio": 0.445,
+   "close": 1760.4000244140625,
+   "ret_pct": 0.165,
+   "vol_ratio": 0.51,
    "series": [
     {
      "date": "2026-05-08",
@@ -5110,9 +5110,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 1760.5999755859375,
-     "ret_pct": 0.176,
-     "vol_ratio": 0.445,
+     "close": 1760.4000244140625,
+     "ret_pct": 0.165,
+     "vol_ratio": 0.51,
      "corp_action": null
     }
    ],
@@ -5124,9 +5124,9 @@
    "sector": "Internet",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 338.3999938964844,
-   "ret_pct": 3.804,
-   "vol_ratio": 0.792,
+   "close": 338.8999938964844,
+   "ret_pct": 3.957,
+   "vol_ratio": 0.859,
    "series": [
     {
      "date": "2026-05-08",
@@ -5963,9 +5963,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 338.3999938964844,
-     "ret_pct": 3.804,
-     "vol_ratio": 0.792,
+     "close": 338.8999938964844,
+     "ret_pct": 3.957,
+     "vol_ratio": 0.859,
      "corp_action": null
     }
    ],
@@ -5977,9 +5977,9 @@
    "sector": "Infrastructure",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 2608.0,
-   "ret_pct": 5.17,
-   "vol_ratio": 0.948,
+   "close": 2621.0,
+   "ret_pct": 5.694,
+   "vol_ratio": 1.061,
    "series": [
     {
      "date": "2026-05-08",
@@ -6816,9 +6816,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 2608.0,
-     "ret_pct": 5.17,
-     "vol_ratio": 0.948,
+     "close": 2621.0,
+     "ret_pct": 5.694,
+     "vol_ratio": 1.061,
      "corp_action": null
     }
    ],
@@ -6830,9 +6830,9 @@
    "sector": "Aviation",
    "size": "Large",
    "last_date": "2026-10-29",
-   "close": 4687.2998046875,
-   "ret_pct": 1.975,
-   "vol_ratio": 0.439,
+   "close": 4688.0,
+   "ret_pct": -0.043,
+   "vol_ratio": 0.505,
    "series": [
     {
      "date": "2026-05-08",
@@ -7669,9 +7669,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 4687.2998046875,
-     "ret_pct": 1.975,
-     "vol_ratio": 0.439,
+     "close": 4688.0,
+     "ret_pct": -0.043,
+     "vol_ratio": 0.505,
      "corp_action": null
     }
    ],
@@ -7683,9 +7683,9 @@
    "sector": "Cables and wires",
    "size": "Mid",
    "last_date": "2026-10-29",
-   "close": 7741.5,
-   "ret_pct": 0.801,
-   "vol_ratio": 0.45,
+   "close": 7794.5,
+   "ret_pct": 1.491,
+   "vol_ratio": 0.509,
    "series": [
     {
      "date": "2026-05-08",
@@ -8522,9 +8522,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 7741.5,
-     "ret_pct": 0.801,
-     "vol_ratio": 0.45,
+     "close": 7794.5,
+     "ret_pct": 1.491,
+     "vol_ratio": 0.509,
      "corp_action": null
     }
    ],
@@ -8536,9 +8536,9 @@
    "sector": "Electronics manufacturing",
    "size": "Mid",
    "last_date": "2026-10-29",
-   "close": 11422.0,
-   "ret_pct": 0.193,
-   "vol_ratio": 0.956,
+   "close": 11454.0,
+   "ret_pct": 0.474,
+   "vol_ratio": 0.995,
    "series": [
     {
      "date": "2026-05-08",
@@ -9375,9 +9375,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 11422.0,
-     "ret_pct": 0.193,
-     "vol_ratio": 0.956,
+     "close": 11454.0,
+     "ret_pct": 0.474,
+     "vol_ratio": 0.995,
      "corp_action": null
     }
    ],
@@ -9389,9 +9389,9 @@
    "sector": "Defence shipbuilding",
    "size": "Mid",
    "last_date": "2026-10-29",
-   "close": 1745.199951171875,
-   "ret_pct": 0.716,
-   "vol_ratio": 0.954,
+   "close": 1761.300048828125,
+   "ret_pct": 1.645,
+   "vol_ratio": 1.088,
    "series": [
     {
      "date": "2026-05-08",
@@ -10228,9 +10228,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 1745.199951171875,
-     "ret_pct": 0.716,
-     "vol_ratio": 0.954,
+     "close": 1761.300048828125,
+     "ret_pct": 1.645,
+     "vol_ratio": 1.088,
      "corp_action": null
     }
    ],
@@ -10242,9 +10242,9 @@
    "sector": "Fintech",
    "size": "Mid",
    "last_date": "2026-10-29",
-   "close": 1687.800048828125,
-   "ret_pct": 3.451,
-   "vol_ratio": 0.645,
+   "close": 1693.800048828125,
+   "ret_pct": 3.819,
+   "vol_ratio": 0.691,
    "series": [
     {
      "date": "2026-05-08",
@@ -11081,9 +11081,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 1687.800048828125,
-     "ret_pct": 3.451,
-     "vol_ratio": 0.645,
+     "close": 1693.800048828125,
+     "ret_pct": 3.819,
+     "vol_ratio": 0.691,
      "corp_action": null
     }
    ],
@@ -11096,8 +11096,8 @@
    "size": "Mid",
    "last_date": "2026-10-29",
    "close": 5847.0,
-   "ret_pct": 0.249,
-   "vol_ratio": 0.438,
+   "ret_pct": -0.017,
+   "vol_ratio": 0.458,
    "series": [
     {
      "date": "2026-05-08",
@@ -11935,8 +11935,8 @@
     {
      "date": "2026-10-29",
      "close": 5847.0,
-     "ret_pct": 0.249,
-     "vol_ratio": 0.438,
+     "ret_pct": -0.017,
+     "vol_ratio": 0.458,
      "corp_action": null
     }
    ],
@@ -11948,9 +11948,9 @@
    "sector": "Banking",
    "size": "Mid",
    "last_date": "2026-10-29",
-   "close": 864.5499877929688,
-   "ret_pct": 1.592,
-   "vol_ratio": 0.491,
+   "close": 868.25,
+   "ret_pct": 2.027,
+   "vol_ratio": 0.589,
    "series": [
     {
      "date": "2026-05-08",
@@ -12787,9 +12787,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 864.5499877929688,
-     "ret_pct": 1.592,
-     "vol_ratio": 0.491,
+     "close": 868.25,
+     "ret_pct": 2.027,
+     "vol_ratio": 0.589,
      "corp_action": null
     }
    ],
@@ -12801,9 +12801,9 @@
    "sector": "Electric vehicles",
    "size": "Small",
    "last_date": "2026-10-29",
-   "close": 35.56999969482422,
-   "ret_pct": -2.973,
-   "vol_ratio": 0.642,
+   "close": 35.59000015258789,
+   "ret_pct": -2.919,
+   "vol_ratio": 0.71,
    "series": [
     {
      "date": "2026-05-08",
@@ -13640,9 +13640,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 35.56999969482422,
-     "ret_pct": -2.973,
-     "vol_ratio": 0.642,
+     "close": 35.59000015258789,
+     "ret_pct": -2.919,
+     "vol_ratio": 0.71,
      "corp_action": null
     }
    ],
@@ -13654,9 +13654,9 @@
    "sector": "Gaming",
    "size": "Small",
    "last_date": "2026-10-29",
-   "close": 403.25,
-   "ret_pct": 0.812,
-   "vol_ratio": 0.479,
+   "close": 405.45001220703125,
+   "ret_pct": 1.363,
+   "vol_ratio": 0.529,
    "series": [
     {
      "date": "2026-05-08",
@@ -14493,9 +14493,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 403.25,
-     "ret_pct": 0.812,
-     "vol_ratio": 0.479,
+     "close": 405.45001220703125,
+     "ret_pct": 1.363,
+     "vol_ratio": 0.529,
      "corp_action": null
     }
    ],
@@ -14507,9 +14507,9 @@
    "sector": "Digital security",
    "size": "Small",
    "last_date": "2026-10-29",
-   "close": 350.95001220703125,
-   "ret_pct": 4.031,
-   "vol_ratio": 0.239,
+   "close": 352.20001220703125,
+   "ret_pct": 1.807,
+   "vol_ratio": 0.244,
    "series": [
     {
      "date": "2026-05-08",
@@ -15346,9 +15346,9 @@
     },
     {
      "date": "2026-10-29",
-     "close": 350.95001220703125,
-     "ret_pct": 4.031,
-     "vol_ratio": 0.239,
+     "close": 352.20001220703125,
+     "ret_pct": 1.807,
+     "vol_ratio": 0.244,
      "corp_action": null
     }
    ],
