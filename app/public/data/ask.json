@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:34:53+00:00"
+   "asked_at": "2026-10-29T08:04:52+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-29T07:34:53+00:00"
+   "asked_at": "2026-10-29T08:04:52+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,39 +88,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:34:53+00:00"
-  },
-  "nse:106818788": {
-   "symbol": "PERSISTENT",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In June 2026 (Q1 FY27 call), management stated its new $650 million deal would be accretive to revenue and margins starting in Q2. In October 2026 (Q2 FY27 call), management reported Q2 revenue reached $487.6 million (up 30.3% YoY in rupees) with a 15% EBIT margin, reiterating an aspirational goal of 16% to 17%.",
-   "evidence": [
-    {
-     "quote": "And yes, it will be accretive - revenue & margin from Q2 onwards",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 25,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
-    },
-    {
-     "quote": "We achieved a healthy revenue growth of 7.8% quarter-on-quarter and 20% year-on-year delivering USD 487.6 million in Q2 FY27",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    },
-    {
-     "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 19,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:34:53+00:00"
+   "asked_at": "2026-10-29T08:04:52+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -152,7 +120,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:34:53+00:00"
+   "asked_at": "2026-10-29T08:04:52+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -184,7 +152,39 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:35:00+00:00"
+   "asked_at": "2026-10-29T08:04:52+00:00"
+  },
+  "nse:106818661": {
+   "symbol": "PERSISTENT",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In June 2026, management stated that a major $650 million deal would be revenue and margin accretive starting Q2 FY27. They also maintained an aspirational EBIT margin target of 16% to 17%. The 30.3% YoY revenue growth matched growth expectations, but Q2 EBIT margin came in lower at 15% due to wage hikes and deal amortization.",
+   "evidence": [
+    {
+     "quote": "And yes, it will be accretive - revenue & margin from Q2 onwards",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 25,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+    },
+    {
+     "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 19,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    },
+    {
+     "quote": "EBIT margins for Q2 FY27 came in at 15%, 130 basis points declined year-on-year",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Oct 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-29T08:05:00+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -216,7 +216,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:35:00+00:00"
+   "asked_at": "2026-10-29T08:05:00+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
@@ -248,7 +248,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:35:00+00:00"
+   "asked_at": "2026-10-29T08:05:00+00:00"
   },
   "nse:106830187": {
    "symbol": "MARUTI",
@@ -279,7 +279,7 @@
     "Q4 FY26 call, Apr 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:35:01+00:00"
+   "asked_at": "2026-10-29T08:05:00+00:00"
   },
   "nse:106821168": {
    "symbol": "HDFCBANK",
@@ -311,7 +311,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:35:07+00:00"
+   "asked_at": "2026-10-29T08:05:01+00:00"
   },
   "nse:106819733": {
    "symbol": "PERSISTENT",
@@ -343,7 +343,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-29T07:36:46+00:00"
+   "asked_at": "2026-10-29T08:05:01+00:00"
   },
   "nse:106831929": {
    "symbol": "ADANIENT",
@@ -369,7 +369,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-29T07:36:47+00:00"
+   "asked_at": "2026-10-29T08:05:01+00:00"
   }
  }
 }

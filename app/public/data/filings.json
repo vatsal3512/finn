@@ -29,8 +29,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.201,
-    "vol_ratio": 0.41
+    "ret_pct": 0.035,
+    "vol_ratio": 0.443
    },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
@@ -66,8 +66,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.967,
-    "vol_ratio": 0.7
+    "ret_pct": 1.036,
+    "vol_ratio": 0.842
    },
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
@@ -96,8 +96,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 3.705,
-    "vol_ratio": 0.224
+    "ret_pct": 3.513,
+    "vol_ratio": 0.232
    },
    "score": 0.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
@@ -126,8 +126,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.71,
-    "vol_ratio": 0.841
+    "ret_pct": 4.65,
+    "vol_ratio": 0.894
    },
    "score": 0.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -156,8 +156,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.457,
-    "vol_ratio": 0.413
+    "ret_pct": 0.821,
+    "vol_ratio": 0.493
    },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
@@ -186,8 +186,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.71,
-    "vol_ratio": 0.841
+    "ret_pct": 4.65,
+    "vol_ratio": 0.894
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -216,8 +216,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.71,
-    "vol_ratio": 0.841
+    "ret_pct": 4.65,
+    "vol_ratio": 0.894
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
@@ -246,8 +246,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.872,
-    "vol_ratio": 0.397
+    "ret_pct": 0.671,
+    "vol_ratio": 0.42
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
@@ -276,8 +276,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.687,
-    "vol_ratio": 0.43
+    "ret_pct": 0.637,
+    "vol_ratio": 0.44
    },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
@@ -315,8 +315,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.71,
-    "vol_ratio": 0.841
+    "ret_pct": 4.65,
+    "vol_ratio": 0.894
    },
    "score": 60.0,
    "group_id": "ADANIENT:results:2026-10-28",
@@ -345,8 +345,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.271,
-    "vol_ratio": 0.747
+    "ret_pct": 0.502,
+    "vol_ratio": 0.82
    },
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
@@ -5038,7 +5038,7 @@
    "exchange_label": "General Updates",
    "headline": "Persistent Systems Limited has informed the Exchange about General Updates",
    "category": "results",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -5046,12 +5046,123 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026165133_PSLSubmissionofFinancialsSeptember2026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Audited financial results for quarter ended September 30, 2026",
-    "summary": "Revenue was 4,663.9 crore with an EBITDA of 633.5 crore and profit after tax of 351.5 crore.",
-    "why_it_matters": "EBITDA margin dropped to 13.6% from 19.1% a year ago, while profit after tax declined by 25.4% year-on-year against annual revenue of about ₹16,801 crore.",
-    "sentiment": "negative",
-    "amount_inr_crore": 351.5,
-    "model": "gemini-3.5-flash-lite"
+    "title": "Audited Q2 FY27 Financial Results Web Links Available",
+    "summary": "Persistent Systems provided website links to its audited standalone and consolidated financial results for Q2 FY27.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-16",
+    "ret_pct": -1.695,
+    "vol_ratio": 4.376
+   },
+   "score": 30.0,
+   "group_id": "PERSISTENT:results:2026-10-15",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106818693",
+   "symbol": "PERSISTENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-15T16:12:31+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Press Release regarding financial results for the quarter and half year ended September 30, 2026\".",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026161221_SEIntimationpressrelease15102026Sd.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
+   "insight": {
+    "title": "Press Release for Q2 FY27 Financial Results",
+    "summary": "Persistent Systems reported Q2 FY27 revenue of ₹4,663.9 crore, up 30.3% YoY, while profit after tax declined 25.4% YoY to ₹351.5 crore.",
+    "why_it_matters": "Profit declined primarily due to exceptional expenses related to the Nagarro acquisition impact.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-16",
+    "ret_pct": -1.695,
+    "vol_ratio": 4.376
+   },
+   "score": 70.0,
+   "group_id": "PERSISTENT:results:2026-10-15",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106818679",
+   "symbol": "PERSISTENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-15T16:06:03+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Persistent Systems Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026160546_PSLFactSheetQ2FY27160Sd.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
+   "insight": {
+    "title": "Investor Presentation for Q2 FY27 Results",
+    "summary": "Persistent Systems released its Q2 FY27 investor presentation, reporting revenue of ₹4,663.9 crore and a 25.4% YoY drop in PAT to ₹351.5 crore.",
+    "why_it_matters": "PAT was impacted by exceptional expenses from the Nagarro acquisition resulting in a 3.1% hit.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-16",
+    "ret_pct": -1.695,
+    "vol_ratio": 4.376
+   },
+   "score": 70.0,
+   "group_id": "PERSISTENT:results:2026-10-15",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106818661",
+   "symbol": "PERSISTENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-15T15:56:36+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "Outcome of the Board Meeting",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026155331_PSLBMOutcomeOctober152026159signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
+   "insight": {
+    "title": "Board Approves Q2 FY27 Financial Results",
+    "summary": "Persistent Systems approved Q2 FY27 results with revenue up 30.3% YoY to ₹4,663.9 crore, while PAT fell 25.4% YoY to ₹351.5 crore.",
+    "why_it_matters": "EBITDA margin contracted to 13.6% from 19.1% a year ago, driving the net profit drop.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -5125,121 +5236,9 @@
     "ret_pct": -1.695,
     "vol_ratio": 4.376
    },
-   "score": 135.0,
+   "score": 130.0,
    "group_id": "PERSISTENT:results:2026-10-15",
    "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106818693",
-   "symbol": "PERSISTENT",
-   "exchange": "NSE",
-   "filed_at": "2026-10-15T16:12:31+05:30",
-   "exchange_label": "Press Release",
-   "headline": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Press Release regarding financial results for the quarter and half year ended September 30, 2026\".",
-   "category": "results",
-   "tier": "must_see",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026161221_SEIntimationpressrelease15102026Sd.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
-   "insight": {
-    "title": "Quarterly financial results and equity raise announcement",
-    "summary": "Q2 FY27 revenue rose 8.4% QoQ to ₹4,663.9 crore, while PAT fell 27% QoQ to ₹351.5 crore; board approved an equity raise of up to USD 450 million.",
-    "why_it_matters": "Equity raise of up to USD 450 M is less than 3% of annual revenue, limiting dilution risk.",
-    "sentiment": "mixed",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "results",
-    "fund_raise"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-16",
-    "ret_pct": -1.695,
-    "vol_ratio": 4.376
-   },
-   "score": 130.0,
-   "group_id": "PERSISTENT:results:2026-10-15",
-   "group_lead": false,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106818679",
-   "symbol": "PERSISTENT",
-   "exchange": "NSE",
-   "filed_at": "2026-10-15T16:06:03+05:30",
-   "exchange_label": "Investor Presentation",
-   "headline": "Persistent Systems Limited has informed the Exchange about Investor Presentation",
-   "category": "results",
-   "tier": "must_see",
-   "classified_by": "ai",
-   "rule": "investor_presentation",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026160546_PSLFactSheetQ2FY27160Sd.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
-   "insight": {
-    "title": "Investor presentation of Q2 FY27 results",
-    "summary": "Q2 FY27 revenue increased 8.4% QoQ to ₹4,663.9 crore, but PAT dropped 27% QoQ to ₹351.5 crore.",
-    "why_it_matters": "EBITDA margin slipped to 13.6% from 16.2% a quarter earlier, showing margin compression.",
-    "sentiment": "mixed",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "results"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-16",
-    "ret_pct": -1.695,
-    "vol_ratio": 4.376
-   },
-   "score": 130.0,
-   "group_id": "PERSISTENT:results:2026-10-15",
-   "group_lead": false,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106818661",
-   "symbol": "PERSISTENT",
-   "exchange": "NSE",
-   "filed_at": "2026-10-15T15:56:36+05:30",
-   "exchange_label": "Outcome of Board Meeting",
-   "headline": "Outcome of the Board Meeting",
-   "category": "results",
-   "tier": "glance",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026155331_PSLBMOutcomeOctober152026159signed.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
-   "insight": {
-    "title": "Board approves Q2 FY27 audited results",
-    "summary": "Board approved Q2 FY27 audited results, showing revenue of ₹4,663.9 crore (+8.4% QoQ) and PAT of ₹351.5 crore (-27% QoQ).",
-    "why_it_matters": "Profit after tax fell 27% despite double‑digit revenue growth, highlighting cost pressures.",
-    "sentiment": "mixed",
-    "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
-   },
-   "events": [
-    "results"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-16",
-    "ret_pct": -1.695,
-    "vol_ratio": 4.376
-   },
-   "score": 70.0,
-   "group_id": "PERSISTENT:results:2026-10-15",
-   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -5287,7 +5286,7 @@
    "exchange_label": "General Updates",
    "headline": "Polycab India Limited has informed the Exchange about Earnings Presentation on Unaudited Financial Results for the quarter and half year ended September 30, 2026.",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "results_text",
    "needs_ai": false,
@@ -5295,12 +5294,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Unaudited Q2 FY27 earnings presentation",
-    "summary": "Q2 FY27 revenue rose 20.6% QoQ to ₹9,898.9 crore, and PAT increased 24.3% QoQ to ₹990.0 crore.",
-    "why_it_matters": "EBITDA margin improved to 14.4% from 13.8% QoQ, indicating better profitability.",
+    "title": "Earnings Presentation for Q2 FY27 Results",
+    "summary": "Polycab India published its Q2 FY27 earnings presentation, with revenue surging 52.8% YoY to ₹9,898.9 crore and PAT rising 42.9% to ₹990.0 crore.",
+    "why_it_matters": "Strong top-line expansion was driven by the FMEG business, which more than doubled YoY to ₹9,931 million.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -5311,7 +5310,7 @@
     "ret_pct": -1.536,
     "vol_ratio": 1.821
    },
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "POLYCAB:results:2026-10-15",
    "group_lead": false,
    "duplicate_of": null
@@ -5332,12 +5331,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026130834_PressRelease.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Press release of Q2 FY27 unaudited results",
-    "summary": "Q2 FY27 revenue climbed 20.6% QoQ to ₹9,898.9 crore, while PAT grew 24.3% QoQ to ₹990.0 crore.",
-    "why_it_matters": "EBITDA margin rose to 14.4% from 13.8% QoQ, reflecting stronger earnings.",
+    "title": "Press Release for Record Q2 FY27 Results",
+    "summary": "Polycab India issued a press release reporting highest-ever Q2 revenue of ₹9,898.9 crore, up 52.8% YoY, and PAT of ₹990.0 crore.",
+    "why_it_matters": "Revenue grew 52.8% YoY, delivering broad-based operational growth across wires and cables.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
