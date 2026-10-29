@@ -169,7 +169,11 @@ function Quote({ label, e }: { label: string; e: Evidence }) {
   );
 }
 
+/** The figures in a sentence, to spot a line that says the same thing in other words. */
+const figures = (t: string) => (t.match(/\d[\d,.]*/g) ?? []).join("|");
+
 export function CashSection({ c }: { c: CashQuality }) {
+  const signals = (c.signals ?? []).filter((s) => !c.read || figures(s.quote) !== figures(c.read));
   return (
     <>
       <SectionTitle aside={c.conversion_5y != null ? `5-year cash conversion ${pct(c.conversion_5y * 100, 0).replace("+", "")}${c.parent_conversion_5y != null ? ` · parent alone ${Math.round(c.parent_conversion_5y * 100)}%` : ""}` : undefined}>
@@ -183,7 +187,7 @@ export function CashSection({ c }: { c: CashQuality }) {
             {c.read && <p className="mb-3 text-[14px] leading-snug">{c.read}</p>}
             <CashChart years={c.years ?? []} />
             <ul className="mt-3 space-y-1.5 text-[13px] text-muted">
-              {(c.signals ?? []).map((s) => <li key={s.quote}>{s.quote}</li>)}
+              {signals.map((s) => <li key={s.quote}>{s.quote}</li>)}
             </ul>
             <p className="mt-2 text-[11px] text-faint">Computed by code from the filed cash-flow statements, via screener.in.</p>
           </>
@@ -222,9 +226,15 @@ function Method({ r }: { r: ResearchReport }) {
   return (
     <details className="mx-3 mb-6 mt-5 rounded-xl border border-line bg-surface">
       <summary className="cursor-pointer list-none px-4 py-3 text-[12px] text-muted">
-        Built from {s.calls_read} call transcripts{r.documents.some((d) => d.kind === "annual_report") ? " and the annual report" : ""}.{" "}
-        <span className="text-text">{s.quotes_verified} of {s.claims_found} quotes</span> found word for word in the documents ·{" "}
-        {s.graded_by_code} verdicts by code · {s.ai_calls} AI calls
+        {s.calls_read === 0 ? (
+          <>Built from the company&apos;s filed accounts only: there were no call transcripts to read.</>
+        ) : (
+          <>
+            Built from {s.calls_read} call transcripts{r.documents.some((d) => d.kind === "annual_report") ? " and the annual report" : ""}.{" "}
+            <span className="text-text">{s.quotes_verified} of {s.claims_found} quotes</span> found word for word in the documents ·{" "}
+            {s.graded_by_code} verdicts by code · {s.ai_calls} AI calls
+          </>
+        )}
       </summary>
       <div className="space-y-2 border-t border-line px-4 py-3 text-[12px] text-muted">
         <p>
