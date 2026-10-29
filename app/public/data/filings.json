@@ -1,6 +1,103 @@
 {
  "filings": [
   {
+   "id": "nse:106834064",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T13:42:21+05:30",
+   "exchange_label": "Action(s) taken or orders passed",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "category": "litigation",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "litigation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "DoT Imposes Rs. 2,14,000 Penalty on Company",
+    "summary": "The Department of Telecommunications, Karnataka LSA has issued a notice imposing a penalty of Rs. 2,14,000 on Bharti Airtel for alleged violations.",
+    "why_it_matters": "The penalty of Rs. 2,14,000 is negligible compared to the company's annual revenue of about ₹220,049 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "litigation"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 0.811,
+    "vol_ratio": 0.521
+   },
+   "score": 13.0,
+   "group_id": "BHARTIARTL:litigation:2026-10-29",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106834052",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T13:36:18+05:30",
+   "exchange_label": "Monitoring Agency Report",
+   "headline": "Monitoring Agency Report for the quarter and half year ended on September 30, 2026 - Funds raised through issue of Qualified Institutional Placement ( QIP )",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "monitoring_agency",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_29102026133612_AELMonitoringAgency30092026QIPIssue.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.17,
+    "vol_ratio": 0.948
+   },
+   "score": 15.0,
+   "group_id": "ADANIENT:unclassified:2026-10-29",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106834049",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-10-29T13:35:15+05:30",
+   "exchange_label": "Monitoring Agency Report",
+   "headline": "Monitoring Agency Report for the quarter and half year ended on September 30, 2026 - Funds raised through issue of equity shares on Rights basis",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "monitoring_agency",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_29102026133509_AELMonitoringAgency30092026RightsIssue.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": {
+    "session": "2026-10-29",
+    "ret_pct": 5.17,
+    "vol_ratio": 0.948
+   },
+   "score": 15.0,
+   "group_id": "ADANIENT:unclassified:2026-10-29",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106833712",
    "symbol": "MARUTI",
    "exchange": "NSE",
@@ -29,8 +126,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.035,
-    "vol_ratio": 0.443
+    "ret_pct": 0.105,
+    "vol_ratio": 0.462
    },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
@@ -66,8 +163,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 1.036,
-    "vol_ratio": 0.842
+    "ret_pct": 1.002,
+    "vol_ratio": 0.913
    },
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
@@ -96,8 +193,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 3.513,
-    "vol_ratio": 0.232
+    "ret_pct": 4.031,
+    "vol_ratio": 0.239
    },
    "score": 0.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
@@ -126,10 +223,10 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.65,
-    "vol_ratio": 0.894
+    "ret_pct": 5.17,
+    "vol_ratio": 0.948
    },
-   "score": 0.0,
+   "score": 15.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -156,8 +253,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.821,
-    "vol_ratio": 0.493
+    "ret_pct": 0.811,
+    "vol_ratio": 0.521
    },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
@@ -186,10 +283,10 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.65,
-    "vol_ratio": 0.894
+    "ret_pct": 5.17,
+    "vol_ratio": 0.948
    },
-   "score": 0.0,
+   "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -216,12 +313,12 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.65,
-    "vol_ratio": 0.894
+    "ret_pct": 5.17,
+    "vol_ratio": 0.948
    },
-   "score": 0.0,
+   "score": 15.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
@@ -246,8 +343,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.671,
-    "vol_ratio": 0.42
+    "ret_pct": 0.801,
+    "vol_ratio": 0.45
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
@@ -276,8 +373,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.637,
-    "vol_ratio": 0.44
+    "ret_pct": 0.812,
+    "vol_ratio": 0.479
    },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
@@ -315,10 +412,10 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 4.65,
-    "vol_ratio": 0.894
+    "ret_pct": 5.17,
+    "vol_ratio": 0.948
    },
-   "score": 60.0,
+   "score": 75.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -345,8 +442,8 @@
    "cards": [],
    "price_reaction": {
     "session": "2026-10-29",
-    "ret_pct": 0.502,
-    "vol_ratio": 0.82
+    "ret_pct": 0.716,
+    "vol_ratio": 0.954
    },
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
@@ -502,7 +599,7 @@
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -5368,12 +5465,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Quarterly financial results filed",
-    "summary": "Revenue rose to ₹9,898.9 crore, up 20.6% QoQ and 52.8% YoY, with profit after tax increasing to ₹990.0 crore.",
-    "why_it_matters": "Revenue growth outpaces the company's annual revenue of ₹34,609 crore, indicating strong quarterly performance.",
+    "title": "Q2 FY27 Consolidated Financial Results Approved",
+    "summary": "Polycab India reported a 42.9% YoY increase in consolidated profit after tax to ₹990.0 crore for Q2 FY27.",
+    "why_it_matters": "Revenue grew 52.8% YoY to ₹9,898.9 crore, while EBITDA margin contracted to 14.4% from 15.8% a year ago.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results"
@@ -5662,12 +5759,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_14102026160249_BhartiAirtelReg30disclosure.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
-    "title": "DoT penalty notice for Bharti Airtel",
-    "summary": "The Department of Telecommunications imposed a penalty of Rs. 1,50,000 on Bharti Airtel for alleged violations.",
-    "why_it_matters": "Penalty is negligible versus ₹220,049 crore annual revenue.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 0.01,
-    "model": "openai/gpt-oss-120b"
+    "title": "DoT Imposes Penalty of Rs 150,000",
+    "summary": "The Department of Telecommunications, Madhya Pradesh LSA issued a notice imposing a penalty of Rs. 1,50,000 on Bharti Airtel.",
+    "why_it_matters": "The penalty amount is negligible relative to the company's annual revenue of about ₹220,049 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5678,7 +5775,7 @@
     "ret_pct": 3.31,
     "vol_ratio": 1.757
    },
-   "score": 8.0,
+   "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-10-14",
    "group_lead": true,
    "duplicate_of": null
@@ -5691,7 +5788,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange that Hon''ble NCLAT has granted the request for early listing and the appeal is now scheduled to be held on October 15, 2026.",
    "category": "litigation",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -5699,12 +5796,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Early hearing ordered for Polycab insolvency appeal",
-    "summary": "NCLAT granted early listing; the corporate insolvency appeal will be heard on Oct 15, 2026.",
+    "title": "NCLAT Grants Early Listing for Appeal Hearing",
+    "summary": "Hon'ble NCLAT granted an early hearing request, rescheduling the appeal in the Asier Metals matter to October 15, 2026.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5715,7 +5812,7 @@
     "ret_pct": 0.543,
     "vol_ratio": 2.689
    },
-   "score": 58.0,
+   "score": 18.0,
    "group_id": "POLYCAB:litigation:2026-10-14",
    "group_lead": true,
    "duplicate_of": null
@@ -5736,12 +5833,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_13102026191037_SEDisclosureFGGSTOrderOct_2026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
    "insight": {
-    "title": "GST liability reduced for Paytm subsidiary",
-    "summary": "A GST demand for First Games was cut from INR 5,712 crore to INR 703.66 crore.",
-    "why_it_matters": null,
-    "sentiment": "neutral",
+    "title": "GST Demand on Subsidiary Reduced Significantly",
+    "summary": "Tax authority reduced proposed GST demand on Paytm subsidiary First Games from INR 5,712 crore to INR 703.66 crore plus penalty.",
+    "why_it_matters": "The reduced demand of INR 703.66 crore remains substantial compared to Paytm's annual revenue of about ₹9,554 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": 703.66,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5803,12 +5900,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/Indigo1_13102026181943_LoDR-Order.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDIGO",
    "insight": {
-    "title": "Customs duty penalty order for IndiGo",
-    "summary": "Customs ordered additional duty with a fine and penalty of INR 3,50,00,000 for IndiGo.",
-    "why_it_matters": "Penalty is minimal compared with ₹89,049 crore revenue.",
-    "sentiment": "neutral",
-    "amount_inr_crore": 3.5,
-    "model": "openai/gpt-oss-120b"
+    "title": "Customs Demand and Penalty Imposed on ATF Imports",
+    "summary": "Customs Authority confirmed demand for additional customs duty along with a fine and penalty of INR 3,50,00,000 on IndiGo.",
+    "why_it_matters": "The penalty is minor relative to IndiGo's annual revenue of about ₹89,049 crore, and the company will contest the order.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -5819,7 +5916,7 @@
     "ret_pct": -1.706,
     "vol_ratio": 1.353
    },
-   "score": 8.0,
+   "score": 13.0,
    "group_id": "INDIGO:litigation:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
@@ -5870,12 +5967,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Credit rating update",
-    "summary": "CRISIL assigned AAA/Stable to Sun Pharma's NCD programme and reaffirmed its long‑term rating, while ICRA reaffirmed AAA/Stable for existing facilities.",
-    "why_it_matters": "Ratings reflect the company's strong financial profile and support its proposed acquisition of Organon & Co.",
+    "title": "AAA Credit Rating Assigned for Proposed NCDs",
+    "summary": "CRISIL and ICRA assigned 'AAA/Stable' ratings to Sun Pharma's proposed Rs. 15,000 crore NCD programme and reaffirmed existing ratings.",
+    "why_it_matters": "The rating agencies noted that the ratings factor in Sun Pharma's profile and the proposed acquisition of Organon & Co.",
     "sentiment": "positive",
     "amount_inr_crore": 15000.0,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "M&A",
@@ -5900,7 +5997,7 @@
    "exchange_label": "Resignation of Director/KMP/SMP",
    "headline": "Nazara Technologies Limited has informed the Exchange about Resignation of Director/KMP/SMP",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "independent_director",
    "needs_ai": false,
@@ -5908,12 +6005,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_ROID_100344_KMP_Doc.zip",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Resignations of Nazara director and CFO",
-    "summary": "Whole‑time Director Rohit Shanna and CFO resigned, effective Jan 11 2027 and Oct 15 2026 respectively.",
+    "title": "Whole-time Director Resignation Letter Enclosed",
+    "summary": "Nazara Technologies submitted the formal resignation letter of Whole-time Director Rohit Sharma, who steps down on January 11, 2027, to pursue entrepreneurial opportunities.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -5924,7 +6021,7 @@
     "ret_pct": 1.186,
     "vol_ratio": 0.897
    },
-   "score": 58.0,
+   "score": 6.0,
    "group_id": "NAZARA:management_change:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
@@ -5937,7 +6034,7 @@
    "exchange_label": "Press Release",
    "headline": "Adani Enterprises Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Adani Enterprises, Jabil Sign MoU for 50:50 Data Centre Hardware Joint Venture\".",
    "category": "M&A",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -5945,12 +6042,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_13102026173511_AELIntimationMediaRelease13102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
    "insight": {
-    "title": "MoU for 50:50 Data Centre Hardware JV",
-    "summary": "Adani Enterprises and Jabil signed an MoU to form a 50:50 joint venture building multi‑gigawatt AI data‑centre hardware in India.",
-    "why_it_matters": "The JV aligns with Adani’s $100 billion, 5 GW green‑energy goal, sizable versus its ₹111,432 crore revenue.",
+    "title": "MoU Signed for 50:50 Joint Venture With Jabil",
+    "summary": "Adani Enterprises signed an MoU with Jabil to set up a 50:50 joint venture for building an AI data centre hardware platform in India.",
+    "why_it_matters": "The venture aligns with Adani Group's $100 billion commitment to develop 5 GW of green-energy powered hyperscale data centres.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "M&A"
@@ -5961,7 +6058,7 @@
     "ret_pct": 1.024,
     "vol_ratio": 0.932
    },
-   "score": 112.0,
+   "score": 52.0,
    "group_id": "ADANIENT:M&A:2026-10-13",
    "group_lead": true,
    "duplicate_of": null
@@ -5982,12 +6079,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT Order Staying CIRP Proceedings",
-    "summary": "Polycab India disclosed that NCLAT stayed and kept in abeyance the NCLT order initiating CIRP over an alleged ₹2.79 crore operational debt.",
-    "why_it_matters": "The ₹2.79 crore debt is negligible versus its ₹34,609 crore revenue, indicating limited financial impact.",
-    "sentiment": "neutral",
+    "title": "NCLAT Stays Insolvency Proceedings Against Company",
+    "summary": "NCLAT stayed an NCLT order initiating corporate insolvency proceedings against Polycab India over an alleged operational debt of ₹2.79 crore.",
+    "why_it_matters": "The disputed ₹2.79 crore claim is immaterial compared to Polycab's net cash position exceeding Rs.4,000 crores and net-worth of Rs.11,682 crores.",
+    "sentiment": "positive",
     "amount_inr_crore": 2.79,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "litigation"
@@ -6145,7 +6242,7 @@
    "exchange_label": "Resignation of Director/KMP/SMP",
    "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange about Resignation of Director/KMP/SMP",
    "category": "management_change",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "independent_director",
    "needs_ai": false,
@@ -6153,12 +6250,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Non‑Executive Independent Director Resigns",
-    "summary": "Sun Pharmaceutical announced the resignation of Mr Gautam Doshi as a Non‑Executive Independent Director, effective 12 Oct 2026.",
+    "title": "Resignation Notice Attachment Unreadable",
+    "summary": "Sun Pharma filed a disclosure regarding the resignation of a director or key managerial personnel, but the attached scanned document contains no readable text.",
     "why_it_matters": null,
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change"
@@ -6169,7 +6266,7 @@
     "ret_pct": 0.608,
     "vol_ratio": 0.74
    },
-   "score": 46.0,
+   "score": 6.0,
    "group_id": "SUNPHARMA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": null
@@ -6216,12 +6313,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Board Approves INR 10,000 Crore NCD Issue",
-    "summary": "The board approved a private placement of listed, rated NCDs up to INR 10,000 crore and accepted the resignation of director Gautam Doshi.",
-    "why_it_matters": "The INR 10,000 crore raise equals ~17% of its ₹59,911 crore revenue, a material financing move.",
-    "sentiment": "neutral",
+    "title": "Board Approves Issuance of NCDs Up to INR 10,000 Crore",
+    "summary": "Sun Pharma's board approved issuing rated, unsecured, redeemable non-convertible debentures up to INR 10,000 Crore on a private placement basis.",
+    "why_it_matters": "The fund raise limit of INR 10,000 Crore represents about 16.7% of Sun Pharma's annual revenue of about ₹59,911 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": 10000.0,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
@@ -6254,12 +6351,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026195625_BMOutcome12October2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
    "insight": {
-    "title": "Board Approves INR 10,000 Crore NCD Issue",
-    "summary": "The board approved a private placement of listed, rated NCDs up to INR 10,000 crore and accepted the resignation of director Gautam Doshi.",
-    "why_it_matters": "The INR 10,000 crore raise equals ~17% of its ₹59,911 crore revenue, a material financing move.",
-    "sentiment": "neutral",
+    "title": "Board Approves Issuance of NCDs Up to INR 10,000 Crore",
+    "summary": "Sun Pharma's board approved issuing rated, unsecured, redeemable non-convertible debentures up to INR 10,000 Crore on a private placement basis.",
+    "why_it_matters": "The fund raise limit of INR 10,000 Crore represents about 16.7% of Sun Pharma's annual revenue of about ₹59,911 crore.",
+    "sentiment": "positive",
     "amount_inr_crore": 10000.0,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
@@ -6300,8 +6397,8 @@
    "filed_at": "2026-10-12T18:46:41+05:30",
    "exchange_label": "Allotment of Securities",
    "headline": "Nazara Technologies Limited informs the Exchange regarding allotment of 2,38,81,711 Equity Shares by way of Preferential issue on private placement basis at its meeting held on October 12, 2026.",
-   "category": "fund_raise",
-   "tier": "glance",
+   "category": "management_change",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "equity_raise",
    "needs_ai": false,
@@ -6309,17 +6406,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026184557_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board Approves Equity Share Allotment",
-    "summary": "Nazara approved the allotment of 2,38,81,711 equity shares at ₹306 each and noted several director and CFO changes.",
-    "why_it_matters": "The share issue coincides with multiple senior leadership changes.",
+    "title": "Key Leadership Restructuring and CFO Replacement",
+    "summary": "Nazara Technologies announced extensive leadership changes, including Arun Agrawal replacing Rakesh Shah as CFO and Mithun Sacheti redesignation to Executive Director.",
+    "why_it_matters": "The broad executive reshuffle replaces key KMP leadership roles alongside a preferential equity allotment of 2,38,81,711 shares.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
-    "fund_raise",
-    "litigation"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -6327,7 +6423,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -6339,8 +6435,8 @@
    "filed_at": "2026-10-12T18:40:31+05:30",
    "exchange_label": "Appointment",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Appointment of Mr Arun Agrawal as Chief Financial Officer and Key Managerial Personnel of the Company with effect from October 16, 2026.",
-   "category": "fund_raise",
-   "tier": "glance",
+   "category": "management_change",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -6348,17 +6444,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026183945_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board Approves Equity Share Allotment",
-    "summary": "Nazara approved the allotment of 2,38,81,711 equity shares at ₹306 each and noted several director and CFO changes.",
-    "why_it_matters": "The share issue coincides with multiple senior leadership changes.",
+    "title": "Key Leadership Restructuring and CFO Replacement",
+    "summary": "Nazara Technologies announced extensive leadership changes, including Arun Agrawal replacing Rakesh Shah as CFO and Mithun Sacheti redesignation to Executive Director.",
+    "why_it_matters": "The broad executive reshuffle replaces key KMP leadership roles alongside a preferential equity allotment of 2,38,81,711 shares.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
-    "fund_raise",
-    "litigation"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -6366,7 +6461,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -6378,8 +6473,8 @@
    "filed_at": "2026-10-12T18:33:48+05:30",
    "exchange_label": "Resignation",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Resignation of Mr Rakesh Shah as Chief Financial Officer ( KMP ) of the Company with effect from the close of business hours on October 15, 2026.",
-   "category": "fund_raise",
-   "tier": "glance",
+   "category": "management_change",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -6387,17 +6482,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026183312_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board Approves Equity Share Allotment",
-    "summary": "Nazara approved the allotment of 2,38,81,711 equity shares at ₹306 each and noted several director and CFO changes.",
-    "why_it_matters": "The share issue coincides with multiple senior leadership changes.",
+    "title": "Key Leadership Restructuring and CFO Replacement",
+    "summary": "Nazara Technologies announced extensive leadership changes, including Arun Agrawal replacing Rakesh Shah as CFO and Mithun Sacheti redesignation to Executive Director.",
+    "why_it_matters": "The broad executive reshuffle replaces key KMP leadership roles alongside a preferential equity allotment of 2,38,81,711 shares.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
-    "fund_raise",
-    "litigation"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -6405,7 +6499,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -6417,8 +6511,8 @@
    "filed_at": "2026-10-12T18:28:21+05:30",
    "exchange_label": "Resignation",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Resignation of Mr Rohit Sharma from the office of Whole-time Director of the Company with effect from the close of business hours on January 11, 2027.",
-   "category": "fund_raise",
-   "tier": "glance",
+   "category": "management_change",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -6426,17 +6520,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026182751_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board Approves Equity Share Allotment",
-    "summary": "Nazara approved the allotment of 2,38,81,711 equity shares at ₹306 each and noted several director and CFO changes.",
-    "why_it_matters": "The share issue coincides with multiple senior leadership changes.",
+    "title": "Key Leadership Restructuring and CFO Replacement",
+    "summary": "Nazara Technologies announced extensive leadership changes, including Arun Agrawal replacing Rakesh Shah as CFO and Mithun Sacheti redesignation to Executive Director.",
+    "why_it_matters": "The broad executive reshuffle replaces key KMP leadership roles alongside a preferential equity allotment of 2,38,81,711 shares.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
-    "fund_raise",
-    "litigation"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -6444,7 +6537,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -6456,8 +6549,8 @@
    "filed_at": "2026-10-12T18:23:48+05:30",
    "exchange_label": "Change in Director(s)",
    "headline": "Nazara Technologies Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "category": "fund_raise",
-   "tier": "glance",
+   "category": "management_change",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "management",
    "needs_ai": false,
@@ -6465,17 +6558,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026182312_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board Approves Equity Share Allotment",
-    "summary": "Nazara approved the allotment of 2,38,81,711 equity shares at ₹306 each and noted several director and CFO changes.",
-    "why_it_matters": "The share issue coincides with multiple senior leadership changes.",
+    "title": "Key Leadership Restructuring and CFO Replacement",
+    "summary": "Nazara Technologies announced extensive leadership changes, including Arun Agrawal replacing Rakesh Shah as CFO and Mithun Sacheti redesignation to Executive Director.",
+    "why_it_matters": "The broad executive reshuffle replaces key KMP leadership roles alongside a preferential equity allotment of 2,38,81,711 shares.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
-    "fund_raise",
-    "litigation"
+    "fund_raise"
    ],
    "cards": [],
    "price_reaction": {
@@ -6483,7 +6575,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": false,
    "duplicate_of": "nse:106814826"
@@ -6495,8 +6587,8 @@
    "filed_at": "2026-10-12T18:18:50+05:30",
    "exchange_label": "Outcome of Board Meeting",
    "headline": "Nazara Technologies Limited informs the Exchange regarding Outcome of Board Meeting held on October 12, 2026.",
-   "category": "fund_raise",
-   "tier": "glance",
+   "category": "management_change",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -6504,17 +6596,16 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_12102026181527_BMOutcomeFinal.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
    "insight": {
-    "title": "Board Approves Equity Share Allotment",
-    "summary": "Nazara approved the allotment of 2,38,81,711 equity shares at ₹306 each and noted several director and CFO changes.",
-    "why_it_matters": "The share issue coincides with multiple senior leadership changes.",
+    "title": "Key Leadership Restructuring and CFO Replacement",
+    "summary": "Nazara Technologies announced extensive leadership changes, including Arun Agrawal replacing Rakesh Shah as CFO and Mithun Sacheti redesignation to Executive Director.",
+    "why_it_matters": "The broad executive reshuffle replaces key KMP leadership roles alongside a preferential equity allotment of 2,38,81,711 shares.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "management_change",
-    "fund_raise",
-    "litigation"
+    "fund_raise"
    ],
    "cards": [
     {
@@ -6588,7 +6679,7 @@
     "ret_pct": -1.05,
     "vol_ratio": 0.835
    },
-   "score": 58.0,
+   "score": 118.0,
    "group_id": "NAZARA:management_change:2026-10-12",
    "group_lead": true,
    "duplicate_of": null
@@ -6601,7 +6692,7 @@
    "exchange_label": "General Updates",
    "headline": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
    "category": "litigation",
-   "tier": "glance",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "no_rule",
    "needs_ai": false,
@@ -6609,12 +6700,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
    "insight": {
-    "title": "NCLAT Notice on Competition Case",
-    "summary": "Maruti Suzuki reported an NCLAT notice that the competition commission matter will not be heard on 2 Nov 2026, with a new date to be announced.",
-    "why_it_matters": null,
+    "title": "Hearing Adjourned Before NCLAT",
+    "summary": "NCLAT notified Maruti Suzuki that its hearing scheduled for November 02, 2026, regarding an ongoing matter with the Competition Commission of India will not be taken up.",
+    "why_it_matters": "The company stated that the next date of hearing before the NCLAT will be notified in due course.",
     "sentiment": "neutral",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -6625,7 +6716,7 @@
     "ret_pct": -0.619,
     "vol_ratio": 1.813
    },
-   "score": 48.0,
+   "score": 8.0,
    "group_id": "MARUTI:litigation:2026-10-12",
    "group_lead": true,
    "duplicate_of": null
@@ -6780,16 +6871,15 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "NCLAT stays corporate insolvency resolution process order",
-    "summary": "The NCLAT stayed and kept in abeyance the NCLT Ahmedabad order admitting a corporate insolvency resolution process against the company.",
-    "why_it_matters": "The alleged debt of ₹2.79 crore is tiny compared to the company's annual revenue of about ₹34,609 crore.",
+    "title": "NCLAT Stays Insolvency Process Order",
+    "summary": "The NCLAT stayed and kept in abeyance an NCLT order admitting Polycab India to the Corporate Insolvency Resolution Process over a Rs 2.79 crore debt claim.",
+    "why_it_matters": "The stay temporarily pauses insolvency proceedings against Polycab India regarding an alleged operational debt of Rs 2.79 crore.",
     "sentiment": "positive",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
-    "litigation",
-    "dividend"
+    "litigation"
    ],
    "cards": [],
    "price_reaction": {
@@ -6872,12 +6962,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026190022_PSLPressReleaseOctober92026sd.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
    "insight": {
-    "title": "Ecures strong majority stake in Nagarro",
-    "summary": "Persistent Systems secured approximately 94.04% of Nagarro share capital at the expiry of the additional acceptance period, successfully ending the takeover offer.",
-    "why_it_matters": "The acquisition successfully reached about 94.04% of Nagarro share capital, significantly exceeding the minimum 50% plus one share threshold.",
+    "title": "Secures 94% Stake in Nagarro",
+    "summary": "Persistent Systems secured approximately 94.04% of Nagarro SE's share capital via a voluntary public takeover offer, exceeding the minimum 50% plus one share threshold.",
+    "why_it_matters": "Persistent plans a squeeze-out of Nagarro's remaining minority shareholders and expects the transaction to close by the end of Q1 CY27.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "M&A"
@@ -7065,7 +7155,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -7073,12 +7163,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Company files appeal before NCLAT against CIRP order",
-    "summary": "The company filed an appeal before the NCLAT to set aside the NCLT Ahmedabad order admitting a corporate insolvency resolution process.",
-    "why_it_matters": "The alleged operational debt of ₹2.79 crore is negligible compared to annual revenue of about ₹34,609 crore.",
+    "title": "NCLAT Appeal Filed Against CIRP Order",
+    "summary": "Polycab India filed an appeal with the NCLAT seeking to set aside the NCLT's admission of a CIRP petition over an alleged operational debt of Rs 2.79 crore.",
+    "why_it_matters": "It details the procedural step taken by the company to challenge the NCLT insolvency admission order.",
     "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -7089,7 +7179,7 @@
     "ret_pct": 1.276,
     "vol_ratio": 0.862
    },
-   "score": 108.0,
+   "score": 8.0,
    "group_id": "POLYCAB:litigation:2026-10-08",
    "group_lead": false,
    "duplicate_of": null
@@ -7102,7 +7192,7 @@
    "exchange_label": "Corporate Insolvency Resolution Process",
    "headline": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
    "category": "litigation",
-   "tier": "must_see",
+   "tier": "routine",
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
@@ -7110,12 +7200,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
    "insight": {
-    "title": "Details submitted regarding operational debt insolvency petition",
-    "summary": "The company submitted additional details regarding the corporate insolvency resolution process petition filed by Asier Metals Private Limited for an alleged debt of ₹2.79 crore.",
-    "why_it_matters": "The alleged operational debt of ₹2.79 crore is well below the materiality threshold limit of ₹109.28 crores for FY 2026-27.",
-    "sentiment": "negative",
+    "title": "Details Submitted on Insolvency Admission",
+    "summary": "Polycab India submitted additional details regarding the NCLT's admission of a Section 9 insolvency petition filed by Asier Metals for an alleged debt of Rs.2,78,70,157.22.",
+    "why_it_matters": "The alleged debt is well below the company's SEBI materiality threshold limit of Rs 109.28 crores for FY 2026-27.",
+    "sentiment": "neutral",
     "amount_inr_crore": 2.79,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "litigation"
@@ -7126,7 +7216,7 @@
     "ret_pct": 1.276,
     "vol_ratio": 0.862
    },
-   "score": 113.0,
+   "score": 8.0,
    "group_id": "POLYCAB:litigation:2026-10-08",
    "group_lead": true,
    "duplicate_of": null
@@ -7341,12 +7431,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026235805_IntimationLetterofOfferOctober072026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
    "insight": {
-    "title": "Announces rights issue letter of offer",
-    "summary": "Ola Electric submitted its letter of offer for a rights issue of up to 37,02,72,665 partly paid-up equity shares aggregating up to ₹999.74 crore.",
-    "why_it_matters": "The rights issue of up to ₹999.74 crore is large compared to the company's annual revenue of about ₹1,880 crore.",
+    "title": "Rights Issue Letter of Offer Submitted",
+    "summary": "Ola Electric submitted its Letter of Offer for a Rights Issue of 37,02,72,665 partly paid-up equity shares aggregating up to Rs 999.74 crore at Rs 27 per share.",
+    "why_it_matters": "The equity fund raise represents over 50% of the company's annual revenue of about Rs 1,880 crore.",
     "sentiment": "neutral",
     "amount_inr_crore": 999.74,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "fund_raise"
