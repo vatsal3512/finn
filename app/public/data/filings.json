@@ -28,12 +28,8 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": -0.114,
-    "vol_ratio": 3.33
-   },
-   "score": 130.0,
+   "price_reaction": null,
+   "score": 120.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -66,12 +62,8 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": -0.114,
-    "vol_ratio": 3.33
-   },
-   "score": 130.0,
+   "price_reaction": null,
+   "score": 120.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -104,12 +96,8 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": -0.114,
-    "vol_ratio": 3.33
-   },
-   "score": 130.0,
+   "price_reaction": null,
+   "score": 120.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": "nse:106834087"
@@ -121,19 +109,19 @@
    "filed_at": "2026-10-29T14:08:00+05:30",
    "exchange_label": "Dividend",
    "headline": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027.",
-   "category": "dividend",
-   "tier": "glance",
+   "category": "results",
+   "tier": "must_see",
    "classified_by": "ai",
    "rule": "results_text",
    "needs_ai": false,
-   "text_quality": "failed",
+   "text_quality": "ok",
    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
    "insight": {
-    "title": "Interim dividend approved alongside financial results",
-    "summary": "The Board approved an interim dividend of Rs. 5.75 per equity share of Re. 1 face value for FY 2026-27.",
-    "why_it_matters": "Q2 PAT fell 25.9% QoQ despite a 14.6% YoY rise, alongside approval of the interim dividend.",
-    "sentiment": "positive",
+    "title": "Standalone Q2 FY27 results and interim dividend declared",
+    "summary": "Q2 FY27 standalone revenue rose 14.9% YoY to ₹8,453.8 crore while PAT grew 14.6% YoY to ₹1,095.5 crore, alongside a ₹5.75 per share dividend.",
+    "why_it_matters": "EBITDA margin contracted to 17.0% from 21.9% in the prior quarter, causing EBITDA to fall 28.4% QoQ.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
     "model": "gemini-3.6-flash"
    },
@@ -142,15 +130,11 @@
     "dividend"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": -0.114,
-    "vol_ratio": 3.33
-   },
-   "score": 70.0,
+   "price_reaction": null,
+   "score": 120.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
-   "duplicate_of": null
+   "duplicate_of": "nse:106834087"
   },
   {
    "id": "nse:106834087",
@@ -241,12 +225,8 @@
      ]
     }
    ],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": -0.114,
-    "vol_ratio": 3.33
-   },
-   "score": 130.0,
+   "price_reaction": null,
+   "score": 120.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": true,
    "duplicate_of": null
@@ -278,11 +258,7 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 1.047,
-    "vol_ratio": 0.626
-   },
+   "price_reaction": null,
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-10-29",
    "group_lead": true,
@@ -308,12 +284,8 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 5.335,
-    "vol_ratio": 1.192
-   },
-   "score": 15.0,
+   "price_reaction": null,
+   "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-29",
    "group_lead": false,
    "duplicate_of": null
@@ -338,12 +310,8 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 5.335,
-    "vol_ratio": 1.192
-   },
-   "score": 15.0,
+   "price_reaction": null,
+   "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-29",
    "group_lead": true,
    "duplicate_of": null
@@ -375,11 +343,7 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": -1.2,
-    "vol_ratio": 0.551
-   },
+   "price_reaction": null,
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
    "group_lead": true,
@@ -412,11 +376,7 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 1.045,
-    "vol_ratio": 1.04
-   },
+   "price_reaction": null,
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
    "group_lead": true,
@@ -442,11 +402,7 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 2.023,
-    "vol_ratio": 0.25
-   },
+   "price_reaction": null,
    "score": 0.0,
    "group_id": "EMUDHRA:unclassified:2026-10-28",
    "group_lead": true,
@@ -472,12 +428,8 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 5.335,
-    "vol_ratio": 1.192
-   },
-   "score": 15.0,
+   "price_reaction": null,
+   "score": 0.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -502,11 +454,7 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 1.047,
-    "vol_ratio": 0.626
-   },
+   "price_reaction": null,
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
    "group_lead": true,
@@ -532,12 +480,8 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 5.335,
-    "vol_ratio": 1.192
-   },
-   "score": 15.0,
+   "price_reaction": null,
+   "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -562,14 +506,10 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 5.335,
-    "vol_ratio": 1.192
-   },
-   "score": 15.0,
+   "price_reaction": null,
+   "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
-   "group_lead": true,
+   "group_lead": false,
    "duplicate_of": null
   },
   {
@@ -592,11 +532,7 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 1.38,
-    "vol_ratio": 0.574
-   },
+   "price_reaction": null,
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-10-28",
    "group_lead": true,
@@ -622,11 +558,7 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 1.35,
-    "vol_ratio": 0.549
-   },
+   "price_reaction": null,
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-10-28",
    "group_lead": true,
@@ -661,12 +593,8 @@
     "credit_rating"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 5.335,
-    "vol_ratio": 1.192
-   },
-   "score": 75.0,
+   "price_reaction": null,
+   "score": 60.0,
    "group_id": "ADANIENT:results:2026-10-28",
    "group_lead": false,
    "duplicate_of": null
@@ -691,11 +619,7 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": {
-    "session": "2026-10-29",
-    "ret_pct": 1.564,
-    "vol_ratio": 1.171
-   },
+   "price_reaction": null,
    "score": 0.0,
    "group_id": "MAZDOCK:unclassified:2026-10-28",
    "group_lead": true,
@@ -850,7 +774,7 @@
    },
    "score": 0.0,
    "group_id": "ADANIENT:unclassified:2026-10-28",
-   "group_lead": false,
+   "group_lead": true,
    "duplicate_of": null
   },
   {
