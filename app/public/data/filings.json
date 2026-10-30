@@ -1,6 +1,100 @@
 {
  "filings": [
   {
+   "id": "nse:106836275",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T14:15:10+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "Board approves Q2 FY27 unaudited financial results",
+    "summary": "Quarterly revenue rose 35.0% YoY to ₹6,141.9 crore, while standalone profit after tax increased 54.4% YoY to ₹871.3 crore.",
+    "why_it_matters": "EBITDA margin expanded to 27.9% compared to 26.0% a year ago, despite declining from 34.2% in the previous quarter.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "SUNPHARMA",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "standalone",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 6141.9,
+       "previous_quarter": 5741.1,
+       "year_ago": 4548.1,
+       "qoq_pct": 7.0,
+       "yoy_pct": 35.0
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 1714.7,
+       "previous_quarter": 1964.2,
+       "year_ago": 1183.6,
+       "qoq_pct": -12.7,
+       "yoy_pct": 44.9
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 1203.0,
+       "previous_quarter": 1486.5,
+       "year_ago": 671.8,
+       "qoq_pct": -19.1,
+       "yoy_pct": 79.1
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 871.3,
+       "previous_quarter": 1115.1,
+       "year_ago": 564.2,
+       "qoq_pct": -21.9,
+       "yoy_pct": 54.4
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      27.9,
+      34.2,
+      26.0
+     ],
+     "source": "filing_text",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "SUNPHARMA:results:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106836184",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
