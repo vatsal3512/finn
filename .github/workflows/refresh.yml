@@ -133,8 +133,9 @@ jobs:
           # 90 minutes old: the app calls its data stale at two hours, and must not do so
           # because nothing happened.
           last=$(git log -1 --format=%ct --author=github-actions -- app/public/data)
-          only_meta=$([ "$(git diff --cached --name-only)" = "app/public/data/meta.json" ] && echo yes)
-          if [ -n "$only_meta" ] && [ $(( $(date +%s) - ${last:-0} )) -lt 5400 ]; then
+          # (GitHub runs this with bash -e, so no command here may fail just to mean "no".)
+          changed=$(git diff --cached --name-only)
+          if [ "$changed" = "app/public/data/meta.json" ] && [ $(( $(date +%s) - ${last:-0} )) -lt 5400 ]; then
             echo "Only the timestamp changed; not redeploying for it."
             git reset -q
           elif git diff --cached --quiet; then
