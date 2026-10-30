@@ -1,6 +1,58 @@
 {
  "filings": [
   {
+   "id": "nse:106836415",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T15:23:54+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Copy of Newspaper Publication",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_30102026152337_STXintimationOctober302026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:unclassified:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106836401",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T15:18:46+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Appointment of Statutory Auditors Pursuant to Mandatory Auditor Rotation",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "auditor",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "SUNPHARMA:unclassified:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106836275",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
