@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106837634",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T22:40:24+05:30",
+   "exchange_label": "Action(s) taken or orders passed",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "category": "litigation",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "litigation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "TRAI Imposes Financial Disincentive on Bharti Airtel",
+    "summary": "The Telecom Regulatory Authority of India issued an order levying a financial disincentive of INR 54,06,000 on Bharti Airtel.",
+    "why_it_matters": "The penalty of INR 54,06,000 is tiny compared to the company's annual revenue of about ₹220,049 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "litigation"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 53.0,
+   "group_id": "BHARTIARTL:litigation:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106837485",
    "symbol": "DIXON",
    "exchange": "NSE",
