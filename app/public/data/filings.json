@@ -518,8 +518,8 @@
       3.8
      ],
      "source": "xbrl",
-     "verified": null,
-     "check_note": "screener.in has no figures for this quarter yet.",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 2.8,
      "source_urls": [
       "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml",
@@ -692,8 +692,8 @@
       31.3
      ],
      "source": "xbrl",
-     "verified": null,
-     "check_note": "screener.in has no figures for this quarter yet.",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": -6.5,
      "source_urls": [
       "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
