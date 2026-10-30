@@ -221,11 +221,11 @@
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 29250.0,
-       "previous_quarter": 23001.0,
-       "year_ago": 22146.0,
-       "qoq_pct": 27.2,
-       "yoy_pct": 32.1
+       "current": 29550.0,
+       "previous_quarter": 23196.0,
+       "year_ago": 22092.0,
+       "qoq_pct": 27.4,
+       "yoy_pct": 33.8
       }
      ],
      "margin_label": "EBITDA margin",
@@ -234,12 +234,14 @@
       15.2,
       17.7
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
-     "share_of_associates": null,
+     "share_of_associates": 300.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750537_30102026093254_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1695741_17072026075004_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552809_17102025073643_WEB.xml"
      ]
     }
    ],
