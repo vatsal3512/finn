@@ -3,9 +3,9 @@
  "symbol": "NAZARA",
  "name": "Nazara Technologies",
  "basis": "consolidated",
- "generated_at": "2026-10-29T07:54:01+00:00",
+ "generated_at": "2026-10-30T12:51:47+00:00",
  "snapshot": {
-  "about": "Global gaming operating platform across mobile, PC, console, offline gaming, adtech, and sports media businesses.",
+  "about": "Nazara Technologies is a global gaming platform operator spanning mobile, PC, console, and offline gaming businesses.",
   "latest_quarter": "Q2 FY27",
   "revenue": 803.0,
   "revenue_yoy": 52.7,
@@ -13,89 +13,39 @@
   "net_profit_yoy": null,
   "ebitda_margin": 11.0
  },
- "narrative": "Management delivered strong growth in gaming, with segment revenue rising 107% in FY26 against a 20-25% target. However, profitability diverged in Q2 FY27 as EBITDA margin hit 11.0% and PC publishing margins dropped to 27% in Q1 FY27.",
+ "narrative": "Management targeted gaming margins above 20% and offline margins of 25% to 35%, matching Q2 FY27 gaming margin at 21.5% and Q1 FY27 offline margin at 33%. However, reported performance diverged in Q1 FY27 with a net loss of ₹82 crore.",
  "promises": [
   {
-   "id": "P8",
-   "metric": "Game margin target",
+   "id": "P1",
+   "metric": "Core Gaming EBITDA Margin Guidance",
    "period": null,
-   "target": "50%",
-   "statement": "Curve Games' target margin is always 50% on any signed game.",
+   "target": "≥ 20%",
+   "statement": "Core gaming margins are targeted to rise beyond 20%.",
    "said": {
-    "quote": "Yes, our margin target is always 50% on any game that we sign",
-    "source": "Q4 FY26 call, 13 May 2026",
-    "page": 15,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+    "quote": "Eventually, the margin should rise to beyond 20% is what we are working towards",
+    "source": "Q3 FY26 call, 4 Feb 2026",
+    "page": 13,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1ab3efb-f474-4a2b-9b6b-44ddd7d9822d.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "PC and console publishing businesses continue to deliver strong profitability, with FY '26 revenue of INR 261 crores and EBITDA of INR 101 crores at 39% EBITDA margin",
-    "source": "Q4 FY26 call, 13 May 2026",
+    "quote": "EBITDA grew 114% to INR 141 crores, resulting in an EBITDA margin of 21.5%",
+    "source": "Q2 FY27 call, 27 Oct 2026",
     "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+    "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
    },
-   "verdict": "at_risk",
+   "verdict": "on_track",
    "verdict_by": "model",
-   "note": "PC and console publishing margins fell to 39% in FY26 and 27% in Q1 FY27."
+   "note": "Gaming segment EBITDA margin reached 21.5% in Q2 FY27, surpassing the 20% target."
   },
   {
    "id": "P2",
-   "metric": "Core gaming revenue growth target",
-   "period": null,
-   "target": "20–25%",
-   "statement": "Company targets core gaming revenue growth of 20-25% year-on-year.",
-   "said": {
-    "quote": "We are targeting to grow our core gaming business at 20-25% year-on-year",
-    "source": "Q2 FY26 call, 13 Nov 2025",
-    "page": 13,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fb1918-885f-4299-bfe2-de7c68997a97.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "FY '26 revenue growing 107% year-on-year to INR 1,072 crores and EBITDA growing 157% to INR 265 crores",
-    "source": "Q4 FY26 call, 13 May 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Gaming segment revenue grew 107% YoY in FY26, exceeding the 20-25% target."
-  },
-  {
-   "id": "P3",
-   "metric": "Core gaming EBITDA margin target",
-   "period": null,
-   "target": "20–25%",
-   "statement": "Company aims for 20-25% EBITDA margin range in core gaming business.",
-   "said": {
-    "quote": "We're also aiming for an EBITDA margin in the 20-25% range for the core gaming business",
-    "source": "Q2 FY26 call, 13 Nov 2025",
-    "page": 14,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fb1918-885f-4299-bfe2-de7c68997a97.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "resulting in an EBITDA margin of 24.7%",
-    "source": "Q4 FY26 call, 13 May 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Gaming segment EBITDA margin reached 24.7% in FY26, falling within the 20-25% target range."
-  },
-  {
-   "id": "P4",
-   "metric": "Offline Gaming EBITDA margin",
+   "metric": "Offline Gaming Steady State Margin",
    "period": null,
    "target": "25–35%",
-   "statement": "Offline gaming EBITDA margin expected to land between 25% to 35% on a steady state.",
+   "statement": "Offline business steady-state EBITDA margin targeted between 25% and 35%.",
    "said": {
     "quote": "I think on a steady state, what I said earlier, between 25% to 35% is where we should land up at",
     "source": "Q3 FY26 call, 4 Feb 2026",
@@ -106,41 +56,21 @@
    "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "Our offline gaming businesses with Smaaash and Funky Monkeys also delivered profitability during FY '26, with revenues of INR 99 crores and EBITDA of INR 27 crores",
-    "source": "Q4 FY26 call, 13 May 2026",
+    "quote": "Offline gaming delivered healthy profitability at a 33% EBITDA margin, with Q1 FY27 revenue of INR 34 crores and EBITDA of INR 11 crores",
+    "source": "Q1 FY27 call, 4 Aug 2026",
     "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Offline gaming margin was 27.3% in FY26 and 33% in Q1 FY27, matching 25-35% guidance."
+   "note": "Offline gaming segment delivered a 33% EBITDA margin in Q1 FY27, meeting the target range."
   },
   {
-   "id": "P7",
-   "metric": "Fundraising target",
-   "period": null,
-   "target": "$100–200 million",
-   "statement": "NODWIN is looking to raise between $100 million to $200 million independently.",
-   "said": {
-    "quote": "NODWIN is looking both to raise funds between $100 million to $200 million independently which should be a mixture of primary and secondary, and then also prepare for an IPO as soon as possible",
-    "source": "Q4 FY26 call, 13 May 2026",
-    "page": 8,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P10",
-   "metric": "Offline Gaming Capital Allocation",
+   "id": "P6",
+   "metric": "Capital commitment to offline gaming",
    "period": null,
    "target": "₹50 crore",
-   "statement": "Overall capital commitment across SMAAASH and Funky Monkeys is approximately INR 50 crores.",
+   "statement": "Total capital commitment across SMAAASH and Funky Monkeys is approximately INR 50 crore.",
    "said": {
     "quote": "Right now, our overall commitment across these two businesses, including some stake increase in Funky Monkeys, is approximately INR 50 odd crore",
     "source": "Q1 FY27 call, 4 Aug 2026",
@@ -156,31 +86,31 @@
    "note": null
   },
   {
-   "id": "P5",
-   "metric": "Core gaming EBITDA margin",
-   "period": "FY27",
-   "target": "≥ 20%",
-   "statement": "Margins should rise beyond 20% in the coming year.",
+   "id": "P8",
+   "metric": "Debt raising for acquisition",
+   "period": null,
+   "target": "$100 million",
+   "statement": "Nazara plans to raise approximately $100 million in debt to complete the acquisition balance.",
    "said": {
-    "quote": "Eventually, the margin should rise to beyond 20% is what we are working towards",
-    "source": "Q3 FY26 call, 4 Feb 2026",
-    "page": 13,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1ab3efb-f474-4a2b-9b6b-44ddd7d9822d.pdf"
+    "quote": "So, approximately $100 million is what we are planning to raise as a debt, and balance will be funded through internal accruals",
+    "source": "Q2 FY27 call, 27 Oct 2026",
+    "page": 16,
+    "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
-   "verdict_by": "code",
-   "note": "Company margin target of over 20% remains pending as Q2 FY27 EBITDA margin reached 11.0%."
+   "verdict_by": "model",
+   "note": null
   },
   {
-   "id": "P6",
-   "metric": "New game releases count",
+   "id": "P3",
+   "metric": "New game releases",
    "period": "FY27",
    "target": "≥ 6 releases",
-   "statement": "Curve Games expects to launch at least 6 new game releases in FY27.",
+   "statement": "Curve Games expects to launch at least 6 new releases in FY27.",
    "said": {
     "quote": "We expect to launch at least 6 new releases in this current year, maybe a couple more",
     "source": "Q4 FY26 call, 13 May 2026",
@@ -196,11 +126,31 @@
    "note": null
   },
   {
-   "id": "P9",
-   "metric": "NODWIN Organic Growth Guidance",
+   "id": "P4",
+   "metric": "New game seasons",
+   "period": "FY27",
+   "target": "3 seasons",
+   "statement": "Fusebox plans to expand Big Brother to three seasons and launch three new seasons of Love Island in FY27.",
+   "said": {
+    "quote": "And we are looking to expand the Big Brother season from one season in the last one year to three seasons in this fiscal year, as well as we are looking to launch Traitors in the current fiscal year",
+    "source": "Q4 FY26 call, 13 May 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "NODWIN organic growth",
    "period": "FY27",
    "target": "≥ 30%",
-   "statement": "NODWIN is targeting organic growth of at least 30% in FY27.",
+   "statement": "NODWIN is targeting organic revenue growth of 30%+ in FY27.",
    "said": {
     "quote": "NODWIN is targeting organic growth of 30%+ for FY27 and is progressing towards its IPO readiness",
     "source": "Q1 FY27 call, 4 Aug 2026",
@@ -216,16 +166,16 @@
    "note": null
   },
   {
-   "id": "P1",
-   "metric": "Offline centers count",
-   "period": "FY28",
-   "target": "100 centers",
-   "statement": "Management believes Funky Monkeys can expand from 14 to 100 centers in next couple of years.",
+   "id": "P7",
+   "metric": "Store openings",
+   "period": "FY27",
+   "target": "5 stores",
+   "statement": "Funky Monkeys plans to open 5 more stores in FY27.",
    "said": {
-    "quote": "We believe the current 14 centers can get to 100 centers in the next couple of years",
-    "source": "Q2 FY26 call, 13 Nov 2025",
-    "page": 14,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fb1918-885f-4299-bfe2-de7c68997a97.pdf"
+    "quote": "Funky Monkeys opened 10 new stores in the last 12 months, with 5 more to open in FY27, and margins improved on record birthday revenues",
+    "source": "Q2 FY27 call, 27 Oct 2026",
+    "page": 5,
+    "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -301,28 +251,45 @@
     "url": "https://www.screener.in/company/NAZARA/consolidated/"
    }
   ],
-  "read": "Over FY22–FY26, operating cash flow of ₹376 crore covered all of reported profit, ₹320 crore."
+  "read": "Profits reliably turn into cash, as cumulative operating cash flow of ₹376 crore exceeded reported net profit of ₹320 crore over FY22 to FY26."
  },
  "bull": [
   {
-   "point": "Gaming segment FY26 revenue grew 107% year-on-year to ₹1,072 crore with an EBITDA margin of 24.7%.",
+   "point": "Revenue reached a record ₹803 crore in Q2 FY27, up 53% year-on-year, while EBITDA grew 93% to ₹120 crore.",
    "evidence": [
     {
-     "quote": "FY '26 revenue growing 107% year-on-year to INR 1,072 crores and EBITDA growing 157% to INR 265 crores",
-     "source": "Q4 FY26 call, 13 May 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+     "quote": "Revenue was INR 803 crores, our highest ever, up 53% year-on￾year",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
     },
     {
-     "quote": "resulting in an EBITDA margin of 24.7%",
-     "source": "Q4 FY26 call, 13 May 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
+     "quote": "EBITDA grew 93% to INR 120 crores and EBITDA margin expanded 311 basis points to 14.9%",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
     }
    ]
   },
   {
-   "point": "Operating cash flow of ₹376 crore over FY22–FY26 fully covered cumulative reported profit of ₹320 crore.",
+   "point": "Gaming segment revenue grew 122% year-on-year to ₹656 crore in Q2 FY27, generating an EBITDA margin of 21.5%.",
+   "evidence": [
+    {
+     "quote": "In Q2 FY27, our gaming segment revenue grew 122% year-on-year to INR 656 crores",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 4,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
+    },
+    {
+     "quote": "EBITDA grew 114% to INR 141 crores, resulting in an EBITDA margin of 21.5%",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 4,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Operating cash flow reached ₹376 crore over FY22–FY26, fully covering reported cumulative net profits of ₹320 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹376 crore covered all of reported profit, ₹320 crore.",
@@ -331,31 +298,14 @@
      "url": "https://www.screener.in/company/NAZARA/consolidated/"
     }
    ]
-  },
-  {
-   "point": "Offline gaming business generated ₹99 crore revenue and ₹27 crore EBITDA in FY26, achieving a 33% margin in Q1 FY27.",
-   "evidence": [
-    {
-     "quote": "Our offline gaming businesses with Smaaash and Funky Monkeys also delivered profitability during FY '26, with revenues of INR 99 crores and EBITDA of INR 27 crores",
-     "source": "Q4 FY26 call, 13 May 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-    },
-    {
-     "quote": "Offline gaming delivered healthy profitability at a 33% EBITDA margin, with Q1 FY27 revenue of INR 34 crores and EBITDA of INR 11 crores",
-     "source": "Q1 FY27 call, 4 Aug 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
-    }
-   ]
   }
  ],
  "bear": [
   {
-   "point": "An emphasis of matter was drawn by statutory auditors regarding a major impairment loss from online gaming regulatory bans.",
+   "point": "Standalone financial statements reflected a massive impairment loss of ₹988.94 crore on associate investment following regulatory prohibition of online money games.",
    "evidence": [
     {
-     "quote": "recognition of impairment loss of ` 98,894 Lakhs on investment in one of the associate company due to prohibition in offering of online money games",
+     "quote": "recognition of impairment loss of ` 98,894 Lakhs on investment in one of the associate company due to prohibition in offering of online money games pursuant to the enactment of the Promotion and Regulation of Online Gaming Act, 2025",
      "source": "Annual report 2026",
      "page": 174,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3a8af1b-6e93-480b-884c-d8b8d9641c41.pdf"
@@ -363,14 +313,8 @@
    ]
   },
   {
-   "point": "Q1 FY27 consolidated PAT loss reached ₹82 crore following earlier real money gaming impairment charges.",
+   "point": "Consolidated net loss hit ₹82 crore in Q1 FY27, impacted by associate losses and impairment charges.",
    "evidence": [
-    {
-     "quote": "Our PAT was negative INR 33.9 crores in Q2 FY26, predominantly due to the real money gaming ban and our impairment of Moonshine Technologies",
-     "source": "Q2 FY26 call, 13 Nov 2025",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fb1918-885f-4299-bfe2-de7c68997a97.pdf"
-    },
     {
      "quote": "We reported a PAT loss of INR 82 crores, largely attributable to the share of loss from associates and impairment loss",
      "source": "Q1 FY27 call, 4 Aug 2026",
@@ -380,27 +324,27 @@
    ]
   },
   {
-   "point": "PC and console publishing EBITDA margin dropped from 39% in FY26 to 27% in Q1 FY27, missing target levels.",
+   "point": "Debt of approximately $100 million is planned to be raised to fund the balance of pending acquisitions.",
    "evidence": [
     {
-     "quote": "PC and console publishing businesses continue to deliver strong profitability, with FY '26 revenue of INR 261 crores and EBITDA of INR 101 crores at 39% EBITDA margin",
-     "source": "Q4 FY26 call, 13 May 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-    },
-    {
-     "quote": "With Q1 FY27 revenue of INR 53 crores, EBITDA of INR 14 crores and a 27% EBITDA margin, the PC and Console publishing business remained strongly profitable while funding the release slate",
-     "source": "Q1 FY27 call, 4 Aug 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
+     "quote": "So, approximately $100 million is what we are planning to raise as a debt, and balance will be funded through internal accruals",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 16,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
     }
    ]
   }
  ],
  "notes": [
-  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+  "Transcripts for 2026-10 taken from NSE; screener.in had not listed them."
  ],
  "documents": [
+  {
+   "label": "Q2 FY27 call, 27 Oct 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf",
+   "pages": 18
+  },
   {
    "label": "Q1 FY27 call, 4 Aug 2026",
    "kind": "transcript",
@@ -420,12 +364,6 @@
    "pages": 16
   },
   {
-   "label": "Q2 FY26 call, 13 Nov 2025",
-   "kind": "transcript",
-   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fb1918-885f-4299-bfe2-de7c68997a97.pdf",
-   "pages": 17
-  },
-  {
    "label": "Annual report 2026",
    "kind": "annual_report",
    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3a8af1b-6e93-480b-884c-d8b8d9641c41.pdf",
@@ -434,17 +372,21 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 65,
-  "quotes_verified": 65,
+  "claims_found": 53,
+  "quotes_verified": 53,
   "quotes_dropped": 0,
-  "graded_by_code": 1,
-  "graded_by_model": 4,
+  "graded_by_code": 0,
+  "graded_by_model": 2,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 0,
   "models": [
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 91.8
- }
+  "seconds": 410.4
+ },
+ "changes": [
+  "Now reads the Q2 FY27 call, 27 Oct 2026: 2 promises from it."
+ ],
+ "pending": null
 }
