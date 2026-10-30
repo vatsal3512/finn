@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106837485",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T20:32:52+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange about Link of Recording",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "DIXON:results:2026-10-30",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106837454",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
@@ -34,7 +60,7 @@
    "exchange_label": "Investor Presentation",
    "headline": "Reliance Industries Limited has informed the Exchange about Investor Presentation",
    "category": "results",
-   "tier": "must_see",
+   "tier": "glance",
    "classified_by": "ai",
    "rule": "investor_presentation",
    "needs_ai": false,
@@ -42,21 +68,20 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
    "insight": {
-    "title": "Investor Presentation of Q2 FY27 Results",
-    "summary": "The Q2 FY27 unaudited results show revenue ₹332,861 crore (+6.7% QoQ), EBITDA ₹56,616 crore (+19.1% QoQ), and PAT ₹29,250 crore (+27.2% QoQ).",
-    "why_it_matters": "EBITDA margin rose to 17.0% from 15.2% a quarter earlier, indicating improving profitability.",
+    "title": "Investor presentation on Q2 FY27 financial results",
+    "summary": "Reliance Industries released its investor presentation for Q2 FY27, reporting consolidated profit after tax of ₹29,250.0 crore, up 32.1% YoY, and revenue of ₹332,861.0 crore.",
+    "why_it_matters": "EBITDA margin stood at 17.0%, improving from 15.2% a quarter ago, driven by record quarterly performance across operational businesses.",
     "sentiment": "positive",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.6-flash"
    },
    "events": [
     "results",
-    "M&A",
-    "credit_rating"
+    "earnings_call"
    ],
    "cards": [],
    "price_reaction": null,
-   "score": 120.0,
+   "score": 60.0,
    "group_id": "RELIANCE:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": null
@@ -377,59 +402,61 @@
      "symbol": "DIXON",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 1593.2,
-       "previous_quarter": 1079.6,
-       "year_ago": 1385.8,
-       "qoq_pct": 47.6,
-       "yoy_pct": 15.0
+       "current": 21793.6,
+       "previous_quarter": 15547.7,
+       "year_ago": 14855.0,
+       "qoq_pct": 40.2,
+       "yoy_pct": 46.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 148.2,
-       "previous_quarter": 68.7,
-       "year_ago": 75.7,
-       "qoq_pct": 115.8,
-       "yoy_pct": 95.7
+       "current": 596.8,
+       "previous_quarter": 463.1,
+       "year_ago": 561.3,
+       "qoq_pct": 28.9,
+       "yoy_pct": 6.3
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 147.9,
-       "previous_quarter": 584.3,
-       "year_ago": 566.5,
-       "qoq_pct": -74.7,
-       "yoy_pct": -73.9
+       "current": 529.5,
+       "previous_quarter": 860.3,
+       "year_ago": 922.4,
+       "qoq_pct": -38.4,
+       "yoy_pct": -42.6
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 123.4,
-       "previous_quarter": 498.1,
-       "year_ago": 478.5,
-       "qoq_pct": -75.2,
-       "yoy_pct": -74.2
+       "current": 410.9,
+       "previous_quarter": 717.8,
+       "year_ago": 745.7,
+       "qoq_pct": -42.8,
+       "yoy_pct": -44.9
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      9.3,
-      6.4,
-      5.5
+      2.7,
+      3.0,
+      3.8
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
-     "share_of_associates": null,
+     "share_of_associates": 2.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706200_31072026061259_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552946_17102025091526_WEB.xml"
      ]
     },
     {
