@@ -97,6 +97,13 @@ def ask_top(n: int) -> None:
         except Exception as exc:  # noqa: BLE001 - one card failing should not stop the rest
             logging.error("ask failed for %s: %s", f["id"], exc)
     out = EXPORT_DIR / "ask.json"
+    # An answer served from the cache is the same answer: keep the time it was first given,
+    # or every refresh rewrites the file, commits it and redeploys the site for nothing.
+    before = AskAnswers.model_validate_json(out.read_text(encoding="utf-8")).answers if out.exists() else {}
+    for fid, a in answers.items():
+        old = before.get(fid)
+        if old and old.model_dump(exclude={"asked_at"}) == a.model_dump(exclude={"asked_at"}):
+            answers[fid] = old
     out.write_text(AskAnswers(answers=answers).model_dump_json(indent=1), encoding="utf-8")
 
 

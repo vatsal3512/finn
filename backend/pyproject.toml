@@ -4,9 +4,9 @@ version = "0.1.0"
 description = "FINN data layer: prices, exchange filings and fundamentals for Indian listed companies"
 readme = "../README.md"
 requires-python = ">=3.14,<3.15"
+# What the live server needs. Vercel installs only these, into the bundle it keeps with
+# every deployment.
 dependencies = [
-    "yfinance>=1.7.0",
-    "pandas>=3.0.6",
     "pypdfium2>=5.14.0",
     "beautifulsoup4>=4.15.0",
     "lxml>=6.1.3",
@@ -23,6 +23,12 @@ dependencies = [
 ]
 
 [dependency-groups]
+# Only the scheduled refresh fetches prices. pandas and yfinance are about half the
+# server's bundle, and a copy is stored with each of the dozens of deployments a day.
+pipeline = [
+    "yfinance>=1.7.0",
+    "pandas>=3.0.6",
+]
 dev = [
     "pytest>=9.1.1",
     "ruff>=0.17.0",
@@ -34,6 +40,7 @@ dev = [
 # less than 14 days before the lock date. Brand-new releases are where regressions
 # and compromised uploads show up first.
 exclude-newer = "2026-10-13T00:00:00Z"
+default-groups = ["dev", "pipeline"]
 
 [tool.ruff]
 line-length = 100

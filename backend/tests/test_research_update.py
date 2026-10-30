@@ -197,3 +197,26 @@ def test_a_report_short_of_calls_takes_one_it_lacks():
     assert (
         reason(full, [Filed("nse:3", "2025-07-20T18:00:00+05:30", "Transcript")], NOW) is None
     )  # older than four
+
+
+def test_an_unchanged_answer_keeps_its_time_so_nothing_is_redeployed(tmp_path, monkeypatch):
+    from finn.contracts import AskAnswer
+    from finn.research import __main__ as cli
+
+    (tmp_path / "filings.json").write_text(json.dumps({"filings": [
+        {"id": "nse:1", "symbol": "INFY", "headline": "Results", "category": "results",
+         "tier": "must_see", "group_lead": True, "score": 9, "insight": None, "cards": []}]}))  # fmt: skip
+    times = iter(["2026-10-29T11:04:27+00:00", "2026-10-29T11:34:48+00:00"])
+
+    def fake_ask(conn, llm, symbol, question, context):
+        return AskAnswer(symbol=symbol, question=question, addressed=True, answer="As guided.",
+                         calls=["Q2 FY27 call"], asked_at=next(times))  # fmt: skip
+
+    monkeypatch.setattr(cli, "EXPORT_DIR", tmp_path)
+    monkeypatch.setattr(cli, "ask", fake_ask)
+    monkeypatch.setattr(cli, "connect", lambda: None)
+    monkeypatch.setattr(cli.LLM, "from_env", staticmethod(lambda conn, key_offset=0: None))
+    cli.ask_top(1)
+    first = (tmp_path / "ask.json").read_text()
+    cli.ask_top(1)
+    assert (tmp_path / "ask.json").read_text() == first
