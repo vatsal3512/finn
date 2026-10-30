@@ -1,6 +1,40 @@
 {
  "filings": [
   {
+   "id": "nse:106835866",
+   "symbol": "EMUDHRA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T11:01:09+05:30",
+   "exchange_label": "General Updates",
+   "headline": "eMudhra Limited has informed the Exchange about General Updates",
+   "category": "litigation",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_30102026105711_GeneralIntimation_30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=EMUDHRA",
+   "insight": {
+    "title": "KPMG Appointed For Independent Review Of Reported Incident",
+    "summary": "The company appointed KPMG to undertake an independent review regarding a reported incident.",
+    "why_it_matters": "An independent review by KPMG follows a reported incident, signaling governance steps on a matter affecting annual revenue of about ₹745 crore.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "litigation",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 108.0,
+   "group_id": "EMUDHRA:litigation:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106835654",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
