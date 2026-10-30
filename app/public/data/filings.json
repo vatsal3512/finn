@@ -605,7 +605,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 0.948,
-    "vol_ratio": 3.422
+    "vol_ratio": 3.426
    },
    "score": 10.0,
    "group_id": "SUNPHARMA:unclassified:2026-10-30",
@@ -705,7 +705,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 0.948,
-    "vol_ratio": 3.422
+    "vol_ratio": 3.426
    },
    "score": 130.0,
    "group_id": "SUNPHARMA:results:2026-10-30",
@@ -735,7 +735,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 1.39,
-    "vol_ratio": 0.67
+    "vol_ratio": 0.671
    },
    "score": 0.0,
    "group_id": "HDFCBANK:unclassified:2026-10-30",
@@ -772,7 +772,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": -5.631,
-    "vol_ratio": 0.725
+    "vol_ratio": 0.726
    },
    "score": 125.0,
    "group_id": "OLAELEC:fund_raise:2026-10-30",
@@ -839,7 +839,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 4.334,
-    "vol_ratio": 2.44
+    "vol_ratio": 2.441
    },
    "score": 10.0,
    "group_id": "INDIGO:unclassified:2026-10-30",
@@ -914,7 +914,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 0.948,
-    "vol_ratio": 3.422
+    "vol_ratio": 3.426
    },
    "score": 50.0,
    "group_id": "SUNPHARMA:press_release:2026-10-30",
@@ -944,7 +944,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 4.334,
-    "vol_ratio": 2.44
+    "vol_ratio": 2.441
    },
    "score": 10.0,
    "group_id": "INDIGO:results:2026-10-29",
@@ -1048,7 +1048,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 4.334,
-    "vol_ratio": 2.44
+    "vol_ratio": 2.441
    },
    "score": 70.0,
    "group_id": "INDIGO:results:2026-10-29",
@@ -1085,7 +1085,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 4.334,
-    "vol_ratio": 2.44
+    "vol_ratio": 2.441
    },
    "score": 70.0,
    "group_id": "INDIGO:results:2026-10-29",
@@ -1185,7 +1185,7 @@
    "price_reaction": {
     "session": "2026-10-30",
     "ret_pct": 4.334,
-    "vol_ratio": 2.44
+    "vol_ratio": 2.441
    },
    "score": 135.0,
    "group_id": "INDIGO:results:2026-10-29",
