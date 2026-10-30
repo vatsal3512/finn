@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106837640",
+   "symbol": "NAZARA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T22:45:50+05:30",
+   "exchange_label": "Updates",
+   "headline": "Nazara Technologies Limited informs the Exchange regarding Disclosure under Regulation 30 of the SEBI (LODR) Regulations, 2015 - Update.",
+   "category": "M&A",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026224359_IntimationNazara.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
+   "insight": {
+    "title": "Payment of Second Tranche for Acquisition of Target Companies",
+    "summary": "Nazara Technologies infused USD 77.00 million into its subsidiary Nazara UK to pay the second tranche toward acquiring Bluetile Games and Bestplay Systems.",
+    "why_it_matters": "reached USD 303.02 million (equivalent to ~₹ 2990 Crores), which exceeds Nazara's annual revenue of about ₹2,036 crore.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "M&A"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 112.0,
+   "group_id": "NAZARA:M&A:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106837634",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
