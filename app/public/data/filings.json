@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106836029",
+   "symbol": "POLYCAB",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T12:20:09+05:30",
+   "exchange_label": "Corporate Insolvency Resolution Process",
+   "headline": "Polycab India Limited has informed the Exchange about the order passed by NCLAT setting aside the order of NCLT Ahmedabad bench dated October 07, 2026",
+   "category": "litigation",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "litigation",
+   "needs_ai": false,
+   "text_quality": "no_text",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
+   "insight": {
+    "title": "NCLAT Sets Aside NCLT Insolvency Order",
+    "summary": "NCLAT has passed an order setting aside the NCLT Ahmedabad bench order dated October 07, 2026 regarding the Corporate Insolvency Resolution Process.",
+    "why_it_matters": "The reversal of the lower tribunal's order removes the immediate threat or legal obligation imposed by the earlier NCLT decision.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "litigation"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 48.0,
+   "group_id": "POLYCAB:litigation:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106835876",
    "symbol": "INDIGO",
    "exchange": "NSE",
