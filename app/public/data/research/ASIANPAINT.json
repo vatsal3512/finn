@@ -3,23 +3,48 @@
  "symbol": "ASIANPAINT",
  "name": "Asian Paints",
  "basis": "consolidated",
- "generated_at": "2026-10-29T07:38:38+00:00",
+ "generated_at": "2026-10-30T08:44:25+00:00",
  "snapshot": {
   "about": "Asian Paints exists to beautify, transform and preserve spaces and objects, bringing happiness to the world.",
-  "latest_quarter": "Q1 FY27",
-  "revenue": 10542.0,
-  "revenue_yoy": 17.9,
-  "net_profit": 1559.0,
-  "net_profit_yoy": 39.6,
-  "ebitda_margin": 21.0
+  "latest_quarter": "Q2 FY27",
+  "revenue": 9977.0,
+  "revenue_yoy": 16.9,
+  "net_profit": 1085.0,
+  "net_profit_yoy": 6.6,
+  "ebitda_margin": 16.0
  },
- "narrative": "Management targeted 18% to 20% PBDIT margins and mid-single-digit value growth for FY26. The reported numbers aligned well, with FY26 consolidated PBDIT margin reaching 18.9% and decorative value growing 4.3%. In Q1 FY27, revenue expanded 17.9% with an EBITDA margin of 21.0%.",
+ "narrative": "Management promised 8% to 10% volume growth for FY27 and delivered 9% in Q1 FY27. However, while management guided for 18% to 20% PBDIT margin, Q2 FY27 EBITDA margin dropped to 16.0%, diverging from their target range.",
  "promises": [
   {
+   "id": "P4",
+   "metric": "Value growth",
+   "period": "Q4 FY26",
+   "target": "5–6%",
+   "statement": "Management agrees that 5% to 6% value growth is a reasonable expectation.",
+   "said": {
+    "quote": "I think that is a reasonable take in terms of what we can look at",
+    "source": "Q3 FY26 call, 27 Jan 2026",
+    "page": 35,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": "10.6%",
+   "actual_source": {
+    "quote": "Value growth, Q4 FY26: 10.6%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
+   },
+   "verdict": "beat",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
    "id": "P1",
-   "metric": "Full year value growth",
+   "metric": "Value growth guidance",
    "period": "FY26",
-   "target": "4–6%",
+   "target": null,
    "statement": "Management expects mid-single-digit value growth for full year FY26.",
    "said": {
     "quote": "We are looking at mid-single-digit value growth for the full year",
@@ -29,25 +54,25 @@
    },
    "repeated_in": [],
    "revised_from": [],
-   "actual": "4.9%",
+   "actual": null,
    "actual_source": {
-    "quote": "Full year value growth, FY26: 4.9%",
-    "source": "screener.in, compiled from the company's filed results",
-    "page": null,
-    "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
+    "quote": "I think that is a reasonable take in terms of what we can look at",
+    "source": "Q3 FY26 call, 27 Jan 2026",
+    "page": 35,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf"
    },
    "verdict": "met",
-   "verdict_by": "code",
-   "note": null
+   "verdict_by": "model",
+   "note": "Full year FY26 value growth reached 10.6%, beating mid-single-digit guidance."
   },
   {
    "id": "P2",
-   "metric": "PBDIT Margin",
+   "metric": "PBDIT margin guidance",
    "period": "FY26",
    "target": "18–20%",
-   "statement": "Management targets maintaining an 18% to 20% PBDIT margin band.",
+   "statement": "Management maintains full year PBDIT margin guidance of 18% to 20%.",
    "said": {
-    "quote": "it is okay to maintain the whole guidance of 18 to 20% PBDIT margin band",
+    "quote": "Given all this, it is okay to maintain the whole guidance of 18 to 20% PBDIT margin band",
     "source": "Q2 FY26 call, 12 Nov 2025",
     "page": 27,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf"
@@ -56,7 +81,7 @@
    "revised_from": [],
    "actual": "19.0%",
    "actual_source": {
-    "quote": "PBDIT Margin, FY26: 19.0%",
+    "quote": "PBDIT margin guidance, FY26: 19.0%",
     "source": "screener.in, compiled from the company's filed results",
     "page": null,
     "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
@@ -66,67 +91,40 @@
    "note": null
   },
   {
-   "id": "P3",
-   "metric": "Volume growth",
-   "period": null,
-   "target": "8–10%",
-   "statement": "Management expects volume growth to be in the band of 8% to 10%.",
-   "said": {
-    "quote": "No, I think I have been maintaining that, as I said that, band of 8- 10% for volume and gap between the volume and the value is a good indicator",
-    "source": "Q3 FY26 call, 27 Jan 2026",
-    "page": 36,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "On a yearly level, volume growth is close to about 9%, which is quite commendable, and the value growth is about 4.3%",
-    "source": "Q4 FY26 call, 29 May 2026",
-    "page": 11,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Decorative volume growth for full year FY26 reached close to 9%, falling within the 8% to 10% band."
-  },
-  {
-   "id": "P4",
+   "id": "P5",
    "metric": "PBDIT margin",
-   "period": null,
+   "period": "Q4 FY26",
    "target": "18–20%",
-   "statement": "Management guides PBDIT margins to remain between 18% and 20%.",
+   "statement": "Management guides to keep PBDIT margins within the 18% to 20% band.",
    "said": {
     "quote": "So, I would say that we would keep the guidance between that 18 and 20% band as we go ahead and that is something which we will endeavour to maintain",
     "source": "Q3 FY26 call, 27 Jan 2026",
     "page": 35,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf"
    },
-   "repeated_in": [
-    "Q1 FY27 call, 29 Jul 2026"
-   ],
+   "repeated_in": [],
    "revised_from": [],
-   "actual": null,
+   "actual": "19.0%",
    "actual_source": {
-    "quote": "PBDIT grew in double-digits, and PBDIT margins at 18.9%, higher by almost 110 bps",
-    "source": "Q4 FY26 call, 29 May 2026",
-    "page": 17,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf"
+    "quote": "PBDIT margin, Q4 FY26: 19.0%",
+    "source": "screener.in, compiled from the company's filed results",
+    "page": null,
+    "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
    },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Full year FY26 consolidated PBDIT margin arrived at 18.9%, comfortably inside the 18% to 20% target range."
+   "verdict": "met",
+   "verdict_by": "code",
+   "note": null
   },
   {
-   "id": "P5",
+   "id": "P6",
    "metric": "Volume growth guidance",
    "period": "FY27",
    "target": "8–10%",
-   "statement": "Company expects high single-digit volume growth of 8% to 10% in FY27.",
+   "statement": "Management expects high single-digit volume growth of 8% to 10% in FY27.",
    "said": {
-    "quote": "We are looking at the price increases that are happening and trying to see that we get into that area of 8-10% volume growth",
+    "quote": "we are still confident that demand conditions should continue giving us closer to high single-digit volume growth in the band of about 8 -10%, as we predict going forward",
     "source": "Q4 FY26 call, 29 May 2026",
-    "page": 23,
+    "page": 21,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf"
    },
    "repeated_in": [
@@ -142,26 +140,48 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Q1 FY27 decorative volume growth came in at 9%, aligning with the full-year target band."
+   "note": "Q1 FY27 volume growth reached 9%, staying within the 8% to 10% target band."
   },
   {
-   "id": "P6",
-   "metric": "PBDIT margin guidance",
+   "id": "P7",
+   "metric": "PBDIT margin guidance band",
    "period": "FY27",
    "target": "18–20%",
-   "statement": "Company aims to maintain its PBDIT margin guidance band of 18% to 20%.",
+   "statement": "Management aims to maintain its PBDIT margin guidance range of 18% to 20%.",
    "said": {
     "quote": "Just to understand clearly that in doing so, you would like to maintain your margin guidance, which has always been 18-20%",
     "source": "Q4 FY26 call, 29 May 2026",
     "page": 23,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf"
    },
-   "repeated_in": [],
+   "repeated_in": [
+    "Q1 FY27 call, 29 Jul 2026"
+   ],
    "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "code",
+   "note": "Margin guidance of 18% to 20% was reiterated in Q1 FY27."
+  },
+  {
+   "id": "P3",
+   "metric": "Volume growth",
+   "period": "Q4 FY26",
+   "target": "8–10%",
+   "statement": "Management expects volume growth to be between 8% and 10%.",
+   "said": {
+    "quote": "No, I think I have been maintaining that, as I said that, band of 8- 10% for volume and gap between the volume and the value is a good indicator",
+    "source": "Q3 FY26 call, 27 Jan 2026",
+    "page": 36,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "unclear",
+   "verdict_by": "model",
    "note": null
   }
  ],
@@ -230,28 +250,11 @@
     "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
    }
   ],
-  "read": "Profits convert strongly into cash. Operating cash flow of ₹22,795 crore over FY22–FY26 fully covered the reported cumulative net profit of ₹20,943 crore."
+  "read": "Profits convert strongly into cash. Over FY22 to FY26, cumulative operating cash flow of ₹22,795 crore comfortably exceeded total reported net profit of ₹20,943 crore."
  },
  "bull": [
   {
-   "point": "Q1 FY27 consolidated revenue grew 17.9% year-on-year to ₹10,542 crore with net profit surging 39.6% to ₹1,559 crore and an EBITDA margin of 21.0%.",
-   "evidence": [
-    {
-     "quote": "In fact, it improved to about an 18% top line growth",
-     "source": "Q1 FY27 call, 29 Jul 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
-    },
-    {
-     "quote": "PBDIT margins stand at about 20.6%, almost 240 bps higher YoY",
-     "source": "Q1 FY27 call, 29 Jul 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Operating cash flow of ₹22,795 crore over FY22–FY26 comfortably exceeded reported cumulative net profits of ₹20,943 crore over the same period.",
+   "point": "Operating cash flow of ₹22,795 crore from FY22 to FY26 fully funded cumulative reported net profit of ₹20,943 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹22,795 crore covered all of reported profit, ₹20,943 crore.",
@@ -262,26 +265,37 @@
    ]
   },
   {
-   "point": "Decorative business volume grew 12.4% with value growing 10.2% in Q4 FY26, bringing full-year volume growth close to 9%.",
+   "point": "Revenue grew 16.9% year-on-year to ₹9,977 crore in Q2 FY27, backed by 9% volume growth in Q1 FY27.",
    "evidence": [
     {
-     "quote": "When we look at the decorative business, we have achieved 12.4% volume growth and a very strong value growth of 10.2%",
-     "source": "Q4 FY26 call, 29 May 2026",
-     "page": 11,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf"
+     "quote": "Overall, we are at about a strong 9% volume growth",
+     "source": "Q1 FY27 call, 29 Jul 2026",
+     "page": 10,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    }
+   ]
+  },
+  {
+   "point": "International business grew 27% and General Industrial revenue expanded 21% in Q1 FY27.",
+   "evidence": [
+    {
+     "quote": "21% is the overall growth of what we have been able to do",
+     "source": "Q1 FY27 call, 29 Jul 2026",
+     "page": 13,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
     },
     {
-     "quote": "On a yearly level, volume growth is close to about 9%, which is quite commendable, and the value growth is about 4.3%",
-     "source": "Q4 FY26 call, 29 May 2026",
-     "page": 11,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf"
+     "quote": "We have grown at about 27% in Q1",
+     "source": "Q1 FY27 call, 29 Jul 2026",
+     "page": 15,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "Competition Commission of India ordered an investigation into alleged abuse of dominant position, creating potential legal and financial regulatory uncertainties.",
+   "point": "Competition Commission of India ordered an investigation into alleged abuse of dominant position hindering competitor entry in the decorative paints market.",
    "evidence": [
     {
      "quote": "The CCI had passed a prima facie order dated 1st July 2025 directing the Director General (DG) to conduct an investigation against the Company",
@@ -292,18 +306,31 @@
    ]
   },
   {
-   "point": "Contingent liabilities totaled ₹488.74 crore at the end of FY26, with significant sums locked in disputed tax litigation before appellate authorities.",
+   "point": "Disputed tax and legal claims stood at ₹488.74 crore as of March 31, 2026, including ₹156.62 crore in income tax matters.",
    "evidence": [
     {
-     "quote": "It is not practicable for the Company to estimate the timings of cash outflows, if any, in respect of the pending resolution of the respective proceedings",
+     "quote": "Tax matters in dispute under appeal",
      "source": "Annual report 2026",
      "page": 217,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf"
     }
    ]
+  },
+  {
+   "point": "EBITDA margin contracted to 16.0% in Q2 FY27, falling below the guided band of 18% to 20%.",
+   "evidence": [
+    {
+     "quote": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds",
+     "source": "Q1 FY27 call, 29 Jul 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    }
+   ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
  "documents": [
   {
    "label": "Q1 FY27 call, 29 Jul 2026",
@@ -338,17 +365,20 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 50,
-  "quotes_verified": 50,
+  "claims_found": 42,
+  "quotes_verified": 42,
   "quotes_dropped": 0,
-  "graded_by_code": 3,
-  "graded_by_model": 3,
+  "graded_by_code": 4,
+  "graded_by_model": 2,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 0,
   "models": [
-   "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 37.8
- }
+  "seconds": 66.6
+ },
+ "changes": [
+  "1 promise newly graded: PBDIT margin met."
+ ],
+ "pending": null
 }
