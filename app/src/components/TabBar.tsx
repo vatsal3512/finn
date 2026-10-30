@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { Filing, Holding } from "@/lib/contract";
 import { computeAlerts, lastSeen, loadSettings, SEEN_EVENT, type Defaults } from "@/lib/alerts";
+import { LIVE_DATA } from "@/lib/live";
 import { cx } from "./ui";
 
 type Props = {
@@ -32,7 +33,7 @@ export function TabBar({ holdings, filings, defaults, builtAt }: Props) {
     const check = async () => {
       if (document.visibilityState !== "visible") return;
       try {
-        const m = (await (await fetch("/data/meta.json", { cache: "no-store" })).json()) as { generated_at?: string };
+        const m = (await (await fetch(`${LIVE_DATA}/meta.json`, { cache: "no-store" })).json()) as { generated_at?: string };
         if (m.generated_at && m.generated_at > builtAt) window.location.reload();
       } catch {
         /* offline: keep what is on screen */

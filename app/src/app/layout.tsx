@@ -4,6 +4,10 @@ import { TabBar } from "@/components/TabBar";
 import { getFeed, getHoldings, getMeta } from "@/lib/data";
 import "./globals.css";
 
+// Every page is rebuilt in the background at most every 5 minutes from the live data, so a
+// data refresh needs no new deployment (see lib/data.ts).
+export const revalidate = 300;
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains", display: "swap" });
 

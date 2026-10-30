@@ -1,16 +1,29 @@
-// Server-side reads of the pipeline's exported JSON. Pages render from these at build
-// time, so every Push screen is static and opens instantly (decision D8).
+// Server-side reads of the pipeline's exported JSON. Pages are rendered ahead of time and
+// re-rendered in the background every few minutes, so every Push screen opens instantly
+// (decision D8).
+//
+// The data is read from the repository, where the refresh job commits it every 30
+// minutes, not from this deployment's own copy. So a data refresh needs no new
+// deployment: each one stores a copy of the server, and they filled the hosting plan's
+// storage (30 Oct 2026). The deployment's copy is the fallback if GitHub cannot be reached.
 
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type {
   AskAnswers, Filing, Filings, Holding, Meta, Portfolio, ResearchIndex, ResearchReport,
 } from "./contract";
+import { LIVE_DATA } from "./live";
 
 const DATA = path.join(process.cwd(), "public", "data");
 const SPARK_SESSIONS = 90; // enough for a sparkline and a 30-day alert window
 
 async function read<T>(name: string): Promise<T | null> {
+  try {
+    const r = await fetch(`${LIVE_DATA}/${name}`, { next: { revalidate: 300 } });
+    if (r.ok) return (await r.json()) as T;
+  } catch {
+    /* GitHub unreachable: use the copy built into this deployment */
+  }
   try {
     return JSON.parse(await readFile(path.join(DATA, name), "utf8")) as T;
   } catch {

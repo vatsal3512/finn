@@ -72,6 +72,7 @@ on one domain (decision D21).
 | **Code reviews every model answer before it is stored** (`review()` in `enrich/triage.py`, using `grounding.py`). | The evaluation found answers that read well and were wrong: a share count shown as ₹270,000,000 crore, an invented total, a "% of revenue" 100 times off. Code now drops figures it cannot trace to the filing, and a large deal is at least must-see whichever model answered. See `finn/evals/REPORT.md`. |
 | **Stand-in answers are asked again.** When Flash is busy or capped, Flash-Lite or Groq answers; on important filings Flash is asked again later. | Measured: 17 of 19 labels right on Flash, 10 to 12 on the stand-ins. A stand-in's answer is better than an empty card, but not good enough to keep. |
 | **The refresh schedules itself.** Each run starts the next 30 minutes later; GitHub's cron only restarts the chain. | GitHub's scheduled runs stopped, then came hours late, after a default-branch switch. A workflow may start a run of itself with its own token, which does not depend on the scheduler. |
+| **A data refresh needs no new deployment.** Pages read the data from the repository and are rebuilt in the background every 5 minutes; Vercel builds only when code changes. | Every deployment stores a copy of the server, and 48 data deployments a day filled the free plan's 10 GB of function storage on 30 October. Now the data stays current even if deployments are blocked, and no request meets a server mid-redeploy. |
 
 ## Being a good citizen
 

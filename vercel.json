@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "ignoreCommand": "git -C \"$(git rev-parse --show-toplevel)\" diff --quiet HEAD^ HEAD -- . ':(exclude)app/public/data'",
   "services": {
     "app": { "root": "app/", "framework": "nextjs" },
     "api": { "root": "backend/", "entrypoint": "finn.api:app" }
