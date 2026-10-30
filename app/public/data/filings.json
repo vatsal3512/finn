@@ -1,6 +1,65 @@
 {
  "filings": [
   {
+   "id": "nse:106836184",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T13:24:25+05:30",
+   "exchange_label": "ESOP/ESOS/ESPS",
+   "headline": "HDFC Bank Limited has informed the Exchange regarding Allotment of 4675598 Shares.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "employee_stock",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_30102026132409_SELetterESOP30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "HDFCBANK:unclassified:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106836183",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T13:24:01+05:30",
+   "exchange_label": "Updates",
+   "headline": "Ola Electric Mobility Limited has informed the Exchange regarding 'Intimation on closure of the Issue Period of the Rights Issue'.",
+   "category": "fund_raise",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "equity_raise_text",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_30102026132256_SEintimationIssueClosing30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": {
+    "title": "Closure of Rights Issue Period",
+    "summary": "Ola Electric announced the closure of its rights issue of partly paid-up equity shares for an amount not exceeding ₹ 1,000 crores on October 30, 2026.",
+    "why_it_matters": "The rights issue size of up to ₹ 1,000 crores is significant compared to the company's annual revenue of about ₹1,880 crore.",
+    "sentiment": "neutral",
+    "amount_inr_crore": 1000.0,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 110.0,
+   "group_id": "OLAELEC:fund_raise:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106836029",
    "symbol": "POLYCAB",
    "exchange": "NSE",
