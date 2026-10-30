@@ -4644,14 +4644,12 @@
       2.9,
       1.8
      ],
-     "source": "xbrl",
-     "verified": true,
-     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "source": "screener",
+     "verified": null,
+     "check_note": "From screener.in. Not yet checked against the company's own filing.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1699577_22072026071843_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1550469_16102025050416_WEB.xml"
+      "https://www.screener.in/company/ETERNAL/consolidated/"
      ]
     }
    ],
