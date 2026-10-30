@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106835654",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T08:05:47+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 30, 2026, titled \"ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis\".",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026080437_SE_Intimation_of_Press_Release_ILUMYA_PsA_Approval.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "US FDA approves ILUMYA for psoriatic arthritis",
+    "summary": "The US FDA approved ILUMYA for treating adults with active psoriatic arthritis, expanding its use beyond plaque psoriasis.",
+    "why_it_matters": "Expands the drug's addressable market to a segment affecting approximately 2.4 million Americans.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "SUNPHARMA:press_release:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106835396",
    "symbol": "INDIGO",
    "exchange": "NSE",
@@ -530,7 +563,7 @@
    "price_reaction": {
     "session": "2026-10-29",
     "ret_pct": 1.232,
-    "vol_ratio": 0.739
+    "vol_ratio": 0.749
    },
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-10-29",
@@ -627,7 +660,7 @@
    "price_reaction": {
     "session": "2026-10-29",
     "ret_pct": -1.321,
-    "vol_ratio": 0.622
+    "vol_ratio": 0.623
    },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-10-29",
@@ -664,7 +697,7 @@
    "price_reaction": {
     "session": "2026-10-29",
     "ret_pct": 0.812,
-    "vol_ratio": 1.352
+    "vol_ratio": 1.364
    },
    "score": 0.0,
    "group_id": "RELIANCE:press_release:2026-10-29",
@@ -754,7 +787,7 @@
    "price_reaction": {
     "session": "2026-10-29",
     "ret_pct": 1.232,
-    "vol_ratio": 0.739
+    "vol_ratio": 0.749
    },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-10-28",
@@ -4644,12 +4677,14 @@
       2.9,
       1.8
      ],
-     "source": "screener",
-     "verified": null,
-     "check_note": "From screener.in. Not yet checked against the company's own filing.",
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://www.screener.in/company/ETERNAL/consolidated/"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1699577_22072026071843_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1550469_16102025050416_WEB.xml"
      ]
     }
    ],
