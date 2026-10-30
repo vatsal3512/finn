@@ -1,12 +1,29 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "ignoreCommand": "git -C \"$(git rev-parse --show-toplevel)\" diff --quiet HEAD^ HEAD -- . ':(exclude)app/public/data'",
   "services": {
-    "app": { "root": "app/", "framework": "nextjs" },
-    "api": { "root": "backend/", "entrypoint": "finn.api:app" }
+    "app": {
+      "root": "app/",
+      "framework": "nextjs",
+      "ignoreCommand": "git -C \"$(git rev-parse --show-toplevel)\" diff --quiet HEAD^ HEAD -- . ':(exclude)app/public/data'"
+    },
+    "api": {
+      "root": "backend/",
+      "entrypoint": "finn.api:app",
+      "ignoreCommand": "git -C \"$(git rev-parse --show-toplevel)\" diff --quiet HEAD^ HEAD -- . ':(exclude)app/public/data'"
+    }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": { "service": "api" } },
-    { "source": "/(.*)", "destination": { "service": "app" } }
+    {
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "api"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "app"
+      }
+    }
   ]
 }
