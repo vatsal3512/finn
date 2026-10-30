@@ -4,12 +4,12 @@
     "app": {
       "root": "app/",
       "framework": "nextjs",
-      "ignoreCommand": "git -C \"$(git rev-parse --show-toplevel)\" diff --quiet HEAD^ HEAD -- . ':(exclude)app/public/data'"
+      "ignoreCommand": "case \"$VERCEL_GIT_COMMIT_MESSAGE\" in data:*) exit 0;; *) exit 1;; esac"
     },
     "api": {
       "root": "backend/",
       "entrypoint": "finn.api:app",
-      "ignoreCommand": "git -C \"$(git rev-parse --show-toplevel)\" diff --quiet HEAD^ HEAD -- . ':(exclude)app/public/data'"
+      "ignoreCommand": "case \"$VERCEL_GIT_COMMIT_MESSAGE\" in data:*) exit 0;; *) exit 1;; esac"
     }
   },
   "rewrites": [
