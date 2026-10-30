@@ -1,6 +1,195 @@
 {
  "filings": [
   {
+   "id": "nse:106837406",
+   "symbol": "RELIANCE",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T19:43:24+05:30",
+   "exchange_label": "Press Release",
+   "headline": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company.",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "results_text",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
+   "insight": {
+    "title": "Media Release for Q2 FY27 Financial Results",
+    "summary": "Reliance Industries released its media statement for Q2 FY27 results, reporting record quarterly EBITDA of ₹ 62,409 crore and PAT of ₹ 29,550 crore.",
+    "why_it_matters": "O2C business EBITDA grew 67.9% YoY to ₹ 25,203 crore, driving PAT up 33.8% YoY.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "RELIANCE:results:2026-10-30",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106837395",
+   "symbol": "RELIANCE",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T19:40:11+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
+   "insight": {
+    "title": "Q2 FY27 Financial Results and NCD Issuance",
+    "summary": "The Board approved Q2 FY27 unaudited results with PAT up 27.2% QoQ to ₹29,250.0 crore and authorised NCD issuances up to Rs. 15,000 crore.",
+    "why_it_matters": "PAT grew 32.1% YoY driven by 28.6% revenue growth, while EBITDA margin improved QoQ to 17.0%.",
+    "sentiment": "positive",
+    "amount_inr_crore": 15000.0,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results",
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "RELIANCE:results:2026-10-30",
+   "group_lead": false,
+   "duplicate_of": "nse:106837394"
+  },
+  {
+   "id": "nse:106837394",
+   "symbol": "RELIANCE",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T19:40:11+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
+   "insight": {
+    "title": "Q2 FY27 Financial Results and NCD Issuance",
+    "summary": "The Board approved Q2 FY27 unaudited results with PAT up 27.2% QoQ to ₹29,250.0 crore and authorised NCD issuances up to Rs. 15,000 crore.",
+    "why_it_matters": "PAT grew 32.1% YoY driven by 28.6% revenue growth, while EBITDA margin improved QoQ to 17.0%.",
+    "sentiment": "positive",
+    "amount_inr_crore": 15000.0,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results",
+    "fund_raise"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "RELIANCE",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 332861.0,
+       "previous_quarter": 311850.0,
+       "year_ago": 258898.0,
+       "qoq_pct": 6.7,
+       "yoy_pct": 28.6
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 56616.0,
+       "previous_quarter": 47517.0,
+       "year_ago": 45885.0,
+       "qoq_pct": 19.1,
+       "yoy_pct": 23.4
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 38613.0,
+       "previous_quarter": 30630.0,
+       "year_ago": 29124.0,
+       "qoq_pct": 26.1,
+       "yoy_pct": 32.6
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 29250.0,
+       "previous_quarter": 23001.0,
+       "year_ago": 22146.0,
+       "qoq_pct": 27.2,
+       "yoy_pct": 32.1
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      17.0,
+      15.2,
+      17.7
+     ],
+     "source": "filing_text",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "RELIANCE:results:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106837390",
+   "symbol": "PAYTM",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T19:37:57+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "One 97 Communications Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Transcript of the earnings conference call conducted on October 27, 2026.",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "PAYTM:results:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106836729",
    "symbol": "NAZARA",
    "exchange": "NSE",
@@ -299,59 +488,61 @@
      "symbol": "SUNPHARMA",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 6141.9,
-       "previous_quarter": 5741.1,
-       "year_ago": 4548.1,
-       "qoq_pct": 7.0,
-       "yoy_pct": 35.0
+       "current": 16198.7,
+       "previous_quarter": 15299.9,
+       "year_ago": 14478.3,
+       "qoq_pct": 5.9,
+       "yoy_pct": 11.9
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1714.7,
-       "previous_quarter": 1964.2,
-       "year_ago": 1183.6,
-       "qoq_pct": -12.7,
-       "yoy_pct": 44.9
+       "current": 4743.9,
+       "previous_quarter": 4417.7,
+       "year_ago": 4527.0,
+       "qoq_pct": 7.4,
+       "yoy_pct": 4.8
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 1203.0,
-       "previous_quarter": 1486.5,
-       "year_ago": 671.8,
-       "qoq_pct": -19.1,
-       "yoy_pct": 79.1
+       "current": 3159.4,
+       "previous_quarter": 4098.8,
+       "year_ago": 4167.6,
+       "qoq_pct": -22.9,
+       "yoy_pct": -24.2
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 871.3,
-       "previous_quarter": 1115.1,
-       "year_ago": 564.2,
-       "qoq_pct": -21.9,
-       "yoy_pct": 54.4
+       "current": 1995.1,
+       "previous_quarter": 2901.2,
+       "year_ago": 3124.9,
+       "qoq_pct": -31.2,
+       "yoy_pct": -36.2
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      27.9,
-      34.2,
-      26.0
+      29.3,
+      28.9,
+      31.3
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
-     "share_of_associates": null,
+     "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],

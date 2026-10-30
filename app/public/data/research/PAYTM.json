@@ -3,9 +3,9 @@
  "symbol": "PAYTM",
  "name": "Paytm",
  "basis": "consolidated",
- "generated_at": "2026-10-29T07:50:03+00:00",
+ "generated_at": "2026-10-30T14:20:22+00:00",
  "snapshot": {
-  "about": "Digital payments, financial services, commerce and cloud technology platforms.",
+  "about": "Acquires merchants and consumers through payments and cross-sells financial services, particularly credit.",
   "latest_quarter": "Q2 FY27",
   "revenue": 2648.0,
   "revenue_yoy": 28.5,
@@ -13,64 +13,84 @@
   "net_profit_yoy": 971.4,
   "ebitda_margin": 10.0
  },
- "narrative": "Management promised accelerating revenue growth and expanding EBITDA margins toward 15-20%. In Q2 FY27, revenue grew 28.5% YoY to ₹2,648 crore and EBITDA margin reached 10.0%, aligning with margin expansion goals. However, free cash flow remained negative overall.",
+ "narrative": "Management's revenue growth guidance of 22% was exceeded by reported growth of 28% in Q1 and Q2 FY27, while payment margins surpassed four basis points. However, reported net profit did not translate into positive operating cash flow.",
  "promises": [
   {
-   "id": "P4",
-   "metric": "GMV growth vs UPI growth",
-   "period": null,
-   "target": null,
-   "statement": "Company GMV growth is expected to be higher than 20% if overall UPI grows at 20%.",
+   "id": "P3",
+   "metric": "Payment processing margin",
+   "period": "H2 FY26",
+   "target": "≥ 0.04%",
+   "statement": "Paytm expects payment processing margins to remain above 4 basis points over the next few quarters.",
    "said": {
-    "quote": "We do think that if UPI is growing at 20%, our GMV growth should be higher than that",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 18,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+    "quote": "But we feel pretty confident that it will stay above four basis points for the next few quarters",
+    "source": "Q3 FY26 call, 30 Jan 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "it was like 23 odd percent in Q3, went to 27 percent in Q4, now 31 percent",
-    "source": "Q1 FY27 call, 21 Jul 2026",
-    "page": 9,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "GMV growth accelerated to 31% YoY in Q1 FY27, exceeding 20%."
-  },
-  {
-   "id": "P8",
-   "metric": "Revenue growth",
-   "period": "FY27",
-   "target": null,
-   "statement": "Management expects revenue growth to accelerate across payments, financial services, and marketing services in FY27.",
-   "said": {
-    "quote": "So, in addition to what Vijay said about marketing services and sort of addressed your question, yes, we expect that to be a contributor going forward",
+    "quote": "both your GMV up 27%, and the margins are moving from less than three to more than four basis points",
     "source": "Q4 FY26 call, 7 May 2026",
-    "page": 3,
+    "page": 9,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
    },
+   "verdict": "met",
+   "verdict_by": "model",
+   "note": "Net payment margins exceeded four basis points, reaching 8.4 bps in Q1 FY27 and 9 bps in Q2 FY27."
+  },
+  {
+   "id": "P7",
+   "metric": "EBITDA margin",
+   "period": null,
+   "target": "15–20%",
+   "statement": "Management targets reaching a 15-20% EBITDA margin over the next two to three years.",
+   "said": {
+    "quote": "So on EBITDA margin when you say that now you have higher visibility on the 15-20% margin number in the next two to three years",
+    "source": "Q1 FY27 call, 21 Jul 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+   },
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "For example, if you grew 28% YoY, are there any downward pressures on revenues at all in the foreseeable future",
+    "quote": "The thing is that we probably announced 8% of EBITDA margin this quarter",
     "source": "Q1 FY27 call, 21 Jul 2026",
     "page": 4,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Total revenue growth accelerated to 28% in Q1 FY27 and 28.5% in Q2 FY27."
+   "note": "EBITDA margins expanded sequentially to eight percent in Q1 FY27 and ten percent in Q2 FY27."
   },
   {
-   "id": "P10",
-   "metric": "Annual merchant additions",
-   "period": "FY27",
-   "target": "2,500,000–3,000,000 merchants",
-   "statement": "Paytm targets adding 25 to 30 lakh merchants annually.",
+   "id": "P4",
+   "metric": "Target monetizable consumer base",
+   "period": null,
+   "target": "₹25 crore",
+   "statement": "Paytm aims to build and monetize a base of 250 million customers over the next 3 to 5 years.",
+   "said": {
+    "quote": "I'm going to say about 250 million customers is a good number for us to aim for",
+    "source": "Q3 FY26 call, 30 Jan 2026",
+    "page": 22,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P8",
+   "metric": "Merchant additions",
+   "period": null,
+   "target": "₹0.25–0.3 crore",
+   "statement": "Company plans to add 25 to 30 lakh merchants annually.",
    "said": {
     "quote": "So we have said broadly 25 to 30 lakhs additions a year",
     "source": "Q1 FY27 call, 21 Jul 2026",
@@ -80,27 +100,42 @@
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "We do talk about subscription merchants. These are merchants that actually have a device from us. That is 1.44 crores",
-    "source": "Q3 FY26 call, 30 Jan 2026",
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P10",
+   "metric": "Payment processing margin expansion",
+   "period": null,
+   "target": "2.5 bps",
+   "statement": "Management expects a 2.5 bps improvement in payment processing margin from UPI MDR implementation.",
+   "said": {
+    "quote": "We just tried, in fact, looking at the most conservative method. And then we found out 2.5 bps is something that we can make",
+    "source": "Q2 FY27 call, 27 Oct 2026",
+    "page": 4,
+    "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "Investment in PCTL subsidiary",
+   "period": null,
+   "target": "₹500 crore",
+   "statement": "The company has board approval to invest up to 500 crore rupees into PCTL over 12 months.",
+   "said": {
+    "quote": "So when we went to the board, we took an enabling resolution that we can put up to 500 crores in the subsidiary",
+    "source": "Q2 FY27 call, 27 Oct 2026",
     "page": 11,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Device merchant count reached ₹1.44 crore as annual merchant targets progress."
-  },
-  {
-   "id": "P2",
-   "metric": "Paytm Postpaid unit economics",
-   "period": null,
-   "target": "-0.2–0.2%",
-   "statement": "Paytm Postpaid unit economics are expected to stay within 20 bps of previous levels.",
-   "said": {
-    "quote": "we expect this to be within 20 bps, give or take of what we had earlier",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+    "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -111,16 +146,16 @@
    "note": null
   },
   {
-   "id": "P3",
-   "metric": "marketing services revenue growth",
+   "id": "P12",
+   "metric": "Indirect expense growth vs CM growth",
    "period": null,
-   "target": null,
-   "statement": "Marketing services revenue is expected to grow from current levels.",
+   "target": "0.5 x CM growth",
+   "statement": "Indirect expenses should grow at less than half of revenue or contribution margin growth over 3 to 4 quarters.",
    "said": {
-    "quote": "we are at bottom or near bottom, and we should expect this to grow",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 6,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+    "quote": "indirect expenses, including higher expenses in marketing and sales and service and cloud expenses, et cetera, should over a three to four quarter period, grow at less than half of revenue growth, right",
+    "source": "Q2 FY27 call, 27 Oct 2026",
+    "page": 21,
+    "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -131,15 +166,15 @@
    "note": null
   },
   {
-   "id": "P9",
-   "metric": "EBITDA versus Capex",
+   "id": "P6",
+   "metric": "Revenue growth acceleration",
    "period": "FY27",
-   "target": null,
-   "statement": "Management expects EBITDA to be significantly higher than capex in FY27.",
+   "target": "≥ 22%",
+   "statement": "Company is guiding for more than 22% growth in revenue for FY27.",
    "said": {
-    "quote": "On question number three, it is the case that we have capex, but next year we expect EBITDA to be significantly higher than capex",
+    "quote": "And lastly, on costs and margin, we are guiding for more than 22% growth",
     "source": "Q4 FY26 call, 7 May 2026",
-    "page": 16,
+    "page": 10,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
    },
    "repeated_in": [],
@@ -147,57 +182,55 @@
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
-   "verdict_by": "model",
+   "verdict_by": "code",
    "note": null
   },
   {
-   "id": "P7",
+   "id": "P5",
    "metric": "EBITDA margin",
    "period": "FY29",
    "target": "15–20%",
-   "statement": "Management targets achieving 15% to 20% EBITDA margins in about two and a half to three years.",
+   "statement": "Management expects to reach EBITDA margins of 15% to 20% in about two and a half to three years.",
    "said": {
     "quote": "And EBITDA, we will maintain about two and a half to three years from now, that we should be able to get to those sorts of EBITDA margins",
     "source": "Q4 FY26 call, 7 May 2026",
     "page": 3,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
    },
-   "repeated_in": [
-    "Q1 FY27 call, 21 Jul 2026"
-   ],
+   "repeated_in": [],
    "revised_from": [],
    "actual": null,
    "actual_source": null,
    "verdict": "pending",
    "verdict_by": "code",
-   "note": "Target horizon of two and a half to three years is still underway."
+   "note": null
   },
   {
-   "id": "P1",
-   "metric": "indirect expenses",
-   "period": "FY26",
+   "id": "P9",
+   "metric": "Absolute EBITDA growth",
+   "period": "Q3 FY27",
    "target": null,
-   "statement": "Indirect costs are expected to remain range bound for the rest of FY26.",
+   "statement": "Absolute EBITDA will continue to expand quarter on quarter next quarter despite the DLG drag.",
    "said": {
-    "quote": "for the rest of the year, we expect this to be range bound",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf"
+    "quote": "What we have said is there's a huge amount of tailwinds in the businesses overall, including in the merchant lending business, that we don't think that we're looking at EBITDA going down next quarter",
+    "source": "Q2 FY27 call, 27 Oct 2026",
+    "page": 17,
+    "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
    "actual_source": null,
-   "verdict": "unclear",
+   "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P5",
-   "metric": "Monthly disbursal",
+   "id": "P1",
+   "metric": "BNPL monthly disbursal",
    "period": "Q4 FY26",
    "target": "≥ ₹100 crore",
-   "statement": "Paytm expects Buy Now Pay Later monthly disbursals to cross 100 crore INR within six months of launch.",
+   "statement": "Paytm expects BNPL monthly disbursals to cross 100 crore within six months of launch.",
    "said": {
     "quote": "And within six months of launch, we expect to cross hundred crores of disbursal",
     "source": "Q3 FY26 call, 30 Jan 2026",
@@ -213,11 +246,11 @@
    "note": null
   },
   {
-   "id": "P6",
-   "metric": "PIDF impact offset percentage",
+   "id": "P2",
+   "metric": "PIDF impact offset",
    "period": "Q4 FY26",
    "target": "30–40%",
-   "statement": "Paytm expects to offset at least 30-40% of the PIDF impact in Q4 FY26.",
+   "statement": "Management expects at least 30% to 40% of the PIDF impact to be offset in Q4 FY26.",
    "said": {
     "quote": "Our expectation is at least 30 - 40 percent of this will be offset this quarter and more over time",
     "source": "Q3 FY26 call, 30 Jan 2026",
@@ -304,50 +337,68 @@
     "url": "https://www.screener.in/company/PAYTM/consolidated/"
    }
   ],
-  "read": "Profits fail to turn into cash. Operating cash flow was negative in FY26 despite reported profits, and free cash flow was negative in all five years totaling −₹3,832 crore."
+  "read": "Profits fail to generate cash: operating cash flow turned negative in FY26 despite reported profitability, while cumulative five-year free cash flow stands at −₹3,832 crore."
  },
  "bull": [
   {
-   "point": "Revenue grew 28.5% YoY to ₹2,648 crore in Q2 FY27 with net profit reaching ₹225 crore and EBITDA margin hitting 10.0%.",
+   "point": "Revenue growth accelerated to 28% year-on-year in Q1 and Q2 FY27, exceeding earlier full-year guidance of 22%.",
    "evidence": [
+    {
+     "quote": "And lastly, on costs and margin, we are guiding for more than 22% growth",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "page": 10,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
+    },
     {
      "quote": "For example, if you grew 28% YoY, are there any downward pressures on revenues at all in the foreseeable future",
      "source": "Q1 FY27 call, 21 Jul 2026",
      "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Gross merchandise value growth accelerated to 31% YoY in Q1 FY27 while consumer side gross transaction value surged 45% YoY.",
-   "evidence": [
-    {
-     "quote": "it was like 23 odd percent in Q3, went to 27 percent in Q4, now 31 percent",
-     "source": "Q1 FY27 call, 21 Jul 2026",
-     "page": 9,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
     },
     {
-     "quote": "our consumer side GTV was up 45%",
-     "source": "Q1 FY27 call, 21 Jul 2026",
-     "page": 14,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+     "quote": "Yeah, so yes, we have now seen two consistent quarters of 28% growth",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 7,
+     "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf"
     }
    ]
   },
   {
-   "point": "Subscription merchant devices expanded to ₹1.44 crore in Q3 FY26 alongside ₹13,500 crore in total cash reserves.",
+   "point": "Net payment margins expanded to 8.4 basis points in Q1 FY27 and 9 basis points in Q2 FY27, remaining above guidance.",
    "evidence": [
     {
-     "quote": "We do talk about subscription merchants. These are merchants that actually have a device from us. That is 1.44 crores",
+     "quote": "But we feel pretty confident that it will stay above four basis points for the next few quarters",
      "source": "Q3 FY26 call, 30 Jan 2026",
-     "page": 11,
+     "page": 12,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4720712e-95e6-432a-ae09-64d5fb6ff426.pdf"
     },
     {
-     "quote": "not only do we have INR 13,500 crores of cash, we are now also adding a significant amount of cash",
+     "quote": "in the letter you guys say that the net payment margins went from 8.8 bps last year to 8.4",
      "source": "Q1 FY27 call, 21 Jul 2026",
-     "page": 5,
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
+    },
+    {
+     "quote": "And Suraj, the evidence of that is in the point that Vijit was mentioning, that eight and a half has gone to nine, which is the net payment margin number",
+     "source": "Q2 FY27 call, 27 Oct 2026",
+     "page": 12,
+     "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf"
+    }
+   ]
+  },
+  {
+   "point": "EBITDA margin improved sequentially from 6% in FY26 to 8% in Q1 FY27 and 10% in Q2 FY27.",
+   "evidence": [
+    {
+     "quote": "ended the year at about 6% with very strong expansion",
+     "source": "Q4 FY26 call, 7 May 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a39d5732-4edd-4b8f-8269-767d21ccd4c2.pdf"
+    },
+    {
+     "quote": "The thing is that we probably announced 8% of EBITDA margin this quarter",
+     "source": "Q1 FY27 call, 21 Jul 2026",
+     "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c94d54-c284-4e83-83b3-fc6e41943d16.pdf"
     }
    ]
@@ -355,18 +406,7 @@
  ],
  "bear": [
   {
-   "point": "Show cause notice was received from the Directorate of Enforcement alleging contraventions of Foreign Exchange Management Act provisions across the entity and subsidiaries.",
-   "evidence": [
-    {
-     "quote": "We draw attention to Note 41 to the standalone financial statements, regarding a Show Cause Notice (\"SCN\") received by the Company and its two subsidiaries",
-     "source": "Annual report 2026",
-     "page": 203,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Operating cash flow turned negative in FY26 despite reported profits, contributing to five consecutive years of negative free cash flow totaling −₹3,832 crore.",
+   "point": "Operating cash flow was negative in FY26 despite reported profit, with cumulative five-year free cash flow reaching −₹3,832 crore.",
    "evidence": [
     {
      "quote": "Operating cash flow was negative in FY26 while reported profit was positive.",
@@ -381,12 +421,40 @@
      "url": "https://www.screener.in/company/PAYTM/consolidated/"
     }
    ]
+  },
+  {
+   "point": "Enforcement Directorate issued a Show Cause Notice alleging contraventions of Foreign Exchange Management Act rules against the entity and two subsidiaries.",
+   "evidence": [
+    {
+     "quote": "Notice (\"SCN\") received by the Company and its two subsidiaries, from the Directorate of Enforcement, Government of India alleging contraventions of certain provisions of the Foreign Exchange Management Act, 1999",
+     "source": "Annual report 2026",
+     "page": 203,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Unrecognised deferred tax assets remain substantial, with brought forward losses and deductible temporary differences totaling ₹9,392 crore.",
+   "evidence": [
+    {
+     "quote": "Brought forward losses and deductible temporary differences for which no deferred tax asset is recognised in the Standalone Balance Sheet",
+     "source": "Annual report 2026",
+     "page": 278,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf"
+    }
+   ]
   }
  ],
  "notes": [
-  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+  "Transcripts for 2026-10 taken from NSE; screener.in had not listed them."
  ],
  "documents": [
+  {
+   "label": "Q2 FY27 call, 27 Oct 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/PAYTM_30102026193745_SEDisclosureEarningsCallTranscriptFinalQ2FY2027sd.pdf",
+   "pages": 23
+  },
   {
    "label": "Q1 FY27 call, 21 Jul 2026",
    "kind": "transcript",
@@ -406,12 +474,6 @@
    "pages": 23
   },
   {
-   "label": "Q2 FY26 call, 5 Nov 2025",
-   "kind": "transcript",
-   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dfa175-b19a-424b-a170-5341345487b7.pdf",
-   "pages": 23
-  },
-  {
    "label": "Annual report 2026",
    "kind": "annual_report",
    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf",
@@ -420,17 +482,21 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 26,
-  "quotes_verified": 26,
+  "claims_found": 39,
+  "quotes_verified": 39,
   "quotes_dropped": 0,
-  "graded_by_code": 1,
-  "graded_by_model": 3,
+  "graded_by_code": 2,
+  "graded_by_model": 2,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 0,
   "models": [
-   "gemini-3.5-flash",
-   "gemini-3.6-flash"
+   "gemini-3.6-flash",
+   "gemini-3.8-flash"
   ],
-  "seconds": 39.2
- }
+  "seconds": 246.2
+ },
+ "changes": [
+  "Now reads the Q2 FY27 call, 27 Oct 2026: 4 promises from it."
+ ],
+ "pending": null
 }

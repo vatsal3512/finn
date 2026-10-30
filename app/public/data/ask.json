@@ -114,7 +114,7 @@
    "symbol": "SUNPHARMA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In the Q1 FY27 call (August 2026), management reiterated full-year revenue guidance of high single-digit growth. The reported Q2 FY27 revenue growth of 35.0% YoY significantly exceeds this full-year expectation. Management did not provide specific margin targets for the quarter, though they noted R&D spend would normalize and effective tax rates would remain around 27.8%.",
+   "answer": "In August 2026 (Q1 FY27 call), management maintained full-year FY27 top-line revenue growth guidance at high single digits. It did not give specific quarterly margin numerical guidance. The Q2 FY27 actual revenue growth of 11.9% YoY surpassed the full-year high single-digit expectation, while the EBITDA margin came in at 29.3%.",
    "evidence": [
     {
      "quote": "Think we should stick on to the high single-digit growth for the full year",
@@ -123,7 +123,7 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
     },
     {
-     "quote": "Going forward, and until Organon closing, we expect the tax rate to be in a similar range as in Q1",
+     "quote": "EBITDA margins came in at 28.9% while EBITDA margins were slightly lower, please note that Q1 FY26 had some benefit from Lenalidomide sales",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
@@ -134,7 +134,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:10+00:00"
+   "asked_at": "2026-10-30T14:16:14+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",

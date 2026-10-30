@@ -165,11 +165,11 @@
   {
    "symbol": "PAYTM",
    "name": "Paytm",
-   "generated_at": "2026-10-29T07:50:03+00:00",
-   "promises": 10,
+   "generated_at": "2026-10-30T14:20:22+00:00",
+   "promises": 12,
    "missed": 0,
-   "kept": 0,
-   "pending": 7
+   "kept": 1,
+   "pending": 9
   },
   {
    "symbol": "PERSISTENT",
