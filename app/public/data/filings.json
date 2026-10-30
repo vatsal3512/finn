@@ -1,6 +1,153 @@
 {
  "filings": [
   {
+   "id": "nse:106836531",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T16:10:12+05:30",
+   "exchange_label": "Change in Management",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Quarterly financial results and new executive director",
+    "summary": "Q2 FY27 revenue rose 42% to ₹21,863 crore, but PAT fell 45% to ₹411 crore; Mr Prithvi Vachani appointed Executive Director.",
+    "why_it_matters": "PAT decline contrasts with strong revenue growth, indicating margin pressure.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "openai/gpt-oss-120b"
+   },
+   "events": [
+    "results",
+    "management_change"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 125.0,
+   "group_id": "DIXON:results:2026-10-30",
+   "group_lead": false,
+   "duplicate_of": "nse:106836523"
+  },
+  {
+   "id": "nse:106836523",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T16:07:23+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "Dixon Technologies (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Quarterly financial results and new executive director",
+    "summary": "Q2 FY27 revenue rose 42% to ₹21,863 crore, but PAT fell 45% to ₹411 crore; Mr Prithvi Vachani appointed Executive Director.",
+    "why_it_matters": "PAT decline contrasts with strong revenue growth, indicating margin pressure.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "openai/gpt-oss-120b"
+   },
+   "events": [
+    "results",
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "DIXON",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "standalone",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 1593.2,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 84.4,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 147.9,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 123.4,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      5.3,
+      null,
+      null
+     ],
+     "source": "filing_text",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf"
+     ]
+    },
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Mr. Prithvi Vachani",
+       "role": "Executive Director",
+       "change": "appointment",
+       "effective_date": "2026-10-30",
+       "reason": null,
+       "profile": "Mr. Prithvi Vachani is currently serving as the Vice President at Dixon Technologies (India) Limited. A 2017 graduate of Bentley University, he later pursued a Master of Business Administration at the London Business School.",
+       "previous_roles": [
+        "Vice President, Dixon Technologies (India) Limited"
+       ],
+       "education": "Master of Business Administration, London Business School; Bachelor's degree, Bentley University",
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 125.0,
+   "group_id": "DIXON:results:2026-10-30",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106836415",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
@@ -20,7 +167,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.081,
+    "vol_ratio": 0.801
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-10-30",
    "group_lead": true,
@@ -46,8 +197,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.948,
+    "vol_ratio": 3.422
+   },
+   "score": 10.0,
    "group_id": "SUNPHARMA:unclassified:2026-10-30",
    "group_lead": true,
    "duplicate_of": null
@@ -140,8 +295,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.948,
+    "vol_ratio": 3.422
+   },
+   "score": 130.0,
    "group_id": "SUNPHARMA:results:2026-10-30",
    "group_lead": true,
    "duplicate_of": null
@@ -166,7 +325,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 1.39,
+    "vol_ratio": 0.67
+   },
    "score": 0.0,
    "group_id": "HDFCBANK:unclassified:2026-10-30",
    "group_lead": true,
@@ -199,8 +362,12 @@
     "fund_raise"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 110.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": -5.631,
+    "vol_ratio": 0.725
+   },
+   "score": 125.0,
    "group_id": "OLAELEC:fund_raise:2026-10-30",
    "group_lead": true,
    "duplicate_of": null
@@ -232,7 +399,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.542,
+    "vol_ratio": 0.75
+   },
    "score": 48.0,
    "group_id": "POLYCAB:litigation:2026-10-30",
    "group_lead": true,
@@ -258,8 +429,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 4.334,
+    "vol_ratio": 2.44
+   },
+   "score": 10.0,
    "group_id": "INDIGO:unclassified:2026-10-30",
    "group_lead": true,
    "duplicate_of": null
@@ -292,7 +467,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": -3.834,
+    "vol_ratio": 0.221
+   },
    "score": 108.0,
    "group_id": "EMUDHRA:litigation:2026-10-30",
    "group_lead": true,
@@ -325,8 +504,12 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 40.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.948,
+    "vol_ratio": 3.422
+   },
+   "score": 50.0,
    "group_id": "SUNPHARMA:press_release:2026-10-30",
    "group_lead": true,
    "duplicate_of": null
@@ -351,8 +534,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 4.334,
+    "vol_ratio": 2.44
+   },
+   "score": 10.0,
    "group_id": "INDIGO:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": null
@@ -377,7 +564,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.782,
+    "vol_ratio": 1.728
+   },
    "score": 0.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
@@ -410,7 +601,11 @@
     "results"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 0.782,
+    "vol_ratio": 1.728
+   },
    "score": 60.0,
    "group_id": "ASIANPAINT:results:2026-10-29",
    "group_lead": false,
@@ -443,8 +638,12 @@
     "results"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 4.334,
+    "vol_ratio": 2.44
+   },
+   "score": 70.0,
    "group_id": "INDIGO:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": null
@@ -476,8 +675,12 @@
     "results"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 4.334,
+    "vol_ratio": 2.44
+   },
+   "score": 70.0,
    "group_id": "INDIGO:results:2026-10-29",
    "group_lead": false,
    "duplicate_of": null
@@ -572,8 +775,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 125.0,
+   "price_reaction": {
+    "session": "2026-10-30",
+    "ret_pct": 4.334,
+    "vol_ratio": 2.44
+   },
+   "score": 135.0,
    "group_id": "INDIGO:results:2026-10-29",
    "group_lead": true,
    "duplicate_of": null

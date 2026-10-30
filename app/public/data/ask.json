@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:51+00:00"
+   "asked_at": "2026-10-30T10:46:12+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,27 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-30T10:13:51+00:00"
+   "asked_at": "2026-10-30T10:46:12+00:00"
+  },
+  "nse:106834360": {
+   "symbol": "INDIGO",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In July 2026, management guided Q2 FY27 unit passenger revenue (PRASK) growth of over 25% year-over-year. The filing shows Q2 FY27 revenue rose 25.9% to ₹23,363.8 crore. However, management did not provide specific margin targets, though EBITDA margin improved to 8.2% from 3.1% YoY, despite a net loss of ₹1,879.1 crore.",
+   "evidence": [
+    {
+     "quote": "In terms of unit passenger revenue or PRASK for Q2FY27, with the current balanced demand￾supply equation and the higher fares holding up, we are expecting growth of more than 25% compared to the same period last year",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Jul 2026",
+    "Q3 FY26 call, Jan 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-30T10:46:12+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -88,7 +108,33 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:51+00:00"
+   "asked_at": "2026-10-30T10:46:12+00:00"
+  },
+  "nse:106836275": {
+   "symbol": "SUNPHARMA",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In the Q1 FY27 call (August 2026), management reiterated full-year revenue guidance of high single-digit growth. The reported Q2 FY27 revenue growth of 35.0% YoY significantly exceeds this full-year expectation. Management did not provide specific margin targets for the quarter, though they noted R&D spend would normalize and effective tax rates would remain around 27.8%.",
+   "evidence": [
+    {
+     "quote": "Think we should stick on to the high single-digit growth for the full year",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 10,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    },
+    {
+     "quote": "Going forward, and until Organon closing, we expect the tax rate to be in a similar range as in Q1",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, May 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-10-30T10:46:59+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
@@ -114,7 +160,7 @@
     "Q4 FY26 call, Jun 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:51+00:00"
+   "asked_at": "2026-10-30T10:46:59+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -146,7 +192,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:52+00:00"
+   "asked_at": "2026-10-30T10:46:59+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -178,7 +224,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:52+00:00"
+   "asked_at": "2026-10-30T10:46:59+00:00"
   },
   "nse:106818661": {
    "symbol": "PERSISTENT",
@@ -210,7 +256,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:52+00:00"
+   "asked_at": "2026-10-30T10:47:00+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -242,7 +288,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:52+00:00"
+   "asked_at": "2026-10-30T10:47:00+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
@@ -274,90 +320,39 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-30T10:13:53+00:00"
+   "asked_at": "2026-10-30T10:47:00+00:00"
   },
-  "nse:106834360": {
-   "symbol": "INDIGO",
+  "nse:106836523": {
+   "symbol": "DIXON",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026, management guided Q2 FY27 unit passenger revenue (PRASK) growth of over 25% year-over-year. The filing shows Q2 FY27 revenue rose 25.9% to ₹23,363.8 crore. However, management did not provide specific margin targets, though EBITDA margin improved to 8.2% from 3.1% YoY, despite a net loss of ₹1,879.1 crore.",
+   "answer": "In Q1 FY27, management expected Q2 smartphone volumes to grow 20% to 25% quarter-on-quarter. In Q4 FY26, management anticipated FY27 revenue (ex-Vivo) of ~₹56,000 crore (~15%-17% growth), but noted FY27 margins would face near-term compression from PLI 1 expiry. Q2 FY27 revenue grew 42% to ₹21,863 crore, but PAT fell 45% due to margin pressures.",
    "evidence": [
     {
-     "quote": "In terms of unit passenger revenue or PRASK for Q2FY27, with the current balanced demand￾supply equation and the higher fares holding up, we are expecting growth of more than 25% compared to the same period last year",
-     "source": "Q1 FY27 call, Jul 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+     "quote": "and we expect 20% to 25% volume growth quarter￾on-quarter growth as consumer demand strengthens and we have a strong order book",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "quote": "Without the Vivo numbers, this year, we closed at almost INR48,000 crores -- INR48,800-odd crores. Next year, we are targeting almost INR56,000 crores without the Vivo numbers, and mobile volume being flat",
+     "source": "Q4 FY26 call, May 2026",
+     "page": 15,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+    },
+    {
+     "quote": "So the margin profile will be slightly under pressure this year because the PLI has gone off, and there is a lag in the margin accretion happening due to component foray",
+     "source": "Q4 FY26 call, May 2026",
+     "page": 15,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Jul 2026",
-    "Q3 FY26 call, Jan 2026"
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:53+00:00"
-  },
-  "nse:106830187": {
-   "symbol": "MARUTI",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": false,
-   "answer": "In the Q4 FY26 call, management did not provide specific revenue or margin targets for Q2 FY27. They declined to give explicit margin guidance due to dynamic cost headwinds and geopolitical uncertainties, but stated they expect Maruti Suzuki's overall sales volume to grow by over 10% in FY27 and return to a healthy margin trajectory once disruptions ease.",
-   "evidence": [
-    {
-     "quote": "The broad expectation, which our Chairman also conveyed, is growth of over 10% this year as compared to the last year",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 8,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    },
-    {
-     "quote": "So it's always difficult to give out a guidance on margins",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 11,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    },
-    {
-     "quote": "So we are very confident and optimistic that subject to these headwinds of the war, the commodities and the energy prices, after that is over, we'll come back to a healthy trajectory",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 11,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    }
-   ],
-   "calls": [
-    "Q4 FY26 call, Apr 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:53+00:00"
-  },
-  "nse:106821168": {
-   "symbol": "HDFCBANK",
-   "question": "What has management said on recent calls about leadership, succession or this role?",
-   "addressed": true,
-   "answer": "In October 2026, outgoing CEO Sashidhar Jagdishan welcomed incoming MD and CEO Anup Bagchi and announced that Deputy Managing Director Kaizad Bharucha requested early retirement effective December 2026. In July 2026, Jagdishan welcomed new Chairman Rajiv Kumar and noted that the Board was actively addressing the process to enhance Whole-Time Directors on the Board.",
-   "evidence": [
-    {
-     "quote": "I'm really grateful to the Board for the trust placed in me as MD and CEO",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Jul 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:13:53+00:00"
+   "asked_at": "2026-10-30T10:47:26+00:00"
   }
  }
 }
