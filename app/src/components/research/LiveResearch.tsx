@@ -43,37 +43,46 @@ export function LiveResearch({ symbol }: { symbol: string }) {
 
   useEffect(() => {
     const ctrl = new AbortController();
+    // One pass over the stream: true once the report (or a plain error) has arrived.
+    const read = async (): Promise<boolean> => {
+      const r = await fetch(`/api/research/${encodeURIComponent(symbol)}${refresh ? "?refresh=true" : ""}`, {
+        signal: ctrl.signal,
+      });
+      if (!r.ok || !r.body) throw new Error(r.status === 422 ? "That is not an NSE symbol." : "FINN's server could not start this research just now.");
+      const reader = r.body.getReader();
+      const dec = new TextDecoder();
+      let buf = "";
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) return false;
+        buf += dec.decode(value, { stream: true });
+        let nl: number;
+        while ((nl = buf.indexOf("\n")) >= 0) {
+          const line = buf.slice(0, nl).trim();
+          buf = buf.slice(nl + 1);
+          if (!line) continue;
+          const ev = JSON.parse(line) as Event;
+          setEvents((e) => [...e, ev]);
+          if (ev.stage === "done" && ev.report) setReport(ev.report);
+          if (ev.stage === "error") {
+            setError(ev.message);
+            setNotFound(!!ev.not_found);
+          }
+          // The report is on screen now. The line is left to close by itself: the server
+          // saves the report just after sending it, and hanging up could cut that short.
+          if (ev.stage === "done" || ev.stage === "error") return true;
+        }
+      }
+    };
     (async () => {
       try {
-        const r = await fetch(`/api/research/${encodeURIComponent(symbol)}${refresh ? "?refresh=true" : ""}`, {
-          signal: ctrl.signal,
-        });
-        if (!r.ok || !r.body) throw new Error(r.status === 422 ? "That is not an NSE symbol." : "FINN's server could not start this research just now.");
-        const reader = r.body.getReader();
-        const dec = new TextDecoder();
-        let buf = "";
-        let ended = false;
-        for (;;) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          buf += dec.decode(value, { stream: true });
-          let nl: number;
-          while ((nl = buf.indexOf("\n")) >= 0) {
-            const line = buf.slice(0, nl).trim();
-            buf = buf.slice(nl + 1);
-            if (!line) continue;
-            const ev = JSON.parse(line) as Event;
-            setEvents((e) => [...e, ev]);
-            if (ev.stage === "done" || ev.stage === "error") ended = true;
-            if (ev.stage === "done" && ev.report) setReport(ev.report);
-            if (ev.stage === "error") {
-              setError(ev.message);
-              setNotFound(!!ev.not_found);
-            }
-          }
-        }
         // A stream can be cut, for instance while a new version of the server goes live.
-        if (!ended) throw new Error("The connection to FINN's server dropped before the report was finished.");
+        // The server still finishes and saves the report, so asking once more usually
+        // returns it at once.
+        if (!(await read())) {
+          await new Promise((res) => setTimeout(res, 3000));
+          if (!(await read())) throw new Error("The connection to FINN's server dropped before the report was finished.");
+        }
       } catch (e) {
         if (!ctrl.signal.aborted) setError(e instanceof Error ? e.message : "Could not reach FINN's server.");
       }

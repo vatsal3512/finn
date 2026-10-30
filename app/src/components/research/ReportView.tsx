@@ -135,13 +135,18 @@ function Tile({ n, label, tone }: { n: number; label: string; tone: string }) {
 
 export function PromiseRow({ p }: { p: Guidance }) {
   const v = VERDICT[p.verdict];
+  // With no period, say when it was said: two "Revenue growth" rows may be the company's
+  // 8–10% and a subsidiary's 50%, from different calls.
+  const said = /(\w{3}) (\d{4})$/.exec(p.said.source)?.slice(1).join(" ");
   return (
     <li className="border-t border-line first:border-t-0">
       <details>
         <summary className="flex cursor-pointer list-none items-start gap-2 px-4 py-2.5">
           <span className="w-[68px] shrink-0 pt-0.5"><Chip tone={v.tone}>{v.label}</Chip></span>
           <span className="min-w-0 flex-1">
-            <span className="block text-[14px] leading-snug">{p.metric}{p.period ? <span className="text-faint"> · {p.period}</span> : null}</span>
+            <span className="block text-[14px] leading-snug">{p.metric}
+              {p.period ? <span className="text-faint"> · {p.period}</span> : said ? <span className="text-faint"> · said {said}</span> : null}
+            </span>
             {(p.target || p.actual) && (
               <span className="num block text-[12px] text-muted">
                 {p.target ?? "—"}{p.actual ? <> → <span className="text-text">{p.actual}</span></> : null}
