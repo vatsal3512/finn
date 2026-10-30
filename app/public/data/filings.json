@@ -1,6 +1,40 @@
 {
  "filings": [
   {
+   "id": "nse:106836561",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-10-30T16:19:57+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Q2 FY27 Results and Executive Director Appointment",
+    "summary": "Dixon Technologies reported Q2 standalone revenue of ₹1,593.2 crore, up 15.0% YoY, while profit after tax fell 74.2% YoY to ₹123.4 crore, and appointed Prithvi Vachani as Executive Director.",
+    "why_it_matters": "Despite the drop in net profit, standalone EBITDA margin expanded to 9.3% from 5.5% in the prior year quarter.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results",
+    "management_change"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "DIXON:results:2026-10-30",
+   "group_lead": false,
+   "duplicate_of": "nse:106836523"
+  },
+  {
    "id": "nse:106836531",
    "symbol": "DIXON",
    "exchange": "NSE",
@@ -16,12 +50,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Quarterly financial results and new executive director",
-    "summary": "Q2 FY27 revenue rose 42% to ₹21,863 crore, but PAT fell 45% to ₹411 crore; Mr Prithvi Vachani appointed Executive Director.",
-    "why_it_matters": "PAT decline contrasts with strong revenue growth, indicating margin pressure.",
-    "sentiment": "negative",
+    "title": "Q2 FY27 Results and Executive Director Appointment",
+    "summary": "Dixon Technologies reported Q2 standalone revenue of ₹1,593.2 crore, up 15.0% YoY, while profit after tax fell 74.2% YoY to ₹123.4 crore, and appointed Prithvi Vachani as Executive Director.",
+    "why_it_matters": "Despite the drop in net profit, standalone EBITDA margin expanded to 9.3% from 5.5% in the prior year quarter.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "results",
@@ -29,7 +63,7 @@
    ],
    "cards": [],
    "price_reaction": null,
-   "score": 125.0,
+   "score": 120.0,
    "group_id": "DIXON:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": "nse:106836523"
@@ -50,12 +84,12 @@
    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
    "insight": {
-    "title": "Quarterly financial results and new executive director",
-    "summary": "Q2 FY27 revenue rose 42% to ₹21,863 crore, but PAT fell 45% to ₹411 crore; Mr Prithvi Vachani appointed Executive Director.",
-    "why_it_matters": "PAT decline contrasts with strong revenue growth, indicating margin pressure.",
-    "sentiment": "negative",
+    "title": "Q2 FY27 Results and Executive Director Appointment",
+    "summary": "Dixon Technologies reported Q2 standalone revenue of ₹1,593.2 crore, up 15.0% YoY, while profit after tax fell 74.2% YoY to ₹123.4 crore, and appointed Prithvi Vachani as Executive Director.",
+    "why_it_matters": "Despite the drop in net profit, standalone EBITDA margin expanded to 9.3% from 5.5% in the prior year quarter.",
+    "sentiment": "mixed",
     "amount_inr_crore": null,
-    "model": "openai/gpt-oss-120b"
+    "model": "gemini-3.5-flash"
    },
    "events": [
     "results",
@@ -75,51 +109,51 @@
        "key": "revenue",
        "label": "Revenue",
        "current": 1593.2,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "previous_quarter": 1079.6,
+       "year_ago": 1385.8,
+       "qoq_pct": 47.6,
+       "yoy_pct": 15.0
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 84.4,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 148.2,
+       "previous_quarter": 68.7,
+       "year_ago": 75.7,
+       "qoq_pct": 115.8,
+       "yoy_pct": 95.7
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
        "current": 147.9,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "previous_quarter": 584.3,
+       "year_ago": 566.5,
+       "qoq_pct": -74.7,
+       "yoy_pct": -73.9
       },
       {
        "key": "pat",
        "label": "Profit after tax",
        "current": 123.4,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "previous_quarter": 498.1,
+       "year_ago": 478.5,
+       "qoq_pct": -75.2,
+       "yoy_pct": -74.2
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      5.3,
-      null,
-      null
+      9.3,
+      6.4,
+      5.5
      ],
      "source": "filing_text",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf"
+      "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
      ]
     },
     {
@@ -142,7 +176,7 @@
     }
    ],
    "price_reaction": null,
-   "score": 125.0,
+   "score": 120.0,
    "group_id": "DIXON:results:2026-10-30",
    "group_lead": true,
    "duplicate_of": null

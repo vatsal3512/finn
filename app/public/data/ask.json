@@ -30,7 +30,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:12+00:00"
+   "asked_at": "2026-10-30T11:16:09+00:00"
   },
   "nse:106823051": {
    "symbol": "EMUDHRA",
@@ -62,7 +62,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-30T10:46:12+00:00"
+   "asked_at": "2026-10-30T11:16:09+00:00"
   },
   "nse:106834360": {
    "symbol": "INDIGO",
@@ -82,7 +82,7 @@
     "Q3 FY26 call, Jan 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:12+00:00"
+   "asked_at": "2026-10-30T11:16:10+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -108,7 +108,7 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:12+00:00"
+   "asked_at": "2026-10-30T11:16:10+00:00"
   },
   "nse:106836275": {
    "symbol": "SUNPHARMA",
@@ -134,7 +134,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:59+00:00"
+   "asked_at": "2026-10-30T11:16:10+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
@@ -160,7 +160,7 @@
     "Q4 FY26 call, Jun 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:59+00:00"
+   "asked_at": "2026-10-30T11:16:10+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -192,7 +192,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:59+00:00"
+   "asked_at": "2026-10-30T11:16:11+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
@@ -224,7 +224,7 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:46:59+00:00"
+   "asked_at": "2026-10-30T11:16:11+00:00"
   },
   "nse:106818661": {
    "symbol": "PERSISTENT",
@@ -256,7 +256,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:47:00+00:00"
+   "asked_at": "2026-10-30T11:16:11+00:00"
   },
   "nse:106810133": {
    "symbol": "ADANIENT",
@@ -288,7 +288,7 @@
     "Q3 FY26 call, Feb 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:47:00+00:00"
+   "asked_at": "2026-10-30T11:16:11+00:00"
   },
   "nse:106805308": {
    "symbol": "HDFCBANK",
@@ -320,31 +320,25 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-30T10:47:00+00:00"
+   "asked_at": "2026-10-30T11:16:12+00:00"
   },
-  "nse:106836523": {
-   "symbol": "DIXON",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+  "nse:106836183": {
+   "symbol": "OLAELEC",
+   "question": "What has management said about raising money: how much, why, and what it is for?",
    "addressed": true,
-   "answer": "In Q1 FY27, management expected Q2 smartphone volumes to grow 20% to 25% quarter-on-quarter. In Q4 FY26, management anticipated FY27 revenue (ex-Vivo) of ~₹56,000 crore (~15%-17% growth), but noted FY27 margins would face near-term compression from PLI 1 expiry. Q2 FY27 revenue grew 42% to ₹21,863 crore, but PAT fell 45% due to margin pressures.",
+   "answer": "In August 2026 (Q1 FY27), management stated it successfully completed a ₹780 crore QIP to strengthen the balance sheet and gain financial flexibility for growth. Additionally, to expand Cell capacity from 6 GWh to 20 GWh in FY27, management plans to raise separate equity directly in the Cell subsidiary rather than using parent entity equity.",
    "evidence": [
     {
-     "quote": "and we expect 20% to 25% volume growth quarter￾on-quarter growth as consumer demand strengthens and we have a strong order book",
+     "quote": "The balance sheet strengthened during the quarter through the successful completion of a ₹780 crore QIP, giving us greater financial flexibility as we pursue the next phase of our growth",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
     },
     {
-     "quote": "Without the Vivo numbers, this year, we closed at almost INR48,000 crores -- INR48,800-odd crores. Next year, we are targeting almost INR56,000 crores without the Vivo numbers, and mobile volume being flat",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 15,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
-    },
-    {
-     "quote": "So the margin profile will be slightly under pressure this year because the PLI has gone off, and there is a lag in the margin accretion happening due to component foray",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 15,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+     "quote": "At that point, we will aim to scale from 6 GWh to 20 GWh, but only by bringing equity into the Cell company. We will not use equity from the parent entity for that expansion; we will raise separate equity at the right time",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
     }
    ],
    "calls": [
@@ -352,7 +346,7 @@
     "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T10:47:26+00:00"
+   "asked_at": "2026-10-30T11:16:21+00:00"
   }
  }
 }
