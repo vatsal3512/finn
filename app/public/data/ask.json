@@ -166,33 +166,33 @@
    "symbol": "NAZARA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In May 2026 (Q4 FY26), management stated it would accelerate growth in both revenues and EBITDA in FY27. In August 2026 (Q1 FY27), management declined to provide specific financial guidance, but noted Bluetile's consolidation starting Q2 FY27 would add scale. The Q2 FY27 results match this, with revenue growing 52.6% YoY and EBITDA rising 88.8% YoY.",
+   "answer": "In the Q1 FY27 call (August 2026), management declined to give specific overall revenue, EBITDA, or margin guidance. However, for Q2 FY27 (October 2026), Nazara reported record consolidated revenue of ₹803 crore (up 53% YoY) and an EBITDA margin of 14.9% (up 311 bps YoY), driven by strong gaming growth and consolidating Bluetile and BestPlay.",
    "evidence": [
-    {
-     "quote": "and we will continue to accelerate growth both in revenues and EBITDA in FY '27",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a3541a-f887-46e5-abca-59f67ee8b417.pdf"
-    },
-    {
-     "quote": "And subject to the final closing, we are expecting to start consolidating this entire business from Q2 FY27",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
-    },
     {
      "quote": "At Nazara level, do we want to give any guidance in terms of revenue, EBITDA, or margin? Nitish Mittersain: Not at this point of time",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 14,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
+    },
+    {
+     "quote": "Q2 was a record quarter for us: Revenue was INR 803 crores, our highest ever, up 53% year-on￾year",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
+    },
+    {
+     "quote": "EBITDA grew 93% to INR 120 crores and EBITDA margin expanded 311 basis points to 14.9%",
+     "source": "Q2 FY27 call, Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
+    "Q2 FY27 call, Oct 2026",
+    "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:11+00:00"
+   "asked_at": "2026-10-30T13:15:09+00:00"
   },
   "nse:106823393": {
    "symbol": "ETERNAL",
