@@ -301,8 +301,8 @@
       17.7
      ],
      "source": "xbrl",
-     "verified": null,
-     "check_note": "screener.in has no figures for this quarter yet.",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 300.0,
      "source_urls": [
       "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750537_30102026093254_WEB.xml",
