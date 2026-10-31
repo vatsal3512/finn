@@ -1,6 +1,115 @@
 {
  "filings": [
   {
+   "id": "nse:106838688",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-10-31T22:16:44+05:30",
+   "exchange_label": "Change in Management",
+   "headline": "HDFC Bank Limited has informed the Exchange about change in Management",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": {
+    "title": "Sanjay D’Souza Retires from Senior Leadership Role",
+    "summary": "Sanjay D’Souza has retired as Group Head – Business Banking, Emerging & Micro Enterprises Group and Senior Management Personnel, effective October 31, 2026.",
+    "why_it_matters": "He served for nearly 27 years and was a key architect in establishing the bank's strong leadership position in SME business.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Sanjay D’Souza",
+       "role": "Group Head – Business Banking, Emerging & Micro Enterprises Group and Senior Management Personnel",
+       "change": "retirement",
+       "effective_date": "2026-10-31",
+       "reason": "superannuation",
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 46.0,
+   "group_id": "HDFCBANK:management_change:2026-10-31",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106838574",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-31T20:14:24+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Completion and Results of Postal Ballot dated 01 October 2026",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026201341_SEIntimationforVR_-_31_October_2026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "Shareholders Approve All Postal Ballot Special Resolutions",
+    "summary": "Shareholders approved all special resolutions in the postal ballot, including ESOP 2026, enhanced borrowing limits, and creation of encumbrance over shares, with requisite majority.",
+    "why_it_matters": null,
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "postal_ballot"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "SUNPHARMA:postal_ballot:2026-10-31",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106838529",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-10-31T19:32:44+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange about copy of newspaper publication of Unaudited Financial Results (standalone & consolidated) of the Company for the quarter and half year ended 30th September, 2026",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_31102026192630_NewspaperAdvertisement31101026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "DIXON:unclassified:2026-10-31",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106838338",
    "symbol": "RELIANCE",
    "exchange": "NSE",
