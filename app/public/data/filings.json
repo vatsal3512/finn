@@ -1,6 +1,58 @@
 {
  "filings": [
   {
+   "id": "nse:106838338",
+   "symbol": "RELIANCE",
+   "exchange": "NSE",
+   "filed_at": "2026-10-31T17:34:03+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company.",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_31102026173331_SE_31102026_AR.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "RELIANCE:results:2026-10-31",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106838334",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-10-31T17:32:02+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange about Copy of Newspaper Publication",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026173121_SEIntimationforFinancialResultsNewspaperadvertisement.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "SUNPHARMA:unclassified:2026-10-31",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106837640",
    "symbol": "NAZARA",
    "exchange": "NSE",
