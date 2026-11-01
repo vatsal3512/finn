@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106838789",
+   "symbol": "MARUTI",
+   "exchange": "NSE",
+   "filed_at": "2026-11-01T14:44:18+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: October 2026",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "monthly_update",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01112026143647_STxIntimation_Prod_Oct2026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
+   "insight": {
+    "title": "October 2026 Production Volume Update",
+    "summary": "Total passenger vehicles and light commercial vehicles production reached 260,003 units in October 2026 compared to 192,139 units in October 2025.",
+    "why_it_matters": null,
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "MARUTI:press_release:2026-11-01",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106838779",
    "symbol": "MARUTI",
    "exchange": "NSE",
