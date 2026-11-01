@@ -290,38 +290,6 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:11+00:00"
   },
-  "nse:106805308": {
-   "symbol": "HDFCBANK",
-   "question": "What has management said on recent calls about leadership, succession or this role?",
-   "addressed": true,
-   "answer": "In October 2026 (Q2 FY27), Sashidhar Jagdishan welcomed Anup Bagchi as the incoming MD and CEO as Jagdishan's tenure ended. Bagchi stated he would gather stakeholder insights and present his strategic perspective soon. Management also announced Deputy MD Kaizad Bharucha's early retirement effective December 2026. In July 2026 (Q1 FY27), leadership welcomed new Chairman Rajiv Kumar.",
-   "evidence": [
-    {
-     "quote": "As my long innings at HDFC Bank come to an end, I would like to say that it has been an absolute privilege to lead this organization that brings together some of the most brilliant minds and over 200,000 extremely committed and focused professionals, a cutting-edge technology, a solid brand that binds the 100 million customers, and a collective zeal to consistently deliver top-class results for all our stakeholders",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "I'm really grateful to the Board for the trust placed in me as MD and CEO",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    },
-    {
-     "quote": "as we were in the call, I think the world would have just got another notification to the exchanges that our dear colleague, Kaizad, has requested for an early retirement by end of December",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 17,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Jul 2026"
-   ],
-   "model": "gemini-3.5-flash",
-   "asked_at": "2026-10-30T11:16:12+00:00"
-  },
   "nse:106836183": {
    "symbol": "OLAELEC",
    "question": "What has management said about raising money: how much, why, and what it is for?",
@@ -347,6 +315,37 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:21+00:00"
+  },
+  "nse:106830187": {
+   "symbol": "MARUTI",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": false,
+   "answer": "In the Q4 FY26 call, management did not provide specific revenue or margin targets for Q2 FY27. They declined to give explicit margin guidance due to dynamic cost headwinds and geopolitical uncertainties, but stated they expect Maruti Suzuki's overall sales volume to grow by over 10% in FY27 and return to a healthy margin trajectory once disruptions ease.",
+   "evidence": [
+    {
+     "quote": "The broad expectation, which our Chairman also conveyed, is growth of over 10% this year as compared to the last year",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 8,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    },
+    {
+     "quote": "So it's always difficult to give out a guidance on margins",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 11,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    },
+    {
+     "quote": "So we are very confident and optimistic that subject to these headwinds of the war, the commodities and the energy prices, after that is over, we'll come back to a healthy trajectory",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 11,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    }
+   ],
+   "calls": [
+    "Q4 FY26 call, Apr 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-01T00:10:36+00:00"
   }
  }
 }
