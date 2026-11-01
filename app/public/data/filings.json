@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106838779",
+   "symbol": "MARUTI",
+   "exchange": "NSE",
+   "filed_at": "2026-11-01T13:45:06+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated November 01, 2026, titled \"Maruti Suzuki sales in October 2026\".",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01112026133641_StxIntimation_Sales_Oct2026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
+   "insight": {
+    "title": "Highest Ever Monthly Sales in October 2026",
+    "summary": "Total monthly sales volume reached an all-time high of 276,120 units in October 2026, with domestic sales also hitting a record 216,789 units.",
+    "why_it_matters": "The company achieved its highest-ever monthly sales volume driven by strong domestic passenger and export growth.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "MARUTI:press_release:2026-11-01",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106838688",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
