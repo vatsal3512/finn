@@ -3,9 +3,9 @@
  "symbol": "RELIANCE",
  "name": "Reliance Industries",
  "basis": "consolidated",
- "generated_at": "2026-10-31T17:05:13+00:00",
+ "generated_at": "2026-11-01T17:47:48+00:00",
  "snapshot": {
-  "about": "Energy, petrochemicals, telecommunications, retail, FMCG, media, and new energy projects.",
+  "about": "Reliance Industries Limited operates across oil-to-chemicals, digital services, retail, financial services, exploration & production, and new energy.",
   "latest_quarter": "Q2 FY27",
   "revenue": 330601.0,
   "revenue_yoy": 29.8,
@@ -13,102 +13,10 @@
   "net_profit_yoy": 33.8,
   "ebitda_margin": 17.0
  },
- "narrative": "Q2 FY27 revenue reached ₹330,601 crore (+29.8% YoY) and net profit rose to ₹29,550 crore (+33.8% YoY), accelerating from Q1 FY27 revenue growth of 25% and net profit growth of 6% as energy and retail performance strengthened.",
+ "narrative": "Management reported strong growth, with Q2 FY27 revenue surging 29.8% to ₹330,601 crore and net profit rising 33.8% to ₹29,550 crore. O2C EBITDA grew 69% in Q2, while FMCG growth slowed sharply from 100% in Q1 to 60% in Q2.",
  "promises": [
   {
-   "id": "P1",
-   "metric": "Solar PV Module Capacity",
-   "period": "FY27",
-   "target": "20 GW",
-   "statement": "Scaling vertically integrated solar PV module production capacity to 20 GW.",
-   "said": {
-    "quote": "We started with an announcement of 10 gigawatt-peak, which we are now scaling up to 20 gigawatt of solar PV module production completely vertically integrated",
-    "source": "Q2 FY26 call, 17 Oct 2025",
-    "page": 22,
-    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "And we are on track, and I have got a few pictures to also demonstrate that, to achieve 20-gigawatt annual capacity for our solar PV manufacturing in an integrated fashion",
-    "source": "Q1 FY27 call, 17 Jul 2026",
-    "page": 20,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
-   },
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P2",
-   "metric": "Battery Storage Capacity",
-   "period": "FY27",
-   "target": "40 GWh",
-   "statement": "On track to complete 40 GWh battery energy storage gigafactory capacity at Jamnagar.",
-   "said": {
-    "quote": "So, we are currently on track to complete 40 gigawatt hours of battery energy storage gigafactory at Jamnagar",
-    "source": "Q2 FY26 call, 17 Oct 2025",
-    "page": 23,
-    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "We will achieve 40-gigawatt hour capacity this year and we have announced the scale￾up through our AGM up to 120-gigawatt hour capacity",
-    "source": "Q1 FY27 call, 17 Jul 2026",
-    "page": 20,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
-   },
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P4",
-   "metric": "Petchem Expansion Project Completion",
-   "period": "FY27",
-   "target": null,
-   "statement": "Targeting to complete PVC and PetChem expansion projects by end of calendar year 2026.",
-   "said": {
-    "quote": "As of now, our target is to complete them by next year, next year end, calendar year end. That is the target we are running with",
-    "source": "Q2 FY26 call, 17 Oct 2025",
-    "page": 35,
-    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf"
-   },
-   "repeated_in": [
-    "Q3 FY26 call, 16 Jan 2026"
-   ],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P8",
-   "metric": "Solar PV manufacturing capacity target",
-   "period": "FY27",
-   "target": "20 other",
-   "statement": "New Energy segment is on track to achieve 20 GW annual integrated solar PV capacity.",
-   "said": {
-    "quote": "And we are on track, and I have got a few pictures to also demonstrate that, to achieve 20-gigawatt annual capacity for our solar PV manufacturing in an integrated fashion",
-    "source": "Q1 FY27 call, 17 Jul 2026",
-    "page": 20,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "pending",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P9",
+   "id": "P6",
    "metric": "Battery manufacturing capacity target",
    "period": "FY27",
    "target": "40 other",
@@ -122,22 +30,102 @@
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
-   "actual_source": null,
+   "actual_source": {
+    "quote": "On the battery side, in next half year we will commission our BESS facility, which is a pack and container up to 40-gigawatt hour",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 24,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
+   "verdict": "at_risk",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P5",
+   "metric": "Solar PV manufacturing capacity target",
+   "period": "FY27",
+   "target": "20 other",
+   "statement": "New Energy segment is on track to achieve 20 GW annual integrated solar PV capacity.",
+   "said": {
+    "quote": "And we are on track, and I have got a few pictures to also demonstrate that, to achieve 20-gigawatt annual capacity for our solar PV manufacturing in an integrated fashion",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 20,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "as indicated, I think our module capacity is now six plus gigawatt, and we will be achieving up to 20 gigawatt early next year",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 24,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P7",
+   "metric": "Annualized O2C EBITDA",
+   "period": "FY27",
+   "target": "≥ ₹80,000 crore",
+   "statement": "First-half FY27 performance tracks an annualized O2C EBITDA of well over Rs 80,000 crore.",
+   "said": {
+    "quote": "So, when you look at the first half of FY 2027 performance, it is in our minds tracking annualized EBITDA well over Rs.80,000 Crores",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 3,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "Rs.17,000 Crores and that's up 17%",
+    "source": "Q1 FY27 call, 17 Jul 2026",
+    "page": 3,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+   },
+   "verdict": "on_track",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P1",
+   "metric": "Generation capacity commissioning",
+   "period": "FY27",
+   "target": null,
+   "statement": "New energy generation capacity will start coming up over the next 12 to 15 months.",
+   "said": {
+    "quote": "Yes, during next 12 to 15 months our generation capacity will also start coming up",
+    "source": "Q3 FY26 call, 16 Jan 2026",
+    "page": 29,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": {
+    "quote": "as indicated, I think our module capacity is now six plus gigawatt, and we will be achieving up to 20 gigawatt early next year",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 24,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P3",
-   "metric": "GCP Region Data Center Capacity",
+   "id": "P8",
+   "metric": "New Energy earnings contribution",
    "period": "FY28",
-   "target": "100 MW",
-   "statement": "GCP Data Center project capacity to evolve into over 100 MW over the next two years.",
+   "target": null,
+   "statement": "Earnings contribution from the new energy segment is expected to begin in FY28.",
    "said": {
-    "quote": "Well, we have started with the first phase of the GCP project itself and that will evolve into little over 100 megawatt over the next two years",
-    "source": "Q2 FY26 call, 17 Oct 2025",
-    "page": 26,
-    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf"
+    "quote": "And on new energy, I just wanted to say that it is accelerating and we see the benefit, earnings contribution definitely starting in FY 2028",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 3,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -148,7 +136,7 @@
    "note": null
   },
   {
-   "id": "P6",
+   "id": "P3",
    "metric": "EBITDA target",
    "period": "FY29",
    "target": "2 x market growth",
@@ -168,7 +156,7 @@
    "note": null
   },
   {
-   "id": "P7",
+   "id": "P4",
    "metric": "Revenue guidance",
    "period": "FY30",
    "target": "₹100,000 crore",
@@ -188,7 +176,67 @@
    "note": null
   },
   {
-   "id": "P5",
+   "id": "P10",
+   "metric": "Solar Cell Capacity",
+   "period": "H1 FY28",
+   "target": "20 GW",
+   "statement": "Solar cell manufacturing capacity will expand to 20 GW in H1 CY2027.",
+   "said": {
+    "quote": "Similarly, solar cell is now nearing around 5-gigawatt and we will be achieving again 20-gigawatt capacity sometime first half next year",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 24,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P11",
+   "metric": "BESS Commissioning Capacity",
+   "period": "H2 FY27",
+   "target": "40 GWh",
+   "statement": "The company expects to commission its BESS pack and container facility up to 40 GWh in H2 CY2027.",
+   "said": {
+    "quote": "On the battery side, in next half year we will commission our BESS facility, which is a pack and container up to 40-gigawatt hour",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 24,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P9",
+   "metric": "Solar Module Capacity",
+   "period": "Q4 FY27",
+   "target": "20 GW",
+   "statement": "Solar module capacity will reach 20 GW early next calendar year (early 2027).",
+   "said": {
+    "quote": "as indicated, I think our module capacity is now six plus gigawatt, and we will be achieving up to 20 gigawatt early next year",
+    "source": "Q2 FY27 call, 30 Oct 2026",
+    "page": 24,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P2",
    "metric": "Solar Manufacturing commissioning",
    "period": "FY26",
    "target": "10 GW",
@@ -278,11 +326,45 @@
     "url": "https://www.screener.in/company/RELIANCE/consolidated/"
    }
   ],
-  "read": "Operating cash flow of ₹755,290 crore over FY22–FY26 comfortably covered cumulative reported net profit of ₹398,016 crore, demonstrating strong operational cash conversion."
+  "read": "Operating cash flow of ₹755,290 crore over FY22 to FY26 fully covered cumulative reported net profits of ₹398,016 crore, demonstrating strong high-quality cash conversion."
  },
  "bull": [
   {
-   "point": "Cumulative operating cash flow of ₹755,290 crore over FY22–FY26 significantly exceeded total reported profit of ₹398,016 crore.",
+   "point": "Consolidated EBITDA for Q2 FY27 grew 24% year-on-year to ₹62,409 crore, while net profit rose 34% to nearly ₹30,000 crore.",
+   "evidence": [
+    {
+     "quote": "It was an EBITDA of Rs.62,409 Crores, which is 24% up on a year-on￾year basis",
+     "source": "Q2 FY27 call, 30 Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+    },
+    {
+     "quote": "and simultaneously, the PAT also at close to Rs.30,000 Crores, up 34%",
+     "source": "Q2 FY27 call, 30 Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+    }
+   ]
+  },
+  {
+   "point": "O2C segment EBITDA expanded 69% year-on-year in Q2 FY27 to ₹25,203 crore, pushing H1 annualized run-rate above ₹80,000 crore.",
+   "evidence": [
+    {
+     "quote": "Rs.25,203 Crores in terms of O2C EBITDA. As I mentioned, 69% higher, one of the strongest that we have seen",
+     "source": "Q2 FY27 call, 30 Oct 2026",
+     "page": 4,
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+    },
+    {
+     "quote": "So, when you look at the first half of FY 2027 performance, it is in our minds tracking annualized EBITDA well over Rs.80,000 Crores",
+     "source": "Q2 FY27 call, 30 Oct 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Operating cash flow of ₹755,290 crore comfortably exceeded cumulative reported profit of ₹398,016 crore over FY22 to FY26.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹755,290 crore covered all of reported profit, ₹398,016 crore.",
@@ -291,45 +373,11 @@
      "url": "https://www.screener.in/company/RELIANCE/consolidated/"
     }
    ]
-  },
-  {
-   "point": "Jio Platforms expanded its EBITDA margin to 53.3% in Q1 FY27, up from 52.0% reported in prior quarters.",
-   "evidence": [
-    {
-     "quote": "36,000 Crores plus revenue, 45% of revenue market share in the connectivity business, 52% EBITDA margin for JPL",
-     "source": "Q2 FY26 call, 17 Oct 2025",
-     "page": 5,
-     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf"
-    },
-    {
-     "quote": "EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth, with an EBITDA margin of 53.3%",
-     "source": "Q1 FY27 call, 17 Jul 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Reliance Retail FMCG quarterly revenue doubled year-on-year to ₹8,600 crore in Q1 FY27, expanding rapidly from full-year FY26 revenue of ₹22,000 crore.",
-   "evidence": [
-    {
-     "quote": "From an FMCG business perspective, we closed our revenue of Rs.22,000 Crores in 2026",
-     "source": "Q4 FY26 call, 24 Apr 2026",
-     "page": 9,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf"
-    },
-    {
-     "quote": "This quarter, we delivered Rs. 8,600 Crores revenue on FMCG. This was double the growth as compared to last year",
-     "source": "Q1 FY27 call, 17 Jul 2026",
-     "page": 10,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
-    }
-   ]
   }
  ],
  "bear": [
   {
-   "point": "Legal proceedings include a $1.87 billion demand notice from the Government of India for alleged gas migration, currently pending before the Supreme Court.",
+   "point": "Government of India issued a demand letter for 1.87 billion dollars RIL share following Delhi High Court setting aside the Gas Migration Arbitration Award.",
    "evidence": [
     {
      "quote": "A demand letter dated 1st March 2025 for payment of $ 2.81 billion (RIL share $ 1.87 billion) was sent by GoI to the Contractor",
@@ -340,7 +388,7 @@
    ]
   },
   {
-   "point": "Ongoing disputes with the Government of India include cost disallowances under the Production Sharing Contract for Block KG-DWN-98/3.",
+   "point": "Disallowance of certain costs under the Production Sharing Contract for Block KG-DWN-98/3 remains an active key legal dispute.",
    "evidence": [
     {
      "quote": "Disallowance of certain costs under the Production Sharing Contract (PSC), relating to Block KG‑DWN-98/3 and consequent deposit of differential revenue on gas sales from D1D3 field",
@@ -351,21 +399,33 @@
    ]
   },
   {
-   "point": "Reliance on complex IT systems for processing high transaction volumes across revenue and raw materials was designated a key audit matter.",
+   "point": "Battery manufacturing commissioning timeline was pushed back to H2 CY2027 from earlier expectations of completion within the current year.",
    "evidence": [
     {
-     "quote": "We identified IT systems and controls over financial reporting as a key audit matter for the Company because its financial accounting and reporting systems are fundamentally reliant on IT systems",
-     "source": "Annual report 2026",
-     "page": 92,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
+     "quote": "We will achieve 40-gigawatt hour capacity this year and we have announced the scale￾up through our AGM up to 120-gigawatt hour capacity",
+     "source": "Q1 FY27 call, 17 Jul 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    },
+    {
+     "quote": "On the battery side, in next half year we will commission our BESS facility, which is a pack and container up to 40-gigawatt hour",
+     "source": "Q2 FY27 call, 30 Oct 2026",
+     "page": 24,
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
     }
    ]
   }
  ],
  "notes": [
-  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+  "Transcripts for 2026-11 taken from NSE; screener.in had not listed them."
  ],
  "documents": [
+  {
+   "label": "Q2 FY27 call, 30 Oct 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf",
+   "pages": 29
+  },
   {
    "label": "Q1 FY27 call, 17 Jul 2026",
    "kind": "transcript",
@@ -385,12 +445,6 @@
    "pages": 38
   },
   {
-   "label": "Q2 FY26 call, 17 Oct 2025",
-   "kind": "transcript",
-   "url": "https://nsearchives.nseindia.com/corporate/kavinavora_19102025225511_SE__Transcripts.pdf",
-   "pages": 37
-  },
-  {
    "label": "Annual report 2026",
    "kind": "annual_report",
    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
@@ -399,18 +453,20 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 66,
-  "quotes_verified": 66,
+  "claims_found": 65,
+  "quotes_verified": 65,
   "quotes_dropped": 0,
   "graded_by_code": 0,
-  "graded_by_model": 0,
+  "graded_by_model": 3,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 3,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 73.5
+  "seconds": 48.4
  },
- "changes": [],
+ "changes": [
+  "Now reads the Q2 FY27 call, 30 Oct 2026: 5 promises from it."
+ ],
  "pending": null
 }
