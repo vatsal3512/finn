@@ -28,8 +28,12 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 113.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": -0.433,
+    "vol_ratio": 2.116
+   },
+   "score": 123.0,
    "group_id": "SUNPHARMA:litigation:2026-11-02",
    "group_lead": true,
    "duplicate_of": null
@@ -54,8 +58,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.598,
+    "vol_ratio": 5.829
+   },
+   "score": 25.0,
    "group_id": "RELIANCE:results:2026-11-01",
    "group_lead": true,
    "duplicate_of": null
@@ -87,7 +95,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 2.413,
+    "vol_ratio": 0.842
+   },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-11-01",
    "group_lead": false,
@@ -120,7 +132,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 2.413,
+    "vol_ratio": 0.842
+   },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-11-01",
    "group_lead": true,
@@ -170,7 +186,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 1.039,
+    "vol_ratio": 0.696
+   },
    "score": 46.0,
    "group_id": "HDFCBANK:management_change:2026-10-31",
    "group_lead": true,
@@ -203,8 +223,12 @@
     "postal_ballot"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": -0.433,
+    "vol_ratio": 2.116
+   },
+   "score": 10.0,
    "group_id": "SUNPHARMA:postal_ballot:2026-10-31",
    "group_lead": true,
    "duplicate_of": null
@@ -229,8 +253,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.991,
+    "vol_ratio": 5.95
+   },
+   "score": 25.0,
    "group_id": "DIXON:unclassified:2026-10-31",
    "group_lead": true,
    "duplicate_of": null
@@ -255,8 +283,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.598,
+    "vol_ratio": 5.829
+   },
+   "score": 25.0,
    "group_id": "RELIANCE:results:2026-10-31",
    "group_lead": true,
    "duplicate_of": null
@@ -281,8 +313,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": -0.433,
+    "vol_ratio": 2.116
+   },
+   "score": 10.0,
    "group_id": "SUNPHARMA:unclassified:2026-10-31",
    "group_lead": true,
    "duplicate_of": null
@@ -314,7 +350,11 @@
     "M&A"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 0.715,
+    "vol_ratio": 0.25
+   },
    "score": 112.0,
    "group_id": "NAZARA:M&A:2026-10-30",
    "group_lead": true,
@@ -347,7 +387,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 0.821,
+    "vol_ratio": 0.762
+   },
    "score": 53.0,
    "group_id": "BHARTIARTL:litigation:2026-10-30",
    "group_lead": true,
@@ -373,8 +417,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.991,
+    "vol_ratio": 5.95
+   },
+   "score": 25.0,
    "group_id": "DIXON:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": null
@@ -399,8 +447,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": -0.433,
+    "vol_ratio": 2.116
+   },
+   "score": 10.0,
    "group_id": "SUNPHARMA:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": null
@@ -433,8 +485,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.598,
+    "vol_ratio": 5.829
+   },
+   "score": 85.0,
    "group_id": "RELIANCE:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": null
@@ -467,8 +523,12 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.598,
+    "vol_ratio": 5.829
+   },
+   "score": 85.0,
    "group_id": "RELIANCE:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": null
@@ -501,8 +561,12 @@
     "fund_raise"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.598,
+    "vol_ratio": 5.829
+   },
+   "score": 145.0,
    "group_id": "RELIANCE:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": "nse:106837394"
@@ -598,8 +662,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.598,
+    "vol_ratio": 5.829
+   },
+   "score": 145.0,
    "group_id": "RELIANCE:results:2026-10-30",
    "group_lead": true,
    "duplicate_of": null
@@ -624,7 +692,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 0.961,
+    "vol_ratio": 0.573
+   },
    "score": 0.0,
    "group_id": "PAYTM:results:2026-10-30",
    "group_lead": true,
@@ -650,7 +722,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 0.715,
+    "vol_ratio": 0.25
+   },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-10-30",
    "group_lead": true,
@@ -684,8 +760,12 @@
     "management_change"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.991,
+    "vol_ratio": 5.95
+   },
+   "score": 145.0,
    "group_id": "DIXON:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": "nse:106836523"
@@ -718,8 +798,12 @@
     "management_change"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.991,
+    "vol_ratio": 5.95
+   },
+   "score": 145.0,
    "group_id": "DIXON:results:2026-10-30",
    "group_lead": false,
    "duplicate_of": "nse:106836523"
@@ -833,8 +917,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-11-02",
+    "ret_pct": 11.991,
+    "vol_ratio": 5.95
+   },
+   "score": 145.0,
    "group_id": "DIXON:results:2026-10-30",
    "group_lead": true,
    "duplicate_of": null

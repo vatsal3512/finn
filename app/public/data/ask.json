@@ -32,6 +32,58 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:09+00:00"
   },
+  "nse:106837394": {
+   "symbol": "RELIANCE",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": false,
+   "answer": "Management did not provide specific consolidated revenue or margin target numbers for Q2 FY27 on recent calls. In July 2026, Retail management explicitly noted they had \"not put any margin target,\" aiming instead to double absolute EBITDA over three years. In October 2026, management noted H1 O2C performance was tracking an annualized EBITDA well over ₹80,000 crore.",
+   "evidence": [
+    {
+     "quote": "As far as our absolute EBITDA is going up, we are happy and that is why if you look at it, we have not put any margin target",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 23,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    },
+    {
+     "quote": "So, when you look at the first half of FY 2027 performance, it is in our minds tracking annualized EBITDA well over Rs.80,000 Crores and I think this is something, it just tells you how the markets are",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Jul 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-02T10:53:48+00:00"
+  },
+  "nse:106836523": {
+   "symbol": "DIXON",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In the August 2026 Q1 call, management expected 20% to 25% quarter-on-quarter smartphone volume growth in Q2 and noted percentage margins look optically lower as higher input costs pass through into selling prices. The Q2 results matched these trends, showing strong top-line revenue growth of 46.7% YoY to ₹21,793.6 crore alongside margin compression to 2.7%.",
+   "evidence": [
+    {
+     "quote": "So quarter 2 against quarter 1, we are expecting a 20%, 25% kind of a growth",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "quote": "As increased input costs were passed through increase in selling prices, percentage margins look optically lower, mostly in mobile and IT hardware business",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, May 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-02T10:53:53+00:00"
+  },
   "nse:106823051": {
    "symbol": "EMUDHRA",
    "question": "What has management said about this on its recent calls?",
@@ -289,63 +341,6 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:11+00:00"
-  },
-  "nse:106836183": {
-   "symbol": "OLAELEC",
-   "question": "What has management said about raising money: how much, why, and what it is for?",
-   "addressed": true,
-   "answer": "In August 2026 (Q1 FY27), management stated it successfully completed a ₹780 crore QIP to strengthen the balance sheet and gain financial flexibility for growth. Additionally, to expand Cell capacity from 6 GWh to 20 GWh in FY27, management plans to raise separate equity directly in the Cell subsidiary rather than using parent entity equity.",
-   "evidence": [
-    {
-     "quote": "The balance sheet strengthened during the quarter through the successful completion of a ₹780 crore QIP, giving us greater financial flexibility as we pursue the next phase of our growth",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
-    },
-    {
-     "quote": "At that point, we will aim to scale from 6 GWh to 20 GWh, but only by bringing equity into the Cell company. We will not use equity from the parent entity for that expansion; we will raise separate equity at the right time",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 9,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
-    }
-   ],
-   "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:21+00:00"
-  },
-  "nse:106830187": {
-   "symbol": "MARUTI",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": false,
-   "answer": "In the Q4 FY26 call, management did not provide specific revenue or margin targets for Q2 FY27. They declined to give explicit margin guidance due to dynamic cost headwinds and geopolitical uncertainties, but stated they expect Maruti Suzuki's overall sales volume to grow by over 10% in FY27 and return to a healthy margin trajectory once disruptions ease.",
-   "evidence": [
-    {
-     "quote": "The broad expectation, which our Chairman also conveyed, is growth of over 10% this year as compared to the last year",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 8,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    },
-    {
-     "quote": "So it's always difficult to give out a guidance on margins",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 11,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    },
-    {
-     "quote": "So we are very confident and optimistic that subject to these headwinds of the war, the commodities and the energy prices, after that is over, we'll come back to a healthy trajectory",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 11,
-     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
-    }
-   ],
-   "calls": [
-    "Q4 FY26 call, Apr 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-01T00:10:36+00:00"
   }
  }
 }
