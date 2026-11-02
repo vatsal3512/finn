@@ -1,6 +1,40 @@
 {
  "filings": [
   {
+   "id": "nse:106839459",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-02T14:18:39+05:30",
+   "exchange_label": "News Verification",
+   "headline": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited.",
+   "category": "press_release",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "clarification",
+   "needs_ai": false,
+   "text_quality": "no_text",
+   "attachment_url": null,
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "Exchange seeks clarification on eye-care drug production halt news",
+    "summary": "The exchange sought clarification regarding a news item that India ordered the company to halt eye-care drug production at a plant.",
+    "why_it_matters": "A halt in production at a plant could materially impact the company, whose annual revenue is about ₹61,632 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "litigation",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 113.0,
+   "group_id": "SUNPHARMA:litigation:2026-11-02",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106838897",
    "symbol": "RELIANCE",
    "exchange": "NSE",
