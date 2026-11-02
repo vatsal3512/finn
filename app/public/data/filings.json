@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106840155",
+   "symbol": "MAZDOCK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-02T18:00:41+05:30",
+   "exchange_label": "Rumour Verification - Regulation 30(11)",
+   "headline": "Mazagon Dock Shipbuilders Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "clarification",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/MAZDOCK_02112026175922_SE_Discl_Rumour_clarification.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MAZDOCK",
+   "insight": {
+    "title": "Clarification on media report regarding shipbuilding hubs",
+    "summary": "The company clarified that a news report about scouting partners for proposed shipbuilding hubs reflects its plans for Greenfield clusters.",
+    "why_it_matters": "The proposed Greenfield Shipbuilding Industrial Clusters at Dighi and Dugarajapatnam are under evaluation with partnerships and financing being explored.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "MAZDOCK:press_release:2026-11-02",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106839459",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
