@@ -3,9 +3,9 @@
  "symbol": "MARUTI",
  "name": "Maruti Suzuki",
  "basis": "consolidated",
- "generated_at": "2026-10-29T11:45:06+00:00",
+ "generated_at": "2026-11-02T16:03:05+00:00",
  "snapshot": {
-  "about": null,
+  "about": "Passenger vehicle manufacturing",
   "latest_quarter": "Q2 FY27",
   "revenue": 53356.0,
   "revenue_yoy": 26.0,
@@ -13,16 +13,16 @@
   "net_profit_yoy": -26.4,
   "ebitda_margin": 9.0
  },
- "narrative": "Management targeted over 10% sales volume growth and ₹14,000 crore capex for FY27. In Q2 FY27, revenue expanded 26.0% year-on-year to ₹53,356 crore, but net profit dropped 26.4% to ₹2,466 crore with an EBITDA margin of 9.0%.",
+ "narrative": "Revenue grew 26.0% YoY to ₹53,356 crore in Q2 FY27, matching operational growth expectations. However, net profit fell 26.4% YoY to ₹2,466 crore with EBITDA margin at 9.0%, contrasting with full-year FY26 record net profit of over ₹144.4 billion.",
  "promises": [
   {
-   "id": "P1",
-   "metric": "Annual production capacity addition",
-   "period": "FY27",
-   "target": "500,000 units",
-   "statement": "The company expects to add 500,000 units of annual production capacity in FY27.",
+   "id": "P2",
+   "metric": "Production capacity",
+   "period": null,
+   "target": "4,000,000 units",
+   "statement": "The company plans to increase production capacity to 4 million units per annum in the medium term.",
    "said": {
-    "quote": "The second plant at the Kharkhoda facility and the fourth production line at the Hansalpur facility in Gujarat is set to become operational within this financial year. Each of these new units will add an annual production capacity of 250,000 vehicles",
+    "quote": "Besides, the company has put plans in place to increase the production capacity to 4 million units per annum in the medium term",
     "source": "Q4 FY26 call, 28 Apr 2026",
     "page": 4,
     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
@@ -36,11 +36,31 @@
    "note": null
   },
   {
-   "id": "P2",
-   "metric": "Maruti Suzuki volume growth",
+   "id": "P1",
+   "metric": "Annual capacity addition",
+   "period": "FY27",
+   "target": "500,000 units",
+   "statement": "Maruti Suzuki will operationalize two new units adding 500,000 vehicles in annual capacity in FY27.",
+   "said": {
+    "quote": "Each of these new units will add an annual production capacity of 250,000 vehicles",
+    "source": "Q4 FY26 call, 28 Apr 2026",
+    "page": 4,
+    "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Volume growth guidance",
    "period": "FY27",
    "target": "≥ 10%",
-   "statement": "Expects sales volume growth of over 10% in FY27.",
+   "statement": "Maruti Suzuki expects volume growth of over 10% in FY27.",
    "said": {
     "quote": "The broad expectation, which our Chairman also conveyed, is growth of over 10% this year as compared to the last year",
     "source": "Q4 FY26 call, 28 Apr 2026",
@@ -56,11 +76,11 @@
    "note": null
   },
   {
-   "id": "P3",
-   "metric": "Capex plan",
+   "id": "P4",
+   "metric": "Annual capex guidance",
    "period": "FY27",
    "target": "₹14,000 crore",
-   "statement": "Targeting INR 14,000 crores capex for FY27.",
+   "statement": "Maruti Suzuki targets INR 14,000 crores capex for full year FY27.",
    "said": {
     "quote": "Overall, on the capex for FY 26-27, we are looking at a INR14,000 crores capex for the full year",
     "source": "Q4 FY26 call, 28 Apr 2026",
@@ -141,11 +161,11 @@
     "url": "https://www.screener.in/company/MARUTI/consolidated/"
    }
   ],
-  "read": "Operating cash flow of ₹64,736 crore comfortably exceeded reported net profit of ₹54,812 crore over FY22–FY26, indicating strong profit-to-cash conversion."
+  "read": "Profits convert solidly into cash, with operating cash flow of ₹64,736 crore exceeding total reported profit of ₹54,812 crore over FY22–FY26."
  },
  "bull": [
   {
-   "point": "Operating cash flow totaled ₹64,736 crore over FY22–FY26, fully backing cumulative net profit of ₹54,812 crore.",
+   "point": "Operating cash flow reached ₹64,736 crore over FY22–FY26, fully backing cumulative reported profit of ₹54,812 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹64,736 crore covered all of reported profit, ₹54,812 crore.",
@@ -156,18 +176,29 @@
    ]
   },
   {
-   "point": "Annual vehicle sales reached a historic peak of 2.42 million units in FY26, driven by record exports of 447,000 units.",
+   "point": "Net sales grew 20.2% year-on-year in FY26 to over ₹1.74 trillion, delivering an all-time high net profit of ₹144.4 billion.",
    "evidence": [
     {
-     "quote": "First, the company recorded its highest ever annual sales of 2.42 million vehicles",
+     "quote": "The company registered record net sales of over INR1.74 trillion in financial year '25-26, a growth of 20.2% over the previous year",
      "source": "Q4 FY26 call, 28 Apr 2026",
-     "page": 4,
+     "page": 6,
      "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
     },
     {
-     "quote": "which includes the highest ever export of 447,000 vehicles",
+     "quote": "The company achieved its all-time high net profit of over INR144.4 billion in financial year '25-26 compared to net profit of about INR142.9 billion in the previous year",
      "source": "Q4 FY26 call, 28 Apr 2026",
-     "page": 4,
+     "page": 6,
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Domestic sales volume expanded by 12.3% year-on-year in H2 FY26, reversing a 5.6% decline in H1 FY26.",
+   "evidence": [
+    {
+     "quote": "While our domestic sales declined by 5.6% in the first half of the fiscal year, the sales volume grew by 12.3% in the second half of the year",
+     "source": "Q4 FY26 call, 28 Apr 2026",
+     "page": 2,
      "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
     }
    ]
@@ -175,21 +206,38 @@
  ],
  "bear": [
   {
-   "point": "Extended Producer Responsibility obligations carry estimation uncertainty as highlighted in the auditor's emphasis of matter.",
+   "point": "Extended Producer Responsibility obligations under 2025 rules could not be reliably estimated or accounted for in financial statements.",
    "evidence": [
     {
-     "quote": "inability of the Company to reliably estimate and account for in the books its obligations under Extended Producer Responsibility (‘EPR",
+     "quote": "which describes the inability of the Company to reliably estimate and account for in the books its obligations under Extended Producer Responsibility (‘EPR",
      "source": "Annual report 2026",
      "page": 187,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Factory land in IMT Kharkhoda with gross carrying value of ₹21,312 million remains registered under Government of Haryana.",
+   "evidence": [
+    {
+     "quote": "The Company has been allotted the land through Regular Letter of Allotment (RLA) and is in possession and is an occupant of this land",
+     "source": "Annual report 2026",
+     "page": 191,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf"
     }
    ]
   }
  ],
  "notes": [
-  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+  "Transcripts for 2026-02, 2026-08, 2026-11 taken from NSE; screener.in had not listed them."
  ],
  "documents": [
+  {
+   "label": "Q2 FY27 call, 27 Oct 2026",
+   "kind": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_02112026210459_Transcript_27Oct026.pdf",
+   "pages": 1
+  },
   {
    "label": "Q1 FY27 call, 31 Jul 2026",
    "kind": "transcript",
@@ -209,12 +257,6 @@
    "pages": 1
   },
   {
-   "label": "Q2 FY26 call, 31 Oct 2025",
-   "kind": "transcript",
-   "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_03112025215634_STxIntimation_Transcript31Oct2025.pdf",
-   "pages": 1
-  },
-  {
    "label": "Annual report 2026",
    "kind": "annual_report",
    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf",
@@ -223,20 +265,20 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 14,
-  "quotes_verified": 14,
+  "claims_found": 16,
+  "quotes_verified": 16,
   "quotes_dropped": 0,
   "graded_by_code": 0,
   "graded_by_model": 0,
   "ai_calls": 5,
-  "cached_calls": 5,
+  "cached_calls": 0,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 0.4
+  "seconds": 411.9
  },
  "changes": [
-  "Now reads 3 more calls, the newest the Q1 FY27 call, 31 Jul 2026."
+  "Now reads the Q2 FY27 call, 27 Oct 2026."
  ],
  "pending": null
 }
