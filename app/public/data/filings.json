@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106843083",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-03T22:33:13+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company ).",
+   "category": "fund_raise",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "Second Reminder Notice for Final Call Payment",
+    "summary": "Bharti Airtel issued a second reminder notice for the payment of First and Final Call of INR 401.25 per share on 649,835 partly paid-up equity shares.",
+    "why_it_matters": "This is a routine procedural follow-up to collect unpaid call money on a tiny fraction of shares relative to annual revenue.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 10.0,
+   "group_id": "BHARTIARTL:fund_raise:2026-11-03",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106842474",
    "symbol": "ASIANPAINT",
    "exchange": "NSE",
