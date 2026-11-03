@@ -861,7 +861,7 @@
    "last_date": "2026-11-02",
    "close": 1300.0,
    "ret_pct": 11.598,
-   "vol_ratio": 5.829,
+   "vol_ratio": 5.834,
    "series": [
     {
      "date": "2026-05-12",
@@ -1700,7 +1700,7 @@
      "date": "2026-11-02",
      "close": 1300.0,
      "ret_pct": 11.598,
-     "vol_ratio": 5.829,
+     "vol_ratio": 5.834,
      "corp_action": null
     }
    ],
@@ -1714,7 +1714,7 @@
    "last_date": "2026-11-02",
    "close": 1989.9000244140625,
    "ret_pct": 0.821,
-   "vol_ratio": 0.762,
+   "vol_ratio": 0.763,
    "series": [
     {
      "date": "2026-05-12",
@@ -2553,7 +2553,7 @@
      "date": "2026-11-02",
      "close": 1989.9000244140625,
      "ret_pct": 0.821,
-     "vol_ratio": 0.762,
+     "vol_ratio": 0.763,
      "corp_action": null
     }
    ],
@@ -8538,7 +8538,7 @@
    "last_date": "2026-11-02",
    "close": 12319.0,
    "ret_pct": 11.991,
-   "vol_ratio": 5.95,
+   "vol_ratio": 5.952,
    "series": [
     {
      "date": "2026-05-12",
@@ -9377,7 +9377,7 @@
      "date": "2026-11-02",
      "close": 12319.0,
      "ret_pct": 11.991,
-     "vol_ratio": 5.95,
+     "vol_ratio": 5.952,
      "corp_action": null
     }
    ],

@@ -250,7 +250,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.598,
-    "vol_ratio": 5.829
+    "vol_ratio": 5.834
    },
    "score": 25.0,
    "group_id": "RELIANCE:results:2026-11-01",
@@ -445,7 +445,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.991,
-    "vol_ratio": 5.95
+    "vol_ratio": 5.952
    },
    "score": 25.0,
    "group_id": "DIXON:unclassified:2026-10-31",
@@ -475,7 +475,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.598,
-    "vol_ratio": 5.829
+    "vol_ratio": 5.834
    },
    "score": 25.0,
    "group_id": "RELIANCE:results:2026-10-31",
@@ -579,7 +579,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 0.821,
-    "vol_ratio": 0.762
+    "vol_ratio": 0.763
    },
    "score": 53.0,
    "group_id": "BHARTIARTL:litigation:2026-10-30",
@@ -609,7 +609,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.991,
-    "vol_ratio": 5.95
+    "vol_ratio": 5.952
    },
    "score": 25.0,
    "group_id": "DIXON:results:2026-10-30",
@@ -677,7 +677,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.598,
-    "vol_ratio": 5.829
+    "vol_ratio": 5.834
    },
    "score": 85.0,
    "group_id": "RELIANCE:results:2026-10-30",
@@ -715,7 +715,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.598,
-    "vol_ratio": 5.829
+    "vol_ratio": 5.834
    },
    "score": 85.0,
    "group_id": "RELIANCE:results:2026-10-30",
@@ -753,7 +753,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.598,
-    "vol_ratio": 5.829
+    "vol_ratio": 5.834
    },
    "score": 145.0,
    "group_id": "RELIANCE:results:2026-10-30",
@@ -854,7 +854,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.598,
-    "vol_ratio": 5.829
+    "vol_ratio": 5.834
    },
    "score": 145.0,
    "group_id": "RELIANCE:results:2026-10-30",
@@ -952,7 +952,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.991,
-    "vol_ratio": 5.95
+    "vol_ratio": 5.952
    },
    "score": 145.0,
    "group_id": "DIXON:results:2026-10-30",
@@ -990,7 +990,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.991,
-    "vol_ratio": 5.95
+    "vol_ratio": 5.952
    },
    "score": 145.0,
    "group_id": "DIXON:results:2026-10-30",
@@ -1109,7 +1109,7 @@
    "price_reaction": {
     "session": "2026-11-02",
     "ret_pct": 11.991,
-    "vol_ratio": 5.95
+    "vol_ratio": 5.952
    },
    "score": 145.0,
    "group_id": "DIXON:results:2026-10-30",
