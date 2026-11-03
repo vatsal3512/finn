@@ -192,27 +192,33 @@
    "symbol": "ASIANPAINT",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026 (Q1 FY27 call), management maintained guidance for full-year volume growth at 8% to 10% and PBDIT margins at 18% to 20%. The reported Q2 FY27 EBITDA margin of 15.6% missed this margin guidance range, although revenue grew 16.9% YoY to ₹9,976.5 crore.",
+   "answer": "In July 2026 (Q1 FY27 call), management guided for an 8–10% full-year volume growth band and maintained an 18–20% PBDIT margin guidance for FY27, noting Q2 is traditionally a lower-margin quarter due to product mix. The Q2 results saw standalone volume grow 6.4% and consolidated EBITDA margin drop to 15.6%, though H1 EBITDA margin remained within the 18–20% band.",
    "evidence": [
     {
-     "quote": "At the current stage, we are looking at the band of 8-10% for the full FY27",
+     "quote": "What we have seen is that quarter two has traditionally been a lower margin because of the mix of what we sell in quarter two overall. Given the fact that, we are taking a very strong drive in terms of premiumization, of how we want to go ahead from an overall mix. We are still garnering around the guidance of 18-20% of our PBDIT margins holds",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 20,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
     },
     {
-     "quote": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds",
+     "quote": "As we go ahead, possibly some of those indications will also look at whether price changes would happen in the second half, which could trigger demand even further. At the current stage, we are looking at the band of 8-10% for the full FY27",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 20,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    },
+    {
+     "quote": "The great thing to look at is that the PBDIT margin growth at a half-year level is very good and the PBDIT margin is in the higher range of the overall band of what we have been speaking at 19.6%",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 22,
+     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, Jun 2026"
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:10+00:00"
+   "asked_at": "2026-11-03T13:37:06+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
@@ -313,34 +319,15 @@
   "nse:106810133": {
    "symbol": "ADANIENT",
    "question": "What has management said about debt, leverage and its credit profile?",
-   "addressed": true,
-   "answer": "In February 2026, management reported gross long-term debt of ~INR 78,000 crores and total external debt of ~INR 62,000 crores. In April 2026, CFO Robbie Singh stated overall leverage stood at 3.9x and is expected to remain flat or decrease slightly, guiding core infrastructure leverage to a 3.5x to 4.5x range while maintaining conservative mining leverage.",
-   "evidence": [
-    {
-     "quote": "the 3.9x is likely to remain either flat or slightly down",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 10,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
-    },
-    {
-     "quote": "we guide to that in the core infra while we are growing, we will be closer to the 3.5 to 4.5 range.",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 9,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q4-FY26-AEL_Earnings-Call_Transcript.pdf"
-    },
-    {
-     "quote": "So the external debt of that would be ~INR 62,000 crores",
-     "source": "Q3 FY26 call, Feb 2026",
-     "page": 7,
-     "url": "https://www.adanienterprises.com/-/media/Project/Enterprises/Investors/Investor-Downloads/Results-Conference-Call-Transcripts/Q3-FY26-AEL_Earnings-Call_Transcript.pdf"
-    }
-   ],
+   "addressed": false,
+   "answer": "Management did not discuss this on its last two calls.",
+   "evidence": [],
    "calls": [
-    "Q4 FY26 call, Apr 2026",
-    "Q3 FY26 call, Feb 2026"
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:11+00:00"
+   "asked_at": "2026-11-03T13:37:11+00:00"
   }
  }
 }
