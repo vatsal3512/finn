@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106842234",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-11-03T17:30:12+05:30",
+   "exchange_label": "Updates",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Change in Corporate Office Address of RTA with effect from 01st December 2026'.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_03112026172946_Regulation30DisclosureRTAAddress.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Registrar and Share Transfer Agent shifts corporate office address",
+    "summary": "The company's registrar and share transfer agent is shifting its corporate office address effective 1st December, 2026.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "DIXON:unclassified:2026-11-03",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106841885",
    "symbol": "POLYCAB",
    "exchange": "NSE",

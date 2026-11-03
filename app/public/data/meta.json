@@ -1,16 +1,16 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-03T11:36:04+00:00",
+ "generated_at": "2026-11-03T12:06:21+00:00",
  "latest_session": "2026-11-03",
  "filings_window_days": 30,
  "counts": {
   "holdings": 18,
-  "filings": 265,
-  "events": 182,
+  "filings": 266,
+  "events": 183,
   "duplicates": 27,
   "must_see": 44,
   "glance": 34,
-  "routine": 104,
+  "routine": 105,
   "unsorted": 0
  },
  "alert_defaults": {
@@ -19,17 +19,17 @@
   "volume_baseline_sessions": 20
  },
  "ai": {
-  "calls": 301,
-  "input_tokens": 3634204,
-  "output_tokens": 266434,
+  "calls": 302,
+  "input_tokens": 3635583,
+  "output_tokens": 266556,
   "by_model": {
    "gemini-3.5-flash": 28,
-   "gemini-3.5-flash-lite": 133,
+   "gemini-3.5-flash-lite": 134,
    "gemini-3.6-flash": 118,
    "gemini-3.8-flash": 6,
    "openai/gpt-oss-120b": 16
   },
-  "cached_answers": 219
+  "cached_answers": 220
  },
  "sources": [
   "Prices: Yahoo Finance end-of-day, adjusted for splits and dividends",
