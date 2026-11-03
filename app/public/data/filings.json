@@ -10508,36 +10508,6 @@
    "group_id": "OLAELEC:fund_raise:2026-10-04",
    "group_lead": true,
    "duplicate_of": null
-  },
-  {
-   "id": "nse:106806152",
-   "symbol": "PAYTM",
-   "exchange": "NSE",
-   "filed_at": "2026-10-03T09:08:54+05:30",
-   "exchange_label": "ESOP/ESOS/ESPS",
-   "headline": "One 97 Communications Limited has informed the Exchange regarding Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Allotment of 4,99,877 equity shares pursuant to exercise of stock options under One 97 Employees Stock Option Scheme 2019",
-   "category": "unclassified",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "employee_stock",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_03102026090839_SEDisclosureNRCOctallotmentsd.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
-   "insight": null,
-   "events": [
-    "unclassified"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-05",
-    "ret_pct": 1.691,
-    "vol_ratio": 0.52
-   },
-   "score": 0.0,
-   "group_id": "PAYTM:unclassified:2026-10-03",
-   "group_lead": true,
-   "duplicate_of": null
   }
  ]
 }
