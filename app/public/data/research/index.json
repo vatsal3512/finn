@@ -12,11 +12,11 @@
   {
    "symbol": "ASIANPAINT",
    "name": "Asian Paints",
-   "generated_at": "2026-10-30T08:44:25+00:00",
-   "promises": 7,
+   "generated_at": "2026-11-03T15:38:46+00:00",
+   "promises": 8,
    "missed": 0,
-   "kept": 4,
-   "pending": 2
+   "kept": 3,
+   "pending": 5
   },
   {
    "symbol": "BHARTIARTL",
