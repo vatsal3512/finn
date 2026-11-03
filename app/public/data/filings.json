@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106841885",
+   "symbol": "POLYCAB",
+   "exchange": "NSE",
+   "filed_at": "2026-11-03T16:01:15+05:30",
+   "exchange_label": "ESOP/ESOS/ESPS",
+   "headline": "Polycab India Limited has informed the Exchange regarding Allotment of 3403 Shares.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "employee_stock",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_03112026160106_IntimationtoStockexchange.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "POLYCAB:unclassified:2026-11-03",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106841276",
    "symbol": "DIXON",
    "exchange": "NSE",
@@ -20,7 +46,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-03",
+    "ret_pct": -0.398,
+    "vol_ratio": 1.542
+   },
    "score": 0.0,
    "group_id": "DIXON:results:2026-11-03",
    "group_lead": true,
@@ -53,7 +83,11 @@
     "fund_raise"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-03",
+    "ret_pct": -1.2,
+    "vol_ratio": 0.628
+   },
    "score": 110.0,
    "group_id": "OLAELEC:fund_raise:2026-11-02",
    "group_lead": true,
@@ -79,7 +113,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-03",
+    "ret_pct": 1.688,
+    "vol_ratio": 0.777
+   },
    "score": 0.0,
    "group_id": "MARUTI:results:2026-11-02",
    "group_lead": true,
@@ -176,7 +214,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-03",
+    "ret_pct": -0.006,
+    "vol_ratio": 1.565
+   },
    "score": 60.0,
    "group_id": "SUNPHARMA:results:2026-11-02",
    "group_lead": true,
@@ -209,8 +251,12 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 40.0,
+   "price_reaction": {
+    "session": "2026-11-03",
+    "ret_pct": 3.09,
+    "vol_ratio": 2.205
+   },
+   "score": 50.0,
    "group_id": "MAZDOCK:press_release:2026-11-02",
    "group_lead": true,
    "duplicate_of": null
