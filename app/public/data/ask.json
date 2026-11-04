@@ -174,6 +174,32 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:10+00:00"
   },
+  "nse:106836275": {
+   "symbol": "SUNPHARMA",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In the August 2026 (Q1 FY27) and November 2026 (Q2 FY27) calls, management maintained full-year FY27 guidance of high single-digit top-line revenue growth, without providing specific numerical margin targets. The reported Q2 FY27 revenue growth of 11.9% YoY (₹16,198.7 crore) exceeded this full-year top-line expectation.",
+   "evidence": [
+    {
+     "quote": "Think we should stick on to the high single-digit growth for the full year",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 10,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    },
+    {
+     "quote": "Regarding the guidance, I think we'll stick to what guidance we have given at the beginning of the year",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe431adc-0e1a-48ee-9c2b-b6e39cba04e4.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.5-flash",
+   "asked_at": "2026-11-04T16:29:19+00:00"
+  },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
