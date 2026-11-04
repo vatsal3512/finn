@@ -1,6 +1,103 @@
 {
  "filings": [
   {
+   "id": "nse:106843482",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-04T10:04:11+05:30",
+   "exchange_label": "News Verification",
+   "headline": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is attached.",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "clarification",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "Clarification on Assam Facility News Report",
+    "summary": "Sun Pharma clarified that news reports regarding production halts at its Assam facility stem from August 2026 developments.",
+    "why_it_matters": "The company stated the August 2026 event was not deemed material for disclosure under Regulation 30 and coincided with Q2 FY27 results released October 30.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "press_release"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "SUNPHARMA",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 16198.7,
+       "previous_quarter": 15299.9,
+       "year_ago": 14478.3,
+       "qoq_pct": 5.9,
+       "yoy_pct": 11.9
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 4743.9,
+       "previous_quarter": 4417.7,
+       "year_ago": 4527.0,
+       "qoq_pct": 7.4,
+       "yoy_pct": 4.8
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 3159.4,
+       "previous_quarter": 4098.8,
+       "year_ago": 4167.6,
+       "qoq_pct": -22.9,
+       "yoy_pct": -24.2
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 1995.1,
+       "previous_quarter": 2901.2,
+       "year_ago": 3124.9,
+       "qoq_pct": -31.2,
+       "yoy_pct": -36.2
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      29.3,
+      28.9,
+      31.3
+     ],
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": -6.5,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "SUNPHARMA:results:2026-11-04",
+   "group_lead": true,
+   "duplicate_of": "nse:106840669"
+  },
+  {
    "id": "nse:106843083",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
