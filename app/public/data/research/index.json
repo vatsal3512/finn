@@ -84,11 +84,11 @@
   {
    "symbol": "INDIGO",
    "name": "IndiGo",
-   "generated_at": "2026-10-29T07:45:25+00:00",
-   "promises": 13,
-   "missed": 2,
-   "kept": 3,
-   "pending": 4
+   "generated_at": "2026-11-04T15:31:24+00:00",
+   "promises": 18,
+   "missed": 3,
+   "kept": 1,
+   "pending": 8
   },
   {
    "symbol": "INDUSINDBK",
