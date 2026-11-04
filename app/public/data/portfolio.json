@@ -5979,7 +5979,7 @@
    "last_date": "2026-11-03",
    "close": 2593.300048828125,
    "ret_pct": -0.845,
-   "vol_ratio": 0.498,
+   "vol_ratio": 0.499,
    "series": [
     {
      "date": "2026-05-13",
@@ -6818,7 +6818,7 @@
      "date": "2026-11-03",
      "close": 2593.300048828125,
      "ret_pct": -0.845,
-     "vol_ratio": 0.498,
+     "vol_ratio": 0.499,
      "corp_action": null
     }
    ],
@@ -6832,7 +6832,7 @@
    "last_date": "2026-11-03",
    "close": 5025.0,
    "ret_pct": 2.136,
-   "vol_ratio": 1.855,
+   "vol_ratio": 1.856,
    "series": [
     {
      "date": "2026-05-13",
@@ -7671,7 +7671,7 @@
      "date": "2026-11-03",
      "close": 5025.0,
      "ret_pct": 2.136,
-     "vol_ratio": 1.855,
+     "vol_ratio": 1.856,
      "corp_action": null
     }
    ],
