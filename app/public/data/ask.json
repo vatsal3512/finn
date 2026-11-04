@@ -120,21 +120,33 @@
    "symbol": "INDIGO",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026, management guided Q2 FY27 unit passenger revenue (PRASK) growth of over 25% year-over-year. The filing shows Q2 FY27 revenue rose 25.9% to ₹23,363.8 crore. However, management did not provide specific margin targets, though EBITDA margin improved to 8.2% from 3.1% YoY, despite a net loss of ₹1,879.1 crore.",
+   "answer": "In July 2026 (Q1 FY27 call), management expected Q2 PRASK revenue growth of over 25% YoY. In November 2026 (Q2 FY27 call), management confirmed PRASK grew 31%, beating guidance. Revenue matched expectations, rising 25.9% YoY to ₹23,363.8 crore. Margins improved YoY with EBITDA margin rising to 8.2% (from 3.1%), though elevated fuel costs resulted in a ₹1,879.1 crore net loss.",
    "evidence": [
     {
      "quote": "In terms of unit passenger revenue or PRASK for Q2FY27, with the current balanced demand￾supply equation and the higher fares holding up, we are expecting growth of more than 25% compared to the same period last year",
      "source": "Q1 FY27 call, Jul 2026",
      "page": 7,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf"
+    },
+    {
+     "quote": "Third, in this environment, we delivered a 31 percent increase in PRASK, which exceeded our guidance of more than 25 percent growth",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b25e1dd6-770a-4a6a-92c9-becd48554bb5.pdf"
+    },
+    {
+     "quote": "In terms of profitability, EBITDAR came in at 25 billion rupees, at a margin of around 11 percent, compared to an EBITDAR of 11 billion rupees and a margin of 6 percent for the same period last year",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b25e1dd6-770a-4a6a-92c9-becd48554bb5.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Jul 2026",
-    "Q3 FY26 call, Jan 2026"
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Jul 2026"
    ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:10+00:00"
+   "model": "gemini-3.5-flash",
+   "asked_at": "2026-11-04T15:59:13+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -161,32 +173,6 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:10+00:00"
-  },
-  "nse:106836275": {
-   "symbol": "SUNPHARMA",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In August 2026 (Q1 FY27 call), management maintained full-year FY27 top-line revenue growth guidance at high single digits. It did not give specific quarterly margin numerical guidance. The Q2 FY27 actual revenue growth of 11.9% YoY surpassed the full-year high single-digit expectation, while the EBITDA margin came in at 29.3%.",
-   "evidence": [
-    {
-     "quote": "Think we should stick on to the high single-digit growth for the full year",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 10,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
-    },
-    {
-     "quote": "EBITDA margins came in at 28.9% while EBITDA margins were slightly lower, please note that Q1 FY26 had some benefit from Lenalidomide sales",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 4,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
-    }
-   ],
-   "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T14:16:14+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",

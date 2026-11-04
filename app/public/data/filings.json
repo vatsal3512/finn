@@ -92,7 +92,70 @@
    "events": [
     "results"
    ],
-   "cards": [],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "EMUDHRA",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "standalone",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 71.4,
+       "previous_quarter": 66.1,
+       "year_ago": 62.0,
+       "qoq_pct": 8.0,
+       "yoy_pct": 15.1
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 14.5,
+       "previous_quarter": 19.5,
+       "year_ago": 11.6,
+       "qoq_pct": -25.6,
+       "yoy_pct": 25.2
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 12.1,
+       "previous_quarter": 16.6,
+       "year_ago": 9.0,
+       "qoq_pct": -27.4,
+       "yoy_pct": 34.2
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 8.6,
+       "previous_quarter": 12.4,
+       "year_ago": 6.7,
+       "qoq_pct": -30.7,
+       "yoy_pct": 28.5
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      20.3,
+      29.4,
+      18.7
+     ],
+     "source": "xbrl",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753221_04112026091008_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704282_29072026061329_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565361_04112025115823_WEB.xml"
+     ]
+    }
+   ],
    "price_reaction": null,
    "score": 120.0,
    "group_id": "EMUDHRA:results:2026-11-04",
