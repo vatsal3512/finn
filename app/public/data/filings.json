@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106844063",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-04T14:22:16+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "OLAELEC: Ola Electric Mobility Limited has informed the Exchange about Copy of Newspaper Publication for the matters relating to Rights Issue",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_04112026142126_Intimationnewspaperadv04112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "OLAELEC:unclassified:2026-11-04",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106843535",
    "symbol": "INDIGO",
    "exchange": "NSE",
