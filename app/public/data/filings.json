@@ -285,7 +285,7 @@
    "classified_by": "ai",
    "rule": "litigation",
    "needs_ai": false,
-   "text_quality": "failed",
+   "text_quality": "ok",
    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf",
    "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
    "insight": {
