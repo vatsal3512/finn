@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106845867",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-04T21:59:47+05:30",
+   "exchange_label": "Shareholders meeting",
+   "headline": "Bharti Airtel Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "postal_ballot",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "postal_ballot"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:postal_ballot:2026-11-04",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106845760",
    "symbol": "RELIANCE",
    "exchange": "NSE",
