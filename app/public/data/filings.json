@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106843535",
+   "symbol": "INDIGO",
+   "exchange": "NSE",
+   "filed_at": "2026-11-04T10:53:12+05:30",
+   "exchange_label": "General Updates",
+   "headline": "InterGlobe Aviation Limited has informed the Exchange about allotment of ESOPs",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "esop_in_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/Indigo1_04112026105251_Disclosure_Allotment_04112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDIGO",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "INDIGO:unclassified:2026-11-04",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106843482",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
