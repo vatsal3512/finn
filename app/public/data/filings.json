@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106846487",
+   "symbol": "EMUDHRA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T12:02:49+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "eMudhra Limited has informed the Exchange about Copy of Newspaper Publication of the unaudited financial results of the company for the quarter and half year ended September 30, 2026",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_05112026120239_Newspaper_Publication.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=EMUDHRA",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "EMUDHRA:unclassified:2026-11-05",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106846307",
    "symbol": "EMUDHRA",
    "exchange": "NSE",
