@@ -1,6 +1,167 @@
 {
  "filings": [
   {
+   "id": "nse:106847413",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T16:25:56+05:30",
+   "exchange_label": "Updates",
+   "headline": "Bharti Airtel Limited has informed the Exchange regarding 'Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.'.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162542_QR.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "Q2 FY27 Financial Results",
+    "summary": "Revenue for Q2 FY27 was ₹60,878 crore.",
+    "why_it_matters": "Revenue equals about 28% of annual ₹220,049 crore revenue.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "openai/gpt-oss-120b"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "BHARTIARTL:results:2026-11-05",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106847401",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T16:23:51+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Bharti Airtel Limited has informed the Exchange regarding a press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second quarter (Q2) and six months ended September 30, 2026.\".",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "Q2 FY27 Results Press Release",
+    "summary": "Bharti Airtel's consolidated Q2 FY27 revenue increased 16.7% YoY to Rs 60,878 crore, driven by strong growth in India and Africa.",
+    "why_it_matters": "Growth was underpinned by India mobile revenue expanding 10.1% YoY from higher ARPU, alongside a 25.3% YoY revenue surge in the Homes segment.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "BHARTIARTL:results:2026-11-05",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106847388",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T16:20:40+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "Bharti Airtel Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "failed",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "Financial Results Submitted for September 2026",
+    "summary": "Bharti Airtel submitted its financial results for the period ended September 30, 2026, reporting consolidated revenue of Rs 60,878 crore.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "BHARTIARTL",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 60878.0,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": null,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": null,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": null,
+       "previous_quarter": null,
+       "year_ago": null,
+       "qoq_pct": null,
+       "yoy_pct": null
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      null,
+      null,
+      null
+     ],
+     "source": "filing_text",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "BHARTIARTL:results:2026-11-05",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106847279",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
