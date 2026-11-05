@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106849153",
+   "symbol": "PERSISTENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T23:30:49+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Persistent Systems Limited has informed the Exchange about General Updates",
+   "category": "fund_raise",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_05112026233015_PersistentSEOutcomeAllotmentofCPsNovember52026signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
+   "insight": {
+    "title": "Allotment of INR 6.00 billion commercial paper",
+    "summary": "The company allotted 12,000 commercial papers of INR 500,000 each, totaling INR 6.00 billion, with a one‑year tenure and 8.75% yield.",
+    "why_it_matters": "The INR 6.00 billion issue equals about 3.6% of its ₹16,801 crore annual revenue, providing short‑term funding.",
+    "sentiment": "neutral",
+    "amount_inr_crore": 600.0,
+    "model": "openai/gpt-oss-120b"
+   },
+   "events": [
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 110.0,
+   "group_id": "PERSISTENT:fund_raise:2026-11-05",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106848644",
    "symbol": "EMUDHRA",
    "exchange": "NSE",
