@@ -1,6 +1,58 @@
 {
  "filings": [
   {
+   "id": "nse:106848593",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T19:35:15+05:30",
+   "exchange_label": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "headline": "Bharti Airtel Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "compliance",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:unclassified:2026-11-05",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106848587",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T19:33:57+05:30",
+   "exchange_label": "Monitoring Agency Report",
+   "headline": "Monitoring Agency Report for the quarter ended September 30, 2026",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "monitoring_agency",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:unclassified:2026-11-05",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106847697",
    "symbol": "DIXON",
    "exchange": "NSE",
@@ -158,52 +210,54 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 60878.0,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 60877.5,
+       "previous_quarter": 58539.1,
+       "year_ago": 52145.4,
+       "qoq_pct": 4.0,
+       "yoy_pct": 16.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 34945.9,
+       "previous_quarter": 33302.8,
+       "year_ago": 29561.4,
+       "qoq_pct": 4.9,
+       "yoy_pct": 18.2
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 15318.2,
+       "previous_quarter": 13664.6,
+       "year_ago": 12241.3,
+       "qoq_pct": 12.1,
+       "yoy_pct": 25.1
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 10710.4,
+       "previous_quarter": 10011.6,
+       "year_ago": 8650.8,
+       "qoq_pct": 7.0,
+       "yoy_pct": 23.8
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      null,
-      null,
-      null
+      57.4,
+      56.9,
+      56.7
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": null,
      "check_note": "screener.in has no figures for this quarter yet.",
-     "share_of_associates": null,
+     "share_of_associates": 109.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf"
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
      ]
     }
    ],
