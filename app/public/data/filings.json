@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106846913",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T14:01:30+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Copy of Newspaper Publication.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026140108_StxIntimation__2_.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:unclassified:2026-11-05",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106846487",
    "symbol": "EMUDHRA",
    "exchange": "NSE",
