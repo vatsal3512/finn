@@ -116,6 +116,32 @@
    "model": "gemini-3.8-flash",
    "asked_at": "2026-10-30T11:16:09+00:00"
   },
+  "nse:106845578": {
+   "symbol": "EMUDHRA",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "In the Q1 FY27 call (July 2026), management reiterated guidance of 18% organic revenue growth, 25% PAT growth, ~25% EBITDA margin, and 16-16.5% PAT margin. The Q2 FY27 results matched these expectations, delivering 19.7% YoY revenue growth (₹207.0 crore), 26.6% YoY PAT growth (₹33.5 crore), a 24.0% EBITDA margin, and a 16.2% PAT margin.",
+   "evidence": [
+    {
+     "quote": "Finally, from an outlook perspective, our guidance remains unchanged from what we shared in the previous quarter, that is to achieve an organic growth of 18% and work towards achieving a PAT growth of 25%",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+    },
+    {
+     "quote": "With the result, overall, if you see, we may be able to maintain this EBITDA at 25% and the PAT around 16-16.5%",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 20,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, May 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-05T10:37:10+00:00"
+  },
   "nse:106834360": {
    "symbol": "INDIGO",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
@@ -327,19 +353,6 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:11+00:00"
-  },
-  "nse:106810133": {
-   "symbol": "ADANIENT",
-   "question": "What has management said about debt, leverage and its credit profile?",
-   "addressed": false,
-   "answer": "Management did not discuss this on its last two calls.",
-   "evidence": [],
-   "calls": [
-    "Q2 FY27 call, Nov 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-03T13:37:11+00:00"
   }
  }
 }

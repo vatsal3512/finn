@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106847279",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T15:54:14+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange about Schedule of meet",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_05112026155401_IntimationSE20261105_for_Analyst_and_Investor_meeting_Signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "SUNPHARMA:results:2026-11-05",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106846913",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
@@ -20,7 +46,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": -0.518,
+    "vol_ratio": 0.987
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-05",
    "group_lead": true,
@@ -46,8 +76,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 7.134,
+    "vol_ratio": 0.508
+   },
+   "score": 15.0,
    "group_id": "EMUDHRA:unclassified:2026-11-05",
    "group_lead": true,
    "duplicate_of": null
@@ -80,8 +114,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 7.134,
+    "vol_ratio": 0.508
+   },
+   "score": 75.0,
    "group_id": "EMUDHRA:results:2026-11-05",
    "group_lead": true,
    "duplicate_of": null
@@ -106,7 +144,11 @@
     "postal_ballot"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": -0.518,
+    "vol_ratio": 0.987
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:postal_ballot:2026-11-04",
    "group_lead": true,
@@ -139,7 +181,11 @@
     "credit_rating"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 0.183,
+    "vol_ratio": 0.967
+   },
    "score": 44.0,
    "group_id": "RELIANCE:credit_rating:2026-11-04",
    "group_lead": true,
@@ -172,8 +218,12 @@
     "results"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 60.0,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 7.134,
+    "vol_ratio": 0.508
+   },
+   "score": 75.0,
    "group_id": "EMUDHRA:results:2026-11-04",
    "group_lead": false,
    "duplicate_of": null
@@ -268,8 +318,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 120.0,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 7.134,
+    "vol_ratio": 0.508
+   },
+   "score": 135.0,
    "group_id": "EMUDHRA:results:2026-11-04",
    "group_lead": true,
    "duplicate_of": null
@@ -294,8 +348,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 3.135,
+    "vol_ratio": 2.032
+   },
+   "score": 10.0,
    "group_id": "SUNPHARMA:results:2026-11-04",
    "group_lead": false,
    "duplicate_of": null
@@ -320,8 +378,12 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 0.0,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": 5.431,
+    "vol_ratio": 2.866
+   },
+   "score": 25.0,
    "group_id": "INDIGO:results:2026-11-04",
    "group_lead": true,
    "duplicate_of": null
@@ -353,7 +415,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": -0.518,
+    "vol_ratio": 0.987
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-04",
    "group_lead": false,
@@ -386,7 +452,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": -0.518,
+    "vol_ratio": 0.987
+   },
    "score": 8.0,
    "group_id": "BHARTIARTL:litigation:2026-11-04",
    "group_lead": true,
@@ -412,7 +482,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-05",
+    "ret_pct": -0.518,
+    "vol_ratio": 0.987
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-04",
    "group_lead": true,
