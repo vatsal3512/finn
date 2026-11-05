@@ -58,6 +58,38 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-02T10:53:48+00:00"
   },
+  "nse:106836523": {
+   "symbol": "DIXON",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "Management did not give explicit numerical revenue or margin targets for Q2 FY27 in prior calls. In Q1 FY27, management noted percentage margin compression from expired PLI 1 and higher component prices passed through to selling prices. In Q2 FY27, Dixon reported revenue of ₹21,793.6 crore (+46.7% YoY) and EBITDA margin of 2.7% versus 3.8% YoY.",
+   "evidence": [
+    {
+     "quote": "Operating margin for the quarter reflected temporary compression on account of expiry of Mobile PLI 1 in March '26 and from increased selling prices driven by elevated input costs and broader supply chain inflationary factors",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "quote": "As increased input costs were passed through increase in selling prices, percentage margins look optically lower, mostly in mobile and IT hardware business",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "quote": "The pass-through of higher input cost through corresponding increasing in selling prices resulted in a lower reported margin percentage, particularly in mobile and IT hardware business, despite the recovery of increased cost through pricing adjustments",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-05T12:37:57+00:00"
+  },
   "nse:106823051": {
    "symbol": "EMUDHRA",
    "question": "What has management said about this on its recent calls?",
