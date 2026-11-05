@@ -429,7 +429,7 @@
    "price_reaction": {
     "session": "2026-11-04",
     "ret_pct": 1.301,
-    "vol_ratio": 0.504
+    "vol_ratio": 0.505
    },
    "score": 0.0,
    "group_id": "OLAELEC:unclassified:2026-11-04",
@@ -459,7 +459,7 @@
    "price_reaction": {
     "session": "2026-11-04",
     "ret_pct": 2.304,
-    "vol_ratio": 1.03
+    "vol_ratio": 1.031
    },
    "score": 0.0,
    "group_id": "INDIGO:unclassified:2026-11-04",
