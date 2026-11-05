@@ -30,11 +30,11 @@
   {
    "symbol": "DIXON",
    "name": "Dixon Technologies",
-   "generated_at": "2026-10-31T10:56:32+00:00",
-   "promises": 32,
+   "generated_at": "2026-11-05T11:40:25+00:00",
+   "promises": 40,
    "missed": 2,
-   "kept": 2,
-   "pending": 21
+   "kept": 0,
+   "pending": 32
   },
   {
    "symbol": "EMUDHRA",
