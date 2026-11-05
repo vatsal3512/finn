@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-05T12:37:51+00:00",
+ "generated_at": "2026-11-05T13:08:02+00:00",
  "latest_session": "2026-11-05",
  "filings_window_days": 30,
  "counts": {
@@ -19,17 +19,17 @@
   "volume_baseline_sessions": 20
  },
  "ai": {
-  "calls": 331,
-  "input_tokens": 3894742,
-  "output_tokens": 297616,
+  "calls": 332,
+  "input_tokens": 3923605,
+  "output_tokens": 297937,
   "by_model": {
    "gemini-3.5-flash": 37,
    "gemini-3.5-flash-lite": 134,
-   "gemini-3.6-flash": 135,
+   "gemini-3.6-flash": 136,
    "gemini-3.8-flash": 7,
    "openai/gpt-oss-120b": 18
   },
-  "cached_answers": 249
+  "cached_answers": 250
  },
  "sources": [
   "Prices: Yahoo Finance end-of-day, adjusted for splits and dividends",
