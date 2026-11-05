@@ -58,32 +58,6 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-02T10:53:48+00:00"
   },
-  "nse:106836523": {
-   "symbol": "DIXON",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In the August 2026 Q1 call, management expected 20% to 25% quarter-on-quarter smartphone volume growth in Q2 and noted percentage margins look optically lower as higher input costs pass through into selling prices. The Q2 results matched these trends, showing strong top-line revenue growth of 46.7% YoY to ₹21,793.6 crore alongside margin compression to 2.7%.",
-   "evidence": [
-    {
-     "quote": "So quarter 2 against quarter 1, we are expecting a 20%, 25% kind of a growth",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 9,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
-    },
-    {
-     "quote": "As increased input costs were passed through increase in selling prices, percentage margins look optically lower, mostly in mobile and IT hardware business",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
-    }
-   ],
-   "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-02T10:53:53+00:00"
-  },
   "nse:106823051": {
    "symbol": "EMUDHRA",
    "question": "What has management said about this on its recent calls?",

@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106847697",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-11-05T17:16:41+05:30",
+   "exchange_label": "Allotment of Securities",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange regarding allotment of 37750 securities pursuant to ESOP/ESPS at its meeting held on November 05, 2026",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "esop_in_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026171618_Reg30ESOPAllotmentNov.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "DIXON:unclassified:2026-11-05",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106847469",
    "symbol": "DIXON",
    "exchange": "NSE",
