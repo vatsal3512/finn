@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106849678",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T12:17:22+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Adani Enterprises Limited has informed the Exchange about signing of Share Purchase Agreement between AdaniConneX Private Limited, a joint venture of the Company with Adani Infra (India) Limited.",
+   "category": "M&A",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_06112026121716_AELIntimationVizagMegaDataCenterParkLimited06112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "ConneX to Acquire 100% Stake in VMDCPL",
+    "summary": "AdaniConneX Private Limited executed a Share Purchase Agreement to acquire a 100% stake in Vizag Mega Data Center Park Limited for INR 1085,51,42,595.",
+    "why_it_matters": "The transaction value of INR 1085,51,42,595 is small compared to Adani Enterprises' annual revenue of about ₹127,399 crore.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "M&A"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 52.0,
+   "group_id": "ADANIENT:M&A:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106849395",
    "symbol": "INDUSINDBK",
    "exchange": "NSE",
