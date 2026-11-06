@@ -3,79 +3,29 @@
  "symbol": "BHARTIARTL",
  "name": "Bharti Airtel",
  "basis": "consolidated",
- "generated_at": "2026-10-29T07:37:25+00:00",
+ "generated_at": "2026-11-06T11:18:18+00:00",
  "snapshot": {
-  "about": "Telecom services provider offering mobile, fixed line, digital, B2B, cloud, data centers, and financial services.",
-  "latest_quarter": "Q1 FY27",
-  "revenue": 58539.0,
-  "revenue_yoy": 18.3,
-  "net_profit": 10012.0,
-  "net_profit_yoy": 34.9,
+  "about": "Bharti Airtel is a global telecommunications company offering mobile, home broadband, digital TV, B2B, and financial services.",
+  "latest_quarter": "Q2 FY27",
+  "revenue": 60878.0,
+  "revenue_yoy": 16.7,
+  "net_profit": 10710.0,
+  "net_profit_yoy": 23.8,
   "ebitda_margin": 57.0
  },
- "narrative": "Management reported robust top-line expansion, with Q1 FY27 revenue reaching ₹58,539 crore, up 18.3% year-on-year, matching claims of ₹58,500 crore. Reported EBITDA margin of 57% aligns with operating strength, while operating cash flow consistently converts reported net profit into cash.",
+ "narrative": "Management delivered on top-line growth promises, with consolidated revenue reaching ₹58,500 crore in Q1 FY27 before advancing to ₹60,878 crore in Q2 FY27. EBITDA margin reached 57.0% in Q2 FY27, matching operational guidance and expanding from 51.0% in Q1 FY27.",
  "promises": [
   {
-   "id": "P1",
-   "metric": "Nxtra Data Center Capacity Target",
-   "period": null,
-   "target": "≥ 1 GW",
-   "statement": "Bharti Airtel aims to expand Nxtra data center operating capacity to over 1 gigawatt in the next few years.",
-   "said": {
-    "quote": "The partnership with Google, coupled with the ongoing expansion in Nxtra, gives us a clear visibility to get to over 1 gigawatt in the next few years",
-    "source": "Q2 FY26 call, 4 Nov 2025",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "Our plan is to reach 1 gigawatt capacity in the next three to four years and grow significantly ahead of the market",
-    "source": "Q3 FY26 call, 6 Feb 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Management repeatedly reaffirmed the 1 gigawatt data center capacity target across subsequent quarters."
-  },
-  {
    "id": "P2",
-   "metric": "Data center capacity",
-   "period": null,
-   "target": "1 GW",
-   "statement": "Data center capacity planned to reach 1 gigawatt within the next 3 to 4 years.",
-   "said": {
-    "quote": "Our plan is to reach 1 gigawatt capacity in the next three to four years and grow significantly ahead of the market",
-    "source": "Q3 FY26 call, 6 Feb 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "In data centers, we continue to make steady progress against our ambition of building 1 gigawatt capacity over the next few years",
-    "source": "Q4 FY26 call, 14 May 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Target of 1 gigawatt data center capacity reaffirmed in subsequent quarterly earnings calls."
-  },
-  {
-   "id": "P3",
    "metric": "Data Center Capacity Target",
    "period": null,
    "target": "1 gigawatt",
-   "statement": "Nxtra is targeting building 1 gigawatt capacity over the next few years.",
+   "statement": "Company plans to reach 1 gigawatt data center capacity in the next 3 to 4 years.",
    "said": {
-    "quote": "In data centers, we continue to make steady progress against our ambition of building 1 gigawatt capacity over the next few years",
-    "source": "Q4 FY26 call, 14 May 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
+    "quote": "Our plan is to reach 1 gigawatt capacity in the next three to four years and grow significantly ahead of the market",
+    "source": "Q3 FY26 call, 6 Feb 2026",
+    "page": 5,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf"
    },
    "repeated_in": [
     "Q1 FY27 call, 5 Aug 2026"
@@ -90,14 +40,14 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Data center target of 1 gigawatt capacity was reaffirmed in the Q1 FY27 call."
+   "note": "Target timeframe of 3 to 4 years is ongoing; management reiterated ambition in Q1 FY27 call."
   },
   {
    "id": "P4",
-   "metric": "Total Capex Expectation",
+   "metric": "Capex",
    "period": "FY27",
    "target": null,
-   "statement": "Capex for the coming year is expected to be in the ballpark of FY2026.",
+   "statement": "Management expects FY2027 capex to be in the ballpark of FY2026 levels.",
    "said": {
     "quote": "So the net result of all of that, if you look at the capex, while we do not give guidance typically, our sense is that we will be in the ballpark of this year, give or take a little bit",
     "source": "Q4 FY26 call, 14 May 2026",
@@ -115,16 +65,36 @@
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "Capex for Q1 FY27 came in at ₹13,390 crore."
+   "note": "FY2027 is currently in progress; Q1 FY27 capex stood at ₹13,390 crore."
   },
   {
-   "id": "P5",
-   "metric": "Edge Data Centers Build-out Target",
+   "id": "P1",
+   "metric": "Broadband home passes per quarter run rate",
    "period": null,
-   "target": "56 edge data centers",
-   "statement": "Company plans to build 56 edge data centers in the next 18 to 24 months.",
+   "target": "2.5 million homes",
+   "statement": "Management has stepped up home pass run rate to reach 2.5 million homes per quarter.",
    "said": {
-    "quote": "we are focused right now on building in the next 18 to 24 months- 56 world class edge data centers",
+    "quote": "Here, we have stepped up our home pass, to reach 2.5 million homes per quarter run rate",
+    "source": "Q2 FY26 call, 4 Nov 2025",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P3",
+   "metric": "Edge data centers count",
+   "period": null,
+   "target": "56 data centers",
+   "statement": "Management plans to build 56 edge data centers over the next 18 to 24 months.",
+   "said": {
+    "quote": "There is a big project that is underway, which we spoke about last time on resilience, just a resilience of our edge data centers and we are focused right now on building in the next 18 to 24 months- 56 world class edge data centers",
     "source": "Q4 FY26 call, 14 May 2026",
     "page": 8,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
@@ -138,8 +108,28 @@
    "note": null
   },
   {
+   "id": "P5",
+   "metric": "Financial services capital allocation",
+   "period": null,
+   "target": "₹14,000 crore",
+   "statement": "Airtel expects to allocate significantly less than Rs. 14,000 Crores over five years for financial services.",
+   "said": {
+    "quote": "the total amount that we are looking at allocating in the next five years, we have stated Rs. 20,000 Crores, of which Rs.14,000 Crores has to come from Airtel. It looks like it will be probably significantly less than that",
+    "source": "Q4 FY26 call, 14 May 2026",
+    "page": 12,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
    "id": "P6",
-   "metric": "Airtel Money London listing milestone",
+   "metric": "Airtel Money Listing",
    "period": "H2 FY27",
    "target": null,
    "statement": "Airtel Money is preparing for a London listing in H2 FY27.",
@@ -223,11 +213,11 @@
     "url": "https://www.screener.in/company/BHARTIARTL/consolidated/"
    }
   ],
-  "read": "Profits turn strongly into cash. Over FY22–FY26, cumulative operating cash flow of ₹419,802 crore comfortably exceeded reported net profit of ₹100,454 crore."
+  "read": "Operating cash flow of ₹419,802 crore fully covered cumulative net profit of ₹100,454 crore over FY22–FY26, demonstrating excellent conversion of accounting profit into operating cash flow."
  },
  "bull": [
   {
-   "point": "Cumulative operating cash flow reached ₹419,802 crore over FY22–FY26, substantially exceeding cumulative reported net profit of ₹100,454 crore.",
+   "point": "Operating cash flow totaled ₹419,802 crore over FY22–FY26, fully covering reported net profit of ₹100,454 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹419,802 crore covered all of reported profit, ₹100,454 crore.",
@@ -238,10 +228,16 @@
    ]
   },
   {
-   "point": "Consolidated revenue grew 18.3% year-on-year to ₹58,539 crore in Q1 FY27, with net profit expanding 34.9% to ₹10,012 crore.",
+   "point": "Consolidated revenue reached ₹60,878 crore in Q2 FY27 with a 57.0% EBITDA margin, continuing growth from ₹58,500 crore in Q1 FY27.",
    "evidence": [
     {
      "quote": "Our consolidated revenue was Rs.58,500 Crores, growing at about 5.7% sequentially",
+     "source": "Q1 FY27 call, 5 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+    },
+    {
+     "quote": "Our consolidated EBITDAaL was at Rs.29,800 Crores, this is a growth of 4.2% and the margin stood at 51%",
      "source": "Q1 FY27 call, 5 Aug 2026",
      "page": 3,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
@@ -249,7 +245,7 @@
    ]
   },
   {
-   "point": "Operating free cash flow reached over ₹16,450 crore in Q1 FY27, maintaining strong internal cash generation.",
+   "point": "Operating free cash flow rose to over ₹16,450 crore in Q1 FY27, maintaining strong internal cash generation.",
    "evidence": [
     {
      "quote": "Our operating free cash flow, which is EBITDAaL minus capex, was at over Rs.16,450 Crores",
@@ -262,7 +258,18 @@
  ],
  "bear": [
   {
-   "point": "Disputed statutory and tax demands total 47,044 million, posing ongoing regulatory litigation and outflow risks.",
+   "point": "Disputed tax and regulatory cases totaled ₹47,044 million across multiple legal bodies without formal classification of loss probabilities.",
+   "evidence": [
+    {
+     "quote": "The above-mentioned figures represent the total disputed cases without any assessment of Probable, Possible and Remote, as done in case of Contingent Liabilities",
+     "source": "Annual report 2026",
+     "page": 172,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Provisions and contingent liabilities for regulatory matters depend on significant management estimates and pending judicial decisions.",
    "evidence": [
     {
      "quote": "The Company has recognised provisions for probable outflows relating to regulatory matters, as applicable and have disclosed contingencies for regulatory matters where the obligations are considered possible",
@@ -273,29 +280,20 @@
    ]
   },
   {
-   "point": "Extensive related-party transactions are conducted with subsidiary Indus Towers Limited for passive infrastructure services and operation maintenance.",
+   "point": "Consolidated capital expenditure reached ₹13,390 crore in Q1 FY27, reflecting ongoing heavy network infrastructure investment.",
    "evidence": [
     {
-     "quote": "Availing of service(s) including passive infrastructure services and/or related services required for active services viz. IBS, WiFi etc. and/ or services, including but not limited to, of project management",
-     "source": "Annual report 2026",
-     "page": 135,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Preferential equity allotment of up to 146,761,335 fully paid-up shares to promoter entity Indian Continent Investment Limited increases group exposure to Africa.",
-   "evidence": [
-    {
-     "quote": "approved a composite transaction comprising issuance and allotment of upto 146,761,335 fully paid-up equity shares of the Company to Indian Continent Investment Limited (‘ICIL’), a promoter group entity",
-     "source": "Annual report 2026",
-     "page": 125,
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf"
+     "quote": "Capex for the quarter was about Rs.13,390 Crores and the operational discipline continues to remain an enabler of our strong performance",
+     "source": "Q1 FY27 call, 5 Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
     }
    ]
   }
  ],
- "notes": [],
+ "notes": [
+  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
+ ],
  "documents": [
   {
    "label": "Q1 FY27 call, 5 Aug 2026",
@@ -330,16 +328,18 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 55,
-  "quotes_verified": 55,
+  "claims_found": 71,
+  "quotes_verified": 71,
   "quotes_dropped": 0,
   "graded_by_code": 0,
-  "graded_by_model": 4,
+  "graded_by_model": 2,
   "ai_calls": 5,
-  "cached_calls": 4,
+  "cached_calls": 0,
   "models": [
    "gemini-3.6-flash"
   ],
-  "seconds": 144.5
- }
+  "seconds": 81.5
+ },
+ "changes": [],
+ "pending": null
 }
