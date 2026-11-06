@@ -1,6 +1,58 @@
 {
  "filings": [
   {
+   "id": "nse:106850382",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T15:21:56+05:30",
+   "exchange_label": "Change in Management",
+   "headline": "HDFC Bank Limited has informed the Exchange about change in Management",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": {
+    "title": "Appointment of Chief Compliance Officer Assumed Office",
+    "summary": "V. N. Srivatsan has assumed office as Chief Compliance Officer for a three-year term starting November 6, 2026.",
+    "why_it_matters": "He joins as part of Senior Management Personnel, previously serving as Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "V. N. Srivatsan",
+       "role": "Chief Compliance Officer",
+       "change": "appointment",
+       "effective_date": "2026-11-06",
+       "reason": null,
+       "profile": "Mr. V. N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years of direct experience in Compliance and Regulatory Inspection.",
+       "previous_roles": [
+        "Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer, ICICI Bank Limited"
+       ],
+       "education": "Post Graduate degree in Business Administration from PSG College of Technology and a Bachelor of Technology (B. Tech) from Sri Venkateshwara University",
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 46.0,
+   "group_id": "HDFCBANK:management_change:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106850251",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
