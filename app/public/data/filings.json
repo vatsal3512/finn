@@ -1,6 +1,102 @@
 {
  "filings": [
   {
+   "id": "nse:106849880",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T13:04:48+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
+   "category": "results",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "results_text",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "Newspaper Advertisements for Q2 FY27 Audited Results",
+    "summary": "Bharti Airtel published newspaper advertisements regarding its audited financial results for the second quarter and six months ended September 30, 2026.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "BHARTIARTL",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 60877.5,
+       "previous_quarter": 58539.1,
+       "year_ago": 52145.4,
+       "qoq_pct": 4.0,
+       "yoy_pct": 16.7
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 34945.9,
+       "previous_quarter": 33302.8,
+       "year_ago": 29561.4,
+       "qoq_pct": 4.9,
+       "yoy_pct": 18.2
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 15318.2,
+       "previous_quarter": 13664.6,
+       "year_ago": 12241.3,
+       "qoq_pct": 12.1,
+       "yoy_pct": 25.1
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 10710.4,
+       "previous_quarter": 10011.6,
+       "year_ago": 8650.8,
+       "qoq_pct": 7.0,
+       "yoy_pct": 23.8
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      57.4,
+      56.9,
+      56.7
+     ],
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 109.8,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 20.0,
+   "group_id": "BHARTIARTL:results:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106849678",
    "symbol": "ADANIENT",
    "exchange": "NSE",
