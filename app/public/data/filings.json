@@ -1,6 +1,58 @@
 {
  "filings": [
   {
+   "id": "nse:106850597",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T16:11:04+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Link of Recording",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026160637_BhartiAirtelSTXdisclosure.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:results:2026-11-06",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106850575",
+   "symbol": "EMUDHRA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T16:06:39+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "eMudhra Limited has informed the Exchange about Schedule of Investor Group Conference",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_06112026160602_Conference_Intimation_2.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=EMUDHRA",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "EMUDHRA:results:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106850382",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
@@ -46,8 +98,12 @@
      ]
     }
    ],
-   "price_reaction": null,
-   "score": 46.0,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 3.717,
+    "vol_ratio": 2.304
+   },
+   "score": 56.0,
    "group_id": "HDFCBANK:management_change:2026-11-06",
    "group_lead": true,
    "duplicate_of": null
@@ -79,7 +135,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-11-06",
    "group_lead": true,
@@ -175,7 +235,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 20.0,
    "group_id": "BHARTIARTL:results:2026-11-06",
    "group_lead": true,
@@ -208,7 +272,11 @@
     "M&A"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 0.457,
+    "vol_ratio": 0.839
+   },
    "score": 52.0,
    "group_id": "ADANIENT:M&A:2026-11-06",
    "group_lead": true,
@@ -241,8 +309,12 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 40.0,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": -0.132,
+    "vol_ratio": 3.094
+   },
+   "score": 50.0,
    "group_id": "INDUSINDBK:press_release:2026-11-06",
    "group_lead": true,
    "duplicate_of": null
@@ -274,7 +346,11 @@
     "fund_raise"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": -0.917,
+    "vol_ratio": 0.656
+   },
    "score": 110.0,
    "group_id": "PERSISTENT:fund_raise:2026-11-05",
    "group_lead": true,
@@ -300,7 +376,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": -3.876,
+    "vol_ratio": 0.175
+   },
    "score": 0.0,
    "group_id": "EMUDHRA:results:2026-11-05",
    "group_lead": false,
@@ -326,7 +406,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-05",
    "group_lead": false,
@@ -352,7 +436,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-05",
    "group_lead": false,
@@ -378,7 +466,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 0.071,
+    "vol_ratio": 0.612
+   },
    "score": 0.0,
    "group_id": "DIXON:unclassified:2026-11-05",
    "group_lead": true,
@@ -404,7 +496,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 0.071,
+    "vol_ratio": 0.612
+   },
    "score": 0.0,
    "group_id": "DIXON:results:2026-11-05",
    "group_lead": true,
@@ -437,7 +533,11 @@
     "results"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 120.0,
    "group_id": "BHARTIARTL:results:2026-11-05",
    "group_lead": false,
@@ -471,7 +571,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 60.0,
    "group_id": "BHARTIARTL:results:2026-11-05",
    "group_lead": false,
@@ -567,7 +671,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 2.445,
+    "vol_ratio": 1.763
+   },
    "score": 120.0,
    "group_id": "BHARTIARTL:results:2026-11-05",
    "group_lead": true,
@@ -593,7 +701,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-06",
+    "ret_pct": 1.695,
+    "vol_ratio": 1.134
+   },
    "score": 0.0,
    "group_id": "SUNPHARMA:results:2026-11-05",
    "group_lead": true,
