@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106849395",
+   "symbol": "INDUSINDBK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T10:39:24+05:30",
+   "exchange_label": "Press Release",
+   "headline": "IndusInd Bank Limited has informed the Exchange regarding a press release dated November 06, 2026, titled \"IndusInd Bank leverages J.P. Morgan Payments to enhance outward remittance experience by expanding coverage to 123 currencies\".",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK3_06112026103758_FinalUploadsigned1.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
+   "insight": {
+    "title": "Enhanced Outward Remittance Experience to 123 Currencies",
+    "summary": "IndusInd Bank partnered with J.P. Morgan Payments to leverage the Xpedite solution, expanding its outward remittance currency coverage to 123 currencies.",
+    "why_it_matters": null,
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "INDUSINDBK:press_release:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106849153",
    "symbol": "PERSISTENT",
    "exchange": "NSE",
