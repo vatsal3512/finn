@@ -1,6 +1,189 @@
 {
  "filings": [
   {
+   "id": "nse:106851783",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T22:27:43+05:30",
+   "exchange_label": "Shareholders meeting",
+   "headline": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "postal_ballot",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": null,
+   "events": [
+    "postal_ballot"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "HDFCBANK:postal_ballot:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106851770",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T22:06:58+05:30",
+   "exchange_label": "Appointment",
+   "headline": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Independent Director of the company w.e.f. September 07, 2026.",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "independent_director",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220521_SE_intimation_-_Appointment_of_ID.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Shareholders Approve Appointment of Leo Puri as Director",
+    "summary": "Shareholders have approved the appointment of Mr. Leo Puri as an Independent Director, who will assume office as Chairman from 23rd January 2027.",
+    "why_it_matters": "Mr. Leo Puri will succeed Mr. R. Seshasayee as Chairman of the Board upon the completion of Mr. Seshasayee's term on 22nd January 2027.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 58.0,
+   "group_id": "ASIANPAINT:management_change:2026-11-06",
+   "group_lead": false,
+   "duplicate_of": "nse:106851762"
+  },
+  {
+   "id": "nse:106851763",
+   "symbol": "POLYCAB",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T22:03:41+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "analyst_meet_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_06112026220329_Intimationtostockexchange.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
+   "insight": null,
+   "events": [
+    "investor_meetings"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "POLYCAB:investor_meetings:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106851762",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T22:02:45+05:30",
+   "exchange_label": "Change in Director(s)",
+   "headline": "Asian Paints Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220150_SE_intimation_-_Appointment_of_ID.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Shareholders Approve Appointment of Leo Puri as Director",
+    "summary": "Shareholders have approved the appointment of Mr. Leo Puri as an Independent Director, who will assume office as Chairman from 23rd January 2027.",
+    "why_it_matters": "Mr. Leo Puri will succeed Mr. R. Seshasayee as Chairman of the Board upon the completion of Mr. Seshasayee's term on 22nd January 2027.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Mr. Leo Puri",
+       "role": "Independent Director",
+       "change": "appointment",
+       "effective_date": "2026-09-07",
+       "reason": null,
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      },
+      {
+       "person": "Mr. Leo Puri",
+       "role": "Chairman of the Board",
+       "change": "appointment",
+       "effective_date": "2027-01-23",
+       "reason": null,
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      },
+      {
+       "person": "Mr. R. Seshasayee",
+       "role": "Chairman and Independent Director",
+       "change": "cessation",
+       "effective_date": "2027-01-22",
+       "reason": "Completion of term",
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 58.0,
+   "group_id": "ASIANPAINT:management_change:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106851750",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T21:46:25+05:30",
+   "exchange_label": "Shareholders meeting",
+   "headline": "Please find enclosed the following: 1. Voting results of postal ballot pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and 2. Scrutinizer s Report dated 6th November 2026 on remote e-Voting pursuant to Section 108 of the Companies Act, 2013 read with the Companies (Management and Administration) Rules, 2014",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "postal_ballot",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026214436_SE_intimation_Result_of_Postal_ballot.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": null,
+   "events": [
+    "postal_ballot"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "ASIANPAINT:postal_ballot:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106851483",
    "symbol": "RELIANCE",
    "exchange": "NSE",
