@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106850251",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-06T14:50:32+05:30",
+   "exchange_label": "Action(s) taken or orders passed",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "category": "litigation",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "litigation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "Receipt of Regulatory Penalty Notices from DoT",
+    "summary": "The Department of Telecommunications issued penalty notices of Rs. 1,60,000 and Rs. 1,02,000 to the company for alleged violations of subscriber verification norms.",
+    "why_it_matters": "The penalty amounts are immaterial when compared to the company's annual revenue of about ₹228,782 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "litigation"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 13.0,
+   "group_id": "BHARTIARTL:litigation:2026-11-06",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106849880",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
