@@ -48,6 +48,9 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
         with:
           fetch-depth: 20  # enough history to find the last data commit
+          # The newest main, not the commit from when this run was queued: a run that
+          # waited behind another must start from the data that run committed.
+          ref: main
 
       - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884  # v10.3.0
         with:
@@ -143,8 +146,10 @@ jobs:
           else
             git commit -m "data: scheduled refresh $(date -u +%Y-%m-%dT%H:%MZ)"
             # Code may have been pushed while this ran; the bot only touches exported
-            # data, so replaying its commit on top is safe.
-            git pull --rebase origin main
+            # data, so replaying its commit on top is safe. If another run committed
+            # the same files meanwhile, this run's data is the newer and wins
+            # (run 401, 6 Nov 2026, failed on that clash).
+            git pull --rebase -X theirs origin main
             git push
           fi
 
