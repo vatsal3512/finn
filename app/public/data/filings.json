@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106852910",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-08T17:32:09+05:30",
+   "exchange_label": "Acquisition",
+   "headline": "Adani Enterprises Limited has informed the Exchange about completion of acquisition of 100% stake in Vizag Mega Data Center Park Limited by AdaniConneX Private Limited ( ACX ), a joint venture of the Company.",
+   "category": "M&A",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "deal",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_08112026173159_AELIntimationofacquisitioncompletion08112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "ConneX Completes 100% Acquisition of Vizag Mega Data Center",
+    "summary": "AdaniConneX Private Limited, a joint venture of the Company, has completed the acquisition of a 100% stake in Vizag Mega Data Center Park Limited.",
+    "why_it_matters": "This is a procedural follow-up confirming the completion of the acquisition previously announced on November 6, 2026.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "M&A"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 12.0,
+   "group_id": "ADANIENT:M&A:2026-11-08",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106851988",
    "symbol": "OLAELEC",
    "exchange": "NSE",
