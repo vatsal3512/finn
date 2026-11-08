@@ -20,7 +20,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": 0.789,
+    "vol_ratio": 0.152
+   },
    "score": 0.0,
    "group_id": "OLAELEC:results:2026-11-07",
    "group_lead": true,
@@ -46,7 +50,11 @@
     "postal_ballot"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": -0.526,
+    "vol_ratio": 0.21
+   },
    "score": 0.0,
    "group_id": "HDFCBANK:postal_ballot:2026-11-06",
    "group_lead": true,
@@ -79,7 +87,11 @@
     "management_change"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": -0.668,
+    "vol_ratio": 0.058
+   },
    "score": 58.0,
    "group_id": "ASIANPAINT:management_change:2026-11-06",
    "group_lead": false,
@@ -105,7 +117,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": -0.407,
+    "vol_ratio": 0.124
+   },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-11-06",
    "group_lead": true,
@@ -177,7 +193,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": -0.668,
+    "vol_ratio": 0.058
+   },
    "score": 58.0,
    "group_id": "ASIANPAINT:management_change:2026-11-06",
    "group_lead": true,
@@ -203,7 +223,11 @@
     "postal_ballot"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": -0.668,
+    "vol_ratio": 0.058
+   },
    "score": 0.0,
    "group_id": "ASIANPAINT:postal_ballot:2026-11-06",
    "group_lead": true,
@@ -229,7 +253,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": 0.303,
+    "vol_ratio": 0.199
+   },
    "score": 0.0,
    "group_id": "RELIANCE:results:2026-11-06",
    "group_lead": true,
@@ -255,7 +283,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": -1.03,
+    "vol_ratio": 0.046
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-11-06",
    "group_lead": false,
@@ -281,7 +313,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-08",
+    "ret_pct": 2.205,
+    "vol_ratio": 0.082
+   },
    "score": 0.0,
    "group_id": "EMUDHRA:results:2026-11-06",
    "group_lead": true,
