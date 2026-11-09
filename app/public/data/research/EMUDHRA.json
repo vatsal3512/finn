@@ -3,9 +3,9 @@
  "symbol": "EMUDHRA",
  "name": "eMudhra",
  "basis": "consolidated",
- "generated_at": "2026-11-05T14:10:16+00:00",
+ "generated_at": "2026-11-09T14:55:37+00:00",
  "snapshot": {
-  "about": "eMudhra provides identity, trust, cybersecurity platforms, digital signature solutions, and certificate lifecycle management.",
+  "about": "Provider of trust identity, digital signature, eSign, and enterprise data protection and cybersecurity platform solutions.",
   "latest_quarter": "Q2 FY27",
   "revenue": 207.0,
   "revenue_yoy": 19.7,
@@ -13,58 +13,8 @@
   "net_profit_yoy": 26.9,
   "ebitda_margin": 24.0
  },
- "narrative": "Management met its FY26 revenue guidance of ₹700 crore by achieving ₹702 crore and met EBITDA margin guidance at 23.0%. However, FY26 PAT margin of 15.4% slightly missed the guided range of 15.5% to 16.0%.",
+ "narrative": "Management met its full-year FY26 revenue guidance of ₹700 crore, delivering ₹702 crore. EBITDA margin aligned at 23.0% against guided 23-24%. However, reported free cash flow remains negative at minus ₹88 crore across four of five years.",
  "promises": [
-  {
-   "id": "P3",
-   "metric": "PAT Margin",
-   "period": "FY26",
-   "target": "15.5–16%",
-   "statement": "Management expects FY26 PAT margin to be between 15.5% and 16%.",
-   "said": {
-    "quote": "More than EBITDA margin, the PAT only, we are thinking of around that same 16%, 15.5% to 16%, what I guided earlier",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 17,
-    "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "We closed the year with a total income of INR7,132 million, up 35% year-on-year",
-    "source": "Q4 FY26 call, 7 May 2026",
-    "page": 3,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
-   },
-   "verdict": "missed",
-   "verdict_by": "model",
-   "note": "FY26 PAT margin was 15.4%, missing guided range of 15.5% to 16.0%."
-  },
-  {
-   "id": "P2",
-   "metric": "Revenue Growth",
-   "period": "FY26",
-   "target": "25–30%",
-   "statement": "Management expects to maintain 25% to 30% overall revenue growth compared to last year.",
-   "said": {
-    "quote": "the overall growth compared to last year to this year, what I said earlier around 25%, 30% can easily be maintained",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 6,
-    "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": "35.3%",
-   "actual_source": {
-    "quote": "Revenue Growth, FY26: 35.3%",
-    "source": "screener.in, compiled from the company's filed results",
-    "page": null,
-    "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
-   },
-   "verdict": "beat",
-   "verdict_by": "code",
-   "note": null
-  },
   {
    "id": "P1",
    "metric": "Revenue",
@@ -78,18 +28,7 @@
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
    },
    "repeated_in": [],
-   "revised_from": [
-    {
-     "target": "₹675–700 crore",
-     "source": "Q2 FY26 call, 5 Nov 2025",
-     "said": {
-      "quote": "But for us to achieve this earlier, we said INR 700 crores, INR 675 crores to INR 700 crores",
-      "source": "Q2 FY26 call, 5 Nov 2025",
-      "page": 6,
-      "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
-     }
-    }
-   ],
+   "revised_from": [],
    "actual": "₹702 crore",
    "actual_source": {
     "quote": "Revenue, FY26: ₹702 crore",
@@ -102,7 +41,7 @@
    "note": null
   },
   {
-   "id": "P7",
+   "id": "P2",
    "metric": "EBITDA margin",
    "period": "FY26",
    "target": "23–24%",
@@ -127,7 +66,7 @@
    "note": null
   },
   {
-   "id": "P17",
+   "id": "P12",
    "metric": "Three-year PAT growth target",
    "period": null,
    "target": "2 x",
@@ -141,18 +80,13 @@
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "Our ambition is to double PAT over the next 3 years",
-    "source": "Q4 FY26 call, 7 May 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
-   },
-   "verdict": "on_track",
+   "actual_source": null,
+   "verdict": "pending",
    "verdict_by": "model",
-   "note": "Three-year vision to double PAT runs through FY29."
+   "note": null
   },
   {
-   "id": "P18",
+   "id": "P13",
    "metric": "Organic annual growth outlook",
    "period": null,
    "target": "18–20%",
@@ -166,43 +100,13 @@
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "During the quarter, our total income grew by 28% YoY to INR 1,925 million",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "verdict": "on_track",
+   "actual_source": null,
+   "verdict": "pending",
    "verdict_by": "model",
-   "note": "Q1 FY27 total income grew 28% YoY, tracking ahead of 18-20% target."
+   "note": null
   },
   {
-   "id": "P20",
-   "metric": "Enterprise Solution annual growth outlook",
-   "period": null,
-   "target": "20–25%",
-   "statement": "Enterprise Solution business is expected to grow 20-25% per year.",
-   "said": {
-    "quote": "The Enterprise Solution business will grow more, maybe 20-25% per year",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 21,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": {
-    "quote": "Enterprise Solutions remained our primary growth engine, growing approximately 50% YoY, and contributing 65% of total income",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 4,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
-   "verdict": "on_track",
-   "verdict_by": "model",
-   "note": "Enterprise Solutions grew ~50% YoY in Q1 FY27, exceeding annual target."
-  },
-  {
-   "id": "P19",
+   "id": "P14",
    "metric": "Trust Service annual growth outlook",
    "period": null,
    "target": "15–20%",
@@ -222,7 +126,47 @@
    "note": null
   },
   {
-   "id": "P9",
+   "id": "P15",
+   "metric": "Enterprise Solution annual growth outlook",
+   "period": null,
+   "target": "20–25%",
+   "statement": "Enterprise Solution business is expected to grow 20-25% per year.",
+   "said": {
+    "quote": "The Enterprise Solution business will grow more, maybe 20-25% per year",
+    "source": "Q1 FY27 call, 30 Jul 2026",
+    "page": 21,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P19",
+   "metric": "EBITDA margin",
+   "period": null,
+   "target": "25%",
+   "statement": "Management aims to maintain consolidated EBITDA margins around the 25% level.",
+   "said": {
+    "quote": "EBITDA margins are around the 25%. That we will try and maintain because, obviously, our focus is more on the solutions business",
+    "source": "Q2 FY27 call, 5 Nov 2026",
+    "page": 8,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P4",
    "metric": "Organic revenue growth",
    "period": "FY27",
    "target": "18%",
@@ -253,7 +197,7 @@
    "note": null
   },
   {
-   "id": "P10",
+   "id": "P5",
    "metric": "PAT growth target",
    "period": "FY27",
    "target": "25%",
@@ -284,7 +228,7 @@
    "note": null
   },
   {
-   "id": "P12",
+   "id": "P7",
    "metric": "US product segment revenue growth",
    "period": "FY27",
    "target": "25–30%",
@@ -306,7 +250,7 @@
    "note": null
   },
   {
-   "id": "P13",
+   "id": "P8",
    "metric": "Trust services growth",
    "period": "FY27",
    "target": "20%",
@@ -320,18 +264,13 @@
    "repeated_in": [],
    "revised_from": [],
    "actual": null,
-   "actual_source": {
-    "quote": "while the Trust Service revenue was INR 284 million",
-    "source": "Q1 FY27 call, 30 Jul 2026",
-    "page": 5,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
-   },
+   "actual_source": null,
    "verdict": "pending",
    "verdict_by": "model",
    "note": null
   },
   {
-   "id": "P14",
+   "id": "P9",
    "metric": "Cryptas Net Profit",
    "period": "FY27",
    "target": "$1 million",
@@ -351,7 +290,7 @@
    "note": null
   },
   {
-   "id": "P15",
+   "id": "P10",
    "metric": "EBITDA margin outlook",
    "period": "FY27",
    "target": "25%",
@@ -371,7 +310,7 @@
    "note": null
   },
   {
-   "id": "P16",
+   "id": "P11",
    "metric": "PAT margin outlook",
    "period": "FY27",
    "target": "16–16.5%",
@@ -391,7 +330,87 @@
    "note": null
   },
   {
-   "id": "P11",
+   "id": "P16",
+   "metric": "CapEx",
+   "period": "FY27",
+   "target": "₹23 crore",
+   "statement": "Incremental planned CapEx for FY27 is around INR 23 crore.",
+   "said": {
+    "quote": "Our incremental planned CapEx for the year is around INR 23 crore",
+    "source": "Q2 FY27 call, 5 Nov 2026",
+    "page": 4,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P17",
+   "metric": "Revenue",
+   "period": "FY27",
+   "target": "₹800 crore",
+   "statement": "Revised FY27 total revenue is expected to be about INR 800 crore.",
+   "said": {
+    "quote": "We now expect our revenue to be about INR 800 crore and PAT of around INR 125 crore",
+    "source": "Q2 FY27 call, 5 Nov 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P18",
+   "metric": "PAT",
+   "period": "FY27",
+   "target": "₹125 crore",
+   "statement": "Revised FY27 PAT is expected to be around INR 125 crore.",
+   "said": {
+    "quote": "We now expect our revenue to be about INR 800 crore and PAT of around INR 125 crore",
+    "source": "Q2 FY27 call, 5 Nov 2026",
+    "page": 6,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "code",
+   "note": null
+  },
+  {
+   "id": "P20",
+   "metric": "Trust services revenue growth",
+   "period": "FY27",
+   "target": "10–12%",
+   "statement": "Trust services segment revenue was projected to grow around 10-12%.",
+   "said": {
+    "quote": "So that way, even we had not projected much growth for the Trust services. It was projected to be around 10-12% growth only",
+    "source": "Q2 FY27 call, 5 Nov 2026",
+    "page": 9,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+   },
+   "repeated_in": [],
+   "revised_from": [],
+   "actual": null,
+   "actual_source": null,
+   "verdict": "pending",
+   "verdict_by": "model",
+   "note": null
+  },
+  {
+   "id": "P6",
    "metric": "PAT doubling target",
    "period": "FY29",
    "target": null,
@@ -411,47 +430,7 @@
    "note": null
   },
   {
-   "id": "P5",
-   "metric": "Cash Reserves",
-   "period": "FY26",
-   "target": "₹125–140 crore",
-   "statement": "Management expects cash reserves to reach INR 125 to 140 crores by the end of FY26.",
-   "said": {
-    "quote": "we are confident, maybe it may go to INR 130 crores or INR 140 crores or at least INR 125 crores something it should go",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 18,
-    "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P6",
-   "metric": "Trust Services Revenue",
-   "period": "FY26",
-   "target": "₹120–130 crore",
-   "statement": "Trust service revenue for the full year is expected to reach INR 120 crores to INR 130 crores.",
-   "said": {
-    "quote": "now we feel from INR 100 crores, it may go to INR 120 crores or INR 130 crores revenue for the whole year",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 11,
-    "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P8",
+   "id": "P3",
    "metric": "Capex",
    "period": "FY26",
    "target": "₹75–80 crore",
@@ -461,26 +440,6 @@
     "source": "Q3 FY26 call, 3 Feb 2026",
     "page": 11,
     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
-   },
-   "repeated_in": [],
-   "revised_from": [],
-   "actual": null,
-   "actual_source": null,
-   "verdict": "unclear",
-   "verdict_by": "model",
-   "note": null
-  },
-  {
-   "id": "P4",
-   "metric": "Cryptas Profitability",
-   "period": "H1 FY27",
-   "target": null,
-   "statement": "Management expects Cryptas business to become profitable over the next 2 quarters.",
-   "said": {
-    "quote": "While integration efforts for Cryptas are underway, we expect the business to turn profitable over the next 2 quarters",
-    "source": "Q2 FY26 call, 5 Nov 2025",
-    "page": 3,
-    "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -556,16 +515,22 @@
     "url": "https://www.screener.in/company/EMUDHRA/consolidated/"
    }
   ],
-  "read": "Profits do not consistently turn into cash flow, with free cash flow remaining negative in four out of five years, totaling −₹88 crore."
+  "read": "Profits do not consistently convert into cash flow, as free cash flow was negative in four of five years, totaling minus ₹88 crore."
  },
  "bull": [
   {
-   "point": "Full-year FY26 total income reached ₹713.2 crore, delivering 35% YoY growth and meeting revenue guidance.",
+   "point": "Full-year FY26 total income expanded 35% year-on-year to ₹713.2 crore, delivering on annual revenue guidance of ₹700 crore.",
    "evidence": [
     {
      "quote": "No, we will not revise it, we will achieve that Rs.700 crores",
      "source": "Q3 FY26 call, 3 Feb 2026",
      "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
+    },
+    {
+     "quote": "Yes, EBITDA margin and PAT margin around 15.5% to 16%",
+     "source": "Q3 FY26 call, 3 Feb 2026",
+     "page": 7,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf"
     },
     {
@@ -577,7 +542,7 @@
    ]
   },
   {
-   "point": "Enterprise Solutions revenue grew approximately 50% year-over-year in Q1 FY27, reaching ₹162.3 crore.",
+   "point": "Enterprise Solutions revenue surged 50% year-on-year in Q1 FY27 to ₹162.3 crore, driving overall segment growth.",
    "evidence": [
     {
      "quote": "Enterprise Solutions remained our primary growth engine, growing approximately 50% YoY, and contributing 65% of total income",
@@ -592,11 +557,34 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
     }
    ]
+  },
+  {
+   "point": "Q2 FY27 revenue reached ₹207 crore with net profit rising 26.9% year-on-year to ₹33 crore and EBITDA margin reaching 24.0%.",
+   "evidence": [
+    {
+     "quote": "In the second quarter, total income was INR 209 crore, up nearly 20% over last year",
+     "source": "Q2 FY27 call, 5 Nov 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+    },
+    {
+     "quote": "The EBITDA was INR 51.3 crore at a margin of 24.5%",
+     "source": "Q2 FY27 call, 5 Nov 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+    },
+    {
+     "quote": "and profit after tax was INR 33.4 crore, up 26% on YoY basis",
+     "source": "Q2 FY27 call, 5 Nov 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+    }
+   ]
   }
  ],
  "bear": [
   {
-   "point": "Free cash flow was negative in four of five years, aggregating to −₹88 crore despite reporting positive accounting net profits.",
+   "point": "Free cash flow was negative in four of five years, totaling a cumulative −₹88 crore despite profit growth.",
    "evidence": [
     {
      "quote": "Free cash flow was negative in 4 of 5 years, −₹88 crore in total.",
@@ -607,7 +595,18 @@
    ]
   },
   {
-   "point": "Total cash and cash equivalents declined significantly during FY26 due to heavy acquisitions and capital expenditures.",
+   "point": "Consolidated days sales outstanding remained elevated at 92 days for FY 2026.",
+   "evidence": [
+    {
+     "quote": "The days sales outstanding was at 92 days for FY 2026 as against the 96 days in the previous year on a consolidated basis",
+     "source": "Annual report 2026",
+     "page": 154,
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Consolidated cash and cash equivalents fell by ₹61.7 crore during FY26 due to outlays on acquisitions and capital expenditure.",
    "evidence": [
     {
      "quote": "The cash and cash equivalents decreased from INR 1,885.54 million to INR 1,268.48 Million (decrease of INR 617.06 Million)",
@@ -616,36 +615,16 @@
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf"
     }
    ]
-  },
-  {
-   "point": "Full-year FY26 PAT margin of 15.4% missed management's guidance target range of 15.5% to 16.0%.",
-   "evidence": [
-    {
-     "quote": "More than EBITDA margin, the PAT only, we are thinking of around that same 16%, 15.5% to 16%, what I guided earlier",
-     "source": "Q2 FY26 call, 5 Nov 2025",
-     "page": 17,
-     "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf"
-    },
-    {
-     "quote": "We closed the year with a total income of INR7,132 million, up 35% year-on-year",
-     "source": "Q4 FY26 call, 7 May 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
-    },
-    {
-     "quote": "PAT was INR 1,100 million, growing 26.2% year-over-year with a margin of 15.4%",
-     "source": "Q4 FY26 call, 7 May 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
-    }
-   ]
   }
  ],
- "notes": [
-  "Transcripts for 2025-11 taken from NSE; screener.in had not listed them.",
-  "Q2 FY27 results are out, but that quarter's call transcript is not filed yet, so its guidance is not here."
- ],
+ "notes": [],
  "documents": [
+  {
+   "label": "Q2 FY27 call, 5 Nov 2026",
+   "kind": "transcript",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf",
+   "pages": 20
+  },
   {
    "label": "Q1 FY27 call, 30 Jul 2026",
    "kind": "transcript",
@@ -665,12 +644,6 @@
    "pages": 16
   },
   {
-   "label": "Q2 FY26 call, 5 Nov 2025",
-   "kind": "transcript",
-   "url": "https://nsearchives.nseindia.com/corporate/EMUDHRA2008_11112025105804_Signed_Transcript.pdf",
-   "pages": 21
-  },
-  {
    "label": "Annual report 2026",
    "kind": "annual_report",
    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2f58ef6-1252-40f3-b968-b5b86fe47a81.pdf",
@@ -679,21 +652,20 @@
  ],
  "stats": {
   "calls_read": 4,
-  "claims_found": 52,
-  "quotes_verified": 52,
+  "claims_found": 50,
+  "quotes_verified": 50,
   "quotes_dropped": 0,
-  "graded_by_code": 6,
-  "graded_by_model": 4,
+  "graded_by_code": 7,
+  "graded_by_model": 0,
   "ai_calls": 5,
-  "cached_calls": 0,
+  "cached_calls": 3,
   "models": [
-   "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 102.8
+  "seconds": 70.1
  },
  "changes": [
-  "Now reads the Q2 FY26 call, 5 Nov 2025: 5 promises from it."
+  "Now reads the Q2 FY27 call, 5 Nov 2026: 5 promises from it."
  ],
  "pending": null
 }
