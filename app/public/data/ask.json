@@ -93,60 +93,60 @@
   "nse:106823051": {
    "symbol": "EMUDHRA",
    "question": "What has management said about this on its recent calls?",
-   "addressed": false,
-   "answer": "Management did not discuss any distrust of intermediate CAs, root CA distrust, or key generation flaws. The closest discussion occurred in the Q4 FY26 call, where management stated that a Google policy change regarding multi-purpose and new root certificates had no impact because existing roots remained trusted while new roots were queued.",
+   "addressed": true,
+   "answer": "In November 2026, management explained an October 17 incident where eight weak intermediate TLS certificates were revoked. The affected public TLS business represented 1% of revenue, leading eMudhra to exit publicly trusted TLS certificate sales. Management reduced FY27 revenue guidance by INR 20–23 crore and PAT by INR 10–12 crore, expecting the impact to last two quarters.",
    "evidence": [
     {
-     "quote": "Our new roots have been submitted some time back",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 6,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+     "quote": "On October 17th, an independent researcher reported weak keys in eight intermediate certificates within one of our public TLS hierarchies created during a key-generation ceremony in April 2025",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     },
     {
-     "quote": "So, nothing stops for us because our existing roots are already trusted on Google and we basically have a transition period where the existing roots will continue to work until the new roots are accepted by Google",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 6,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+     "quote": "This affected only our publicly trusted TLS business, which was about 1% of our revenue",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     },
     {
-     "quote": "So, there is really no impact as such",
-     "source": "Q4 FY26 call, May 2026",
-     "page": 6,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d46f071-7e2d-44c1-a8f6-25dfe38c08f9.pdf"
+     "quote": "Given the limited returns from TLS relative to our overall business, we have decided to exit the sale of publicly trusted TLS certificates and focus fully on our core platform",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
    ],
-   "model": "gemini-3.8-flash",
-   "asked_at": "2026-10-30T11:16:09+00:00"
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-09T15:24:41+00:00"
   },
   "nse:106845578": {
    "symbol": "EMUDHRA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In the Q1 FY27 call (July 2026), management reiterated guidance of 18% organic revenue growth, 25% PAT growth, ~25% EBITDA margin, and 16-16.5% PAT margin. The Q2 FY27 results matched these expectations, delivering 19.7% YoY revenue growth (₹207.0 crore), 26.6% YoY PAT growth (₹33.5 crore), a 24.0% EBITDA margin, and a 16.2% PAT margin.",
+   "answer": "Management previously guided FY27 revenue of ~₹825 crore and PAT of ~₹137 crore. Following an October 2026 TLS certificate incident, they revised guidance in November 2026 to ~₹800 crore revenue and ~₹125 crore PAT. Management targets EBITDA margins around 25%. Q2 FY27 results (Revenue ₹207 crore, EBITDA margin 24.0%) align with these lowered expectations.",
    "evidence": [
     {
-     "quote": "Finally, from an outlook perspective, our guidance remains unchanged from what we shared in the previous quarter, that is to achieve an organic growth of 18% and work towards achieving a PAT growth of 25%",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+     "quote": "At the start of the year, we guided a revenue of about INR 825 crores and PAT of about INR 137 crores, about 25% PAT growth. We now expect our revenue to be about INR 800 crore and PAT of around INR 125 crore",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     },
     {
-     "quote": "With the result, overall, if you see, we may be able to maintain this EBITDA at 25% and the PAT around 16-16.5%",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 20,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+     "quote": "EBITDA margins are around the 25%. That we will try and maintain because, obviously, our focus is more on the solutions business, which is anyway slightly high gross margins",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 8,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-05T10:37:10+00:00"
+   "asked_at": "2026-11-09T15:25:09+00:00"
   },
   "nse:106834360": {
    "symbol": "INDIGO",
