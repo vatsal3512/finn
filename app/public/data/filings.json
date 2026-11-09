@@ -20,7 +20,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-09",
+    "ret_pct": -1.675,
+    "vol_ratio": 0.893
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:results:2026-11-09",
    "group_lead": true,
@@ -53,7 +57,11 @@
     "M&A"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-09",
+    "ret_pct": -1.439,
+    "vol_ratio": 0.631
+   },
    "score": 12.0,
    "group_id": "ADANIENT:M&A:2026-11-08",
    "group_lead": true,
