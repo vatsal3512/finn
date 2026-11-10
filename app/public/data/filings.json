@@ -10771,66 +10771,6 @@
    "group_id": "MARUTI:litigation:2026-10-12",
    "group_lead": true,
    "duplicate_of": null
-  },
-  {
-   "id": "nse:106813708",
-   "symbol": "POLYCAB",
-   "exchange": "NSE",
-   "filed_at": "2026-10-10T20:24:14+05:30",
-   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "headline": "Polycab India Limited has informed the Exchange about Schedule of meet",
-   "category": "earnings_call",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "call_material",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_10102026202405_Intimation_of_Earnings_Call.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
-   "insight": null,
-   "events": [
-    "earnings_call"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-12",
-    "ret_pct": 1.817,
-    "vol_ratio": 1.151
-   },
-   "score": 0.0,
-   "group_id": "POLYCAB:results:2026-10-10",
-   "group_lead": true,
-   "duplicate_of": null
-  },
-  {
-   "id": "nse:106813489",
-   "symbol": "DIXON",
-   "exchange": "NSE",
-   "filed_at": "2026-10-10T13:41:35+05:30",
-   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "headline": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
-   "category": "earnings_call",
-   "tier": "routine",
-   "classified_by": "rule",
-   "rule": "call_material",
-   "needs_ai": false,
-   "text_quality": "not_fetched",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_10102026134116_InvestorMeetOutcome10102026.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
-   "insight": null,
-   "events": [
-    "earnings_call"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-12",
-    "ret_pct": -0.892,
-    "vol_ratio": 0.553
-   },
-   "score": 0.0,
-   "group_id": "DIXON:results:2026-10-10",
-   "group_lead": true,
-   "duplicate_of": null
   }
  ]
 }
