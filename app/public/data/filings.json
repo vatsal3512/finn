@@ -1,6 +1,102 @@
 {
  "filings": [
   {
+   "id": "nse:106854012",
+   "symbol": "MARUTI",
+   "exchange": "NSE",
+   "filed_at": "2026-11-10T11:56:00+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Maruti Suzuki India Limited has informed the Exchange about Reference to the Financial Results issued by Suzuki Motor Corporation",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_10112026115416_STxIntimation_SMCResults_FirstHalfYr_10Nov2026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
+   "insight": {
+    "title": "Q2 FY27 Results Announced",
+    "summary": "Revenue reached 53,355.5 crore, up 26.0% year-on-year, while profit after tax declined 26.4% year-on-year to 2,466.1 crore with an EBITDA margin of 8.9%.",
+    "why_it_matters": "Revenue grew significantly by 26.0% YoY to 53,355.5 crore, but profit after tax fell 26.4% YoY to 2,466.1 crore.",
+    "sentiment": "mixed",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "MARUTI",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 53355.5,
+       "previous_quarter": 52469.8,
+       "year_ago": 42344.2,
+       "qoq_pct": 1.7,
+       "yoy_pct": 26.0
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 4764.1,
+       "previous_quarter": 4313.3,
+       "year_ago": 5086.0,
+       "qoq_pct": 10.5,
+       "yoy_pct": -6.3
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 3150.1,
+       "previous_quarter": 4343.5,
+       "year_ago": 4272.0,
+       "qoq_pct": -27.5,
+       "yoy_pct": -26.3
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 2466.1,
+       "previous_quarter": 3446.9,
+       "year_ago": 3349.0,
+       "qoq_pct": -28.5,
+       "yoy_pct": -26.4
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      8.9,
+      8.2,
+      12.0
+     ],
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹69.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
+     "share_of_associates": 69.0,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "MARUTI:results:2026-11-10",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106853703",
    "symbol": "EMUDHRA",
    "exchange": "NSE",
