@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106855722",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-11T20:14:30+05:30",
+   "exchange_label": "Acquisition",
+   "headline": "Adani Enterprises Limited has informed the Exchange about incorporation of Adani Rovuma Chemicals Limited by Adani Global Limited, a wholly owned subsidiary of the Company",
+   "category": "M&A",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "subsidiary_setup",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_11112026201423_AELintimationIncorporation11112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Incorporation of Wholly Owned Subsidiary in UAE",
+    "summary": "Adani Global Limited, a wholly owned subsidiary of the company, has incorporated Adani Rovuma Chemicals Limited in the UAE.",
+    "why_it_matters": "The new subsidiary belongs to the gas to chemical industry and has an initial paid-up share capital of USD 100,000.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "M&A"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 52.0,
+   "group_id": "ADANIENT:M&A:2026-11-11",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106855687",
    "symbol": "ADANIENT",
    "exchange": "NSE",
