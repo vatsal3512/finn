@@ -90,7 +90,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-11",
+    "ret_pct": 1.988,
+    "vol_ratio": 1.825
+   },
    "score": 120.0,
    "group_id": "MARUTI:results:2026-11-10",
    "group_lead": true,
@@ -116,7 +120,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-11",
+    "ret_pct": 0.596,
+    "vol_ratio": 0.13
+   },
    "score": 0.0,
    "group_id": "EMUDHRA:results:2026-11-09",
    "group_lead": true,
@@ -142,7 +150,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-11",
+    "ret_pct": 1.634,
+    "vol_ratio": 1.218
+   },
    "score": 0.0,
    "group_id": "ASIANPAINT:results:2026-11-09",
    "group_lead": true,
