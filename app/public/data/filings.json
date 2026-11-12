@@ -20,7 +20,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": 0.707,
+    "vol_ratio": 0.996
+   },
    "score": 0.0,
    "group_id": "HDFCBANK:results:2026-11-12",
    "group_lead": true,
@@ -46,7 +50,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": -1.221,
+    "vol_ratio": 1.287
+   },
    "score": 0.0,
    "group_id": "MARUTI:results:2026-11-12",
    "group_lead": true,
@@ -80,7 +88,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": 0.995,
+    "vol_ratio": 0.753
+   },
    "score": 52.0,
    "group_id": "ADANIENT:M&A:2026-11-12",
    "group_lead": true,
@@ -113,7 +125,11 @@
     "M&A"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": 0.995,
+    "vol_ratio": 0.753
+   },
    "score": 52.0,
    "group_id": "ADANIENT:M&A:2026-11-11",
    "group_lead": true,
@@ -139,7 +155,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": 0.995,
+    "vol_ratio": 0.753
+   },
    "score": 0.0,
    "group_id": "ADANIENT:results:2026-11-11",
    "group_lead": true,
@@ -165,7 +185,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": -0.616,
+    "vol_ratio": 0.722
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:results:2026-11-11",
    "group_lead": true,
@@ -198,7 +222,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": 0.995,
+    "vol_ratio": 0.753
+   },
    "score": 40.0,
    "group_id": "ADANIENT:press_release:2026-11-11",
    "group_lead": true,
@@ -224,7 +252,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-12",
+    "ret_pct": 3.483,
+    "vol_ratio": 0.983
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:results:2026-11-11",
    "group_lead": true,
