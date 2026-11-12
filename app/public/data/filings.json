@@ -1,6 +1,107 @@
 {
  "filings": [
   {
+   "id": "nse:106856821",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-12T16:28:22+05:30",
+   "exchange_label": "Updates",
+   "headline": "Ola Electric Mobility Limited has informed the Exchange regarding 'Shareholders letter for Q2 FY 27'.",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026162811_SEintimationshareholdersletter.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": {
+    "title": "Shareholders Letter for Q2 FY27 Released",
+    "summary": "The company released its Q2 FY27 shareholders' letter, noting gross margins were stable at about 29.9% while total borrowings fell to ₹1,819 crore in September 2026.",
+    "why_it_matters": "Total debt decreased significantly from ₹3,132 crore in December 2024 to ₹1,819 crore in September 2026 following QIP and rights issue proceeds.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results",
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "OLAELEC:results:2026-11-12",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106856807",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-12T16:19:14+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Ola Electric Mobility Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026161854_EarningscallPPT.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": {
+    "title": "Q2 FY27 Investor Presentation Submitted",
+    "summary": "The company submitted its investor presentation for the quarter ended September 30, 2026, reporting operating expenses of ₹369 crore, down from ₹390 crore in Q1.",
+    "why_it_matters": "Gross margin remained stable at about 29.9% despite higher commodity costs, while operating costs continued to decline.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results",
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 60.0,
+   "group_id": "OLAELEC:results:2026-11-12",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106856770",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-12T16:03:19+05:30",
+   "exchange_label": "Outcome of Board Meeting",
+   "headline": "Ola Electric Mobility Limited has submitted to the Exchange, the unaudited financial results for the quarter and half-year ended September 30, 2026.",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "results",
+   "needs_ai": false,
+   "text_quality": "no_text",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026160156_OutcomeofBMFS12112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": {
+    "title": "Unaudited Q2 FY27 Financial Results Submitted",
+    "summary": "The company submitted its unaudited financial results for the quarter and half-year ended September 30, 2026.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 120.0,
+   "group_id": "OLAELEC:results:2026-11-12",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106856600",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
