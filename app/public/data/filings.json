@@ -256,7 +256,70 @@
    "events": [
     "results"
    ],
-   "cards": [],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "OLAELEC",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 420.0,
+       "previous_quarter": 455.0,
+       "year_ago": 690.0,
+       "qoq_pct": -7.7,
+       "yoy_pct": -39.1
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": -218.0,
+       "previous_quarter": -165.0,
+       "year_ago": -203.0,
+       "qoq_pct": -32.1,
+       "yoy_pct": -7.4
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": -362.0,
+       "previous_quarter": -336.0,
+       "year_ago": -418.0,
+       "qoq_pct": -7.7,
+       "yoy_pct": 13.4
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": -362.0,
+       "previous_quarter": -336.0,
+       "year_ago": -418.0,
+       "qoq_pct": -7.7,
+       "yoy_pct": 13.4
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      -51.9,
+      -36.3,
+      -29.4
+     ],
+     "source": "xbrl",
+     "verified": null,
+     "check_note": "screener.in has no figures for this quarter yet.",
+     "share_of_associates": null,
+     "source_urls": [
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756932_12112026075230_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1710401_08082026043035_WEB.xml",
+      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1567467_06112025094207_WEB.xml"
+     ]
+    }
+   ],
    "price_reaction": null,
    "score": 120.0,
    "group_id": "OLAELEC:results:2026-11-12",
