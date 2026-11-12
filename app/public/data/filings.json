@@ -78,7 +78,24 @@
    "events": [
     "management_change"
    ],
-   "cards": [],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Mr. V. Srinivasa Rangan",
+       "role": "Whole-time Director (designated as Executive Director)",
+       "change": "reappointment",
+       "effective_date": "2026-11-23",
+       "reason": null,
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      }
+     ]
+    }
+   ],
    "price_reaction": null,
    "score": 106.0,
    "group_id": "HDFCBANK:management_change:2026-11-12",
