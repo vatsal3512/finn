@@ -1,6 +1,72 @@
 {
  "filings": [
   {
+   "id": "nse:106857849",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-12T22:42:03+05:30",
+   "exchange_label": "Updates",
+   "headline": "Ola Electric Mobility Limited has informed the Exchange regarding 'Submission of monitoring agency report for the quarter ended September 30, 2026, in relation to the Initial Public Offer (IPO) and Qualified Institutional Placement (QIP)'.",
+   "category": "fund_raise",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "equity_raise_text",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026224128_SEintimationmonitoringagencyreport.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": {
+    "title": "Monitoring Agency Reports Submitted for IPO and QIP Proceeds",
+    "summary": "Ola Electric Mobility Limited has submitted quarterly monitoring agency reports from ICRA Limited and CRISIL Ratings Limited detailing the utilization of IPO and QIP proceeds.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 10.0,
+   "group_id": "OLAELEC:fund_raise:2026-11-12",
+   "group_lead": false,
+   "duplicate_of": "nse:106857847"
+  },
+  {
+   "id": "nse:106857847",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-12T22:39:27+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Submission of monitoring agency report for the quarter ended September 30, 2026, in relation to the Initial Public Offer (IPO) and Qualified Institutional Placement (QIP)",
+   "category": "fund_raise",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "equity_raise_text",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026223916_SEintimationmonitoringagencyreport.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": {
+    "title": "Monitoring Agency Reports Submitted for IPO and QIP Proceeds",
+    "summary": "Ola Electric Mobility Limited has submitted quarterly monitoring agency reports from ICRA Limited and CRISIL Ratings Limited detailing the utilization of IPO and QIP proceeds.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 10.0,
+   "group_id": "OLAELEC:fund_raise:2026-11-12",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106857662",
    "symbol": "RELIANCE",
    "exchange": "NSE",
@@ -336,8 +402,8 @@
       -29.4
      ],
      "source": "xbrl",
-     "verified": null,
-     "check_note": "screener.in has no figures for this quarter yet.",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
       "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756932_12112026075230_WEB.xml",
