@@ -1,6 +1,40 @@
 {
  "filings": [
   {
+   "id": "nse:106856006",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-12T08:22:29+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Adani Enterprises Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Intimation for submission of Media Release for the subject Adani s Kutch Copper and Chile s Codelco Sign Strategic MoU for exploration of Kaburkaala project in Chile\".",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_12112026082223_AELIntimationMediaRelease12112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Kutch Copper signs strategic MoU with Codelco",
+    "summary": "Kutch Copper Ltd signed an MoU with Chile's Codelco for exploration of the Kaburkaala project in Chile.",
+    "why_it_matters": "Links Chilean copper resources with Adani's integrated copper smelter complex at Mundra.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "M&A",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 52.0,
+   "group_id": "ADANIENT:M&A:2026-11-12",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106855722",
    "symbol": "ADANIENT",
    "exchange": "NSE",

@@ -1714,7 +1714,7 @@
    "last_date": "2026-11-11",
    "close": 2109.0,
    "ret_pct": 1.781,
-   "vol_ratio": 0.864,
+   "vol_ratio": 0.866,
    "series": [
     {
      "date": "2026-05-21",
@@ -2553,7 +2553,7 @@
      "date": "2026-11-11",
      "close": 2109.0,
      "ret_pct": 1.781,
-     "vol_ratio": 0.864,
+     "vol_ratio": 0.866,
      "corp_action": null
     }
    ],
@@ -3480,7 +3480,7 @@
     },
     {
      "date": "2026-06-03",
-     "close": 2633.27392578125,
+     "close": 2633.273681640625,
      "ret_pct": 0.064,
      "vol_ratio": 0.695,
      "corp_action": null
@@ -3515,14 +3515,14 @@
     },
     {
      "date": "2026-06-10",
-     "close": 2685.3974609375,
+     "close": 2685.397705078125,
      "ret_pct": 0.258,
      "vol_ratio": 0.986,
      "corp_action": null
     },
     {
      "date": "2026-06-11",
-     "close": 2661.462158203125,
+     "close": 2661.4619140625,
      "ret_pct": -0.891,
      "vol_ratio": 0.531,
      "corp_action": null
@@ -3543,7 +3543,7 @@
     },
     {
      "date": "2026-06-16",
-     "close": 2718.036376953125,
+     "close": 2718.03662109375,
      "ret_pct": 0.321,
      "vol_ratio": 0.68,
      "corp_action": null
@@ -5979,7 +5979,7 @@
    "last_date": "2026-11-11",
    "close": 2714.5,
    "ret_pct": 0.303,
-   "vol_ratio": 1.096,
+   "vol_ratio": 1.097,
    "series": [
     {
      "date": "2026-05-21",
@@ -6818,7 +6818,7 @@
      "date": "2026-11-11",
      "close": 2714.5,
      "ret_pct": 0.303,
-     "vol_ratio": 1.096,
+     "vol_ratio": 1.097,
      "corp_action": null
     }
    ],
@@ -9391,7 +9391,7 @@
    "last_date": "2026-11-11",
    "close": 1890.0,
    "ret_pct": 0.639,
-   "vol_ratio": 0.715,
+   "vol_ratio": 0.716,
    "series": [
     {
      "date": "2026-05-21",
@@ -10230,7 +10230,7 @@
      "date": "2026-11-11",
      "close": 1890.0,
      "ret_pct": 0.639,
-     "vol_ratio": 0.715,
+     "vol_ratio": 0.716,
      "corp_action": null
     }
    ],
@@ -10244,7 +10244,7 @@
    "last_date": "2026-11-11",
    "close": 1793.800048828125,
    "ret_pct": 0.324,
-   "vol_ratio": 1.055,
+   "vol_ratio": 1.056,
    "series": [
     {
      "date": "2026-05-21",
@@ -11083,7 +11083,7 @@
      "date": "2026-11-11",
      "close": 1793.800048828125,
      "ret_pct": 0.324,
-     "vol_ratio": 1.055,
+     "vol_ratio": 1.056,
      "corp_action": null
     }
    ],
