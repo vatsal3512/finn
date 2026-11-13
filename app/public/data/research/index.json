@@ -156,11 +156,11 @@
   {
    "symbol": "OLAELEC",
    "name": "Ola Electric",
-   "generated_at": "2026-10-29T07:52:30+00:00",
-   "promises": 15,
-   "missed": 2,
-   "kept": 0,
-   "pending": 10
+   "generated_at": "2026-11-13T10:53:05+00:00",
+   "promises": 22,
+   "missed": 6,
+   "kept": 1,
+   "pending": 11
   },
   {
    "symbol": "PAYTM",
