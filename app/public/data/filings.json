@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106858542",
+   "symbol": "OLAELEC",
+   "exchange": "NSE",
+   "filed_at": "2026-11-13T13:51:26+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Submission of Newspaper Advertisements in respect of the Unaudited Standalone andConsolidated Financial Results for the Second Quarter and Half-Year ended September 30, 2026.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_13112026135115_SEintimationnewspaperadv.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=OLAELEC",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "OLAELEC:unclassified:2026-11-13",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106857849",
    "symbol": "OLAELEC",
    "exchange": "NSE",
