@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106858944",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-13T16:35:23+05:30",
+   "exchange_label": "Change in Director(s)",
+   "headline": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": {
+    "title": "Re-appointment of Executive Director Approved",
+    "summary": "The Board approved the re-appointment of Mr. V. Srinivasa Rangan as Executive Director for a one-year term effective November 23, 2026, subject to shareholder approval.",
+    "why_it_matters": "Ensures executive leadership continuity on the Board following required regulatory approval from the RBI.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 46.0,
+   "group_id": "HDFCBANK:management_change:2026-11-13",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106858812",
    "symbol": "NAZARA",
    "exchange": "NSE",
