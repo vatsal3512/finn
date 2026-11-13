@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106858627",
+   "symbol": "PAYTM",
+   "exchange": "NSE",
+   "filed_at": "2026-11-13T14:42:39+05:30",
+   "exchange_label": "Updates",
+   "headline": "One 97 Communications Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,2015 regarding 'In-principle authorisation granted by the Reserve Bank of India to Paytm Payments Services Limited, a wholly owned subsidiary of the Company, for Prepaid Payment Instruments (PPI)'.",
+   "category": "press_release",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/PAYTM_13112026144214_SE_Disclosure_PPSL_Wallet_License_in_principal_approval_Nov_2026_sd.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PAYTM",
+   "insight": {
+    "title": "RBI Grants In-Principle PPI Authorisation to Subsidiary",
+    "summary": "The Reserve Bank of India granted in-principle authorisation to subsidiary Paytm Payments Services Limited to issue Prepaid Payment Instruments.",
+    "why_it_matters": "This allows the subsidiary to offer wallets to customers after final authorisation, directly addressing a key product capability.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 100.0,
+   "group_id": "PAYTM:press_release:2026-11-13",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106858542",
    "symbol": "OLAELEC",
    "exchange": "NSE",
