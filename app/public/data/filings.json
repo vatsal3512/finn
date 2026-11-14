@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106860689",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-14T15:52:08+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Copy of Newspaper Publication",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_14112026155152_STX_intimation.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "BHARTIARTL:unclassified:2026-11-14",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106859406",
    "symbol": "RELIANCE",
    "exchange": "NSE",
