@@ -650,9 +650,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756932_12112026075230_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1710401_08082026043035_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1567467_06112025094207_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1756932_12112026075230_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1710401_08082026043035_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1567467_06112025094207_WEB.xml"
      ]
     }
    ],
@@ -1012,9 +1012,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹69.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
      "share_of_associates": 69.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
      ]
     }
    ],
@@ -1655,9 +1655,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 109.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
      ]
     }
    ],
@@ -2091,9 +2091,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 109.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
      ]
     }
    ],
@@ -2423,9 +2423,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 0.1,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1753281_04112026103821_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704286_29072026061404_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1743642_21102026105335_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1753281_04112026103821_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704286_29072026061404_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1743642_21102026105335_WEB.xml"
      ]
     }
    ],
@@ -2822,9 +2822,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],
@@ -3214,9 +3214,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],
@@ -3923,9 +3923,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 300.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750537_30102026093254_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1695741_17072026075004_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552809_17102025073643_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750537_30102026093254_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1695741_17072026075004_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552809_17102025073643_WEB.xml"
      ]
     }
    ],
@@ -4160,9 +4160,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 2.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706200_31072026061259_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552946_17102025091526_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706200_31072026061259_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552946_17102025091526_WEB.xml"
      ]
     },
     {
@@ -4338,9 +4338,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],
@@ -4818,9 +4818,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748898_29102026043937_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1700112_23072026054230_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565177_04112025075201_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1748898_29102026043937_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1700112_23072026054230_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1565177_04112025075201_WEB.xml"
      ]
     }
    ],
@@ -5071,9 +5071,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹42.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
      "share_of_associates": 42.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
      ]
     }
    ],
@@ -5773,9 +5773,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 166.3,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1748357_28102026103427_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1704483_29072026074413_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565340_04112025110537_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1748357_28102026103427_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704483_29072026074413_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1565340_04112025110537_WEB.xml"
      ]
     }
    ],
@@ -6472,9 +6472,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹69.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
      "share_of_associates": 69.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
      ]
     }
    ],
@@ -6678,9 +6678,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": 48.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756486_12112026030442_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1705555_30072026070928_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1558152_27102025101645_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1756486_12112026030442_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1705555_30072026070928_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1558152_27102025101645_WEB.xml"
      ]
     }
    ],
@@ -7247,9 +7247,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": -3.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1746348_26102026105317_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1697644_20072026103818_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1565343_04112025111747_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1746348_26102026105317_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1697644_20072026103818_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1565343_04112025111747_WEB.xml"
      ]
     }
    ],
@@ -7587,9 +7587,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹23.5 crore share of associates' loss outside EBITDA, PBT; screener.in counts it inside, and the check allows for that.",
      "share_of_associates": -23.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1746358_26102026114756_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1707299_03082026104926_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1573094_12112025104605_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1746358_26102026114756_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1707299_03082026104926_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1573094_12112025104605_WEB.xml"
      ]
     }
    ],
@@ -7857,9 +7857,9 @@
      "check_note": "Matches screener.in on PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1744877_23102026062324_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1699401_22072026052845_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1553732_18102025053600_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1744877_23102026062324_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1699401_22072026052845_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1553732_18102025053600_WEB.xml"
      ]
     }
    ],
@@ -8523,9 +8523,9 @@
      "check_note": "Matches screener.in on PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1744877_23102026062324_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1699401_22072026052845_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1553732_18102025053600_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1744877_23102026062324_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1699401_22072026052845_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1553732_18102025053600_WEB.xml"
      ]
     }
    ],
@@ -9236,9 +9236,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1699577_22072026071843_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1550469_16102025050416_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1743410_21102026064843_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1699577_22072026071843_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1550469_16102025050416_WEB.xml"
      ]
     }
    ],
@@ -9778,9 +9778,9 @@
      "check_note": "Differs from screener.in on pbt (27,826 vs 28,663), pat (20,700 vs 21,537).",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1696123_18072026040126_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1553886_18102025082322_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1696123_18072026040126_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1553886_18102025082322_WEB.xml"
      ]
     }
    ],
@@ -10409,9 +10409,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1739401_15102026080919_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1706739_02082026064511_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1548199_14102025081605_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1739401_15102026080919_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706739_02082026064511_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1548199_14102025081605_WEB.xml"
      ]
     }
    ],
@@ -10620,9 +10620,9 @@
      "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1738868_15102026035523_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1694176_16072026035916_WEB.xml",
-      "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1552465_17102025061553_WEB.xml"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1738868_15102026035523_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1694176_16072026035916_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552465_17102025061553_WEB.xml"
      ]
     }
    ],
