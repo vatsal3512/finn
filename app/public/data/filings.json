@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106860939",
+   "symbol": "NAZARA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-14T17:55:28+05:30",
+   "exchange_label": "Monitoring Agency Report",
+   "headline": "Monitoring Agency Report for the quarter ended September 30, 2026.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "monitoring_agency",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/NAZARA_14112026175419_MonitoringAgencyReportwithCL.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "NAZARA:unclassified:2026-11-14",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106860689",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
