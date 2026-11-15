@@ -328,37 +328,31 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-10-30T11:16:11+00:00"
   },
-  "nse:106818661": {
-   "symbol": "PERSISTENT",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+  "nse:106836183": {
+   "symbol": "OLAELEC",
+   "question": "What has management said about raising money: how much, why, and what it is for?",
    "addressed": true,
-   "answer": "In June 2026, management stated that a major $650 million deal would be revenue and margin accretive starting Q2 FY27. They also maintained an aspirational EBIT margin target of 16% to 17%. The 30.3% YoY revenue growth matched growth expectations, but Q2 EBIT margin came in lower at 15% due to wage hikes and deal amortization.",
+   "answer": "In August 2026 (Q1 FY27), management stated it successfully completed a ₹780 crore QIP to strengthen the balance sheet and gain financial flexibility for growth. Additionally, to expand Cell capacity from 6 GWh to 20 GWh in FY27, management plans to raise separate equity directly in the Cell subsidiary rather than using parent entity equity.",
    "evidence": [
     {
-     "quote": "And yes, it will be accretive - revenue & margin from Q2 onwards",
+     "quote": "The balance sheet strengthened during the quarter through the successful completion of a ₹780 crore QIP, giving us greater financial flexibility as we pursue the next phase of our growth",
      "source": "Q1 FY27 call, Aug 2026",
-     "page": 25,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf"
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
     },
     {
-     "quote": "Yeah, so from our perspective we have said we want to be in the 16 to 17 % range, that is our aspiration",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 19,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
-    },
-    {
-     "quote": "EBIT margins for Q2 FY27 came in at 15%, 130 basis points declined year-on-year",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 8,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+     "quote": "At that point, we will aim to scale from 6 GWh to 20 GWh, but only by bringing equity into the Cell company. We will not use equity from the parent entity for that expansion; we will raise separate equity at the right time",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
     }
    ],
    "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Aug 2026"
+    "Q1 FY27 call, Aug 2026",
+    "Q4 FY26 call, May 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:11+00:00"
+   "asked_at": "2026-11-15T00:28:45+00:00"
   }
  }
 }
