@@ -259,3 +259,25 @@ def test_a_flash_only_call_skips_the_fallback_and_its_cached_answer(tmp_path):
     L.LLM._busy_until.clear()
     out = llm.json("t", L.Tier.FLASH, "p", Answer, system="s", version="v1", fallback=False)
     assert out.value.startswith("gemini") and len(q.calls) == 1
+
+
+def test_finn_uses_only_its_first_ten_gemini_keys(tmp_path, monkeypatch):
+    from finn.ai.llm import LLM
+    from finn.store import connect
+
+    monkeypatch.setenv("GEMINI_API_KEYS", ",".join(f"secret{i}" for i in range(1, 15)))
+    for offset in (0, 3, 6, 7, 9, 12):
+        llm = LLM.from_env(connect(tmp_path / "t.db"), key_offset=offset)
+        aliases = [k.alias for k in llm.gemini_pool.keys]
+        assert len(aliases) == 10 and not {
+            "gemini-11",
+            "gemini-12",
+            "gemini-13",
+            "gemini-14",
+        } & set(aliases)
+    # Each task still starts on the same key as with all fourteen.
+    starts = {
+        o: LLM.from_env(connect(tmp_path / "t.db"), key_offset=o).gemini_pool.keys[0].alias
+        for o in (0, 3, 6, 7, 9)
+    }
+    assert starts == {0: "gemini-1", 3: "gemini-4", 6: "gemini-7", 7: "gemini-8", 9: "gemini-10"}

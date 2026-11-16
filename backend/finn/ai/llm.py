@@ -43,7 +43,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, ValidationError
 
 from finn.ai.keys import Key, KeyPool, keys_from_env, seconds_until_quota_reset
-from finn.config import ROOT
+from finn.config import GEMINI_KEYS_FOR_FINN, ROOT
 from finn.store import now_iso
 
 log = logging.getLogger(__name__)
@@ -292,7 +292,7 @@ class LLM:
     def from_env(cls, conn: sqlite3.Connection, key_offset: int = 0) -> LLM:
         """key_offset rotates the key order, so parallel workers start on different keys."""
         load_dotenv(ROOT / "backend" / ".env")
-        gemini = keys_from_env("gemini", "GEMINI_API_KEYS")
+        gemini = keys_from_env("gemini", "GEMINI_API_KEYS")[:GEMINI_KEYS_FOR_FINN]
         if gemini:
             k = key_offset % len(gemini)
             gemini = gemini[k:] + gemini[:k]

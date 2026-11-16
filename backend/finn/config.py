@@ -89,4 +89,7 @@ EXPORT_PRICE_SESSIONS = 120  # enough for sparklines and recent alert history
 
 # Fundamentals depth (decision D6)
 TRANSCRIPTS_PER_COMPANY = 4
+# FINN uses only the first ten Gemini keys in GEMINI_API_KEYS; the rest are kept for other
+# work (16 Nov 2026). Its busiest day so far needed 115 calls.
+GEMINI_KEYS_FOR_FINN = 10
 ANNUAL_REPORTS_PER_COMPANY = 1
