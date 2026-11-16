@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106861876",
+   "symbol": "POLYCAB",
+   "exchange": "NSE",
+   "filed_at": "2026-11-16T11:28:25+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "analyst_meet_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026112810_Intimationtostockexchange.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
+   "insight": null,
+   "events": [
+    "investor_meetings"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "POLYCAB:investor_meetings:2026-11-16",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106860939",
    "symbol": "NAZARA",
    "exchange": "NSE",
