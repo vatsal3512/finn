@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-16T11:43:50+00:00",
+ "generated_at": "2026-11-16T12:14:13+00:00",
  "latest_session": "2026-11-16",
  "filings_window_days": 30,
  "counts": {
@@ -28,6 +28,43 @@
    "gemini-3.6-flash": 172,
    "gemini-3.8-flash": 7,
    "openai/gpt-oss-120b": 19
+  },
+  "by_key": {
+   "gemini-1": 123,
+   "gemini-10": 98,
+   "gemini-11": 25,
+   "gemini-12": 4,
+   "gemini-13": 2,
+   "gemini-2": 21,
+   "gemini-3": 15,
+   "gemini-4": 17,
+   "gemini-5": 9,
+   "gemini-6": 2,
+   "gemini-7": 13,
+   "gemini-8": 22,
+   "gemini-9": 12,
+   "groq-1": 12,
+   "groq-2": 4,
+   "groq-3": 3
+  },
+  "failed_by_key": {
+   "gemini-1": 78,
+   "gemini-10": 46,
+   "gemini-11": 29,
+   "gemini-12": 4,
+   "gemini-13": 3,
+   "gemini-14": 4,
+   "gemini-2": 60,
+   "gemini-3": 15,
+   "gemini-4": 12,
+   "gemini-5": 11,
+   "gemini-6": 2,
+   "gemini-7": 6,
+   "gemini-8": 74,
+   "gemini-9": 55,
+   "groq-1": 4,
+   "groq-2": 3,
+   "groq-3": 3
   },
   "cached_answers": 300
  },
