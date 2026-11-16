@@ -27,7 +27,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": -1.079,
+    "vol_ratio": 0.625
+   },
    "score": 40.0,
    "group_id": "ADANIENT:press_release:2026-11-16",
    "group_lead": true,
@@ -53,7 +57,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": 0.652,
+    "vol_ratio": 0.576
+   },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-11-16",
    "group_lead": true,
@@ -79,7 +87,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": 1.175,
+    "vol_ratio": 0.945
+   },
    "score": 0.0,
    "group_id": "NAZARA:unclassified:2026-11-14",
    "group_lead": true,
@@ -105,7 +117,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": 2.255,
+    "vol_ratio": 0.893
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-14",
    "group_lead": true,
@@ -131,7 +147,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": 0.381,
+    "vol_ratio": 0.349
+   },
    "score": 0.0,
    "group_id": "RELIANCE:results:2026-11-13",
    "group_lead": true,
@@ -157,7 +177,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": -0.828,
+    "vol_ratio": 0.201
+   },
    "score": 0.0,
    "group_id": "EMUDHRA:results:2026-11-13",
    "group_lead": true,
@@ -190,7 +214,11 @@
     "management_change"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": 1.555,
+    "vol_ratio": 0.689
+   },
    "score": 46.0,
    "group_id": "HDFCBANK:management_change:2026-11-13",
    "group_lead": true,
@@ -216,7 +244,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-16",
+    "ret_pct": 1.175,
+    "vol_ratio": 0.945
+   },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-11-13",
    "group_lead": true,
