@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106862826",
+   "symbol": "RELIANCE",
+   "exchange": "NSE",
+   "filed_at": "2026-11-16T19:26:15+05:30",
+   "exchange_label": "Updates",
+   "headline": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting.",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=RELIANCE",
+   "insight": {
+    "title": "Participation in Institutional Investors' Meeting",
+    "summary": "Company executives participated in the CLSA India Forum and no unpublished price sensitive information was shared.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "investor_meetings"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "RELIANCE:investor_meetings:2026-11-16",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106862795",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
