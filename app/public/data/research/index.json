@@ -111,11 +111,11 @@
   {
    "symbol": "KAYNES",
    "name": "Kaynes Technology",
-   "generated_at": "2026-10-29T07:19:26+00:00",
-   "promises": 24,
+   "generated_at": "2026-11-16T00:08:49+00:00",
+   "promises": 27,
    "missed": 3,
-   "kept": 0,
-   "pending": 18
+   "kept": 1,
+   "pending": 19
   },
   {
    "symbol": "LT",
