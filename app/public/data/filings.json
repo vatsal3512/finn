@@ -1,6 +1,66 @@
 {
  "filings": [
   {
+   "id": "nse:106862889",
+   "symbol": "NAZARA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-16T20:39:55+05:30",
+   "exchange_label": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "headline": "Nazara Technologies Limited informs the Exchange about Schedule of meet.",
+   "category": "earnings_call",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "call_material",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/NAZARA_16112026203908_IntimationInvestorMeet.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=NAZARA",
+   "insight": null,
+   "events": [
+    "earnings_call"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "NAZARA:results:2026-11-16",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106862868",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-11-16T20:14:56+05:30",
+   "exchange_label": "Agreements",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange about execution of an Asset Purchase Agreement between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+   "category": "M&A",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026201438_Regulation30AnnouncementVimal16112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Asset Purchase Agreement with Vimal Plast",
+    "summary": "The company entered into an Asset Purchase Agreement to acquire movable assets from Vimal Plast (India) Private Limited for up to INR 49,75,00,000/- excluding applicable taxes.",
+    "why_it_matters": "The acquisition amount of up to INR 49,75,00,000/- is small relative to the annual revenue of about ₹58,525 crore.",
+    "sentiment": "positive",
+    "amount_inr_crore": 49.75,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "M&A",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 52.0,
+   "group_id": "DIXON:M&A:2026-11-16",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106862826",
    "symbol": "RELIANCE",
    "exchange": "NSE",
