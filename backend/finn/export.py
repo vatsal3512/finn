@@ -195,11 +195,17 @@ def ai_stats(conn: sqlite3.Connection) -> C.AIStats:
         "FROM ai_usage WHERE ok = 1 GROUP BY model"
     ).fetchall()
     cached = conn.execute("SELECT COUNT(*) FROM ai_cache").fetchone()[0]
+    per_key = conn.execute(
+        "SELECT key_alias, SUM(ok = 1) AS ok, SUM(ok = 0) AS failed FROM ai_usage GROUP BY key_alias"
+    ).fetchall()
     return C.AIStats(
         calls=sum(r["n"] for r in rows),
         input_tokens=sum(r["i"] for r in rows),
         output_tokens=sum(r["o"] for r in rows),
         by_model={r["model"]: r["n"] for r in rows},
+        # Labels only, never keys: which keys carry the load, and which run into their limits.
+        by_key={r["key_alias"]: r["ok"] for r in per_key if r["ok"]},
+        failed_by_key={r["key_alias"]: r["failed"] for r in per_key if r["failed"]},
         cached_answers=cached,
     )
 

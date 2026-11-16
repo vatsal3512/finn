@@ -51,3 +51,20 @@ def test_export_matches_contract(tmp_path):
         "portfolio", "filings", "meta", "research_report", "research_index", "ask",
     }  # fmt: skip
     assert "ResultsCard" in schema["$defs"] and "Guidance" in schema["$defs"]
+
+
+def test_ai_summary_counts_calls_per_key_label_never_the_key(tmp_path):
+    from finn.export import ai_stats
+    from finn.store import connect
+
+    conn = connect(tmp_path / "t.db")
+    rows = [("gemini-1", 1), ("gemini-1", 1), ("gemini-1", 0), ("gemini-2", 1), ("groq-1", 0)]
+    for alias, ok in rows:
+        conn.execute(
+            "INSERT INTO ai_usage (at, provider, model, key_alias, task, ok) VALUES (?, ?, ?, ?, ?, ?)",
+            ("2026-11-16T10:00:00+00:00", alias.split("-")[0], "m", alias, "triage", ok),
+        )
+    s = ai_stats(conn)
+    assert s.calls == 3
+    assert s.by_key == {"gemini-1": 2, "gemini-2": 1}
+    assert s.failed_by_key == {"gemini-1": 1, "groq-1": 1}

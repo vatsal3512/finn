@@ -189,6 +189,18 @@ export interface AIStats {
   by_model: {
     [k: string]: number;
   };
+  /**
+   * successful calls per key label, such as "gemini-3"
+   */
+  by_key?: {
+    [k: string]: number;
+  };
+  /**
+   * failed attempts per key label: rate limits, busy models
+   */
+  failed_by_key?: {
+    [k: string]: number;
+  };
   cached_answers: number;
 }
 export interface ResearchReport {

@@ -17,6 +17,20 @@
      },
      "type": "object"
     },
+    "by_key": {
+     "additionalProperties": {
+      "type": "integer"
+     },
+     "description": "successful calls per key label, such as \"gemini-3\"",
+     "type": "object"
+    },
+    "failed_by_key": {
+     "additionalProperties": {
+      "type": "integer"
+     },
+     "description": "failed attempts per key label: rate limits, busy models",
+     "type": "object"
+    },
     "cached_answers": {
      "type": "integer"
     }

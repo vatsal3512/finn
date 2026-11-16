@@ -168,6 +168,12 @@ class AIStats(BaseModel):
     input_tokens: int
     output_tokens: int
     by_model: dict[str, int]
+    by_key: dict[str, int] = Field(
+        default_factory=dict, description='successful calls per key label, such as "gemini-3"'
+    )
+    failed_by_key: dict[str, int] = Field(
+        default_factory=dict, description="failed attempts per key label: rate limits, busy models"
+    )
     cached_answers: int
 
 
