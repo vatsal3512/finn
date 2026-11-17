@@ -332,7 +332,7 @@
    "symbol": "OLAELEC",
    "question": "What has management said about raising money: how much, why, and what it is for?",
    "addressed": true,
-   "answer": "In August 2026 (Q1 FY27), management stated it successfully completed a ₹780 crore QIP to strengthen the balance sheet and gain financial flexibility for growth. Additionally, to expand Cell capacity from 6 GWh to 20 GWh in FY27, management plans to raise separate equity directly in the Cell subsidiary rather than using parent entity equity.",
+   "answer": "Management reported completing a ₹780 crore QIP in Q1 FY27 and a subsequent 60:40 partly paid rights issue to strengthen liquidity, deleverage, and gain financial flexibility. Most raised cash went toward adding capacity or paying down debt. Additionally, they plan to raise external equity directly into the cell company to expand capacity from 6 GWh to 20 GWh.",
    "evidence": [
     {
      "quote": "The balance sheet strengthened during the quarter through the successful completion of a ₹780 crore QIP, giving us greater financial flexibility as we pursue the next phase of our growth",
@@ -341,18 +341,24 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
     },
     {
-     "quote": "At that point, we will aim to scale from 6 GWh to 20 GWh, but only by bringing equity into the Cell company. We will not use equity from the parent entity for that expansion; we will raise separate equity at the right time",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 9,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+     "quote": "Most of the cash we have raised has gone either into adding capacity or into paying down debt during this period",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 4,
+     "url": "https://nsearchives.nseindia.in/corporate/OLAELECTRIC_17112026130433_SEintimationtranscriptearningscall.pdf"
+    },
+    {
+     "quote": "Once we stabilise 6 GWh, over the next couple of quarters, we will definitely look to go to 20 GWh, and we will do that by bringing external equity into the cell company",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 11,
+     "url": "https://nsearchives.nseindia.in/corporate/OLAELECTRIC_17112026130433_SEintimationtranscriptearningscall.pdf"
     }
    ],
    "calls": [
-    "Q1 FY27 call, Aug 2026",
-    "Q4 FY26 call, May 2026"
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
    ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-15T00:28:45+00:00"
+   "model": "gemini-3.8-flash",
+   "asked_at": "2026-11-17T08:18:46+00:00"
   }
  }
 }
