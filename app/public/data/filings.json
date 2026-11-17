@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106863921",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-17T17:57:58+05:30",
+   "exchange_label": "Credit Rating",
+   "headline": "Adani Enterprises Limited has informed the Exchange about Credit Rating",
+   "category": "credit_rating",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "credit_rating",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_17112026175723_AELIntimationCreditRatingICRA.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "ICRA Upgrades Credit Ratings on Bank Facilities and Debentures",
+    "summary": "ICRA Limited upgraded long-term credit ratings on bank facilities and non-convertible debentures while reaffirming short-term facilities and commercial paper.",
+    "why_it_matters": null,
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "credit_rating"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 44.0,
+   "group_id": "ADANIENT:credit_rating:2026-11-17",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106863688",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
