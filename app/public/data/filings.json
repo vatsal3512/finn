@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106863688",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-17T15:54:23+05:30",
+   "exchange_label": "Updates",
+   "headline": "HDFC Bank Limited has informed the Exchange regarding 'Grant of stock options under Employee Stock Option Scheme (ESOS Plan H-2024) and Grant of Restricted Stock Units under Employees Stock Incentive Master Scheme 2022'.",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "esop_in_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_17112026155359_SE_Intimation_grant_of_ESOP_17112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "HDFCBANK:unclassified:2026-11-17",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106863588",
    "symbol": "INDUSINDBK",
    "exchange": "NSE",
@@ -20,7 +46,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.799,
+    "vol_ratio": 1.067
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:unclassified:2026-11-17",
    "group_lead": true,
@@ -46,7 +76,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": -0.19,
+    "vol_ratio": 0.898
+   },
    "score": 0.0,
    "group_id": "HDFCBANK:unclassified:2026-11-17",
    "group_lead": true,
@@ -72,7 +106,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": -1.453,
+    "vol_ratio": 0.751
+   },
    "score": 0.0,
    "group_id": "OLAELEC:results:2026-11-17",
    "group_lead": true,
@@ -105,7 +143,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.799,
+    "vol_ratio": 1.067
+   },
    "score": 40.0,
    "group_id": "INDUSINDBK:press_release:2026-11-17",
    "group_lead": true,
@@ -131,7 +173,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": -1.952,
+    "vol_ratio": 0.766
+   },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-11-16",
    "group_lead": true,
@@ -165,7 +211,11 @@
     "press_release"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.482,
+    "vol_ratio": 0.968
+   },
    "score": 52.0,
    "group_id": "DIXON:M&A:2026-11-16",
    "group_lead": true,
@@ -198,7 +248,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.651,
+    "vol_ratio": 0.75
+   },
    "score": 0.0,
    "group_id": "RELIANCE:investor_meetings:2026-11-16",
    "group_lead": true,
@@ -231,7 +285,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": -0.706,
+    "vol_ratio": 0.658
+   },
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-11-16",
    "group_lead": true,
@@ -257,7 +315,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.799,
+    "vol_ratio": 1.067
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:results:2026-11-16",
    "group_lead": true,
@@ -283,7 +345,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": -3.186,
+    "vol_ratio": 1.64
+   },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-11-16",
    "group_lead": false,
@@ -309,7 +375,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.482,
+    "vol_ratio": 0.968
+   },
    "score": 0.0,
    "group_id": "DIXON:results:2026-11-16",
    "group_lead": true,
@@ -335,7 +405,11 @@
     "postal_ballot"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-17",
+    "ret_pct": 1.799,
+    "vol_ratio": 1.067
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:postal_ballot:2026-11-16",
    "group_lead": true,
