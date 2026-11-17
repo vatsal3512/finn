@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106863588",
+   "symbol": "INDUSINDBK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-17T14:33:58+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "IndusInd Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/INDUSINDBK1_17112026143321_FinalUpload.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "INDUSINDBK:unclassified:2026-11-17",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106863558",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
