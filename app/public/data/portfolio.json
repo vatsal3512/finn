@@ -2567,7 +2567,7 @@
    "last_date": "2026-11-16",
    "close": 12571.0,
    "ret_pct": -2.202,
-   "vol_ratio": 1.184,
+   "vol_ratio": 1.185,
    "series": [
     {
      "date": "2026-05-26",
@@ -3406,7 +3406,7 @@
      "date": "2026-11-16",
      "close": 12571.0,
      "ret_pct": -2.202,
-     "vol_ratio": 1.184,
+     "vol_ratio": 1.185,
      "corp_action": null
     }
    ],
@@ -3459,7 +3459,7 @@
     },
     {
      "date": "2026-06-03",
-     "close": 2633.273681640625,
+     "close": 2633.27392578125,
      "ret_pct": 0.064,
      "vol_ratio": 0.695,
      "corp_action": null
@@ -3494,14 +3494,14 @@
     },
     {
      "date": "2026-06-10",
-     "close": 2685.397705078125,
+     "close": 2685.3974609375,
      "ret_pct": 0.258,
      "vol_ratio": 0.986,
      "corp_action": null
     },
     {
      "date": "2026-06-11",
-     "close": 2661.4619140625,
+     "close": 2661.462158203125,
      "ret_pct": -0.891,
      "vol_ratio": 0.531,
      "corp_action": null
@@ -3522,7 +3522,7 @@
     },
     {
      "date": "2026-06-16",
-     "close": 2718.03662109375,
+     "close": 2718.036376953125,
      "ret_pct": 0.321,
      "vol_ratio": 0.68,
      "corp_action": null
@@ -9391,7 +9391,7 @@
    "last_date": "2026-11-16",
    "close": 1873.0,
    "ret_pct": -0.899,
-   "vol_ratio": 0.43,
+   "vol_ratio": 0.431,
    "series": [
     {
      "date": "2026-05-26",
@@ -10230,7 +10230,7 @@
      "date": "2026-11-16",
      "close": 1873.0,
      "ret_pct": -0.899,
-     "vol_ratio": 0.43,
+     "vol_ratio": 0.431,
      "corp_action": null
     }
    ],
@@ -11950,7 +11950,7 @@
    "last_date": "2026-11-16",
    "close": 914.5499877929688,
    "ret_pct": 0.016,
-   "vol_ratio": 0.489,
+   "vol_ratio": 0.49,
    "series": [
     {
      "date": "2026-05-26",
@@ -12789,7 +12789,7 @@
      "date": "2026-11-16",
      "close": 914.5499877929688,
      "ret_pct": 0.016,
-     "vol_ratio": 0.489,
+     "vol_ratio": 0.49,
      "corp_action": null
     }
    ],
