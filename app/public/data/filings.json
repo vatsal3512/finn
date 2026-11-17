@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106863326",
+   "symbol": "INDUSINDBK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-17T10:30:28+05:30",
+   "exchange_label": "Press Release",
+   "headline": "IndusInd Bank Limited has informed the Exchange regarding a press release dated November 17, 2026, titled \"Mastercard Move and IndusInd Bank collaborate to enhance outbound cross-border payments from India\".",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/INDUSINDBK1_17112026102634_FinalUpload.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
+   "insight": {
+    "title": "Mastercard Move Partnership for Cross-Border Payments",
+    "summary": "IndusInd Bank collaborated with Mastercard Move to enhance outbound cross-border payments for individuals, education, and future SME payments from India.",
+    "why_it_matters": null,
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "INDUSINDBK:press_release:2026-11-17",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106862889",
    "symbol": "NAZARA",
    "exchange": "NSE",
