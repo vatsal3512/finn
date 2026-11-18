@@ -317,7 +317,7 @@
    "price_reaction": {
     "session": "2026-11-17",
     "ret_pct": 1.651,
-    "vol_ratio": 0.75
+    "vol_ratio": 0.752
    },
    "score": 0.0,
    "group_id": "RELIANCE:investor_meetings:2026-11-16",
@@ -414,7 +414,7 @@
    "price_reaction": {
     "session": "2026-11-17",
     "ret_pct": -3.186,
-    "vol_ratio": 1.64
+    "vol_ratio": 1.641
    },
    "score": 0.0,
    "group_id": "POLYCAB:investor_meetings:2026-11-16",
