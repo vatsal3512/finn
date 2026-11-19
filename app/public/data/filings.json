@@ -56,7 +56,7 @@
    "price_reaction": {
     "session": "2026-11-18",
     "ret_pct": -0.293,
-    "vol_ratio": 0.864
+    "vol_ratio": 0.865
    },
    "score": 0.0,
    "group_id": "RELIANCE:investor_meetings:2026-11-17",
@@ -93,7 +93,7 @@
    "price_reaction": {
     "session": "2026-11-18",
     "ret_pct": -2.219,
-    "vol_ratio": 1.03
+    "vol_ratio": 1.031
    },
    "score": 44.0,
    "group_id": "ADANIENT:credit_rating:2026-11-17",
