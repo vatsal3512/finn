@@ -1,16 +1,16 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-19T13:10:51+00:00",
+ "generated_at": "2026-11-19T13:41:53+00:00",
  "latest_session": "2026-11-19",
  "filings_window_days": 30,
  "counts": {
   "holdings": 18,
-  "filings": 252,
-  "events": 178,
-  "duplicates": 21,
+  "filings": 256,
+  "events": 180,
+  "duplicates": 23,
   "must_see": 34,
-  "glance": 36,
-  "routine": 108,
+  "glance": 37,
+  "routine": 109,
   "unsorted": 0
  },
  "alert_defaults": {
@@ -19,13 +19,13 @@
   "volume_baseline_sessions": 20
  },
  "ai": {
-  "calls": 395,
-  "input_tokens": 4428512,
-  "output_tokens": 371446,
+  "calls": 396,
+  "input_tokens": 4430044,
+  "output_tokens": 371679,
   "by_model": {
    "gemini-3.5-flash": 44,
    "gemini-3.5-flash-lite": 151,
-   "gemini-3.6-flash": 173,
+   "gemini-3.6-flash": 174,
    "gemini-3.8-flash": 8,
    "openai/gpt-oss-120b": 19
   },
@@ -35,7 +35,7 @@
    "gemini-11": 25,
    "gemini-12": 4,
    "gemini-13": 2,
-   "gemini-2": 23,
+   "gemini-2": 24,
    "gemini-3": 15,
    "gemini-4": 18,
    "gemini-5": 9,
@@ -48,7 +48,7 @@
    "groq-3": 3
   },
   "failed_by_key": {
-   "gemini-1": 89,
+   "gemini-1": 90,
    "gemini-10": 52,
    "gemini-11": 29,
    "gemini-12": 4,
@@ -66,7 +66,7 @@
    "groq-2": 3,
    "groq-3": 3
   },
-  "cached_answers": 313
+  "cached_answers": 314
  },
  "sources": [
   "Prices: Yahoo Finance end-of-day, adjusted for splits and dividends",
