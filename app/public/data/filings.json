@@ -20,7 +20,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-19",
+    "ret_pct": 0.563,
+    "vol_ratio": 0.637
+   },
    "score": 0.0,
    "group_id": "BHARTIARTL:unclassified:2026-11-18",
    "group_lead": true,
