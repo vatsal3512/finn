@@ -5,18 +5,11 @@
    "name": "HDFC Bank",
    "sector": "Banking",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 821.7999877929688,
-   "ret_pct": 1.689,
-   "vol_ratio": 0.624,
+   "last_date": "2026-11-20",
+   "close": 846.0,
+   "ret_pct": 2.945,
+   "vol_ratio": 1.823,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 730.6160278320312,
-     "ret_pct": -0.248,
-     "vol_ratio": 1.197,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 736.0757446289062,
@@ -849,6 +842,13 @@
      "ret_pct": 1.689,
      "vol_ratio": 0.624,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 846.0,
+     "ret_pct": 2.945,
+     "vol_ratio": 1.823,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/HDFCBANK.NS/history"
@@ -858,18 +858,11 @@
    "name": "Reliance Industries",
    "sector": "Conglomerate",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 1375.5999755859375,
-   "ret_pct": 0.924,
-   "vol_ratio": 0.683,
+   "last_date": "2026-11-20",
+   "close": 1377.5,
+   "ret_pct": 0.138,
+   "vol_ratio": 0.625,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 1313.9249267578125,
-     "ret_pct": -0.091,
-     "vol_ratio": 0.594,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 1308.5498046875,
@@ -1702,6 +1695,13 @@
      "ret_pct": 0.924,
      "vol_ratio": 0.683,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 1377.5,
+     "ret_pct": 0.138,
+     "vol_ratio": 0.625,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/RELIANCE.NS/history"
@@ -1711,18 +1711,11 @@
    "name": "Bharti Airtel",
    "sector": "Telecom",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 2144.0,
-   "ret_pct": 0.563,
-   "vol_ratio": 0.637,
+   "last_date": "2026-11-20",
+   "close": 2161.699951171875,
+   "ret_pct": 0.826,
+   "vol_ratio": 0.568,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 1788.0963134765625,
-     "ret_pct": -1.006,
-     "vol_ratio": 0.53,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 1791.651611328125,
@@ -2555,6 +2548,13 @@
      "ret_pct": 0.563,
      "vol_ratio": 0.637,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 2161.699951171875,
+     "ret_pct": 0.826,
+     "vol_ratio": 0.568,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/BHARTIARTL.NS/history"
@@ -2564,18 +2564,11 @@
    "name": "Maruti Suzuki",
    "sector": "Automobiles",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 13589.0,
-   "ret_pct": 7.576,
-   "vol_ratio": 2.389,
+   "last_date": "2026-11-20",
+   "close": 14011.0,
+   "ret_pct": 3.105,
+   "vol_ratio": 2.644,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 12817.275390625,
-     "ret_pct": -1.379,
-     "vol_ratio": 0.701,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 12892.51953125,
@@ -3408,6 +3401,13 @@
      "ret_pct": 7.576,
      "vol_ratio": 2.389,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 14011.0,
+     "ret_pct": 3.105,
+     "vol_ratio": 2.644,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/MARUTI.NS/history"
@@ -3417,18 +3417,11 @@
    "name": "Asian Paints",
    "sector": "Paints",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 2595.0,
-   "ret_pct": 0.57,
-   "vol_ratio": 0.754,
+   "last_date": "2026-11-20",
+   "close": 2608.300048828125,
+   "ret_pct": 0.513,
+   "vol_ratio": 0.408,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 2603.60205078125,
-     "ret_pct": -1.467,
-     "vol_ratio": 1.728,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 2631.592529296875,
@@ -4261,6 +4254,13 @@
      "ret_pct": 0.57,
      "vol_ratio": 0.754,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 2608.300048828125,
+     "ret_pct": 0.513,
+     "vol_ratio": 0.408,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/ASIANPAINT.NS/history"
@@ -4270,18 +4270,11 @@
    "name": "Sun Pharma",
    "sector": "Pharmaceuticals",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 1900.0,
-   "ret_pct": 1.523,
-   "vol_ratio": 0.845,
+   "last_date": "2026-11-20",
+   "close": 1884.9000244140625,
+   "ret_pct": -0.795,
+   "vol_ratio": 0.817,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 1791.8040771484375,
-     "ret_pct": -0.15,
-     "vol_ratio": 0.658,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 1785.2213134765625,
@@ -5114,6 +5107,13 @@
      "ret_pct": 1.523,
      "vol_ratio": 0.845,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 1884.9000244140625,
+     "ret_pct": -0.795,
+     "vol_ratio": 0.817,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/SUNPHARMA.NS/history"
@@ -5123,18 +5123,11 @@
    "name": "Eternal",
    "sector": "Internet",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 366.8500061035156,
-   "ret_pct": 0.232,
-   "vol_ratio": 1.07,
+   "last_date": "2026-11-20",
+   "close": 364.0,
+   "ret_pct": -0.777,
+   "vol_ratio": 0.561,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 248.10000610351562,
-     "ret_pct": -0.99,
-     "vol_ratio": 0.619,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 250.75,
@@ -5967,6 +5960,13 @@
      "ret_pct": 0.232,
      "vol_ratio": 1.07,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 364.0,
+     "ret_pct": -0.777,
+     "vol_ratio": 0.561,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/ETERNAL.NS/history"
@@ -5976,18 +5976,11 @@
    "name": "Adani Enterprises",
    "sector": "Infrastructure",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 2703.10009765625,
-   "ret_pct": 0.704,
-   "vol_ratio": 0.507,
+   "last_date": "2026-11-20",
+   "close": 2709.0,
+   "ret_pct": 0.218,
+   "vol_ratio": 0.636,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 2908.099609375,
-     "ret_pct": -0.953,
-     "vol_ratio": 0.508,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 2966.773681640625,
@@ -6820,6 +6813,13 @@
      "ret_pct": 0.704,
      "vol_ratio": 0.507,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 2709.0,
+     "ret_pct": 0.218,
+     "vol_ratio": 0.636,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/ADANIENT.NS/history"
@@ -6829,18 +6829,11 @@
    "name": "IndiGo",
    "sector": "Aviation",
    "size": "Large",
-   "last_date": "2026-11-19",
-   "close": 5475.0,
-   "ret_pct": -0.442,
-   "vol_ratio": 1.93,
+   "last_date": "2026-11-20",
+   "close": 5587.60009765625,
+   "ret_pct": 2.057,
+   "vol_ratio": 0.599,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 4453.2998046875,
-     "ret_pct": 1.096,
-     "vol_ratio": 1.348,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 4466.10009765625,
@@ -7673,6 +7666,13 @@
      "ret_pct": -0.442,
      "vol_ratio": 1.93,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 5587.60009765625,
+     "ret_pct": 2.057,
+     "vol_ratio": 0.599,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/INDIGO.NS/history"
@@ -7682,18 +7682,11 @@
    "name": "Polycab India",
    "sector": "Cables and wires",
    "size": "Mid",
-   "last_date": "2026-11-19",
-   "close": 7550.0,
-   "ret_pct": 3.319,
-   "vol_ratio": 2.93,
+   "last_date": "2026-11-20",
+   "close": 7570.0,
+   "ret_pct": 0.265,
+   "vol_ratio": 1.654,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 9435.7294921875,
-     "ret_pct": 0.032,
-     "vol_ratio": 0.457,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 9486.48828125,
@@ -8526,6 +8519,13 @@
      "ret_pct": 3.319,
      "vol_ratio": 2.93,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 7570.0,
+     "ret_pct": 0.265,
+     "vol_ratio": 1.654,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/POLYCAB.NS/history"
@@ -8535,18 +8535,11 @@
    "name": "Dixon Technologies",
    "sector": "Electronics manufacturing",
    "size": "Mid",
-   "last_date": "2026-11-19",
-   "close": 13054.0,
-   "ret_pct": 3.48,
-   "vol_ratio": 0.841,
+   "last_date": "2026-11-20",
+   "close": 13120.0,
+   "ret_pct": 0.506,
+   "vol_ratio": 0.591,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 11454.185546875,
-     "ret_pct": -0.529,
-     "vol_ratio": 0.428,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 11595.0771484375,
@@ -9379,6 +9372,13 @@
      "ret_pct": 3.48,
      "vol_ratio": 0.841,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 13120.0,
+     "ret_pct": 0.506,
+     "vol_ratio": 0.591,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/DIXON.NS/history"
@@ -9388,18 +9388,11 @@
    "name": "Mazagon Dock",
    "sector": "Defence shipbuilding",
    "size": "Mid",
-   "last_date": "2026-11-19",
-   "close": 1850.0,
-   "ret_pct": 1.514,
-   "vol_ratio": 0.433,
+   "last_date": "2026-11-20",
+   "close": 1841.5,
+   "ret_pct": -0.459,
+   "vol_ratio": 0.385,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 2411.76953125,
-     "ret_pct": -1.36,
-     "vol_ratio": 0.541,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 2433.467529296875,
@@ -10232,6 +10225,13 @@
      "ret_pct": 1.514,
      "vol_ratio": 0.433,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 1841.5,
+     "ret_pct": -0.459,
+     "vol_ratio": 0.385,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/MAZDOCK.NS/history"
@@ -10241,18 +10241,11 @@
    "name": "Paytm",
    "sector": "Fintech",
    "size": "Mid",
-   "last_date": "2026-11-19",
-   "close": 1725.9000244140625,
-   "ret_pct": -8.683,
-   "vol_ratio": 6.755,
+   "last_date": "2026-11-20",
+   "close": 1740.0,
+   "ret_pct": 0.817,
+   "vol_ratio": 1.699,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 1095.0,
-     "ret_pct": -2.127,
-     "vol_ratio": 0.614,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 1070.9000244140625,
@@ -11085,6 +11078,13 @@
      "ret_pct": -8.683,
      "vol_ratio": 6.755,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 1740.0,
+     "ret_pct": 0.817,
+     "vol_ratio": 1.699,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/PAYTM.NS/history"
@@ -11094,18 +11094,11 @@
    "name": "Persistent Systems",
    "sector": "IT services",
    "size": "Mid",
-   "last_date": "2026-11-19",
-   "close": 5880.0,
-   "ret_pct": 0.393,
-   "vol_ratio": 0.765,
+   "last_date": "2026-11-20",
+   "close": 6124.0,
+   "ret_pct": 4.15,
+   "vol_ratio": 3.248,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 5383.302734375,
-     "ret_pct": 3.999,
-     "vol_ratio": 1.769,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 5451.5654296875,
@@ -11938,6 +11931,13 @@
      "ret_pct": 0.393,
      "vol_ratio": 0.765,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 6124.0,
+     "ret_pct": 4.15,
+     "vol_ratio": 3.248,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/PERSISTENT.NS/history"
@@ -11947,18 +11947,11 @@
    "name": "IndusInd Bank",
    "sector": "Banking",
    "size": "Mid",
-   "last_date": "2026-11-19",
-   "close": 923.6500244140625,
-   "ret_pct": 1.294,
-   "vol_ratio": 1.379,
+   "last_date": "2026-11-20",
+   "close": 1003.0,
+   "ret_pct": 8.591,
+   "vol_ratio": 6.037,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 899.6928100585938,
-     "ret_pct": -1.444,
-     "vol_ratio": 0.833,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 911.0244140625,
@@ -12791,6 +12784,13 @@
      "ret_pct": 1.294,
      "vol_ratio": 1.379,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 1003.0,
+     "ret_pct": 8.591,
+     "vol_ratio": 6.037,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/INDUSINDBK.NS/history"
@@ -12800,18 +12800,11 @@
    "name": "Ola Electric",
    "sector": "Electric vehicles",
    "size": "Small",
-   "last_date": "2026-11-19",
-   "close": 32.869998931884766,
-   "ret_pct": 0.89,
-   "vol_ratio": 0.352,
+   "last_date": "2026-11-20",
+   "close": 32.59000015258789,
+   "ret_pct": -0.852,
+   "vol_ratio": 0.245,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 39.529998779296875,
-     "ret_pct": -4.724,
-     "vol_ratio": 1.555,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 39.83000183105469,
@@ -13644,6 +13637,13 @@
      "ret_pct": 0.89,
      "vol_ratio": 0.352,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 32.59000015258789,
+     "ret_pct": -0.852,
+     "vol_ratio": 0.245,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/OLAELEC.NS/history"
@@ -13653,18 +13653,11 @@
    "name": "Nazara Technologies",
    "sector": "Gaming",
    "size": "Small",
-   "last_date": "2026-11-19",
-   "close": 425.54998779296875,
-   "ret_pct": 2.394,
-   "vol_ratio": 0.404,
+   "last_date": "2026-11-20",
+   "close": 414.54998779296875,
+   "ret_pct": -2.585,
+   "vol_ratio": 0.594,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 272.54998779296875,
-     "ret_pct": -1.872,
-     "vol_ratio": 0.165,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 274.8500061035156,
@@ -14497,6 +14490,13 @@
      "ret_pct": 2.394,
      "vol_ratio": 0.404,
      "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 414.54998779296875,
+     "ret_pct": -2.585,
+     "vol_ratio": 0.594,
+     "corp_action": null
     }
    ],
    "source_url": "https://finance.yahoo.com/quote/NAZARA.NS/history"
@@ -14506,18 +14506,11 @@
    "name": "eMudhra",
    "sector": "Digital security",
    "size": "Small",
-   "last_date": "2026-11-19",
-   "close": 355.25,
-   "ret_pct": -0.879,
-   "vol_ratio": 0.084,
+   "last_date": "2026-11-20",
+   "close": 357.8999938964844,
+   "ret_pct": 0.746,
+   "vol_ratio": 0.089,
    "series": [
-    {
-     "date": "2026-06-01",
-     "close": 468.92034912109375,
-     "ret_pct": 0.245,
-     "vol_ratio": 0.393,
-     "corp_action": null
-    },
     {
      "date": "2026-06-02",
      "close": 465.42987060546875,
@@ -15349,6 +15342,13 @@
      "close": 355.25,
      "ret_pct": -0.879,
      "vol_ratio": 0.084,
+     "corp_action": null
+    },
+    {
+     "date": "2026-11-20",
+     "close": 357.8999938964844,
+     "ret_pct": 0.746,
+     "vol_ratio": 0.089,
      "corp_action": null
     }
    ],
