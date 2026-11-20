@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106867124",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-20T11:20:15+05:30",
+   "exchange_label": "Trading Plan under PIT",
+   "headline": "Asian Paints Limited has informed the Exchange regarding Trading Plan pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+   "category": "insider_trading",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_20112026111957_Stock_Exchange_Intimation.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Trading Plan submitted by designated person",
+    "summary": "Designated person Pinkal Kumar Patel submitted a trading plan which was approved by the company.",
+    "why_it_matters": null,
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "insider_trading"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 44.0,
+   "group_id": "ASIANPAINT:insider_trading:2026-11-20",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106866881",
    "symbol": "NAZARA",
    "exchange": "NSE",
