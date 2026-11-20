@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106867501",
+   "symbol": "INDUSINDBK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-20T16:46:44+05:30",
+   "exchange_label": "General Updates",
+   "headline": "IndusInd Bank Limited has informed the Exchange about Grant of Stock Options under the Employee Stock Option Scheme of the Bank (ESOP Scheme)",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "esop_in_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/INDUSINDBK1_20112026164500_SEGrantofOptionsigned.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "INDUSINDBK:unclassified:2026-11-20",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106867326",
    "symbol": "MARUTI",
    "exchange": "NSE",

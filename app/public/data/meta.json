@@ -1,16 +1,16 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-20T10:49:46+00:00",
+ "generated_at": "2026-11-20T11:19:59+00:00",
  "latest_session": "2026-11-20",
  "filings_window_days": 30,
  "counts": {
   "holdings": 18,
-  "filings": 259,
-  "events": 183,
+  "filings": 260,
+  "events": 184,
   "duplicates": 23,
   "must_see": 34,
   "glance": 37,
-  "routine": 112,
+  "routine": 113,
   "unsorted": 0
  },
  "alert_defaults": {
