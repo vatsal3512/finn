@@ -1,6 +1,56 @@
 {
  "filings": [
   {
+   "id": "nse:106867910",
+   "symbol": "INDUSINDBK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-20T22:44:11+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Indusind Bank Limited has informed the Exchange about General Updates",
+   "category": "management_change",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/INDUSINDBK2_20112026224352_SEIntimation_SE.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=INDUSINDBK",
+   "insight": {
+    "title": "Update on Former MD & CEO Disciplinary Proceedings",
+    "summary": "IndusInd Bank provided an update regarding former Managing Director & CEO Sumant Kathpalia following an inquiry report submitted by the appointed Enquiry Officer.",
+    "why_it_matters": "The update concerns disciplinary proceedings and an inquiry report involving the bank's former MD & CEO who resigned and was subsequently suspended.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Sumant Kathpalia",
+       "role": "Managing Director & CEO",
+       "change": "resignation",
+       "effective_date": "2025-04-29",
+       "reason": null,
+       "profile": null,
+       "previous_roles": [],
+       "education": null,
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 123.0,
+   "group_id": "INDUSINDBK:management_change:2026-11-20",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106867839",
    "symbol": "HDFCBANK",
    "exchange": "NSE",
