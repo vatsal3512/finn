@@ -10270,43 +10270,6 @@
    "group_id": "EMUDHRA:litigation:2026-10-21",
    "group_lead": true,
    "duplicate_of": null
-  },
-  {
-   "id": "nse:106822793",
-   "symbol": "SUNPHARMA",
-   "exchange": "NSE",
-   "filed_at": "2026-10-20T17:35:31+05:30",
-   "exchange_label": "Press Release",
-   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 20, 2026.",
-   "category": "press_release",
-   "tier": "glance",
-   "classified_by": "ai",
-   "rule": "no_rule",
-   "needs_ai": false,
-   "text_quality": "ok",
-   "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_20102026173321_SE_Intimation_of_Press_Release_on_NCCN_Gudelines_Update.pdf",
-   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
-   "insight": {
-    "title": "Cosibelimab receives Category 2A Preferred Designation in NCCN Guidelines",
-    "summary": "The company announced that UNLOXCYT received a Category 2A Preferred Designation in updated NCCN Guidelines for specific laCSCC patients.",
-    "why_it_matters": "This designation strengthens the product profile for patients not eligible for curative surgery or radiation, contributing to the firm's portfolio against an annual revenue of about ₹59,911 crore.",
-    "sentiment": "positive",
-    "amount_inr_crore": null,
-    "model": "gemini-3.5-flash-lite"
-   },
-   "events": [
-    "press_release"
-   ],
-   "cards": [],
-   "price_reaction": {
-    "session": "2026-10-21",
-    "ret_pct": 0.12,
-    "vol_ratio": 1.523
-   },
-   "score": 40.0,
-   "group_id": "SUNPHARMA:press_release:2026-10-20",
-   "group_lead": true,
-   "duplicate_of": null
   }
  ]
 }
