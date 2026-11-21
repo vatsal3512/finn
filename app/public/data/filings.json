@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106868327",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-11-21T20:31:34+05:30",
+   "exchange_label": "Updates",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Update on Asset Purchase Agreement executed between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited'.",
+   "category": "M&A",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_21112026203112_VimalClosingAnnouncement21112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Consummation of asset purchase agreement",
+    "summary": "The company consummated the acquisition of movable assets from Vimal Plast (India) Private Limited for up to INR 49,75,00,000/-.",
+    "why_it_matters": "The transaction amount of INR 49,75,00,000/- represents a small fraction of the annual revenue of about ₹58,525 crore.",
+    "sentiment": "positive",
+    "amount_inr_crore": 49.75,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "M&A"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 52.0,
+   "group_id": "DIXON:M&A:2026-11-21",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106868122",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
