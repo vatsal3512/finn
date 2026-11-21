@@ -1,6 +1,40 @@
 {
  "filings": [
   {
+   "id": "nse:106868345",
+   "symbol": "MARUTI",
+   "exchange": "NSE",
+   "filed_at": "2026-11-22T00:08:35+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Maruti Suzuki India Limited has informed the Exchange about Price increase",
+   "category": "press_release",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/MARUTIASHISH_22112026000413_StxIntimation_PriceIncrease_22Nov20267.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=MARUTI",
+   "insight": {
+    "title": "Price increase of select models announced",
+    "summary": "The company announced a volume weighted average price increase of around 0.31 percent on select models due to sustained cost pressures.",
+    "why_it_matters": "The estimated price increase is around 0.31 percent, reflecting ongoing cost pressures across select models.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "press_release",
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 40.0,
+   "group_id": "MARUTI:press_release:2026-11-22",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106868327",
    "symbol": "DIXON",
    "exchange": "NSE",
