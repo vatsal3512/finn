@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106868122",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-21T12:47:03+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "Newspaper Advertisements about opening of Special Window for transfer of physical shares",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_21112026124625_SEIntimationSpecialWindow21112026_signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "SUNPHARMA:unclassified:2026-11-21",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106867910",
    "symbol": "INDUSINDBK",
    "exchange": "NSE",
