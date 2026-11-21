@@ -90,38 +90,6 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-19T15:12:21+00:00"
   },
-  "nse:106823051": {
-   "symbol": "EMUDHRA",
-   "question": "What has management said about this on its recent calls?",
-   "addressed": true,
-   "answer": "In November 2026, management explained an October 17 incident where eight weak intermediate TLS certificates were revoked. The affected public TLS business represented 1% of revenue, leading eMudhra to exit publicly trusted TLS certificate sales. Management reduced FY27 revenue guidance by INR 20–23 crore and PAT by INR 10–12 crore, expecting the impact to last two quarters.",
-   "evidence": [
-    {
-     "quote": "On October 17th, an independent researcher reported weak keys in eight intermediate certificates within one of our public TLS hierarchies created during a key-generation ceremony in April 2025",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
-    },
-    {
-     "quote": "This affected only our publicly trusted TLS business, which was about 1% of our revenue",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
-    },
-    {
-     "quote": "Given the limited returns from TLS relative to our overall business, we have decided to exit the sale of publicly trusted TLS certificates and focus fully on our core platform",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Nov 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-09T15:24:41+00:00"
-  },
   "nse:106845578": {
    "symbol": "EMUDHRA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
@@ -296,38 +264,6 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-19T15:12:22+00:00"
   },
-  "nse:106823393": {
-   "symbol": "ETERNAL",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "Management did not give specific revenue or margin guidance for Q2 FY27, stating in July 2026 that they had \"no guidance on that.\" They provided broader directional views, expecting food delivery margins to remain flattish over the next 1–2 years (October 2026) and quick commerce long-term Adjusted EBITDA margins to reach 6% (July 2026).",
-   "evidence": [
-    {
-     "quote": "Sorry, Swapnil, we don't want to comment on the quarter right now, no guidance on that",
-     "source": "Q1 FY27 call, Jul 2026",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf"
-    },
-    {
-     "quote": "Directionally, we want to maintain margins broadly and reinvest in growth as much as it makes sense to continue to drive the growth upwards",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
-    },
-    {
-     "quote": "It's hard to project or comment on margin trajectory every quarter but broadly, over the next 1 or 2 years, we expect the margins to remain flattish",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Jul 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:11+00:00"
-  },
   "nse:106836183": {
    "symbol": "OLAELEC",
    "question": "What has management said about raising money: how much, why, and what it is for?",
@@ -359,6 +295,51 @@
    ],
    "model": "gemini-3.8-flash",
    "asked_at": "2026-11-17T12:20:05+00:00"
+  },
+  "nse:106830187": {
+   "symbol": "MARUTI",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": false,
+   "answer": "Management did not discuss this on its last two calls.",
+   "evidence": [],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-21T00:25:26+00:00"
+  },
+  "nse:106867910": {
+   "symbol": "INDUSINDBK",
+   "question": "What has management said on recent calls about leadership, succession or this role?",
+   "addressed": true,
+   "answer": "In April 2026 (Q4 FY26), management stated the leadership transition was largely complete after onboarding heads of Retail Banking, Global Markets, Chief Risk Officer, and Chief Information Officer. The Board approved appointing Jagdeep Mallareddy and Ganesh Sankaran as Executive Director designates. In July 2026 (Q1 FY27), management highlighted focus shifted to execution under the strengthened leadership team.",
+   "evidence": [
+    {
+     "quote": "Our leadership transition is now largely completed, and the strengthened leadership team brings diverse experience, and a strong execution mindset",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 3,
+     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
+    },
+    {
+     "quote": "The Board has approved appointment of Jagdeep Mallareddy and Ganesh Sankaran as Whole Time Executive Director Designate",
+     "source": "Q4 FY26 call, Apr 2026",
+     "page": 3,
+     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
+    },
+    {
+     "quote": "During the quarter, our focus was on strengthening the franchise, operating model and execution capabilities under the new leadership team to create a stronger foundation for future growth",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 5,
+     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2026-2027/Quarter1/IndusInd-Bank_Analyst-Call_Q1FY27_20260722.pdf"
+    }
+   ],
+   "calls": [
+    "Q1 FY27 call, Jul 2026",
+    "Q4 FY26 call, Apr 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-21T00:25:38+00:00"
   }
  }
 }
