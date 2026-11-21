@@ -177,7 +177,7 @@
    "price_reaction": {
     "session": "2026-11-20",
     "ret_pct": 3.105,
-    "vol_ratio": 2.644
+    "vol_ratio": 2.645
    },
    "score": 10.0,
    "group_id": "MARUTI:results:2026-11-20",
@@ -341,7 +341,7 @@
    "price_reaction": {
     "session": "2026-11-20",
     "ret_pct": 0.817,
-    "vol_ratio": 1.699
+    "vol_ratio": 1.7
    },
    "score": 52.0,
    "group_id": "PAYTM:M&A:2026-11-19",
@@ -378,7 +378,7 @@
    "price_reaction": {
     "session": "2026-11-20",
     "ret_pct": 0.817,
-    "vol_ratio": 1.699
+    "vol_ratio": 1.7
    },
    "score": 52.0,
    "group_id": "PAYTM:M&A:2026-11-19",
@@ -415,7 +415,7 @@
    "price_reaction": {
     "session": "2026-11-20",
     "ret_pct": 0.817,
-    "vol_ratio": 1.699
+    "vol_ratio": 1.7
    },
    "score": 52.0,
    "group_id": "PAYTM:M&A:2026-11-19",
