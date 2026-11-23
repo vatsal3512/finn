@@ -28,8 +28,12 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
-   "score": 48.0,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": 2.588,
+    "vol_ratio": 2.105
+   },
+   "score": 58.0,
    "group_id": "PERSISTENT:litigation:2026-11-23",
    "group_lead": true,
    "duplicate_of": null
@@ -62,7 +66,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -0.007,
+    "vol_ratio": 1.827
+   },
    "score": 40.0,
    "group_id": "MARUTI:press_release:2026-11-22",
    "group_lead": true,
@@ -95,7 +103,11 @@
     "M&A"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": 2.058,
+    "vol_ratio": 1.294
+   },
    "score": 52.0,
    "group_id": "DIXON:M&A:2026-11-21",
    "group_lead": true,
@@ -121,7 +133,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -1.321,
+    "vol_ratio": 0.672
+   },
    "score": 0.0,
    "group_id": "SUNPHARMA:unclassified:2026-11-21",
    "group_lead": true,
@@ -171,7 +187,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -3.988,
+    "vol_ratio": 0.975
+   },
    "score": 123.0,
    "group_id": "INDUSINDBK:management_change:2026-11-20",
    "group_lead": true,
@@ -197,7 +217,11 @@
     "postal_ballot"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -3.333,
+    "vol_ratio": 1.428
+   },
    "score": 0.0,
    "group_id": "HDFCBANK:postal_ballot:2026-11-20",
    "group_lead": true,
@@ -223,7 +247,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -3.988,
+    "vol_ratio": 0.975
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:results:2026-11-20",
    "group_lead": true,
@@ -249,7 +277,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -1.11,
+    "vol_ratio": 0.315
+   },
    "score": 0.0,
    "group_id": "NAZARA:results:2026-11-20",
    "group_lead": false,
@@ -275,7 +307,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-23",
+    "ret_pct": -3.988,
+    "vol_ratio": 0.975
+   },
    "score": 0.0,
    "group_id": "INDUSINDBK:unclassified:2026-11-20",
    "group_lead": true,
