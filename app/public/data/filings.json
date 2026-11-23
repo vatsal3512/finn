@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106869322",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-23T22:12:44+05:30",
+   "exchange_label": "Acquisition",
+   "headline": "Adani Enterprises Limited has informed the Exchange about incorporation of Wholly Owned Subsidiary \"Nashik Phata Road Limited\".",
+   "category": "M&A",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "subsidiary_setup",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_23112026221158_AELintimationNashikPhataRoadLimited.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Incorporation of Subsidiary Nashik Phata Road Limited",
+    "summary": "Adani Enterprises incorporated a wholly owned subsidiary, Nashik Phata Road Limited, for road infrastructure development.",
+    "why_it_matters": "The subsidiary has an authorized and paid-up capital of Rs. 1,00,000 for 8-lane elevated road infrastructure development.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "M&A"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 52.0,
+   "group_id": "ADANIENT:M&A:2026-11-23",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106869300",
    "symbol": "SUNPHARMA",
    "exchange": "NSE",
