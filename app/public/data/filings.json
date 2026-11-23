@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106869300",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-23T20:35:37+05:30",
+   "exchange_label": "Credit Rating",
+   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
+   "category": "credit_rating",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "credit_rating",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "Preliminary Credit Rating Assigned to Wholly Owned Subsidiary",
+    "summary": "S&P Global assigned a preliminary long-term issuer credit rating of BBB+ with a Stable Outlook to indirect subsidiary Sun Pharma Global Treasury Centre IFSC Limited.",
+    "why_it_matters": "The rating reflects S&P Global's assessment of Sun Pharma's business profile and the subsidiary's role in group financing and treasury operations.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "credit_rating"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 44.0,
+   "group_id": "SUNPHARMA:credit_rating:2026-11-23",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106869094",
    "symbol": "DIXON",
    "exchange": "NSE",
