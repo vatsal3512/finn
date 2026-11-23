@@ -1,6 +1,40 @@
 {
  "filings": [
   {
+   "id": "nse:106868408",
+   "symbol": "PERSISTENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-23T07:43:12+05:30",
+   "exchange_label": "Updates",
+   "headline": "Persistent Systems Limited has informed the Exchange regarding 'Company Statement'.",
+   "category": "unclassified",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/PERSISTENTUSER1_23112026074246_CompanyStatementforexchangesreleaseNov232026Signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=PERSISTENT",
+   "insight": {
+    "title": "Law Firm Cybersecurity Incident Update",
+    "summary": "A U.S.-based law firm engaged for immigration matters experienced a cybersecurity incident, leading to the purported exfiltration of certain employee immigration data.",
+    "why_it_matters": "The company stated its own systems remain secure and business operations are normal, with critical information not in the law firm's possession.",
+    "sentiment": "neutral",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "litigation",
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 48.0,
+   "group_id": "PERSISTENT:litigation:2026-11-23",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106868345",
    "symbol": "MARUTI",
    "exchange": "NSE",
