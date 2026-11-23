@@ -1,6 +1,73 @@
 {
  "filings": [
   {
+   "id": "nse:106868948",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-23T16:42:40+05:30",
+   "exchange_label": "Press Release",
+   "headline": "Adani Enterprises Limited has informed the Exchange regarding a press release dated November 23, 2026, titled \"Media Release on the subject Adani Airports raises USD 300 million primary equity from 360 ONE Asset\".",
+   "category": "fund_raise",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_23112026164233_AELIntimationMediaRelease23112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Airports raises USD 300 million primary equity",
+    "summary": "Adani Airport Holdings Limited entered a binding agreement to raise ₹2,790 crores (~USD 300 million) in primary equity from 360 ONE Asset.",
+    "why_it_matters": "This fund raise brings total equity raised by AAHL to ~USD 1.35 billion at a pre-money valuation of ~USD 18 billion.",
+    "sentiment": "positive",
+    "amount_inr_crore": 2790.0,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "fund_raise",
+    "press_release"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 110.0,
+   "group_id": "ADANIENT:fund_raise:2026-11-23",
+   "group_lead": false,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106868902",
+   "symbol": "ADANIENT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-23T16:32:06+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Adani Enterprises Limited has informed the Exchange about General Updates",
+   "category": "fund_raise",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "no_rule",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_23112026163143_AELIntimationSSAfinalvF23222026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ADANIENT",
+   "insight": {
+    "title": "Execution of subscription agreement for fund raise by AAHL",
+    "summary": "AAHL executed a subscription agreement to raise up to ₹2,790 crores (~USD 300 million) from 360 One Alternates Asset Management Limited.",
+    "why_it_matters": "The incremental funding represents an approximately 1.55% stake and brings total fund raise to approximately USD 1.35 billion.",
+    "sentiment": "positive",
+    "amount_inr_crore": 2790.0,
+    "model": "gemini-3.5-flash-lite"
+   },
+   "events": [
+    "fund_raise"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 110.0,
+   "group_id": "ADANIENT:fund_raise:2026-11-23",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106868408",
    "symbol": "PERSISTENT",
    "exchange": "NSE",
