@@ -1,6 +1,62 @@
 {
  "filings": [
   {
+   "id": "nse:106869612",
+   "symbol": "DIXON",
+   "exchange": "NSE",
+   "filed_at": "2026-11-24T15:04:54+05:30",
+   "exchange_label": "Appointment",
+   "headline": "Dixon Technologies (India) Limited has informed the Exchange regarding Appointment of Ms Aruna Jayanthi (DIN: 00817860) as Other of the company w.e.f. November 24, 2026.",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_24112026150148_Reg30DisclosureArunaJayanthi24112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=DIXON",
+   "insight": {
+    "title": "Appointment of Aruna Jayanthi as Independent Director",
+    "summary": "Ms. Aruna Jayanthi has been appointed as an Additional Director in the capacity of Non-Executive & Independent Director for five consecutive years starting November 24, 2026.",
+    "why_it_matters": "She brings extensive executive leadership experience, having previously served as CEO of Capgemini India, subject to shareholder approval.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.5-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Ms. Aruna Jayanthi",
+       "role": "Non-Executive & Independent Director",
+       "change": "appointment",
+       "effective_date": "2026-11-24",
+       "reason": null,
+       "profile": "Ms. Aruna Jayanthi holds a Master's degree in Management Studies in Finance from the Narsee Monjee Institute of Management Studies in Mumbai. Ms. Aruna, till March 2026, was leading Capgemini's business in Canada and Latin America. She has held several global leadership positions in Capgemini.",
+       "previous_roles": [
+        "CEO, Capgemini India",
+        "CEO Business Services, Capgemini",
+        "Head of Asia-Pacific and Latin America, Capgemini",
+        "Chairperson of the Board of Governors, National Institute of Technology Calicut",
+        "Independent Director, SBI Capital Markets"
+       ],
+       "education": "Master’s degree in Management Studies in Finance from the Narsee Monjee Institute of Management Studies in Mumbai",
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 46.0,
+   "group_id": "DIXON:management_change:2026-11-24",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106869583",
    "symbol": "ASIANPAINT",
    "exchange": "NSE",
