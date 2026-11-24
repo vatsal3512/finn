@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106869480",
+   "symbol": "POLYCAB",
+   "exchange": "NSE",
+   "filed_at": "2026-11-24T10:46:47+05:30",
+   "exchange_label": "General Updates",
+   "headline": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "analyst_meet_text",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_24112026104607_Intimationtostockexchange.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=POLYCAB",
+   "insight": null,
+   "events": [
+    "investor_meetings"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "POLYCAB:investor_meetings:2026-11-24",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106869322",
    "symbol": "ADANIENT",
    "exchange": "NSE",
