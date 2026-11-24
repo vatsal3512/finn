@@ -62,25 +62,25 @@
    "symbol": "DIXON",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In August 2026, management expected 20–25% QoQ smartphone volume growth for Q2 FY27 while cautioning on margin pressure. In November 2026, management reported Q2 revenues of ₹21,806 crore, EBITDA of ₹609 crore, and PAT of ₹293 crore (consolidated), noting margins were compressed by mobile PLI 1 expiration and elevated global memory costs.",
+   "answer": "Management did not give explicit numerical revenue or margin targets for Q2 FY27 in prior calls. In Q1 FY27, management noted percentage margin compression from expired PLI 1 and higher component prices passed through to selling prices. In Q2 FY27, Dixon reported revenue of ₹21,793.6 crore (+46.7% YoY) and EBITDA margin of 2.7% versus 3.8% YoY.",
    "evidence": [
     {
-     "quote": "Revenues for the quarter ended September 30, 2026 was INR 21,806 crores",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 3,
-     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
-    },
-    {
-     "quote": "Margins during the quarter were impacted on expiration of mobile PLI 1 scheme along with elevated global memory prices due to rapid expansion of AI infrastructure",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 3,
-     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
-    },
-    {
-     "quote": "Our market position, customer engagement and manufacturing capabilities remain intact, and we expect 20% to 25% volume growth quarter￾on-quarter growth as consumer demand strengthens and we have a strong order book",
+     "quote": "Operating margin for the quarter reflected temporary compression on account of expiry of Mobile PLI 1 in March '26 and from increased selling prices driven by elevated input costs and broader supply chain inflationary factors",
      "source": "Q1 FY27 call, Aug 2026",
-     "page": 4,
+     "page": 3,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "quote": "As increased input costs were passed through increase in selling prices, percentage margins look optically lower, mostly in mobile and IT hardware business",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 3,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "quote": "The pass-through of higher input cost through corresponding increasing in selling prices resulted in a lower reported margin percentage, particularly in mobile and IT hardware business, despite the recovery of increased cost through pricing adjustments",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
     }
    ],
    "calls": [
@@ -88,7 +88,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-24T20:33:07+00:00"
+   "asked_at": "2026-11-24T21:03:20+00:00"
   },
   "nse:106845578": {
    "symbol": "EMUDHRA",

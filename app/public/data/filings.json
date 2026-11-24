@@ -5782,59 +5782,61 @@
      "symbol": "DIXON",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 1593.2,
-       "previous_quarter": 1079.6,
-       "year_ago": 1385.8,
-       "qoq_pct": 47.6,
-       "yoy_pct": 15.0
+       "current": 21793.6,
+       "previous_quarter": 15547.7,
+       "year_ago": 14855.0,
+       "qoq_pct": 40.2,
+       "yoy_pct": 46.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 148.2,
-       "previous_quarter": 68.7,
-       "year_ago": 75.7,
-       "qoq_pct": 115.8,
-       "yoy_pct": 95.7
+       "current": 596.8,
+       "previous_quarter": 463.1,
+       "year_ago": 561.3,
+       "qoq_pct": 28.9,
+       "yoy_pct": 6.3
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 147.9,
-       "previous_quarter": 584.3,
-       "year_ago": 566.5,
-       "qoq_pct": -74.7,
-       "yoy_pct": -73.9
+       "current": 529.5,
+       "previous_quarter": 860.3,
+       "year_ago": 922.4,
+       "qoq_pct": -38.4,
+       "yoy_pct": -42.6
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 123.4,
-       "previous_quarter": 498.1,
-       "year_ago": 478.5,
-       "qoq_pct": -75.2,
-       "yoy_pct": -74.2
+       "current": 410.9,
+       "previous_quarter": 717.8,
+       "year_ago": 745.7,
+       "qoq_pct": -42.8,
+       "yoy_pct": -44.9
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      9.3,
-      6.4,
-      5.5
+      2.7,
+      3.0,
+      3.8
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on revenue (1,593 vs 21,794), ebitda (148 vs 597), pbt (148 vs 532), pat (123 vs 411).",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 2.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706200_31072026061259_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552946_17102025091526_WEB.xml"
      ]
     },
     {
