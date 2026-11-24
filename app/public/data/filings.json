@@ -1,6 +1,39 @@
 {
  "filings": [
   {
+   "id": "nse:106869559",
+   "symbol": "BHARTIARTL",
+   "exchange": "NSE",
+   "filed_at": "2026-11-24T13:13:15+05:30",
+   "exchange_label": "Action(s) taken or orders passed",
+   "headline": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+   "category": "litigation",
+   "tier": "routine",
+   "classified_by": "ai",
+   "rule": "litigation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=BHARTIARTL",
+   "insight": {
+    "title": "DoT Imposes Penalty of Rs. 7,96,000",
+    "summary": "Bharti Airtel received a notice from the Department of Telecommunications, Andhra Pradesh LSA, imposing a penalty of Rs. 7,96,000 for alleged violations.",
+    "why_it_matters": "The penalty of Rs. 7,96,000 is negligible compared to the company's annual revenue of about ₹228,782 crore.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "litigation"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 13.0,
+   "group_id": "BHARTIARTL:litigation:2026-11-24",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106869480",
    "symbol": "POLYCAB",
    "exchange": "NSE",
