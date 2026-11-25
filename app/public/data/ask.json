@@ -4,16 +4,10 @@
    "symbol": "MAZDOCK",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "Management guided in November 2025 (Q2 FY26 call) to FY26 revenue of ~₹12,500 crore with 15%+ average margins, noting lower margins on Coast Guard/ONGC/offshore orders. Q2 FY27 actuals show revenue dropping 16.5% YoY to ₹2,446.1 crore and EBITDA margin falling to 8.1%, below management's long-term 15% baseline guidance.",
+   "answer": "In the Q2 FY26 call (October 2025), management guided FY26 revenue at ~₹12,500 crore with ~5% growth in FY27, and average margins of 15%+. Earlier, in Q4 FY25 (May 2025), they guided 8%-10% revenue growth and 15% PBT margins. The Q2 FY27 result (₹2,446.1 crore revenue, down 16.5%; PAT slump of 53.8%) falls short of these expectations.",
    "evidence": [
     {
-     "quote": "We anticipate that this year, we will have revenue of approximately INR 12,500 crores or so",
-     "source": "Q2 FY26 call, Nov 2025",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
-    },
-    {
-     "quote": "Thereafter, we will have may be a few months where we'll have only the Coast Guard and the MPV project as well as the offshore project where the margins are slightly less",
+     "quote": "We anticipate that this year, we will have revenue of approximately INR 12,500 crores or so. And the coming year also, we should have may be another 5% growth over that",
      "source": "Q2 FY26 call, Nov 2025",
      "page": 5,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
@@ -23,6 +17,12 @@
      "source": "Q2 FY26 call, Nov 2025",
      "page": 10,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
+    },
+    {
+     "quote": "As the Director of Finance has brought out, we expect the revenue growth of anywhere between 8% to 10% and our PBT margins we expect around 15%",
+     "source": "Q4 FY25 call, Jun 2025",
+     "page": 9,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
     }
    ],
    "calls": [
@@ -30,22 +30,28 @@
     "Q4 FY25 call, Jun 2025"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-19T15:12:20+00:00"
+   "asked_at": "2026-11-25T20:43:05+00:00"
   },
   "nse:106837394": {
    "symbol": "RELIANCE",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": false,
-   "answer": "Management did not provide specific consolidated revenue or margin target numbers for Q2 FY27 on recent calls. In July 2026, Retail management explicitly noted they had \"not put any margin target,\" aiming instead to double absolute EBITDA over three years. In October 2026, management noted H1 O2C performance was tracking an annualized EBITDA well over ₹80,000 crore.",
+   "answer": "Management did not give specific aggregate group revenue or margin targets for Q2 FY27 in prior call transcripts. During the Q1 FY27 call (July 2026), they discussed strategy, noting retail margin pressure from online investments, full capitalization of Jio 5G, and strong O2C dynamics. Detailed aggregate numbers for Q2 FY27 were reported on the Q2 call (October 2026).",
    "evidence": [
     {
-     "quote": "As far as our absolute EBITDA is going up, we are happy and that is why if you look at it, we have not put any margin target",
+     "quote": "So, as we increase the growth of digital revenues, margins have come down. It is a function of that. And that is a consistent trend over the last three quarters",
      "source": "Q1 FY27 call, Jul 2026",
-     "page": 23,
+     "page": 8,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
     },
     {
-     "quote": "So, when you look at the first half of FY 2027 performance, it is in our minds tracking annualized EBITDA well over Rs.80,000 Crores and I think this is something, it just tells you how the markets are",
+     "quote": "EBITDA margin at 53.3%, EBIT Rs. 13,407 crores and profit after tax at Rs. 764 crores, the finance cost has gone up. It is really because we are now expensing it, we are not capitalizing it",
+     "source": "Q1 FY27 call, Jul 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    },
+    {
+     "quote": "It was an EBITDA of Rs.62,409 Crores, which is 24% up on a year-on￾year basis",
      "source": "Q2 FY27 call, Nov 2026",
      "page": 3,
      "url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf"
@@ -56,31 +62,31 @@
     "Q1 FY27 call, Jul 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-19T15:12:20+00:00"
+   "asked_at": "2026-11-25T20:43:06+00:00"
   },
   "nse:106836523": {
    "symbol": "DIXON",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "Management did not give explicit numerical revenue or margin targets for Q2 FY27 in prior calls. In Q1 FY27, management noted percentage margin compression from expired PLI 1 and higher component prices passed through to selling prices. In Q2 FY27, Dixon reported revenue of ₹21,793.6 crore (+46.7% YoY) and EBITDA margin of 2.7% versus 3.8% YoY.",
+   "answer": "In August 2026, management expected 20–25% QoQ smartphone volume growth for Q2 FY27 while cautioning on margin pressure. In November 2026, management reported Q2 revenues of ₹21,806 crore, EBITDA of ₹609 crore, and PAT of ₹293 crore (consolidated), noting margins were compressed by mobile PLI 1 expiration and elevated global memory costs.",
    "evidence": [
     {
-     "quote": "Operating margin for the quarter reflected temporary compression on account of expiry of Mobile PLI 1 in March '26 and from increased selling prices driven by elevated input costs and broader supply chain inflationary factors",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
-    },
-    {
-     "quote": "As increased input costs were passed through increase in selling prices, percentage margins look optically lower, mostly in mobile and IT hardware business",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 3,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
-    },
-    {
-     "quote": "The pass-through of higher input cost through corresponding increasing in selling prices resulted in a lower reported margin percentage, particularly in mobile and IT hardware business, despite the recovery of increased cost through pricing adjustments",
+     "quote": "Revenues for the quarter ended September 30, 2026 was INR 21,806 crores",
      "source": "Q2 FY27 call, Nov 2026",
      "page": 3,
      "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
+    },
+    {
+     "quote": "Margins during the quarter were impacted on expiration of mobile PLI 1 scheme along with elevated global memory prices due to rapid expansion of AI infrastructure",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 3,
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf"
+    },
+    {
+     "quote": "Our market position, customer engagement and manufacturing capabilities remain intact, and we expect 20% to 25% volume growth quarter￾on-quarter growth as consumer demand strengthens and we have a strong order book",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
     }
    ],
    "calls": [
@@ -88,14 +94,20 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-24T21:03:20+00:00"
+   "asked_at": "2026-11-25T20:43:06+00:00"
   },
   "nse:106845578": {
    "symbol": "EMUDHRA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "Management previously guided FY27 revenue of ~₹825 crore and PAT of ~₹137 crore. Following an October 2026 TLS certificate incident, they revised guidance in November 2026 to ~₹800 crore revenue and ~₹125 crore PAT. Management targets EBITDA margins around 25%. Q2 FY27 results (Revenue ₹207 crore, EBITDA margin 24.0%) align with these lowered expectations.",
+   "answer": "In August 2026 (Q1 FY27), management guided full-year organic growth of 18% and PAT growth of 25% (revenue ~₹825 crore, PAT ~₹137 crore). Following an October TLS security incident, management cut FY27 guidance in November 2026 to ~₹800 crore revenue and ~₹125 crore PAT. Q2 FY27 actuals met expectations with ₹207.0 crore revenue (+19.7% YoY).",
    "evidence": [
+    {
+     "quote": "Finally, from an outlook perspective, our guidance remains unchanged from what we shared in the previous quarter, that is to achieve an organic growth of 18% and work towards achieving a PAT growth of 25%",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 5,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cddde7ee-58dc-48af-85df-aa9cf71c76d9.pdf"
+    },
     {
      "quote": "At the start of the year, we guided a revenue of about INR 825 crores and PAT of about INR 137 crores, about 25% PAT growth. We now expect our revenue to be about INR 800 crore and PAT of around INR 125 crore",
      "source": "Q2 FY27 call, Nov 2026",
@@ -103,9 +115,9 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     },
     {
-     "quote": "EBITDA margins are around the 25%. That we will try and maintain because, obviously, our focus is more on the solutions business, which is anyway slightly high gross margins",
+     "quote": "In the second quarter, total income was INR 209 crore, up nearly 20% over last year. The EBITDA was INR 51.3 crore at a margin of 24.5%; and profit after tax was INR 33.4 crore, up 26% on YoY basis",
      "source": "Q2 FY27 call, Nov 2026",
-     "page": 8,
+     "page": 4,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
     }
    ],
@@ -114,13 +126,13 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-19T15:12:21+00:00"
+   "asked_at": "2026-11-25T20:44:13+00:00"
   },
   "nse:106834360": {
    "symbol": "INDIGO",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026 (Q1 FY27 call), management expected Q2 PRASK revenue growth of over 25% YoY. In November 2026 (Q2 FY27 call), management confirmed PRASK grew 31%, beating guidance. Revenue matched expectations, rising 25.9% YoY to ₹23,363.8 crore. Margins improved YoY with EBITDA margin rising to 8.2% (from 3.1%), though elevated fuel costs resulted in a ₹1,879.1 crore net loss.",
+   "answer": "On the Q1 FY27 call (July 2026), management guided for Q2 FY27 PRASK growth of more than 25% year-on-year. On the Q2 FY27 call (November 2026), management confirmed PRASK grew 31%, exceeding guidance. Reported Q2 revenue grew 25.9% YoY to ₹23,363.8 crore with an EBITDA margin of 7.3% (EBITDAR margin ~11%), matching their strong revenue performance expectations despite net losses.",
    "evidence": [
     {
      "quote": "In terms of unit passenger revenue or PRASK for Q2FY27, with the current balanced demand￾supply equation and the higher fares holding up, we are expecting growth of more than 25% compared to the same period last year",
@@ -145,8 +157,8 @@
     "Q2 FY27 call, Nov 2026",
     "Q1 FY27 call, Jul 2026"
    ],
-   "model": "gemini-3.5-flash",
-   "asked_at": "2026-11-19T15:12:21+00:00"
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-25T20:44:58+00:00"
   },
   "nse:106830133": {
    "symbol": "MAZDOCK",
@@ -178,12 +190,12 @@
    "symbol": "SUNPHARMA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In the August 2026 (Q1 FY27) and November 2026 (Q2 FY27) calls, management maintained full-year FY27 guidance of high single-digit top-line revenue growth, without providing specific numerical margin targets. The reported Q2 FY27 revenue growth of 11.9% YoY (₹16,198.7 crore) exceeded this full-year top-line expectation.",
+   "answer": "In Q1 FY27 and Q2 FY27 calls, management maintained its full-year FY27 top-line guidance of high single-digit growth given at the beginning of the year, while not giving specific quarterly margin targets. The filing's Q2 FY27 revenue growth of 35.0% YoY significantly exceeds management's high single-digit growth expectation.",
    "evidence": [
     {
-     "quote": "Think we should stick on to the high single-digit growth for the full year",
+     "quote": "would suggest that we should look at holding on to the overall guideline that we have shared with you earlier on.",
      "source": "Q1 FY27 call, Aug 2026",
-     "page": 10,
+     "page": 11,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
     },
     {
@@ -197,29 +209,29 @@
     "Q2 FY27 call, Nov 2026",
     "Q1 FY27 call, Aug 2026"
    ],
-   "model": "gemini-3.5-flash",
-   "asked_at": "2026-11-19T15:12:22+00:00"
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-25T20:45:36+00:00"
   },
   "nse:106834087": {
    "symbol": "ASIANPAINT",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In July 2026 (Q1 FY27 call), management guided for an 8–10% full-year volume growth band and maintained an 18–20% PBDIT margin guidance for FY27, noting Q2 is traditionally a lower-margin quarter due to product mix. The Q2 results saw standalone volume grow 6.4% and consolidated EBITDA margin drop to 15.6%, though H1 EBITDA margin remained within the 18–20% band.",
+   "answer": "In the July 29, 2026 call, management noted Q2 traditionally sees lower margins due to product mix, while maintaining full-year PBDIT margin guidance of 18% to 20%. The reported Q2 FY27 standalone results match this: revenue grew 14.9% to ₹8,453.8 crore, and PBDIT margin dipped to 17.0%, while H1 margin stayed within target at 19.6%.",
    "evidence": [
     {
-     "quote": "What we have seen is that quarter two has traditionally been a lower margin because of the mix of what we sell in quarter two overall. Given the fact that, we are taking a very strong drive in terms of premiumization, of how we want to go ahead from an overall mix. We are still garnering around the guidance of 18-20% of our PBDIT margins holds",
+     "quote": "What we have seen is that quarter two has traditionally been a lower margin because of the mix of what we sell in quarter two overall",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 20,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
     },
     {
-     "quote": "As we go ahead, possibly some of those indications will also look at whether price changes would happen in the second half, which could trigger demand even further. At the current stage, we are looking at the band of 8-10% for the full FY27",
+     "quote": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds",
      "source": "Q1 FY27 call, Aug 2026",
      "page": 20,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
     },
     {
-     "quote": "The great thing to look at is that the PBDIT margin growth at a half-year level is very good and the PBDIT margin is in the higher range of the overall band of what we have been speaking at 19.6%",
+     "quote": "Historically we have seen that, this has been a little bit of a soft quarter from a point of view of the bottom line, especially because today the product mix in this quarter is a little bit subdued",
      "source": "Q2 FY27 call, Nov 2026",
      "page": 22,
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
@@ -230,13 +242,13 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-19T15:12:22+00:00"
+   "asked_at": "2026-11-25T20:46:18+00:00"
   },
   "nse:106829089": {
    "symbol": "NAZARA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
    "addressed": true,
-   "answer": "In the Q1 FY27 call (August 2026), management declined to give specific overall revenue, EBITDA, or margin guidance. However, for Q2 FY27 (October 2026), Nazara reported record consolidated revenue of ₹803 crore (up 53% YoY) and an EBITDA margin of 14.9% (up 311 bps YoY), driven by strong gaming growth and consolidating Bluetile and BestPlay.",
+   "answer": "In August 2026, management declined to give specific overall revenue or margin guidance, stating Bluetile/BestPlay margins would depend on spend opportunities and seasonality. For Q2 FY27, management reported record consolidated revenue of ₹803 crore and 14.9% EBITDA margin (up 311 bps YoY), again declining to give exact forward guidance in October 2026, targeting qualitative organic/inorganic growth.",
    "evidence": [
     {
      "quote": "At Nazara level, do we want to give any guidance in terms of revenue, EBITDA, or margin? Nitish Mittersain: Not at this point of time",
@@ -245,15 +257,15 @@
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
     },
     {
-     "quote": "Q2 was a record quarter for us: Revenue was INR 803 crores, our highest ever, up 53% year-on￾year",
+     "quote": "Q2 was a record quarter for us: Revenue was INR 803 crores, our highest ever, up 53% year-on￾year. EBITDA grew 93% to INR 120 crores and EBITDA margin expanded 311 basis points to 14.9%",
      "source": "Q2 FY27 call, Oct 2026",
      "page": 3,
      "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
     },
     {
-     "quote": "EBITDA grew 93% to INR 120 crores and EBITDA margin expanded 311 basis points to 14.9%",
+     "quote": "We are not giving exact guidance right now. As you know, I just entered the job, but what I can say is that we are consistently going to expect growth, both organically and inorganically, from both the studios and the central group",
      "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
+     "page": 7,
      "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
     }
    ],
@@ -262,7 +274,7 @@
     "Q1 FY27 call, Aug 2026"
    ],
    "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-19T15:12:22+00:00"
+   "asked_at": "2026-11-25T20:46:53+00:00"
   },
   "nse:106836183": {
    "symbol": "OLAELEC",
