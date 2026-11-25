@@ -1,6 +1,62 @@
 {
  "filings": [
   {
+   "id": "nse:106870715",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-25T18:01:30+05:30",
+   "exchange_label": "Change in Director(s)",
+   "headline": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "category": "management_change",
+   "tier": "glance",
+   "classified_by": "ai",
+   "rule": "management",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_25112026180104_SE_intimation-_HKB.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": {
+    "title": "Re-appointment of Harsh Kumar Bhanwala as Independent Director",
+    "summary": "HDFC Bank's board approved the re-appointment of Independent Director Dr. Harsh Kumar Bhanwala for a five-year term starting January 25, 2027, subject to shareholder approval.",
+    "why_it_matters": "Dr. Bhanwala previously served as Chairman of NABARD and CMD of IIFCL, bringing extensive public finance leadership to the board.",
+    "sentiment": "positive",
+    "amount_inr_crore": null,
+    "model": "gemini-3.6-flash"
+   },
+   "events": [
+    "management_change"
+   ],
+   "cards": [
+    {
+     "type": "people",
+     "changes": [
+      {
+       "person": "Harsh Kumar Bhanwala",
+       "role": "Independent Director",
+       "change": "reappointment",
+       "effective_date": "2027-01-25",
+       "reason": null,
+       "profile": "Harsh Kumar Bhanwala has 40 years experience in board governance, finance, rural development and impact finance. Former Chairman of NABARD (2013‑2020), Executive Director/Chairman MD of IIFCL, Managing Director of Delhi State Cooperative Bank, and Independent Director of Bayer Crop Science and others.",
+       "previous_roles": [
+        "Chairman, National Bank for Agriculture and Rural Development (NABARD)",
+        "Executive Director and Chairman cum Managing Director, India Infrastructure Finance Company Ltd (IIFCL)",
+        "Managing Director, Delhi State Cooperative Bank",
+        "Executive Chairman, Capital India Finance Limited",
+        "Independent Director, Bayer Crop Science Limited"
+       ],
+       "education": "B.Sc. Dairy Technology, NDRI; Postgraduate Management, IIM Ahmedabad; Ph.D. Management",
+       "profile_source": null
+      }
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 46.0,
+   "group_id": "HDFCBANK:management_change:2026-11-25",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106870553",
    "symbol": "ASIANPAINT",
    "exchange": "NSE",
