@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-26T14:51:37+00:00",
+ "generated_at": "2026-11-26T15:20:31+00:00",
  "latest_session": "2026-11-26",
  "filings_window_days": 30,
  "counts": {
@@ -8,8 +8,8 @@
   "filings": 227,
   "events": 171,
   "duplicates": 15,
-  "must_see": 27,
-  "glance": 35,
+  "must_see": 25,
+  "glance": 37,
   "routine": 109,
   "unsorted": 0
  },
@@ -19,19 +19,19 @@
   "volume_baseline_sessions": 20
  },
  "ai": {
-  "calls": 436,
-  "input_tokens": 4878670,
-  "output_tokens": 388394,
+  "calls": 439,
+  "input_tokens": 4926087,
+  "output_tokens": 389406,
   "by_model": {
    "gemini-3.5-flash": 45,
-   "gemini-3.5-flash-lite": 165,
-   "gemini-3.6-flash": 192,
+   "gemini-3.5-flash-lite": 167,
+   "gemini-3.6-flash": 193,
    "gemini-3.8-flash": 8,
    "openai/gpt-oss-120b": 26
   },
   "by_key": {
-   "gemini-1": 149,
-   "gemini-10": 112,
+   "gemini-1": 150,
+   "gemini-10": 114,
    "gemini-11": 25,
    "gemini-12": 4,
    "gemini-13": 2,
@@ -48,8 +48,8 @@
    "groq-3": 4
   },
   "failed_by_key": {
-   "gemini-1": 104,
-   "gemini-10": 63,
+   "gemini-1": 107,
+   "gemini-10": 66,
    "gemini-11": 29,
    "gemini-12": 4,
    "gemini-13": 3,
