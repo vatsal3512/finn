@@ -232,38 +232,6 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-25T21:13:43+00:00"
   },
-  "nse:106829089": {
-   "symbol": "NAZARA",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "In the Q1 FY27 call (August 2026), management declined to give specific overall revenue, EBITDA, or margin guidance. However, for Q2 FY27 (October 2026), Nazara reported record consolidated revenue of ₹803 crore (up 53% YoY) and an EBITDA margin of 14.9% (up 311 bps YoY), driven by strong gaming growth and consolidating Bluetile and BestPlay.",
-   "evidence": [
-    {
-     "quote": "At Nazara level, do we want to give any guidance in terms of revenue, EBITDA, or margin? Nitish Mittersain: Not at this point of time",
-     "source": "Q1 FY27 call, Aug 2026",
-     "page": 14,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85b1cb15-94ba-4dc3-a8a3-bf52f94f6ae4.pdf"
-    },
-    {
-     "quote": "Q2 was a record quarter for us: Revenue was INR 803 crores, our highest ever, up 53% year-on￾year",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
-     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
-    },
-    {
-     "quote": "EBITDA grew 93% to INR 120 crores and EBITDA margin expanded 311 basis points to 14.9%",
-     "source": "Q2 FY27 call, Oct 2026",
-     "page": 3,
-     "url": "https://nsearchives.nseindia.com/corporate/NAZARA_30102026170330_IntimationofTranscript.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Oct 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-25T21:13:44+00:00"
-  },
   "nse:106836183": {
    "symbol": "OLAELEC",
    "question": "What has management said about raising money: how much, why, and what it is for?",
@@ -340,6 +308,32 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-21T00:25:38+00:00"
+  },
+  "nse:106839459": {
+   "symbol": "SUNPHARMA",
+   "question": "What has management said about this on its recent calls?",
+   "addressed": true,
+   "answer": "In the Nov 2026 Q2 FY27 call, management stated it voluntarily recalled 11 ophthalmology products and voluntarily initiated a temporary cessation of manufacturing activities, keeping Indian regulators informed. Management took remedial actions regarding product quality and patient safety to resolve the issue shortly, while declining to comment on specific media reports.",
+   "evidence": [
+    {
+     "quote": "No, Vishal, I can't comment on what media has reported. But what I can say is that there are 11 ophthalmology products, which we have voluntarily recalled. And we voluntarily initiated a temporary cessation of our manufacturing activities, and we have kept the Indian regulator informed about it",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe431adc-0e1a-48ee-9c2b-b6e39cba04e4.pdf"
+    },
+    {
+     "quote": "I think what is most important for us is the product quality and patient safety. And we have taken a remedial action so that we can put everything in place shortly",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe431adc-0e1a-48ee-9c2b-b6e39cba04e4.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-26T00:16:04+00:00"
   }
  }
 }
