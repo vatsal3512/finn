@@ -20,7 +20,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-26",
+    "ret_pct": -2.003,
+    "vol_ratio": 1.067
+   },
    "score": 0.0,
    "group_id": "DIXON:results:2026-11-26",
    "group_lead": true,
@@ -76,7 +80,11 @@
      ]
     }
    ],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-26",
+    "ret_pct": 1.867,
+    "vol_ratio": 1.677
+   },
    "score": 46.0,
    "group_id": "HDFCBANK:management_change:2026-11-25",
    "group_lead": true,
@@ -102,7 +110,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-26",
+    "ret_pct": -2.983,
+    "vol_ratio": 0.83
+   },
    "score": 0.0,
    "group_id": "ASIANPAINT:results:2026-11-25",
    "group_lead": true,
@@ -128,7 +140,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-26",
+    "ret_pct": -2.003,
+    "vol_ratio": 1.067
+   },
    "score": 0.0,
    "group_id": "DIXON:results:2026-11-25",
    "group_lead": true,
