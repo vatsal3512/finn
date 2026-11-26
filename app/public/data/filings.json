@@ -1,6 +1,199 @@
 {
  "filings": [
   {
+   "id": "nse:106872067",
+   "symbol": "ASIANPAINT",
+   "exchange": "NSE",
+   "filed_at": "2026-11-26T20:14:09+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Asian Paints Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_26112026201352_Investor_Presentation_Japan_filingsigned.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=ASIANPAINT",
+   "insight": {
+    "title": "Investor Presentation with Q2 FY27 Results",
+    "summary": "The Q2 FY27 presentation shows EBITDA declined 28.2% QoQ to ₹1,557.1 crore, while revenue grew 16.9% YoY to ₹9,976.5 crore.",
+    "why_it_matters": "EBITDA margin fell to 15.6% from 20.6%, highlighting operational pressure despite revenue growth.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "openai/gpt-oss-120b"
+   },
+   "events": [
+    "results",
+    "M&A"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "ASIANPAINT",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 9976.5,
+       "previous_quarter": 10541.9,
+       "year_ago": 8531.3,
+       "qoq_pct": -5.4,
+       "yoy_pct": 16.9
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 1557.1,
+       "previous_quarter": 2168.8,
+       "year_ago": 1503.4,
+       "qoq_pct": -28.2,
+       "yoy_pct": 3.6
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 1435.8,
+       "previous_quarter": 2057.6,
+       "year_ago": 1353.2,
+       "qoq_pct": -30.2,
+       "yoy_pct": 6.1
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 1085.3,
+       "previous_quarter": 1559.5,
+       "year_ago": 1018.2,
+       "qoq_pct": -30.4,
+       "yoy_pct": 6.6
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      15.6,
+      20.6,
+      17.6
+     ],
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹42.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
+     "share_of_associates": 42.0,
+     "source_urls": [
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 125.0,
+   "group_id": "ASIANPAINT:results:2026-11-26",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
+   "id": "nse:106872055",
+   "symbol": "SUNPHARMA",
+   "exchange": "NSE",
+   "filed_at": "2026-11-26T19:58:39+05:30",
+   "exchange_label": "Investor Presentation",
+   "headline": "Sun Pharmaceutical Industries Limited has informed the Exchange about Investor Presentation",
+   "category": "results",
+   "tier": "must_see",
+   "classified_by": "ai",
+   "rule": "investor_presentation",
+   "needs_ai": false,
+   "text_quality": "ok",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/SUNPHARMA456_26112026195823_IntimationSE20261126_Investor_Presenatation_Nov2026_Signed.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=SUNPHARMA",
+   "insight": {
+    "title": "Investor Presentation with Q2 FY27 Results",
+    "summary": "Q2 FY27 presentation shows profit after tax dropped 31.2% QoQ to ₹1,995.1 crore, while revenue rose 11.9% YoY to ₹16,198.7 crore.",
+    "why_it_matters": "EBITDA margin slipped to 29.3% from 31.3% YoY, indicating margin pressure despite top‑line growth.",
+    "sentiment": "negative",
+    "amount_inr_crore": null,
+    "model": "openai/gpt-oss-120b"
+   },
+   "events": [
+    "results"
+   ],
+   "cards": [
+    {
+     "type": "results",
+     "symbol": "SUNPHARMA",
+     "period_end": "2026-09-30",
+     "period_label": "Q2 FY27",
+     "basis": "consolidated",
+     "kind": "standard",
+     "unit": "₹ crore",
+     "metrics": [
+      {
+       "key": "revenue",
+       "label": "Revenue",
+       "current": 16198.7,
+       "previous_quarter": 15299.9,
+       "year_ago": 14478.3,
+       "qoq_pct": 5.9,
+       "yoy_pct": 11.9
+      },
+      {
+       "key": "ebitda",
+       "label": "EBITDA",
+       "current": 4743.9,
+       "previous_quarter": 4417.7,
+       "year_ago": 4527.0,
+       "qoq_pct": 7.4,
+       "yoy_pct": 4.8
+      },
+      {
+       "key": "pbt",
+       "label": "Profit before tax",
+       "current": 3159.4,
+       "previous_quarter": 4098.8,
+       "year_ago": 4167.6,
+       "qoq_pct": -22.9,
+       "yoy_pct": -24.2
+      },
+      {
+       "key": "pat",
+       "label": "Profit after tax",
+       "current": 1995.1,
+       "previous_quarter": 2901.2,
+       "year_ago": 3124.9,
+       "qoq_pct": -31.2,
+       "yoy_pct": -36.2
+      }
+     ],
+     "margin_label": "EBITDA margin",
+     "margin_pct": [
+      29.3,
+      28.9,
+      31.3
+     ],
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": -6.5,
+     "source_urls": [
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
+     ]
+    }
+   ],
+   "price_reaction": null,
+   "score": 125.0,
+   "group_id": "SUNPHARMA:results:2026-11-26",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106871411",
    "symbol": "DIXON",
    "exchange": "NSE",

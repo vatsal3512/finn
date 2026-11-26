@@ -232,6 +232,64 @@
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-25T21:13:43+00:00"
   },
+  "nse:106872067": {
+   "symbol": "ASIANPAINT",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "Management stated in Q1 FY27 that volume growth should be in the 8% to 10% band for the full year, and later reported a Q2 FY27 volume growth of 6.4% and value growth of 14.5% for the decorative business, with standalone revenue growing 14.8%. This result closely matches their volume guidance band.",
+   "evidence": [
+    {
+     "quote": "possibly we could have looked at touching a double-digit. We seem to be quite happy of what we had predicted last quarter, that we should be in that band of about 8% to 10%",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 19,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    },
+    {
+     "quote": "The overall volumes despite a very high inflationary environment and the steep price hikes which have been taken, both in quarter one and quarter two, we have been able to grow at a good volume of about 6.4% at the base of the last year",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 13,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
+    },
+    {
+     "quote": "If you were to look at the overall standalone financials, the net sales growth is 14.8%",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 22,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "asked_at": "2026-11-26T14:51:57+00:00"
+  },
+  "nse:106872055": {
+   "symbol": "SUNPHARMA",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "Management guided for high single-digit top-line growth for FY27 on both call dates. In Q2 FY27, revenue grew 11.9% YoY to ₹16,198.7 crore and EBITDA margins were 29.3% versus 31.3% a year ago, with management noting that Q2 FY26 included lenalidomide sales and that adjusted EBITDA outpaced revenue growth.",
+   "evidence": [
+    {
+     "quote": "EBITDA for the quarter was INR47,439 million, an increase of 4.8% over Q2 last year",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 4,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe431adc-0e1a-48ee-9c2b-b6e39cba04e4.pdf"
+    },
+    {
+     "quote": "Think we should stick on to the high single-digit growth for the full year",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 10,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "asked_at": "2026-11-26T14:52:03+00:00"
+  },
   "nse:106836183": {
    "symbol": "OLAELEC",
    "question": "What has management said about raising money: how much, why, and what it is for?",
@@ -276,64 +334,6 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-21T00:25:26+00:00"
-  },
-  "nse:106867910": {
-   "symbol": "INDUSINDBK",
-   "question": "What has management said on recent calls about leadership, succession or this role?",
-   "addressed": true,
-   "answer": "In April 2026 (Q4 FY26), management stated the leadership transition was largely complete after onboarding heads of Retail Banking, Global Markets, Chief Risk Officer, and Chief Information Officer. The Board approved appointing Jagdeep Mallareddy and Ganesh Sankaran as Executive Director designates. In July 2026 (Q1 FY27), management highlighted focus shifted to execution under the strengthened leadership team.",
-   "evidence": [
-    {
-     "quote": "Our leadership transition is now largely completed, and the strengthened leadership team brings diverse experience, and a strong execution mindset",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 3,
-     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
-    },
-    {
-     "quote": "The Board has approved appointment of Jagdeep Mallareddy and Ganesh Sankaran as Whole Time Executive Director Designate",
-     "source": "Q4 FY26 call, Apr 2026",
-     "page": 3,
-     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2025-2026/Quarter4/IndusInd-Bank_Analyst-Call-Q4FY26-20260424.pdf"
-    },
-    {
-     "quote": "During the quarter, our focus was on strengthening the franchise, operating model and execution capabilities under the new leadership team to create a stronger foundation for future growth",
-     "source": "Q1 FY27 call, Jul 2026",
-     "page": 5,
-     "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2026-2027/Quarter1/IndusInd-Bank_Analyst-Call_Q1FY27_20260722.pdf"
-    }
-   ],
-   "calls": [
-    "Q1 FY27 call, Jul 2026",
-    "Q4 FY26 call, Apr 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-21T00:25:38+00:00"
-  },
-  "nse:106839459": {
-   "symbol": "SUNPHARMA",
-   "question": "What has management said about this on its recent calls?",
-   "addressed": true,
-   "answer": "In the Nov 2026 Q2 FY27 call, management stated it voluntarily recalled 11 ophthalmology products and voluntarily initiated a temporary cessation of manufacturing activities, keeping Indian regulators informed. Management took remedial actions regarding product quality and patient safety to resolve the issue shortly, while declining to comment on specific media reports.",
-   "evidence": [
-    {
-     "quote": "No, Vishal, I can't comment on what media has reported. But what I can say is that there are 11 ophthalmology products, which we have voluntarily recalled. And we voluntarily initiated a temporary cessation of our manufacturing activities, and we have kept the Indian regulator informed about it",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 14,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe431adc-0e1a-48ee-9c2b-b6e39cba04e4.pdf"
-    },
-    {
-     "quote": "I think what is most important for us is the product quality and patient safety. And we have taken a remedial action so that we can put everything in place shortly",
-     "source": "Q2 FY27 call, Nov 2026",
-     "page": 14,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe431adc-0e1a-48ee-9c2b-b6e39cba04e4.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY27 call, Nov 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-26T00:16:04+00:00"
   }
  }
 }
