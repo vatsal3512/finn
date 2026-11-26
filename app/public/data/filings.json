@@ -164,7 +164,7 @@
    "price_reaction": {
     "session": "2026-11-25",
     "ret_pct": 1.356,
-    "vol_ratio": 0.998
+    "vol_ratio": 0.999
    },
    "score": 0.0,
    "group_id": "MARUTI:unclassified:2026-11-25",
@@ -485,7 +485,7 @@
    "price_reaction": {
     "session": "2026-11-25",
     "ret_pct": -7.928,
-    "vol_ratio": 2.677
+    "vol_ratio": 2.689
    },
    "score": 25.0,
    "group_id": "NAZARA:results:2026-11-23",
