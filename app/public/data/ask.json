@@ -1,37 +1,5 @@
 {
  "answers": {
-  "nse:106830108": {
-   "symbol": "MAZDOCK",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": true,
-   "answer": "Management guided in November 2025 (Q2 FY26 call) to FY26 revenue of ~₹12,500 crore with 15%+ average margins, noting lower margins on Coast Guard/ONGC/offshore orders. Q2 FY27 actuals show revenue dropping 16.5% YoY to ₹2,446.1 crore and EBITDA margin falling to 8.1%, below management's long-term 15% baseline guidance.",
-   "evidence": [
-    {
-     "quote": "We anticipate that this year, we will have revenue of approximately INR 12,500 crores or so",
-     "source": "Q2 FY26 call, Nov 2025",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
-    },
-    {
-     "quote": "Thereafter, we will have may be a few months where we'll have only the Coast Guard and the MPV project as well as the offshore project where the margins are slightly less",
-     "source": "Q2 FY26 call, Nov 2025",
-     "page": 5,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
-    },
-    {
-     "quote": "But on an average, we can anticipate around 15% plus margins",
-     "source": "Q2 FY26 call, Nov 2025",
-     "page": 10,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY26 call, Nov 2025",
-    "Q4 FY25 call, Jun 2025"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-25T21:13:42+00:00"
-  },
   "nse:106837394": {
    "symbol": "RELIANCE",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
@@ -148,32 +116,6 @@
    "model": "gemini-3.5-flash",
    "asked_at": "2026-11-25T21:13:43+00:00"
   },
-  "nse:106830133": {
-   "symbol": "MAZDOCK",
-   "question": "What has management said about raising money: how much, why, and what it is for?",
-   "addressed": false,
-   "answer": "Management did not discuss raising money or issuing credit facilities in either call. In May 2025, management stated that the company holds Rs. 11,000 to Rs. 12,000 crores in cash and does not expect to take on debt for capex due to a healthy balance sheet, adding in October 2025 that it does not have much borrowings.",
-   "evidence": [
-    {
-     "quote": "As of now, we are having quite healthy Balance Sheet and we do not expect, but it will be based on the economic performance, we will see",
-     "source": "Q4 FY25 call, Jun 2025",
-     "page": 7,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddae1249-4a14-49ab-8581-14c9392b8345.pdf"
-    },
-    {
-     "quote": "I don't think it will be having any impact because we are not having any much borrowings, so it is almost the same",
-     "source": "Q2 FY26 call, Nov 2025",
-     "page": 11,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf"
-    }
-   ],
-   "calls": [
-    "Q2 FY26 call, Nov 2025",
-    "Q4 FY25 call, Jun 2025"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-10-30T11:16:10+00:00"
-  },
   "nse:106836275": {
    "symbol": "SUNPHARMA",
    "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
@@ -264,19 +206,6 @@
    "model": "gemini-3.8-flash",
    "asked_at": "2026-11-17T12:20:05+00:00"
   },
-  "nse:106830187": {
-   "symbol": "MARUTI",
-   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
-   "addressed": false,
-   "answer": "Management did not discuss this on its last two calls.",
-   "evidence": [],
-   "calls": [
-    "Q2 FY27 call, Nov 2026",
-    "Q1 FY27 call, Aug 2026"
-   ],
-   "model": "gemini-3.6-flash",
-   "asked_at": "2026-11-21T00:25:26+00:00"
-  },
   "nse:106867910": {
    "symbol": "INDUSINDBK",
    "question": "What has management said on recent calls about leadership, succession or this role?",
@@ -334,6 +263,71 @@
    ],
    "model": "gemini-3.6-flash",
    "asked_at": "2026-11-26T15:20:35+00:00"
+  },
+  "nse:106856770": {
+   "symbol": "OLAELEC",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": true,
+   "answer": "Management guided in August 2026 that gross margins would remain around 30-32% over the next quarter or two. In November 2026, management stated that gross margins would come down a bit in Q3 and Q4 due to the dealer transition and dealer commissions, while operating margins would improve meaningfully. The Q2 FY27 results show revenue of ₹420.0 crore and an EBITDA margin of -51.9%.",
+   "evidence": [
+    {
+     "quote": "Our gross-margin target is around 30-32%, which is where we want it to be, and opex continues to improve structurally",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5244a853-0d7f-4f09-a52f-a3c48ce7a4ef.pdf"
+    },
+    {
+     "quote": "Going forward, as we said in the shareholders’ letter, gross margin will come down a bit in Q3 and Q4 because the business model transitions to the dealer model, and dealers take a certain commission",
+     "source": "Q2 FY27 call, Nov 2026",
+     "page": 6,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b03c310-fab0-49ba-b6dc-42b28ca18593.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "asked_at": "2026-11-27T00:30:02+00:00"
+  },
+  "nse:106854012": {
+   "symbol": "MARUTI",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": false,
+   "answer": "Management did not discuss this on its last two calls.",
+   "evidence": [],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.6-flash",
+   "asked_at": "2026-11-27T00:30:58+00:00"
+  },
+  "nse:106847388": {
+   "symbol": "BHARTIARTL",
+   "question": "What had management said on recent calls about revenue and margins for this period, and does this result match it?",
+   "addressed": false,
+   "answer": "Management did not provide quantitative consolidated revenue or margin guidance for Q2 FY27 in the Q1 FY27 call. Instead, they discussed segment-level trends, highlighting sustained momentum in Africa, continuing digital business growth in B2B alongside wholesale margin pressure, and general expectations of organic ARPU expansion driving operating leverage.",
+   "evidence": [
+    {
+     "quote": "I think, longer term, as the portfolio retools, we think the margins will be in this ballpark, maybe sort of trend slightly downwards as we see the step up in the digital portfolio, but the real metric for us that we should be looking at is faster revenue growth because ultimately this market, as we have repeatedly stressed, is very large and all of it depends on our ability to execute",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 7,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+    },
+    {
+     "quote": "On return on capital, I think I would just simply say that, look, our focus right now is, if we can continue to grow the business, extract operating leverage, then those are outcomes that come out and we do not set those as targets because there are different ways of actually meeting that, including making short term decisions on reducing capex and that is something that we do not do as a business",
+     "source": "Q1 FY27 call, Aug 2026",
+     "page": 11,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf"
+    }
+   ],
+   "calls": [
+    "Q2 FY27 call, Nov 2026",
+    "Q1 FY27 call, Aug 2026"
+   ],
+   "model": "gemini-3.8-flash",
+   "asked_at": "2026-11-27T00:32:54+00:00"
   }
  }
 }
