@@ -1,6 +1,32 @@
 {
  "filings": [
   {
+   "id": "nse:106872810",
+   "symbol": "HDFCBANK",
+   "exchange": "NSE",
+   "filed_at": "2026-11-27T16:12:40+05:30",
+   "exchange_label": "Copy of Newspaper Publication",
+   "headline": "HDFC Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+   "category": "unclassified",
+   "tier": "routine",
+   "classified_by": "rule",
+   "rule": "newspaper",
+   "needs_ai": false,
+   "text_quality": "not_fetched",
+   "attachment_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_27112026160926_SEspecialwindowfortransferAdv27112026.pdf",
+   "source_url": "https://www.nseindia.com/api/corporate-announcements?symbol=HDFCBANK",
+   "insight": null,
+   "events": [
+    "unclassified"
+   ],
+   "cards": [],
+   "price_reaction": null,
+   "score": 0.0,
+   "group_id": "HDFCBANK:unclassified:2026-11-27",
+   "group_lead": true,
+   "duplicate_of": null
+  },
+  {
    "id": "nse:106872743",
    "symbol": "BHARTIARTL",
    "exchange": "NSE",
@@ -27,7 +53,11 @@
     "litigation"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-27",
+    "ret_pct": -1.646,
+    "vol_ratio": 0.428
+   },
    "score": 13.0,
    "group_id": "BHARTIARTL:litigation:2026-11-27",
    "group_lead": true,
@@ -60,7 +90,11 @@
     "unclassified"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-27",
+    "ret_pct": 1.935,
+    "vol_ratio": 0.918
+   },
    "score": 0.0,
    "group_id": "PERSISTENT:unclassified:2026-11-27",
    "group_lead": true,
@@ -86,7 +120,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-27",
+    "ret_pct": 3.302,
+    "vol_ratio": 1.051
+   },
    "score": 0.0,
    "group_id": "DIXON:results:2026-11-27",
    "group_lead": true,
@@ -112,7 +150,11 @@
     "earnings_call"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-27",
+    "ret_pct": -0.409,
+    "vol_ratio": 0.465
+   },
    "score": 0.0,
    "group_id": "ASIANPAINT:results:2026-11-27",
    "group_lead": true,
@@ -146,7 +188,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-27",
+    "ret_pct": -0.409,
+    "vol_ratio": 0.465
+   },
    "score": 60.0,
    "group_id": "ASIANPAINT:results:2026-11-26",
    "group_lead": true,
@@ -180,7 +226,11 @@
     "investor_meetings"
    ],
    "cards": [],
-   "price_reaction": null,
+   "price_reaction": {
+    "session": "2026-11-27",
+    "ret_pct": -0.825,
+    "vol_ratio": 0.674
+   },
    "score": 60.0,
    "group_id": "SUNPHARMA:results:2026-11-26",
    "group_lead": true,
