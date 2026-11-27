@@ -3,7 +3,7 @@
  "symbol": "ASIANPAINT",
  "name": "Asian Paints",
  "basis": "consolidated",
- "generated_at": "2026-11-03T15:38:46+00:00",
+ "generated_at": "2026-11-27T15:00:48+00:00",
  "snapshot": {
   "about": "Beautify, transform, and preserve spaces through paints, coatings, waterproofing, bath, kitchen, and decor solutions.",
   "latest_quarter": "Q2 FY27",
@@ -13,7 +13,7 @@
   "net_profit_yoy": 6.6,
   "ebitda_margin": 16.0
  },
- "narrative": "Management delivered on volume growth expectations of 8% to 10%, achieving 9% in Q1 FY27 and 8% in H1 FY27. However, margins diverged, with consolidated EBITDA margin falling to 16.0% in Q2 FY27, below the 18% to 20% target band.",
+ "narrative": "Decorative volume growth met targets at 9% in Q1 FY27 and 8% in H1 FY27. However, margin pressure emerged in Q2 FY27 with consolidated EBITDA margin dipping to 16.0%, below the guided 18% to 20% target band.",
  "promises": [
   {
    "id": "P2",
@@ -63,7 +63,7 @@
    },
    "verdict": "met",
    "verdict_by": "model",
-   "note": "Volume growth reached 9% in Q1 FY27 and 8% in H1 FY27, meeting the 8-10% guidance."
+   "note": "Overall volume growth in Q1 FY27 reached 9%, falling within the guided 8% to 10% band."
   },
   {
    "id": "P3",
@@ -108,14 +108,14 @@
    "revised_from": [],
    "actual": null,
    "actual_source": {
-    "quote": "Overall, we are at about a strong 9% volume growth",
-    "source": "Q1 FY27 call, 29 Jul 2026",
-    "page": 10,
-    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+    "quote": "If you look at from an H1 perspective, again, the volume growth is pretty strong at about 8%",
+    "source": "Q2 FY27 call, 29 Oct 2026",
+    "page": 14,
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
    },
    "verdict": "on_track",
    "verdict_by": "model",
-   "note": "H1 FY27 decorative volume grew 8%, keeping the full-year 8-10% guidance on track."
+   "note": "Decorative volume growth achieved 8% in H1 FY27, meeting the lower end of the full-year target range."
   },
   {
    "id": "P8",
@@ -127,7 +127,7 @@
     "quote": "Today we have got the phase 1 of it, out of the total CapEx of about Rs. 3,250 crores which is there",
     "source": "Q2 FY27 call, 29 Oct 2026",
     "page": 13,
-    "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -170,7 +170,7 @@
     "quote": "we feel that it would be reasonable to expect to see a volume growth of about 8% to 9% going forward",
     "source": "Q2 FY27 call, 29 Oct 2026",
     "page": 29,
-    "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -190,7 +190,7 @@
     "quote": "This band of about 41% to 43% would really be the band we should be looking forward to",
     "source": "Q2 FY27 call, 29 Oct 2026",
     "page": 27,
-    "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
    },
    "repeated_in": [],
    "revised_from": [],
@@ -266,11 +266,28 @@
     "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
    }
   ],
-  "read": "Profits reliably turn into cash. Over FY22–FY26, cumulative operating cash flow of ₹22,795 crore fully covered total reported net profit of ₹20,943 crore."
+  "read": "Operating cash flow of ₹22,795 crore over FY22–FY26 comfortably exceeded total reported net profit of ₹20,943 crore, demonstrating strong cash conversion from profits."
  },
  "bull": [
   {
-   "point": "Cumulative operating cash flow of ₹22,795 crore exceeded total reported profit of ₹20,943 crore over FY22–FY26.",
+   "point": "Decorative business volume grew 8% year-on-year in H1 FY27 with value growth reaching closer to 16%.",
+   "evidence": [
+    {
+     "quote": "If you look at from an H1 perspective, again, the volume growth is pretty strong at about 8%",
+     "source": "Q2 FY27 call, 29 Oct 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
+    },
+    {
+     "quote": "and the value growth being closer to 16%",
+     "source": "Q2 FY27 call, 29 Oct 2026",
+     "page": 14,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
+    }
+   ]
+  },
+  {
+   "point": "Cumulative operating cash flow reached ₹22,795 crore across FY22–FY26, fully funding cumulative reported net profit of ₹20,943 crore.",
    "evidence": [
     {
      "quote": "Over FY22–FY26, operating cash flow of ₹22,795 crore covered all of reported profit, ₹20,943 crore.",
@@ -281,63 +298,46 @@
    ]
   },
   {
-   "point": "International business delivered rapid growth, achieving revenue expansion of 27% in Q1 FY27 and 30% in Q2 FY27.",
+   "point": "International business revenue expanded 30% year-on-year in Q2 FY27 while PPGAP JV top line grew almost 34%.",
    "evidence": [
     {
-     "quote": "We have grown at about 27% in Q1",
-     "source": "Q1 FY27 call, 29 Jul 2026",
-     "page": 15,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
+     "quote": "Here, the growth has been astronomical, almost 34% of the growth we have garnered here",
+     "source": "Q2 FY27 call, 29 Oct 2026",
+     "page": 18,
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
     },
     {
      "quote": "Both, quarter two is at about 30% growth and H1 at about 28% of what you are able to see",
      "source": "Q2 FY27 call, 29 Oct 2026",
      "page": 20,
-     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
-    }
-   ]
-  },
-  {
-   "point": "Decorative business value growth accelerated strongly to 16.6% in Q1 FY27 and 14.5% in Q2 FY27.",
-   "evidence": [
-    {
-     "quote": "If you look at the value, the decorative value has grown at a very good pitch of about 16.6%, albeit on a lower base",
-     "source": "Q1 FY27 call, 29 Jul 2026",
-     "page": 10,
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf"
-    },
-    {
-     "quote": "the value growth has also been very strong at 14.5%",
-     "source": "Q2 FY27 call, 29 Oct 2026",
-     "page": 14,
-     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
     }
    ]
   }
  ],
  "bear": [
   {
-   "point": "Consolidated PBDIT margin fell to 15.6% in Q2 FY27, missing management's targeted 18% to 20% guidance band.",
+   "point": "Consolidated EBITDA margin contracted to 16.0% in Q2 FY27, missing the annual target range of 18% to 20%.",
    "evidence": [
     {
      "quote": "We believe as we go forward, for the year we should be able to maintain the band of what we have spoken of 18% to 20%",
      "source": "Q2 FY27 call, 29 Oct 2026",
      "page": 28,
-     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
     },
     {
      "quote": "The PBDIT margin is little bit lower at about 15.6%, lower by about 202 bps",
      "source": "Q2 FY27 call, 29 Oct 2026",
      "page": 23,
-     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf"
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf"
     }
    ]
   },
   {
-   "point": "Competition Commission of India ordered an investigation into alleged abuse of dominant position hindering competitor entry in the decorative paints market.",
+   "point": "Competition Commission of India ordered an investigation following a competitor complaint alleging abuse of dominant position to hinder market entry.",
    "evidence": [
     {
-     "quote": "The CCI had passed a prima facie order dated 1st July 2025 directing the Director General (DG) to conduct an investigation against the Company",
+     "quote": "one of the competitors of the Company had filed a complaint with the Competition Commission of India (CCI) alleging that the Company is hindering its entry",
      "source": "Annual report 2026",
      "page": 217,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf"
@@ -345,10 +345,10 @@
    ]
   },
   {
-   "point": "Contingent liabilities for disputed tax matters and other claims rose to ₹488.74 crore as of March 31, 2026.",
+   "point": "Contingent liabilities stood at ₹488.74 crore as of March 31, 2026, driven by tax and other legal disputes under appeal.",
    "evidence": [
     {
-     "quote": "Total 488.74 443.61",
+     "quote": "The above claims are pending before various Appellate Authorities. The management, including its advisors, expect that its position will likely be upheld on ultimate resolution",
      "source": "Annual report 2026",
      "page": 217,
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf"
@@ -361,7 +361,7 @@
   {
    "label": "Q2 FY27 call, 29 Oct 2026",
    "kind": "transcript",
-   "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
    "pages": 34
   },
   {
@@ -402,11 +402,8 @@
    "gemini-3.5-flash",
    "gemini-3.6-flash"
   ],
-  "seconds": 50.9
+  "seconds": 33.0
  },
- "changes": [
-  "Now reads the Q2 FY27 call, 29 Oct 2026: 3 promises from it.",
-  "1 promise newly graded: Volume growth met."
- ],
+ "changes": [],
  "pending": null
 }
