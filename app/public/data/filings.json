@@ -2578,11 +2578,11 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 421.0,
+       "current": 420.0,
        "previous_quarter": 455.0,
        "year_ago": 690.0,
-       "qoq_pct": -7.5,
-       "yoy_pct": -39.0
+       "qoq_pct": -7.7,
+       "yoy_pct": -39.1
       },
       {
        "key": "ebitda",
@@ -2614,16 +2614,18 @@
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      -51.8,
+      -51.9,
       -36.3,
       -29.4
      ],
-     "source": "screener",
-     "verified": null,
-     "check_note": "From screener.in. Not yet checked against the company's own filing.",
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://www.screener.in/company/OLAELEC/consolidated/"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1756932_12112026075230_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1710401_08082026043035_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1567467_06112025094207_WEB.xml"
      ]
     }
    ],
@@ -2938,17 +2940,17 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 53356.0,
-       "previous_quarter": 52470.0,
-       "year_ago": 42344.0,
+       "current": 53355.5,
+       "previous_quarter": 52469.8,
+       "year_ago": 42344.2,
        "qoq_pct": 1.7,
        "yoy_pct": 26.0
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 4764.0,
-       "previous_quarter": 4313.0,
+       "current": 4764.1,
+       "previous_quarter": 4313.3,
        "year_ago": 5086.0,
        "qoq_pct": 10.5,
        "yoy_pct": -6.3
@@ -2956,17 +2958,17 @@
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 3219.0,
-       "previous_quarter": 4441.0,
-       "year_ago": 4339.0,
+       "current": 3150.1,
+       "previous_quarter": 4343.5,
+       "year_ago": 4272.0,
        "qoq_pct": -27.5,
-       "yoy_pct": -25.8
+       "yoy_pct": -26.3
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 2466.0,
-       "previous_quarter": 3447.0,
+       "current": 2466.1,
+       "previous_quarter": 3446.9,
        "year_ago": 3349.0,
        "qoq_pct": -28.5,
        "yoy_pct": -26.4
@@ -2978,12 +2980,14 @@
       8.2,
       12.0
      ],
-     "source": "screener",
-     "verified": null,
-     "check_note": "From screener.in. Not yet checked against the company's own filing.",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹69.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
+     "share_of_associates": 69.0,
      "source_urls": [
-      "https://www.screener.in/company/MARUTI/consolidated/"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1747193_27102026073131_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706229_31072026062708_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1562968_31102025081132_WEB.xml"
      ]
     }
    ],
@@ -3579,52 +3583,54 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 60877.5,
+       "previous_quarter": 58539.1,
+       "year_ago": 52145.4,
+       "qoq_pct": 4.0,
+       "yoy_pct": 16.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 34945.9,
+       "previous_quarter": 33302.8,
+       "year_ago": 29561.4,
+       "qoq_pct": 4.9,
+       "yoy_pct": 18.2
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 15428.0,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 15318.2,
+       "previous_quarter": 13664.6,
+       "year_ago": 12241.3,
+       "qoq_pct": 12.1,
+       "yoy_pct": 25.1
       },
       {
        "key": "pat",
        "label": "Profit after tax",
        "current": 10710.4,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "previous_quarter": 10011.6,
+       "year_ago": 8650.8,
+       "qoq_pct": 7.0,
+       "yoy_pct": 23.8
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      null,
-      null,
-      null
+      57.4,
+      56.9,
+      56.7
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": true,
-     "check_note": "Matches screener.in on PBT, PAT, within 2%.",
-     "share_of_associates": null,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 109.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
      ]
     }
    ],
@@ -4013,52 +4019,54 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 60877.5,
+       "previous_quarter": 58539.1,
+       "year_ago": 52145.4,
+       "qoq_pct": 4.0,
+       "yoy_pct": 16.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": null,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 34945.9,
+       "previous_quarter": 33302.8,
+       "year_ago": 29561.4,
+       "qoq_pct": 4.9,
+       "yoy_pct": 18.2
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 15428.0,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "current": 15318.2,
+       "previous_quarter": 13664.6,
+       "year_ago": 12241.3,
+       "qoq_pct": 12.1,
+       "yoy_pct": 25.1
       },
       {
        "key": "pat",
        "label": "Profit after tax",
        "current": 10710.4,
-       "previous_quarter": null,
-       "year_ago": null,
-       "qoq_pct": null,
-       "yoy_pct": null
+       "previous_quarter": 10011.6,
+       "year_ago": 8650.8,
+       "qoq_pct": 7.0,
+       "yoy_pct": 23.8
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      null,
-      null,
-      null
+      57.4,
+      56.9,
+      56.7
      ],
-     "source": "filing_text",
+     "source": "xbrl",
      "verified": true,
-     "check_note": "Matches screener.in on PBT, PAT, within 2%.",
-     "share_of_associates": null,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 109.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1754085_05112026073328_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1707993_04082026082135_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1564143_03112025073247_WEB.xml"
      ]
     }
    ],
@@ -4344,51 +4352,53 @@
        "key": "revenue",
        "label": "Revenue",
        "current": 207.0,
-       "previous_quarter": 191.0,
-       "year_ago": 173.0,
-       "qoq_pct": 8.4,
+       "previous_quarter": 190.7,
+       "year_ago": 172.9,
+       "qoq_pct": 8.5,
        "yoy_pct": 19.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 50.0,
-       "previous_quarter": 50.0,
-       "year_ago": 41.0,
-       "qoq_pct": 0.0,
-       "yoy_pct": 22.0
+       "current": 49.7,
+       "previous_quarter": 49.6,
+       "year_ago": 41.3,
+       "qoq_pct": 0.3,
+       "yoy_pct": 20.6
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
        "current": 39.0,
-       "previous_quarter": 38.0,
+       "previous_quarter": 38.2,
        "year_ago": 33.0,
-       "qoq_pct": 2.6,
-       "yoy_pct": 18.2
+       "qoq_pct": 2.1,
+       "yoy_pct": 18.1
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 33.0,
+       "current": 33.5,
        "previous_quarter": 32.0,
-       "year_ago": 26.0,
-       "qoq_pct": 3.1,
-       "yoy_pct": 26.9
+       "year_ago": 26.4,
+       "qoq_pct": 4.6,
+       "yoy_pct": 26.6
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      24.2,
-      26.2,
-      23.7
+      24.0,
+      26.0,
+      23.9
      ],
-     "source": "screener",
-     "verified": null,
-     "check_note": "From screener.in. Not yet checked against the company's own filing.",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 0.1,
      "source_urls": [
-      "https://www.screener.in/company/EMUDHRA/consolidated/"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1753281_04112026103821_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704286_29072026061404_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1743642_21102026105335_WEB.xml"
      ]
     }
    ],
@@ -4733,59 +4743,61 @@
      "symbol": "SUNPHARMA",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 6141.9,
-       "previous_quarter": 5741.1,
-       "year_ago": 4548.1,
-       "qoq_pct": 7.0,
-       "yoy_pct": 35.0
+       "current": 16198.7,
+       "previous_quarter": 15299.9,
+       "year_ago": 14478.3,
+       "qoq_pct": 5.9,
+       "yoy_pct": 11.9
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1714.7,
-       "previous_quarter": 1964.2,
-       "year_ago": 1183.6,
-       "qoq_pct": -12.7,
-       "yoy_pct": 44.9
+       "current": 4743.9,
+       "previous_quarter": 4417.7,
+       "year_ago": 4527.0,
+       "qoq_pct": 7.4,
+       "yoy_pct": 4.8
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 1203.0,
-       "previous_quarter": 1486.5,
-       "year_ago": 671.8,
-       "qoq_pct": -19.1,
-       "yoy_pct": 79.1
+       "current": 3159.4,
+       "previous_quarter": 4098.8,
+       "year_ago": 4167.6,
+       "qoq_pct": -22.9,
+       "yoy_pct": -24.2
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 871.3,
-       "previous_quarter": 1115.1,
-       "year_ago": 564.2,
-       "qoq_pct": -21.9,
-       "yoy_pct": 54.4
+       "current": 1995.1,
+       "previous_quarter": 2901.2,
+       "year_ago": 3124.9,
+       "qoq_pct": -31.2,
+       "yoy_pct": -36.2
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      27.9,
-      34.2,
-      26.0
+      29.3,
+      28.9,
+      31.3
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on revenue (6,142 vs 16,199), ebitda (1,715 vs 4,744), pbt (1,203 vs 3,159), pat (871 vs 1,995).",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],
@@ -5123,59 +5135,61 @@
      "symbol": "SUNPHARMA",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 6141.9,
-       "previous_quarter": 5741.1,
-       "year_ago": 4548.1,
-       "qoq_pct": 7.0,
-       "yoy_pct": 35.0
+       "current": 16198.7,
+       "previous_quarter": 15299.9,
+       "year_ago": 14478.3,
+       "qoq_pct": 5.9,
+       "yoy_pct": 11.9
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1714.7,
-       "previous_quarter": 1964.2,
-       "year_ago": 1183.6,
-       "qoq_pct": -12.7,
-       "yoy_pct": 44.9
+       "current": 4743.9,
+       "previous_quarter": 4417.7,
+       "year_ago": 4527.0,
+       "qoq_pct": 7.4,
+       "yoy_pct": 4.8
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 1203.0,
-       "previous_quarter": 1486.5,
-       "year_ago": 671.8,
-       "qoq_pct": -19.1,
-       "yoy_pct": 79.1
+       "current": 3159.4,
+       "previous_quarter": 4098.8,
+       "year_ago": 4167.6,
+       "qoq_pct": -22.9,
+       "yoy_pct": -24.2
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 871.3,
-       "previous_quarter": 1115.1,
-       "year_ago": 564.2,
-       "qoq_pct": -21.9,
-       "yoy_pct": 54.4
+       "current": 1995.1,
+       "previous_quarter": 2901.2,
+       "year_ago": 3124.9,
+       "qoq_pct": -31.2,
+       "yoy_pct": -36.2
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      27.9,
-      34.2,
-      26.0
+      29.3,
+      28.9,
+      31.3
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on revenue (6,142 vs 16,199), ebitda (1,715 vs 4,744), pbt (1,203 vs 3,159), pat (871 vs 1,995).",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],
@@ -5837,11 +5851,11 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 330601.0,
-       "previous_quarter": 309468.0,
-       "year_ago": 254623.0,
-       "qoq_pct": 6.8,
-       "yoy_pct": 29.8
+       "current": 332861.0,
+       "previous_quarter": 311850.0,
+       "year_ago": 258898.0,
+       "qoq_pct": 6.7,
+       "yoy_pct": 28.6
       },
       {
        "key": "ebitda",
@@ -5873,16 +5887,18 @@
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      17.1,
-      15.4,
-      18.0
+      17.0,
+      15.2,
+      17.7
      ],
-     "source": "screener",
-     "verified": null,
-     "check_note": "From screener.in. Not yet checked against the company's own filing.",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 300.0,
      "source_urls": [
-      "https://www.screener.in/company/RELIANCE/consolidated/"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750537_30102026093254_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1695741_17072026075004_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552809_17102025073643_WEB.xml"
      ]
     }
    ],
@@ -6065,59 +6081,61 @@
      "symbol": "DIXON",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 1593.2,
-       "previous_quarter": 1079.6,
-       "year_ago": 1385.8,
-       "qoq_pct": 47.6,
-       "yoy_pct": 15.0
+       "current": 21793.6,
+       "previous_quarter": 15547.7,
+       "year_ago": 14855.0,
+       "qoq_pct": 40.2,
+       "yoy_pct": 46.7
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 148.2,
-       "previous_quarter": 68.7,
-       "year_ago": 75.7,
-       "qoq_pct": 115.8,
-       "yoy_pct": 95.7
+       "current": 596.8,
+       "previous_quarter": 463.1,
+       "year_ago": 561.3,
+       "qoq_pct": 28.9,
+       "yoy_pct": 6.3
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 147.9,
-       "previous_quarter": 584.3,
-       "year_ago": 566.5,
-       "qoq_pct": -74.7,
-       "yoy_pct": -73.9
+       "current": 529.5,
+       "previous_quarter": 860.3,
+       "year_ago": 922.4,
+       "qoq_pct": -38.4,
+       "yoy_pct": -42.6
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 123.4,
-       "previous_quarter": 498.1,
-       "year_ago": 478.5,
-       "qoq_pct": -75.2,
-       "yoy_pct": -74.2
+       "current": 410.9,
+       "previous_quarter": 717.8,
+       "year_ago": 745.7,
+       "qoq_pct": -42.8,
+       "yoy_pct": -44.9
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      9.3,
-      6.4,
-      5.5
+      2.7,
+      3.0,
+      3.8
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on revenue (1,593 vs 21,794), ebitda (148 vs 597), pbt (148 vs 532), pat (123 vs 411).",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 2.8,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750473_30102026082202_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706200_31072026061259_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1552946_17102025091526_WEB.xml"
      ]
     },
     {
@@ -6241,59 +6259,61 @@
      "symbol": "SUNPHARMA",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 6141.9,
-       "previous_quarter": 5741.1,
-       "year_ago": 4548.1,
-       "qoq_pct": 7.0,
-       "yoy_pct": 35.0
+       "current": 16198.7,
+       "previous_quarter": 15299.9,
+       "year_ago": 14478.3,
+       "qoq_pct": 5.9,
+       "yoy_pct": 11.9
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1714.7,
-       "previous_quarter": 1964.2,
-       "year_ago": 1183.6,
-       "qoq_pct": -12.7,
-       "yoy_pct": 44.9
+       "current": 4743.9,
+       "previous_quarter": 4417.7,
+       "year_ago": 4527.0,
+       "qoq_pct": 7.4,
+       "yoy_pct": 4.8
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 1203.0,
-       "previous_quarter": 1486.5,
-       "year_ago": 671.8,
-       "qoq_pct": -19.1,
-       "yoy_pct": 79.1
+       "current": 3159.4,
+       "previous_quarter": 4098.8,
+       "year_ago": 4167.6,
+       "qoq_pct": -22.9,
+       "yoy_pct": -24.2
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 871.3,
-       "previous_quarter": 1115.1,
-       "year_ago": 564.2,
-       "qoq_pct": -21.9,
-       "yoy_pct": 54.4
+       "current": 1995.1,
+       "previous_quarter": 2901.2,
+       "year_ago": 3124.9,
+       "qoq_pct": -31.2,
+       "yoy_pct": -36.2
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      27.9,
-      34.2,
-      26.0
+      29.3,
+      28.9,
+      31.3
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on revenue (6,142 vs 16,199), ebitda (1,715 vs 4,744), pbt (1,203 vs 3,159), pat (871 vs 1,995).",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": -6.5,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1750394_30102026073426_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1706221_31072026062408_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1566095_05112025070548_WEB.xml"
      ]
     }
    ],
@@ -6735,11 +6755,11 @@
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1710.9,
-       "previous_quarter": 3463.6,
+       "current": 1907.4,
+       "previous_quarter": 3267.1,
        "year_ago": 579.5,
-       "qoq_pct": -50.6,
-       "yoy_pct": 195.2
+       "qoq_pct": -41.6,
+       "yoy_pct": 229.1
       },
       {
        "key": "pbt",
@@ -6762,16 +6782,18 @@
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      7.3,
-      14.1,
+      8.2,
+      13.3,
       3.1
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on ebitda (1,711 vs 1,907).",
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
      "share_of_associates": null,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/Indigo1_29102026155229_Outcome_of_BM_29102026_Final.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1748898_29102026043937_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1700112_23072026054230_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1565177_04112025075201_WEB.xml"
      ]
     }
    ],
@@ -6970,59 +6992,61 @@
      "symbol": "ASIANPAINT",
      "period_end": "2026-09-30",
      "period_label": "Q2 FY27",
-     "basis": "standalone",
+     "basis": "consolidated",
      "kind": "standard",
      "unit": "₹ crore",
      "metrics": [
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 8453.8,
-       "previous_quarter": 9183.4,
-       "year_ago": 7356.3,
-       "qoq_pct": -7.9,
-       "yoy_pct": 14.9
+       "current": 9976.5,
+       "previous_quarter": 10541.9,
+       "year_ago": 8531.3,
+       "qoq_pct": -5.4,
+       "yoy_pct": 16.9
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 1440.3,
-       "previous_quarter": 2011.7,
-       "year_ago": 1360.1,
-       "qoq_pct": -28.4,
-       "yoy_pct": 5.9
+       "current": 1557.1,
+       "previous_quarter": 2168.8,
+       "year_ago": 1503.4,
+       "qoq_pct": -28.2,
+       "yoy_pct": 3.6
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
-       "current": 1468.1,
-       "previous_quarter": 1982.0,
-       "year_ago": 1288.8,
-       "qoq_pct": -25.9,
-       "yoy_pct": 13.9
+       "current": 1435.8,
+       "previous_quarter": 2057.6,
+       "year_ago": 1353.2,
+       "qoq_pct": -30.2,
+       "yoy_pct": 6.1
       },
       {
        "key": "pat",
        "label": "Profit after tax",
-       "current": 1095.5,
-       "previous_quarter": 1478.3,
-       "year_ago": 956.3,
-       "qoq_pct": -25.9,
-       "yoy_pct": 14.6
+       "current": 1085.3,
+       "previous_quarter": 1559.5,
+       "year_ago": 1018.2,
+       "qoq_pct": -30.4,
+       "yoy_pct": 6.6
       }
      ],
      "margin_label": "EBITDA margin",
      "margin_pct": [
-      17.0,
-      21.9,
-      18.5
+      15.6,
+      20.6,
+      17.6
      ],
-     "source": "filing_text",
-     "verified": false,
-     "check_note": "Differs from screener.in on revenue (8,454 vs 9,977), ebitda (1,440 vs 1,557).",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%. The filing shows a ₹42.0 crore share of associates' profit outside PBT; screener.in counts it inside, and the check allows for that.",
+     "share_of_associates": 42.0,
      "source_urls": [
-      "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1749465_29102026092521_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704404_29072026065419_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1572848_12112025081025_WEB.xml"
      ]
     }
    ],
@@ -7677,27 +7701,27 @@
       {
        "key": "revenue",
        "label": "Revenue",
-       "current": 37216.0,
+       "current": 37215.6,
        "previous_quarter": 32924.0,
-       "year_ago": 21249.0,
+       "year_ago": 21248.5,
        "qoq_pct": 13.0,
        "yoy_pct": 75.1
       },
       {
        "key": "ebitda",
        "label": "EBITDA",
-       "current": 5509.0,
-       "previous_quarter": 5019.0,
-       "year_ago": 3307.0,
-       "qoq_pct": 9.8,
+       "current": 5508.6,
+       "previous_quarter": 5019.3,
+       "year_ago": 3306.6,
+       "qoq_pct": 9.7,
        "yoy_pct": 66.6
       },
       {
        "key": "pbt",
        "label": "Profit before tax",
        "current": 2002.0,
-       "previous_quarter": -1349.0,
-       "year_ago": 4398.0,
+       "previous_quarter": -1349.4,
+       "year_ago": 4397.6,
        "qoq_pct": 248.4,
        "yoy_pct": -54.5
       },
@@ -7705,8 +7729,8 @@
        "key": "pat",
        "label": "Profit after tax",
        "current": 1221.0,
-       "previous_quarter": -1462.0,
-       "year_ago": 3414.0,
+       "previous_quarter": -1461.5,
+       "year_ago": 3414.4,
        "qoq_pct": 183.5,
        "yoy_pct": -64.2
       }
@@ -7717,12 +7741,14 @@
       15.2,
       15.6
      ],
-     "source": "screener",
-     "verified": null,
-     "check_note": "From screener.in. Not yet checked against the company's own filing.",
-     "share_of_associates": null,
+     "source": "xbrl",
+     "verified": true,
+     "check_note": "Matches screener.in on revenue, ebitda, PBT, PAT, within 2%.",
+     "share_of_associates": 166.3,
      "source_urls": [
-      "https://www.screener.in/company/ADANIENT/consolidated/"
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1748357_28102026103427_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704483_29072026074413_WEB.xml",
+      "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1565340_04112025110537_WEB.xml"
      ]
     }
    ],
